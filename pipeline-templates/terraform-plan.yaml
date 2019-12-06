@@ -6,10 +6,10 @@ steps:
       commandOptions: '-lock=false' # don't lock on PRs / validate phase
       backendType: 'azurerm'
       backendServiceArm: 'Reform-CFT-Mgmt'
-      backendAzureRmResourceGroupName: 'reformmgmtrg'
-      backendAzureRmStorageAccountName: 'reformmgmt${{ parameters.zone }}'
+      backendAzureRmResourceGroupName: 'reform-cft-mgmt'
+      backendAzureRmStorageAccountName: 'reformcftmgmt'
       backendAzureRmContainerName: 'tfstate'
-      backendAzureRmKey: '${{ parameters.environment }}/${{ parameters.zone }}.tfstate'
+      backendAzureRmKey: 'public-dns/${{ parameters.zone }}.tfstate'
       workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.environment }}'
   - task: TerraformCLI@0
     displayName: Plan - ${{ parameters.environment }} - ${{ parameters.zone }}
