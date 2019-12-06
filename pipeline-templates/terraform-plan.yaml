@@ -19,7 +19,7 @@ steps:
     inputs:
       command: 'plan'
       commandOptions: '-out=${{ parameters.zone }}${{ parameters.build }}plan -var-file=$(System.DefaultWorkingDirectory)/environments/${{ parameters.zone }}.tfvars'
-      workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.zoone }}'
+      workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.zone }}'
       environmentServiceName: 'Reform-CFT-Mgmt'
   - task: Bash@3
     displayName: "Remove local tfstate"
