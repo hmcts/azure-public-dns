@@ -1,6 +1,8 @@
 #!/bin/bash
 
-### Read import config file and poulate config lines into array then 
+cd -P -- "$(dirname -- "$0")" || exit
+
+### Read import config file and poulate config lines into array then
 ###ß extract config values from array
 while IFS="" read -r param_line || [ -n "$param_line" ]
 do
@@ -23,7 +25,7 @@ do
 done < tf-dns.import.config
 
 # Now import the zone records from Azure
-az network dns record-set list -g $resource_group -z $dns_zone --subscription $az_subscription | grep "\"id\"" > ./$dns_zone-resource-ids.pass-0.txt
+az network dns record-set list -g $resource_group -z $dns_zone --subscription $az_subscription --query [].id -o tsv > ./$dns_zone-resource-ids.pass-0.txt
 
 ### Remove superflous characters from the dns resource id list; create array of superflous characters to match, separated
 ### by the "|" character
@@ -83,6 +85,6 @@ mv $dns_zone-resource-ids.tmp $dns_zone-resource-ids.txt
 grep -ioh "/A\|/AAA\|/NS\|/CNAME\|/MX\|/TXT\|/PTR" $dns_zone-resource-ids.txt | sort | uniq -c | sort -n > group_sort_records.tmp
 
 ### Run Terraform plan
-terraform init
-terraform plan
+#terraform init
+#terraform plan
 
