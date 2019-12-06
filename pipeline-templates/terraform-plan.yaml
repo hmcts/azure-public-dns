@@ -1,7 +1,7 @@
 steps:
   - task: TerraformInstaller@0
     inputs:
-      terraformVersion: ${{ variables.terraformVersion }}
+      terraformVersion: ${{ parameters.terraformVersion }}
   - task: TerraformCLI@0
     displayName: Init - ${{ parameters.environment }} - ${{ parameters.zone }}
     inputs:
