@@ -1,0 +1,13 @@
+/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/sandbox.platform.hmcts.net/NS/@
+/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/sandbox.platform.hmcts.net/SOA/@
+/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/sandbox.platform.hmcts.net/MX/@
+/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/sandbox.platform.hmcts.net/CNAME/_1fc88e03b87b33fb04a3b1c5978e80b8
+/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/sandbox.platform.hmcts.net/CNAME/bulkscan
+/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/sandbox.platform.hmcts.net/CNAME/asverify.bulkscan
+/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/sandbox.platform.hmcts.net/A/ctscmail
+/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/sandbox.platform.hmcts.net/MX/contact.justice
+/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/sandbox.platform.hmcts.net/TXT/contact.justice
+/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/sandbox.platform.hmcts.net/TXT/_dmarc.contact.justice
+/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/sandbox.platform.hmcts.net/CNAME/plum
+/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/sandbox.platform.hmcts.net/CNAME/afdverify.plum
+/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/sandbox.platform.hmcts.net/CNAME/plum.uksouth

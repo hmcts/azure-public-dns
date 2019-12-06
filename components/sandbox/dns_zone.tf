@@ -3,7 +3,7 @@ data "azurerm_resource_group" "main" {
 }
 
 resource "azurerm_dns_zone" "zone" {
-  name                = "ithc.platform.hmcts.net"
+  name                = "sandbox.platform.hmcts.net"
   resource_group_name = data.azurerm_resource_group.main.name
 }
 // # azurerm_dns_ns_record.this-0:

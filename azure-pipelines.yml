@@ -16,7 +16,7 @@ stages:
         steps:
           - template: pipeline-templates/terraform-plan.yaml
             parameters:
-              zone: 'ithc'
+              zone: 'sandbox'
               build: $(Build.BuildNumber)
               agentPool: ${{ variables.agentPool }}
               terraformVersion: ${{ variables.terraformVersion }}
@@ -29,7 +29,7 @@ stages:
     jobs:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
-          zone: 'ithc'
+          zone: 'sandbox'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
