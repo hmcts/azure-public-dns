@@ -2,7 +2,7 @@ jobs:
   - deployment: Deploy
     pool:
       vmImage: ${{ parameters.agentPool }}
-    environment: ${{ parameters.environment }}
+    environment: mgmt
     strategy:
       # default deployment strategy
       runOnce:
@@ -15,7 +15,7 @@ jobs:
               inputs:
                 terraformVersion: ${{ parameters.terraformVersion }}
             - task: TerraformCLI@0
-              displayName: Init - ${{ parameters.environment }} - ${{ parameters.zone }}
+              displayName: Init - ${{ parameters.zone }}
               inputs:
                 command: 'init'
                 backendType: 'azurerm'
@@ -27,7 +27,7 @@ jobs:
                 workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.environment }}'
 
             - task: TerraformCLI@0
-              displayName: Apply - ${{ parameters.environment }} - ${{ parameters.zone }}
+              displayName: Apply - ${{ parameters.zone }}
               inputs:
                 command: 'apply'
                 commandOptions: '${{ parameters.environment }}${{ parameters.zone }}${{ parameters.build }}plan'
