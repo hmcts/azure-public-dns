@@ -1,8 +1,4 @@
-variable "env" {
-  description = "This should be sbox, aat or prod"
-}
-
-variable ithc-platform-hmcts-net {}
+variable recordsets {}
 
 variable "resource_group_name" {
   type        = string
@@ -27,5 +23,5 @@ variable "recordsets" {
     records = list(string)
   }))
   description = "List of DNS records to manage, in the standard terraformdns structure."
-}  
+}
 */
