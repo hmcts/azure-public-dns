@@ -17,7 +17,7 @@ stages:
           - template: pipeline-templates/terraform-plan.yaml
             parameters:
               environment: 'mgmt'
-              zone: 'sandbox'
+              zone: 'ithc'
               build: $(Build.BuildNumber)
               agentPool: ${{ variables.agentPool }}
               azureSubscription: 'Reform-CFT-Mgmt'
@@ -30,7 +30,7 @@ stages:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
           environment: 'mgmt'
-          zone: 'sandbox'
+          zone: 'ithc'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
