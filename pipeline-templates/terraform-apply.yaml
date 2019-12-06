@@ -19,17 +19,17 @@ jobs:
               inputs:
                 command: 'init'
                 backendType: 'azurerm'
-                backendServiceArm: ''
+                backendServiceArm: 'Reform-CFT-Mgmt'
                 backendAzureRmResourceGroupName: 'reform-cft-mgmt'
                 backendAzureRmStorageAccountName: 'reformcftmgmt'
                 backendAzureRmContainerName: 'tfstate'
                 backendAzureRmKey: 'public-dns/${{ parameters.zone }}.tfstate'
-                workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.environment }}'
+                workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.zone }}'
 
             - task: TerraformCLI@0
               displayName: Apply - ${{ parameters.zone }}
               inputs:
                 command: 'apply'
-                commandOptions: '${{ parameters.environment }}${{ parameters.zone }}${{ parameters.build }}plan'
-                environmentServiceName: ''
-                workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.environment }}'
+                commandOptions: '${{ parameters.zone }}${{ parameters.build }}plan'
+                environmentServiceName: 'Reform-CFT-Mgmt'
+                workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.zone }}'
