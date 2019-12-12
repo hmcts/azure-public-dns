@@ -1,7 +1,6 @@
-env                 = "ithc"
-resource_group_name = "reformmgmtrg"
+resource_group_name = "reform-cft-mgmt"
 
-ithc-platform-hmcts-net = [
+recordsets = [
   {
     name = "@",
     records = [
@@ -33,7 +32,7 @@ ithc-platform-hmcts-net = [
   },
   {
     name = "ctscmail",
-    "records" : [
+    records : [
       "51.104.202.183"
     ],
     ttl  = 3600,

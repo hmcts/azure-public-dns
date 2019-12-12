@@ -2,7 +2,7 @@
 trigger:
   - master
 variables:
-  terraformVersion: 0.12.16
+  terraformVersion: 0.12.17
   agentPool: 'ubuntu-18.04'
   action: plan
 
@@ -16,10 +16,10 @@ stages:
         steps:
           - template: pipeline-templates/terraform-plan.yaml
             parameters:
-              environment: 'mgmt'
-              zone: 'ithc'
+              zone: 'sandbox'
               build: $(Build.BuildNumber)
               agentPool: ${{ variables.agentPool }}
+              terraformVersion: ${{ variables.terraformVersion }}
               azureSubscription: 'Reform-CFT-Mgmt'
               subscription_id: 'ed302caf-ec27-4c64-a05e-85731c3ce90e'
 
@@ -29,8 +29,7 @@ stages:
     jobs:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
-          environment: 'mgmt'
-          zone: 'ithc'
+          zone: 'sandbox'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
