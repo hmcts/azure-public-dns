@@ -2,7 +2,7 @@
 trigger:
   - master
 variables:
-  terraformVersion: 0.12.17
+  terraformVersion: 0.12.18
   agentPool: 'ubuntu-18.04'
   action: plan
 
@@ -20,10 +20,9 @@ stages:
               build: $(Build.BuildNumber)
               agentPool: ${{ variables.agentPool }}
               terraformVersion: ${{ variables.terraformVersion }}
-              azureSubscription: 'Reform-CFT-Mgmt'
-              subscription_id: 'ed302caf-ec27-4c64-a05e-85731c3ce90e'
 
   - stage: Sandbox_Apply
+    dependsOn: Sandbox_Plan
     displayName: "Sandbox Apply"
     condition: and(succeeded(), eq(variables['action'], 'apply'))
     jobs:
@@ -33,8 +32,6 @@ stages:
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
-          azureSubscription: 'Reform-CFT-Mgmt'
-          subscription_id: 'ed302caf-ec27-4c64-a05e-85731c3ce90e'
 
 
 
