@@ -1,0 +1,606 @@
+[
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": null,
+"etag": "d448d6ab-6a77-4cd4-bace-03a063d27d52",
+"fqdn": "ithc.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/ithc.platform.hmcts.net/NS/@",
+"metadata": null,
+"mxRecords": null,
+"name": "@",
+"nsRecords": [
+{
+"nsdname": "ns1-01.azure-dns.com."
+},
+{
+"nsdname": "ns2-01.azure-dns.net."
+},
+{
+"nsdname": "ns3-01.azure-dns.org."
+},
+{
+"nsdname": "ns4-01.azure-dns.info."
+}
+],
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 172800,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/NS"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": null,
+"etag": "2e9ca2a3-aef3-415e-93fc-b168ea5e1fa1",
+"fqdn": "ithc.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/ithc.platform.hmcts.net/SOA/@",
+"metadata": null,
+"mxRecords": null,
+"name": "@",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": {
+"email": "azuredns-hostmaster.microsoft.com",
+"expireTime": 2419200,
+"host": "ns1-01.azure-dns.com.",
+"minimumTtl": 300,
+"refreshTime": 3600,
+"retryTime": 300,
+"serialNumber": 1
+},
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 3600,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/SOA"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": {
+"cname": "hmcts-sscs-cor-frontend-ithc.trafficmanager.net"
+},
+"etag": "34c06f56-16a1-4499-9731-21634f3d0637",
+"fqdn": "manage.appeal-benefit-decision.ithc.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/ithc.platform.hmcts.net/CNAME/manage.appeal-benefit-decision",
+"metadata": null,
+"mxRecords": null,
+"name": "manage.appeal-benefit-decision",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 60,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/CNAME"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": {
+"cname": "590582cd-441a-4601-9f6a-f8203d4c19fe.cloudapp.net"
+},
+"etag": "25a7bac5-efeb-4515-b697-fcea7854f198",
+"fqdn": "tmmanage.appeal-benefit-decision.ithc.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/ithc.platform.hmcts.net/CNAME/tmmanage.appeal-benefit-decision",
+"metadata": null,
+"mxRecords": null,
+"name": "tmmanage.appeal-benefit-decision",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 60,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/CNAME"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": {
+"cname": "11d1facb-25d7-49ef-a8dc-d698479270a2.cloudapp.net"
+},
+"etag": "c1b65538-3042-4705-9a79-db99d454a921",
+"fqdn": "ccpay-bubble.ithc.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/ithc.platform.hmcts.net/CNAME/ccpay-bubble",
+"metadata": null,
+"mxRecords": null,
+"name": "ccpay-bubble",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 60,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/CNAME"
+},
+{
+"aaaaRecords": null,
+"arecords": [
+{
+"ipv4Address": "51.132.21.91"
+}
+],
+"caaRecords": null,
+"cnameRecord": null,
+"etag": "afe478e2-0357-41e2-b837-b10dd12f8b74",
+"fqdn": "ctscmail.ithc.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/ithc.platform.hmcts.net/A/ctscmail",
+"metadata": null,
+"mxRecords": null,
+"name": "ctscmail",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 3600,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/A"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": {
+"cname": "hmcts-ithc.azurefd.net"
+},
+"etag": "6f2a16b2-0635-47c9-96da-f56b54996767",
+"fqdn": "decree-absolute-aks.ithc.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/ithc.platform.hmcts.net/CNAME/decree-absolute-aks",
+"metadata": null,
+"mxRecords": null,
+"name": "decree-absolute-aks",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 3600,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/CNAME"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": {
+"cname": "hmcts-ithc.azurefd.net"
+},
+"etag": "e8ef93f7-b1ec-4783-895f-976511111bfe",
+"fqdn": "decree-nisi-aks.ithc.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/ithc.platform.hmcts.net/CNAME/decree-nisi-aks",
+"metadata": null,
+"mxRecords": null,
+"name": "decree-nisi-aks",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 3600,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/CNAME"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": {
+"cname": "a56e4113-9db3-4bd3-ad20-01f2eb3926c4.cloudapp.net"
+},
+"etag": "7ebb30fe-bb11-4ef6-a94b-27dbe319805e",
+"fqdn": "gateway-ccd.ithc.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/ithc.platform.hmcts.net/CNAME/gateway-ccd",
+"metadata": null,
+"mxRecords": null,
+"name": "gateway-ccd",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 60,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/CNAME"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": {
+"cname": "f8ba11e0-da48-45a5-b105-7aed33e2bf42.cloudapp.net"
+},
+"etag": "9e086f53-4bc3-4c67-a964-6404195f356f",
+"fqdn": "idam-web-public.ithc.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/ithc.platform.hmcts.net/CNAME/idam-web-public",
+"metadata": null,
+"mxRecords": null,
+"name": "idam-web-public",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 60,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/CNAME"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": null,
+"etag": "fb6c6d94-67ca-4ea7-b175-efdef7ca36ff",
+"fqdn": "contact.justice.ithc.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/ithc.platform.hmcts.net/MX/contact.justice",
+"metadata": null,
+"mxRecords": [
+{
+"exchange": "ctscmail.ithc.platform.hmcts.net",
+"preference": 10
+}
+],
+"name": "contact.justice",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 3600,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/MX"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": null,
+"etag": "e06970b4-b4dd-4ff9-9201-fd632947bbf1",
+"fqdn": "contact.justice.ithc.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/ithc.platform.hmcts.net/TXT/contact.justice",
+"metadata": null,
+"mxRecords": null,
+"name": "contact.justice",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 3600,
+"txtRecords": [
+{
+"value": [
+"v=spf1 ip4:51.145.107.152 ip4:51.145.123.93 -all"
+]
+}
+],
+"type": "Microsoft.Network/dnszones/TXT"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": null,
+"etag": "9e2483ef-4e44-4e77-8ea3-f5eda142c817",
+"fqdn": "_dmarc.contact.justice.ithc.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/ithc.platform.hmcts.net/TXT/_dmarc.contact.justice",
+"metadata": null,
+"mxRecords": null,
+"name": "_dmarc.contact.justice",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 3600,
+"txtRecords": [
+{
+"value": [
+"v=DMARC1; p=none"
+]
+}
+],
+"type": "Microsoft.Network/dnszones/TXT"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": {
+"cname": "e10387a8-f6ed-40f8-9557-f158497ccb5e.cloudapp.net"
+},
+"etag": "507ff86d-e233-4d20-aada-8b729f0bd8df",
+"fqdn": "moneyclaim-legal.ithc.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/ithc.platform.hmcts.net/CNAME/moneyclaim-legal",
+"metadata": null,
+"mxRecords": null,
+"name": "moneyclaim-legal",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 60,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/CNAME"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": {
+"cname": "e10387a8-f6ed-40f8-9557-f158497ccb5e.cloudapp.net"
+},
+"etag": "300e5c25-35f7-4cef-a6ee-88c4d4962ee9",
+"fqdn": "moneyclaims.ithc.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/ithc.platform.hmcts.net/CNAME/moneyclaims",
+"metadata": null,
+"mxRecords": null,
+"name": "moneyclaims",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 60,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/CNAME"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": {
+"cname": "e10387a8-f6ed-40f8-9557-f158497ccb5e.cloudapp.net"
+},
+"etag": "b59470a5-a04b-4aac-8bf2-1adc2905ba6e",
+"fqdn": "moneyclaims-legal.ithc.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/ithc.platform.hmcts.net/CNAME/moneyclaims-legal",
+"metadata": null,
+"mxRecords": null,
+"name": "moneyclaims-legal",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 60,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/CNAME"
+},
+{
+"aaaaRecords": null,
+"arecords": [
+{
+"ipv4Address": "51.143.182.143"
+}
+],
+"caaRecords": null,
+"cnameRecord": null,
+"etag": "7f2015e4-add1-44e5-b5f5-58cade0be31e",
+"fqdn": "paybubble.ithc.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/ithc.platform.hmcts.net/A/paybubble",
+"metadata": null,
+"mxRecords": null,
+"name": "paybubble",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 60,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/A"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": {
+"cname": "hmcts-ithc.azurefd.net"
+},
+"etag": "8442e6f6-c04a-4d87-93c6-e71ed4e3ed7e",
+"fqdn": "petitioner-frontend-aks.ithc.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/ithc.platform.hmcts.net/CNAME/petitioner-frontend-aks",
+"metadata": null,
+"mxRecords": null,
+"name": "petitioner-frontend-aks",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 3600,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/CNAME"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": {
+"cname": "hmcts-ithc.azurefd.net"
+},
+"etag": "6328039c-612b-4583-87e9-31c9692451a7",
+"fqdn": "respond-divorce-aks.ithc.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/ithc.platform.hmcts.net/CNAME/respond-divorce-aks",
+"metadata": null,
+"mxRecords": null,
+"name": "respond-divorce-aks",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 3600,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/CNAME"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": {
+"cname": "hmcts-sscs-tribunals-frontend-ithc.trafficmanager.net"
+},
+"etag": "6b523239-d51b-415d-88b4-175749e6312a",
+"fqdn": "sscs-tribunals-frontend.ithc.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/ithc.platform.hmcts.net/CNAME/sscs-tribunals-frontend",
+"metadata": null,
+"mxRecords": null,
+"name": "sscs-tribunals-frontend",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 300,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/CNAME"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": {
+"cname": "590582cd-441a-4601-9f6a-f8203d4c19fe.cloudapp.net"
+},
+"etag": "9b510bfb-e797-4431-961c-abe065435988",
+"fqdn": "tmsscs-tribunals-frontend.ithc.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/ithc.platform.hmcts.net/CNAME/tmsscs-tribunals-frontend",
+"metadata": null,
+"mxRecords": null,
+"name": "tmsscs-tribunals-frontend",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 300,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/CNAME"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": {
+"cname": "a56e4113-9db3-4bd3-ad20-01f2eb3926c4.cloudapp.net"
+},
+"etag": "45d792fd-bf55-4150-bf03-772e532f7d24",
+"fqdn": "www-ccd.ithc.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/ithc.platform.hmcts.net/CNAME/www-ccd",
+"metadata": null,
+"mxRecords": null,
+"name": "www-ccd",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 60,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/CNAME"
+}
+]

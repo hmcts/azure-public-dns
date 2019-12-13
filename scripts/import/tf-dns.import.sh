@@ -18,6 +18,9 @@ do
     "AZ_SUBSCRIPTION")
     az_subscription=${arr_config[1]}
     ;;
+    "ENVIRONMENT")
+    env=${arr_config[1]}
+    ;;
     # "MATCH_STRINGS")
     # match_strings="${arr_config[1]}"
     # ;;
@@ -76,15 +79,30 @@ rm $dns_zone-resource-ids.txt
 mv $dns_zone-resource-ids.tmp $dns_zone-resource-ids.txt
 
 ### Create dummy TF configuration file
+# Run py-az2tf (Azure to Terraform import prep util)
+# sh ../prep/py-az2tf/az2tf.sh -s ed302caf-ec27-4c64-a05e-85731c3ce90e -g $resource_group -r azurerm_dns_zone
+
+# Merge generated dummy records into single file
+
+
+# Cleanup py-az2tf generated files directory
+
+### Create Azure dns resource placeholder *.tf file
 
 
 ### Create •.tfvars file
+grep -ioh "/A\|/AAA\|/NS\|/CNAME\|/MX\|/TXT\|/PTR" $dns_zone-resource-ids.txt | sort | uniq -c | sort -n > group_sort_records.tmp
 
 
 ### Import zone and recordsets from Azure Public DNS
-grep -ioh "/A\|/AAA\|/NS\|/CNAME\|/MX\|/TXT\|/PTR" $dns_zone-resource-ids.txt | sort | uniq -c | sort -n > group_sort_records.tmp
+echo "Terraform import started!"
+line=$(sed '1q;d' ithc.platform.hmcts.net-resource-ids.txt) && terraform import -var 'env=ithc' -var 'ithc-platform-hmcts-net=ithc.platform.hmcts.net'  -var 'resource_group_name=reformmgmtrg' -backup=terraform.local.tfstate.backup module.public-dns.azurerm_dns_zone.$dns_zone $line
+c=0 && line=$(sed '2q;d' ithc.platform.hmcts.net-resource-ids.txt) && terraform import -var 'env=ithc' -var 'ithc-platform-hmcts-net=ithc.platform.hmcts.net'  -var 'resource_group_name=reformmgmtrg' -backup=terraform.local.tfstate.backup module.public-dns.azurerm_dns_ns_record."this[0]" $line
+echo "Terraform import completed!"
 
 ### Run Terraform plan
-#terraform init
-#terraform plan
+# Switch to '../../components/<env>' directory
+# terraform init
+# terraform fmt
+# terraform plan -var-file='../../environments/$env.tfvars'
 
