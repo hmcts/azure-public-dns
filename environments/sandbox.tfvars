@@ -1,22 +1,5 @@
 recordsets = [
   {
-    name = "@",
-    records = [
-      "ns1-05.azure-dns.com.",
-      "ns2-05.azure-dns.net.",
-      "ns3-05.azure-dns.org.",
-    "ns4-05.azure-dns.info."],
-    ttl  = 172800,
-    type = "NS"
-  },
-  {
-    name = "@",
-    records = [
-    "azuredns-hostmaster.microsoft.com 2419200 ns1-05.azure-dns.com. 300 3600 300 1"],
-    ttl  = 3600,
-    type = "SOA"
-  },
-  {
     name = "_1fc88e03b87b33fb04a3b1c5978e80b8",
     records = [
     "3FED4C626334D6135F1258241ADBBF36.F6728027F74DAF3E336958B894F24534.ma5er55rQa0HPM55O5Fq.comodoca.com"],
