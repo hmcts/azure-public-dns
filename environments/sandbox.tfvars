@@ -1,4 +1,5 @@
-{
+recordsets = [
+ {
 name = "@",
 records = ["ns1-05.azure-dns.com.",
 "ns2-05.azure-dns.net.",
@@ -55,3 +56,4 @@ records = ["firewall-sbox.uksouth.cloudapp.azure.com"],
 ttl = 3600,
 type = "CNAME"
 }
+]
