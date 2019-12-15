@@ -8,6 +8,10 @@ IFS='|' read -ra arr_strings <<< "$match_strings"
 # Set an array loop counter variable
 counter=0
 
+# Count the number of elements in the json input file to check for end of iteration later
+jq_item_count=$(jq length _jsoninput.json)
+jq_item_counter=0
+
 # Loop through the array of potential superflous strings to match
 for match_string in "${arr_strings[@]}"
 do
@@ -31,8 +35,19 @@ then
   rm _jsoncleaner.tmp
 fi
 
+# Create a write into <env>.tfvars
+env="sandbox"
+if [ -e $env.tfvars ]
+then
+  rm $env.tfvars
+fi
+echo "recordsets = [" > $env.tfvars
+
 # Iterate this file and buile the <env>.tfvars file
 jq -c '.[]' _jsoninput.json | while read i; do
+     # Update json iteration on elements (determine where closing braces have a comma added prior to next json element)
+    let jq_item_counter=$jq_item_counter+1
+    if (( $jq_item_counter < $jq_item_count )); then close_item="},"; else close_item="}"; fi
     json_line=$i
     jq -r 'to_entries | map(.key + "|" + (.value | tostring)) | .[]' <<<"$json_line" | \
     while IFS='|' read key value; do
@@ -56,12 +71,13 @@ jq -c '.[]' _jsoninput.json | while read i; do
                 ttl=$(jq '(.ttl)' <<<"$json_line")
                 type='"'AAAA'"'
                 # Write out to <env>.tfvars file
-                echo "{"
-                echo "name = "$name","
-                echo "records = ["$records"],"
-                echo "ttl = "$ttl","
-                echo "type = "$type
-                echo "}"
+                echo "{" \
+                "name = "$name"," \
+                "records = ["$records"]," \
+                "ttl = "$ttl"," \
+                "type = "$type \
+                ${close_item} >> $env.tfvars
+                
             fi
             ;;
             "arecords")
@@ -82,17 +98,17 @@ jq -c '.[]' _jsoninput.json | while read i; do
                 ttl=$(jq '(.ttl)' <<<"$json_line")
                 type='"'A'"'
                 # Write out to <env>.tfvars file
-                echo "{"
-                echo "name = "$name","
-                echo "records = ["$records"],"
-                echo "ttl = "$ttl","
-                echo "type = "$type
-                echo "}"
+                echo "{" \
+                "name = "$name"," \
+                "records = ["$records"]," \
+                "ttl = "$ttl"," \
+                "type = "$type \
+                $close_item >> $env.tfvars
             fi
             ;;
-            "caaRecords")
+            "caaRecords")   
             if [ $value != null ];
-            then
+            then   
                 # Enumerate and collate CAA record(s)
                 name=$(jq '(.name)' <<<"$json_line")
                 json_record=$(jq '(.caaRecords)' <<<"$json_line")
@@ -106,12 +122,12 @@ jq -c '.[]' _jsoninput.json | while read i; do
                 ttl=$(jq '(.ttl)' <<<"$json_line")
                 type='"'CAA'"'
                 # Write out to <env>.tfvars file
-                echo "{"
-               echo "name = "$name","
-                echo "records = ["$records"],"
-                echo "ttl = "$ttl","
-                echo "type = "$type
-                echo "}"
+                echo "{" \
+                "name = "$name"," \
+                "records = ["$records"]," \
+                "ttl = "$ttl"," \
+                "type = "$type \
+                $close_item >> $env.tfvars
             fi
             ;;
             "cnameRecord")
@@ -130,12 +146,12 @@ jq -c '.[]' _jsoninput.json | while read i; do
                 ttl=$(jq '(.ttl)' <<<"$json_line")
                 type='"'CNAME'"'
                 # Write out to <env>.tfvars file
-                echo "{"
-                echo "name = "$name","
-                echo "records = ["$records"],"
-                echo "ttl = "$ttl","
-                echo "type = "$type
-                echo "}"
+                echo "{" \
+                "name = "$name"," \
+                "records = ["$records"]," \
+                "ttl = "$ttl"," \
+                "type = "$type \
+                $close_item >> $env.tfvars
             fi
             ;;
             "mxRecords")
@@ -144,6 +160,7 @@ jq -c '.[]' _jsoninput.json | while read i; do
                 # Enumerate and collate MX record(s)
                 name=$(jq '(.name)' <<<"$json_line")
                 json_record=$(jq '(.mxRecords)' <<<"$json_line")
+                json_record="$(jq '.[]' <<<"$json_record")"
                 jq -r 'to_entries | map(.key + "|" + (.value | tostring)) | .[]' <<<"$json_record" | \
                 while IFS='|' read -r rKey rValue; do
                     records=$rValue
@@ -154,12 +171,12 @@ jq -c '.[]' _jsoninput.json | while read i; do
                 ttl=$(jq '(.ttl)' <<<"$json_line")
                 type='"'MX'"'
                 # Write out to <env>.tfvars file
-                echo "{"
-                echo "name = "$name","
-                echo "records = ["$records"],"
-                echo "ttl = "$ttl","
-                echo "type = "$type
-                echo "}"
+                echo "{" \
+                "name = "$name"," \
+                "records = ["$records"]," \
+                "ttl = "$ttl"," \
+                "type = "$type \
+                $close_item >> $env.tfvars
             fi
             ;;
             "nsRecords")
@@ -180,12 +197,12 @@ jq -c '.[]' _jsoninput.json | while read i; do
                 ttl=$(jq '(.ttl)' <<<"$json_line")
                 type='"'NS'"'
                 # Write out to <env>.tfvars file
-                echo "{"
-                echo "name = "$name","
-                echo "records = [$records],"
-                echo "ttl = "$ttl","
-                echo "type = "$type
-                echo "}"
+                echo "{" \
+                "name = "$name"," \
+                "records = [$records]", \
+                "ttl = "$ttl"," \
+                "type = "$type \
+                $close_item >> $env.tfvars
             fi
             ;;
             "ptrRecords")
@@ -204,36 +221,12 @@ jq -c '.[]' _jsoninput.json | while read i; do
                 ttl=$(jq '(.ttl)' <<<"$json_line")
                 type='"'PTR'"'
                 # Write out to <env>.tfvars file
-                echo "{"
-                echo "name = "$name","
-                echo "records = ["$records"],"
-                echo "ttl = "$ttl","
-                echo "type = "$type
-                echo "}"
-            fi
-            ;;
-            "soaRecord")
-            if [ $value != null ];
-            then
-                # Enumerate and collate SOA record(s)
-                name=$(jq '(.name)' <<<"$json_line")
-                json_record=$(jq '(.soaRecord)' <<<"$json_line")
-                jq -r 'to_entries | map(.key + "|" + (.value | tostring)) | .[]' <<<"$json_record" | \
-                while IFS='|' read -r rKey rValue; do
-                    records=$rValue
-                    echo $records >> tmpResult.tmp
-                done
-                records='"'$(cat tmpResult.tmp)'"'
-                rm tmpResult.tmp
-                ttl=$(jq '(.ttl)' <<<"$json_line")
-                type='"'SOA'"'
-                # Write out to <env>.tfvars file
-                echo "{"
-                echo "name = "$name","
-                echo "records = ["$records"],"
-                echo "ttl = "$ttl","
-                echo "type = "$type
-                echo "}"
+                echo "{" \
+                "name = "$name"," \
+                "records = ["$records"]," \
+                "ttl = "$ttl"," \
+                "type = "$type \
+                $close_item >> $env.tfvars
             fi
             ;;
             "srvRecords")
@@ -252,38 +245,72 @@ jq -c '.[]' _jsoninput.json | while read i; do
                 ttl=$(jq '(.ttl)' <<<"$json_line")
                 type='"'SRV'"'
                 # Write out to <env>.tfvars file
-                echo "{"
-                echo "name = "$name","
-                echo "records = ["$records"],"
-                echo "ttl = "$ttl","
-                echo "type = "$type
-                echo "}"
+                echo "{" \
+                "name = "$name"," \
+                "records = ["$records"]," \
+                "ttl = "$ttl"," \
+                "type = "$type \
+                $close_item >> $env.tfvars
             fi
             ;;
             "txtRecords")
-            if [ $value != null ];
+            if [ "$value" != null ];
             then
                 # Enumerate and collate TXT record(s)
                 name=$(jq '(.name)' <<<"$json_line")
-                json_record=$(jq '(.txtRecords)' <<<"$json_line")
+                json_record=$(jq '(.txtRecords[])' <<<"$json_line")
                 jq -r 'to_entries | map(.key + "|" + (.value | tostring)) | .[]' <<<"$json_record" | \
                 while IFS='|' read -r rKey rValue; do
                     records=$rValue
                     echo $records >> tmpResult.tmp
                 done
-                records='"'$(cat tmpResult.tmp)'"'
+                records=$(cat tmpResult.tmp)
                 rm tmpResult.tmp
                 ttl=$(jq '(.ttl)' <<<"$json_line")
                 type='"'TXT'"'
                 # Write out to <env>.tfvars file
-                echo "{"
-                echo "name = "$name","
-                echo "records = ["$records"],"
-                echo "ttl = "$ttl","
-                echo "type = "$type
-                echo "}"
+                echo "{" \
+                "name = "$name"," \
+                "records = $records," \
+                "ttl = "$ttl"," \
+                "type = "$type \
+                $close_item >> $env.tfvars
             fi
             ;;
+            ### Currently unsupported by Azure resource manager
+            # "soaRecord")
+            # if [ $value != null ];
+            # then
+            #     # Enumerate and collate SOA record(s)
+            #     name=$(jq '(.name)' <<<"$json_line")
+            #     json_record=$(jq '(.soaRecord)' <<<"$json_line")
+            #     jq -r 'to_entries | map(.key + "|" + (.value | tostring)) | .[]' <<<"$json_record" | \
+            #     while IFS='|' read -r rKey rValue; do
+            #         records=$rValue
+            #         echo $records >> tmpResult.tmp
+            #     done
+            #     records='"'$(cat tmpResult.tmp)'"'
+            #     rm tmpResult.tmp
+            #     ttl=$(jq '(.ttl)' <<<"$json_line")
+            #     type='"'SOA'"'
+            #     # Write out to <env>.tfvars file
+            #     echo "{" \
+            #     "name = "$name"," \
+            #     "records = ["$records"]," \
+            #     "ttl = "$ttl"," \
+            #     "type = "$type \
+            #     $close_item >> $env.tfvars
+            # fi
+            # ;;
         esac
     done
 done
+
+# Create a write into <env>.tfvars
+echo "]" >> $env.tfvars
+
+# Pretty print the <env>.tfvars file
+# jq . $env.tfvars
+
+# Copy to the environment directory
+cp $env.tfvars ../../environments
