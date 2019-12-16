@@ -3,8 +3,8 @@
 //   name = var.resource_group_name
 // }
 
-// resource "azurerm_dns_zone" "ithc_zone" {
-//   name                = "ithc.platform.hmcts.net"
+// resource "azurerm_dns_zone" "zone" {
+//   name                = "sandbox.platform.hmcts.net"
 //   resource_group_name = data.azurerm_resource_group.main.name
 // }
 
@@ -26,7 +26,7 @@
 
 # Terraform import base configs
 // resource "azurerm_dns_zone" "reformmgmtrg__ithc-platform-hmcts-net" {
-//   name                = "ithc.platform.hmcts.net"
+//   name                = "sandbox.platform.hmcts.net"
 //   resource_group_name = "reformmgmtrg"
 //   tags = {
 //   }

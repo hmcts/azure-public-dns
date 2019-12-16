@@ -88,17 +88,17 @@ mv $dns_zone-resource-ids.tmp $dns_zone-resource-ids.txt
 # Cleanup py-az2tf generated files directory
 
 ### Create Azure dns resource placeholder *.tf file
-
+grep -oh "/A\|/AAA\|/NS\|/CNAME\|/MX\|/TXT\|/PTR" $dns_zone-resource-ids.txt | sort | uniq -c | sort -n > group_sort_records.tmp
 
 ### Create •.tfvars file
-grep -ioh "/A\|/AAA\|/NS\|/CNAME\|/MX\|/TXT\|/PTR" $dns_zone-resource-ids.txt | sort | uniq -c | sort -n > group_sort_records.tmp
+sh ./tf-dns.tfvarsgenerator.sh
 
 
 ### Import zone and recordsets from Azure Public DNS
-echo "Terraform import started!"
-line=$(sed '1q;d' ithc.platform.hmcts.net-resource-ids.txt) && terraform import -var 'env=ithc' -var 'ithc-platform-hmcts-net=ithc.platform.hmcts.net'  -var 'resource_group_name=reformmgmtrg' -backup=terraform.local.tfstate.backup module.public-dns.azurerm_dns_zone.$dns_zone $line
-c=0 && line=$(sed '2q;d' ithc.platform.hmcts.net-resource-ids.txt) && terraform import -var 'env=ithc' -var 'ithc-platform-hmcts-net=ithc.platform.hmcts.net'  -var 'resource_group_name=reformmgmtrg' -backup=terraform.local.tfstate.backup module.public-dns.azurerm_dns_ns_record."this[0]" $line
-echo "Terraform import completed!"
+# current_dir=$PWD
+# cd ../../components/sandbox;special
+# sh ./tf-dns.importexisting.sh $resource_group
+# cd $current_dir
 
 ### Run Terraform plan
 # Switch to '../../components/<env>' directory
