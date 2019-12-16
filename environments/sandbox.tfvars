@@ -9,7 +9,7 @@ recordsets = [
   { name = "asverify.bulkscan", records = ["asverify.bulkscansandbox.blob.core.windows.net"], ttl = 60, type = "CNAME" },
   { name = "ctscmail", records = ["51.140.180.140"], ttl = 3600, type = "A" },
   { name = "contact.justice", records = ["10 ctscmail.sandbox.platform.hmcts.net"], ttl = 3600, type = "MX" },
-  { name = "contact.justice", records = ["v=spf1 ip4:51.105.21.172 ip4:51.105.21.118 -all"], ttl = 3600, type = "TXT" },
+  { name = "contact.justice", records = ["v=spf1 ip4:51.105.21.172  ip4:51.105.21.118 -all"], ttl = 3600, type = "TXT" },
   { name = "_dmarc.contact.justice", records = ["v=DMARC1; p=none"], ttl = 3600, type = "TXT" },
   { name = "plum", records = ["hmtcs-plum-shutter.azureedge.net"], ttl = 300, type = "CNAME" },
   { name = "afdverify.plum", records = ["afdverify.hmcts-sbox.azurefd.net"], ttl = 3600, type = "CNAME" },
