@@ -28,3 +28,5 @@ steps:
       workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.zone }}'
       script: |
         rm -f terraform.tfstate* && rm -rf .terraform/
+  - publish: $(System.DefaultWorkingDirectory)/components/${{ parameters.zone }}/${{ parameters.zone }}${{ parameters.build }}plan
+    artifact: ${{ parameters.zone }}${{ parameters.build }}plan
