@@ -1,3 +1,30 @@
+cd -P -- "$(dirname -- "$0")" || exit
+
+### Read import config file and poulate config lines into array then
+###ß extract config values from array
+while IFS="" read -r param_line || [ -n "$param_line" ]
+do
+  IFS='=' read -ra arr_config <<< "$param_line"
+  which_param=${arr_config[0]}
+  case "$which_param" in
+    "RESOURCE_GROUP")
+    resource_group=${arr_config[1]}
+    ;;
+    "DNS_ZONE")
+    dns_zone=${arr_config[1]}
+    ;;
+    "AZ_SUBSCRIPTION")
+    az_subscription=${arr_config[1]}
+    ;;
+    "ENVIRONMENT")
+    env=${arr_config[1]}
+    ;;
+    # "MATCH_STRINGS")
+    # match_strings="${arr_config[1]}"
+    # ;;
+  esac
+done < tf-dns.import.config
+
 # Output zone into temp file
 az network dns record-set list -g reformmgmtrg -z sandbox.platform.hmcts.net --subscription Reform-CFT-Mgmt > _jsoninput.pass-0.json
 
@@ -36,7 +63,6 @@ then
 fi
 
 # Create a write into <env>.tfvars
-env="sandbox"
 if [ -e $env.tfvars ]
 then
   rm $env.tfvars
