@@ -4,12 +4,19 @@ jobs:
       vmImage: ${{ parameters.agentPool }}
     environment: mgmt
     strategy:
-      # default deployment strategy
       runOnce:
         deploy:
           steps:
             - download: current
+              displayName: 'Download artifacts'
               artifact: drop
+            - download: current
+              displayName: 'Download tfplan'
+              artifact: ${{ parameters.zone }}${{ parameters.build }}plan
+            - task: CopyFiles@2
+              inputs:
+                sourceFolder: '$(Pipeline.Workspace)/${{ parameters.zone }}${{ parameters.build }}plan'
+                targetFolder: '$(Pipeline.Workspace)/drop/components/${{ parameters.zone }}'
             
             - task: TerraformInstaller@0
               inputs:
@@ -24,7 +31,7 @@ jobs:
                 backendAzureRmStorageAccountName: 'reformcftmgmt'
                 backendAzureRmContainerName: 'tfstate'
                 backendAzureRmKey: 'public-dns/${{ parameters.zone }}.tfstate'
-                workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.zone }}'
+                workingDirectory: '$(Pipeline.Workspace)/drop/components/${{ parameters.zone }}'
 
             - task: TerraformCLI@0
               displayName: Apply - ${{ parameters.zone }}
@@ -32,4 +39,4 @@ jobs:
                 command: 'apply'
                 commandOptions: '${{ parameters.zone }}${{ parameters.build }}plan'
                 environmentServiceName: 'Reform-CFT-Mgmt'
-                workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.zone }}'
+                workingDirectory: '$(Pipeline.Workspace)/drop/components/${{ parameters.zone }}'
