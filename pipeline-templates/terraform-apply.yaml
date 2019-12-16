@@ -4,12 +4,19 @@ jobs:
       vmImage: ${{ parameters.agentPool }}
     environment: mgmt
     strategy:
-      # default deployment strategy
       runOnce:
         deploy:
           steps:
             - download: current
+              displayName: 'Download artifacts'
               artifact: drop
+            - download: current
+              displayName: 'Download tfplan'
+              artifact: ${{ parameters.zone }}${{ parameters.build }}plan
+            - task: CopyFiles@2
+              inputs:
+                sourceFolder: '$(Pipeline.Workspace)/${{ parameters.zone }}${{ parameters.build }}plan'
+                targetFolder: '$(Pipeline.Workspace)/drop/components/${{ parameters.zone }}'
             
             - task: TerraformInstaller@0
               inputs:

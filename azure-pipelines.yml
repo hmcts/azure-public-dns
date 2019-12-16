@@ -1,10 +1,11 @@
----
+# Docs:
+# https://aka.ms/yaml
+
 trigger:
   - master
 variables:
   terraformVersion: 0.12.18
   agentPool: 'ubuntu-18.04'
-  action: plan
 
 stages:
   - stage: Sandbox_Plan
