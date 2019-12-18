@@ -4,11 +4,13 @@ This module creates/updates DNS zone and recordsets in a given zone.
 
 ## Example Usage
 
-`../../components/mgmt.main.tf`
+`../../components/sandbox/azure-public-dns.main.tf`
 ```hcl
 module "public-dns" {
-  source = "hmcts/azure-platform-terraform/modules/azure-public-dns"
-  project            = var.project
+  source              = "../../modules/azure-public-dns/"
+  zone_name           = azurerm_dns_zone.zone.name
+  recordsets          = var.recordsets
+  resource_group_name = data.azurerm_resource_group.main.name
 }
 ```
 
@@ -19,38 +21,12 @@ module "public-dns" {
   ]
 ```
 
-`azure-platform-terraform/azure-public-dns/dns-zones.auto.tfvars`
+`/azure-public-dns/environments/sandbox.tfvars`
 ```hcl
   recordsets = [
-    {
-      name    = "www"
-      type    = "A"
-      ttl     = 3600
-      records = [
-        "192.0.2.56",
-      ]
-    },
-    {
-      name    = ""
-      type    = "MX"
-      ttl     = 3600
-      records = [
-        "1 mail1",
-        "5 mail2",
-        "5 mail3",
-      ]
-    },
-    {
-      name    = "_sip._tcp"
-      type    = "SRV"
-      ttl     = 3600
-      records = [
-        "10 60 5060 sip1",
-        "10 20 5060 sip2",
-        "10 20 5060 sip3",
-        "20 0 5060 sip4",
-      ]
-    }
+    { name = "www", type = "A", ttl = 3600, records = ["192.0.2.56"] },
+    { name = "", type = "MX", ttL = 3600, records = ["1 mail1", "5 mail2", "5 mail3"] },
+    { name  = "_sip._tcp", type = "SRV", ttl = 3600, records = ["10 60 5060 sip1", "10 20 5060 sip2", "10 20 5060 sip3", "20 0 5060 sip4"] }
   ]
 ```
 
@@ -59,11 +35,10 @@ module "public-dns" {
 $ terraform plan -var-file='../../environemtnts/<environment-name>.tfvars
 
 For example:
-[In the the azure-public-dns/components/sbox directory]
-../azure-public-dns/components/sbox$  terraform plan -var-file='../../environemtnts/sbox.tfvars
+[In the the azure-public-dns/components/sandbox directory]
+../azure-public-dns/components/sandbox$  terraform plan -var-file='../../environemtnts/sandbox.tfvars
 
 ## Arguments
-
 - `resource_group_name` is the name of the resource group that contains the
   DNS zone where the records will be added.
 - `dns_zone_name` is the name of the DNS zone within the given resource group
