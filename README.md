@@ -14,11 +14,16 @@ module "public-dns" {
 }
 ```
 
-`azure-platform-terraform/azure-public-dns/dns-zones.auto.tfvars`
+`/azure-public-dns/dns-zones.auto.tfvars`
 ```hcl
-  zones = [
-    "test.example.com"
-  ]
+  data "azurerm_resource_group" "main" {
+  name = var.resource_group_name
+  }
+
+resource "azurerm_dns_zone" "zone" {
+  name = "<environment>.<domain>"
+  resource_group_name = data.azurerm_resource_group.main.name
+}
 ```
 
 `/azure-public-dns/environments/sandbox.tfvars`
