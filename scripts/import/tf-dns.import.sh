@@ -78,18 +78,77 @@ done < $dns_zone-resource-ids.txt
 rm $dns_zone-resource-ids.txt
 mv $dns_zone-resource-ids.tmp $dns_zone-resource-ids.txt
 
-### Create Azure dns resource placeholder *.tf file
-# grep -oh "/A\|/AAA\|/NS\|/CNAME\|/MX\|/TXT\|/PTR" $dns_zone-resource-ids.txt | sort | uniq -c | sort -n > group_sort_records.tmp
+# Remove the SOA record from the list of resource IDs (delete line where the record exists)
+awk '!/SOA\/@/' $dns_zone-resource-ids.txt > $dns_zone-resource-ids.txt.tmp && mv $dns_zone-resource-ids.txt.tmp $dns_zone-resource-ids.txt
 
 ### Create •.tfvars file
-sh ./tf-dns.tfvarsgenerator.sh
+echo
+echo "Please wait while the $env.tfvars file is generated..."
+sh ./tf-dns.tfvarsgenerator.sh &&
 
 ### Import zone and recordsets from Azure Public DNS
 # Read from $dns_zone-resource-ids.txt and build a dns record importer script
-while IFS="" read -r tmp_line || [ -n "$tmp_line" ]
-   echo "terraform import -var resource_group_name=$resource_group $tmp_line" > tf-dns.recordimporter.sh"
-   
-do < $dns_zone-resource-ids.txt
+
+# Delete the  dns record importer if it already exists
+if [ -e tf-dns.recordimporter.sh ]
+then
+  rm tf-dns.recordimporter.sh
+fi
+
+# First import the dns zone
+zone_record_id=$(az network dns zone list -g $resource_group --subscription $az_subscription --query [].id -o tsv | grep $dns_zone)
+echo "terraform import -var resource_group_name=$resource_group azurerm_dns_zone.zone $zone_record_id" > tf-dns.recordimporter.sh
+
+# What type of dns records are we processing?
+grep -oh "A\|AAA\|NS\|CNAME\|MX\|TXT\|PTR" $dns_zone-resource-ids.txt > group_sort_records.tmp
+
+# Iterate the dns recordset IDs, determine record type and write into an import bash script file to be utilised in the next step
+# Initialise arrays to hold dns record types
+A=0; AAAA=0; NS=0; CNAME=0; MX=0; TXT=0; PTR=0
+
+while IFS= read -r -u 4 line1 && IFS= read -r -u 5 line2; do
+  record_type=$line2
+  case "$record_type" in
+    "A")
+     echo terraform import -var resource_group_name=$resource_group module.public-dns.azurerm_dns_a_record."this[$A]" $line1 >> tf-dns.recordimporter.sh
+     let A=$A+1
+    ;;
+    "AAAA")
+     echo terraform import -var resource_group_name=$resource_group module.public-dns.azurerm_dns_aaaa_record."this[$AAAA]" $line1 >> tf-dns.recordimporter.sh
+     let AAAA=$AAAA+1
+    ;;
+    "NS")
+     echo terraform import -var resource_group_name=$resource_group module.public-dns.azurerm_dns_ns_record."this[$NS]" $line1 >> tf-dns.recordimporter.sh
+     let NS=$NS+1
+    ;;
+    "CNAME")
+     echo terraform import -var resource_group_name=$resource_group module.public-dns.azurerm_dns_cname_record."this[$CNAME]" $line1 >> tf-dns.recordimporter.sh
+     let CNAME=$CNAME+1
+    ;;
+    "MX")
+     echo terraform import -var resource_group_name=$resource_group module.public-dns.azurerm_dns_mx_record."this[$MX]" $line1 >> tf-dns.recordimporter.sh
+     let MX=$MX+1
+    ;;
+    "TXT")
+     echo terraform import -var resource_group_name=$resource_group module.public-dns.azurerm_dns_txt_record."this[$TXT]" $line1 >> tf-dns.recordimporter.sh
+     let TXT=$TXT+1
+    ;;
+    "PTR")
+     echo terraform import -var resource_group_name=$resource_group module.public-dns.azurerm_dns_ptr_record."this[$PTR]" $line1 >> tf-dns.recordimporter.sh
+     let PTR=$PTR+1
+    ;;
+  esac
+done 4<$dns_zone-resource-ids.txt 5<group_sort_records.tmp
+
+# Copy the generated script into the relevant env directory
+cp tf-dns.recordimporter.sh ../../components/$env
+
+# Remove temp files we no longer need
+rm group_sort_records.tmp
+# rm tf-dns.recordimporter.sh  # As is temp import script copied to ../../components/<env>
+rm $dns_zone-resource-ids.txt
+# rm tf-dns.recordimporter.sh
+
 # current_dir=$PWD
 # cd ../../components/sandbox;special
 # sh ./tf-dns.recordimporter.sh $resource_group

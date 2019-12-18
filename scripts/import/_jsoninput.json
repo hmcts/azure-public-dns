@@ -1,0 +1,97 @@
+[
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": null,
+"etag": "9ea936ee-8709-488f-a79f-fedcb75b8f9e",
+"fqdn": "preview.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/preview.platform.hmcts.net/NS/@",
+"metadata": null,
+"mxRecords": null,
+"name": "@",
+"nsRecords": [
+{
+"nsdname": "ns1-06.azure-dns.com."
+},
+{
+"nsdname": "ns2-06.azure-dns.net."
+},
+{
+"nsdname": "ns3-06.azure-dns.org."
+},
+{
+"nsdname": "ns4-06.azure-dns.info."
+}
+],
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 172800,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/NS"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": null,
+"etag": "c6c8b0ca-dfc1-46cc-b941-45652e342fdb",
+"fqdn": "preview.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/preview.platform.hmcts.net/SOA/@",
+"metadata": null,
+"mxRecords": null,
+"name": "@",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": {
+"email": "azuredns-hostmaster.microsoft.com",
+"expireTime": 2419200,
+"host": "ns1-06.azure-dns.com.",
+"minimumTtl": 300,
+"refreshTime": 3600,
+"retryTime": 300,
+"serialNumber": 1
+},
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 3600,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/SOA"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": {
+"cname": "BE33372D30A32248927A2E0C69898A6E.122BACF6D0ACD67EDE96B289A369FE37.OI555FjyjC556tD05Lad.comodoca.com"
+},
+"etag": "f1069091-c0e3-443b-a3b4-418c32204e39",
+"fqdn": "_a041dd4b4af467422ed8129fd9af1b37.preview.platform.hmcts.net.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/preview.platform.hmcts.net/CNAME/_a041dd4b4af467422ed8129fd9af1b37",
+"metadata": null,
+"mxRecords": null,
+"name": "_a041dd4b4af467422ed8129fd9af1b37",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 54000,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/CNAME"
+}
+]

@@ -26,7 +26,7 @@ do
 done < tf-dns.import.config
 
 # Output zone into temp file
-az network dns record-set list -g reformmgmtrg -z sandbox.platform.hmcts.net --subscription Reform-CFT-Mgmt > _jsoninput.pass-0.json
+az network dns record-set list -g reformmgmtrg -z $dns_zone --subscription Reform-CFT-Mgmt > _jsoninput.pass-0.json
 
 # Clean this file
 match_strings="[94m|[39;49;00m|[34m|[33m|"
@@ -263,8 +263,8 @@ jq -c '.[]' _jsoninput.json | while read i; do
                 json_record=$(jq '(.srvRecords)' <<<"$json_line")
                 jq -r 'to_entries | map(.key + "|" + (.value | tostring)) | .[]' <<<"$json_record" | \
                 while IFS='|' read -r rKey rValue; do
-                    records=$rValue
-                    echo $records >> tmpResult.tmp
+                    records="$rValue"
+                    echo "$records" >> tmpResult.tmp
                 done
                 records='"'$(cat tmpResult.tmp)'"'
                 rm tmpResult.tmp
@@ -287,8 +287,8 @@ jq -c '.[]' _jsoninput.json | while read i; do
                 json_record=$(jq '(.txtRecords[])' <<<"$json_line")
                 jq -r 'to_entries | map(.key + "|" + (.value | tostring)) | .[]' <<<"$json_record" | \
                 while IFS='|' read -r rKey rValue; do
-                    records=$rValue
-                    echo $records >> tmpResult.tmp
+                    records="$rValue"
+                    echo "$records" >> tmpResult.tmp
                 done
                 records=$(cat tmpResult.tmp)
                 rm tmpResult.tmp
@@ -340,3 +340,7 @@ echo "]" >> $env.tfvars
 
 # Copy to the environment directory
 cp $env.tfvars ../../environments
+
+# Remove temp files we no longer need
+# rm _jsoninput.json
+rm $env.tfvars  # As has been copied to ../../environments
