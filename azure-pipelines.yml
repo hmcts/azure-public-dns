@@ -42,6 +42,13 @@ stages:
               build: $(Build.BuildNumber)
               agentPool: ${{ variables.agentPool }}
               terraformVersion: ${{ variables.terraformVersion }}
+
+          - template: pipeline-templates/terraform-plan.yaml
+            parameters:
+              zone: 'aat'
+              build: $(Build.BuildNumber)
+              agentPool: ${{ variables.agentPool }}
+              terraformVersion: ${{ variables.terraformVersion }}
               
       - job: Archive
         dependsOn: Validate
@@ -100,6 +107,18 @@ stages:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
           zone: 'perftest'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+
+  - stage: Aat_Apply
+    dependsOn: Perftest_Apply
+    displayName: "AAT Apply"
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    jobs:
+      - template: pipeline-templates/terraform-apply.yaml
+        parameters:
+          zone: 'aat'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
