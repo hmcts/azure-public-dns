@@ -35,6 +35,13 @@ stages:
               build: $(Build.BuildNumber)
               agentPool: ${{ variables.agentPool }}
               terraformVersion: ${{ variables.terraformVersion }}
+
+          - template: pipeline-templates/terraform-plan.yaml
+            parameters:
+              zone: 'perftest'
+              build: $(Build.BuildNumber)
+              agentPool: ${{ variables.agentPool }}
+              terraformVersion: ${{ variables.terraformVersion }}
               
       - job: Archive
         dependsOn: Validate
@@ -81,6 +88,18 @@ stages:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
           zone: 'ithc'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+
+  - stage: Perftest_Apply
+    dependsOn: Ithc_Apply
+    displayName: "Perftest Apply"
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    jobs:
+      - template: pipeline-templates/terraform-apply.yaml
+        parameters:
+          zone: 'perftest'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
