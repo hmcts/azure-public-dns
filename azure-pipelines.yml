@@ -8,8 +8,8 @@ variables:
   agentPool: 'ubuntu-18.04'
 
 stages:
-  - stage: Sandbox_Plan
-    displayName: "Sandbox plan"
+  - stage: Plan_phase
+    displayName: "Terraform Plan"
     jobs:
       - job: Validate
         pool:
@@ -37,6 +37,7 @@ stages:
               terraformVersion: ${{ variables.terraformVersion }}
               
       - job: Archive
+        dependsOn: Plan_phase
         pool:
           vmImage: ${{ variables.agentPool }}
         steps:
@@ -49,7 +50,7 @@ stages:
             displayName: 'Publish Artifact: drop'
 
   # - stage: Sandbox_Apply
-  #   dependsOn: Sandbox_Plan
+  #   dependsOn: Plan_phase
   #   displayName: "Sandbox Apply"
   #   condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
   #   jobs:
@@ -61,7 +62,7 @@ stages:
   #         terraformVersion: ${{ variables.terraformVersion }}
 
   # - stage: Preview_Apply
-  #   dependsOn: Preview_Plan
+  #   dependsOn: Plan_phase
   #   displayName: "Preview Apply"
   #   condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
   #   jobs:
@@ -73,7 +74,7 @@ stages:
   #         terraformVersion: ${{ variables.terraformVersion }}
 
   # - stage: Ithc_Apply
-  #   dependsOn: Ithc_Plan
+  #   dependsOn: Plan_phase
   #   displayName: "Ithc Apply"
   #   condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
   #   jobs:
