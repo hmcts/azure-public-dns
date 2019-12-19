@@ -21,6 +21,21 @@ stages:
               build: $(Build.BuildNumber)
               agentPool: ${{ variables.agentPool }}
               terraformVersion: ${{ variables.terraformVersion }}
+          
+          - template: pipeline-templates/terraform-plan.yaml
+            parameters:
+              zone: 'preview'
+              build: $(Build.BuildNumber)
+              agentPool: ${{ variables.agentPool }}
+              terraformVersion: ${{ variables.terraformVersion }}
+          
+          - template: pipeline-templates/terraform-plan.yaml
+            parameters:
+              zone: 'ithc'
+              build: $(Build.BuildNumber)
+              agentPool: ${{ variables.agentPool }}
+              terraformVersion: ${{ variables.terraformVersion }}
+              
       - job: Archive
         pool:
           vmImage: ${{ variables.agentPool }}
@@ -33,17 +48,41 @@ stages:
           - task: PublishBuildArtifacts@1
             displayName: 'Publish Artifact: drop'
 
-  - stage: Sandbox_Apply
-    dependsOn: Sandbox_Plan
-    displayName: "Sandbox Apply"
-    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
-    jobs:
-      - template: pipeline-templates/terraform-apply.yaml
-        parameters:
-          zone: 'sandbox'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
+  # - stage: Sandbox_Apply
+  #   dependsOn: Sandbox_Plan
+  #   displayName: "Sandbox Apply"
+  #   condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+  #   jobs:
+  #     - template: pipeline-templates/terraform-apply.yaml
+  #       parameters:
+  #         zone: 'sandbox'
+  #         build: $(Build.BuildNumber)
+  #         agentPool: ${{ variables.agentPool }}
+  #         terraformVersion: ${{ variables.terraformVersion }}
+
+  # - stage: Preview_Apply
+  #   dependsOn: Preview_Plan
+  #   displayName: "Preview Apply"
+  #   condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+  #   jobs:
+  #     - template: pipeline-templates/terraform-apply.yaml
+  #       parameters:
+  #         zone: 'preview'
+  #         build: $(Build.BuildNumber)
+  #         agentPool: ${{ variables.agentPool }}
+  #         terraformVersion: ${{ variables.terraformVersion }}
+
+  # - stage: Ithc_Apply
+  #   dependsOn: Ithc_Plan
+  #   displayName: "Ithc Apply"
+  #   condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+  #   jobs:
+  #     - template: pipeline-templates/terraform-apply.yaml
+  #       parameters:
+  #         zone: 'ithc'
+  #         build: $(Build.BuildNumber)
+  #         agentPool: ${{ variables.agentPool }}
+  #         terraformVersion: ${{ variables.terraformVersion }}
 
 
 
