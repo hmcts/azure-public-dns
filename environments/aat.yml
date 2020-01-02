@@ -1,0 +1,65 @@
+ns:
+  - name: "@"
+    ttl: 172800
+    record:
+      - "ns1-03.azure-dns.com."
+      - "ns2-03.azure-dns.net."
+      - "ns3-03.azure-dns.org."
+      - "ns4-03.azure-dns.info."
+
+mx:
+
+A:
+
+txt:
+
+
+cname:
+  - name: "_8c25cc47acd71d289bc2b0f6163f17bd"
+    ttl: 900
+    record: "C648764CDB3F90B8D135D9335993A767.ABBA811E0AD75A1ABB2EB5C0CDCD5B0F.wiRpxFcZvwUNTJeY5mtL.comodoca.com"
+  - name: "bulkscan"
+    ttl: 60
+    record: "521f6bd6-30de-43d1-9d37-2f585c8b3118.cloudapp.net"
+  - name: "asverify.bulkscan"
+    ttl: 60
+    record: "asverify.bulkscanaat.blob.core.windows.net"
+  - name: "decree-absolute-aks"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
+  - name: "decree-nisi-aks"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
+  - name: "www.fees-register"
+    ttl: 900
+    record: "hmcts-fees-register-frontend-aat.trafficmanager.net"
+  - name: "gateway-ccd"
+    ttl: 900
+    record: "hmcts-ccd-api-gateway-web-aat.trafficmanager.net"
+  - name: "afdverify.pet-app1"
+    ttl: 60
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "petitioner-frontend-aks"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
+  - name: "probate"
+    ttl: 60
+    record: "probateaat.blob.core.windows.net"
+  - name: "reformscan"
+    ttl: 60
+    record: "aa5333c5-59a4-4828-bbcf-b22298069171.cloudapp.net"
+  - name: "respond-divorce-aks"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
+  - name: "tmfees-register"
+    ttl: 900
+    record: "7f3cb82c-0944-4944-b8fd-0d736315b202.cloudapp.net"
+  - name: "tmgateway-ccd"
+    ttl: 60
+    record: "fbdcf28e-3dee-4ff3-b202-b2367b261d8d.cloudapp.net"
+  - name: "tmwww-ccd"
+    ttl: 900
+    record: "7f3cb82c-0944-4944-b8fd-0d736315b202.cloudapp.net"
+  - name: "www-ccd"
+    ttl: 900
+    record: "hmcts-ccd-case-management-web-aat.trafficmanager.net"

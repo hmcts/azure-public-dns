@@ -18,7 +18,7 @@ steps:
     displayName: Plan - ${{ parameters.zone }}
     inputs:
       command: 'plan'
-      commandOptions: '-out=${{ parameters.zone }}${{ parameters.build }}plan -var-file=$(System.DefaultWorkingDirectory)/environments/${{ parameters.zone }}.tfvars'
+      commandOptions: '-out=${{ parameters.zone }}${{ parameters.build }}plan'
       workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.zone }}'
       environmentServiceName: 'Reform-CFT-Mgmt'
   - task: Bash@3
