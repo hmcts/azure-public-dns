@@ -7,12 +7,18 @@ variable "zone_name" {
   description = "List of DNS zones to manage, in the standard terraformdns structure."
 }
 
-variable "recordsets" {
-  type = list(object({
-    name    = string
-    type    = string
-    ttl     = number
-    records = list(string)
-  }))
-  description = "List of DNS records to manage, in the standard terraformdns structure."
-}   
+variable "cname_records" {
+  default = []
+}
+variable "ns_recordsets" {
+  default = []
+}
+variable "mx_recordsets" {
+  default = []
+}
+variable "a_recordsets" {
+  default = []
+}
+variable "txt_recordsets" {
+  default = []
+}
