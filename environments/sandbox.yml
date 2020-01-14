@@ -45,7 +45,7 @@ cname:
     record: "asverify.bulkscansandbox.blob.core.windows.net"
   - name: "plum"
     ttl: 300
-    record: "hmtcs-plum-shutter.azureedge.net"
+    record: "hmcts-sbox.azurefd.net"
   - name: "afdverify.plum"
     ttl: 3600
     record: "afdverify.hmcts-sbox.azurefd.net"
