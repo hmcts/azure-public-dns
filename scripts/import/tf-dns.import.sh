@@ -67,7 +67,7 @@ do
   stringlen=$(echo $tmp_line | awk '{print length}')
   if [ $stringlen -le 1 ]
   then
-    # Identidied blank line; literally do nothing!
+    # Identified blank line; literally do nothing!
     sleep 0
   else
     printf "$tmp_line\n" >> $dns_zone-resource-ids.tmp
@@ -87,9 +87,10 @@ sh ./tf-dns.tfvarsgenerator.sh
 ### Import zone and recordsets from Azure Public DNS
 # Read from $dns_zone-resource-ids.txt and build a dns record importer script
 while IFS="" read -r tmp_line || [ -n "$tmp_line" ]
-   echo "terraform import -var resource_group_name=$resource_group $tmp_line" > tf-dns.recordimporter.sh"
-   
-do < $dns_zone-resource-ids.txt
+do
+   echo "terraform import -var resource_group_name=$resource_group $tmp_line" > tf-dns.recordimporter.sh
+done < $dns_zone-resource-ids.txt
+
 # current_dir=$PWD
 # cd ../../components/sandbox;special
 # sh ./tf-dns.recordimporter.sh $resource_group
@@ -100,4 +101,3 @@ do < $dns_zone-resource-ids.txt
 # terraform init
 # terraform fmt
 # terraform plan -var-file='../../environments/$env.tfvars'
-

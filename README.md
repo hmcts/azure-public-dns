@@ -90,3 +90,7 @@ of the underlying Terraform provider:
 - `PTR`
 - `SRV`
 - `TXT`
+
+## Importing Existing DNS Zones/Records
+
+Where DNS is unmanaged by Terraform, we will first need to import the existing resources into the local .tfstate file

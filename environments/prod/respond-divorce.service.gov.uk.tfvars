@@ -1,0 +1,16 @@
+recordsets = [
+{ name = "@", records = ["ns1-06.azure-dns.com.",
+"ns2-06.azure-dns.net.",
+"ns3-06.azure-dns.org.",
+"ns4-06.azure-dns.info.",], ttl = 172800, type = "NS" },
+{ name = "_2b4d3b045bdf0528952090aa206d7254", records = ["095E12C905774C60536D4713A8FF28E3.BE78D8C0223913148F81A82BC1AA3F91.ef6f1f3af41cc9f5850d.comodoca.com."], ttl = 300, type = "CNAME" },
+{ name = "_702814b76e9f91d0fec127e86bf229f7", records = ["2201C866A9764DD5A24A1639D79AFF9A.DF9615DF6EDC103D58D1C9590C802A06.479eaa8e93a42b42d129.comodoca.com."], ttl = 3600, type = "CNAME" },
+{ name = "tmwww", records = ["002e6245-3b44-41b3-ae6f-b7a6a93f7bb9.cloudapp.net"], ttl = 300, type = "CNAME" },
+{ name = "_2b4d3b045bdf0528952090aa206d7254.tmwww", records = ["095E12C905774C60536D4713A8FF28E3.BE78D8C0223913148F81A82BC1AA3F91.ef6f1f3af41cc9f5850d.comodoca.com."], ttl = 300, type = "CNAME" },
+{ name = "_702814b76e9f91d0fec127e86bf229f7.tmwww", records = ["2201C866A9764DD5A24A1639D79AFF9A.DF9615DF6EDC103D58D1C9590C802A06.479eaa8e93a42b42d129.comodoca.com."], ttl = 3600, type = "CNAME" },
+{ name = "_2b4d3b045bdf0528952090aa206d7254.www.respond-divorce.service.gov.uk", records = ["095E12C905774C60536D4713A8FF28E3.BE78D8C0223913148F81A82BC1AA3F91.ef6f1f3af41cc9f5850d.comodoca.com."], ttl = 300, type = "CNAME" },
+{ name = "www", records = ["hmcts-prod.azurefd.net"], ttl = 300, type = "CNAME" },
+{ name = "_702814b76e9f91d0fec127e86bf229f7.www", records = ["2201C866A9764DD5A24A1639D79AFF9A.DF9615DF6EDC103D58D1C9590C802A06.479eaa8e93a42b42d129.comodoca.com."], ttl = 3600, type = "CNAME" },
+{ name = "afdverify.www", records = ["afdverify.hmcts-prod.azurefd.net"], ttl = 3600, type = "CNAME" },
+{ name = "cdnverify.www", records = ["cdnverify.hmcts-respond-divorce-shutter-prod.azureedge.net"], ttl = 3600, type = "CNAME" },
+]

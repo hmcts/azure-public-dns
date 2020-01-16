@@ -26,7 +26,7 @@ do
 done < tf-dns.import.config
 
 # Output zone into temp file
-az network dns record-set list -g reformmgmtrg -z sandbox.platform.hmcts.net --subscription Reform-CFT-Mgmt > _jsoninput.pass-0.json
+az network dns record-set list -g $resource_group -z $dns_zone --subscription $az_subscription > _jsoninput.pass-0.json
 
 # Clean this file
 match_strings="[94m|[39;49;00m|[34m|[33m|"

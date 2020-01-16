@@ -1,0 +1,175 @@
+[
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": null,
+"etag": "1f15608c-a067-45d9-acb0-11887468aeeb",
+"fqdn": "track-benefit-appeal.service.gov.uk.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/track-benefit-appeal.service.gov.uk/NS/@",
+"metadata": null,
+"mxRecords": null,
+"name": "@",
+"nsRecords": [
+{
+"nsdname": "ns1-07.azure-dns.com."
+},
+{
+"nsdname": "ns2-07.azure-dns.net."
+},
+{
+"nsdname": "ns3-07.azure-dns.org."
+},
+{
+"nsdname": "ns4-07.azure-dns.info."
+}
+],
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 172800,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/NS"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": null,
+"etag": "a935157b-7c46-4139-b457-c61bccf97ed1",
+"fqdn": "track-benefit-appeal.service.gov.uk.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/track-benefit-appeal.service.gov.uk/SOA/@",
+"metadata": null,
+"mxRecords": null,
+"name": "@",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": {
+"email": "azuredns-hostmaster.microsoft.com",
+"expireTime": 2419200,
+"host": "ns1-07.azure-dns.com.",
+"minimumTtl": 300,
+"refreshTime": 3600,
+"retryTime": 300,
+"serialNumber": 1
+},
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 3600,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/SOA"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": {
+"cname": "20cde5e5335b856a244bee79c898bf13.66d2775a1cab661e431a1da3a6256dd3.5b3cba24ef0e7.comodoca.com"
+},
+"etag": "dd505171-c535-45ce-95ba-707ea475a08f",
+"fqdn": "_d9baec60ca695066df7139350c2a673d.track-benefit-appeal.service.gov.uk.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/track-benefit-appeal.service.gov.uk/CNAME/_d9baec60ca695066df7139350c2a673d",
+"metadata": null,
+"mxRecords": null,
+"name": "_d9baec60ca695066df7139350c2a673d",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 3600,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/CNAME"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": {
+"cname": "58fd15f9-7a11-4de2-8df1-9aef0e807ec2.cloudapp.net"
+},
+"etag": "77d780fa-d33e-43bb-8ca2-37330b393811",
+"fqdn": "tmwww.track-benefit-appeal.service.gov.uk.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/track-benefit-appeal.service.gov.uk/CNAME/tmwww",
+"metadata": null,
+"mxRecords": null,
+"name": "tmwww",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 3600,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/CNAME"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": {
+"cname": "20cde5e5335b856a244bee79c898bf13.66d2775a1cab661e431a1da3a6256dd3.5b3cba24ef0e7.comodoca.com"
+},
+"etag": "067963c4-35f7-4c6e-9555-523b34922bba",
+"fqdn": "_d9baec60ca695066df7139350c2a673d.tmwww.track-benefit-appeal.service.gov.uk.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/track-benefit-appeal.service.gov.uk/CNAME/_d9baec60ca695066df7139350c2a673d.tmwww",
+"metadata": null,
+"mxRecords": null,
+"name": "_d9baec60ca695066df7139350c2a673d.tmwww",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 3600,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/CNAME"
+},
+{
+"aaaaRecords": null,
+"arecords": null,
+"caaRecords": null,
+"cnameRecord": {
+"cname": "hmcts-sscs-tya-frontend-prod.trafficmanager.net"
+},
+"etag": "80af970d-f5d8-4db9-8349-3438129b14d9",
+"fqdn": "www.track-benefit-appeal.service.gov.uk.",
+"id": "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformmgmtrg/providers/Microsoft.Network/dnszones/track-benefit-appeal.service.gov.uk/CNAME/www",
+"metadata": null,
+"mxRecords": null,
+"name": "www",
+"nsRecords": null,
+"provisioningState": "Succeeded",
+"ptrRecords": null,
+"resourceGroup": "reformmgmtrg",
+"soaRecord": null,
+"srvRecords": null,
+"targetResource": {
+"id": null
+},
+"ttl": 3600,
+"txtRecords": null,
+"type": "Microsoft.Network/dnszones/CNAME"
+}
+]
