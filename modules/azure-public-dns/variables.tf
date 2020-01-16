@@ -22,3 +22,11 @@ variable "a_recordsets" {
 variable "txt_recordsets" {
   default = []
 }
+
+variable "shutter_records" {
+  default = []
+}
+
+variable "env" {
+  default = "sbox"
+}

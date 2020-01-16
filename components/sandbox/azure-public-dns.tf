@@ -5,6 +5,8 @@ module "public-dns" {
   mx_recordsets       = yamldecode(data.local_file.configuration.content).mx
   a_recordsets        = yamldecode(data.local_file.configuration.content).A
   txt_recordsets      = yamldecode(data.local_file.configuration.content).txt
+  shutter_records     = yamldecode(data.local_file.shutterconfig.content).shutter
   zone_name           = azurerm_dns_zone.zone.name
   resource_group_name = data.azurerm_resource_group.main.name
+  env                 = "sbox"
 }
