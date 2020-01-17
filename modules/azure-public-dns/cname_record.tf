@@ -10,5 +10,5 @@ resource "azurerm_dns_cname_record" "this" {
 
   name   = var.cname_records[count.index].name
   ttl    = var.cname_records[count.index].ttl
-  record = lookup(var.cname_records[count.index], "shutter", false ) == true ? "hmcts-${split(".", replace(join(".",[var.cname_records[count.index].name, var.zone_name]), "www.", ""))[0]}-shutter-${var.env}.${local.shutter_domain}" : var.cname_records[count.index].record
+  record = lookup(var.cname_records[count.index], "shutter", false) == true ? "hmcts-${split(".", replace(join(".",[var.cname_records[count.index].name, var.zone_name]), "www.", ""))[0]}-shutter-${var.env}.${local.shutter_domain}" : var.cname_records[count.index].record
 }
