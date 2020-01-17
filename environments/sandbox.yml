@@ -33,6 +33,12 @@ txt:
     record: 
       - "v=DMARC1; p=none"
 
+# In order to swap the DNS for shutterring an application enable the shutter parameter for the corresponding application.
+# e.g. This will shutter the plum app in sbox environment
+#  - name: "plum"
+#    ttl: 300
+#    record: "hmcts-sbox.azurefd.net"
+#    shutter: true
 cname:
   - name: "_1fc88e03b87b33fb04a3b1c5978e80b8"
     ttl: 900
@@ -46,6 +52,7 @@ cname:
   - name: "plum"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
+    shutter: true
   - name: "afdverify.plum"
     ttl: 3600
     record: "afdverify.hmcts-sbox.azurefd.net"
