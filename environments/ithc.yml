@@ -37,62 +37,47 @@ cname:
   - name: "manage.appeal-benefit-decision"
     ttl: 60
     record: "hmcts-sscs-cor-frontend-ithc.trafficmanager.net"
-    shutter: null
   - name: "tmmanage.appeal-benefit-decision"
     ttl: 60
     record: "590582cd-441a-4601-9f6a-f8203d4c19fe.cloudapp.net"
-    shutter: null
   - name: "ccpay-bubble"
     ttl: 60
     record: "11d1facb-25d7-49ef-a8dc-d698479270a2.cloudapp.net"
-    shutter: null
   - name: "decree-absolute-aks"
     ttl: 3600
     record: "hmcts-ithc.azurefd.net"
-    shutter: null
   - name: "decree-nisi-aks"
     ttl: 3600
     record: "hmcts-ithc.azurefd.net"
-    shutter: null
   - name: "gateway-ccd"
     ttl: 60
     record: "a56e4113-9db3-4bd3-ad20-01f2eb3926c4.cloudapp.net"
-    shutter: null
   - name: "idam-web-public"
     ttl: 60
     record: "f8ba11e0-da48-45a5-b105-7aed33e2bf42.cloudapp.net"
-    shutter: null
   - name: "moneyclaim-legal" 
     ttl: 60
     record: "e10387a8-f6ed-40f8-9557-f158497ccb5e.cloudapp.net"
-    shutter: null
   - name: "moneyclaims"
     ttl: 60
     record: "e10387a8-f6ed-40f8-9557-f158497ccb5e.cloudapp.net"
-    shutter: null
   - name: "moneyclaims-legal" 
     ttl: 60
     record: "e10387a8-f6ed-40f8-9557-f158497ccb5e.cloudapp.net"
-    shutter: null
   - name: "petitioner-frontend-aks" 
     ttl: 3600
     record: "hmcts-ithc.azurefd.net"
-    shutter: null
   - name: "respond-divorce-aks" 
     ttl: 3600
     record: "hmcts-ithc.azurefd.net"
-    shutter: null
   - name: "sscs-tribunals-frontend"
     ttl: 300
     record: "hmcts-sscs-tribunals-frontend-ithc.trafficmanager.net"
-    shutter: null
   - name: "tmsscs-tribunals-frontend" 
     ttl: 300
     record: "590582cd-441a-4601-9f6a-f8203d4c19fe.cloudapp.net"
-    shutter: null
   - name: "www-ccd"
     ttl: 60
     record: "a56e4113-9db3-4bd3-ad20-01f2eb3926c4.cloudapp.net"
-    shutter: null
 
   
