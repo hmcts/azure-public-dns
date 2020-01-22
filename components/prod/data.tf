@@ -9,3 +9,7 @@ data "local_file" "apply-for-probate-config" {
 data "local_file" "appeal-benefit-config" {
   filename = "${path.cwd}/../../environments/prod/appeal-benefit-decision-service-gov-uk.yml"
 }
+
+data "local_file" "divorce-config" {
+  filename = "${path.cwd}/../../environments/prod/divorce-service-gov-uk.yml"
+}
