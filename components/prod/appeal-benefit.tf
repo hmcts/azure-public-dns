@@ -1,4 +1,4 @@
-module "apply-divorce" {
+module "appeal-benefit" {
   source              = "../../modules/azure-public-dns/"
   cname_records       = yamldecode(data.local_file.appeal-benefit-config.content).cname
   ns_recordsets       = yamldecode(data.local_file.appeal-benefit-config.content).ns
