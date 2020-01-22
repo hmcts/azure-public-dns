@@ -5,3 +5,7 @@ data "local_file" "apply-divorce-config" {
 data "local_file" "apply-for-probate-config" {
   filename = "${path.cwd}/../../environments/prod/apply-for-probate-service-gov-uk.yml"
 }
+
+data "local_file" "appeal-benefit-config" {
+  filename = "${path.cwd}/../../environments/prod/appeal-benefit-decision-service-gov-uk.yml"
+}
