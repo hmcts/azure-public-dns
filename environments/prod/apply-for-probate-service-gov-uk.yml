@@ -1,0 +1,37 @@
+ns:
+  - name: "@"
+    ttl: 172800
+    record:
+      - "ns1-01.azure-dns.com."
+      - "ns2-01.azure-dns.net."
+      - "ns3-01.azure-dns.org."
+      - "ns4-01.azure-dns.info."
+
+mx:
+
+A:
+  - name: "@"
+    ttl: 3600
+    record:
+      - "51.140.162.48"
+
+txt:
+
+
+cname:
+  - name: "_d735b639c74a3942196ec3245845f0f0"
+    ttl: 60
+    record: "E6F58A185B2FFB34CA36E29C726CD768.51ABEB32C7BCE7B6E621866CC24FACBA.5b3cbafa73920.comodoca.com."
+  - name: "tmwww"
+    ttl: 60
+    record: "e9356947-10f9-4c12-ae71-d406f14011ff.cloudapp.net"
+  - name: "_d735b639c74a3942196ec3245845f0f0.tmwww"
+    ttl: 3600
+    record: "E6F58A185B2FFB34CA36E29C726CD768.51ABEB32C7BCE7B6E621866CC24FACBA.5b3cbafa73920.comodoca.com."
+  - name: "www"
+    ttl: 60
+    record: "hmcts-probate-frontend-prod.trafficmanager.net"
+  - name: "_d735b639c74a3942196ec3245845f0f0.www"
+    ttl: 3600
+    record: "E6F58A185B2FFB34CA36E29C726CD768.51ABEB32C7BCE7B6E621866CC24FACBA.5b3cbafa73920.comodoca.com."
+
