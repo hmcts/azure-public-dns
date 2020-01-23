@@ -63,3 +63,21 @@ cname:
   - name: "www-ccd"
     ttl: 900
     record: "hmcts-ccd-case-management-web-aat.trafficmanager.net"
+  - name: "afdverify.benefit-appeal"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "benefit-appeal"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.sscs-cor"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "sscs-cor"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.track-appeal"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "track-appeal"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
