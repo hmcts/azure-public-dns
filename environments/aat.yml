@@ -66,9 +66,6 @@ cname:
   - name: "afdverify.benefit-appeal"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
-  - name: "afdverify.benefit-appeal"
-    ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
   - name: "benefit-appeal"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
