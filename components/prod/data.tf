@@ -13,3 +13,7 @@ data "local_file" "appeal-benefit-config" {
 data "local_file" "hmcts-access-config" {
   filename = "${path.cwd}/../../environments/prod/hmcts-access-service-gov-uk.yml"
 }
+
+data "local_file" "track-benefit-appeal-config" {
+  filename = "${path.cwd}/../../environments/prod/track-benefit-appeal-service-gov-uk.yml"
+}
