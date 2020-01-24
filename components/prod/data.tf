@@ -25,3 +25,7 @@ data "local_file" "respond-divorce-config" {
 data "local_file" "prod-platform-config" {
   filename = "${path.cwd}/../../environments/prod/prod-platform-hmcts-net.yml"
 }
+
+data "local_file" "moneyclaims-config" {
+  filename = "${path.cwd}/../../environments/prod/moneyclaims-service-gov-uk.yml"
+}
