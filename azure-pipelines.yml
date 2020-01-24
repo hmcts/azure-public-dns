@@ -8,7 +8,7 @@ trigger:
     - master
     
 variables:
-  terraformVersion: 0.12.19
+  terraformVersion: 0.12.20
   agentPool: 'ubuntu-18.04'
 
 stages:
@@ -50,6 +50,13 @@ stages:
           - template: pipeline-templates/terraform-plan.yaml
             parameters:
               zone: 'aat'
+              build: $(Build.BuildNumber)
+              agentPool: ${{ variables.agentPool }}
+              terraformVersion: ${{ variables.terraformVersion }}
+
+          - template: pipeline-templates/terraform-plan.yaml
+            parameters:
+              zone: 'prod'
               build: $(Build.BuildNumber)
               agentPool: ${{ variables.agentPool }}
               terraformVersion: ${{ variables.terraformVersion }}
@@ -104,7 +111,7 @@ stages:
           terraformVersion: ${{ variables.terraformVersion }}
 
   - stage: Perftest_Apply
-    dependsOn: Ithc_Apply
+    dependsOn: Plan_phase
     displayName: "Perftest Apply"
     condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
     jobs:
@@ -123,6 +130,18 @@ stages:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
           zone: 'aat'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+
+  - stage: Prod_Apply
+    dependsOn: Aat_Apply
+    displayName: "Prod Apply"
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    jobs:
+      - template: pipeline-templates/terraform-apply.yaml
+        parameters:
+          zone: 'prod'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
