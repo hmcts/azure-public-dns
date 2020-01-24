@@ -1,0 +1,29 @@
+ns:
+  - name: "@"
+    ttl: 172800
+    record:
+      - "ns1-07.azure-dns.com."
+      - "ns2-07.azure-dns.net."
+      - "ns3-07.azure-dns.org."
+      - "ns4-07.azure-dns.info."
+
+mx:
+
+A:
+
+txt:
+
+
+cname:
+  - name: "_d9baec60ca695066df7139350c2a673d"
+    ttl: 3600
+    record: "20cde5e5335b856a244bee79c898bf13.66d2775a1cab661e431a1da3a6256dd3.5b3cba24ef0e7.comodoca.com"
+  - name: "tmwww"
+    ttl: 3600
+    record: "58fd15f9-7a11-4de2-8df1-9aef0e807ec2.cloudapp.net"
+  - name: "_d9baec60ca695066df7139350c2a673d.tmwww"
+    ttl: 3600
+    record: "20cde5e5335b856a244bee79c898bf13.66d2775a1cab661e431a1da3a6256dd3.5b3cba24ef0e7.comodoca.com"
+  - name: "www"
+    ttl: 3600
+    record: "hmcts-sscs-tya-frontend-prod.trafficmanager.net"
