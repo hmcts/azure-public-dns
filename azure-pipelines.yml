@@ -8,7 +8,7 @@ trigger:
     - master
     
 variables:
-  terraformVersion: 0.12.19
+  terraformVersion: 0.12.20
   agentPool: 'ubuntu-18.04'
 
 stages:
@@ -50,6 +50,13 @@ stages:
           - template: pipeline-templates/terraform-plan.yaml
             parameters:
               zone: 'aat'
+              build: $(Build.BuildNumber)
+              agentPool: ${{ variables.agentPool }}
+              terraformVersion: ${{ variables.terraformVersion }}
+
+          - template: pipeline-templates/terraform-plan.yaml
+            parameters:
+              zone: 'prod'
               build: $(Build.BuildNumber)
               agentPool: ${{ variables.agentPool }}
               terraformVersion: ${{ variables.terraformVersion }}
