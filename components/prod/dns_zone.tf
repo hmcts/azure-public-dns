@@ -26,3 +26,8 @@ resource "azurerm_dns_zone" "track-benefit-appeal" {
   name                = "track-benefit-appeal.service.gov.uk"
   resource_group_name = data.azurerm_resource_group.main.name
 }
+
+resource "azurerm_dns_zone" "respond-divorce" {
+  name                = "respond-divorce.service.gov.uk"
+  resource_group_name = data.azurerm_resource_group.main.name
+}

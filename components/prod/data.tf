@@ -17,3 +17,7 @@ data "local_file" "hmcts-access-config" {
 data "local_file" "track-benefit-appeal-config" {
   filename = "${path.cwd}/../../environments/prod/track-benefit-appeal-service-gov-uk.yml"
 }
+
+data "local_file" "respond-divorce-config" {
+  filename = "${path.cwd}/../../environments/prod/respond-divorce-service-gov-uk.yml"
+}
