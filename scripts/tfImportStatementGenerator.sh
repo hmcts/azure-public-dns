@@ -11,8 +11,8 @@ read ZONENAME
 echo "Enter the type of record that you need to import:"
 read TYPE
 
-rm -rf $ZONENAME-$TYPE.json
-rm -rf $ZONENAME-$TYPE-tfimport.sh
+rm -rf $ZONENAME-*.json
+rm -rf $ZONENAME-*-tfimport.sh
 
 az network dns record-set $TYPE list --resource-group reformmgmtrg --zone-name $ZONENAME >> "$ZONENAME-$TYPE.json"
 
