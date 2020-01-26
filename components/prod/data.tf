@@ -29,3 +29,7 @@ data "local_file" "prod-platform-config" {
 data "local_file" "moneyclaims-config" {
   filename = "${path.cwd}/../../environments/prod/moneyclaims-service-gov-uk.yml"
 }
+
+data "local_file" "platform-hmcts-config" {
+  filename = "${path.cwd}/../../environments/prod/platform-hmcts-net.yml"
+}
