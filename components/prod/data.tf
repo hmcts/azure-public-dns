@@ -33,3 +33,7 @@ data "local_file" "moneyclaims-config" {
 data "local_file" "platform-hmcts-config" {
   filename = "${path.cwd}/../../environments/prod/platform-hmcts-net.yml"
 }
+
+data "local_file" "hearings-config" {
+  filename = "${path.cwd}/../../environments/prod/hearings-hmcts-net.yml"
+}
