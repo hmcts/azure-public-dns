@@ -46,3 +46,8 @@ resource "azurerm_dns_zone" "platform-hmcts" {
   name                = "platform.hmcts.net"
   resource_group_name = data.azurerm_resource_group.main.name
 }
+
+resource "azurerm_dns_zone" "hearings" {
+  name                = "hearings.hmcts.net"
+  resource_group_name = data.azurerm_resource_group.main.name
+}
