@@ -41,3 +41,8 @@ resource "azurerm_dns_zone" "moneyclaims" {
   name                = "moneyclaims.service.gov.uk"
   resource_group_name = data.azurerm_resource_group.main.name
 }
+
+resource "azurerm_dns_zone" "platform-hmcts" {
+  name                = "platform.hmcts.net"
+  resource_group_name = data.azurerm_resource_group.main.name
+}
