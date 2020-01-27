@@ -1,0 +1,524 @@
+ns:
+  - name: "@"
+    ttl: 172800
+    record: 
+      - "ns1-04.azure-dns.com."
+      - "ns2-04.azure-dns.net."
+      - "ns3-04.azure-dns.org."
+      - "ns4-04.azure-dns.info."
+  - name: "aat"
+    ttl: 900
+    record: 
+      - "ns1-03.azure-dns.com"
+      - "ns2-03.azure-dns.net"
+      - "ns3-03.azure-dns.org"
+      - "ns4-03.azure-dns.info"
+  - name: "demo"
+    ttl: 900
+    record: 
+      - "ns1-02.azure-dns.com"
+      - "ns2-02.azure-dns.net"
+      - "ns3-02.azure-dns.org"
+      - "ns4-02.azure-dns.info."
+  - name: "hmctsdemo"
+    ttl: 3600
+    record: 
+      - "ns1-06.azure-dns.com."
+      - "ns2-06.azure-dns.net."
+      - "ns3-06.azure-dns.org."
+      - "ns4-06.azure-dns.info."
+  - name: "ithc"
+    ttl: 900
+    record: 
+      - "ns1-01.azure-dns.com"
+      - "ns2-01.azure-dns.net"
+      - "ns3-01.azure-dns.org"
+      - "ns4-01.azure-dns.info"
+  - name: "preview"
+    ttl: 900
+    record: 
+      - "ns1-06.azure-dns.com"
+      - "ns2-06.azure-dns.net"
+      - "ns3-06.azure-dns.org"
+      - "ns4-06.azure-dns.info"
+  - name: "prod"
+    ttl: 3600
+    record: 
+      - "ns1-05.azure-dns.com"
+      - "ns2-05.azure-dns.net"
+      - "ns3-05.azure-dns.org"
+      - "ns4-05.azure-dns.info"
+  - name: "saat"
+    ttl: 900
+    record: 
+      - "ns1-03.azure-dns.com"
+      - "ns2-03.azure-dns.net"
+      - "ns3-03.azure-dns.org"
+      - "ns4-03.azure-dns.info"
+  - name: "sandbox"
+    ttl: 900
+    record: 
+      - "ns1-05.azure-dns.com"
+      - "ns2-08.azure-dns.net"
+      - "ns3-08.azure-dns.org"
+      - "ns4-08.azure-dns.info"
+  - name: "spreview"
+    ttl: 54000
+    record: 
+      - "ns1-08.azure-dns.com"
+      - "ns2-08.azure-dns.net"
+      - "ns3-08.azure-dns.org"
+      - "ns4-08.azure-dns.info"
+  - name: "sprod"
+    ttl: 900
+    record: 
+      - "ns1-01.azure-dns.com"
+      - "ns2-01.azure-dns.net"
+      - "ns3-01.azure-dns.org"
+      - "ns4-01.azure-dns.info"
+
+
+mx:
+
+A:
+  - name: "bar"
+    ttl: 900
+    record: 
+      - "51.143.156.74"
+  - name: "bar-aat"
+    ttl: 900
+    record: 
+      - "52.151.76.90"
+  - name: "build"
+    ttl: 60
+    record: 
+      - "51.141.228.15"
+  - name: "build-beta"
+    ttl: 60
+    record: 
+      - "51.145.50.201"
+  - name: "build-failure-analyzer"
+    ttl: 60
+    record: 
+      - "51.141.230.224"
+  - name: "courts"
+    ttl: 60
+    record: 
+      - "51.140.44.46"
+  - name: "ctsc-web-forms-ui-stg"
+    ttl: 60
+    record: 
+      - "51.145.47.4"
+  - name: "divorce-palo-prod"
+    ttl: 60
+    record: 
+      - "52.151.74.140"
+  - name: "idam-api-ethosldata"
+    ttl: 60
+    record: 
+      - "10.14.66.11"
+  - name: "jdbureau"
+    ttl: 60
+    record: 
+      - "51.11.44.158"
+  - name: "jdbureau-nle"
+    ttl: 60
+    record: 
+      - "51.145.47.4"
+  - name: "jdfrontend"
+    ttl: 60
+    record: 
+      - "51.104.252.236"
+  - name: "jdfrontend-nle"
+    ttl: 60
+    record: 
+      - "51.145.47.4"
+  - name: "jdproxy-nle"
+    ttl: 3600
+    record: 
+      - "51.145.47.4"
+  - name: "maintenance-ccd"
+    ttl: 3600
+    record: 
+      - "51.140.63.161"
+  - name: "mobilevpn"
+    ttl: 60
+    record: 
+      - "51.145.22.57"
+  - name: "mobilevpn-mgmt"
+    ttl: 3600
+    record: 
+      - "51.145.22.150"
+  - name: "www.nonprod.moneyclaim"
+    ttl: 3600
+    record: 
+      - "51.140.33.54"
+  - name: "moneyclaim-legal-maint"
+    ttl: 60
+    record: 
+      - "51.143.153.124"
+  - name: "moneyclaim-maint"
+    ttl: 60
+    record: 
+      - "51.145.44.112"
+  - name: "track-appeal.nonprod"
+    ttl: 60
+    record: 
+      - "51.140.157.202"
+  - name: "portal"
+    ttl: 60
+    record: 
+      - "51.145.4.100"
+  - name: "portal-temp"
+    ttl: 60
+    record: 
+      - "40.120.41.232"
+  - name: "sandbox-build"
+    ttl: 60
+    record: 
+      - "51.140.32.178"
+  - name: "sandbox-build-beta"
+    ttl: 60
+    record: 
+      - "40.120.54.64"
+  - name: "sandbox-build-failure-analyzer"
+    ttl: 60
+    record: 
+      - "52.151.93.193"
+  - name: "sftp"
+    ttl: 300
+    record: 
+      - "51.132.40.106"
+  - name: "sod-ss"
+    ttl: 60
+    record: 
+      - "51.132.42.55"
+  - name: "traefik-sod-ss"
+    ttl: 60
+    record: 
+      - "51.132.42.55"
+  - name: "traefik-stg"
+    ttl: 60
+    record: 
+      - "51.145.47.4"
+  - name: "traefik-ui-jb"
+    ttl: 60
+    record: 
+      - "51.11.44.158"
+  - name: "traefik-ui-jd"
+    ttl: 60
+    record: 
+      - "51.104.252.236"
+  - name: "vpn"
+    ttl: 60
+    record: 
+      - "51.141.230.130"
+
+
+txt:
+
+
+cname:
+  - name: "_9c4d3a31c7755933c820c13ece0caaca"
+    ttl: 900
+    record: "5FB0CEFAAA0AA8102FDD0A6804FB846B.516553A1B23D93381A318F4E0A1B67C6.7fea1fb9e9b410a5a0c5.comodoca.com."
+  - name: "probate.aat"
+    ttl: 60
+    record: "hmcts-probate-frontend-aat.trafficmanager.net"
+  - name: "awverify.probate.aat"
+    ttl: 1
+    record: "awverify.probate-frontend-aat-shutter.azurewebsites.net"
+  - name: "administer-orgs"
+    ttl: 60
+    record: "hmcts-xui-ao-webapp-prod.trafficmanager.net"
+  - name: "_32b104df3aace6a2d9e9ff6637a81c2f.administer-orgs"
+    ttl: 300
+    record: "A55BDFDFA635B5D69F9770A7D344E4BF.E78E96400CB03D8CA3945CB7A0931989.d5e95a3c9f187c3d6835.comodoca.com."
+  - name: "apply-divorce"
+    ttl: 3600
+    record: "www.apply-divorce.platform.hmcts.net"
+  - name: "tmwww.apply-divorce"
+    ttl: 60
+    record: "divorce-palo-prod.platform.hmcts.net"
+  - name: "www.apply-divorce"
+    ttl: 60
+    record: "www.apply-divorce.service.gov.uk"
+  - name: "apply-for-probate"
+    ttl: 60
+    record: "hmcts-probate-frontend-prod.trafficmanager.net"
+  - name: "tmwww.apply-for-probate"
+    ttl: 60
+    record: "05c4d7c6-49f9-42a5-bc31-20127cb4443d.cloudapp.net"
+  - name: "www.apply-for-probate"
+    ttl: 60
+    record: "apply-for-probate.platform.hmcts.net."
+  - name: "benefit-appeal"
+    ttl: 60
+    record: "d9bb5705-1e1d-43d7-9a3d-8a7a97562873.cloudapp.net"
+  - name: "www.benefit-appeal"
+    ttl: 3600
+    record: "hmcts-sscs-tribunals-frontend-prod.trafficmanager.net"
+  - name: "bulkscan"
+    ttl: 60
+    record: "0c825335-3be3-454d-af9a-ff6a54a9fbc2.cloudapp.net"
+  - name: "asverify.bulkscan"
+    ttl: 60
+    record: "asverify.bulkscanprod.blob.core.windows.net"
+  - name: "ccd"
+    ttl: 60
+    record: "hmcts-ccd-case-management-web-prod.trafficmanager.net"
+  - name: "gateway.ccd"
+    ttl: 60
+    record: "hmcts-ccd-api-gateway-web-prod.trafficmanager.net"
+  - name: "tmgateway.ccd"
+    ttl: 60
+    record: "5a052b01-331d-4789-9c63-8ccea30883da.cloudapp.net"
+  - name: "tmwww.ccd"
+    ttl: 60
+    record: "5a052b01-331d-4789-9c63-8ccea30883da.cloudapp.net"
+  - name: "www.ccd"
+    ttl: 60
+    record: "ccd.platform.hmcts.net"
+  - name: "apply-divorce.demo"
+    ttl: 600
+    record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
+  - name: "tmwww.apply-divorce.demo"
+    ttl: 3600
+    record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
+  - name: "www.apply-divorce.demo"
+    ttl: 60
+    record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
+  - name: "gateway.ccd.demo"
+    ttl: 300
+    record: "hmcts-ccd-api-gateway-web-demo.trafficmanager.net"
+  - name: "tmgateway.ccd.demo"
+    ttl: 300
+    record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
+  - name: "www.ccd.demo"
+    ttl: 900
+    record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
+  - name: "_72b3a0f9ed774e1b8b760515c730bbe0.enquiry.demo"
+    ttl: 300
+    record: "9A2B3A109D6D5C3A22AFD9F47225EEBA.F04D34FF5A0EF8DAF2774AC358E3E8FA.2d2c18c1aaeac9fcc028.comodoca.com."
+  - name: "hmcts-access.demo"
+    ttl: 900
+    record: "bdd07956-53a1-46ed-a7b9-baf686c9bee1.cloudapp.net"
+  - name: "awverify.sscs.demo"
+    ttl: 60
+    record: "awverify.sscs-tya-frontend-demo-shutter.azurewebsites.net"
+  - name: "_51d8b1c9dd4e64d34db2fbe4ee69a972.docmosis"
+    ttl: 300
+    record: "C1DF7BB648B8C6A26E8BE421298A8110.E423F10778C699B9F67661AF08050428.91f5738a827405b0f0bd.comodoca.com."
+  - name: "_03e19b887aab622531c6eedb5e375d07.enquiry"
+    ttl: 300
+    record: "8ACA4868E050A1C9D5621621EDC9E9F8.6AD45D4646F72722AF5602E076ED8A8F.10088cc50a44bc6d611a.comodoca.com."
+  - name: "fees-register"
+    ttl: 900
+    record: "hmcts-fees-register-frontend-prod.trafficmanager.net"
+  - name: "tmwww.fees-register"
+    ttl: 900
+    record: "58fd15f9-7a11-4de2-8df1-9aef0e807ec2.cloudapp.net"
+  - name: "www.fees-register"
+    ttl: 900
+    record: "hmcts-fees-register-frontend-prod.trafficmanager.net"
+  - name: "gateway-ccd-ethosldata"
+    ttl: 60
+    record: "hmcts-ccd-api-gateway-web-ethosldata.trafficmanager.net"
+  - name: "idam"
+    ttl: 60
+    record: "hmcts-idam-web-public-idam-prod.trafficmanager.net"
+  - name: "www.idam"
+    ttl: 60
+    record: "hmcts-idam-web-public-idam-prod.trafficmanager.net"
+  - name: "idam-web-admin"
+    ttl: 60
+    record: "hmcts-idam-web-admin-idam-prod.trafficmanager.net"
+  - name: "idam-web-public-ethosldata"
+    ttl: 60
+    record: "hmcts-idam-web-public-idam-ethosldata.trafficmanager.net"
+  - name: "_daa65891b4b28959dc2cba8b2137cfb3.ithc"
+    ttl: 300
+    record: "DA0140C78CC21363E7612FB5B696B2F0.72669650AD22FEAC804FFF33F441B4A9.ed1dac006b5ef6170e64.comodoca.com."
+  - name: "jlfsrhi3m76w"
+    ttl: 300
+    record: "gv-st2ccjwg4awsh2.dv.googlehosted.com"
+  - name: "manage-case"
+    ttl: 300
+    record: "hmcts-xui-webapp-prod.trafficmanager.net"
+  - name: "_5ecfb849dc48eea11d818fd219b68bb1.manage-case"
+    ttl: 300
+    record: "2CA16B148A8386A15DD52D1B6FF6ED42.A81C8A2EA633B271718353B91541677A.de3c1a733c9c51de130b.comodoca.com."
+  - name: "manage-org"
+    ttl: 60
+    record: "hmcts-xui-mo-webapp-prod.trafficmanager.net"
+  - name: "_227c728ce7ed54743e78fb8f4843fcd5.manage-org"
+    ttl: 300
+    record: "ADD9E7046E11AB4A157C185A2CDD1458.919EB75126175B997DCAA66BE4A0E9EC.e52c9599ea82e0087458.comodoca.com."
+  - name: "manage-payments"
+    ttl: 900
+    record: "hmcts-bar-web-prod.trafficmanager.net"
+  - name: "tmwww.manage-payments"
+    ttl: 900
+    record: "58fd15f9-7a11-4de2-8df1-9aef0e807ec2.cloudapp.net"
+  - name: "www.manage-payments"
+    ttl: 900
+    record: "hmcts-bar-web-prod.trafficmanager.net"
+  - name: "www.moneyclaim"
+    ttl: 300
+    record: "moneyclaim.reform.hmcts.net"
+  - name: "tmwww.moneyclaim-legal"
+    ttl: 300
+    record: "2a2a11d5-16a8-48c3-955a-2712ccc85d1e.cloudapp.net"
+  - name: "www.moneyclaim-legal"
+    ttl: 300
+    record: "hmcts-cmc-legal-frontend-prod.trafficmanager.net"
+  - name: "divorce.nonprod"
+    ttl: 3600
+    record: "mojmaintenance.azurewebsites.net"
+  - name: "maintenance.nonprod"
+    ttl: 3600
+    record: "mojmaintenance.azurewebsites.net"
+  - name: "moneyclaim-legal.nonprod"
+    ttl: 300
+    record: "mojmaintenance.azurewebsites.net"
+  - name: "maintenance.moneyclaim-legal.nonprod"
+    ttl: 3600
+    record: "mojmaintenance.azurewebsites.net"
+  - name: "tmdivorce.nonprod"
+    ttl: 900
+    record: "7f3cb82c-0944-4944-b8fd-0d736315b202.cloudapp.net"
+  - name: "tmmoneyclaim.nonprod"
+    ttl: 3600
+    record: "7f3cb82c-0944-4944-b8fd-0d736315b202.cloudapp.net"
+  - name: "tmmoneyclaim-legal.nonprod"
+    ttl: 3600
+    record: "7f3cb82c-0944-4944-b8fd-0d736315b202.cloudapp.net"
+  - name: "paybubble"
+    ttl: 300
+    record: "www.paybubble.platform.hmcts.net"
+  - name: "_274fa105e35a1c6271534224dcfcc482.paybubble"
+    ttl: 300
+    record: "9F30B8FF955609E7056D651B27162A6F.71EA2C4A41C2C63882CABF5E5CB7649E.8cb94e7a9661ea20b129.comodoca.com."
+  - name: "_ea7ddc228444799015f19f0b8187f919.paybubble"
+    ttl: 300
+    record: "918AE6DB4F60E56D6E92DB2F5F39E3AA.93CEB9C2DCDAAB64E151F2A7A1851C97.619205da514e83f86951.comodoca.com."
+  - name: "www.paybubble"
+    ttl: 300
+    record: "hmcts-ccpay-bubble-frontend-prod.trafficmanager.net"
+  - name: "_274fa105e35a1c6271534224dcfcc482.www.paybubble"
+    ttl: 300
+    record: "9F30B8FF955609E7056D651B27162A6F.71EA2C4A41C2C63882CABF5E5CB7649E.8cb94e7a9661ea20b129.comodoca.com."
+  - name: "_ea7ddc228444799015f19f0b8187f919.www.paybubble"
+    ttl: 300
+    record: "918AE6DB4F60E56D6E92DB2F5F39E3AA.93CEB9C2DCDAAB64E151F2A7A1851C97.619205da514e83f86951.comodoca.com."
+  - name: "_c3b5fe13b4756db80168bc42e0db38eb.perftest"
+    ttl: 300
+    record: "28AC2C3343F82103E5B6E3CE2E408F9A.3A56404AB020AE88C3FCCACBED8F7066.9f2998dcc45d58baf6f7.comodoca.com."
+  - name: "probate"
+    ttl: 60
+    record: "6a9d29fa-e848-4bc7-b62b-31f7e3979eda.cloudapp.net"
+  - name: "asverify.probate"
+    ttl: 60
+    record: "asverify.probateprod.blob.core.windows.net"
+  - name: "awverify.probate"
+    ttl: 1
+    record: "awverify.probate-frontend-prod-shutter.azurewebsites.net"
+  - name: "reformscan"
+    ttl: 60
+    record: "reformscanprod.blob.core.windows.net"
+  - name: "register-org"
+    ttl: 60
+    record: "hmcts-xui-mo-webapp-prod.trafficmanager.net"
+  - name: "_c2c531954464a2c755d6a6dd2c487d88.register-org"
+    ttl: 300
+    record: "F6DE5E30E7052660D9019668EA45C85F.C9519747E6B82801DCE298E005B0D8AE.db4b852fceaa5260e33e.comodoca.com."
+  - name: "_92ffb1be77f85c0ee399f4ac827f2fe2.www.registration"
+    ttl: 300
+    record: "4F322C641E1B2C63C893DAFAC1ADB44F.05D83D4E12FDA00572A7750ED4111315.5ba0eda06642d.comodoca.com"
+  - name: "probate.saat"
+    ttl: 60
+    record: "probate-frontend-0f57-saat.azurewebsites.net"
+  - name: "awverify.probate.saat"
+    ttl: 60
+    record: "awverify.probate-frontend-0f57-saat.azurewebsites.net"
+  - name: "_fe952d2ae36602de857ba2c3e66d049f.sharedservices"
+    ttl: 300
+    record: "3D4173ADC0AA3CD47318DC2295E46A17.BC942C46B4C23BD4BB4C58E14F3B218B.a5537a7ededd2ffe4de4.comodoca.com."
+  - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl"
+    ttl: 60
+    record: "A7B189C7C4F1A978D3A38A0B82D1C130.19259BC1E2806E3CDEDB77E0346DCCA2.5be957abaab99.comodoca.com"
+  - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl-api"
+    ttl: 60
+    record: "A7B189C7C4F1A978D3A38A0B82D1C130.19259BC1E2806E3CDEDB77E0346DCCA2.5be957abaab99.comodoca.com"
+  - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl-notes"
+    ttl: 60
+    record: "A7B189C7C4F1A978D3A38A0B82D1C130.19259BC1E2806E3CDEDB77E0346DCCA2.5be957abaab99.comodoca.com"
+  - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl1"
+    ttl: 60
+    record: "A7B189C7C4F1A978D3A38A0B82D1C130.19259BC1E2806E3CDEDB77E0346DCCA2.5be957abaab99.comodoca.com"
+  - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl1-api"
+    ttl: 60
+    record: "A7B189C7C4F1A978D3A38A0B82D1C130.19259BC1E2806E3CDEDB77E0346DCCA2.5be957abaab99.comodoca.com"
+  - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl1-notes"
+    ttl: 60
+    record: "A7B189C7C4F1A978D3A38A0B82D1C130.19259BC1E2806E3CDEDB77E0346DCCA2.5be957abaab99.comodoca.com"
+  - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl2"
+    ttl: 60
+    record: "A7B189C7C4F1A978D3A38A0B82D1C130.19259BC1E2806E3CDEDB77E0346DCCA2.5be957abaab99.comodoca.com"
+  - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl2-api"
+    ttl: 60
+    record: "A7B189C7C4F1A978D3A38A0B82D1C130.19259BC1E2806E3CDEDB77E0346DCCA2.5be957abaab99.comodoca.com"
+  - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl2-notes"
+    ttl: 60
+    record: "A7B189C7C4F1A978D3A38A0B82D1C130.19259BC1E2806E3CDEDB77E0346DCCA2.5be957abaab99.comodoca.com"
+  - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl3"
+    ttl: 60
+    record: "A7B189C7C4F1A978D3A38A0B82D1C130.19259BC1E2806E3CDEDB77E0346DCCA2.5be957abaab99.comodoca.com"
+  - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl3-api"
+    ttl: 60
+    record: "A7B189C7C4F1A978D3A38A0B82D1C130.19259BC1E2806E3CDEDB77E0346DCCA2.5be957abaab99.comodoca.com"
+  - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl3-notes"
+    ttl: 60
+    record: "A7B189C7C4F1A978D3A38A0B82D1C130.19259BC1E2806E3CDEDB77E0346DCCA2.5be957abaab99.comodoca.com"
+  - name: "tmadminister-orgs"
+    ttl: 60
+    record: "3ea55565-0202-4fa4-a74b-e9b0bccdefd5.cloudapp.net"
+  - name: "tmbenefit-appeal"
+    ttl: 3600
+    record: "58fd15f9-7a11-4de2-8df1-9aef0e807ec2.cloudapp.net"
+  - name: "tmgateway-ccd-ethosldata"
+    ttl: 60
+    record: "b1e5bfab-d489-40f8-b559-5b30d02f1b48.cloudapp.net"
+  - name: "tmidam-web-admin"
+    ttl: 60
+    record: "7436ed5c-c64c-4053-9c36-6d8ee8702a6d.cloudapp.net"
+  - name: "tmidam-web-public"
+    ttl: 60
+    record: "7436ed5c-c64c-4053-9c36-6d8ee8702a6d.cloudapp.net"
+  - name: "tmidam-web-public-ethosldata"
+    ttl: 60
+    record: "500f1820-ccf8-4799-9d15-900c58827d70.cloudapp.net"
+  - name: "tmmanage-case"
+    ttl: 300
+    record: "3ea55565-0202-4fa4-a74b-e9b0bccdefd5.cloudapp.net"
+  - name: "tmmanage-org"
+    ttl: 300
+    record: "3ea55565-0202-4fa4-a74b-e9b0bccdefd5.cloudapp.net"
+  - name: "tmpaybubble"
+    ttl: 300
+    record: "3563cbf6-3619-4245-9ff8-bd4ffc8bd57f.cloudapp.net"
+  - name: "tmtrack-appeal"
+    ttl: 3600
+    record: "58fd15f9-7a11-4de2-8df1-9aef0e807ec2.cloudapp.net"
+  - name: "tmwww-ccd-ethosldata"
+    ttl: 60
+    record: "b1e5bfab-d489-40f8-b559-5b30d02f1b48.cloudapp.net"
+  - name: "track-appeal"
+    ttl: 3600
+    record: "hmcts-sscs-tya-frontend-prod.trafficmanager.net"
+  - name: "www.track-appeal"
+    ttl: 900
+    record: "hmcts-sscs-tya-frontend-prod.trafficmanager.net"
+  - name: "www-ccd-ethosldata"
+    ttl: 60
+    record: "hmcts-ccd-case-management-web-ethosldata.trafficmanager.net"
