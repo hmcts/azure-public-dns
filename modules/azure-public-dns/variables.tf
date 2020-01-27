@@ -22,6 +22,9 @@ variable "a_recordsets" {
 variable "txt_recordsets" {
   default = []
 }
+variable "srv_recordsets" {
+  default = []
+}
 variable "env" {
   default = "sbox"
 }
