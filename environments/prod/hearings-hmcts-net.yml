@@ -190,6 +190,37 @@ A:
       - "35.246.113.194"
       - "35.246.79.59"
 
+srv:
+  - name: "_h323cs._tcp"
+    ttl: 86400
+    record:
+      - "10,10,1720,ext-node01.hearings.hmcts.net"
+      - "10,10,1720,ext-node02.hearings.hmcts.net"
+  - name: "_sip._tcp"
+    ttl: 86400
+    record:
+      - "10,10,5060,ext-node02.hearings.hmcts.net"
+      - "10,10,5060,ext-node01.hearings.hmcts.net"
+  - name: "_sipfederationtls._tcp"
+    ttl: 86400
+    record:
+      - "10,10,5061,sip.hearings.hmcts.net"
+  - name: "_sips._tcp"
+    ttl: 86400
+    record:
+      - "10,10,5061,ext-node02.hearings.hmcts.net"
+      - "10,10,5061,ext-node01.hearings.hmcts.net"
+  - name: "_h323ls._udp"
+    ttl: 86400
+    record:
+      - "10,10,1719,ext-node02.hearings.hmcts.net"
+      - "10,10,1719,ext-node01.hearings.hmcts.net"
+  - name: "_h323rs._udp"
+    ttl: 86400
+    record:
+      - "10,10,1719,ext-node02.hearings.hmcts.net"
+      - "10,10,1719,ext-node01.hearings.hmcts.net"
+
 
 cname:
   - name: "_b23665c45f36445a89205a205c2c9fdd"
