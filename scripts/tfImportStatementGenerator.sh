@@ -14,6 +14,8 @@ read TYPE
 rm -rf $ZONENAME-*.json
 rm -rf $ZONENAME-*-tfimport.sh
 
+RESNAME=${TYPE,,}
+
 az network dns record-set $TYPE list --resource-group reformmgmtrg --zone-name $ZONENAME >> "$ZONENAME-$TYPE.json"
 
 echo "Records exported .....successfuly....."
@@ -24,7 +26,7 @@ echo "RecordCount = $count"
 
 for ((c=0; c<$count; c++))
 do
-  echo "terraform import module.$MODULENAME.azurerm_dns_cname_record.this[$c] `cat $ZONENAME-$TYPE.json | jq -r --argjson i $c '.[$i].id'` " >> $ZONENAME-$TYPE-tfimport.sh
+  echo "terraform import module.$MODULENAME.azurerm_${RESNAME}_record.this[$c] `cat $ZONENAME-$TYPE.json | jq -r --argjson i $c '.[$i].id'` " >> $ZONENAME-$TYPE-tfimport.sh
 done
 
 echo "TF import commands generated successfuly......."
