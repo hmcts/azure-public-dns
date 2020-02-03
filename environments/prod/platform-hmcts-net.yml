@@ -367,7 +367,7 @@ cname:
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
   - name: "cdnverify.manage-org"
-    ttl: 300
+    ttl: 3600
     record: "cdnverify.hmcts-manage-org-shutter-prod.azureedge.net"
   - name: "_227c728ce7ed54743e78fb8f4843fcd5.manage-org"
     ttl: 300
