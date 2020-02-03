@@ -231,6 +231,12 @@ cname:
   - name: "administer-orgs"
     ttl: 60
     record: "hmcts-xui-ao-webapp-prod.trafficmanager.net"
+  - name: "afdverify.administer-orgs"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.administer-orgs"
+    ttl: 3600
+    record: "cdnverify.hmcts-administer-orgs-shutter-prod.azureedge.net"
   - name: "_32b104df3aace6a2d9e9ff6637a81c2f.administer-orgs"
     ttl: 300
     record: "A55BDFDFA635B5D69F9770A7D344E4BF.E78E96400CB03D8CA3945CB7A0931989.d5e95a3c9f187c3d6835.comodoca.com."
@@ -345,12 +351,24 @@ cname:
   - name: "manage-case"
     ttl: 300
     record: "hmcts-xui-webapp-prod.trafficmanager.net"
+  - name: "afdverify.manage-case"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.manage-case"
+    ttl: 3600
+    record: "cdnverify.hmcts-manage-case-shutter-prod.azureedge.net"
   - name: "_5ecfb849dc48eea11d818fd219b68bb1.manage-case"
     ttl: 300
     record: "2CA16B148A8386A15DD52D1B6FF6ED42.A81C8A2EA633B271718353B91541677A.de3c1a733c9c51de130b.comodoca.com."
   - name: "manage-org"
     ttl: 60
     record: "hmcts-xui-mo-webapp-prod.trafficmanager.net"
+  - name: "afdverify.manage-org"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.manage-org"
+    ttl: 3600
+    record: "cdnverify.hmcts-manage-org-shutter-prod.azureedge.net"
   - name: "_227c728ce7ed54743e78fb8f4843fcd5.manage-org"
     ttl: 300
     record: "ADD9E7046E11AB4A157C185A2CDD1458.919EB75126175B997DCAA66BE4A0E9EC.e52c9599ea82e0087458.comodoca.com."

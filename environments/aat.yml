@@ -81,3 +81,21 @@ cname:
   - name: "track-appeal"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.manage-case"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "manage-case"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.manage-org"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "manage-org"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.administer-orgs"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "administer-orgs"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
