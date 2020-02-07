@@ -540,3 +540,9 @@ cname:
   - name: "www-ccd-ethosldata"
     ttl: 60
     record: "hmcts-ccd-case-management-web-ethosldata.trafficmanager.net"
+  - name: "afdverify.register-org"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.register-org"
+    ttl: 3600
+    record: "cdnverify.hmcts-register-org-shutter-prod.azureedge.net"
