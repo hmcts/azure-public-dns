@@ -102,3 +102,9 @@ cname:
   - name: "administer-orgs"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.register-org"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "register-org"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
