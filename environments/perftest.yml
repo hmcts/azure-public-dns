@@ -14,6 +14,12 @@ A:
 txt:
 
 cname:
+  - name: "afdverify.benefit-appeal"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "benefit-appeal"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
   - name: "bulkscan"
     ttl: 3600
     record: "ad037a62-5f44-4add-9862-ecf0f1d6e7f8.cloudapp.net"
