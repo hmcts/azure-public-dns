@@ -14,3 +14,6 @@ A:
 txt:
 
 cname:
+  - name: "bulkscan"
+    ttl: 3600
+    record: "ad037a62-5f44-4add-9862-ecf0f1d6e7f8.cloudapp.net"
