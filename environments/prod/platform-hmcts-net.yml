@@ -442,10 +442,10 @@ cname:
     ttl: 1
     record: "awverify.probate-frontend-prod-shutter.azurewebsites.net"
   - name: "reformscan"
-    ttl: 60
+    ttl: 3600
     record: "adae2575-b89f-49d9-9d95-43aaf8a3a71f.cloudapp.net"
   - name: "asverify.reformscan"
-    ttl: 60
+    ttl: 3600
     record: "asverify.reformscanprod.blob.core.windows.net"
   - name: "register-org"
     ttl: 60
