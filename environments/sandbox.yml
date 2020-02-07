@@ -59,3 +59,13 @@ cname:
   - name: "plum.uksouth"
     ttl: 3600
     record: "firewall-sbox.uksouth.cloudapp.azure.com"
+  - name: "afdverify.idam-web-public-aks"
+    ttl: 300
+    record: "afdverify.hmcts-sbox.azurefd.net"
+  - name: "cdnverify.idam-web-public-aks"
+    ttl: 300
+    record: "cdnverify.hmcts-idam-web-public-aks-shutter-sbox.azureedge.net"
+  - name: "idam-web-public-aks"
+    ttl: 300
+    record: "hmcts-sbox.azurefd.net"
+    shutter: false
