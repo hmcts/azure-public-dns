@@ -14,3 +14,9 @@ A:
 txt:
 
 cname:
+  - name: "afdverify.benefit-appeal"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "benefit-appeal"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
