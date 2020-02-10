@@ -23,3 +23,6 @@ cname:
   - name: "bulkscan"
     ttl: 3600
     record: "bulkscanperftest.blob.core.windows.net"
+  - name: "asverify.bulkscan"
+    ttl: 3600
+    record: "asverify.bulkscanperftest.blob.core.windows.net"
