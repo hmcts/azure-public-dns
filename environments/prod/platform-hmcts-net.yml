@@ -76,6 +76,13 @@ ns:
       - "ns2-01.azure-dns.net"
       - "ns3-01.azure-dns.org"
       - "ns4-01.azure-dns.info"
+  - name: "perftest"
+    ttl: 900
+    record: 
+      - "ns1-09.azure-dns.com"
+      - "ns2-09.azure-dns.net"
+      - "ns3-09.azure-dns.org"
+      - "ns4-09.azure-dns.info"
 
 
 mx:
