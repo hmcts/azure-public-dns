@@ -20,6 +20,12 @@ cname:
   - name: "benefit-appeal"
     ttl: 3600
     record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.sscs-cor"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "sscs-cor"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
   - name: "bulkscan"
     ttl: 3600
     record: "bulkscanperftest.blob.core.windows.net"
