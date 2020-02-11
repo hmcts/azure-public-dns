@@ -20,7 +20,7 @@ cname:
     record: "C648764CDB3F90B8D135D9335993A767.ABBA811E0AD75A1ABB2EB5C0CDCD5B0F.wiRpxFcZvwUNTJeY5mtL.comodoca.com"
   - name: "bulkscan"
     ttl: 60
-    record: "521f6bd6-30de-43d1-9d37-2f585c8b3118.cloudapp.net"
+    record: "bulkscanaat.blob.core.windows.net"
   - name: "asverify.bulkscan"
     ttl: 60
     record: "asverify.bulkscanaat.blob.core.windows.net"
