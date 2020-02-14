@@ -52,9 +52,6 @@ cname:
   - name: "gateway-ccd"
     ttl: 60
     record: "a56e4113-9db3-4bd3-ad20-01f2eb3926c4.cloudapp.net"
-  - name: "idam-web-public"
-    ttl: 60
-    record: "f8ba11e0-da48-45a5-b105-7aed33e2bf42.cloudapp.net"
   - name: "moneyclaim-legal" 
     ttl: 60
     record: "e10387a8-f6ed-40f8-9557-f158497ccb5e.cloudapp.net"
@@ -79,5 +76,13 @@ cname:
   - name: "www-ccd"
     ttl: 60
     record: "a56e4113-9db3-4bd3-ad20-01f2eb3926c4.cloudapp.net"
-
-  
+  - name: "afdverify.idam-web-public-aks"
+    ttl: 300
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "cdnverify.idam-web-public-aks"
+    ttl: 300
+    record: "cdnverify.hmcts-idam-web-public-aks-shutter-ithc.azureedge.net"
+  - name: "idam-web-public-aks"
+    ttl: 300
+    record: "hmcts-ithc.azurefd.net"
+    shutter: false
