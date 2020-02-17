@@ -6,4 +6,5 @@ module "hearings" {
   srv_recordsets      = yamldecode(data.local_file.hearings-config.content).srv
   zone_name           = azurerm_dns_zone.hearings.name
   resource_group_name = data.azurerm_resource_group.main.name
+  env                 = var.env
 }

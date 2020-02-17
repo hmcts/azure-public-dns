@@ -5,4 +5,5 @@ module "hmcts-access" {
   a_recordsets        = yamldecode(data.local_file.hmcts-access-config.content).A
   zone_name           = azurerm_dns_zone.hmcts-access.name
   resource_group_name = data.azurerm_resource_group.main.name
+  env                 = var.env
 }
