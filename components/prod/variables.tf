@@ -3,3 +3,7 @@ variable "resource_group_name" {
   description = "The name of the resource group that contains the DNS zone where the records will be added."
   default     = "reformmgmtrg"
 }
+
+variable "env" {
+  default = "prod"
+}

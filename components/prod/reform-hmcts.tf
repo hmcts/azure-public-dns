@@ -5,4 +5,5 @@ module "reform-hmcts" {
   a_recordsets        = yamldecode(data.local_file.reform-hmcts-config.content).A
   zone_name           = azurerm_dns_zone.reform-hmcts.name
   resource_group_name = data.azurerm_resource_group.main.name
+  env                 = var.env
 }
