@@ -28,7 +28,7 @@ cname:
     record: "hmcts-perftest.azurefd.net"
   - name: "bulkscan"
     ttl: 300
-    record: "bulkscanperftest.blob.core.windows.net"
+    record: "cce9c112-ef98-4879-81ee-e7ce4ff33356.cloudapp.net"
   - name: "asverify.bulkscan"
     ttl: 300
     record: "asverify.bulkscanperftest.blob.core.windows.net"
