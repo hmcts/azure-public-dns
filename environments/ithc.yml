@@ -86,3 +86,18 @@ cname:
     ttl: 300
     record: "hmcts-ithc.azurefd.net"
     shutter: false
+  - name: "afdverify.moneyclaims"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "afdverify.moneyclaims-legal"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "afdverify.www-ccd"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "afdverify.gateway-ccd"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "afdverify.return-case-doc-ccd"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc.azurefd.net"

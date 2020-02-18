@@ -36,3 +36,9 @@ cname:
   - name: "_cddf219b9b1bc5e7352581667fa9d408.www"
     ttl: 900
     record: "F88757C85617781BF24549F524B929C3.3C7E5FACB87A31D8352625A3C2013695.5aaa7d7902b7f.comodoca.com"
+  - name: "cdnverify.www"
+    ttl: 300
+    record: "cdnverify.hmcts-moneyclaims-prod.azureedge.net"
+  - name: "afdverify.www"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"

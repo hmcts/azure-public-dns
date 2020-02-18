@@ -556,3 +556,27 @@ cname:
   - name: "cdnverify.register-org"
     ttl: 3600
     record: "cdnverify.hmcts-register-org-shutter-prod.azureedge.net"
+  - name: "cdnverify.www.moneyclaim-legal"
+    ttl: 300
+    record: "cdnverify.hmcts-moneyclaim-legal-prod.azureedge.net"
+  - name: "afdverify.www.moneyclaim-legal"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.www.ccd"
+    ttl: 300
+    record: "cdnverify.hmcts-ccd-prod.azureedge.net"
+  - name: "afdverify.www.ccd"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.gateway.ccd"
+    ttl: 300
+    record: "cdnverify.hmcts-gateway-prod.azureedge.net"
+  - name: "afdverify.gateway.ccd"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.return-case-doc.ccd"
+    ttl: 300
+    record: "cdnverify.hmcts-return-case-doc-prod.azureedge.net"
+  - name: "afdverify.return-case-doc.ccd"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
