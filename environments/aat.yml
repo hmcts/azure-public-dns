@@ -114,3 +114,12 @@ cname:
   - name: "afdverify.moneyclaims-legal"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "afdverify.www-ccd"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "afdverify.gateway-ccd"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "afdverify.return-case-doc-ccd"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
