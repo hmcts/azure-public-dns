@@ -108,3 +108,9 @@ cname:
   - name: "register-org"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.moneyclaims"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "afdverify.moneyclaims-legal"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"

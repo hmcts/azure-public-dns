@@ -556,3 +556,9 @@ cname:
   - name: "cdnverify.register-org"
     ttl: 3600
     record: "cdnverify.hmcts-register-org-shutter-prod.azureedge.net"
+  - name: "cdnverify.www.moneyclaim-legal"
+    ttl: 300
+    record: "cdnverify.hmcts-moneyclaim-legal-prod.azureedge.net"
+  - name: "afdverify.www.moneyclaim-legal"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
