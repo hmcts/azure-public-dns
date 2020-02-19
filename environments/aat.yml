@@ -47,7 +47,7 @@ cname:
     record: "probateaat.blob.core.windows.net"
   - name: "reformscan"
     ttl: 60
-    record: "aa5333c5-59a4-4828-bbcf-b22298069171.cloudapp.net"
+    record: "reformscanaat.blob.core.windows.net"
   - name: "asverify.reformscan"
     ttl: 3600
     record: "asverify.reformscanaat.blob.core.windows.net"
