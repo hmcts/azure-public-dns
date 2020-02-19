@@ -283,6 +283,7 @@ cname:
   - name: "gateway.ccd"
     ttl: 60
     record: "hmcts-ccd-api-gateway-web-prod.trafficmanager.net"
+    shutter: false
   - name: "tmgateway.ccd"
     ttl: 60
     record: "5a052b01-331d-4789-9c63-8ccea30883da.cloudapp.net"
@@ -292,6 +293,7 @@ cname:
   - name: "www.ccd"
     ttl: 60
     record: "ccd.platform.hmcts.net"
+    shutter: false
   - name: "apply-divorce.demo"
     ttl: 600
     record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
@@ -558,25 +560,25 @@ cname:
     record: "cdnverify.hmcts-register-org-shutter-prod.azureedge.net"
   - name: "cdnverify.www.moneyclaim-legal"
     ttl: 300
-    record: "cdnverify.hmcts-moneyclaim-legal-prod.azureedge.net"
+    record: "cdnverify.hmcts-moneyclaim-legal-shutter-prod.azureedge.net"
   - name: "afdverify.www.moneyclaim-legal"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
   - name: "cdnverify.www.ccd"
     ttl: 300
-    record: "cdnverify.hmcts-ccd-prod.azureedge.net"
+    record: "cdnverify.hmcts-ccd-shutter-prod.azureedge.net"
   - name: "afdverify.www.ccd"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
   - name: "cdnverify.gateway.ccd"
     ttl: 300
-    record: "cdnverify.hmcts-gateway-prod.azureedge.net"
+    record: "cdnverify.hmcts-gateway-shutter-prod.azureedge.net"
   - name: "afdverify.gateway.ccd"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
   - name: "cdnverify.return-case-doc.ccd"
     ttl: 300
-    record: "cdnverify.hmcts-return-case-doc-prod.azureedge.net"
+    record: "cdnverify.hmcts-return-case-doc-shutter-prod.azureedge.net"
   - name: "afdverify.return-case-doc.ccd"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
