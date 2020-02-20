@@ -112,6 +112,10 @@ A:
     ttl: 60
     record: 
       - "51.140.44.46"
+  - name: "cp-nle"
+    ttl: 3600
+    record: 
+      - "51.145.47.4"
   - name: "ctsc-web-forms-ui-stg"
     ttl: 60
     record: 
