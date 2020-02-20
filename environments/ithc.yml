@@ -1,11 +1,4 @@
 ns:
-  - name: "@"
-    ttl: 172800
-    record:
-      - "ns1-01.azure-dns.com."
-      - "ns2-01.azure-dns.net."
-      - "ns3-01.azure-dns.org."
-      - "ns4-01.azure-dns.info."
 
 mx:
   - name: "contact.justice"

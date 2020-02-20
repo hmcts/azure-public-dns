@@ -1,7 +1,6 @@
 module "hearings" {
   source              = "../../modules/azure-public-dns/"
   cname_records       = yamldecode(data.local_file.hearings-config.content).cname
-  ns_recordsets       = yamldecode(data.local_file.hearings-config.content).ns
   a_recordsets        = yamldecode(data.local_file.hearings-config.content).A
   srv_recordsets      = yamldecode(data.local_file.hearings-config.content).srv
   zone_name           = azurerm_dns_zone.hearings.name
