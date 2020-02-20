@@ -1,32 +1,36 @@
-steps:
-  - task: TerraformInstaller@0
-    inputs:
-      terraformVersion: ${{ parameters.terraformVersion }}
-  - task: TerraformCLI@0
-    displayName: Init - ${{ parameters.zone }}
-    inputs:
-      command: 'init'
-      commandOptions: '-lock=false' # don't lock on PRs / validate phase
-      backendType: 'azurerm'
-      backendServiceArm: 'Reform-CFT-Mgmt'
-      backendAzureRmResourceGroupName: 'reform-cft-mgmt'
-      backendAzureRmStorageAccountName: 'reformcftmgmt'
-      backendAzureRmContainerName: 'tfstate'
-      backendAzureRmKey: 'public-dns/${{ parameters.zone }}.tfstate'
-      workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.zone }}'
-  - task: TerraformCLI@0
-    displayName: Plan - ${{ parameters.zone }}
-    inputs:
-      command: 'plan'
-      commandOptions: '-out=${{ parameters.zone }}${{ parameters.build }}plan'
-      workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.zone }}'
-      environmentServiceName: 'Reform-CFT-Mgmt'
-  - task: Bash@3
-    displayName: "Remove local tfstate"
-    inputs:
-      targetType: 'inline'
-      workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.zone }}'
-      script: |
-        rm -f terraform.tfstate* && rm -rf .terraform/
-  - publish: $(System.DefaultWorkingDirectory)/components/${{ parameters.zone }}/${{ parameters.zone }}${{ parameters.build }}plan
-    artifact: ${{ parameters.zone }}${{ parameters.build }}plan
+jobs:
+  - job: Plan_${{ parameters.zone }}
+    pool:
+      vmImage: ${{ parameters.agentPool }}
+    steps:
+      - task: TerraformInstaller@0
+        inputs:
+          terraformVersion: ${{ parameters.terraformVersion }}
+      - task: TerraformCLI@0
+        displayName: Init - ${{ parameters.zone }}
+        inputs:
+          command: 'init'
+          commandOptions: '-lock=false' # don't lock on PRs / validate phase
+          backendType: 'azurerm'
+          backendServiceArm: 'Reform-CFT-Mgmt'
+          backendAzureRmResourceGroupName: 'reform-cft-mgmt'
+          backendAzureRmStorageAccountName: 'reformcftmgmt'
+          backendAzureRmContainerName: 'tfstate'
+          backendAzureRmKey: 'public-dns/${{ parameters.zone }}.tfstate'
+          workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.zone }}'
+      - task: TerraformCLI@0
+        displayName: Plan - ${{ parameters.zone }}
+        inputs:
+          command: 'plan'
+          commandOptions: '-out=${{ parameters.zone }}${{ parameters.build }}plan'
+          workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.zone }}'
+          environmentServiceName: 'Reform-CFT-Mgmt'
+      - task: Bash@3
+        displayName: "Remove local tfstate"
+        inputs:
+          targetType: 'inline'
+          workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.zone }}'
+          script: |
+            rm -f terraform.tfstate* && rm -rf .terraform/
+      - publish: $(System.DefaultWorkingDirectory)/components/${{ parameters.zone }}/${{ parameters.zone }}${{ parameters.build }}plan
+        artifact: ${{ parameters.zone }}${{ parameters.build }}plan

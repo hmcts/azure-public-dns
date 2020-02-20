@@ -15,54 +15,49 @@ stages:
   - stage: Plan_phase
     displayName: "Terraform Plan"
     jobs:
-      - job: Validate
-        pool:
-          vmImage: ${{ variables.agentPool }}
-        steps:
-          - template: pipeline-templates/terraform-plan.yaml
-            parameters:
-              zone: 'sandbox'
-              build: $(Build.BuildNumber)
-              agentPool: ${{ variables.agentPool }}
-              terraformVersion: ${{ variables.terraformVersion }}
+      - template: pipeline-templates/terraform-plan.yaml
+        parameters:
+          zone: 'sandbox'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
           
-          - template: pipeline-templates/terraform-plan.yaml
-            parameters:
-              zone: 'preview'
-              build: $(Build.BuildNumber)
-              agentPool: ${{ variables.agentPool }}
-              terraformVersion: ${{ variables.terraformVersion }}
+      - template: pipeline-templates/terraform-plan.yaml
+        parameters:
+          zone: 'preview'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
           
-          - template: pipeline-templates/terraform-plan.yaml
-            parameters:
-              zone: 'ithc'
-              build: $(Build.BuildNumber)
-              agentPool: ${{ variables.agentPool }}
-              terraformVersion: ${{ variables.terraformVersion }}
+      - template: pipeline-templates/terraform-plan.yaml
+        parameters:
+          zone: 'ithc'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
 
-          - template: pipeline-templates/terraform-plan.yaml
-            parameters:
-              zone: 'perftest'
-              build: $(Build.BuildNumber)
-              agentPool: ${{ variables.agentPool }}
-              terraformVersion: ${{ variables.terraformVersion }}
+      - template: pipeline-templates/terraform-plan.yaml
+        parameters:
+          zone: 'perftest'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
 
-          - template: pipeline-templates/terraform-plan.yaml
-            parameters:
-              zone: 'aat'
-              build: $(Build.BuildNumber)
-              agentPool: ${{ variables.agentPool }}
-              terraformVersion: ${{ variables.terraformVersion }}
+      - template: pipeline-templates/terraform-plan.yaml
+        parameters:
+          zone: 'aat'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
 
-          - template: pipeline-templates/terraform-plan.yaml
-            parameters:
-              zone: 'prod'
-              build: $(Build.BuildNumber)
-              agentPool: ${{ variables.agentPool }}
-              terraformVersion: ${{ variables.terraformVersion }}
+      - template: pipeline-templates/terraform-plan.yaml
+        parameters:
+          zone: 'prod'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
               
       - job: Archive
-        dependsOn: Validate
         pool:
           vmImage: ${{ variables.agentPool }}
         steps:
