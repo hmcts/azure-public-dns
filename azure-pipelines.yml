@@ -58,7 +58,6 @@ stages:
           terraformVersion: ${{ variables.terraformVersion }}
               
       - job: Archive
-        dependsOn: Plan_phase
         pool:
           vmImage: ${{ variables.agentPool }}
         steps:
