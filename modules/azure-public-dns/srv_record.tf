@@ -1,14 +1,16 @@
 resource "azurerm_dns_srv_record" "this" {
-  count = length(var.srv_recordsets)
+  for_each = { for record in var.srv_recordsets :
+    record.name => record
+  }
 
   resource_group_name = lower(var.resource_group_name)
   zone_name           = var.zone_name
 
-  name = var.srv_recordsets[count.index].name
-  ttl  = var.srv_recordsets[count.index].ttl
+  name = each.value.name
+  ttl  = each.value.ttl
 
   dynamic "record" {
-    for_each = var.srv_recordsets[count.index].record
+    for_each = each.value.record
     content {
       priority = split(",", record.value)[0]
       weight   = split(",", record.value)[1]

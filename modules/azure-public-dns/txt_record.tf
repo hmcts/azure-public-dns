@@ -1,14 +1,16 @@
 resource "azurerm_dns_txt_record" "this" {
-  count = length(var.txt_recordsets)
+  for_each = { for record in var.txt_recordsets :
+    record.name => record
+  }
 
   resource_group_name = lower(var.resource_group_name)
   zone_name           = var.zone_name
 
-  name = var.txt_recordsets[count.index].name
-  ttl  = var.txt_recordsets[count.index].ttl
+  name = each.value.name
+  ttl  = each.value.ttl
 
   dynamic "record" {
-    for_each = var.txt_recordsets[count.index].record
+    for_each = each.value.record
     content {
       value = record.value
     }
