@@ -116,3 +116,9 @@ cname:
   - name: "afdverify.return-case-doc-ccd"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "afdverify.pcq"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "pcq"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
