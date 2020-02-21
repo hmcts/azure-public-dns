@@ -40,3 +40,9 @@ cname:
   - name: "afdverify.return-case-doc-ccd"
     ttl: 3600
     record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "reformscan"
+    ttl: 300
+    record: "reformscanperftest.blob.core.windows.net"
+  - name: "asverify.reformscan"
+    ttl: 300
+    record: "asverify.reformscanperftest.blob.core.windows.net"
