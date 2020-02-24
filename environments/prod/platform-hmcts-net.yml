@@ -449,7 +449,7 @@ cname:
     record: "awverify.probate-frontend-prod-shutter.azurewebsites.net"
   - name: "reformscan"
     ttl: 3600
-    record: "reformscanprod.blob.core.windows.net"
+    record: "ea52f7b8-c068-4047-816b-99da3e7f3aad.cloudapp.net"
   - name: "asverify.reformscan"
     ttl: 3600
     record: "asverify.reformscanprod.blob.core.windows.net"
