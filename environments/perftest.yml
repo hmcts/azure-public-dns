@@ -42,7 +42,7 @@ cname:
     record: "afdverify.hmcts-perftest.azurefd.net"
   - name: "reformscan"
     ttl: 300
-    record: "reformscanperftest.blob.core.windows.net"
+    record: "a975c6f9-93cc-42fe-8cb1-c194eee0e2db.cloudapp.net"
   - name: "asverify.reformscan"
     ttl: 300
     record: "asverify.reformscanperftest.blob.core.windows.net"
