@@ -46,3 +46,9 @@ cname:
   - name: "asverify.reformscan"
     ttl: 300
     record: "asverify.reformscanperftest.blob.core.windows.net"
+  - name: "afdverify.idam-web-public"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "idam-web-public"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
