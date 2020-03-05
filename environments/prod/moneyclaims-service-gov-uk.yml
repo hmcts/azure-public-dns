@@ -22,7 +22,7 @@ cname:
     record: "9336D3BF8912D01A91B7F0E768304F7F.145BFE1B9EE875298E82C98EA6AB00E7.5ad8ff8c02567.comodoca.com"
   - name: "www"
     ttl: 60
-    record: "hmcts-cmc-citizen-frontend-prod.trafficmanager.net"
+    record: "hmcts-prod.azurefd.net"
     shutter: false
   - name: "_6a51478569b43a0942cd0165e3ee53be.www"
     ttl: 300
