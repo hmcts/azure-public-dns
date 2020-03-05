@@ -580,3 +580,7 @@ cname:
   - name: "afdverify.return-case-doc.ccd"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "www.immigration-appeal"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+    shutter: true
