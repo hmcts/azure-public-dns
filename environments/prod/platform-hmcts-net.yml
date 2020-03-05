@@ -395,7 +395,7 @@ cname:
     record: "2a2a11d5-16a8-48c3-955a-2712ccc85d1e.cloudapp.net"
   - name: "www.moneyclaim-legal"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-cmc-legal-frontend-prod.trafficmanager.net"
     shutter: false
   - name: "divorce.nonprod"
     ttl: 3600
