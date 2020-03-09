@@ -20,6 +20,7 @@ cname:
   - name: "www.manage"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
+    shutter: false
   - name: "_450e1bd3bc80b1f7a49de1c04ad0fce1.www.manage"
     ttl: 300
     record: "FA095616B4B8EE4A3A3DAED015E2F89D.327318523FC0C21F743601DB7D9A6A94.8e266aef0beb22dc747c.comodoca.com."
@@ -31,7 +32,8 @@ cname:
     record: "61fc774aa368c0c2ae624b21b470c030.d134730d8b6fecff1bc41351fb0f1d46.5b3cb951bd6dd.comodoca.com"
   - name: "www"
     ttl: 300
-    record: "hmcts-sscs-tribunals-frontend-prod.trafficmanager.net"
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
   - name: "cdnverify.www"
     ttl: 300
     record: "cdnverify.hmcts-appeal-benefit-decision-shutter-prod.azureedge.net"
