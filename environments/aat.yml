@@ -134,6 +134,3 @@ cname:
   - name: "immigration-appeal"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
-  - name: "plum-timj-debug"
-    ttl: 3600
-    record: "timj-debug.azurefd.net"
