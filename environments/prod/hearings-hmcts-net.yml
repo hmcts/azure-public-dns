@@ -2,186 +2,244 @@ ns:
 
 
 A:
-  - name: "@"
-    ttl: 300
-    record: 
-      - "34.96.101.242"
+  # dev
+  # hearings
   - name: "dev"
     ttl: 300
-    record: 
+    record:
       - "35.197.211.152"
   - name: "join.dev"
     ttl: 3600
-    record: 
+    record:
       - "35.197.211.152"
   - name: "px01.dev"
     ttl: 3600
-    record: 
+    record:
       - "35.189.112.240"
   - name: "px02.dev"
     ttl: 3600
-    record: 
+    record:
       - "35.189.68.180"
   - name: "px03.dev"
     ttl: 3600
-    record: 
+    record:
       - "35.189.116.29"
   - name: "sip.dev"
     ttl: 3600
-    record: 
+    record:
       - "35.189.112.240"
       - "35.189.68.180"
       - "35.189.116.29"
-  - name: "ext-node01"
-    ttl: 86400
-    record: 
-      - "35.230.133.93"
-  - name: "ext-node02"
-    ttl: 86400
-    record: 
-      - "35.234.139.21"
-  - name: "join"
-    ttl: 300
-    record: 
-      - "34.96.101.242"
-  - name: "live"
-    ttl: 86400
-    record: 
-      - "35.234.150.24"
-  - name: "join.live"
-    ttl: 86400
-    record: 
-      - "35.234.150.24"
-  - name: "poc"
-    ttl: 86400
-    record: 
-      - "35.242.190.12"
-  - name: "join.poc"
-    ttl: 86400
-    record: 
-      - "35.242.190.12"
-  - name: "preprod"
-    ttl: 3600
-    record: 
-      - "34.96.83.131"
-  - name: "join.preprod"
-    ttl: 3600
-    record: 
-      - "34.96.83.131"
-  - name: "px01.preprod"
-    ttl: 3600
-    record: 
-      - "35.189.125.254"
-  - name: "px02.preprod"
-    ttl: 3600
-    record: 
-      - "35.197.192.231"
-  - name: "px03.preprod"
-    ttl: 3600
-    record: 
-      - "35.189.86.106"
-  - name: "sip.preprod"
-    ttl: 3600
-    record: 
-      - "35.189.125.254"
-      - "35.189.86.106"
-      - "35.197.192.231"
-  - name: "px01"
-    ttl: 300
-    record: 
-      - "35.246.61.150"
-  - name: "px02"
-    ttl: 300
-    record: 
-      - "35.246.79.59"
-  - name: "px03"
-    ttl: 300
-    record: 
-      - "35.246.113.194"
-  - name: "self-test"
-    ttl: 300
-    record: 
-      - "35.244.218.27"
+
+  # self test
   - name: "dev.self-test"
     ttl: 3600
-    record: 
+    record:
       - "35.189.111.222"
   - name: "join.dev.self-test"
     ttl: 3600
-    record: 
+    record:
       - "35.189.111.222"
   - name: "px01.dev.self-test"
     ttl: 3600
-    record: 
+    record:
       - "35.189.87.246"
   - name: "px02.dev.self-test"
     ttl: 3600
-    record: 
+    record:
       - "35.197.219.236"
   - name: "px03.dev.self-test"
     ttl: 3600
-    record: 
+    record:
       - "35.189.66.212"
   - name: "sip.dev.self-test"
     ttl: 3600
-    record: 
-      - "35.189.66.212"
+    record:
       - "35.189.87.246"
       - "35.197.219.236"
-  - name: "join.self-test"
-    ttl: 300
-    record: 
-      - "35.244.218.27"
+      - "35.189.66.212"
+
+  # preprod
+  # hearings
+  - name: "preprod"
+    ttl: 3600
+    record:
+      - "34.96.83.131"
+  - name: "join.preprod"
+    ttl: 3600
+    record:
+      - "34.96.83.131"
+  - name: "px01.preprod"
+    ttl: 3600
+    record:
+      - "35.189.125.254"
+  - name: "px02.preprod"
+    ttl: 3600
+    record:
+      - "35.197.192.231"
+  - name: "px03.preprod"
+    ttl: 3600
+    record:
+      - "35.189.86.106"
+  - name: "sip.preprod"
+    ttl: 3600
+    record:
+      - "35.189.125.254"
+      - "35.197.192.231"
+      - "35.189.86.106"
+
+  # self test
   - name: "preprod.self-test"
     ttl: 3600
-    record: 
+    record:
       - "34.96.105.56"
   - name: "join.preprod.self-test"
     ttl: 3600
-    record: 
+    record:
       - "34.96.105.56"
   - name: "px01.preprod.self-test"
     ttl: 3600
-    record: 
+    record:
       - "35.189.96.55"
   - name: "px02.preprod.self-test"
     ttl: 3600
-    record: 
+    record:
       - "35.189.74.149"
   - name: "px03.preprod.self-test"
     ttl: 3600
-    record: 
+    record:
       - "35.189.110.25"
   - name: "sip.preprod.self-test"
     ttl: 3600
-    record: 
-      - "35.189.110.25"
-      - "35.189.74.149"
+    record:
       - "35.189.96.55"
-  - name: "px01.self-test"
+      - "35.189.74.149"
+      - "35.189.110.25"
+
+
+  # prod
+  # hearings
+  - name: "@"
     ttl: 300
-    record: 
-      - "35.234.138.149"
-  - name: "px02.self-test"
+    record:
+      - "34.96.101.242"
+  - name: "join"
     ttl: 300
-    record: 
-      - "35.242.187.24"
-  - name: "px03.self-test"
+    record:
+      - "34.96.101.242"
+  - name: "px01"
     ttl: 300
-    record: 
-      - "35.197.254.119"
-  - name: "sip.self-test"
+    record:
+      - "35.246.61.150"
+  - name: "px02"
     ttl: 300
-    record: 
-      - "35.197.254.119"
-      - "35.234.138.149"
-      - "35.242.187.24"
+    record:
+      - "35.246.79.59"
+  - name: "px03"
+    ttl: 300
+    record:
+      - "35.246.113.194"
   - name: "sip"
     ttl: 300
-    record: 
+    record:
       - "35.246.61.150"
       - "35.246.113.194"
       - "35.246.79.59"
+
+  # self test
+  - name: "self-test"
+    ttl: 300
+    record:
+      - "35.244.218.27"
+  - name: "join.self-test"
+    ttl: 300
+    record:
+      - "35.244.218.27"
+  - name: "px01.self-test"
+    ttl: 300
+    record:
+      - "35.234.138.149"
+  - name: "px02.self-test"
+    ttl: 300
+    record:
+      - "35.242.187.24"
+  - name: "px03.self-test"
+    ttl: 300
+    record:
+      - "35.197.254.119"
+  - name: "sip.self-test"
+    ttl: 300
+    record:
+      - "35.197.254.119"
+      - "35.234.138.149"
+      - "35.242.187.24"
+
+
+  # test
+  # hearings
+  - name: "test"
+    ttl: 300
+    record:
+      - "34.89.124.46"
+  - name: "join.test"
+    ttl: 300
+    record:
+      - "34.89.124.46"
+  - name: "px01.test"
+    ttl: 300
+    record:
+      - "35.246.101.131"
+  - name: "px02.test"
+    ttl: 300
+    record:
+      - "35.242.168.200"
+  - name: "px03.test"
+    ttl: 300
+    record:
+      - "35.189.119.254"
+  - name: "sip.test"
+    ttl: 300
+    record:
+      - "35.246.101.131"
+      - "35.242.168.200"
+      - "35.189.119.254"
+  - name: "stream01.test"
+    ttl: 300
+    record:
+      - "35.246.126.208"
+  - name: "stream02.test"
+    ttl: 300
+    record:
+      - "35.230.131.86"
+
+  # self test
+  - name: "test.self-test"
+    ttl: 300
+    record:
+      - "34.89.25.87"
+  - name: "join.test.self-test"
+    ttl: 300
+    record:
+      - "34.89.25.87"
+  - name: "px01.test.self-test"
+    ttl: 300
+    record:
+      - "35.242.170.50"
+  - name: "px02.test.self-test"
+    ttl: 300
+    record:
+      - "34.89.12.220"
+  - name: "px03.test.self-test"
+    ttl: 300
+    record:
+      - "35.234.148.105"
+  - name: "sip.test.self-test"
+    ttl: 300
+    record:
+      - "35.242.170.50"
+      - "34.89.12.220"
+      - "35.234.148.105"
+
 
 srv:
   - name: "_h323cs._tcp"
