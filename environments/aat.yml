@@ -35,9 +35,6 @@ cname:
   - name: "petitioner-frontend-aks"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
-  - name: "probate"
-    ttl: 60
-    record: "probateaat.blob.core.windows.net"
   - name: "reformscan"
     ttl: 60
     record: "f7643f50-5b35-4a1b-b7d6-dc9782a87f57.cloudapp.net"
@@ -140,3 +137,10 @@ cname:
   - name: "idam-web-public-aat2"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.probate"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "probate"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
+  
