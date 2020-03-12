@@ -217,7 +217,30 @@ A:
     ttl: 60
     record: 
       - "51.141.230.130"
-
+  - name: "istio-poc-ccd-web"
+    ttl: 60
+    record: 
+    - "51.105.22.62"
+  - name: "istio-poc-ccd-gateway"
+    ttl: 60
+    record: 
+    - "51.105.22.62"
+  - name: "istio-poc"
+    ttl: 60
+    record: 
+    - "51.105.22.62"         
+  - name: "istio-poc-ccd-web"
+    ttl: 60
+    record: 
+    - "51.11.169.51"
+  - name: "istio-poc-ccd-gateway"
+    ttl: 60
+    record: 
+    - "51.11.169.51"
+  - name: "istio-poc"
+    ttl: 60
+    record: 
+    - "51.11.169.51"    
 
 txt:
 
