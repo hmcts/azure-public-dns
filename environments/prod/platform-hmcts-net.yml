@@ -587,3 +587,6 @@ cname:
   - name: "plum-timj-debug"
     ttl: 3600
     record: "timj-debug.azurefd.net"
+  - name: "_A5C44CA36CCD97F3AB974FEEB78C42F8.demo.platform.hmcts.net"
+    ttl: 3600
+    record: "98BEA4422F4AB8C7CC5A6330E1C2C751.5726AA22C841D0DCE1CD2D4D89B4567B.ff413935bfae4f0e2d8d.comodoca.com."
