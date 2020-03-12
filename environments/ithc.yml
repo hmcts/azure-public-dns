@@ -124,3 +124,9 @@ cname:
   - name: "immigration-appeal"
     ttl: 3600
     record: "hmcts-ithc.azurefd.net"
+  - name: "afdverify.probate"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "probate"
+    ttl: 3600
+    record: "hmcts-ithc.azurefd.net"
