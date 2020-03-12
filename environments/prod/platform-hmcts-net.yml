@@ -229,15 +229,15 @@ A:
     ttl: 60
     record: 
     - "51.105.22.62"         
-  - name: "istio-poc-ccd-web"
+  - name: "istio2-poc-ccd-web"
     ttl: 60
     record: 
     - "51.11.169.51"
-  - name: "istio-poc-ccd-gateway"
+  - name: "istio-poc2-ccd-gateway"
     ttl: 60
     record: 
     - "51.11.169.51"
-  - name: "istio-poc"
+  - name: "istio-poc2"
     ttl: 60
     record: 
     - "51.11.169.51"    
