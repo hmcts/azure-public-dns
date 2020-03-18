@@ -55,6 +55,9 @@ cname:
   - name: "afdverify.idam-web-public-aks"
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
+  - name: "afdverify.idam-web-public-sprod-aks"
+    ttl: 300
+    record: "afdverify.hmcts-sbox.azurefd.net"
   - name: "cdnverify.idam-web-public-aks"
     ttl: 300
     record: "cdnverify.hmcts-idam-web-public-aks-shutter-sbox.azureedge.net"
