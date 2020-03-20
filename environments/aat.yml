@@ -55,7 +55,7 @@ cname:
     record: "7f3cb82c-0944-4944-b8fd-0d736315b202.cloudapp.net"
   - name: "www-ccd"
     ttl: 900
-    record: "hmcts-ccd-case-management-web-aat.trafficmanager.net"
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.benefit-appeal"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
