@@ -55,10 +55,20 @@ cname:
   - name: "afdverify.idam-web-public"
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
+  - name: "cdnverify.idam-web-public"
+    ttl: 300
+    record: "cdnverify.hmcts-idam-web-public-shutter-sbox.azureedge.net"
+  - name: "idam-web-public"
+    ttl: 300
+    record: "hmcts-sbox.azurefd.net"
+    shutter: false
   - name: "afdverify.idam-web-public-sprod"
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
-  - name: "idam-web-public"
+  - name: "cdnverify.idam-web-public-sprod"
+    ttl: 300
+    record: "cdnverify.hmcts-idam-web-public-sprod-shutter-sbox.azureedge.net"
+  - name: "idam-web-public-sprod"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
     shutter: false
