@@ -302,7 +302,7 @@ cname:
     record: "hmcts-ccd-case-management-web-prod.trafficmanager.net"
   - name: "gateway.ccd"
     ttl: 60
-    record: "hmcts-ccd-api-gateway-web-prod.trafficmanager.net"
+    record: "hmcts-prod.azurefd.net"
     shutter: false
   - name: "tmgateway.ccd"
     ttl: 60
@@ -312,7 +312,7 @@ cname:
     record: "5a052b01-331d-4789-9c63-8ccea30883da.cloudapp.net"
   - name: "www.ccd"
     ttl: 60
-    record: "ccd.platform.hmcts.net"
+    record: "hmcts-prod.azurefd.net"
     shutter: false
   - name: "apply-divorce.demo"
     ttl: 600
