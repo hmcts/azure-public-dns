@@ -84,7 +84,7 @@ stages:
   - stage: Preview_Apply
     dependsOn: Plan_phase
     displayName: "Preview Apply"
-    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    condition: succeeded()
     jobs:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
@@ -96,7 +96,7 @@ stages:
   - stage: Ithc_Apply
     dependsOn: Plan_phase
     displayName: "Ithc Apply"
-    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    condition: succeeded()
     jobs:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
