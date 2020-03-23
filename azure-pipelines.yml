@@ -72,7 +72,7 @@ stages:
   - stage: Sandbox_Apply
     dependsOn: Plan_phase
     displayName: "Sandbox Apply"
-    condition: succeeded()
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
     jobs:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
@@ -84,7 +84,7 @@ stages:
   - stage: Preview_Apply
     dependsOn: Plan_phase
     displayName: "Preview Apply"
-    condition: succeeded()
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
     jobs:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
@@ -96,7 +96,7 @@ stages:
   - stage: Ithc_Apply
     dependsOn: Plan_phase
     displayName: "Ithc Apply"
-    condition: succeeded()
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
     jobs:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
@@ -108,7 +108,7 @@ stages:
   - stage: Perftest_Apply
     dependsOn: Plan_phase
     displayName: "Perftest Apply"
-    condition: succeeded()
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
     jobs:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
@@ -120,7 +120,7 @@ stages:
   - stage: Aat_Apply
     dependsOn: Perftest_Apply
     displayName: "AAT Apply"
-    condition: succeeded()
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
     jobs:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
@@ -132,7 +132,7 @@ stages:
   - stage: Prod_Apply
     dependsOn: Aat_Apply
     displayName: "Prod Apply"
-    condition: succeeded()
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
     jobs:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
