@@ -303,7 +303,7 @@ cname:
   - name: "gateway.ccd"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "tmgateway.ccd"
     ttl: 60
     record: "5a052b01-331d-4789-9c63-8ccea30883da.cloudapp.net"
@@ -313,7 +313,7 @@ cname:
   - name: "www.ccd"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "apply-divorce.demo"
     ttl: 600
     record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
@@ -419,7 +419,7 @@ cname:
   - name: "www.moneyclaim-legal"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "divorce.nonprod"
     ttl: 3600
     record: "mojmaintenance.azurewebsites.net"
