@@ -1,11 +1,4 @@
 ns:
-  - name: "@"
-    ttl: 172800
-    record:
-      - "ns1-09.azure-dns.com."
-      - "ns2-09.azure-dns.net."
-      - "ns3-09.azure-dns.org."
-      - "ns4-09.azure-dns.info."
 
 mx:
 
@@ -47,3 +40,21 @@ cname:
   - name: "afdverify.return-case-doc-ccd"
     ttl: 3600
     record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "reformscan"
+    ttl: 300
+    record: "a975c6f9-93cc-42fe-8cb1-c194eee0e2db.cloudapp.net"
+  - name: "asverify.reformscan"
+    ttl: 300
+    record: "asverify.reformscanperftest.blob.core.windows.net"
+  - name: "afdverify.idam-web-public"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "idam-web-public"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.probate"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "probate"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"

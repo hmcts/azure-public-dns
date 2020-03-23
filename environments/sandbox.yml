@@ -1,11 +1,4 @@
 ns:
-  - name: "@"
-    ttl: 172800
-    record:
-      - "ns1-05.azure-dns.com."
-      - "ns2-05.azure-dns.net."
-      - "ns3-05.azure-dns.org."
-      - "ns4-05.azure-dns.info."
 
 mx:
   - name: "@"
@@ -65,6 +58,12 @@ cname:
   - name: "cdnverify.idam-web-public-aks"
     ttl: 300
     record: "cdnverify.hmcts-idam-web-public-aks-shutter-sbox.azureedge.net"
+  - name: "afdverify.idam-web-public-sprod-aks"
+    ttl: 300
+    record: "afdverify.hmcts-sbox.azurefd.net"
+  - name: "cdnverify.idam-web-public-sprod-aks"
+    ttl: 300
+    record: "cdnverify.hmcts-idam-web-public-sprod-aks-shutter-sbox.azureedge.net"
   - name: "idam-web-public-aks"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"

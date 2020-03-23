@@ -1,16 +1,9 @@
 ns:
-  - name: "@"
-    ttl: 172800
-    record:
-      - "ns1-01.azure-dns.com."
-      - "ns2-01.azure-dns.net."
-      - "ns3-01.azure-dns.org."
-      - "ns4-01.azure-dns.info."
 
 mx:
   - name: "contact.justice"
     ttl: 3600
-    record: 
+    record:
       - "10 ctscmail.ithc.platform.hmcts.net"
 
 A:
@@ -26,11 +19,11 @@ A:
 txt:
   - name: "contact.justice"
     ttl: 3600
-    record: 
+    record:
       - "v=spf1 ip4:51.145.107.152  ip4:51.145.123.93 -all"
   - name: "_dmarc.contact.justice"
     ttl: 3600
-    record: 
+    record:
       - "v=DMARC1; p=none"
 
 cname:
@@ -52,25 +45,25 @@ cname:
   - name: "gateway-ccd"
     ttl: 60
     record: "a56e4113-9db3-4bd3-ad20-01f2eb3926c4.cloudapp.net"
-  - name: "moneyclaim-legal" 
+  - name: "moneyclaim-legal"
     ttl: 60
     record: "e10387a8-f6ed-40f8-9557-f158497ccb5e.cloudapp.net"
   - name: "moneyclaims"
     ttl: 60
     record: "e10387a8-f6ed-40f8-9557-f158497ccb5e.cloudapp.net"
-  - name: "moneyclaims-legal" 
+  - name: "moneyclaims-legal"
     ttl: 60
     record: "e10387a8-f6ed-40f8-9557-f158497ccb5e.cloudapp.net"
-  - name: "petitioner-frontend-aks" 
+  - name: "petitioner-frontend-aks"
     ttl: 3600
     record: "hmcts-ithc.azurefd.net"
-  - name: "respond-divorce-aks" 
+  - name: "respond-divorce-aks"
     ttl: 3600
     record: "hmcts-ithc.azurefd.net"
   - name: "sscs-tribunals-frontend"
     ttl: 300
     record: "hmcts-sscs-tribunals-frontend-ithc.trafficmanager.net"
-  - name: "tmsscs-tribunals-frontend" 
+  - name: "tmsscs-tribunals-frontend"
     ttl: 300
     record: "590582cd-441a-4601-9f6a-f8203d4c19fe.cloudapp.net"
   - name: "www-ccd"
@@ -101,3 +94,39 @@ cname:
   - name: "afdverify.return-case-doc-ccd"
     ttl: 3600
     record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "afdverify.manage-case"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "manage-case"
+    ttl: 3600
+    record: "hmcts-ithc.azurefd.net"
+  - name: "afdverify.manage-org"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "manage-org"
+    ttl: 3600
+    record: "hmcts-ithc.azurefd.net"
+  - name: "afdverify.administer-orgs"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "administer-orgs"
+    ttl: 3600
+    record: "hmcts-ithc.azurefd.net"
+  - name: "afdverify.register-org"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "register-org"
+    ttl: 3600
+    record: "hmcts-ithc.azurefd.net"
+  - name: "afdverify.immigration-appeal"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "immigration-appeal"
+    ttl: 3600
+    record: "hmcts-ithc.azurefd.net"
+  - name: "afdverify.probate"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "probate"
+    ttl: 3600
+    record: "hmcts-ithc.azurefd.net"

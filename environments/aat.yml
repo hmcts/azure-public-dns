@@ -1,11 +1,4 @@
 ns:
-  - name: "@"
-    ttl: 172800
-    record:
-      - "ns1-03.azure-dns.com."
-      - "ns2-03.azure-dns.net."
-      - "ns3-03.azure-dns.org."
-      - "ns4-03.azure-dns.info."
 
 mx:
 
@@ -42,9 +35,6 @@ cname:
   - name: "petitioner-frontend-aks"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
-  - name: "probate"
-    ttl: 60
-    record: "probateaat.blob.core.windows.net"
   - name: "reformscan"
     ttl: 60
     record: "f7643f50-5b35-4a1b-b7d6-dc9782a87f57.cloudapp.net"
@@ -65,7 +55,7 @@ cname:
     record: "7f3cb82c-0944-4944-b8fd-0d736315b202.cloudapp.net"
   - name: "www-ccd"
     ttl: 900
-    record: "hmcts-ccd-case-management-web-aat.trafficmanager.net"
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.benefit-appeal"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
@@ -123,3 +113,34 @@ cname:
   - name: "afdverify.return-case-doc-ccd"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "afdverify.pcq"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "pcq"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.adoption"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "adoption"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.immigration-appeal"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "immigration-appeal"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.idam-web-public-aat2"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "idam-web-public-aat2"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.probate"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "probate"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
+  
