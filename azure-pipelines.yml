@@ -118,7 +118,7 @@ stages:
           terraformVersion: ${{ variables.terraformVersion }}
 
   - stage: Aat_Apply
-    dependsOn: Perftest_Apply
+    dependsOn: Plan_phase
     displayName: "AAT Apply"
     condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
     jobs:
@@ -130,7 +130,7 @@ stages:
           terraformVersion: ${{ variables.terraformVersion }}
 
   - stage: Prod_Apply
-    dependsOn: Aat_Apply
+    dependsOn: Plan_phase
     displayName: "Prod Apply"
     condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
     jobs:
