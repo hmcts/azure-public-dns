@@ -241,6 +241,43 @@ A:
       - 35.234.148.105
 
 
+  # test 2
+  # hearings
+  - name: test2
+    ttl: 300
+    record:
+      - 35.242.172.165
+  - name: join.test2
+    ttl: 300
+    record:
+      - 35.242.172.165
+  - name: px01.test2
+    ttl: 300
+    record:
+      - 35.246.13.195
+  - name: px02.test2
+    ttl: 300
+    record:
+      - 35.246.48.4
+  - name: px03.test2
+    ttl: 300
+    record:
+      - 35.246.70.45
+  - name: sip.test2
+    ttl: 300
+    record:
+      - 35.246.13.195
+      - 35.246.48.4
+      - 35.246.70.45
+  - name: stream01.test2
+    ttl: 300
+    record:
+      - 34.89.122.69
+  - name: stream02.test2
+    ttl: 300
+    record:
+      - 34.89.69.137
+
 srv:
   - name: _h323cs._tcp
     ttl: 86400
@@ -391,6 +428,37 @@ cname:
   - name: _cffc0f58728ffeb1aec569f22929d62c.sip.preprod.self-test
     ttl: 300
     record: 3E61D2C283A5EEC4DDB95FC695903E9A.F1743509B80EFA3A153C613F20DA3B5A.988c9372560f30a5f28f.comodoca.com.
+
+
+# test
+  - name: _209B8766DE60584C9BC5977C3642B2E5.test
+    ttl: 300
+    record: C0B62EBFE0073DB3333AF435B22C6A44.4AF4E1B05C63FB799D2FF9C06863F57C.f74b2f69b04f02d8f6c8.comodoca.com.
+  - name: _DA34542DAB342358DC0C88721E0FDEB6.stream.test
+    ttl: 300
+    record: 64463451909CE1EB5B044EAD9EB6217D.233EE6FD143641A70AD36281575B39E3.8153efae49e1b88abeaa.comodoca.com.
+  - name: _9C87A2FB2764F8D85D97A591DFFBDD01.sip.test
+    ttl: 300
+    record: 5F561EE817792230F8213C9973AFCB0C.10EF0C5EEABFD95C47B4282236B87775.7f5667890e56de28cb73.comodoca.com.
+
+  - name: _39BF985EC8EC288735480D97DBD05A76.test.self-test
+    ttl: 300
+    record: BB75D004E4D0E6381E71898698314237.B199AEE10785DC99DF39BD490372F594.93b5c9eb03b464a5c4b2.comodoca.com.
+  - name: _C6EB436B6B1DD01A0620DCB06E64E868.sip.test.self-test
+    ttl: 300
+    record: 7C8F43EE5CE65181216E104037A6F320.C54C071EE8173E14D63101B2FFC61B34.2c4a5c8ae91636f617d5.comodoca.com.
+
+# test2
+  - name: _AE3826854AD37EBD08358340D3871CB8.test2
+    ttl: 300
+    record: 2B8684FB5C6BE782076ACC031D46E477.D9E63CE18AA7EA400DFBB4CA063CBE75.8c55f710dea335821c08.comodoca.com.
+  - name: _771364D0C67A411F394134D873922D7E.stream.test2
+    ttl: 300
+    record: 7533A4EFAC700EE272B9229EA0E2CC85.5202ED3146ACC8AD3DCB86E92967FCCA.e4563f7b21ded1b4baf7.comodoca.com.
+  - name: _61511E47FB9B80A6204AB77899C8A3AB.sip.test2
+    ttl: 300
+    record: 8D9C5A7B2853D6FFA327D3B0D346D410.7D48782B2E1187CD46B22A3853277DD0.9d2682367c3935defcb1.comodoca.com.
+
 
 # unknown
   - name: _01df5e8440dde581500b5c71ce618c08.sip
