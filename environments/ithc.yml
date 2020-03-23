@@ -69,13 +69,13 @@ cname:
   - name: "www-ccd"
     ttl: 60
     record: "a56e4113-9db3-4bd3-ad20-01f2eb3926c4.cloudapp.net"
-  - name: "afdverify.idam-web-public-aks"
+  - name: "afdverify.idam-web-public"
     ttl: 300
     record: "afdverify.hmcts-ithc.azurefd.net"
-  - name: "cdnverify.idam-web-public-aks"
+  - name: "cdnverify.idam-web-public"
     ttl: 300
-    record: "cdnverify.hmcts-idam-web-public-aks-shutter-ithc.azureedge.net"
-  - name: "idam-web-public-aks"
+    record: "cdnverify.hmcts-idam-web-public-shutter-ithc.azureedge.net"
+  - name: "idam-web-public"
     ttl: 300
     record: "hmcts-ithc.azurefd.net"
     shutter: false
@@ -122,5 +122,11 @@ cname:
     ttl: 3600
     record: "afdverify.hmcts-ithc.azurefd.net"
   - name: "immigration-appeal"
+    ttl: 3600
+    record: "hmcts-ithc.azurefd.net"
+  - name: "afdverify.probate"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "probate"
     ttl: 3600
     record: "hmcts-ithc.azurefd.net"

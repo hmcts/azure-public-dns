@@ -35,9 +35,6 @@ cname:
   - name: "petitioner-frontend-aks"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
-  - name: "probate"
-    ttl: 60
-    record: "probateaat.blob.core.windows.net"
   - name: "reformscan"
     ttl: 60
     record: "f7643f50-5b35-4a1b-b7d6-dc9782a87f57.cloudapp.net"
@@ -58,7 +55,7 @@ cname:
     record: "7f3cb82c-0944-4944-b8fd-0d736315b202.cloudapp.net"
   - name: "www-ccd"
     ttl: 900
-    record: "hmcts-ccd-case-management-web-aat.trafficmanager.net"
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.benefit-appeal"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
@@ -140,3 +137,10 @@ cname:
   - name: "idam-web-public-aat2"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.probate"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "probate"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
+  

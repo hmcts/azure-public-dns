@@ -1,14 +1,16 @@
 resource "azurerm_dns_mx_record" "this" {
-  count = length(var.mx_recordsets)
+  for_each = { for record in var.mx_recordsets :
+    record.name => record
+  }
 
   resource_group_name = lower(lower(var.resource_group_name))
   zone_name           = var.zone_name
 
-  name = var.mx_recordsets[count.index].name
-  ttl  = var.mx_recordsets[count.index].ttl
+  name = each.value.name
+  ttl  = each.value.ttl
 
   dynamic "record" {
-    for_each = var.mx_recordsets[count.index].record
+    for_each = each.value.record
     content {
       preference = split(" ", record.value)[0]
       exchange   = split(" ", record.value)[1]

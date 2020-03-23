@@ -217,7 +217,30 @@ A:
     ttl: 60
     record: 
       - "51.141.230.130"
-
+  - name: "istio-poc-ccd-web"
+    ttl: 60
+    record: 
+    - "51.105.22.62"
+  - name: "istio-poc-ccd-gateway"
+    ttl: 60
+    record: 
+    - "51.105.22.62"
+  - name: "istio-poc"
+    ttl: 60
+    record: 
+    - "51.105.22.62"         
+  - name: "istio2-poc-ccd-web"
+    ttl: 60
+    record: 
+    - "51.11.169.51"
+  - name: "istio-poc2-ccd-gateway"
+    ttl: 60
+    record: 
+    - "51.11.169.51"
+  - name: "istio-poc2"
+    ttl: 60
+    record: 
+    - "51.11.169.51"    
 
 txt:
 
@@ -279,7 +302,7 @@ cname:
     record: "hmcts-ccd-case-management-web-prod.trafficmanager.net"
   - name: "gateway.ccd"
     ttl: 60
-    record: "hmcts-ccd-api-gateway-web-prod.trafficmanager.net"
+    record: "hmcts-prod.azurefd.net"
     shutter: false
   - name: "tmgateway.ccd"
     ttl: 60
@@ -289,7 +312,7 @@ cname:
     record: "5a052b01-331d-4789-9c63-8ccea30883da.cloudapp.net"
   - name: "www.ccd"
     ttl: 60
-    record: "ccd.platform.hmcts.net"
+    record: "hmcts-prod.azurefd.net"
     shutter: false
   - name: "apply-divorce.demo"
     ttl: 600
@@ -587,3 +610,9 @@ cname:
   - name: "plum-timj-debug"
     ttl: 3600
     record: "timj-debug.azurefd.net"
+  - name: "_a5c44ca36ccd97f3ab974feeb78c42f8.demo"
+    ttl: 300
+    record: "98BEA4422F4AB8C7CC5A6330E1C2C751.5726AA22C841D0DCE1CD2D4D89B4567B.ff413935bfae4f0e2d8d.comodoca.com."
+  - name: "_686d635f8daaaf312855f75f33e21a43.sandbox"
+    ttl: 300
+    record: "6D82ADFD27EB55596AA22EA0334BAEBD.5E8740043D246E6278FBCB006901C596.ebb87faa733d9a04ebb4.comodoca.com."

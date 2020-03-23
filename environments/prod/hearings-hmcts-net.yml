@@ -119,7 +119,7 @@ A:
 
   # prod
   # hearings
-  - name: @
+  - name: '@'
     ttl: 300
     record:
       - 34.96.101.242
