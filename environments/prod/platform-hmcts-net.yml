@@ -613,8 +613,8 @@ cname:
   - name: "_a5c44ca36ccd97f3ab974feeb78c42f8.demo"
     ttl: 300
     record: "98BEA4422F4AB8C7CC5A6330E1C2C751.5726AA22C841D0DCE1CD2D4D89B4567B.ff413935bfae4f0e2d8d.comodoca.com."
-  - name: "_686d635f8daaaf312855f75f33e21a43.sandbox.platform.hmcts.net"
-    ttl: 3600
+  - name: "_686d635f8daaaf312855f75f33e21a43.sandbox"
+    ttl: 300
     record: "6D82ADFD27EB55596AA22EA0334BAEBD.5E8740043D246E6278FBCB006901C596.ebb87faa733d9a04ebb4.comodoca.com."
     - name: "_f9256fc0073e90edaceaf576c1a1b0ae.aat"
     ttl: 3600
