@@ -132,7 +132,7 @@ stages:
   - stage: Prod_Apply
     dependsOn: Aat_Apply
     displayName: "Prod Apply"
-    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    condition: succeeded()
     jobs:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
