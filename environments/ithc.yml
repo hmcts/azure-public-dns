@@ -42,9 +42,6 @@ cname:
   - name: "decree-nisi-aks"
     ttl: 3600
     record: "hmcts-ithc.azurefd.net"
-  - name: "gateway-ccd"
-    ttl: 60
-    record: "a56e4113-9db3-4bd3-ad20-01f2eb3926c4.cloudapp.net"
   - name: "moneyclaim-legal"
     ttl: 60
     record: "e10387a8-f6ed-40f8-9557-f158497ccb5e.cloudapp.net"
@@ -66,9 +63,6 @@ cname:
   - name: "tmsscs-tribunals-frontend"
     ttl: 300
     record: "590582cd-441a-4601-9f6a-f8203d4c19fe.cloudapp.net"
-  - name: "www-ccd"
-    ttl: 60
-    record: "a56e4113-9db3-4bd3-ad20-01f2eb3926c4.cloudapp.net"
   - name: "afdverify.idam-web-public"
     ttl: 300
     record: "afdverify.hmcts-ithc.azurefd.net"
@@ -94,6 +88,21 @@ cname:
   - name: "afdverify.return-case-doc-ccd"
     ttl: 3600
     record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "afdverify.ccd-admin-web"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "www-ccd"
+    ttl: 3600
+    record: "hmcts-ithc.azurefd.net"
+  - name: "gateway-ccd"
+    ttl: 3600
+    record: "hmcts-ithc.azurefd.net"
+  - name: "return-case-doc-ccd"
+    ttl: 3600
+    record: "hmcts-ithc.azurefd.net"
+  - name: "ccd-admin-web"
+    ttl: 3600
+    record: "hmcts-ithc.azurefd.net"
   - name: "afdverify.manage-case"
     ttl: 3600
     record: "afdverify.hmcts-ithc.azurefd.net"

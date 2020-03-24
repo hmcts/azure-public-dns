@@ -40,6 +40,21 @@ cname:
   - name: "afdverify.return-case-doc-ccd"
     ttl: 3600
     record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "afdverify.ccd-admin-web"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "www-ccd"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
+  - name: "gateway-ccd"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
+  - name: "return-case-doc-ccd"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
+  - name: "ccd-admin-web"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
   - name: "reformscan"
     ttl: 300
     record: "a975c6f9-93cc-42fe-8cb1-c194eee0e2db.cloudapp.net"
