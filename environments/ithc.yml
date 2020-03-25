@@ -88,9 +88,6 @@ cname:
   - name: "afdverify.return-case-doc-ccd"
     ttl: 3600
     record: "afdverify.hmcts-ithc.azurefd.net"
-  - name: "afdverify.ccd-admin-web"
-    ttl: 3600
-    record: "afdverify.hmcts-ithc.azurefd.net"
   - name: "www-ccd"
     ttl: 3600
     record: "hmcts-ithc.azurefd.net"
@@ -98,9 +95,6 @@ cname:
     ttl: 3600
     record: "hmcts-ithc.azurefd.net"
   - name: "return-case-doc-ccd"
-    ttl: 3600
-    record: "hmcts-ithc.azurefd.net"
-  - name: "ccd-admin-web"
     ttl: 3600
     record: "hmcts-ithc.azurefd.net"
   - name: "afdverify.manage-case"
