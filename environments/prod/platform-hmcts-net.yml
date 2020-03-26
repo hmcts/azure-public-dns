@@ -220,27 +220,23 @@ A:
   - name: "istio-poc-ccd-web"
     ttl: 60
     record: 
-    - "51.105.22.62"
+    - "51.11.47.129"
   - name: "istio-poc-ccd-gateway"
     ttl: 60
     record: 
-    - "51.105.22.62"
+    - "51.11.47.129"
   - name: "istio-poc"
     ttl: 60
     record: 
-    - "51.105.22.62"         
-  - name: "istio2-poc-ccd-web"
+    - "51.11.47.129"         
+  - name: "istio-poc-cmc-frontend"
     ttl: 60
     record: 
-    - "51.11.169.51"
-  - name: "istio-poc2-ccd-gateway"
+    - "51.11.47.129"
+  - name: "istio-poc-kiali-dashboard"
     ttl: 60
     record: 
-    - "51.11.169.51"
-  - name: "istio-poc2"
-    ttl: 60
-    record: 
-    - "51.11.169.51"    
+    - "51.11.47.129"   
 
 txt:
 
