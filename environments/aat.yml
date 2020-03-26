@@ -137,10 +137,15 @@ cname:
   - name: "idam-web-public-aat2"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.idam-web-public"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "idam-web-public"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.probate"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
   - name: "probate"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
-  
