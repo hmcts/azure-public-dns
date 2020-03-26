@@ -612,3 +612,6 @@ cname:
   - name: "_686d635f8daaaf312855f75f33e21a43.sandbox"
     ttl: 300
     record: "6D82ADFD27EB55596AA22EA0334BAEBD.5E8740043D246E6278FBCB006901C596.ebb87faa733d9a04ebb4.comodoca.com."
+  - name: "afdverify.www.immigration-appeal"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
