@@ -220,27 +220,23 @@ A:
   - name: "istio-poc-ccd-web"
     ttl: 60
     record: 
-    - "51.105.22.62"
+    - "51.11.47.129"
   - name: "istio-poc-ccd-gateway"
     ttl: 60
     record: 
-    - "51.105.22.62"
+    - "51.11.47.129"
   - name: "istio-poc"
     ttl: 60
     record: 
-    - "51.105.22.62"         
-  - name: "istio2-poc-ccd-web"
+    - "51.11.47.129"         
+  - name: "istio-poc-cmc-frontend"
     ttl: 60
     record: 
-    - "51.11.169.51"
-  - name: "istio-poc2-ccd-gateway"
+    - "51.11.47.129"
+  - name: "istio-poc-kiali-dashboard"
     ttl: 60
     record: 
-    - "51.11.169.51"
-  - name: "istio-poc2"
-    ttl: 60
-    record: 
-    - "51.11.169.51"    
+    - "51.11.47.129"   
 
 txt:
 
@@ -616,3 +612,6 @@ cname:
   - name: "_686d635f8daaaf312855f75f33e21a43.sandbox"
     ttl: 300
     record: "6D82ADFD27EB55596AA22EA0334BAEBD.5E8740043D246E6278FBCB006901C596.ebb87faa733d9a04ebb4.comodoca.com."
+  - name: "afdverify.www.immigration-appeal"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
