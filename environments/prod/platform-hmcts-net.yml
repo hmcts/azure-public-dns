@@ -627,3 +627,12 @@ cname:
   - name: "afdverify.www.fees-register"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.manage-payments"
+    ttl: 300
+    record: "cdnverify.hmcts-manage-payments-shutter-prod.azureedge.net"
+  - name: "cdnverify.paybubble"
+    ttl: 300
+    record: "cdnverify.hmcts-paybubble-shutter-prod.azureedge.net"
+  - name: "cdnverify.fees-register"
+    ttl: 300
+    record: "cdnverify.hmcts-fees-register-shutter-prod.azureedge.net"
