@@ -28,7 +28,7 @@ cname:
     record: "hmcts-fees-register-frontend-aat.trafficmanager.net"
   - name: "gateway-ccd"
     ttl: 900
-    record: "hmcts-ccd-api-gateway-web-aat.trafficmanager.net"
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.pet-app1"
     ttl: 60
     record: "afdverify.hmcts-aat.azurefd.net"
