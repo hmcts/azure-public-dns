@@ -615,3 +615,12 @@ cname:
   - name: "afdverify.www.immigration-appeal"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "afdverify.www.manage-payments"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "afdverify.paybubble"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "afdverify.www.fees-register"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
