@@ -621,7 +621,13 @@ cname:
   - name: "afdverify.www.manage-payments"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "afdverify.manage-payments"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
   - name: "afdverify.paybubble"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "afdverify.www.paybubble"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
   - name: "afdverify.www.fees-register"
@@ -630,7 +636,13 @@ cname:
   - name: "cdnverify.manage-payments"
     ttl: 300
     record: "cdnverify.hmcts-manage-payments-shutter-prod.azureedge.net"
+  - name: "cdnverify.www.manage-payments"
+    ttl: 300
+    record: "cdnverify.hmcts-manage-payments-shutter-prod.azureedge.net"
   - name: "cdnverify.paybubble"
+    ttl: 300
+    record: "cdnverify.hmcts-paybubble-shutter-prod.azureedge.net"
+  - name: "cdnverify.www-paybubble"
     ttl: 300
     record: "cdnverify.hmcts-paybubble-shutter-prod.azureedge.net"
   - name: "cdnverify.fees-register"
