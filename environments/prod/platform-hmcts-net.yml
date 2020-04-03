@@ -633,6 +633,6 @@ cname:
   - name: "cdnverify.paybubble"
     ttl: 300
     record: "cdnverify.hmcts-paybubble-shutter-prod.azureedge.net"
-  - name: "cdnverify.fees-register"
+  - name: "cdnverify.www.fees-register"
     ttl: 300
     record: "cdnverify.hmcts-fees-register-shutter-prod.azureedge.net"
