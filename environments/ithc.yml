@@ -135,10 +135,10 @@ cname:
     record: "hmcts-ithc.azurefd.net"
   - name: "afdverify.bar"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-ithc.azurefd.net"
   - name: "afdverify.paybubble"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-ithc.azurefd.net"
   - name: "afdverify.fees-register"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-ithc.azurefd.net"
