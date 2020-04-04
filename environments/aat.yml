@@ -28,7 +28,7 @@ cname:
     record: "hmcts-fees-register-frontend-aat.trafficmanager.net"
   - name: "gateway-ccd"
     ttl: 900
-    record: "hmcts-ccd-api-gateway-web-aat.trafficmanager.net"
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.pet-app1"
     ttl: 60
     record: "afdverify.hmcts-aat.azurefd.net"
@@ -116,9 +116,6 @@ cname:
   - name: "afdverify.pcq"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
-  - name: "pcq"
-    ttl: 300
-    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.adoption"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
@@ -149,3 +146,13 @@ cname:
   - name: "probate"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.bar"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "afdverify.paybubble"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "afdverify.fees-register"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
+  

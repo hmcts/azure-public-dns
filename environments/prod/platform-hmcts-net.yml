@@ -599,7 +599,10 @@ cname:
   - name: "afdverify.return-case-doc.ccd"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "www.immigration-appeal"
+  - name: "return-case-doc.ccd"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+  - name: "immigration-appeal"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
     shutter: true
@@ -612,6 +615,24 @@ cname:
   - name: "_686d635f8daaaf312855f75f33e21a43.sandbox"
     ttl: 300
     record: "6D82ADFD27EB55596AA22EA0334BAEBD.5E8740043D246E6278FBCB006901C596.ebb87faa733d9a04ebb4.comodoca.com."
-  - name: "afdverify.www.immigration-appeal"
+  - name: "afdverify.immigration-appeal"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "afdverify.www.manage-payments"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "afdverify.paybubble"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "afdverify.www.fees-register"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.manage-payments"
+    ttl: 300
+    record: "cdnverify.hmcts-manage-payments-shutter-prod.azureedge.net"
+  - name: "cdnverify.paybubble"
+    ttl: 300
+    record: "cdnverify.hmcts-paybubble-shutter-prod.azureedge.net"
+  - name: "cdnverify.www.fees-register"
+    ttl: 300
+    record: "cdnverify.hmcts-fees-register-shutter-prod.azureedge.net"
