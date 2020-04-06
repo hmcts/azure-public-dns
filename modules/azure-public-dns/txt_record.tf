@@ -6,7 +6,7 @@ resource "azurerm_dns_txt_record" "this" {
   resource_group_name = lower(var.resource_group_name)
   zone_name           = var.zone_name
 
-  name = each.value.name
+  name = lower(each.value.name)
   ttl  = each.value.ttl
 
   dynamic "record" {
