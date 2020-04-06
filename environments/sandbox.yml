@@ -46,7 +46,13 @@ cname:
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
     shutter: true
+  - name: "www.plum"
+    ttl: 300
+    record: "hmcts-sbox.azurefd.net"
   - name: "afdverify.plum"
+    ttl: 3600
+    record: "afdverify.hmcts-sbox.azurefd.net"
+  - name: "afdverify.www.plum"
     ttl: 3600
     record: "afdverify.hmcts-sbox.azurefd.net"
   - name: "plum.uksouth"
