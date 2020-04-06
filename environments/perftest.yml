@@ -67,3 +67,36 @@ cname:
   - name: "probate"
     ttl: 3600
     record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.bar"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "afdverify.paybubble"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "afdverify.fees-register"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "afdverify.manage-case"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "manage-case"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.manage-org"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "manage-org"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.administer-orgs"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "administer-orgs"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.register-org"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "register-org"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
