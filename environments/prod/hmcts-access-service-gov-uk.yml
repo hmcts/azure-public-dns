@@ -27,4 +27,13 @@ cname:
   - name: "_bb65eb148af52333c0fc6fa88337d2ab.www"
     ttl: 900
     record: "8871C2C8A7F47DD2E593AF09F12EB5D8.1211423A7068145AD6DB4CE5E65F1033.5aaa7f96e488c.comodoca.com"
-
+  - name: "www"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
+  - name: "afdverify.www"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.www"
+    ttl: 3600
+    record: "cdnverify.hmcts-access-shutter-prod.azureedge.net"
