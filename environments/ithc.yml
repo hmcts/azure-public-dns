@@ -133,6 +133,12 @@ cname:
   - name: "probate"
     ttl: 3600
     record: "hmcts-ithc.azurefd.net"
+  - name: "afdverify.pcq"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "pcq"
+    ttl: 3600
+    record: "hmcts-ithc.azurefd.net"
   - name: "afdverify.bar"
     ttl: 3600
     record: "afdverify.hmcts-ithc.azurefd.net"
