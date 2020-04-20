@@ -53,7 +53,7 @@ cname:
   - name: "tmwww.decree-nisi"
     ttl: 300
     record: "002e6245-3b44-41b3-ae6f-b7a6a93f7bb9.cloudapp.net"
-    shutter: true
+    shutter: false
   - name: "_73f395344556287b0869cc57ed617fc1.tmwww.decree-nisi"
     ttl: 300
     record: "D419B79DCFB96FCE3193A045334CECC7.A7B3FD329BA55A1B2FD92EA4D87D419F.42aba4b3ad24ee97a513.comodoca.com."
