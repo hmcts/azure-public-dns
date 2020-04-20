@@ -1,4 +1,4 @@
- ns:
+ns:
   - name: "aat"
     ttl: 900
     record: 
