@@ -439,7 +439,7 @@ cname:
     record: "7f3cb82c-0944-4944-b8fd-0d736315b202.cloudapp.net"
   - name: "paybubble"
     ttl: 300
-    record: "www.paybubble.platform.hmcts.net"
+    record: "hmcts-prod.azurefd.net"
   - name: "_274fa105e35a1c6271534224dcfcc482.paybubble"
     ttl: 300
     record: "9F30B8FF955609E7056D651B27162A6F.71EA2C4A41C2C63882CABF5E5CB7649E.8cb94e7a9661ea20b129.comodoca.com."
@@ -448,7 +448,7 @@ cname:
     record: "918AE6DB4F60E56D6E92DB2F5F39E3AA.93CEB9C2DCDAAB64E151F2A7A1851C97.619205da514e83f86951.comodoca.com."
   - name: "www.paybubble"
     ttl: 300
-    record: "hmcts-ccpay-bubble-frontend-prod.trafficmanager.net"
+    record: "hmcts-prod.azurefd.net"
   - name: "_274fa105e35a1c6271534224dcfcc482.www.paybubble"
     ttl: 300
     record: "9F30B8FF955609E7056D651B27162A6F.71EA2C4A41C2C63882CABF5E5CB7649E.8cb94e7a9661ea20b129.comodoca.com."
