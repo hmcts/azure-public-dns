@@ -1,4 +1,4 @@
-ns:
+hmcts-prod.azurefd.netns:
   - name: "aat"
     ttl: 900
     record: 
@@ -345,13 +345,13 @@ cname:
     record: "8ACA4868E050A1C9D5621621EDC9E9F8.6AD45D4646F72722AF5602E076ED8A8F.10088cc50a44bc6d611a.comodoca.com."
   - name: "fees-register"
     ttl: 900
-    record: "hmcts-fees-register-frontend-prod.trafficmanager.net"
+    record: "hmcts-prod.azurefd.net"
   - name: "tmwww.fees-register"
     ttl: 900
     record: "58fd15f9-7a11-4de2-8df1-9aef0e807ec2.cloudapp.net"
   - name: "www.fees-register"
     ttl: 900
-    record: "hmcts-fees-register-frontend-prod.trafficmanager.net"
+    record: "hmcts-prod.azurefd.net"
   - name: "gateway-ccd-ethosldata"
     ttl: 60
     record: "hmcts-ccd-api-gateway-web-ethosldata.trafficmanager.net"
