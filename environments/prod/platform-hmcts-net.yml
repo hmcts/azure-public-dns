@@ -1,4 +1,4 @@
-hmcts-prod.azurefd.netns:
+- ns:
   - name: "aat"
     ttl: 900
     record: 
