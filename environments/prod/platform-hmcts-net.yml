@@ -253,7 +253,7 @@ cname:
     record: "awverify.probate-frontend-aat-shutter.azurewebsites.net"
   - name: "administer-orgs"
     ttl: 60
-    record: "hmcts-xui-ao-webapp-prod.trafficmanager.net"
+    record: "hmcts-prod.azurefd.net"
   - name: "afdverify.administer-orgs"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
