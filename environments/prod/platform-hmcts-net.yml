@@ -645,3 +645,6 @@ cname:
   - name: "cdnverify.fees-register"
     ttl: 300
     record: "cdnverify.hmcts-fees-register-shutter-prod.azureedge.net"
+  - name: "_404182799e5e3fefe26b09d10f47bce9.ithc"
+    ttl: 300
+    record: "17C2322AA10D8E2E87769BDD1EBC28EC.B245DB1A1DB26037B07B508290FC32A6.b387056cb9e8740f3772.comodoca.com."
