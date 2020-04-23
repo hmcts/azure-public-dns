@@ -387,7 +387,7 @@ cname:
     record: "2CA16B148A8386A15DD52D1B6FF6ED42.A81C8A2EA633B271718353B91541677A.de3c1a733c9c51de130b.comodoca.com."
   - name: "manage-org"
     ttl: 60
-    record: "hmcts-xui-mo-webapp-prod.trafficmanager.net"
+    record: "hmcts-prod.azurefd.net"
   - name: "afdverify.manage-org"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -475,7 +475,7 @@ cname:
     record: "asverify.reformscanprod.blob.core.windows.net"
   - name: "register-org"
     ttl: 60
-    record: "hmcts-xui-mo-webapp-prod.trafficmanager.net"
+    record: "hmcts-prod.azurefd.net"
   - name: "_c2c531954464a2c755d6a6dd2c487d88.register-org"
     ttl: 300
     record: "F6DE5E30E7052660D9019668EA45C85F.C9519747E6B82801DCE298E005B0D8AE.db4b852fceaa5260e33e.comodoca.com."
