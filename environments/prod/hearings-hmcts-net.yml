@@ -64,11 +64,11 @@ A:
   - name: preprod
     ttl: 3600
     record:
-      - 34.96.83.131
+      - 35.197.218.50
   - name: join.preprod
     ttl: 3600
     record:
-      - 34.96.83.131
+      - 35.197.218.50
   - name: px01.preprod
     ttl: 3600
     record:
