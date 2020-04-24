@@ -253,7 +253,8 @@ cname:
     record: "awverify.probate-frontend-aat-shutter.azurewebsites.net"
   - name: "administer-orgs"
     ttl: 60
-    record: "hmcts-xui-ao-webapp-prod.trafficmanager.net"
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
   - name: "afdverify.administer-orgs"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -344,14 +345,16 @@ cname:
     ttl: 300
     record: "8ACA4868E050A1C9D5621621EDC9E9F8.6AD45D4646F72722AF5602E076ED8A8F.10088cc50a44bc6d611a.comodoca.com."
   - name: "fees-register"
-    ttl: 900
-    record: "hmcts-fees-register-frontend-prod.trafficmanager.net"
+    ttl: 60
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
   - name: "tmwww.fees-register"
-    ttl: 900
+    ttl: 60
     record: "58fd15f9-7a11-4de2-8df1-9aef0e807ec2.cloudapp.net"
   - name: "www.fees-register"
-    ttl: 900
-    record: "hmcts-fees-register-frontend-prod.trafficmanager.net"
+    ttl: 60
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
   - name: "gateway-ccd-ethosldata"
     ttl: 60
     record: "hmcts-ccd-api-gateway-web-ethosldata.trafficmanager.net"
@@ -387,7 +390,8 @@ cname:
     record: "2CA16B148A8386A15DD52D1B6FF6ED42.A81C8A2EA633B271718353B91541677A.de3c1a733c9c51de130b.comodoca.com."
   - name: "manage-org"
     ttl: 60
-    record: "hmcts-xui-mo-webapp-prod.trafficmanager.net"
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
   - name: "afdverify.manage-org"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -439,7 +443,8 @@ cname:
     record: "7f3cb82c-0944-4944-b8fd-0d736315b202.cloudapp.net"
   - name: "paybubble"
     ttl: 300
-    record: "www.paybubble.platform.hmcts.net"
+    record: "hmcts-prod.azurefd.net"
+    shuttter: true
   - name: "_274fa105e35a1c6271534224dcfcc482.paybubble"
     ttl: 300
     record: "9F30B8FF955609E7056D651B27162A6F.71EA2C4A41C2C63882CABF5E5CB7649E.8cb94e7a9661ea20b129.comodoca.com."
@@ -448,7 +453,8 @@ cname:
     record: "918AE6DB4F60E56D6E92DB2F5F39E3AA.93CEB9C2DCDAAB64E151F2A7A1851C97.619205da514e83f86951.comodoca.com."
   - name: "www.paybubble"
     ttl: 300
-    record: "hmcts-ccpay-bubble-frontend-prod.trafficmanager.net"
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
   - name: "_274fa105e35a1c6271534224dcfcc482.www.paybubble"
     ttl: 300
     record: "9F30B8FF955609E7056D651B27162A6F.71EA2C4A41C2C63882CABF5E5CB7649E.8cb94e7a9661ea20b129.comodoca.com."
@@ -469,13 +475,14 @@ cname:
     record: "awverify.probate-frontend-prod-shutter.azurewebsites.net"
   - name: "reformscan"
     ttl: 3600
-    record: "ea52f7b8-c068-4047-816b-99da3e7f3aad.cloudapp.net"
+    record: "2be0d184-af73-4abf-84c1-6a0e447ebe50.cloudapp.net"
   - name: "asverify.reformscan"
     ttl: 3600
     record: "asverify.reformscanprod.blob.core.windows.net"
   - name: "register-org"
     ttl: 60
-    record: "hmcts-xui-mo-webapp-prod.trafficmanager.net"
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
   - name: "_c2c531954464a2c755d6a6dd2c487d88.register-org"
     ttl: 300
     record: "F6DE5E30E7052660D9019668EA45C85F.C9519747E6B82801DCE298E005B0D8AE.db4b852fceaa5260e33e.comodoca.com."
@@ -602,10 +609,11 @@ cname:
   - name: "return-case-doc.ccd"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
+    shutter: false
   - name: "immigration-appeal"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "plum-timj-debug"
     ttl: 3600
     record: "timj-debug.azurefd.net"
@@ -645,3 +653,6 @@ cname:
   - name: "cdnverify.fees-register"
     ttl: 300
     record: "cdnverify.hmcts-fees-register-shutter-prod.azureedge.net"
+  - name: "_404182799e5e3fefe26b09d10f47bce9.ithc"
+    ttl: 300
+    record: "17C2322AA10D8E2E87769BDD1EBC28EC.B245DB1A1DB26037B07B508290FC32A6.b387056cb9e8740f3772.comodoca.com."
