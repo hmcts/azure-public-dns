@@ -617,12 +617,6 @@ cname:
   - name: "plum-timj-debug"
     ttl: 3600
     record: "timj-debug.azurefd.net"
-  - name: "_a5c44ca36ccd97f3ab974feeb78c42f8.demo"
-    ttl: 300
-    record: "98BEA4422F4AB8C7CC5A6330E1C2C751.5726AA22C841D0DCE1CD2D4D89B4567B.ff413935bfae4f0e2d8d.comodoca.com."
-  - name: "_686d635f8daaaf312855f75f33e21a43.sandbox"
-    ttl: 300
-    record: "6D82ADFD27EB55596AA22EA0334BAEBD.5E8740043D246E6278FBCB006901C596.ebb87faa733d9a04ebb4.comodoca.com."
   - name: "afdverify.immigration-appeal"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -653,6 +647,31 @@ cname:
   - name: "cdnverify.fees-register"
     ttl: 300
     record: "cdnverify.hmcts-fees-register-shutter-prod.azureedge.net"
+  - name: "_6349B7A7035B274672BBA45600D8D37C.manage-payments"
+    ttl: 300
+    record: "E61EF843A53515175B8FEAFA2C078FBA.D931EA7BD7F20459D925564AFBECF8DF.a2dad69202cc3e9f4c44.comodoca.com."
+  - name: "_6349B7A7035B274672BBA45600D8D37C.tmwww.manage-payments"
+    ttl: 300
+    record: "E61EF843A53515175B8FEAFA2C078FBA.D931EA7BD7F20459D925564AFBECF8DF.a2dad69202cc3e9f4c44.comodoca.com."
+  - name: "_4712852FA79A89C556A901C1CD722371.manage-payments-api"
+    ttl: 300
+    record: "A46D4A003A3137F071E881F42E0EF363.36A60C3B316C59E9446EAA728CFF391A.38087d90fe0083a5d17f.comodoca.com."
+  - name: "_4712852FA79A89C556A901C1CD722371.tmwww.manage-payments-api"
+    ttl: 300
+    record: "A46D4A003A3137F071E881F42E0EF363.36A60C3B316C59E9446EAA728CFF391A.38087d90fe0083a5d17f.comodoca.com."
+  - name: "_4712852FA79A89C556A901C1CD722371.www.manage-payments-api"
+    ttl: 300
+    record: "A46D4A003A3137F071E881F42E0EF363.36A60C3B316C59E9446EAA728CFF391A.38087d90fe0083a5d17f.comodoca.com."
+  # Wildcards
   - name: "_404182799e5e3fefe26b09d10f47bce9.ithc"
     ttl: 300
     record: "17C2322AA10D8E2E87769BDD1EBC28EC.B245DB1A1DB26037B07B508290FC32A6.b387056cb9e8740f3772.comodoca.com."
+  - name: "_1B8B380F5B498882531EADE6C02400CD.perftest"
+    ttl: 300
+    record: "F9A67113DE1A34EE3AB88C964719B045.D0CB73465718E425F308BE76B7946D22.7e8750d4a70159673295.comodoca.com."
+  - name: "_a5c44ca36ccd97f3ab974feeb78c42f8.demo"
+    ttl: 300
+    record: "98BEA4422F4AB8C7CC5A6330E1C2C751.5726AA22C841D0DCE1CD2D4D89B4567B.ff413935bfae4f0e2d8d.comodoca.com."
+  - name: "_686d635f8daaaf312855f75f33e21a43.sandbox"
+    ttl: 300
+    record: "6D82ADFD27EB55596AA22EA0334BAEBD.5E8740043D246E6278FBCB006901C596.ebb87faa733d9a04ebb4.comodoca.com."
