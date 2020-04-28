@@ -1,28 +1,29 @@
+---
 ns:
   - name: "aat"
     ttl: 900
-    record: 
+    record:
       - "ns1-03.azure-dns.com"
       - "ns2-03.azure-dns.net"
       - "ns3-03.azure-dns.org"
       - "ns4-03.azure-dns.info"
   - name: "demo"
     ttl: 900
-    record: 
+    record:
       - "ns1-02.azure-dns.com"
       - "ns2-02.azure-dns.net"
       - "ns3-02.azure-dns.org"
       - "ns4-02.azure-dns.info."
   - name: "hmctsdemo"
     ttl: 3600
-    record: 
+    record:
       - "ns1-06.azure-dns.com."
       - "ns2-06.azure-dns.net."
       - "ns3-06.azure-dns.org."
       - "ns4-06.azure-dns.info."
   - name: "ithc"
     ttl: 900
-    record: 
+    record:
       - "ns1-01.azure-dns.com"
       - "ns2-01.azure-dns.net"
       - "ns3-01.azure-dns.org"
@@ -647,19 +648,19 @@ cname:
   - name: "cdnverify.fees-register"
     ttl: 300
     record: "cdnverify.hmcts-fees-register-shutter-prod.azureedge.net"
-  - name: "_6349B7A7035B274672BBA45600D8D37C.manage-payments"
+  - name: "_6349b7a7035b274672bba45600d8d37c.manage-payments"
     ttl: 300
     record: "E61EF843A53515175B8FEAFA2C078FBA.D931EA7BD7F20459D925564AFBECF8DF.a2dad69202cc3e9f4c44.comodoca.com."
-  - name: "_6349B7A7035B274672BBA45600D8D37C.tmwww.manage-payments"
+  - name: "_6349b7a7035b274672bba45600d8d37c.tmwww.manage-payments"
     ttl: 300
     record: "E61EF843A53515175B8FEAFA2C078FBA.D931EA7BD7F20459D925564AFBECF8DF.a2dad69202cc3e9f4c44.comodoca.com."
-  - name: "_4712852FA79A89C556A901C1CD722371.manage-payments-api"
+  - name: "_4712852fa79a89c556a901c1cd722371.manage-payments-api"
     ttl: 300
     record: "A46D4A003A3137F071E881F42E0EF363.36A60C3B316C59E9446EAA728CFF391A.38087d90fe0083a5d17f.comodoca.com."
-  - name: "_4712852FA79A89C556A901C1CD722371.tmwww.manage-payments-api"
+  - name: "_4712852fa79a89c556a901c1cd722371.tmwww.manage-payments-api"
     ttl: 300
     record: "A46D4A003A3137F071E881F42E0EF363.36A60C3B316C59E9446EAA728CFF391A.38087d90fe0083a5d17f.comodoca.com."
-  - name: "_4712852FA79A89C556A901C1CD722371.www.manage-payments-api"
+  - name: "_4712852fa79a89c556a901c1cd722371.www.manage-payments-api"
     ttl: 300
     record: "A46D4A003A3137F071E881F42E0EF363.36A60C3B316C59E9446EAA728CFF391A.38087d90fe0083a5d17f.comodoca.com."
   # Wildcards
