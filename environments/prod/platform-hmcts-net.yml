@@ -378,7 +378,7 @@ cname:
     record: "gv-st2ccjwg4awsh2.dv.googlehosted.com"
   - name: "manage-case"
     ttl: 300
-    record: "hmcts-xui-webapp-prod.trafficmanager.net"
+    record: "hmcts-prod.azurefd.net"
   - name: "afdverify.manage-case"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
