@@ -671,3 +671,32 @@ cname:
   - name: "_4712852fa79a89c556a901c1cd722371.www.manage-payments-api"
     ttl: 300
     record: "A46D4A003A3137F071E881F42E0EF363.36A60C3B316C59E9446EAA728CFF391A.38087d90fe0083a5d17f.comodoca.com."
+  - name: "_024f58e39afc36d6affaf9c831b41a79.idam-web-public.platform.hmcts.net"
+    ttl: 300
+    record: "A45A9F4F6F67544E0513407B50EF42D8.39C3777DE40F1D8613D175B52E110235.b2f1234b9a029e7a4021.comodoca.com."
+
+  - name: "_024f58e39afc36d6affaf9c831b41a79.idam-api.platform.hmcts.net"
+    ttl: 300
+    record: "A45A9F4F6F67544E0513407B50EF42D8.39C3777DE40F1D8613D175B52E110235.b2f1234b9a029e7a4021.comodoca.com."
+  - name: "_024f58e39afc36d6affaf9c831b41a79.idam-web-admin.platform.hmcts.net"
+    ttl: 300
+    record: "A45A9F4F6F67544E0513407B50EF42D8.39C3777DE40F1D8613D175B52E110235.b2f1234b9a029e7a4021.comodoca.com."
+  - name: "_024f58e39afc36d6affaf9c831b41a79.www.idam-api.platform.hmcts.net"
+    ttl: 300
+    record: "A45A9F4F6F67544E0513407B50EF42D8.39C3777DE40F1D8613D175B52E110235.b2f1234b9a029e7a4021.comodoca.com."
+  - name: "_024f58e39afc36d6affaf9c831b41a79.www.idam-web-admin.platform.hmcts.net"
+    ttl: 300
+    record: "A45A9F4F6F67544E0513407B50EF42D8.39C3777DE40F1D8613D175B52E110235.b2f1234b9a029e7a4021.comodoca.com."
+  - name: "_024f58e39afc36d6affaf9c831b41a79.www.idam-web-public.platform.hmcts.net"
+    ttl: 300
+    record: "A45A9F4F6F67544E0513407B50EF42D8.39C3777DE40F1D8613D175B52E110235.b2f1234b9a029e7a4021.comodoca.com."
+  - name: "_81561b7b9d7ee224ca33371799b09d93.fees-register.platform.hmcts.net"
+    ttl: 300
+    record: "2704E664C97D0712CC8B62B52698A726.3775C15CAA91AA19C97158084B41B96D.9cd9550491104e2d0a8d.comodoca.com."
+  - name: "_81561b7b9d7ee224ca33371799b09d93.tmwww.fees-register.platform.hmcts.net"
+    ttl: 300
+    record: "2704E664C97D0712CC8B62B52698A726.3775C15CAA91AA19C97158084B41B96D.9cd9550491104e2d0a8d.comodoca.com."
+  - name: "_81561b7b9d7ee224ca33371799b09d93.www.fees-register.platform.hmcts.net"
+    ttl: 300
+    record: "2704E664C97D0712CC8B62B52698A726.3775C15CAA91AA19C97158084B41B96D.9cd9550491104e2d0a8d.comodoca.com."
+
