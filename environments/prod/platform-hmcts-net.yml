@@ -403,13 +403,13 @@ cname:
     record: "ADD9E7046E11AB4A157C185A2CDD1458.919EB75126175B997DCAA66BE4A0E9EC.e52c9599ea82e0087458.comodoca.com."
   - name: "manage-payments"
     ttl: 900
-    record: "hmcts-bar-web-prod.trafficmanager.net"
+    record: "hmcts-prod.azurefd.net"
   - name: "tmwww.manage-payments"
     ttl: 900
     record: "58fd15f9-7a11-4de2-8df1-9aef0e807ec2.cloudapp.net"
   - name: "www.manage-payments"
     ttl: 900
-    record: "hmcts-bar-web-prod.trafficmanager.net"
+    record: "hmcts-prod.azurefd.net"
   - name: "www.moneyclaim"
     ttl: 300
     record: "moneyclaim.reform.hmcts.net"
