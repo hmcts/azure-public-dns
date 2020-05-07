@@ -16,6 +16,11 @@ A:
     record:
       - "51.140.180.140"
 
+  - name: "cvp-recording"  
+    ttl: 60
+    record:
+      - "51.145.97.59"    
+
 txt:
   - name: "contact.justice"
     ttl: 3600
