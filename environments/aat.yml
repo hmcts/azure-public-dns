@@ -3,7 +3,7 @@ ns:
 mx:
 
 A:
-  - name: "cvp-recordings"  
+  - name: "cvp-recording"  
     ttl: 60
     record:
       - "51.104.237.240"
