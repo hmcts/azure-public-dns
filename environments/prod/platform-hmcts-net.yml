@@ -776,4 +776,13 @@ cname:
   - name: "_50723077147e969b1f874131913bcea7.www.equality-and-diversity"
     ttl: 300
     record: "D9C7C7B34A30E682E5E6F8D28EDFC953.A3DA0D967467BE34829D08884EA1C62D.0336cbaaed223cbc7e46.comodoca.com."
+  - name: "_f42a85b5ba7e306496e0785611130b45.manage-payments"
+    ttl: 300
+    record: "451299A6EB656F0D2B8DDE22728EE0FF.354B82B7888D57F876E11850A90FCC47.ffbad8b9da2093d25ab5.comodoca.com."
+  - name: "_f42a85b5ba7e306496e0785611130b45.tmwww.manage-payments"
+    ttl: 300
+    record: "451299A6EB656F0D2B8DDE22728EE0FF.354B82B7888D57F876E11850A90FCC47.ffbad8b9da2093d25ab5.comodoca.com."
+  - name: "_f42a85b5ba7e306496e0785611130b45.www.manage-payments"
+    ttl: 300
+    record: "451299A6EB656F0D2B8DDE22728EE0FF.354B82B7888D57F876E11850A90FCC47.ffbad8b9da2093d25ab5.comodoca.com."
 
