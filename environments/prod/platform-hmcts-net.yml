@@ -410,6 +410,7 @@ cname:
   - name: "www.manage-payments"
     ttl: 900
     record: "hmcts-prod.azurefd.net"
+    shutter: true
   - name: "www.moneyclaim"
     ttl: 300
     record: "moneyclaim.reform.hmcts.net"
