@@ -236,7 +236,12 @@ A:
   - name: "istio-poc-kiali-dashboard"
     ttl: 60
     record: 
-    - "51.11.47.129"   
+    - "51.11.47.129"  
+
+  - name: "cvp-recording"
+    ttl: 60
+    record:
+    - "20.50.101.55"
 
 txt:
 
