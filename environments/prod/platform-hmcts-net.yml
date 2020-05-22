@@ -707,6 +707,7 @@ cname:
   - name: "equality-and-diversity"
     ttl: 300
     record: "hmcts-equality-and-diversity.azurefd.net"
+    shutter: true
   - name: "_281472626d92865dd0e95a36c73ed2fe.payment"
     ttl: 300
     record: "AAC25DC156BF452752D274DA48EE63A6.9CAF936AECD4A0F0F2BF0004AB5CFCD3.78f9eb91b8c7b3b3967f.comodoca.com."
