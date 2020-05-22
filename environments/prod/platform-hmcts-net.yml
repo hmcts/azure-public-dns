@@ -810,9 +810,3 @@ cname:
   - name: "_5db7d528bfeadbde0b8dfd84f4283194.www.manage-case"
     ttl: 300
     record: "DE54C87654E25C2667E96297ED00EFB2.A78B01DF342FE16F3EE2939AE1DE5AE6.ca3445d71de0ef386033.comodoca.com."
-  - name: "asverify.reformscan.perftest.staging."
-    ttl: 300
-    record: "asverify.reformscanperfteststg.blob.core.windows.net."
-  - name: "reformscan.perftest.staging."
-    ttl: 300
-    record: "reformscanperfteststg.blob.core.windows.net."
