@@ -12,18 +12,12 @@ txt:
 
 
 cname:
-  - name: "*"
-    ttl: 60
-    record: "hmcts-idam-web-public-idam-prod.trafficmanager.net"
   - name: "_4352920ad3d7912226cb9f71d8a8b6c3"
     ttl: 300
     record: "734A2FE37BC4A61583F093A91E2B9D2A.FF4B63FD7D46421784FC203FBB4DC8CD.5ba0eea34c648.comodoca.com"
   - name: "_bb65eb148af52333c0fc6fa88337d2ab"
     ttl: 900
     record: "8871C2C8A7F47DD2E593AF09F12EB5D8.1211423A7068145AD6DB4CE5E65F1033.5aaa7f96e488c.comodoca.com"
-  - name: "test"
-    ttl: 60
-    record: "hmcts-idam-web-public-idam-prod.trafficmanager.net"
   - name: "_bb65eb148af52333c0fc6fa88337d2ab.www"
     ttl: 900
     record: "8871C2C8A7F47DD2E593AF09F12EB5D8.1211423A7068145AD6DB4CE5E65F1033.5aaa7f96e488c.comodoca.com"
