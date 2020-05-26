@@ -236,7 +236,12 @@ A:
   - name: "istio-poc-kiali-dashboard"
     ttl: 60
     record: 
-    - "51.11.47.129"   
+    - "51.11.47.129"  
+
+  - name: "cvp-recording"
+    ttl: 60
+    record:
+    - "20.50.101.55"
 
 txt:
 
@@ -378,7 +383,7 @@ cname:
     record: "gv-st2ccjwg4awsh2.dv.googlehosted.com"
   - name: "manage-case"
     ttl: 300
-    record: "hmcts-xui-webapp-prod.trafficmanager.net"
+    record: "hmcts-prod.azurefd.net"
   - name: "afdverify.manage-case"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -403,13 +408,14 @@ cname:
     record: "ADD9E7046E11AB4A157C185A2CDD1458.919EB75126175B997DCAA66BE4A0E9EC.e52c9599ea82e0087458.comodoca.com."
   - name: "manage-payments"
     ttl: 900
-    record: "hmcts-bar-web-prod.trafficmanager.net"
+    record: "hmcts-prod.azurefd.net"
   - name: "tmwww.manage-payments"
     ttl: 900
     record: "58fd15f9-7a11-4de2-8df1-9aef0e807ec2.cloudapp.net"
   - name: "www.manage-payments"
     ttl: 900
-    record: "hmcts-bar-web-prod.trafficmanager.net"
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
   - name: "www.moneyclaim"
     ttl: 300
     record: "moneyclaim.reform.hmcts.net"
@@ -613,7 +619,7 @@ cname:
   - name: "immigration-appeal"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "plum-timj-debug"
     ttl: 3600
     record: "timj-debug.azurefd.net"
@@ -656,3 +662,154 @@ cname:
   - name: "_404182799e5e3fefe26b09d10f47bce9.ithc"
     ttl: 300
     record: "17C2322AA10D8E2E87769BDD1EBC28EC.B245DB1A1DB26037B07B508290FC32A6.b387056cb9e8740f3772.comodoca.com."
+  - name: "_4712852fa79a89c556a901c1cd722371.manage-payments-api"
+    ttl: 300
+    record: "A46D4A003A3137F071E881F42E0EF363.36A60C3B316C59E9446EAA728CFF391A.38087d90fe0083a5d17f.comodoca.com."
+  - name: "_4712852fa79a89c556a901c1cd722371.tmwww.manage-payments-api"
+    ttl: 300
+    record: "A46D4A003A3137F071E881F42E0EF363.36A60C3B316C59E9446EAA728CFF391A.38087d90fe0083a5d17f.comodoca.com."
+  - name: "_4712852fa79a89c556a901c1cd722371.www.manage-payments-api"
+    ttl: 300
+    record: "A46D4A003A3137F071E881F42E0EF363.36A60C3B316C59E9446EAA728CFF391A.38087d90fe0083a5d17f.comodoca.com."
+  - name: "_024f58e39afc36d6affaf9c831b41a79.idam-web-public"
+    ttl: 300
+    record: "A45A9F4F6F67544E0513407B50EF42D8.39C3777DE40F1D8613D175B52E110235.b2f1234b9a029e7a4021.comodoca.com."
+  - name: "_024f58e39afc36d6affaf9c831b41a79.idam-api"
+    ttl: 300
+    record: "A45A9F4F6F67544E0513407B50EF42D8.39C3777DE40F1D8613D175B52E110235.b2f1234b9a029e7a4021.comodoca.com."
+  - name: "_024f58e39afc36d6affaf9c831b41a79.idam-web-admin"
+    ttl: 300
+    record: "A45A9F4F6F67544E0513407B50EF42D8.39C3777DE40F1D8613D175B52E110235.b2f1234b9a029e7a4021.comodoca.com."
+  - name: "_024f58e39afc36d6affaf9c831b41a79.www.idam-api"
+    ttl: 300
+    record: "A45A9F4F6F67544E0513407B50EF42D8.39C3777DE40F1D8613D175B52E110235.b2f1234b9a029e7a4021.comodoca.com."
+  - name: "_024f58e39afc36d6affaf9c831b41a79.www.idam-web-admin"
+    ttl: 300
+    record: "A45A9F4F6F67544E0513407B50EF42D8.39C3777DE40F1D8613D175B52E110235.b2f1234b9a029e7a4021.comodoca.com."
+  - name: "_024f58e39afc36d6affaf9c831b41a79.www.idam-web-public"
+    ttl: 300
+    record: "A45A9F4F6F67544E0513407B50EF42D8.39C3777DE40F1D8613D175B52E110235.b2f1234b9a029e7a4021.comodoca.com."
+  - name: "_81561b7b9d7ee224ca33371799b09d93.fees-register"
+    ttl: 300
+    record: "2704E664C97D0712CC8B62B52698A726.3775C15CAA91AA19C97158084B41B96D.9cd9550491104e2d0a8d.comodoca.com."
+  - name: "_81561b7b9d7ee224ca33371799b09d93.tmwww.fees-register"
+    ttl: 300
+    record: "2704E664C97D0712CC8B62B52698A726.3775C15CAA91AA19C97158084B41B96D.9cd9550491104e2d0a8d.comodoca.com."
+  - name: "_81561b7b9d7ee224ca33371799b09d93.www.fees-register"
+    ttl: 300
+    record: "2704E664C97D0712CC8B62B52698A726.3775C15CAA91AA19C97158084B41B96D.9cd9550491104e2d0a8d.comodoca.com."
+  - name: "afdverify.equality-and-diversity"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.equality-and-diversity"
+    ttl: 300
+    record: "cdnverify.hmcts-equality-and-diversity-shutter-prod.azureedge.net"
+  - name: "equality-and-diversity"
+    ttl: 300
+    record: "hmcts-equality-and-diversity.azurefd.net"
+    shutter: true
+  - name: "_281472626d92865dd0e95a36c73ed2fe.payment"
+    ttl: 300
+    record: "AAC25DC156BF452752D274DA48EE63A6.9CAF936AECD4A0F0F2BF0004AB5CFCD3.78f9eb91b8c7b3b3967f.comodoca.com."
+  - name: "_281472626d92865dd0e95a36c73ed2fe.www.payment"
+    ttl: 300
+    record: "AAC25DC156BF452752D274DA48EE63A6.9CAF936AECD4A0F0F2BF0004AB5CFCD3.78f9eb91b8c7b3b3967f.comodoca.com."
+  - name: "_281472626d92865dd0e95a36c73ed2fe.tmwww.payment"
+    ttl: 300
+    record: "AAC25DC156BF452752D274DA48EE63A6.9CAF936AECD4A0F0F2BF0004AB5CFCD3.78f9eb91b8c7b3b3967f.comodoca.com."
+  - name: "_89f571fbd2f13e3f708f759af23ea7a1.fees-register-api"
+    ttl: 300
+    record: "E2FCB141307FF548AA10E53453DEDA56.4CC7A5196672CEB333FFD9BB1FC0E74D.d4a7d6def9138bb65e8a.comodoca.com."
+  - name: "_89f571fbd2f13e3f708f759af23ea7a1.www.fees-register-api"
+    ttl: 300
+    record: "E2FCB141307FF548AA10E53453DEDA56.4CC7A5196672CEB333FFD9BB1FC0E74D.d4a7d6def9138bb65e8a.comodoca.com."
+  - name: "_89f571fbd2f13e3f708f759af23ea7a1.tmwww.fees-register-api"
+    ttl: 300
+    record: "E2FCB141307FF548AA10E53453DEDA56.4CC7A5196672CEB333FFD9BB1FC0E74D.d4a7d6def9138bb65e8a.comodoca.com."
+  - name: "_0ca0cb0091b091d3779077c1129fdab7.ccd"
+    ttl: 300
+    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
+  - name: "_0ca0cb0091b091d3779077c1129fdab7.admin-gateway.ccd"
+    ttl: 300
+    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
+  - name: "_0ca0cb0091b091d3779077c1129fdab7.admin.ccd"
+    ttl: 300
+    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
+  - name: "_0ca0cb0091b091d3779077c1129fdab7.api.ccd"
+    ttl: 300
+    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
+  - name: "_0ca0cb0091b091d3779077c1129fdab7.callback.ccd"
+    ttl: 300
+    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
+  - name: "_0ca0cb0091b091d3779077c1129fdab7.case-activity-api.ccd"
+    ttl: 300
+    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
+  - name: "_0ca0cb0091b091d3779077c1129fdab7.case-data-api.ccd"
+    ttl: 300
+    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
+  - name: "_0ca0cb0091b091d3779077c1129fdab7.case-definition-api.ccd"
+    ttl: 300
+    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
+  - name: "_0ca0cb0091b091d3779077c1129fdab7.gateway.ccd"
+    ttl: 300
+    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
+  - name: "_0ca0cb0091b091d3779077c1129fdab7.return-case-doc.ccd"
+    ttl: 300
+    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
+  - name: "_0ca0cb0091b091d3779077c1129fdab7.tmadmin.ccd"
+    ttl: 300
+    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
+  - name: "_0ca0cb0091b091d3779077c1129fdab7.tmgateway.ccd"
+    ttl: 300
+    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
+  - name: "_0ca0cb0091b091d3779077c1129fdab7.tmwww.ccd"
+    ttl: 300
+    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
+  - name: "_0ca0cb0091b091d3779077c1129fdab7.user-profile-api.ccd"
+    ttl: 300
+    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
+  - name: "_0ca0cb0091b091d3779077c1129fdab7.www.ccd"
+    ttl: 300
+    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
+  - name: "_50723077147e969b1f874131913bcea7.equality-and-diversity"
+    ttl: 300
+    record: "D9C7C7B34A30E682E5E6F8D28EDFC953.A3DA0D967467BE34829D08884EA1C62D.0336cbaaed223cbc7e46.comodoca.com."
+  - name: "_50723077147e969b1f874131913bcea7.www.equality-and-diversity"
+    ttl: 300
+    record: "D9C7C7B34A30E682E5E6F8D28EDFC953.A3DA0D967467BE34829D08884EA1C62D.0336cbaaed223cbc7e46.comodoca.com."
+  - name: "_f42a85b5ba7e306496e0785611130b45.manage-payments"
+    ttl: 300
+    record: "451299A6EB656F0D2B8DDE22728EE0FF.354B82B7888D57F876E11850A90FCC47.ffbad8b9da2093d25ab5.comodoca.com."
+  - name: "_f42a85b5ba7e306496e0785611130b45.tmwww.manage-payments"
+    ttl: 300
+    record: "451299A6EB656F0D2B8DDE22728EE0FF.354B82B7888D57F876E11850A90FCC47.ffbad8b9da2093d25ab5.comodoca.com."
+  - name: "_f42a85b5ba7e306496e0785611130b45.www.manage-payments"
+    ttl: 300
+    record: "451299A6EB656F0D2B8DDE22728EE0FF.354B82B7888D57F876E11850A90FCC47.ffbad8b9da2093d25ab5.comodoca.com."
+  - name: "_e40885f4f37813461cb1085afb7cdeee.idam-web-admin"
+    ttl: 300
+    record: "020110664AB62AF4449A47B863046047.FD78BC2916DEF59577404A09C65E044C.2791cbf7a6b8b8c08804.comodoca.com."
+  - name: "_e40885f4f37813461cb1085afb7cdeee.idam-web-public"
+    ttl: 300
+    record: "020110664AB62AF4449A47B863046047.FD78BC2916DEF59577404A09C65E044C.2791cbf7a6b8b8c08804.comodoca.com."
+  - name: "_e40885f4f37813461cb1085afb7cdeee.idam-api"
+    ttl: 300
+    record: "020110664AB62AF4449A47B863046047.FD78BC2916DEF59577404A09C65E044C.2791cbf7a6b8b8c08804.comodoca.com."
+  - name: "_e40885f4f37813461cb1085afb7cdeee.www.idam-api"
+    ttl: 300
+    record: "020110664AB62AF4449A47B863046047.FD78BC2916DEF59577404A09C65E044C.2791cbf7a6b8b8c08804.comodoca.com."
+  - name: "_e40885f4f37813461cb1085afb7cdeee.www.idam-web-admin"
+    ttl: 300
+    record: "020110664AB62AF4449A47B863046047.FD78BC2916DEF59577404A09C65E044C.2791cbf7a6b8b8c08804.comodoca.com."
+  - name: "_e40885f4f37813461cb1085afb7cdeee.www.idam-web-public"
+    ttl: 300
+    record: "020110664AB62AF4449A47B863046047.FD78BC2916DEF59577404A09C65E044C.2791cbf7a6b8b8c08804.comodoca.com."
+  - name: "_5db7d528bfeadbde0b8dfd84f4283194.manage-case"
+    ttl: 300
+    record: "DE54C87654E25C2667E96297ED00EFB2.A78B01DF342FE16F3EE2939AE1DE5AE6.ca3445d71de0ef386033.comodoca.com."
+  - name: "_5db7d528bfeadbde0b8dfd84f4283194.www.manage-case"
+    ttl: 300
+    record: "DE54C87654E25C2667E96297ED00EFB2.A78B01DF342FE16F3EE2939AE1DE5AE6.ca3445d71de0ef386033.comodoca.com."
+  - name: "_d4be8b88faa3be1e91a1e861ab668710.preview"
+    ttl: 300
+    record: "D9618E9A3218DCA2320C068F66A18CF2.EEFA659552FEC6A9F634EEFC30D1254D.7a0c1035bcb33b6d8694.comodoca.com."
