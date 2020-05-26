@@ -109,6 +109,6 @@ cname:
   - name: "asverify.reformscan.staging"
     ttl: 300
     record: "asverify.reformscanperfteststg.blob.core.windows.net."
-  - name: "reformscan.staging."
+  - name: "reformscan.staging"
     ttl: 300
     record: "reformscanperfteststg.blob.core.windows.net."    
