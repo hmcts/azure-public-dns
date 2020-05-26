@@ -108,7 +108,7 @@ cname:
     record: "hmcts-perftest.azurefd.net"
   - name: "asverify.reformscan.staging"
     ttl: 300
-    record: "asverify.reformscanperfteststg.blob.core.windows.net."
+    record: "asverify.reformscanperfteststg.blob.core.windows.net"
   - name: "reformscan.staging"
     ttl: 300
-    record: "reformscanperfteststg.blob.core.windows.net."    
+    record: "reformscanperfteststg.blob.core.windows.net"    
