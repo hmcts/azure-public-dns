@@ -106,9 +106,9 @@ cname:
   - name: "register-org"
     ttl: 3600
     record: "hmcts-perftest.azurefd.net"
-  - name: "asverify.reformscan.staging"
+  - name: "asverify.reformscanstg"
     ttl: 300
     record: "asverify.reformscanperfteststg.blob.core.windows.net"
-  - name: "reformscan.staging"
+  - name: "reformscanstg"
     ttl: 300
     record: "reformscanperfteststg.blob.core.windows.net"    
