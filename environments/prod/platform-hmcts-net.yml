@@ -813,3 +813,15 @@ cname:
   - name: "_d4be8b88faa3be1e91a1e861ab668710.preview"
     ttl: 300
     record: "D9618E9A3218DCA2320C068F66A18CF2.EEFA659552FEC6A9F634EEFC30D1254D.7a0c1035bcb33b6d8694.comodoca.com."
+  - name:  "_7cba87adcad4f57372a715b2577d9386.apply-for-probate"
+    ttl: 300
+    record: "BE73A2977B64696A8ECC0E21AA29D069.36518B3A580CD808AA0F4507876C9E34.0fea24d4edf999326dfa.comodoca.com."
+  - name:  "_7cba87adcad4f57372a715b2577d9386.tmapply-for-probate"
+    ttl: 300
+    record: "BE73A2977B64696A8ECC0E21AA29D069.36518B3A580CD808AA0F4507876C9E34.0fea24d4edf999326dfa.comodoca.com."
+  - name:  "_7cba87adcad4f57372a715b2577d9386.tmwww.apply-for-probate"
+    ttl: 300
+    record: "BE73A2977B64696A8ECC0E21AA29D069.36518B3A580CD808AA0F4507876C9E34.0fea24d4edf999326dfa.comodoca.com."
+  - name:  "_7cba87adcad4f57372a715b2577d9386.www.apply-for-probate"
+    ttl: 300
+    record: "BE73A2977B64696A8ECC0E21AA29D069.36518B3A580CD808AA0F4507876C9E34.0fea24d4edf999326dfa.comodoca.com."
