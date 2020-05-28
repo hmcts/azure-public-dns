@@ -698,13 +698,13 @@ cname:
   - name: "_81561b7b9d7ee224ca33371799b09d93.www.fees-register"
     ttl: 300
     record: "2704E664C97D0712CC8B62B52698A726.3775C15CAA91AA19C97158084B41B96D.9cd9550491104e2d0a8d.comodoca.com."
-  - name: "afdverify.pcq"
+  - name: "afdverify.equality-and-diversity"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.pcq"
+  - name: "cdnverify.equality-and-diversity"
     ttl: 300
-    record: "cdnverify.hmcts-pcq-shutter-prod.azureedge.net"
-  - name: "pcq"
+    record: "cdnverify.hmcts-equality-and-diversity-shutter-prod.azureedge.net"
+  - name: "equality-and-diversity"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
   - name: "_281472626d92865dd0e95a36c73ed2fe.payment"
