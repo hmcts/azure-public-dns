@@ -27,7 +27,7 @@ cname:
   - name: "cdnverify"
     ttl: 3600
     record: "cdnverify.hmcts-hmcts-access-shutter-prod.azureedge.net"
-  - name: "*"
+  - name: ""
     ttl: 300
     record: "hmcts-prod.azurefd.net"
     shutter: false
