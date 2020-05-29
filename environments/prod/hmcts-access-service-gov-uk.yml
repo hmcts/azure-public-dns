@@ -6,7 +6,7 @@ A:
   - name: "@"
     ttl: 60
     record:
-      - "51.143.183.107"
+      - "hmcts-prod.azurefd.net"
 
 txt:
 
@@ -27,7 +27,3 @@ cname:
   - name: "cdnverify"
     ttl: 3600
     record: "cdnverify.hmcts-hmcts-access-shutter-prod.azureedge.net"
-  - name: ""
-    ttl: 300
-    record: "hmcts-prod.azurefd.net"
-    shutter: false
