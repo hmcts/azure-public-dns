@@ -23,3 +23,8 @@ cname:
   - name: "cdnverify"
     ttl: 3600
     record: "cdnverify.hmcts-hmcts-access-shutter-prod.azureedge.net"
+
+alias:
+  - name: "@"
+    ttl: 300
+    target_resource_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/resourceGroups/lz-prod-rg/providers/Microsoft.Network/frontdoors/hmcts-prod"
