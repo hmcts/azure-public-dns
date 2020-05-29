@@ -52,7 +52,7 @@ cname:
     record: "hmcts-aat.azurefd.net"
   - name: "reformscan"
     ttl: 60
-    record: "7cd7d74d-3207-47ce-af46-33f51cf09738.cloudapp.net"
+    record: "b5a2cd10-b60c-4e5b-9e1f-215906da8c1d.cloudapp.net"
   - name: "asverify.reformscan"
     ttl: 3600
     record: "asverify.reformscanaat.blob.core.windows.net"
