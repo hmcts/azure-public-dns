@@ -1,4 +1,4 @@
-module "platform-hmcts" {
+module "jcm-judiciary" {
   source              = "../../modules/azure-public-dns/"
   cname_records       = yamldecode(data.local_file.jcm-judiciary-config.content).cname
   a_recordsets        = yamldecode(data.local_file.jcm-judiciary-config.content).A
