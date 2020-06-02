@@ -243,7 +243,11 @@ A:
     - "20.50.101.55"
   - name: "response"
     ttl: 60
-    record: 
+    record:
+      - "51.141.228.194"
+  - name: "response-api"
+    ttl: 60
+    record:
       - "51.143.170.177"
 
 txt:
