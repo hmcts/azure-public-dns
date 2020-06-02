@@ -237,11 +237,14 @@ A:
     ttl: 60
     record: 
     - "51.11.47.129"  
-
   - name: "cvp-recording"
     ttl: 60
     record:
     - "20.50.101.55"
+  - name: "response"
+    ttl: 60
+    record: 
+      - "51.143.170.177"
 
 txt:
 
