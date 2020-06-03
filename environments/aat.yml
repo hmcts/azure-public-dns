@@ -61,7 +61,7 @@ cname:
     record: "asverify.reformscanaatstaging.blob.core.windows.net"
   - name: "reformscanstg"
     ttl: 300
-    record: "reformscanaatstaging.blob.core.windows.net"
+    record: "aa5dc4c7-2cef-4765-a826-c46a18febe3b.cloudapp.net"
   - name: "respond-divorce-aks"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
