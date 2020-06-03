@@ -58,10 +58,10 @@ cname:
     record: "asverify.reformscanaat.blob.core.windows.net"
   - name: "asverify.reformscanstg"
     ttl: 300
-    record: "asverify.reformscanaatstg.blob.core.windows.net"
+    record: "asverify.reformscanaatstaging.blob.core.windows.net"
   - name: "reformscanstg"
     ttl: 300
-    record: "reformscanaatstg.blob.core.windows.net"
+    record: "reformscanaatstaging.blob.core.windows.net"
   - name: "respond-divorce-aks"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
