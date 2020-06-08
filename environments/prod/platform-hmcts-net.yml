@@ -237,11 +237,18 @@ A:
     ttl: 60
     record: 
     - "51.11.47.129"  
-
   - name: "cvp-recording"
     ttl: 60
     record:
     - "20.50.101.55"
+  - name: "response"
+    ttl: 60
+    record:
+      - "51.141.228.194"
+  - name: "response-api"
+    ttl: 60
+    record:
+      - "51.143.170.177"
 
 txt:
 
@@ -483,10 +490,16 @@ cname:
     record: "awverify.probate-frontend-prod-shutter.azurewebsites.net"
   - name: "reformscan"
     ttl: 3600
-    record: "2be0d184-af73-4abf-84c1-6a0e447ebe50.cloudapp.net"
+    record: "d6553b20-4667-4120-a499-1e3de9ddce58.cloudapp.net"
   - name: "asverify.reformscan"
     ttl: 3600
     record: "asverify.reformscanprod.blob.core.windows.net"
+  - name: "asverify.reformscanstg"
+    ttl: 300
+    record: "asverify.reformscanprodstaging.blob.core.windows.net"
+  - name: "reformscanstg"
+    ttl: 300
+    record: "reformscanprodstaging.blob.core.windows.net"
   - name: "register-org"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
@@ -709,7 +722,6 @@ cname:
   - name: "equality-and-diversity"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
   - name: "_281472626d92865dd0e95a36c73ed2fe.payment"
     ttl: 300
     record: "AAC25DC156BF452752D274DA48EE63A6.9CAF936AECD4A0F0F2BF0004AB5CFCD3.78f9eb91b8c7b3b3967f.comodoca.com."
