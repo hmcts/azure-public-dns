@@ -3,6 +3,21 @@ ns:
 mx:
 
 A:
+  - name: "cvp-recording"
+    ttl: 60
+    record:
+      - "20.50.97.49"
+
+  - name: "cvp-recording-01"
+    ttl: 60
+    record:
+      - "20.50.97.42"
+
+  - name: "cvp-recording-02"
+    ttl: 60
+    record:
+      - "20.50.97.152"
+
 
 txt:
 
@@ -37,10 +52,16 @@ cname:
     record: "hmcts-aat.azurefd.net"
   - name: "reformscan"
     ttl: 60
-    record: "f7643f50-5b35-4a1b-b7d6-dc9782a87f57.cloudapp.net"
+    record: "b5a2cd10-b60c-4e5b-9e1f-215906da8c1d.cloudapp.net"
   - name: "asverify.reformscan"
     ttl: 3600
     record: "asverify.reformscanaat.blob.core.windows.net"
+  - name: "asverify.reformscanstg"
+    ttl: 300
+    record: "asverify.reformscanaatstaging.blob.core.windows.net"
+  - name: "reformscanstg"
+    ttl: 300
+    record: "aa5dc4c7-2cef-4765-a826-c46a18febe3b.cloudapp.net"
   - name: "respond-divorce-aks"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
@@ -119,6 +140,9 @@ cname:
   - name: "afdverify.pcq"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "pcq"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.adoption"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"

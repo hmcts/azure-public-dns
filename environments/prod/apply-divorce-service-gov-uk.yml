@@ -53,7 +53,7 @@ cname:
   - name: "tmwww.decree-nisi"
     ttl: 300
     record: "002e6245-3b44-41b3-ae6f-b7a6a93f7bb9.cloudapp.net"
-    shutter: true
+    shutter: false
   - name: "_73f395344556287b0869cc57ed617fc1.tmwww.decree-nisi"
     ttl: 300
     record: "D419B79DCFB96FCE3193A045334CECC7.A7B3FD329BA55A1B2FD92EA4D87D419F.42aba4b3ad24ee97a513.comodoca.com."
@@ -98,5 +98,8 @@ cname:
   - name: "cdnverify.www"
     ttl: 3600
     record: "cdnverify.hmcts-apply-divorce-shutter-prod.azureedge.net"
+  - name: "_ebcea3aaa604ee544afe2171a1c19d4a.decree-absolute"
+    ttl: 300
+    record: "CFBF67E5860E17571AFAFDC7492F6BA1.142AB2C674199D39D63BC25392096FBF.38b2baf94efabe47b94f.comodoca.com."
   
 

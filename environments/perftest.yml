@@ -21,7 +21,7 @@ cname:
     record: "hmcts-perftest.azurefd.net"
   - name: "bulkscan"
     ttl: 300
-    record: "cce9c112-ef98-4879-81ee-e7ce4ff33356.cloudapp.net"
+    record: "bulkscanperftest.blob.core.windows.net"
   - name: "asverify.bulkscan"
     ttl: 300
     record: "asverify.bulkscanperftest.blob.core.windows.net"
@@ -51,7 +51,7 @@ cname:
     record: "hmcts-perftest.azurefd.net"
   - name: "reformscan"
     ttl: 300
-    record: "a975c6f9-93cc-42fe-8cb1-c194eee0e2db.cloudapp.net"
+    record: "reformscanperftest.blob.core.windows.net"
   - name: "asverify.reformscan"
     ttl: 300
     record: "asverify.reformscanperftest.blob.core.windows.net"
@@ -67,12 +67,48 @@ cname:
   - name: "probate"
     ttl: 3600
     record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.pcq"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "pcq"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
   - name: "afdverify.bar"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-perftest.azurefd.net"
   - name: "afdverify.paybubble"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-perftest.azurefd.net"
   - name: "afdverify.fees-register"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "afdverify.manage-case"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "manage-case"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.manage-org"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "manage-org"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.administer-orgs"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "administer-orgs"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.register-org"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "register-org"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
+  - name: "asverify.reformscanstg"
+    ttl: 300
+    record: "asverify.reformscanperfteststg.blob.core.windows.net"
+  - name: "reformscanstg"
+    ttl: 300
+    record: "reformscanperfteststg.blob.core.windows.net"    

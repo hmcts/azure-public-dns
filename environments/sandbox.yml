@@ -16,6 +16,21 @@ A:
     record:
       - "51.140.180.140"
 
+  - name: "cvp-recording"
+    ttl: 60
+    record:
+      - "51.132.42.92"
+
+  - name: "cvp-recording-01"
+    ttl: 60
+    record:
+      - "51.132.41.247"
+
+  - name: "cvp-recording-02"
+    ttl: 60
+    record:
+      - "51.132.42.179"
+
 txt:
   - name: "contact.justice"
     ttl: 3600
@@ -45,8 +60,14 @@ cname:
   - name: "plum"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
-    shutter: true
+    shutter: false
+  - name: "www.plum"
+    ttl: 300
+    record: "hmcts-sbox.azurefd.net"
   - name: "afdverify.plum"
+    ttl: 3600
+    record: "afdverify.hmcts-sbox.azurefd.net"
+  - name: "afdverify.www.plum"
     ttl: 3600
     record: "afdverify.hmcts-sbox.azurefd.net"
   - name: "plum.uksouth"
