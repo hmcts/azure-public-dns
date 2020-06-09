@@ -30,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -101,39 +101,7 @@
             <path>
               <item name="azure-public-dns" type="b2602c69:ProjectViewProjectNode" />
               <item name="azure-public-dns" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="azure-public-dns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="azure-public-dns" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="aat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="azure-public-dns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="azure-public-dns" type="462c0819:PsiDirectoryNode" />
-              <item name="environments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="azure-public-dns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="azure-public-dns" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="azure-public-dns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="azure-public-dns" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="azure-public-dns" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="azure-public-dns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="azure-public-dns" type="462c0819:PsiDirectoryNode" />
-              <item name="pipeline-templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="azure-public-dns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="azure-public-dns" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -184,17 +152,17 @@
       <workItem from="1587408520275" duration="93000" />
       <workItem from="1587456311030" duration="598000" />
       <workItem from="1588244973355" duration="537000" />
-      <workItem from="1591691456817" duration="1485000" />
+      <workItem from="1591691456817" duration="1775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5485000" />
+    <option name="totallyTimeSpent" value="5775000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -211,7 +179,7 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4944238" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.4944238" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -310,8 +278,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
