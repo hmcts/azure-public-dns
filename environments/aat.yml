@@ -101,6 +101,9 @@ cname:
   - name: "afdverify.moneyclaims"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "afdverify.moneyclaims-staging"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
   - name: "afdverify.moneyclaims-legal"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
