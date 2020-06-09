@@ -32,6 +32,12 @@ cname:
   - name: "asverify.bulkscan"
     ttl: 60
     record: "asverify.bulkscanaat.blob.core.windows.net"
+  - name: "asverify.bulkscanstg"
+    ttl: 300
+    record: "asverify.bulkscanaatstaging.blob.core.windows.net"
+  - name: "bulkscanstg"
+    ttl: 300
+    record: "bulkscanaatstaging.blob.core.windows.net"
   - name: "decree-absolute-aks"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
