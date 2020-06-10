@@ -180,7 +180,7 @@ A:
   - name: "sandbox-build"
     ttl: 60
     record: 
-      - "51.140.32.178"
+      - "40.120.54.64"
   - name: "sandbox-build-beta"
     ttl: 60
     record: 
