@@ -306,6 +306,12 @@ cname:
   - name: "asverify.bulkscan"
     ttl: 60
     record: "asverify.bulkscanprod.blob.core.windows.net"
+  - name: "asverify.bulkscanstg"
+    ttl: 300
+    record: "asverify.bulkscanprodstaging.blob.core.windows.net"
+  - name: "bulkscanstg"
+    ttl: 300
+    record: "bulkscanprodstaging.blob.core.windows.net"
   - name: "ccd"
     ttl: 60
     record: "hmcts-ccd-case-management-web-prod.trafficmanager.net"
