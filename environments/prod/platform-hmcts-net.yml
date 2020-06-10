@@ -302,7 +302,7 @@ cname:
     record: "hmcts-sscs-tribunals-frontend-prod.trafficmanager.net"
   - name: "bulkscan"
     ttl: 60
-    record: "bulkscanprod.blob.core.windows.net"
+    record: "9196f345-717b-4318-9466-38fe93aa8a4a.cloudapp.net"
   - name: "asverify.bulkscan"
     ttl: 60
     record: "asverify.bulkscanprod.blob.core.windows.net"
