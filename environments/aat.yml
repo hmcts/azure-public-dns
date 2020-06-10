@@ -37,7 +37,7 @@ cname:
     record: "asverify.bulkscanaatstaging.blob.core.windows.net"
   - name: "bulkscanstg"
     ttl: 300
-    record: "bulkscanaatstaging.blob.core.windows.net"
+    record: "3c7bcbcd-1e69-4377-8f96-b90fb026ad23.cloudapp.net"
   - name: "decree-absolute-aks"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
