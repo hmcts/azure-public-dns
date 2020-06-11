@@ -6,17 +6,17 @@ A:
   - name: "cvp-recording"
     ttl: 60
     record:
-      - "20.50.97.49"
+      - "20.49.129.252"
 
   - name: "cvp-recording-01"
     ttl: 60
     record:
-      - "20.50.97.42"
+      - "20.49.130.27"
 
   - name: "cvp-recording-02"
     ttl: 60
     record:
-      - "20.50.97.152"
+      - "20.49.129.95"
 
 
 txt:
