@@ -9,5 +9,5 @@ txt:
 cname:
   - name: "hmcts-nle.azurefd.net"
     ttl: 900
-    record: "nle.platforms.hmcts.net"
+    record: "nle.platform.hmcts.net"
   
