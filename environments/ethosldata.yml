@@ -1,0 +1,12 @@
+ns:
+
+mx:
+
+A:
+
+txt:
+
+cname:
+  - name: "idam-web-public-ethosldata"
+    ttl: 60
+    record: "hmcts-ldata.azurefd.net"

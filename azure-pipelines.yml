@@ -38,6 +38,13 @@ stages:
 
       - template: pipeline-templates/terraform-plan.yaml
         parameters:
+          zone: 'ethosldata'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+
+      - template: pipeline-templates/terraform-plan.yaml
+        parameters:
           zone: 'perftest'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
@@ -101,6 +108,18 @@ stages:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
           zone: 'ithc'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+
+  - stage: Ethosldata_Apply
+    dependsOn: Plan_phase
+    displayName: "EthosLdata Apply"
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    jobs:
+      - template: pipeline-templates/terraform-apply.yaml
+        parameters:
+          zone: 'ethosldata'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
