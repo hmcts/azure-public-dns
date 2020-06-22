@@ -1,0 +1,45 @@
+ns:
+
+mx:
+  - name: "@"
+    ttl: 300
+    record: 
+      - "0 mail.contact.justice.ethosldata.platform.hmcts.net"
+  - name: "contact.justice"
+    ttl: 3600
+    record: 
+      - "10 ctscmail.ethosldata.platform.hmcts.net"
+
+A:
+  - name: "ctscmail"
+    ttl: 3600
+    record:
+      - "51.140.180.140"
+
+txt:
+  - name: "contact.justice"
+    ttl: 3600
+    record: 
+      - "v=spf1 ip4:51.105.21.172  ip4:51.105.21.118 -all"
+  - name: "_dmarc.contact.justice"
+    ttl: 3600
+    record: 
+      - "v=DMARC1; p=none"
+
+# In order to swap the DNS for shutterring an application enable the shutter parameter for the corresponding application.
+# e.g. This will shutter the plum app in ldata environment
+#  - name: "plum"
+#    ttl: 300
+#    record: "hmcts-ldata.azurefd.net"
+#    shutter: true
+cname:
+  - name: "afdverify.idam-web-public"
+    ttl: 300
+    record: "afdverify.hmcts-ldata.azurefd.net"
+  - name: "cdnverify.idam-web-public"
+    ttl: 300
+    record: "cdnverify.hmcts-idam-web-public-ethosldata-shutter-ldata.azureedge.net"
+  - name: "idam-web-public-ethosldata"
+    ttl: 300
+    record: "hmcts-ldata.azurefd.net"
+    shutter: false
