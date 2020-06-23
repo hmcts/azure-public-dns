@@ -148,9 +148,6 @@ cname:
   - name: "afdverify.idam-web-admin"
     ttl: 300
     record: "afdverify.hmcts-ithc.azurefd.net"
-  - name: "cdnverify.idam-web-admin"
-    ttl: 300
-    record: "cdnverify.hmcts-idam-web-admin-shutter-ithc.azureedge.net"
   - name: "idam-web-admin"
     ttl: 300
     record: "hmcts-ithc.azurefd.net"
