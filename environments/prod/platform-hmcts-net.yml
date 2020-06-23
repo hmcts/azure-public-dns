@@ -827,3 +827,6 @@ cname:
   - name:  "_7cba87adcad4f57372a715b2577d9386.www.apply-for-probate"
     ttl: 300
     record: "BE73A2977B64696A8ECC0E21AA29D069.36518B3A580CD808AA0F4507876C9E34.0fea24d4edf999326dfa.comodoca.com."
+  - name:  "_3825e02bb8c28ec8ba893c325ecb72b2.ethosldata"
+    ttl: 300
+    record: "0F22025E8E2C60A07445AD5496570180.4352296197FA9E9A25A74552E07F7204.9554b1e815bd9412c45c.comodoca.com."
