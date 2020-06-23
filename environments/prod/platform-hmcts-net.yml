@@ -822,3 +822,12 @@ cname:
   - name:  "_840e76f7b1abca12538423a45b33cebf.darts-service.nle"
     ttl: 300
     record: "D4E69E43D1B29BC73E3ACC4B24C5EC3D.064FCC3215C58BBD19F8FCEEA51B67B2.59727fa212140da7999b.comodoca.com."
+  - name: "afdverify.idam-web-admin"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.idam-web-admin"
+    ttl: 300
+    record: "cdnverify.hmcts-idam-web-admin-shutter-prod.azureedge.net"
+  - name: "idam-web-admin"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
