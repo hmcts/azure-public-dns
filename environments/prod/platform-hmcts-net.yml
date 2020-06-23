@@ -380,9 +380,6 @@ cname:
   - name: "www.idam"
     ttl: 60
     record: "hmcts-idam-web-public-idam-prod.trafficmanager.net"
-  - name: "idam-web-admin"
-    ttl: 60
-    record: "hmcts-idam-web-admin-idam-prod.trafficmanager.net"
   - name: "idam-web-public-ethosldata"
     ttl: 60
     record: "hmcts-ldata.azurefd.net"
@@ -565,9 +562,6 @@ cname:
   - name: "tmbenefit-appeal"
     ttl: 3600
     record: "58fd15f9-7a11-4de2-8df1-9aef0e807ec2.cloudapp.net"
-  - name: "tmidam-web-admin"
-    ttl: 60
-    record: "7436ed5c-c64c-4053-9c36-6d8ee8702a6d.cloudapp.net"
   - name: "tmidam-web-public"
     ttl: 60
     record: "7436ed5c-c64c-4053-9c36-6d8ee8702a6d.cloudapp.net"
