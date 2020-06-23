@@ -117,10 +117,6 @@ A:
     ttl: 60
     record: 
       - "52.151.74.140"
-  - name: "idam-api-ethosldata"
-    ttl: 60
-    record: 
-      - "10.14.66.11"
   - name: "jdbureau"
     ttl: 60
     record: 
@@ -375,7 +371,7 @@ cname:
     shutter: false
   - name: "gateway-ccd-ethosldata"
     ttl: 60
-    record: "hmcts-ccd-api-gateway-web-ethosldata.trafficmanager.net"
+    record: "hmcts-ldata.azurefd.net"
   - name: "idam"
     ttl: 60
     record: "hmcts-idam-web-public-idam-prod.trafficmanager.net"
@@ -387,7 +383,7 @@ cname:
     record: "hmcts-idam-web-admin-idam-prod.trafficmanager.net"
   - name: "idam-web-public-ethosldata"
     ttl: 60
-    record: "hmcts-idam-web-public-idam-ethosldata.trafficmanager.net"
+    record: "hmcts-ldata.azurefd.net"
   - name: "_daa65891b4b28959dc2cba8b2137cfb3.ithc"
     ttl: 300
     record: "DA0140C78CC21363E7612FB5B696B2F0.72669650AD22FEAC804FFF33F441B4A9.ed1dac006b5ef6170e64.comodoca.com."
@@ -567,18 +563,12 @@ cname:
   - name: "tmbenefit-appeal"
     ttl: 3600
     record: "58fd15f9-7a11-4de2-8df1-9aef0e807ec2.cloudapp.net"
-  - name: "tmgateway-ccd-ethosldata"
-    ttl: 60
-    record: "b1e5bfab-d489-40f8-b559-5b30d02f1b48.cloudapp.net"
   - name: "tmidam-web-admin"
     ttl: 60
     record: "7436ed5c-c64c-4053-9c36-6d8ee8702a6d.cloudapp.net"
   - name: "tmidam-web-public"
     ttl: 60
     record: "7436ed5c-c64c-4053-9c36-6d8ee8702a6d.cloudapp.net"
-  - name: "tmidam-web-public-ethosldata"
-    ttl: 60
-    record: "500f1820-ccf8-4799-9d15-900c58827d70.cloudapp.net"
   - name: "tmmanage-case"
     ttl: 300
     record: "3ea55565-0202-4fa4-a74b-e9b0bccdefd5.cloudapp.net"
@@ -591,9 +581,6 @@ cname:
   - name: "tmtrack-appeal"
     ttl: 3600
     record: "58fd15f9-7a11-4de2-8df1-9aef0e807ec2.cloudapp.net"
-  - name: "tmwww-ccd-ethosldata"
-    ttl: 60
-    record: "b1e5bfab-d489-40f8-b559-5b30d02f1b48.cloudapp.net"
   - name: "track-appeal"
     ttl: 3600
     record: "hmcts-sscs-tya-frontend-prod.trafficmanager.net"
@@ -602,7 +589,7 @@ cname:
     record: "hmcts-sscs-tya-frontend-prod.trafficmanager.net"
   - name: "www-ccd-ethosldata"
     ttl: 60
-    record: "hmcts-ccd-case-management-web-ethosldata.trafficmanager.net"
+    record: "hmcts-ldata.azurefd.net"
   - name: "afdverify.register-org"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
