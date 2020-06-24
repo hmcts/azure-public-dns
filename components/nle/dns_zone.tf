@@ -3,6 +3,6 @@ data "azurerm_resource_group" "main" {
 }
 
 resource "azurerm_dns_zone" "zone" {
-  name                = "nle.platform.hmcts.net"
+  name                = "hmcts-nle.azurefd.net"
   resource_group_name = data.azurerm_resource_group.main.name
 }
