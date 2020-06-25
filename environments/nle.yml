@@ -10,3 +10,7 @@ cname:
   - name: "darts-service"
     ttl: 900
     record: "hmcts-nle.azurefd.net"
+
+  - name: "afdverify.darts-service"
+    ttl: 300
+    record: "afdverify.hmcts-nle.azurefd.net"
