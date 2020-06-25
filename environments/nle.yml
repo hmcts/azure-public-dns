@@ -10,4 +10,3 @@ cname:
   - name: "hmcts-nle.azurefd.net"
     ttl: 900
     record: "nle.platform.hmcts.net"
-  
