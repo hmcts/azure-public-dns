@@ -7,6 +7,10 @@ A:
 txt:
 
 cname:
-  - name: "hmcts-nle.azurefd.net"
+  - name: "darts-service"
     ttl: 900
-    record: "nle.platform.hmcts.net"
+    record: "hmcts-nle.azurefd.net"
+
+  - name: "afdverify.darts-service"
+    ttl: 300
+    record: "afdverify.hmcts-nle.azurefd.net"
