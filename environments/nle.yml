@@ -9,4 +9,4 @@ txt:
 cname:
   - name: "darts-service"
     ttl: 900
-    record: "hmcts-nle.azurefd.net"
+    record: "nle.platform.hmcts.net"
