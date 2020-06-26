@@ -185,4 +185,12 @@ cname:
   - name: "afdverify.fees-register"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
-  
+  - name: "bar"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
+  - name: "paybubble"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
+  - name: "fees-register"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"

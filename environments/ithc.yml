@@ -145,6 +145,15 @@ cname:
   - name: "afdverify.fees-register"
     ttl: 3600
     record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "bar"
+    ttl: 3600
+    record: "hmcts-ithc.azurefd.net"
+  - name: "paybubble"
+    ttl: 3600
+    record: "hmcts-ithc.azurefd.net"
+  - name: "fees-register"
+    ttl: 3600
+    record: "hmcts-ithc.azurefd.net"
   - name: "afdverify.idam-web-admin"
     ttl: 300
     record: "afdverify.hmcts-ithc.azurefd.net"

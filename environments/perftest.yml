@@ -82,6 +82,15 @@ cname:
   - name: "afdverify.fees-register"
     ttl: 3600
     record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "bar"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
+  - name: "paybubble"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
+  - name: "fees-register"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
   - name: "afdverify.manage-case"
     ttl: 3600
     record: "afdverify.hmcts-perftest.azurefd.net"
@@ -111,4 +120,4 @@ cname:
     record: "asverify.reformscanperfteststg.blob.core.windows.net"
   - name: "reformscanstg"
     ttl: 300
-    record: "reformscanperfteststg.blob.core.windows.net"    
+    record: "reformscanperfteststg.blob.core.windows.net"
