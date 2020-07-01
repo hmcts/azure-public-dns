@@ -46,4 +46,6 @@ cname:
   - name: "afdverify.www.manage"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
-
+  - name: "_cb0c2bed94126d7a978859e149667827"
+    ttl: 300
+    record: "B150AA2D48C0447905F17445F4F98DAE.AE8A0B3F2B54B5A13BF89BC567D47FA0.1685a13066f6f21b02e6.comodoca.com."
