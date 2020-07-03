@@ -9,8 +9,8 @@ txt:
 cname:
   - name: "darts-service"
     ttl: 900
-    record: "hmcts-nle.azurefd.net"
+    record: "firewall-prod-int-palo-heritage.ukwest.cloudapp.azure.com"
 
   - name: "afdverify.darts-service"
     ttl: 300
-    record: "afdverify.hmcts-nle.azurefd.net"
+    record: "afdverify.firewall-prod-int-palo-heritage.ukwest.cloudapp.azure.com"
