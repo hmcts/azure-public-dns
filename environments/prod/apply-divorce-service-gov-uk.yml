@@ -34,7 +34,7 @@ cname:
   - name: "www.decree-absolute"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "afdverify.www.decree-absolute"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -85,7 +85,7 @@ cname:
   - name: "www"
     ttl: 120
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "_45a726e6b562188b09c3646d5ad34983.www"
     ttl: 3600
     record: "C1EB7C78C6448477066C9915B1FD71E6.D52AE9FBE6362839344F409B3A3D621A.5ae078197ba9c.comodoca.com"
