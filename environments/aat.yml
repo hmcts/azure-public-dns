@@ -158,6 +158,12 @@ cname:
   - name: "immigration-appeal"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.ia-wa-proto-frontend"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "ia-wa-proto-frontend"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.idam-web-public-aat2"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
