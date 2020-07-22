@@ -283,15 +283,6 @@ cname:
   - name: "www.apply-divorce"
     ttl: 60
     record: "www.apply-divorce.service.gov.uk"
-  - name: "apply-for-probate"
-    ttl: 60
-    record: "hmcts-probate-frontend-prod.trafficmanager.net"
-  - name: "tmwww.apply-for-probate"
-    ttl: 60
-    record: "05c4d7c6-49f9-42a5-bc31-20127cb4443d.cloudapp.net"
-  - name: "www.apply-for-probate"
-    ttl: 60
-    record: "apply-for-probate.platform.hmcts.net."
   - name: "benefit-appeal"
     ttl: 60
     record: "d9bb5705-1e1d-43d7-9a3d-8a7a97562873.cloudapp.net"
@@ -310,9 +301,6 @@ cname:
   - name: "bulkscanstg"
     ttl: 300
     record: "bulkscanprodstaging.blob.core.windows.net"
-  - name: "ccd"
-    ttl: 60
-    record: "hmcts-ccd-case-management-web-prod.trafficmanager.net"
   - name: "gateway.ccd"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
@@ -571,15 +559,6 @@ cname:
   - name: "tmpaybubble"
     ttl: 300
     record: "3563cbf6-3619-4245-9ff8-bd4ffc8bd57f.cloudapp.net"
-  - name: "tmtrack-appeal"
-    ttl: 3600
-    record: "58fd15f9-7a11-4de2-8df1-9aef0e807ec2.cloudapp.net"
-  - name: "track-appeal"
-    ttl: 3600
-    record: "hmcts-sscs-tya-frontend-prod.trafficmanager.net"
-  - name: "www.track-appeal"
-    ttl: 900
-    record: "hmcts-sscs-tya-frontend-prod.trafficmanager.net"
   - name: "www-ccd-ethosldata"
     ttl: 60
     record: "hmcts-ldata.azurefd.net"
