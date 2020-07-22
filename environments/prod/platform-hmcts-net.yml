@@ -255,9 +255,6 @@ cname:
   - name: "_9c4d3a31c7755933c820c13ece0caaca"
     ttl: 900
     record: "5FB0CEFAAA0AA8102FDD0A6804FB846B.516553A1B23D93381A318F4E0A1B67C6.7fea1fb9e9b410a5a0c5.comodoca.com."
-  - name: "probate.aat"
-    ttl: 60
-    record: "hmcts-probate-frontend-aat.trafficmanager.net"
   - name: "awverify.probate.aat"
     ttl: 1
     record: "awverify.probate-frontend-aat-shutter.azurewebsites.net"
@@ -286,9 +283,6 @@ cname:
   - name: "benefit-appeal"
     ttl: 60
     record: "d9bb5705-1e1d-43d7-9a3d-8a7a97562873.cloudapp.net"
-  - name: "www.benefit-appeal"
-    ttl: 3600
-    record: "hmcts-sscs-tribunals-frontend-prod.trafficmanager.net"
   - name: "bulkscan"
     ttl: 60
     record: "9196f345-717b-4318-9466-38fe93aa8a4a.cloudapp.net"
@@ -324,9 +318,6 @@ cname:
   - name: "www.apply-divorce.demo"
     ttl: 60
     record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
-  - name: "gateway.ccd.demo"
-    ttl: 300
-    record: "hmcts-ccd-api-gateway-web-demo.trafficmanager.net"
   - name: "tmgateway.ccd.demo"
     ttl: 300
     record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
@@ -362,12 +353,6 @@ cname:
   - name: "gateway-ccd-ethosldata"
     ttl: 60
     record: "hmcts-ldata.azurefd.net"
-  - name: "idam"
-    ttl: 60
-    record: "hmcts-idam-web-public-idam-prod.trafficmanager.net"
-  - name: "www.idam"
-    ttl: 60
-    record: "hmcts-idam-web-public-idam-prod.trafficmanager.net"
   - name: "idam-web-public-ethosldata"
     ttl: 60
     record: "hmcts-ldata.azurefd.net"

@@ -624,9 +624,6 @@ cname:
   - name: "_4bef1b9ee6d66d0dd909321b95ca4622.www.hearings"
     ttl: 3600
     record: "86364B7871DFC7D835348AF91B57FE25.3E0AD874D1B85815DE8F19925ADF03EA.5a6212c040667.comodoca.com"
-  - name: "idam"
-    ttl: 60
-    record: "hmcts-idam-web-public-idam-prod.trafficmanager.net"
   - name: "_7447348240d74c1e1d42773c4b5075a2.idam"
     ttl: 60
     record: "901FF49F0084AC452FADCAC8966B76A3.4AA2E2FBF6A6C930A844277C658AE4BE.5ae44242608ea.comodoca.com"
@@ -717,9 +714,6 @@ cname:
   - name: "_50ff512fc06067795bcaea0038e3cd19.preprod.probate.reform"
     ttl: 900
     record: "F406D708477D75F58E9AEDD9B15ED732.E8093EDAFE40F915FBAFF6AD217BFB21.59d3fee938cec.comodoca.com"
-  - name: "register"
-    ttl: 60
-    record: "hmcts-idam-web-admin-idam-prod.trafficmanager.net"
   - name: "registration"
     ttl: 900
     record: "register.reform.hmcts.net"
