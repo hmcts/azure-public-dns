@@ -44,9 +44,6 @@ cname:
   - name: "decree-nisi-aks"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
-  - name: "www.fees-register"
-    ttl: 900
-    record: "hmcts-fees-register-frontend-aat.trafficmanager.net"
   - name: "gateway-ccd"
     ttl: 900
     record: "hmcts-aat.azurefd.net"
