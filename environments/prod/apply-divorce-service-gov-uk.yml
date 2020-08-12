@@ -28,9 +28,6 @@ cname:
   - name: "_d9ec4536101c13783d85912fb622c3d1.decree-absolute"
     ttl: 300
     record: "CFB97CA810B7148874BE5DA1CF971ED4.AF7567D4581DD8D30A4E86060DA15C61.2618c3e4c775f2c5f5f7.comodoca.com."
-  - name: "tmwww.decree-absolute"
-    ttl: 300
-    record: "002e6245-3b44-41b3-ae6f-b7a6a93f7bb9.cloudapp.net"
   - name: "www.decree-absolute"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
@@ -48,16 +45,6 @@ cname:
     ttl: 300
     record: "D419B79DCFB96FCE3193A045334CECC7.A7B3FD329BA55A1B2FD92EA4D87D419F.42aba4b3ad24ee97a513.comodoca.com."
   - name: "_99b281d4ca7410e9692ac4b8772d68f5.decree-nisi"
-    ttl: 300
-    record: "0F92E4D9272A97899DDC640DA9FD3F4A.D88FABF0435BEE3862B637A109C3C533.637386e85513e2141b43.comodoca.com"
-  - name: "tmwww.decree-nisi"
-    ttl: 300
-    record: "002e6245-3b44-41b3-ae6f-b7a6a93f7bb9.cloudapp.net"
-    shutter: false
-  - name: "_73f395344556287b0869cc57ed617fc1.tmwww.decree-nisi"
-    ttl: 300
-    record: "D419B79DCFB96FCE3193A045334CECC7.A7B3FD329BA55A1B2FD92EA4D87D419F.42aba4b3ad24ee97a513.comodoca.com."
-  - name: "_99b281d4ca7410e9692ac4b8772d68f5.tmwww.decree-nisi"
     ttl: 300
     record: "0F92E4D9272A97899DDC640DA9FD3F4A.D88FABF0435BEE3862B637A109C3C533.637386e85513e2141b43.comodoca.com"
   - name: "www.decree-nisi"
