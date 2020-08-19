@@ -45,3 +45,7 @@ data "local_file" "reform-hmcts-config" {
 data "local_file" "jcm-judiciary-config" {
   filename = "${path.cwd}/../../environments/prod/jcm-judiciary-uk.yml"
 }
+
+data "local_file" "glb-ctsc-hmcts-net-config" {
+  filename = "${path.cwd}/../../environments/prod/glb-ctsc-hmcts-net.yml"
+}
