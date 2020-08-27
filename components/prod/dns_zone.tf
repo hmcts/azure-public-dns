@@ -62,7 +62,7 @@ resource "azurerm_dns_zone" "jcm-judiciary" {
   resource_group_name = data.azurerm_resource_group.main.name
 }
 
-resource "azurerm_dns_zone" "glb-ctsc-hmcts" {
-  name                = "glb.ctsc.hmcts.net"
+resource "azurerm_dns_zone" "ctsc-hmcts" {
+  name                = "ctsc.hmcts.net"
   resource_group_name = data.azurerm_resource_group.main.name
 }
