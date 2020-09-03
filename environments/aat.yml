@@ -170,6 +170,12 @@ cname:
   - name: "probate"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.ctf"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "ctf"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.bar"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
