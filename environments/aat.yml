@@ -149,6 +149,12 @@ cname:
   - name: "adoption"
     ttl: 300
     record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.fact"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "fact"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.wa-proto-frontend"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
