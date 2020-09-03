@@ -103,3 +103,6 @@ cname:
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
     shutter: false
+  - name: "hmi-poc-apim"
+    ttl: 300
+    record: "hmcts-sbox.azurefd.net"
