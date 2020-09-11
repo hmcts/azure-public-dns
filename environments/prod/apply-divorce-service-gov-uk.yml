@@ -31,7 +31,7 @@ cname:
   - name: "www.decree-absolute"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.www.decree-absolute"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -50,7 +50,7 @@ cname:
   - name: "www.decree-nisi"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "_73f395344556287b0869cc57ed617fc1.www.decree-nisi"
     ttl: 300
     record: "D419B79DCFB96FCE3193A045334CECC7.A7B3FD329BA55A1B2FD92EA4D87D419F.42aba4b3ad24ee97a513.comodoca.com."
@@ -72,7 +72,7 @@ cname:
   - name: "www"
     ttl: 120
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "_45a726e6b562188b09c3646d5ad34983.www"
     ttl: 3600
     record: "C1EB7C78C6448477066C9915B1FD71E6.D52AE9FBE6362839344F409B3A3D621A.5ae078197ba9c.comodoca.com"
