@@ -3,8 +3,51 @@ ns:
 mx:
 
 A:
+  - name: "@"
+    ttl: 60
+    alias_target_resource_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/resourceGroups/lz-prod-rg/providers/Microsoft.Network/frontdoors/hmcts-prod"
+
 
 txt:
 
 
 cname:
+  - name: "_5e405d41fa27b56864616edfd5f1daab.preprod.glb"
+    ttl: 300
+    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
+ - name: "_5e405d41fa27b56864616edfd5f1daab.aep.preprod.glb"
+    ttl: 300
+    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
+ - name: "_5e405d41fa27b56864616edfd5f1daab.em.preprod.glb"
+    ttl: 300
+    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
+ - name: "_5e405d41fa27b56864616edfd5f1daab.wfo.preprod.glb"
+    ttl: 300
+    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
+ - name: "_5e405d41fa27b56864616edfd5f1daab.iad.preprod.glb"
+    ttl: 300
+    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
+ - name: "_5e405d41fa27b56864616edfd5f1daab.api-gw.preprod.glb"
+    ttl: 300
+    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
+ - name: "_5e405d41fa27b56864616edfd5f1daab.widg.preprod.glb"
+    ttl: 300
+    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
+ - name: "_5e405d41fa27b56864616edfd5f1daab.ctl-mgr.preprod.glb"
+    ttl: 300
+    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
+ - name: "_5e405d41fa27b56864616edfd5f1daab.ana.preprod.glb"
+    ttl: 300
+    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
+ - name: "_5e405d41fa27b56864616edfd5f1daab.cba.preprod.glb"
+    ttl: 300
+    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
+ - name: "_5e405d41fa27b56864616edfd5f1daab.hmcts-aads.preprod.glb"
+    ttl: 300
+    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
+ - name: "_5e405d41fa27b56864616edfd5f1daab.hmcts-ixmeet.preprod.glb"
+    ttl: 300
+    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
+ - name: "_5e405d41fa27b56864616edfd5f1daab.hmcts-us.preprod.glb"
+    ttl: 300
+    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
