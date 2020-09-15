@@ -103,3 +103,15 @@ cname:
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
     shutter: false
+  - name: "afdverify.hmi-apim-sbox"
+    ttl: 300
+    record: "afdverify.hmcts-sbox.azurefd.net"
+  - name: "hmi-apim-sbox"
+    ttl: 300
+    record: "hmcts-sbox.azurefd.net"
+  - name: "afdverify.hmi-poc-apim"
+    ttl: 300
+    record: "afdverify.hmcts-sbox.azurefd.net"
+  - name: "hmi-poc-apim"
+    ttl: 300
+    record: "hmcts-sbox.azurefd.net"
