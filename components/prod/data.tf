@@ -46,6 +46,6 @@ data "local_file" "jcm-judiciary-config" {
   filename = "${path.cwd}/../../environments/prod/jcm-judiciary-uk.yml"
 }
 
-data "local_file" "ctsc-hmcts-net-config" {
+data "local_file" "ctsc-hmcts-config" {
   filename = "${path.cwd}/../../environments/prod/ctsc-hmcts-net.yml"
 }
