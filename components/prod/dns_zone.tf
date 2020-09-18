@@ -66,3 +66,8 @@ resource "azurerm_dns_zone" "ctsc-hmcts" {
   name                = "ctsc.hmcts.net"
   resource_group_name = data.azurerm_resource_group.main.name
 }
+
+resource "azurerm_dns_zone" "hmcts-webchat" {
+  name                = "hmcts-webchat.service.gov.uk"
+  resource_group_name = data.azurerm_resource_group.main.name
+} 
