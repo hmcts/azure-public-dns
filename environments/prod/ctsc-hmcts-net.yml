@@ -63,7 +63,7 @@ cname:
   - name: "_379e6dd67d0f5abf8962ced9bf0fbf33.api-gw.glb"
     ttl: 300
     record: "B5A82261B4D856188321E1F4C2D2AD89.214EEB88F3DBDABEBC900F424F54FB2E.35ff606e4148c4c08b12.comodoca.com."
-  - name: " _379e6dd67d0f5abf8962ced9bf0fbf33.widg.glb"
+  - name: "_379e6dd67d0f5abf8962ced9bf0fbf33.widg.glb"
     ttl: 300
     record: "B5A82261B4D856188321E1F4C2D2AD89.214EEB88F3DBDABEBC900F424F54FB2E.35ff606e4148c4c08b12.comodoca.com."
   - name: "_379e6dd67d0f5abf8962ced9bf0fbf33.ctl-mgr.glb"
