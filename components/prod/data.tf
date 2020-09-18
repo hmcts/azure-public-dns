@@ -50,6 +50,6 @@ data "local_file" "ctsc-hmcts-config" {
   filename = "${path.cwd}/../../environments/prod/ctsc-hmcts-net.yml"
 }
 
-data "local_file" "glb-ctsc-hmcts-net-config" {
+data "local_file" "hmcts-webchat-config" {
   filename = "${path.cwd}/../../environments/prod/hmcts-webchat-service-gov-uk.yml"
 } 
