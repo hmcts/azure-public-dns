@@ -126,9 +126,9 @@ cname:
   - name: "_df3d459fe740ff7db27dc632a3ea5969.iad.glb"
     ttl: 300
     record: "2C93940E7E3FDC7EA975335A980BB55A.82CC2772C3DF0844C6A3858B51082FE8.67455a0673f5cf26deae.comodoca.com."
-  - name: "_df3d459fe740ff7db27dc632a3ea5969.iad-v"
+  - name: "_df3d459fe740ff7db27dc632a3ea5969.iad-v.glb"
     ttl: 300
     record: "2C93940E7E3FDC7EA975335A980BB55A.82CC2772C3DF0844C6A3858B51082FE8.67455a0673f5cf26deae.comodoca.com."
-  - name: "_df3d459fe740ff7db27dc632a3ea5969.iad-b"
+  - name: "_df3d459fe740ff7db27dc632a3ea5969.iad-b.glb"
     ttl: 300
     record: "2C93940E7E3FDC7EA975335A980BB55A.82CC2772C3DF0844C6A3858B51082FE8.67455a0673f5cf26deae.comodoca.com."
