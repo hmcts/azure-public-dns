@@ -7,3 +7,6 @@ A:
 txt:
 
 cname:
+  - name: "hmi-apim"
+    ttl: 300
+    record: "hmcts-perftest.azurefd.net"
