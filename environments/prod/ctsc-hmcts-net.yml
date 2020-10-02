@@ -6,11 +6,11 @@ A:
   - name: "webchat"
     ttl: 300
     record: 
-      - "81.131.15.81"
+      - "81.144.180.165"
   - name: "webchat-client"
     ttl: 300
     record: 
-      - "81.131.15.82"
+      - "81.144.180.165"
 
 
 txt:
