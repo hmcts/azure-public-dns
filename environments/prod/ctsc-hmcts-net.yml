@@ -3,6 +3,14 @@ ns:
 mx:
 
 A:
+  - name: "webchat"
+    ttl: 300
+    record: 
+      - "81.144.180.165"
+  - name: "webchat-client"
+    ttl: 300
+    record: 
+      - "81.144.180.165"
 
 
 txt:

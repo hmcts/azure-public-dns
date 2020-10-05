@@ -1,0 +1,12 @@
+ns:
+
+mx:
+
+A:
+
+txt:
+
+cname:
+  - name: "hmi-apim"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
