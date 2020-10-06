@@ -3,6 +3,14 @@ ns:
 mx:
 
 A:
+  - name: "webchat"
+    ttl: 300
+    record: 
+      - "81.144.180.165"
+  - name: "webchat-client"
+    ttl: 300
+    record: 
+      - "81.144.180.165"
 
 
 txt:
@@ -105,3 +113,30 @@ cname:
   - name: "_3cd9213197344aac2d90b478da0b9797.iad-b.glb"
     ttl: 300
     record: "ECA5619AB42D795F47570DD7698142F5.3A1D71D1B23F010B8E3B137DDA4346EF.3a2c1c2b2f19c0d47bf7.comodoca.com."
+  - name: "_ebcef0daaeaaf02df585f801856639e7.analytics.glb"
+    ttl: 300
+    record: "FB5CC1A3F2381A6C06D4C0883B3567BA.5BF74863074800E88C479B93E19C45D1.8f7f2375ba3e2ee3adf6.comodoca.com."
+  - name: "_ebcef0daaeaaf02df585f801856639e7.aicont-v.glb"
+    ttl: 300
+    record: "FB5CC1A3F2381A6C06D4C0883B3567BA.5BF74863074800E88C479B93E19C45D1.8f7f2375ba3e2ee3adf6.comodoca.com."
+  - name: "_ebcef0daaeaaf02df585f801856639e7.aicont-b.glb"
+    ttl: 300
+    record: "FB5CC1A3F2381A6C06D4C0883B3567BA.5BF74863074800E88C479B93E19C45D1.8f7f2375ba3e2ee3adf6.comodoca.com."
+  - name: "_ebcef0daaeaaf02df585f801856639e7.ana.glb"
+    ttl: 300
+    record: "FB5CC1A3F2381A6C06D4C0883B3567BA.5BF74863074800E88C479B93E19C45D1.8f7f2375ba3e2ee3adf6.comodoca.com."
+  - name: "_a459c1c501b9faed1a88be73144a4b12.webchat-client"
+    ttl: 300
+    record: "202FD864FC0BA0A97991DFFCC1C4EC37.1A37741866AC30884BD5893471BF3EBB.ec5ec3ab3ae96eb7f598.comodoca.com."
+  - name: "_6255444fc555396b0596d2e8289a583f.webchat"
+    ttl: 300
+    record: "9E052A38C2BF833896985D884EB2214A.FE54E0065ECBBF6BCA2070B754ACBC9D.e22d5796509ba2c7f822.comodoca.com."
+  - name: "_df3d459fe740ff7db27dc632a3ea5969.iad.glb"
+    ttl: 300
+    record: "2C93940E7E3FDC7EA975335A980BB55A.82CC2772C3DF0844C6A3858B51082FE8.67455a0673f5cf26deae.comodoca.com."
+  - name: "_df3d459fe740ff7db27dc632a3ea5969.iad-v.glb"
+    ttl: 300
+    record: "2C93940E7E3FDC7EA975335A980BB55A.82CC2772C3DF0844C6A3858B51082FE8.67455a0673f5cf26deae.comodoca.com."
+  - name: "_df3d459fe740ff7db27dc632a3ea5969.iad-b.glb"
+    ttl: 300
+    record: "2C93940E7E3FDC7EA975335A980BB55A.82CC2772C3DF0844C6A3858B51082FE8.67455a0673f5cf26deae.comodoca.com."

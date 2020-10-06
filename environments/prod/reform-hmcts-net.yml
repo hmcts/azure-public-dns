@@ -756,3 +756,15 @@ cname:
   - name: "_0302d2a80e9b35ecfaa831a9b0a46390.test.vh"
     ttl: 3600
     record: "BAA1D4C86633E939D950CE18D179155D.165DD8AD2E8A4F90AB0224BF9AFE550E.59a911b9448f5.comodoca.com"
+  - name: "_52e3539013a856c33d7db9be48951524.mta"
+    ttl: 300
+    record: "FB046C4FFCA185830EBBDE3236DDC699.45CB12E2B2F04E72BA9AD4A758D47D47.88c84d1e17f5ccc985de.comodoca.com."
+  - name: "em9657"
+    ttl: 300
+    record: "u18847642.wl143.sendgrid.net"
+  - name: "s1._domainkey"
+    ttl: 300
+    record: "s1.domainkey.u18847642.wl143.sendgrid.net"
+  - name: "s2._domainkey"
+    ttl: 300
+    record: "s2.domainkey.u18847642.wl143.sendgrid.net"
