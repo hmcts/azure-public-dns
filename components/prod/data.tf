@@ -38,6 +38,10 @@ data "local_file" "hearings-config" {
   filename = "${path.cwd}/../../environments/prod/hearings-hmcts-net.yml"
 }
 
+data "local_file" "vh-config" {
+  filename = "${path.cwd}/../../environments/prod/vh-hmcts-net.yml"
+}
+
 data "local_file" "reform-hmcts-config" {
   filename = "${path.cwd}/../../environments/prod/reform-hmcts-net.yml"
 }
