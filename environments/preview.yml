@@ -11,3 +11,9 @@ cname:
   - name: "_a041dd4b4af467422ed8129fd9af1b37"
     ttl: 54000
     record: "BE33372D30A32248927A2E0C69898A6E.122BACF6D0ACD67EDE96B289A369FE37.OI555FjyjC556tD05Lad.comodoca.com"
+  - name: "afdverify.hmi-apim"
+    ttl: 300
+    record: "afdverify.hmcts-preview.azurefd.net"
+  - name: "hmi-apim"
+    ttl: 300
+    record: "hmcts-preview.azurefd.net"
