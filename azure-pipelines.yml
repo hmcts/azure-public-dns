@@ -59,6 +59,13 @@ stages:
 
       - template: pipeline-templates/terraform-plan.yaml
         parameters:
+          zone: 'dev'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+
+      - template: pipeline-templates/terraform-plan.yaml
+        parameters:
           zone: 'test'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
@@ -158,6 +165,18 @@ stages:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
           zone: 'nle'
+          build: $(Build.BuildNumber)
+          agentPool: ${{ variables.agentPool }}
+          terraformVersion: ${{ variables.terraformVersion }}
+
+  - stage: Dev_Apply
+    dependsOn: Plan_phase
+    displayName: "Dev Apply"
+    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
+    jobs:
+      - template: pipeline-templates/terraform-apply.yaml
+        parameters:
+          zone: 'dev'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
