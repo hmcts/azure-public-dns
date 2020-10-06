@@ -762,4 +762,13 @@ cname:
   - name: "_8c2bc6082326b8a44c19188b4d29c99d.hearings"
     ttl: 300
     record: "EC2BC7FAA50B6ABEBC02AB15DFCD2499.183B26BA6A476262EDD1C58356609891.bb1443cc31d7396bf73e.comodoca.com."
+  - name: "em9657"
+    ttl: 300
+    record: "u18847642.wl143.sendgrid.net"
+  - name: "s1._domainkey"
+    ttl: 300
+    record: "s1.domainkey.u18847642.wl143.sendgrid.net"
+  - name: "s2._domainkey"
+    ttl: 300
+    record: "s2.domainkey.u18847642.wl143.sendgrid.net"
 
