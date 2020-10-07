@@ -767,8 +767,11 @@ cname:
     record: "u18847642.wl143.sendgrid.net"
   - name: "s1._domainkey"
     ttl: 300
-    record: "s1.domainkey.u18847642.wl143.sendgrid.net"
+    record: "s1.domainkey.u18847995.wl246.sendgrid.net"
   - name: "s2._domainkey"
     ttl: 300
-    record: "s2.domainkey.u18847642.wl143.sendgrid.net"
+    record: "s2.domainkey.u18847995.wl246.sendgrid.net"
+  - name: "em8472"
+    ttl: 300
+    record: "u18847995.wl246.sendgrid.net"
 
