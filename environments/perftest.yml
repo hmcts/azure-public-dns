@@ -121,6 +121,9 @@ cname:
   - name: "idam-web-admin"
     ttl: 3600
     record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.hmi-apim"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
   - name: "hmi-apim"
-    ttl: 300
+    ttl: 3600
     record: "hmcts-perftest.azurefd.net"
