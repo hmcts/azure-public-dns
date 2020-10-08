@@ -3,54 +3,55 @@ ns:
 mx:
 
 A:
-  - name: px01
+  - name: "px01"
     ttl: 300
     record: 
-      - 34.89.118.38
-  - name: px02
+      - "34.89.118.38"
+  - name: "px02"
     ttl: 300
     record: 
-      - 34.89.63.94
-  - name: sip
+      - "34.89.63.94"
+  - name: "sip"
     ttl: 300
-    record: 
-      - 34.89.63.94
-      - 34.89.118.38
+    record:
+      - "34.89.63.94"
+      - "34.89.118.38"
 
 srv:
-  - name: _h323cs._tcp
+  - name: "_h323cs._tcp"
     ttl: 86400
     record:
-      - 10,10,1720,px01.vh.hmcts.net
-      - 10,10,1720,px02.vh.hmcts.net
-  - name: _h323ls._udp
+      - "10,10,1720,px01.vh.hmcts.net"
+      - "10,10,1720,px02.vh.hmcts.net"
+  - name: "_h323ls._udp"
     ttl: 86400
     record:
-      - 10,10,1719,px01.vh.hmcts.net
-      - 10,10,1719,px02.vh.hmcts.net
-  - name: _h323rs._udp
+      - "10,10,1719,px01.vh.hmcts.net"
+      - "10,10,1719,px02.vh.hmcts.net"
+  - name: "_h323rs._udp"
     ttl: 86400
     record:
-      - 10,10,1719,px01.vh.hmcts.net
-      - 10,10,1719,px02.vh.hmcts.net
-  - name: sip._tcp
+      - "10,10,1719,px01.vh.hmcts.net"
+      - "10,10,1719,px02.vh.hmcts.net"
+  - name: "sip._tcp"
     ttl: 86400
     record:
-      - 10,10,5060,px01.vh.hmcts.net
-      - 10,10,5060,px02.vh.hmcts.net
-  - name: sips._tcp
+      - "10,10,5060,px01.vh.hmcts.net"
+      - "10,10,5060,px02.vh.hmcts.net"
+  - name: "sips._tcp"
     ttl: 86400
     record:
-      - 10,10,5061,px01.vh.hmcts.net
-      - 10,10,5061,px02.vh.hmcts.net
+      - "10,10,5061,px01.vh.hmcts.net"
+      - "10,10,5061,px02.vh.hmcts.net"
 
 cname:
-  - name: _4E5364004532ACECCFE1D7B1B1E2D414.sip.vh.hmcts.net
+  - name: "_4E5364004532ACECCFE1D7B1B1E2D414.sip.vh.hmcts.net"
     ttl: 3600
-    record: 38F8C27E325F0ECB3B981256EB4C8FDD.B23B9774F924B30E0C871DC3713A2D4F.90915208c601cc8c86ad.comodoca.com
-  - name: _4E5364004532ACECCFE1D7B1B1E2D414.px01.vh.hmcts.net
+    record: "38F8C27E325F0ECB3B981256EB4C8FDD.B23B9774F924B30E0C871DC3713A2D4F.90915208c601cc8c86ad.comodoca.com"
+  - name: "_4E5364004532ACECCFE1D7B1B1E2D414.px01.vh.hmcts.net"
     ttl: 3600
-    record: 38F8C27E325F0ECB3B981256EB4C8FDD.B23B9774F924B30E0C871DC3713A2D4F.90915208c601cc8c86ad.comodoca.com
-  - name: _4E5364004532ACECCFE1D7B1B1E2D414.px02.vh.hmcts.net
+    record: "38F8C27E325F0ECB3B981256EB4C8FDD.B23B9774F924B30E0C871DC3713A2D4F.90915208c601cc8c86ad.comodoca.com"
+  - name: "_4E5364004532ACECCFE1D7B1B1E2D414.px02.vh.hmcts.net"
     ttl: 3600
-    record: 38F8C27E325F0ECB3B981256EB4C8FDD.B23B9774F924B30E0C871DC3713A2D4F.90915208c601cc8c86ad.comodoca.com
+    record: "38F8C27E325F0ECB3B981256EB4C8FDD.B23B9774F924B30E0C871DC3713A2D4F.90915208c601cc8c86ad.comodoca.com"
+
