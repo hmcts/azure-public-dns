@@ -18,8 +18,8 @@ A:
       - "34.89.118.38"
   - name: "test"
     ttl: 300
-    record: 
-      - "34.89.118.38"
+    record:
+      - "34.89.63.94"
 
 srv:
   - name: "_h323cs._tcp"
