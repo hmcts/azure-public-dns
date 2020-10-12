@@ -308,7 +308,13 @@ cname:
   - name: "www.ccd"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: false   
+  - name: "bulkscan.demo"
+    ttl: 600
+    record: "bulk-scan-v2-demo-frontdoor.azurefd.net"
+  - name: "reformscan.demo"
+    ttl: 600
+    record: "reform-scan-v2-demo-frontdoor.azurefd.net"   
   - name: "apply-divorce.demo"
     ttl: 600
     record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
