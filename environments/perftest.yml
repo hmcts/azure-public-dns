@@ -28,7 +28,7 @@ cname:
   - name: "bulkscan-demo"
     ttl: 300
     record: "hmcts-perftest.azurefd.net"
- - name: "asverify.bulkscan-demo"  
+  - name: "asverify.bulkscan-demo"  
     ttl: 300
     record: "hmcts-perftest.azurefd.net"
   - name: "afdverify.moneyclaims"
