@@ -23,6 +23,10 @@ cname:
     ttl: 300
     record: "hmcts-perftest.azurefd.net"
   - name: "asverify.bulkscan"
+  - name: "bulkscan-demo"
+    ttl: 300
+    record: "hmcts-perftest.azurefd.net"
+  - name: "asverify.bulkscan"  
     ttl: 300
     record: "asverify.bulkscanperftest.blob.core.windows.net"
   - name: "afdverify.moneyclaims"
