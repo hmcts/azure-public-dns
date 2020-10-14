@@ -28,10 +28,10 @@ cname:
     record: "C648764CDB3F90B8D135D9335993A767.ABBA811E0AD75A1ABB2EB5C0CDCD5B0F.wiRpxFcZvwUNTJeY5mtL.comodoca.com"
   - name: "bulkscan"
     ttl: 60
-    record: "0c45ee29-301b-4815-8f63-cd1b128af609.cloudapp.net"
+    record: "hmcts-aat.azurefd.net"
   - name: "asverify.bulkscan"
     ttl: 60
-    record: "asverify.bulkscanaat.blob.core.windows.net"
+    record: "hmcts-aat.azurefd.net"
   - name: "asverify.bulkscanstg"
     ttl: 300
     record: "asverify.bulkscanaatstaging.blob.core.windows.net"
