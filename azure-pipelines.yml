@@ -24,7 +24,7 @@ stages:
           
       - template: pipeline-templates/terraform-plan.yaml
         parameters:
-          zone: 'preview'
+          zone: 'dev'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
@@ -38,14 +38,14 @@ stages:
 
       - template: pipeline-templates/terraform-plan.yaml
         parameters:
-          zone: 'perftest'
+          zone: 'test'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
 
       - template: pipeline-templates/terraform-plan.yaml
         parameters:
-          zone: 'aat'
+          zone: 'staging'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
@@ -88,14 +88,14 @@ stages:
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
 
-  - stage: Preview_Apply
+  - stage: Dev_Apply
     dependsOn: Plan_phase
-    displayName: "Preview Apply"
+    displayName: "Dev Apply"
     condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
     jobs:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
-          zone: 'preview'
+          zone: 'dev'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
@@ -112,26 +112,26 @@ stages:
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
 
-  - stage: Perftest_Apply
+  - stage: Test_Apply
     dependsOn: Plan_phase
-    displayName: "Perftest Apply"
+    displayName: "Test Apply"
     condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
     jobs:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
-          zone: 'perftest'
+          zone: 'test'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
 
-  - stage: Aat_Apply
+  - stage: Staging_Apply
     dependsOn: Plan_phase
-    displayName: "AAT Apply"
+    displayName: "Staging Apply"
     condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
     jobs:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
-          zone: 'aat'
+          zone: 'staging'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
