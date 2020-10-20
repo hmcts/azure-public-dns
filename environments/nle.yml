@@ -4,13 +4,10 @@ mx:
 
 A:
   - name: "darts-service"
-    ttl: 5
+    ttl: 300
     record: 
       - "20.49.159.47"
 
 txt:
 
 cname:
-  - name: "afdverify.darts-service"
-    ttl: 300
-    record: "afdverify.firewall-prod-int-palo-heritage.ukwest.cloudapp.azure.com"
