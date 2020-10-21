@@ -1,0 +1,16 @@
+ns:
+
+mx:
+
+A:
+
+txt:
+
+
+cname:
+  - name: "afdverify.hmi-apim"
+    ttl: 3000
+    record: "afdverify.hmcts-dev.azurefd.net"
+  - name: "hmi-apim"
+    ttl: 3000
+    record: "hmcts-dev.azurefd.net"
