@@ -1,0 +1,15 @@
+ns:
+
+mx:
+
+A:
+
+txt:
+
+cname:
+  - name: "bulkscan"
+    ttl: 60
+    record: "hmcts-demo.azurefd.net"
+  - name: "reformscan"
+    ttl: 60
+    record: "hmcts-demo.azurefd.net"
