@@ -1,0 +1,9 @@
+name: "demo.platform.hmcts.net"
+
+cname:
+  - name: "bulkscan"
+    ttl: 60
+    record: "hmcts-demo.azurefd.net"
+  - name: "reformscan"
+    ttl: 60
+    record: "hmcts-demo.azurefd.net"
