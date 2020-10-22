@@ -1,6 +1,8 @@
-ns:
+ns: []
 
-mx:
+mx: []
+
+srv: []
 
 A:
   - name: "cvp-recording"
@@ -19,7 +21,7 @@ A:
       - "20.49.129.95"
 
 
-txt:
+txt: []
 
 
 cname:

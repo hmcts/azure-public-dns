@@ -14,6 +14,8 @@ module "public-dns" {
   mx_recordsets       = yamldecode(data.local_file.ithc.content).mx
   a_recordsets        = yamldecode(data.local_file.ithc.content).A
   txt_recordsets      = yamldecode(data.local_file.ithc.content).txt
+  ns_recordsets = yamldecode(data.local_file.ithc.content).ns
+  srv_recordsets = yamldecode(data.local_file.ithc.content).srv
   zone_name           = azurerm_dns_zone.zone.name
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = "ithc"

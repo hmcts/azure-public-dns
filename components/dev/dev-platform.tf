@@ -13,4 +13,9 @@ module "dev" {
   zone_name           = azurerm_dns_zone.dev.name
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = "dev"
+  a_recordsets = yamldecode(data.local_file.dev.content).A
+  mx_recordsets = yamldecode(data.local_file.dev.content).mx
+  ns_recordsets = yamldecode(data.local_file.dev.content).ns
+  srv_recordsets = yamldecode(data.local_file.dev.content).srv
+  txt_recordsets = yamldecode(data.local_file.dev.content).txt
 }
