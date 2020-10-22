@@ -154,6 +154,9 @@ cname:
   - name: "afdverify.fact"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "afdverify.fact-admin"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
   - name: "afdverify.wa-proto-frontend"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
