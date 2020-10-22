@@ -1,6 +1,6 @@
-ns:
+ns: []
 
-mx:
+mx: []
 
 A:
   - name: "darts-service"
@@ -8,6 +8,8 @@ A:
     record: 
       - "20.49.159.47"
 
-txt:
+txt: []
+
+srv: []
 
 cname: []

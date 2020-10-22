@@ -1,11 +1,12 @@
-ns:
+ns: []
 
-mx:
+mx: []
 
-A:
+A: []
 
-txt:
+txt: []
 
+srv: []
 
 cname:
   - name: "_a041dd4b4af467422ed8129fd9af1b37"

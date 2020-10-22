@@ -1,4 +1,12 @@
-name: "demo.platform.hmcts.net"
+ns: []
+
+mx: []
+
+A: []
+
+txt: []
+
+srv: []
 
 cname:
   - name: "bulkscan"

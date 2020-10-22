@@ -1,3 +1,3 @@
-data "local_file" "configuration" {
-  filename = "${path.cwd}/../../environments/sandbox.yml"
+data "azurerm_resource_group" "main" {
+  name = var.resource_group_name
 }
