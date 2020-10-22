@@ -12,6 +12,12 @@ cname:
   - name: "bulkscan"
     ttl: 60
     record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.bulkscan"
+    ttl: 60
+    record: "afdverify.hmcts-demo.azurefd.net"
   - name: "reformscan"
     ttl: 60
     record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.reformscan"
+    ttl: 60
+    record: "afdverify.hmcts-demo.azurefd.net"
