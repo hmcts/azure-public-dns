@@ -13,9 +13,9 @@ module "public-dns" {
   zone_name           = azurerm_dns_zone.zone.name
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = "preview"
-  a_recordsets = yamldecode(data.local_file.preview.content).A
-  mx_recordsets = yamldecode(data.local_file.preview.content).mx
-  ns_recordsets = yamldecode(data.local_file.preview.content).ns
-  srv_recordsets = yamldecode(data.local_file.preview.content).srv
-  txt_recordsets = yamldecode(data.local_file.preview.content).txt
+  a_recordsets        = yamldecode(data.local_file.preview.content).A
+  mx_recordsets       = yamldecode(data.local_file.preview.content).mx
+  ns_recordsets       = yamldecode(data.local_file.preview.content).ns
+  srv_recordsets      = yamldecode(data.local_file.preview.content).srv
+  txt_recordsets      = yamldecode(data.local_file.preview.content).txt
 }
