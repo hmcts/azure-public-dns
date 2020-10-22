@@ -24,15 +24,9 @@ cname:
   - name: "bulkscan"
     ttl: 300
     record: "hmcts-perftest.azurefd.net"
-  - name: "asverify.bulkscan"  
-    ttl: 300
-    record: "hmcts-perftest.azurefd.net"
-  - name: "bulkscan-demo"
-    ttl: 300
-    record: "hmcts-perftest.azurefd.net"
-  - name: "asverify.bulkscan-demo"  
-    ttl: 300
-    record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.bulkscan"
+    ttl: 60
+    record: "afdverify.hmcts-perftest.azurefd.net"
   - name: "afdverify.moneyclaims"
     ttl: 3600
     record: "afdverify.hmcts-perftest.azurefd.net"
@@ -60,15 +54,9 @@ cname:
   - name: "reformscan"
     ttl: 300
     record: "hmcts-perftest.azurefd.net"
-  - name: "asverify.reformscan"
-    ttl: 300
-    record: "hmcts-perftest.azurefd.net"
-  - name: "reformscan-demo"
-    ttl: 300
-    record: "hmcts-perftest.azurefd.net"
-  - name: "asverify.reformscan-demo"
-    ttl: 300
-    record: "hmcts-perftest.azurefd.net" 
+  - name: "afdverify.reformscan"
+    ttl: 60
+    record: "afdverify.hmcts-demo.azurefd.net"
   - name: "afdverify.idam-web-public"
     ttl: 3600
     record: "afdverify.hmcts-perftest.azurefd.net"
@@ -141,3 +129,15 @@ cname:
   - name: "hmi-apim"
     ttl: 3600
     record: "hmcts-perftest.azurefd.net"
+  - name: "fact"
+    ttl: 300
+    record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.fact"
+    ttl: 300
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "fact-admin"
+    ttl: 300
+    record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.fact-admin"
+    ttl: 300
+    record: "afdverify.hmcts-perftest.azurefd.net"
