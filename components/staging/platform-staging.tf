@@ -7,7 +7,7 @@ data "local_file" "staging" {
   filename = "${path.cwd}/../../environments/staging/staging.yml"
 }
 
-module "public-dns" {
+module "staging" {
   source              = "../../modules/azure-public-dns/"
   cname_records       = yamldecode(data.local_file.staging.content).cname
   a_recordsets        = yamldecode(data.local_file.staging.content).A

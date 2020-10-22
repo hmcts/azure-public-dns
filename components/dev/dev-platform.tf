@@ -7,7 +7,7 @@ data "local_file" "dev" {
   filename = "${path.cwd}/../../environments/dev/dev.yml"
 }
 
-module "public-dns" {
+module "dev" {
   source              = "../../modules/azure-public-dns/"
   cname_records       = yamldecode(data.local_file.dev.content).cname
   zone_name           = azurerm_dns_zone.dev.name
