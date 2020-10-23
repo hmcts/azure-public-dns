@@ -31,15 +31,15 @@ cname:
   - name: "bulkscan"
     ttl: 60
     record: "hmcts-aat.azurefd.net"
-  - name: "asverify.bulkscan"
+  - name: "afdverify.bulkscan"
+    ttl: 60
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "reformscan"
     ttl: 60
     record: "hmcts-aat.azurefd.net"
-  - name: "asverify.bulkscanstg"
-    ttl: 300
-    record: "asverify.bulkscanaatstaging.blob.core.windows.net"
-  - name: "bulkscanstg"
-    ttl: 300
-    record: "3c7bcbcd-1e69-4377-8f96-b90fb026ad23.cloudapp.net"
+  - name: "afdverify.reformscan"
+    ttl: 60
+    record: "afdverify.hmcts-aat.azurefd.net"
   - name: "decree-absolute-aks"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
@@ -55,18 +55,6 @@ cname:
   - name: "petitioner-frontend-aks"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
-  - name: "reformscan"
-    ttl: 60
-    record: "hmcts-aat.azurefd.net"
-  - name: "asverify.reformscan"
-    ttl: 3600
-    record: "hmcts-aat.azurefd.net"
-  - name: "asverify.reformscanstg"
-    ttl: 300
-    record: "asverify.reformscanaatstaging.blob.core.windows.net"
-  - name: "reformscanstg"
-    ttl: 300
-    record: "aa5dc4c7-2cef-4765-a826-c46a18febe3b.cloudapp.net"
   - name: "respond-divorce-aks"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"

@@ -8,4 +8,16 @@ txt: []
 
 srv: []
 
-cname: []
+cname:
+  - name: "bulkscanstg"
+    ttl: 60
+    record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.bulkscanstg"
+    ttl: 60
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "reformscanstg"
+    ttl: 60
+    record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.reformscanstg"
+    ttl: 60
+    record: "afdverify.hmcts-aat.azurefd.net"
