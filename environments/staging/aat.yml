@@ -40,6 +40,18 @@ cname:
   - name: "afdverify.reformscan"
     ttl: 60
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "bulkscanstg"
+    ttl: 60
+    record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.bulkscanstg"
+    ttl: 60
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "reformscanstg"
+    ttl: 60
+    record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.reformscanstg"
+    ttl: 60
+    record: "afdverify.hmcts-aat.azurefd.net"
   - name: "decree-absolute-aks"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
