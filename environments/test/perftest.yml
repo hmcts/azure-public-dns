@@ -1,10 +1,12 @@
-ns:
+ns: []
 
-mx:
+mx: []
 
-A:
+A: []
 
-txt:
+txt: []
+
+srv: []
 
 cname:
   - name: "afdverify.benefit-appeal"
@@ -20,11 +22,17 @@ cname:
     ttl: 3600
     record: "hmcts-perftest.azurefd.net"
   - name: "bulkscan"
-    ttl: 300
+    ttl: 60
     record: "hmcts-perftest.azurefd.net"
-  - name: "asverify.bulkscan"
-    ttl: 300
-    record: "asverify.bulkscanperftest.blob.core.windows.net"
+  - name: "afdverify.bulkscan"
+    ttl: 60
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "reformscan"
+    ttl: 60
+    record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.reformscan"
+    ttl: 60
+    record: "afdverify.hmcts-perftest.azurefd.net"
   - name: "afdverify.moneyclaims"
     ttl: 3600
     record: "afdverify.hmcts-perftest.azurefd.net"
@@ -49,12 +57,6 @@ cname:
   - name: "return-case-doc-ccd"
     ttl: 3600
     record: "hmcts-perftest.azurefd.net"
-  - name: "reformscan"
-    ttl: 300
-    record: "hmcts-perftest.azurefd.net"
-  - name: "asverify.reformscan"
-    ttl: 300
-    record: "asverify.reformscanperftest.blob.core.windows.net"
   - name: "afdverify.idam-web-public"
     ttl: 3600
     record: "afdverify.hmcts-perftest.azurefd.net"
@@ -85,6 +87,12 @@ cname:
   - name: "fees-register"
     ttl: 3600
     record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.fees-register-dom1"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "fees-register-dom1"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
   - name: "afdverify.manage-case"
     ttl: 3600
     record: "afdverify.hmcts-perftest.azurefd.net"
@@ -108,13 +116,7 @@ cname:
     record: "afdverify.hmcts-perftest.azurefd.net"
   - name: "register-org"
     ttl: 3600
-    record: "hmcts-perftest.azurefd.net"
-  - name: "asverify.reformscanstg"
-    ttl: 300
-    record: "asverify.reformscanperfteststg.blob.core.windows.net"
-  - name: "reformscanstg"
-    ttl: 300
-    record: "reformscanperfteststg.blob.core.windows.net"    
+    record: "hmcts-perftest.azurefd.net"  
   - name: "afdverify.idam-web-admin"
     ttl: 3600
     record: "afdverify.hmcts-perftest.azurefd.net"
@@ -127,3 +129,15 @@ cname:
   - name: "hmi-apim"
     ttl: 3600
     record: "hmcts-perftest.azurefd.net"
+  - name: "fact"
+    ttl: 300
+    record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.fact"
+    ttl: 300
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "fact-admin"
+    ttl: 300
+    record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.fact-admin"
+    ttl: 300
+    record: "afdverify.hmcts-perftest.azurefd.net"

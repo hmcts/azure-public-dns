@@ -1,16 +1,15 @@
-ns:
+ns: []
 
-mx:
+mx: []
 
 A:
-
-txt:
-
-cname:
   - name: "darts-service"
-    ttl: 900
-    record: "firewall-prod-int-palo-heritage.ukwest.cloudapp.azure.com"
-
-  - name: "afdverify.darts-service"
     ttl: 300
-    record: "afdverify.firewall-prod-int-palo-heritage.ukwest.cloudapp.azure.com"
+    record: 
+      - "20.49.159.47"
+
+txt: []
+
+srv: []
+
+cname: []

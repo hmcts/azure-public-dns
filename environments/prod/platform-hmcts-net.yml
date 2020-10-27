@@ -6,6 +6,13 @@ ns:
       - "ns2-03.azure-dns.net"
       - "ns3-03.azure-dns.org"
       - "ns4-03.azure-dns.info"
+  - name: "staging"
+    ttl: 900
+    record:
+      - "ns1-09.azure-dns.com."
+      - "ns2-09.azure-dns.net."
+      - "ns3-09.azure-dns.org."
+      - "ns4-09.azure-dns.info."
   - name: "demo"
     ttl: 900
     record: 
@@ -34,6 +41,13 @@ ns:
       - "ns2-06.azure-dns.net"
       - "ns3-06.azure-dns.org"
       - "ns4-06.azure-dns.info"
+  - name: "dev"
+    ttl: 900
+    record:
+      - "ns1-05.azure-dns.com."
+      - "ns2-05.azure-dns.net."
+      - "ns3-05.azure-dns.org."
+      - "ns4-05.azure-dns.info."
   - name: "prod"
     ttl: 3600
     record: 
@@ -76,6 +90,13 @@ ns:
       - "ns2-09.azure-dns.net."
       - "ns3-09.azure-dns.org."
       - "ns4-09.azure-dns.info."
+  - name: "test"
+    ttl: 900
+    record:
+      - "ns1-01.azure-dns.com."
+      - "ns2-01.azure-dns.net."
+      - "ns3-01.azure-dns.org."
+      - "ns4-01.azure-dns.info."
   - name: "nle"
     ttl: 900
     record: 
@@ -91,10 +112,6 @@ A:
     ttl: 900
     record: 
       - "51.143.156.74"
-  - name: "bar-aat"
-    ttl: 900
-    record: 
-      - "52.151.76.90"
   - name: "build"
     ttl: 60
     record: 
@@ -103,10 +120,6 @@ A:
     ttl: 60
     record: 
       - "51.145.50.201"
-  - name: "build-failure-analyzer"
-    ttl: 60
-    record: 
-      - "51.141.230.224"
   - name: "courts"
     ttl: 60
     record: 
@@ -147,38 +160,10 @@ A:
     ttl: 3600
     record: 
       - "51.140.63.161"
-  - name: "mobilevpn"
-    ttl: 60
-    record: 
-      - "51.145.22.57"
-  - name: "mobilevpn-mgmt"
-    ttl: 3600
-    record: 
-      - "51.145.22.150"
-  - name: "www.nonprod.moneyclaim"
-    ttl: 3600
-    record: 
-      - "51.140.33.54"
-  - name: "moneyclaim-legal-maint"
-    ttl: 60
-    record: 
-      - "51.143.153.124"
-  - name: "moneyclaim-maint"
-    ttl: 60
-    record: 
-      - "51.145.44.112"
-  - name: "track-appeal.nonprod"
-    ttl: 60
-    record: 
-      - "51.140.157.202"
   - name: "portal"
     ttl: 60
     record: 
       - "51.145.4.100"
-  - name: "portal-temp"
-    ttl: 60
-    record: 
-      - "40.120.41.232"
   - name: "sandbox-build"
     ttl: 60
     record: 
@@ -187,10 +172,6 @@ A:
     ttl: 60
     record: 
       - "40.120.54.64"
-  - name: "sandbox-build-failure-analyzer"
-    ttl: 60
-    record: 
-      - "52.151.93.193"
   - name: "sftp"
     ttl: 300
     record: 
@@ -219,26 +200,6 @@ A:
     ttl: 60
     record: 
       - "51.141.230.130"
-  - name: "istio-poc-ccd-web"
-    ttl: 60
-    record: 
-    - "51.11.47.129"
-  - name: "istio-poc-ccd-gateway"
-    ttl: 60
-    record: 
-    - "51.11.47.129"
-  - name: "istio-poc"
-    ttl: 60
-    record: 
-    - "51.11.47.129"         
-  - name: "istio-poc-cmc-frontend"
-    ttl: 60
-    record: 
-    - "51.11.47.129"
-  - name: "istio-poc-kiali-dashboard"
-    ttl: 60
-    record: 
-    - "51.11.47.129"  
   - name: "cvp-recording"
     ttl: 60
     record:
@@ -308,7 +269,13 @@ cname:
   - name: "www.ccd"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: false   
+  - name: "bulkscan.demo"
+    ttl: 600
+    record: "bulk-scan-v2-demo-frontdoor.azurefd.net"
+  - name: "reformscan.demo"
+    ttl: 600
+    record: "reform-scan-v2-demo-frontdoor.azurefd.net"   
   - name: "apply-divorce.demo"
     ttl: 600
     record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
