@@ -777,3 +777,10 @@ cname:
   - name:  "_fc8094f91268ff8fdd596054134f8d9a.hmi"
     ttl: 300
     record: "9CC70766D8DD913344E9E53DFC9B5472.0837CFD7897DDC95C511C2B8EDF6B969.9f1f4938963fa5f9ab4d.comodoca.com."
+  - name: "afdverify.hmi-apim"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "hmi-apim"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
