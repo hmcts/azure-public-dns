@@ -3,7 +3,7 @@ resource "azurerm_dns_zone" "find-court-tribunal" {
   resource_group_name = data.azurerm_resource_group.main.name
 }
 
-data "local_file" "find-court-tribunal-config" {
+data "local_file" "find-court-tribunal" {
   filename = "${path.cwd}/../../environments/prod/find-court-tribunal-service-gov-uk.yml"
 }
 
