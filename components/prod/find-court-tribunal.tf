@@ -9,7 +9,7 @@ data "local_file" "find-court-tribunal-config" {
 
 module "find-court-tribunal" {
   source              = "../../modules/azure-public-dns/"
-  cname_records       = yamldecode(data.local_file.find-court-tribunal-config.content).cname
+  cname_records       = yamldecode(data.local_file.find-court-tribunal.content).cname
   txt_recordsets      = yamldecode(data.local_file.find-court-tribunal.content).txt
   zone_name           = azurerm_dns_zone.find-court-tribunal.name
   resource_group_name = data.azurerm_resource_group.main.name
