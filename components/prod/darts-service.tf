@@ -9,7 +9,7 @@ data "local_file" "darts-service-config" {
 
 module "darts-service" {
   source              = "../../modules/azure-public-dns/"
-  a_recordsets        = yamldecode(data.local_file.darts-service-config.content).a
+  a_recordsets        = yamldecode(data.local_file.darts-service-config.content).A
   ns_recordsets       = yamldecode(data.local_file.darts-service-config.content).ns
   zone_name           = azurerm_dns_zone.darts-service.name
   resource_group_name = data.azurerm_resource_group.main.name
