@@ -138,6 +138,12 @@ cname:
   - name: "afdverify.paybubble"
     ttl: 3600
     record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "afdverify.fact"
+    ttl: 300
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "afdverify.fact-admin"
+    ttl: 300
+    record: "afdverify.hmcts-ithc.azurefd.net"
   - name: "afdverify.fees-register"
     ttl: 3600
     record: "afdverify.hmcts-ithc.azurefd.net"
