@@ -7,7 +7,7 @@ data "local_file" "darts-service-config" {
   filename = "${path.cwd}/../../environments/prod/darts-service-justice-gov-uk.yml"
 }
 
-module "apply-divorce" {
+module "darts-service" {
   source              = "../../modules/azure-public-dns/"
   a_records           = yamldecode(data.local_file.darts-service-config.content).a
   zone_name           = azurerm_dns_zone.darts-service.name
