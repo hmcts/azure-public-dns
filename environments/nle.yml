@@ -6,7 +6,7 @@ A:
   - name: "darts-service"
     ttl: 300
     record: 
-      - "40.81.118.127"
+      - "20.49.159.47"
 
 txt: []
 
