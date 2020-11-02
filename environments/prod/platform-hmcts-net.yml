@@ -175,7 +175,7 @@ A:
   - name: "sftp"
     ttl: 300
     record: 
-      - "51.132.40.106"
+      - "51.11.122.66"
   - name: "sod-ss"
     ttl: 60
     record: 
