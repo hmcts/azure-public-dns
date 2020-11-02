@@ -117,3 +117,12 @@ cname:
   - name: "hmi-apim"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
+  - name: "cdnverify.hmi-apim"
+    ttl: 300
+    record: "cdnverify.hmcts-hmi-apim-shutter-sbox.azureedge.net"
+  - name: "cdnverify.reformscan"
+    ttl: 300
+    record: "cdnverify.hmcts-reformscan-shutter-sbox.azureedge.net"
+  - name: "cdnverify.bulkscan"
+    ttl: 300
+    record: "cdnverify.hmcts-bulkscan-shutter-sbox.azureedge.net"
