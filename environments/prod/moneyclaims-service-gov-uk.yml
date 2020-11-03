@@ -36,3 +36,12 @@ cname:
   - name: "afdverify.www"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "em714.mail"
+    ttl: 300
+    record: "u19129221.wl222.sendgrid.net"
+  - name: "s1._domainkey.mail"
+    ttl: 300
+    record: "s1.domainkey.u19129221.wl222.sendgrid.net"
+  - name: "s2._domainkey.mail"
+    ttl: 300
+    record: "s2.domainkey.u19129221.wl222.sendgrid.net"
