@@ -787,13 +787,13 @@ cname:
   - name: "_c3e531902e6606f7e9b3adefd38c81ac.dev"
     ttl: 300
     record: "3571F80AA236C8E7ABC6C7EDEB82C82B.90C6AAB2D5252F7CD071E5F74585AFFB.fa757d4df53d4143d09e.comodoca.com."
-  - name: "em7746.email-sscs"
+  - name: "em11.mail-sscs-nonprod"
     ttl: 300
     record: "u19166834.wl085.sendgrid.net"
-  - name: "s1._domainkey.email-sscs"
+  - name: "s1._domainkey.mail-sscs-nonprod"
     ttl: 300
     record: "s1.domainkey.u19166834.wl085.sendgrid.net"
-  - name: "s2._domainkey.email-sscs"
+  - name: "s2._domainkey.mail-sscs-nonprod"
     ttl: 300
     record: "s2.domainkey.u19166834.wl085.sendgrid.net"
   - name: "em6474.mail-money-claims-nonprod"
