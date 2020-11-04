@@ -814,3 +814,9 @@ cname:
   - name: "s2._domainkey.mail-money-claims-nonprod"
     ttl: 300
     record: "s2.domainkey.u18847643.wl144.sendgrid.net"
+  - name: "_A7C390B60C8A53C3D0BC0ED7F0B93D43.staging"
+    ttl: 300
+    record: "8A49378F10CA1DB2BDFB0BC43E68D2EF.4119A1D9C9464645E90F4FCE3A4610AA.6fb41c898918ad5a0df0.comodoca.com."
+  - name: "_7282FED294EF0EC9EE75406DE0BB123D.test"
+    ttl: 300
+    record: "291E4ECDF4D4809F9D80A200E4389C55.4EA964B71EF1DBCDC173D786B84B2A1F.5af7c96251ec5ea31663.comodoca.com."   
