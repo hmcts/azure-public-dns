@@ -18,12 +18,6 @@ cname:
   - name: "hmi-apim"
     ttl: 3000
     record: "hmcts-preview.azurefd.net"
-  - name: "bulkscan"
-    ttl: 60
-    record: "hmcts-preview.azurefd.net"
-  - name: "afdverify.bulkscan"
-    ttl: 60
-    record: "afdverify.hmcts-preview.azurefd.net"
   - name: "reformscan"
     ttl: 60
     record: "hmcts-preview.azurefd.net"

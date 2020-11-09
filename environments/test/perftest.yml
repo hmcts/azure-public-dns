@@ -21,12 +21,6 @@ cname:
   - name: "sscs-cor"
     ttl: 3600
     record: "hmcts-perftest.azurefd.net"
-  - name: "bulkscan"
-    ttl: 60
-    record: "hmcts-perftest.azurefd.net"
-  - name: "afdverify.bulkscan"
-    ttl: 60
-    record: "afdverify.hmcts-perftest.azurefd.net"
   - name: "reformscan"
     ttl: 60
     record: "hmcts-perftest.azurefd.net"

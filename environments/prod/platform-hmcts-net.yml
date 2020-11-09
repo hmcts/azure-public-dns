@@ -244,18 +244,6 @@ cname:
   - name: "benefit-appeal"
     ttl: 60
     record: "d9bb5705-1e1d-43d7-9a3d-8a7a97562873.cloudapp.net"
-  - name: "bulkscan"
-    ttl: 60
-    record: "9196f345-717b-4318-9466-38fe93aa8a4a.cloudapp.net"
-  - name: "asverify.bulkscan"
-    ttl: 60
-    record: "asverify.bulkscanprod.blob.core.windows.net"
-  - name: "asverify.bulkscanstg"
-    ttl: 300
-    record: "asverify.bulkscanprodstaging.blob.core.windows.net"
-  - name: "bulkscanstg"
-    ttl: 300
-    record: "bulkscanprodstaging.blob.core.windows.net"
   - name: "gateway.ccd"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
@@ -270,9 +258,6 @@ cname:
     ttl: 60
     record: "hmcts-prod.azurefd.net"
     shutter: false   
-  - name: "bulkscan.demo"
-    ttl: 600
-    record: "bulk-scan-v2-demo-frontdoor.azurefd.net"
   - name: "reformscan.demo"
     ttl: 600
     record: "reform-scan-v2-demo-frontdoor.azurefd.net"   
