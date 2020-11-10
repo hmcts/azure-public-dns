@@ -1,0 +1,20 @@
+ns: []
+
+mx: []
+
+A:   
+  - name: "@"
+    ttl: 3600
+    record:
+      - "51.105.37.227"
+
+txt: 
+  - name: "_smtp._tls"
+    ttl: 3600
+    record: 
+      - ""v=TLSRPTv1;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk""
+
+cname:
+  - name: "hw2mzkztnolp"
+    ttl: 300
+    record: "gv-GZOZJQ7EPKTJB2.dv.googlehosted.com."
