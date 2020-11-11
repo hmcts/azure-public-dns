@@ -222,7 +222,7 @@ cname:
   - name: "administer-orgs"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.administer-orgs"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -332,7 +332,7 @@ cname:
   - name: "manage-case"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.manage-case"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -345,7 +345,7 @@ cname:
   - name: "manage-org"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.manage-org"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -450,7 +450,7 @@ cname:
   - name: "register-org"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "_c2c531954464a2c755d6a6dd2c487d88.register-org"
     ttl: 300
     record: "F6DE5E30E7052660D9019668EA45C85F.C9519747E6B82801DCE298E005B0D8AE.db4b852fceaa5260e33e.comodoca.com."
