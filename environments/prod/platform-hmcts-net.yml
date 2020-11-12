@@ -432,6 +432,12 @@ cname:
   - name: "reformscan"
     ttl: 3600
     record: "d6553b20-4667-4120-a499-1e3de9ddce58.cloudapp.net"
+  - name: "afdverify.reformscan"
+    ttl: 60
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.reformscan"
+    ttl: 300
+    record: "cdnverify.hmcts-reformscan-shutter-prod.azureedge.net"
   - name: "asverify.reformscan"
     ttl: 3600
     record: "asverify.reformscanprod.blob.core.windows.net"
