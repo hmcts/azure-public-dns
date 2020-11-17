@@ -259,7 +259,7 @@ cname:
   - name: "gateway.ccd"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "tmgateway.ccd"
     ttl: 60
     record: "5a052b01-331d-4789-9c63-8ccea30883da.cloudapp.net"
@@ -269,7 +269,7 @@ cname:
   - name: "www.ccd"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: false   
+    shutter: true   
   - name: "bulkscan.demo"
     ttl: 600
     record: "bulk-scan-v2-demo-frontdoor.azurefd.net"
@@ -554,7 +554,7 @@ cname:
   - name: "return-case-doc.ccd"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "immigration-appeal"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
