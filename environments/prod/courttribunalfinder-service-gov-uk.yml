@@ -17,5 +17,4 @@ txt:
 cname:
   - name: "hw2mzkztnolp"
     ttl: 300
-    record: 
-      - "gv-GZOZJQ7EPKTJB2.dv.googlehosted.com."
+    record: "gv-GZOZJQ7EPKTJB2.dv.googlehosted.com."
