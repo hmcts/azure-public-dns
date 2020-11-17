@@ -761,7 +761,7 @@ cname:
   - name: "idam-web-admin"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name:  "_69d539555eed4d84d69173f5b732ecf5.manage-org"
     ttl: 300
     record: "F681353ADA7EFE7C75275E7642A2D520.44940D84935C5C06776F04813B18EF22.4b3909f00d45451966f2.comodoca.com."
