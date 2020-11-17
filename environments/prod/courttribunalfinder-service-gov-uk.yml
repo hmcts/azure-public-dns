@@ -12,7 +12,7 @@ txt:
   - name: "_smtp._tls"
     ttl: 3600
     record: 
-      - ""v=TLSRPTv1;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk""
+      - "v=TLSRPTv1;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk"
 
 cname:
   - name: "hw2mzkztnolp"
