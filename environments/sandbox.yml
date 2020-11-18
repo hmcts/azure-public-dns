@@ -130,15 +130,6 @@ cname:
     ttl: 300
     record: "sdshmcts-sbox.azurefd.net"
     shutter: false
-  - name: "www.toffee"
-    ttl: 300
-    record: "sdshmcts-sbox.azurefd.net"
   - name: "afdverify.toffee"
     ttl: 3600
     record: "afdverify.sdshmcts-sbox.azurefd.net"
-  - name: "afdverify.www.toffee"
-    ttl: 3600
-    record: "afdverify.sdshmcts-sbox.azurefd.net"
-  - name: "toffee.uksouth"
-    ttl: 3600
-    record: "firewall-sbox.uksouth.cloudapp.azure.com"
