@@ -8,4 +8,7 @@ txt: []
 
 srv: []
 
-cname: []
+cname:
+  - name: "_a7c390b60c8a53c3d0bc0ed7f0b93d43"
+    ttl: 300
+    record: "8A49378F10CA1DB2BDFB0BC43E68D2EF.4119A1D9C9464645E90F4FCE3A4610AA.6fb41c898918ad5a0df0.comodoca.com."
