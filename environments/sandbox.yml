@@ -133,7 +133,7 @@ cname:
   - name: "www.toffee"
     ttl: 300
     record: "sdshmcts-sbox.azurefd.net"
-  - name: "afdverify.plum"
+  - name: "afdverify.toffee"
     ttl: 3600
     record: "afdverify.sdshmcts-sbox.azurefd.net"
   - name: "afdverify.www.toffee"
