@@ -16,7 +16,7 @@ cname:
   - name: "*"
     ttl: 60
     record: "www.apply-divorce.service.gov.uk"
-    shutter: true
+    shutter: false
   - name: "_45a726e6b562188b09c3646d5ad34983"
     ttl: 3600
     record: "C1EB7C78C6448477066C9915B1FD71E6.D52AE9FBE6362839344F409B3A3D621A.5ae078197ba9c.comodoca.com"
