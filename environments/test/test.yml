@@ -8,7 +8,13 @@ txt: []
 
 srv: []
 
-cname:
+cname:   
+  - name: "afdverify.hmi-apim"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "hmi-apim"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
   - name: "_7282fed294ef0ec9ee75406de0bb123d"
     ttl: 300
     record: "291E4ECDF4D4809F9D80A200E4389C55.4EA964B71EF1DBCDC173D786B84B2A1F.5af7c96251ec5ea31663.comodoca.com."
