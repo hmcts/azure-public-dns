@@ -8,4 +8,10 @@ txt: []
 
 srv: []
 
-cname: []
+cname:   
+  - name: "afdverify.hmi-apim"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "hmi-apim"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
