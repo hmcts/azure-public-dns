@@ -193,3 +193,9 @@ cname:
   - name: "idam-web-admin"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.hmi-apim"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "hmi-apim"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
