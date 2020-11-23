@@ -14,5 +14,6 @@ cname:
   - name: "bulkscan"
     ttl: 3600
     record: "bulkscanprod.blob.core.windows.net"
-
-
+  - name: "afdverify.hmi-apim"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
