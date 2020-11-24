@@ -820,3 +820,10 @@ cname:
   - name: "s2._domainkey.mail-money-claims-nonprod"
     ttl: 300
     record: "s2.domainkey.u18847643.wl144.sendgrid.net"
+  - name: “toffee”
+    ttl: 300
+    record: "sdshmcts-prod.azurefd.net"
+    shutter: false
+  - name: "afdverify.toffee"
+    ttl: 3600
+    record: "afdverify.sdshmcts-prod.azurefd.net"

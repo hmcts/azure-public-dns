@@ -18,3 +18,10 @@ cname:
   - name: "_7282fed294ef0ec9ee75406de0bb123d"
     ttl: 300
     record: "291E4ECDF4D4809F9D80A200E4389C55.4EA964B71EF1DBCDC173D786B84B2A1F.5af7c96251ec5ea31663.comodoca.com."
+  - name: “toffee”
+    ttl: 300
+    record: "sdshmcts-test.azurefd.net"
+    shutter: false
+  - name: "afdverify.toffee"
+    ttl: 3600
+    record: "afdverify.sdshmcts-test.azurefd.net"
