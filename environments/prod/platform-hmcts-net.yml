@@ -820,12 +820,12 @@ cname:
   - name: "s2._domainkey.mail-money-claims-nonprod"
     ttl: 300
     record: "s2.domainkey.u18847643.wl144.sendgrid.net"
-  - name: "em3224.noreply.mail-sscs"
+  - name: "em8228.mail-sscs"
     ttl: 300
     record: "u19471273.wl024.sendgrid.net"
-  - name: "s1._domainkey.noreply.mail-sscs"
+  - name: "s1._domainkey.mail-sscs"
     ttl: 300
     record: "s1.domainkey.u19471273.wl024.sendgrid.net"
-  - name: "s2._domainkey.noreply.mail-sscs"
+  - name: "s2._domainkey.mail-sscs"
     ttl: 300
     record: "s2.domainkey.u19471273.wl024.sendgrid.net"
