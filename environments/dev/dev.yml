@@ -16,7 +16,7 @@ cname:
   - name: "hmi-apim"
     ttl: 3000
     record: "hmcts-preview.azurefd.net"
-  - name: “toffee”
+  - name: "toffee"
     ttl: 300
     record: "sdshmcts-dev.azurefd.net"
     shutter: false
