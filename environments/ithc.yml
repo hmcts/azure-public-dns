@@ -160,7 +160,7 @@ cname:
     ttl: 300
     record: "hmcts-ithc.azurefd.net"
     shutter: false
-  - name: “toffee”
+  - name: "toffee"
     ttl: 300
     record: "sdshmcts-ithc.azurefd.net"
     shutter: false
