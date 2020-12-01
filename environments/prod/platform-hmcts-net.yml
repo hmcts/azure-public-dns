@@ -269,7 +269,7 @@ cname:
   - name: "www.ccd"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: false   
+    shutter: true   
   - name: "bulkscan.demo"
     ttl: 600
     record: "bulk-scan-v2-demo-frontdoor.azurefd.net"
@@ -332,7 +332,7 @@ cname:
   - name: "manage-case"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.manage-case"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -358,14 +358,14 @@ cname:
   - name: "manage-payments"
     ttl: 900
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "tmwww.manage-payments"
     ttl: 900
     record: "58fd15f9-7a11-4de2-8df1-9aef0e807ec2.cloudapp.net"
   - name: "www.manage-payments"
     ttl: 900
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "www.moneyclaim"
     ttl: 300
     record: "moneyclaim.reform.hmcts.net"
@@ -400,7 +400,7 @@ cname:
   - name: "paybubble"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "_274fa105e35a1c6271534224dcfcc482.paybubble"
     ttl: 300
     record: "9F30B8FF955609E7056D651B27162A6F.71EA2C4A41C2C63882CABF5E5CB7649E.8cb94e7a9661ea20b129.comodoca.com."
@@ -410,7 +410,7 @@ cname:
   - name: "www.paybubble"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "_274fa105e35a1c6271534224dcfcc482.www.paybubble"
     ttl: 300
     record: "9F30B8FF955609E7056D651B27162A6F.71EA2C4A41C2C63882CABF5E5CB7649E.8cb94e7a9661ea20b129.comodoca.com."
