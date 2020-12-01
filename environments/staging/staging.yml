@@ -20,9 +20,9 @@ cname:
     record: "8A49378F10CA1DB2BDFB0BC43E68D2EF.4119A1D9C9464645E90F4FCE3A4610AA.6fb41c898918ad5a0df0.comodoca.com."
   - name: "toffee"
     ttl: 300
-    record: "sdshmcts-staging.azurefd.net"
+    record: "sdshmcts-stg.azurefd.net"
     shutter: false
   - name: "afdverify.toffee"
     ttl: 3600
-    record: "afdverify.sdshmcts-staging.azurefd.net"
+    record: "afdverify.sdshmcts-stg.azurefd.net"
 
