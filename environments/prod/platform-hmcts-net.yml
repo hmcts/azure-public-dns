@@ -269,7 +269,7 @@ cname:
   - name: "www.ccd"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: false   
+    shutter: true   
   - name: "bulkscan.demo"
     ttl: 600
     record: "bulk-scan-v2-demo-frontdoor.azurefd.net"
