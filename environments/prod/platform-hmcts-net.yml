@@ -431,7 +431,7 @@ cname:
     record: "awverify.probate-frontend-prod-shutter.azurewebsites.net"
   - name: "reformscan"
     ttl: 3600
-    record: "d6553b20-4667-4120-a499-1e3de9ddce58.cloudapp.net"
+    record: "hmcts-prod.azurefd.net"
   - name: "afdverify.reformscan"
     ttl: 60
     record: "afdverify.hmcts-prod.azurefd.net"
