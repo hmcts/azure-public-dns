@@ -89,13 +89,13 @@ cname:
   - name: "_ebcea3aaa604ee544afe2171a1c19d4a.decree-absolute"
     ttl: 300
     record: "CFBF67E5860E17571AFAFDC7492F6BA1.142AB2C674199D39D63BC25392096FBF.38b2baf94efabe47b94f.comodoca.com."
-  - name: "_73F395344556287B0869CC57ED617FC1.decree-nisi"
+  - name: "_73f395344556287b0869cc57ed617fc1.decree-nisi"
     ttl: 300
-    record: "d419b79dcfb96fce3193a045334cecc7.a7b3fd329ba55a1b2fd92ea4d87d419f.4f0adf8dde494dff7c0c.comodoca.com."
-  - name: "_73F395344556287B0869CC57ED617FC1.tmwww.decree-nisi"
+    record: "D419B79DCFB96FCE3193A045334CECC7.A7B3FD329BA55A1B2FD92EA4D87D419F.4f0adf8dde494dff7c0c.comodoca.com."
+  - name: "_73f395344556287b0869cc57ed617fc1.tmwww.decree-nisi"
     ttl: 300
-    record: "d419b79dcfb96fce3193a045334cecc7.a7b3fd329ba55a1b2fd92ea4d87d419f.4f0adf8dde494dff7c0c.comodoca.com."
-  - name: "_73F395344556287B0869CC57ED617FC1.www.decree-nisi"
+    record: "D419B79DCFB96FCE3193A045334CECC7.A7B3FD329BA55A1B2FD92EA4D87D419F.4f0adf8dde494dff7c0c.comodoca.com."
+  - name: "_73f395344556287b0869cc57ed617fc1.www.decree-nisi"
     ttl: 300
-    record: "d419b79dcfb96fce3193a045334cecc7.a7b3fd329ba55a1b2fd92ea4d87d419f.4f0adf8dde494dff7c0c.comodoca.com."
+    record: "D419B79DCFB96FCE3193A045334CECC7.A7B3FD329BA55A1B2FD92EA4D87D419F.4f0adf8dde494dff7c0c.comodoca.com."
   
