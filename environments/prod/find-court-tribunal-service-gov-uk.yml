@@ -7,9 +7,9 @@ A: []
 txt: []
 
 cname:
-  - name: "*"
+  - name: "www"
     ttl: 60
-    record: "www.find-court-tribunal.service.gov.uk"
+    record: "hmcts-prod.azurefd.net"
     shutter: false
   - name: "_7c539238d4da39d0fa4242e862930d02"
     ttl: 300
