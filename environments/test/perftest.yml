@@ -135,3 +135,9 @@ cname:
   - name: "afdverify.fact-admin"
     ttl: 300
     record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "nfdiv"
+    ttl: 300
+    record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.nfdiv"
+    ttl: 300
+    record: "afdverify.hmcts-perftest.azurefd.net"
