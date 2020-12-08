@@ -258,9 +258,6 @@ cname:
     ttl: 60
     record: "hmcts-prod.azurefd.net"
     shutter: false   
-  - name: "reformscan.demo"
-    ttl: 600
-    record: "reform-scan-v2-demo-frontdoor.azurefd.net"   
   - name: "apply-divorce.demo"
     ttl: 600
     record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
@@ -416,7 +413,13 @@ cname:
     record: "awverify.probate-frontend-prod-shutter.azurewebsites.net"
   - name: "reformscan"
     ttl: 3600
-    record: "d6553b20-4667-4120-a499-1e3de9ddce58.cloudapp.net"
+    record: "hmcts-prod.azurefd.net"
+  - name: "afdverify.reformscan"
+    ttl: 60
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.reformscan"
+    ttl: 300
+    record: "cdnverify.hmcts-reformscan-shutter-prod.azureedge.net"
   - name: "asverify.reformscan"
     ttl: 3600
     record: "asverify.reformscanprod.blob.core.windows.net"
@@ -781,15 +784,6 @@ cname:
   - name: "s2._domainkey.mail-sscs-nonprod"
     ttl: 300
     record: "s2.domainkey.u19166834.wl085.sendgrid.net"
-  - name: "em3680.mail-sscs"
-    ttl: 300
-    record: "u19166858.wl109.sendgrid.net"
-  - name: "s1._domainkey.mail-sscs"
-    ttl: 300
-    record: "s1.domainkey.u19166858.wl109.sendgrid.net"
-  - name: "s2._domainkey.mail-sscs"
-    ttl: 300
-    record: "s2.domainkey.u19166858.wl109.sendgrid.net"
   - name: "em6474.mail-money-claims-nonprod"
     ttl: 300
     record: "u18847643.wl144.sendgrid.net"
@@ -799,3 +793,12 @@ cname:
   - name: "s2._domainkey.mail-money-claims-nonprod"
     ttl: 300
     record: "s2.domainkey.u18847643.wl144.sendgrid.net"
+  - name: "em8228.mail-sscs"
+    ttl: 300
+    record: "u19471273.wl024.sendgrid.net"
+  - name: "s1._domainkey.mail-sscs"
+    ttl: 300
+    record: "s1.domainkey.u19471273.wl024.sendgrid.net"
+  - name: "s2._domainkey.mail-sscs"
+    ttl: 300
+    record: "s2.domainkey.u19471273.wl024.sendgrid.net"

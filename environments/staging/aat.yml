@@ -145,6 +145,9 @@ cname:
   - name: "afdverify.fact-admin"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "afdverify.nfdiv"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
   - name: "afdverify.wa-proto-frontend"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
@@ -179,11 +182,5 @@ cname:
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
   - name: "idam-web-admin"
-    ttl: 3600
-    record: "hmcts-aat.azurefd.net"
-  - name: "afdverify.hmi-apim"
-    ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
-  - name: "hmi-apim"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"

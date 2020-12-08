@@ -117,12 +117,6 @@ cname:
   - name: "idam-web-admin"
     ttl: 3600
     record: "hmcts-perftest.azurefd.net"
-  - name: "afdverify.hmi-apim"
-    ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
-  - name: "hmi-apim"
-    ttl: 3600
-    record: "hmcts-perftest.azurefd.net"
   - name: "fact"
     ttl: 300
     record: "hmcts-perftest.azurefd.net"
@@ -133,5 +127,11 @@ cname:
     ttl: 300
     record: "hmcts-perftest.azurefd.net"
   - name: "afdverify.fact-admin"
+    ttl: 300
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "nfdiv"
+    ttl: 300
+    record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.nfdiv"
     ttl: 300
     record: "afdverify.hmcts-perftest.azurefd.net"

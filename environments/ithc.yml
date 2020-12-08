@@ -138,10 +138,22 @@ cname:
   - name: "afdverify.paybubble"
     ttl: 3600
     record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "fact"
+    ttl: 3600
+    record: "hmcts-ithc.azurefd.net"
   - name: "afdverify.fact"
     ttl: 300
     record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "fact-admin"
+    ttl: 3600
+    record: "hmcts-ithc.azurefd.net"
   - name: "afdverify.fact-admin"
+    ttl: 300
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "nfdiv"
+    ttl: 3600
+    record: "hmcts-ithc.azurefd.net"
+  - name: "afdverify.nfdiv"
     ttl: 300
     record: "afdverify.hmcts-ithc.azurefd.net"
   - name: "afdverify.fees-register"
@@ -154,3 +166,11 @@ cname:
     ttl: 300
     record: "hmcts-ithc.azurefd.net"
     shutter: false
+  - name: "toffee"
+    ttl: 300
+    record: "sdshmcts-ithc.azurefd.net"
+    shutter: false
+  - name: "afdverify.toffee"
+    ttl: 3600
+    record: "afdverify.sdshmcts-ithc.azurefd.net"
+

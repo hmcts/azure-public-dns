@@ -7,6 +7,10 @@ A: []
 txt: []
 
 cname:
+  - name: "www"
+    ttl: 60
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
   - name: "_7c539238d4da39d0fa4242e862930d02"
     ttl: 300
     record: "CA97F4612709C22E162E35D39F71B6A8.32CBBA599F56C6E44500A1CFFF18F733.d85688fce613669775c5.comodoca.com."
@@ -16,3 +20,18 @@ cname:
   - name: "_7c539238d4da39d0fa4242e862930d02.admin"
     ttl: 300
     record: "CA97F4612709C22E162E35D39F71B6A8.32CBBA599F56C6E44500A1CFFF18F733.d85688fce613669775c5.comodoca.com."
+  - name: "admin"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+  - name: "cdnverify.www"
+    ttl: 300
+    record: "cdnverify.hmcts-find-court-tribunal-shutter-prod.azureedge.net"
+  - name: "afdverify.www"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "afdverify.www.admin"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.www.admin"
+    ttl: 300
+    record: "cdnverify.hmcts-admin-find-court-tribunal-shutter-prod.azureedge.net"  

@@ -111,10 +111,14 @@ cname:
   - name: "hmi-apim"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
-  - name: "cdnverify.hmi-apim"
-    ttl: 300
-    record: "cdnverify.hmcts-hmi-apim-shutter-sbox.azureedge.net"
+    shutter: false
   - name: "cdnverify.reformscan"
     ttl: 300
     record: "cdnverify.hmcts-reformscan-shutter-sbox.azureedge.net"
-
+  - name: "toffee"
+    ttl: 300
+    record: "sdshmcts-sbox.azurefd.net"
+    shutter: false
+  - name: "afdverify.toffee"
+    ttl: 3600
+    record: "afdverify.sdshmcts-sbox.azurefd.net"
