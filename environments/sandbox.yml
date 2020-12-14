@@ -62,7 +62,7 @@ cname:
   - name: "plum"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "www.plum"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
