@@ -772,6 +772,9 @@ cname:
     ttl: 300
     record: "hmcts-prod.azurefd.net"
     shutter: false
+  - name: "cdnverify.hmi-apim"
+    ttl: 3600
+    record: "cdnverify.hmcts-hmi-apim-shutter-prod.azureedge.net"  
   - name: "_c3e531902e6606f7e9b3adefd38c81ac.dev"
     ttl: 300
     record: "3571F80AA236C8E7ABC6C7EDEB82C82B.90C6AAB2D5252F7CD071E5F74585AFFB.fa757d4df53d4143d09e.comodoca.com."
