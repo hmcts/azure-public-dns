@@ -24,7 +24,7 @@ cname:
   - name: "www"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "_d735b639c74a3942196ec3245845f0f0.www"
     ttl: 3600
     record: "E6F58A185B2FFB34CA36E29C726CD768.51ABEB32C7BCE7B6E621866CC24FACBA.5b3cbafa73920.comodoca.com."
