@@ -536,7 +536,7 @@ cname:
   - name: "return-case-doc.ccd"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "immigration-appeal"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
@@ -628,7 +628,7 @@ cname:
   - name: "equality-and-diversity"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "_281472626d92865dd0e95a36c73ed2fe.payment"
     ttl: 300
     record: "AAC25DC156BF452752D274DA48EE63A6.9CAF936AECD4A0F0F2BF0004AB5CFCD3.78f9eb91b8c7b3b3967f.comodoca.com."
@@ -743,7 +743,7 @@ cname:
   - name: "idam-web-admin"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name:  "_69d539555eed4d84d69173f5b732ecf5.manage-org"
     ttl: 300
     record: "F681353ADA7EFE7C75275E7642A2D520.44940D84935C5C06776F04813B18EF22.4b3909f00d45451966f2.comodoca.com."
@@ -771,7 +771,7 @@ cname:
   - name: "hmi-apim"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "cdnverify.hmi-apim"
     ttl: 3600
     record: "cdnverify.hmcts-hmi-apim-shutter-prod.azureedge.net"  
