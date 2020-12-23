@@ -445,7 +445,7 @@ cname:
   - name: "awverify.probate.saat"
     ttl: 60
     record: "awverify.probate-frontend-0f57-saat.azurewebsites.net"
-  - name: "_FE952D2AE36602DE857BA2C3E66D049F.sharedservices"
+  - name: "_fe952d2ae36602de857ba2c3e66d049f.sharedservices"
     ttl: 300
     record: "3D4173ADC0AA3CD47318DC2295E46A17.BC942C46B4C23BD4BB4C58E14F3B218B.c6ae0d36f2b809808a40.comodoca.com."
   - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl"
