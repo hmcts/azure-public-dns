@@ -23,6 +23,15 @@ cname:
   - name: "_2b4d3b045bdf0528952090aa206d7254.www.respond-divorce.service.gov.uk"
     ttl: 300
     record: "095E12C905774C60536D4713A8FF28E3.BE78D8C0223913148F81A82BC1AA3F91.ef6f1f3af41cc9f5850d.comodoca.com."
+  - name: "_2b4d3b045bdf0528952090aa206d7254"
+    ttl: 300
+    record: "095E12C905774C60536D4713A8FF28E3.BE78D8C0223913148F81A82BC1AA3F91.f1a235df0a3756dfbbe0.comodoca.com."
+  - name: "_2b4d3b045bdf0528952090aa206d7254.tmwww"
+    ttl: 300
+    record: "095E12C905774C60536D4713A8FF28E3.BE78D8C0223913148F81A82BC1AA3F91.f1a235df0a3756dfbbe0.comodoca.com."
+  - name: "_2b4d3b045bdf0528952090aa206d7254.www"
+    ttl: 300
+    record: "095E12C905774C60536D4713A8FF28E3.BE78D8C0223913148F81A82BC1AA3F91.f1a235df0a3756dfbbe0.comodoca.com."
   - name: "www"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
