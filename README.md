@@ -2,7 +2,7 @@
 
 This module creates/updates DNS zone and recordsets in a given zone.
 
-## Example Usage
+## Example Usage.
 
 `../../components/mgmt.main.tf`
 ```hcl
@@ -90,3 +90,4 @@ of the underlying Terraform provider:
 - `PTR`
 - `SRV`
 - `TXT`
+
