@@ -386,9 +386,6 @@ cname:
   - name: "_274fa105e35a1c6271534224dcfcc482.paybubble"
     ttl: 300
     record: "9F30B8FF955609E7056D651B27162A6F.71EA2C4A41C2C63882CABF5E5CB7649E.8cb94e7a9661ea20b129.comodoca.com."
-  - name: "_ea7ddc228444799015f19f0b8187f919.paybubble"
-    ttl: 300
-    record: "918AE6DB4F60E56D6E92DB2F5F39E3AA.93CEB9C2DCDAAB64E151F2A7A1851C97.619205da514e83f86951.comodoca.com."
   - name: "www.paybubble"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
@@ -396,9 +393,6 @@ cname:
   - name: "_274fa105e35a1c6271534224dcfcc482.www.paybubble"
     ttl: 300
     record: "9F30B8FF955609E7056D651B27162A6F.71EA2C4A41C2C63882CABF5E5CB7649E.8cb94e7a9661ea20b129.comodoca.com."
-  - name: "_ea7ddc228444799015f19f0b8187f919.www.paybubble"
-    ttl: 300
-    record: "918AE6DB4F60E56D6E92DB2F5F39E3AA.93CEB9C2DCDAAB64E151F2A7A1851C97.619205da514e83f86951.comodoca.com."
   - name: "_c3b5fe13b4756db80168bc42e0db38eb.perftest"
     ttl: 300
     record: "28AC2C3343F82103E5B6E3CE2E408F9A.3A56404AB020AE88C3FCCACBED8F7066.9f2998dcc45d58baf6f7.comodoca.com."
@@ -805,3 +799,9 @@ cname:
   - name: "s2._domainkey.mail-sscs"
     ttl: 300
     record: "s2.domainkey.u19471273.wl024.sendgrid.net"
+  - name: "_ea7ddc228444799015f19f0b8187f919.paybubble"
+    ttl: 300
+    record: "918AE6DB4F60E56D6E92DB2F5F39E3AA.93CEB9C2DCDAAB64E151F2A7A1851C97.dfa7868c9f76acaf214a.comodoca.com."
+  - name: "_ea7ddc228444799015f19f0b8187f919.www.paybubble"
+    ttl: 300
+    record: "918AE6DB4F60E56D6E92DB2F5F39E3AA.93CEB9C2DCDAAB64E151F2A7A1851C97.dfa7868c9f76acaf214a.comodoca.com."
