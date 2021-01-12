@@ -33,6 +33,11 @@ A:
     record:
       - "51.132.42.179"
 
+  - name: "portal"
+    ttl: 60
+    record:
+      - "20.49.172.208"
+
 txt:
   - name: "contact.justice"
     ttl: 3600
