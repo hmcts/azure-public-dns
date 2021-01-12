@@ -350,6 +350,9 @@ cname:
   - name: _22CCCAD51C677A40E9922BAC36584E24.sip.dev.self-test
     ttl: 300
     record: 9434C251F0A49AC87C2A51251159AE70.CC04A93DB03503D0FAF61D02B7EFF8CE.603a60c30fc626443b46.comodoca.com.
+  - name: vh-user-api-dev
+    ttl: 300
+    record: sdshmcts-dev.azurefd.net
 
 
 # prod
