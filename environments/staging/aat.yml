@@ -148,6 +148,12 @@ cname:
   - name: "afdverify.nfdiv"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "afdverify.nfdiv-apply-for-divorce"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "afdverify.nfdiv-end-civil-partnership"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
   - name: "afdverify.wa-proto-frontend"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
