@@ -11,6 +11,14 @@ A:
     ttl: 300
     record: 
       - "81.144.180.165"
+  - name: "webchat.training"
+    ttl: 300
+    record: 
+      - "81.131.15.82"
+  - name: "webchat-client.training"
+    ttl: 300
+    record: 
+      - "81.131.15.82"
 
 
 txt:
