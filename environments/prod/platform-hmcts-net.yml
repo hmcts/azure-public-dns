@@ -284,7 +284,7 @@ cname:
     record: "awverify.sscs-tya-frontend-demo-shutter.azurewebsites.net"
   - name: "_51d8b1c9dd4e64d34db2fbe4ee69a972.docmosis"
     ttl: 300
-    record: "C1DF7BB648B8C6A26E8BE421298A8110.E423F10778C699B9F67661AF08050428.91f5738a827405b0f0bd.comodoca.com."
+    record: "C1DF7BB648B8C6A26E8BE421298A8110.E423F10778C699B9F67661AF08050428.da5470b9e6792dbdc7ee.comodoca.com."
   - name: "_03e19b887aab622531c6eedb5e375d07.enquiry"
     ttl: 300
     record: "8ACA4868E050A1C9D5621621EDC9E9F8.6AD45D4646F72722AF5602E076ED8A8F.10088cc50a44bc6d611a.comodoca.com."
