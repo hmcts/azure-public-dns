@@ -814,3 +814,12 @@ cname:
   - name: "_18bf7504025b44083d0aa4efbf13ff78.tmwww.moneyclaim-legal"
     ttl: 300
     record: "5B8098406E066B1E5F42D5CA3D63D949.B37E974F8BDF9C371596B20E0ACFE5A4.de9cf7fc237bf2217c1c.comodoca.com."
+  - name: "administer-orgs-ethosldata"
+    ttl: 60
+    record: "hmcts-ldata.azurefd.net"
+  - name: "manage-org-ethosldata"
+    ttl: 60
+    record: "hmcts-ldata.azurefd.net"
+  - name: "manage-case-ethosldata"
+    ttl: 60
+    record: "hmcts-ldata.azurefd.net"
