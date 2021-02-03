@@ -13,6 +13,10 @@ txt:
     ttl: 3600
     record: 
       - "v=TLSRPTv1;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk"
+  - name: "@"
+    ttl: 3600
+    record:
+      - "google-site-verification=41TSY1RWuadllidQw9vOe_azU0T6uX9a15QPGrHQlAg"      
 
 cname:
   - name: "hw2mzkztnolp"
