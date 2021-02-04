@@ -1,0 +1,14 @@
+ns: []
+
+mx: []
+
+A: []
+
+txt: []
+
+srv: []
+
+cname:
+  - name: "_EA62EF4B1FE963C730419F9916940B6F.baisweb-stg"
+    ttl: 300
+    record: "CE7AFCFACD440D79418831FCFDDD191F.1B6BB5234F5603394DE827556E67D942.41ae36ecb9b3eee609d0.comodoca.com."
