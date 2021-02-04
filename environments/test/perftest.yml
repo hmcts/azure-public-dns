@@ -132,18 +132,10 @@ cname:
   - name: "nfdiv"
     ttl: 300
     record: "hmcts-perftest.azurefd.net"
-  - name: "afdverify.nfdiv"
-    ttl: 300
-    record: "afdverify.hmcts-perftest.azurefd.net"
   - name: "nfdiv-apply-for-divorce"
     ttl: 300
     record: "hmcts-perftest.azurefd.net"
-  - name: "afdverify.nfdiv-apply-for-divorce"
-    ttl: 300
-    record: "afdverify.hmcts-perftest.azurefd.net"
   - name: "nfdiv-end-civil-partnership"
     ttl: 300
     record: "hmcts-perftest.azurefd.net"
-  - name: "afdverify.nfdiv-end-civil-partnership"
-    ttl: 300
-    record: "afdverify.hmcts-perftest.azurefd.net"
+
