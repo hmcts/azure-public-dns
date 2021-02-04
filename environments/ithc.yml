@@ -159,15 +159,9 @@ cname:
   - name: "nfdiv-apply-for-divorce"
     ttl: 3600
     record: "hmcts-ithc.azurefd.net"
-  - name: "afdverify.nfdiv-apply-for-divorce"
-    ttl: 3600
-    record: "afdverify.hmcts-ithc.azurefd.net"
   - name: "nfdiv-end-civil-partnership"
     ttl: 3600
     record: "hmcts-ithc.azurefd.net"
-  - name: "afdverify.nfdiv-end-civil-partnership"
-    ttl: 3600
-    record: "afdverify.hmcts-ithc.azurefd.net"
   - name: "afdverify.nfdiv"
     ttl: 300
     record: "afdverify.hmcts-ithc.azurefd.net"
