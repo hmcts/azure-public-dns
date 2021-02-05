@@ -208,6 +208,13 @@ A:
     ttl: 60
     record:
       - "51.141.228.194"
+  - name: "mailrelay"
+    ttl: 60
+    record:
+      - "20.50.108.242"
+      - "20.50.109.148"
+      - "51.11.124.205"
+      - "51.11.124.216"
 
 txt:
 
@@ -823,3 +830,6 @@ cname:
   - name: "manage-case-ethosldata"
     ttl: 60
     record: "hmcts-ldata.azurefd.net"
+  - name: "_95A127518842B5D35A87BE95C56B7610.mailrelay.platform.hmcts.net"
+    ttl: 300
+    record: "D1BD5E426F1BF5EADD5C749173C00C86.EB9888D54ADCB8D1CE1219FBD12E951C.738602136ff278808f08.comodoca.com."
