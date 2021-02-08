@@ -6,33 +6,4 @@ A:
 
 txt:
 
-
 cname:
-  - name: "_d9baec60ca695066df7139350c2a673d"
-    ttl: 3600
-    record: "20cde5e5335b856a244bee79c898bf13.66d2775a1cab661e431a1da3a6256dd3.5b3cba24ef0e7.comodoca.com"
-  - name: "tmwww"
-    ttl: 3600
-    record: "58fd15f9-7a11-4de2-8df1-9aef0e807ec2.cloudapp.net"
-  - name: "_d9baec60ca695066df7139350c2a673d.tmwww"
-    ttl: 3600
-    record: "20cde5e5335b856a244bee79c898bf13.66d2775a1cab661e431a1da3a6256dd3.5b3cba24ef0e7.comodoca.com"
-  - name: "www"
-    ttl: 300
-    record: "hmcts-prod.azurefd.net"
-    shutter: false
-  - name: "cdnverify.www"
-    ttl: 300
-    record: "cdnverify.hmcts-track-benefit-appeal-shutter-prod.azureedge.net"
-  - name: "afdverify.www"
-    ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "_4bac47bdeb0ac1da1b9245d31fe1b180"
-    ttl: 300
-    record: "0689399E46D0F959E7D082411599A8D4.C2279063C596FA18A8B1B93CAF7A9B67.eb5baf1d47227ab1995f.comodoca.com."
-  - name: "_6cebcabf7ea6a949096f3c20f14f7184.www"
-    ttl: 300
-    record: "AACFCF00D49419F5E307CA123A7AE102.DF18BF647919D8578E66BE7DE88152D6.f91e24dfe80012e2a798.comodoca.com."
-  - name: "_6cebcabf7ea6a949096f3c20f14f7184"
-    ttl: 300
-    record: "AACFCF00D49419F5E307CA123A7AE102.DF18BF647919D8578E66BE7DE88152D6.f91e24dfe80012e2a798.comodoca.com."
