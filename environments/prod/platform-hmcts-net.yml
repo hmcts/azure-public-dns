@@ -830,6 +830,6 @@ cname:
   - name: "manage-case-ethosldata"
     ttl: 60
     record: "hmcts-ldata.azurefd.net"
-  - name: "_95A127518842B5D35A87BE95C56B7610.mailrelay.platform.hmcts.net"
+  - name: "_95A127518842B5D35A87BE95C56B7610.mailrelay"
     ttl: 300
     record: "D1BD5E426F1BF5EADD5C749173C00C86.EB9888D54ADCB8D1CE1219FBD12E951C.738602136ff278808f08.comodoca.com."
