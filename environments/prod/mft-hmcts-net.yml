@@ -15,3 +15,6 @@ cname:
   - name: "_c9725da0aa8e40f60594beefa807fb99.baisweb"
     ttl: 300
     record: "EC2E11D1F0744E21545FBFB584226019.B026C63D322D5255714960E011B32D54.9d787a2fde1f968b1ae6.comodoca.com."
+  - name: "afdverify.baisweb-stg"
+    ttl: 300
+    record: "afdverify.hmcts-heritage-stg.azurefd.net"
