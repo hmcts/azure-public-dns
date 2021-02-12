@@ -208,6 +208,13 @@ A:
     ttl: 60
     record:
       - "51.141.228.194"
+  - name: "mailrelay"
+    ttl: 60
+    record:
+      - "20.50.108.242"
+      - "20.50.109.148"
+      - "51.11.124.205"
+      - "51.11.124.216"
 
 txt:
 
@@ -284,7 +291,7 @@ cname:
     record: "awverify.sscs-tya-frontend-demo-shutter.azurewebsites.net"
   - name: "_51d8b1c9dd4e64d34db2fbe4ee69a972.docmosis"
     ttl: 300
-    record: "C1DF7BB648B8C6A26E8BE421298A8110.E423F10778C699B9F67661AF08050428.91f5738a827405b0f0bd.comodoca.com."
+    record: "C1DF7BB648B8C6A26E8BE421298A8110.E423F10778C699B9F67661AF08050428.da5470b9e6792dbdc7ee.comodoca.com."
   - name: "_03e19b887aab622531c6eedb5e375d07.enquiry"
     ttl: 300
     record: "8ACA4868E050A1C9D5621621EDC9E9F8.6AD45D4646F72722AF5602E076ED8A8F.10088cc50a44bc6d611a.comodoca.com."
@@ -814,3 +821,18 @@ cname:
   - name: "_18bf7504025b44083d0aa4efbf13ff78.tmwww.moneyclaim-legal"
     ttl: 300
     record: "5B8098406E066B1E5F42D5CA3D63D949.B37E974F8BDF9C371596B20E0ACFE5A4.de9cf7fc237bf2217c1c.comodoca.com."
+  - name: "administer-orgs-ethosldata"
+    ttl: 60
+    record: "hmcts-ldata.azurefd.net"
+  - name: "manage-org-ethosldata"
+    ttl: 60
+    record: "hmcts-ldata.azurefd.net"
+  - name: "manage-case-ethosldata"
+    ttl: 60
+    record: "hmcts-ldata.azurefd.net"
+  - name: "_95A127518842B5D35A87BE95C56B7610.mailrelay"
+    ttl: 300
+    record: "D1BD5E426F1BF5EADD5C749173C00C86.EB9888D54ADCB8D1CE1219FBD12E951C.738602136ff278808f08.comodoca.com."
+  - name: "_68eb6eab9fec859325f8f4241bfe2275.immigration-appeal"
+    ttl: 300
+    record: "A8C4D115FC5A34458E4B73D245C80242.B2FFBBAFF515D028E2CC66DFD36FFD86.142c65e00f4f7cf2e6c4.comodoca.com."
