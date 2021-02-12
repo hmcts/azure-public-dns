@@ -25,7 +25,7 @@ cname:
   - name: "afdverify.toffee"
     ttl: 3600
     record: "afdverify.sdshmcts-stg.azurefd.net"
-  - name: "baisweb"
+  - name: "baisweb-stg"
     ttl: 300
     record: "sdshmcts-stg.azurefd.net"
     shutter: false
