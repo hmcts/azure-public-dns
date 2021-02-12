@@ -25,10 +25,3 @@ cname:
   - name: "afdverify.toffee"
     ttl: 3600
     record: "afdverify.sdshmcts-stg.azurefd.net"
-  - name: "baisweb-stg"
-    ttl: 300
-    record: "hmcts-heritage-stg.azurefd.net"
-    shutter: false
-  - name: "afdverify.baisweb-stg"
-    ttl: 3600
-    record: "afdverify.hmcts-heritage-stg.azurefd.net"
