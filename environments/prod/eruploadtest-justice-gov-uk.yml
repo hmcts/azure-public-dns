@@ -1,0 +1,17 @@
+ns: []
+
+mx: []
+
+A: []
+
+txt: []
+
+srv: []
+
+cname:
+  - name: "_b65db6854b591e04c902c451f8412aec"
+    ttl: 300
+    record: "0CB337AB86ADDE10AA4DB9978826A135.E48EF1DC2D9EC940452F6AB503C9FB9B.e85d902e5519fe6df5f4.comodoca.com."
+  - name: "_b65db6854b591e04c902c451f8412aec.www"
+    ttl: 300
+    record: "0CB337AB86ADDE10AA4DB9978826A135.E48EF1DC2D9EC940452F6AB503C9FB9B.e85d902e5519fe6df5f4.comodoca.com."
