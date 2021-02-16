@@ -2,9 +2,25 @@ ns: []
 
 mx: []
 
-A: []
+A:
+  - name: "mailrelay"
+    ttl: 60
+    record:
+      - "20.49.168.141"
+      - "20.49.168.17"
+      - "51.11.124.149"
+      - "51.11.124.158"
 
-txt: []
+txt:
+  - name: "mailrelay"
+    ttl: 3600
+    record:
+      - "v=spf1 ip4:20.49.168.141 ip4:20.49.168.17 ip4:51.11.124.149 ip4:51.11.124.158 include:spf.protection.outlook.com ~all"
+  - name: "_dmarc.mailrelay"
+    ttl: 3600
+    record:
+      - "v=DMARC1; p=none"
+
 
 srv: []
 
