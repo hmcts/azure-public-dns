@@ -30,3 +30,6 @@ cname:
   - name: "afdverify.baisweb-stg"
     ttl: 300
     record: "afdverify.hmcts-heritage-stg.azurefd.net"
+  - name: "baisweb-stg"
+    ttl: 300
+    record: "hmcts-heritage-stg.azurefd.net"
