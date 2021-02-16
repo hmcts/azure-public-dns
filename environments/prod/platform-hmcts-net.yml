@@ -217,7 +217,14 @@ A:
       - "51.11.124.216"
 
 txt:
-
+  - name: "mailrelay"
+    ttl: 3600
+    record:
+      - "v=spf1 ip4:20.50.108.242 ip4:20.50.109.148 ip4:51.11.124.205 ip4:51.11.124.216 include:spf.protection.outlook.com ~all"
+  - name: "_dmarc.mailrelay"
+    ttl: 3600
+    record:
+      - "v=DMARC1; p=none"
 
 cname:
   - name: "_9c4d3a31c7755933c820c13ece0caaca"
