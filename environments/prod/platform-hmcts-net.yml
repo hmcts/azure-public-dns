@@ -833,3 +833,10 @@ cname:
   - name: "_68eb6eab9fec859325f8f4241bfe2275.immigration-appeal"
     ttl: 300
     record: "A8C4D115FC5A34458E4B73D245C80242.B2FFBBAFF515D028E2CC66DFD36FFD86.142c65e00f4f7cf2e6c4.comodoca.com."
+  - name: "_0394489b9f6de5795a1f1972c6a2f0b7.case-activity-api.ccd"
+    ttl: 300
+    record: "E471F8EBB34054D18B9376888B88962C.F593C879C9BAA54EFF43CECCA0AD56B0.fa17a68f853853baf9cf.comodoca.com."
+  - name: "_0394489b9f6de5795a1f1972c6a2f0b7.return-case-doc.ccd"
+    ttl: 300
+    record: "E471F8EBB34054D18B9376888B88962C.F593C879C9BAA54EFF43CECCA0AD56B0.fa17a68f853853baf9cf.comodoca.com."
+    
