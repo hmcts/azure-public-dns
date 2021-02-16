@@ -15,6 +15,21 @@ cname:
   - name: "_c9725da0aa8e40f60594beefa807fb99.baisweb"
     ttl: 300
     record: "EC2E11D1F0744E21545FBFB584226019.B026C63D322D5255714960E011B32D54.9d787a2fde1f968b1ae6.comodoca.com."
+  - name: "_ebdf78f7900d7d89777442383f98f181.erupload.ext"
+    ttl: 300
+    record: "ED435B76F55465852B76EF9C1098B8DA.9504D19BD9D1890D110D87B207D8C83A.0a7c563b1e75f1d3555a.comodoca.com."
+  - name: "_ebdf78f7900d7d89777442383f98f181.www.erupload.ext"
+    ttl: 300
+    record: "ED435B76F55465852B76EF9C1098B8DA.9504D19BD9D1890D110D87B207D8C83A.0a7c563b1e75f1d3555a.comodoca.com."
+  - name: "_b65db6854b591e04c902c451f8412aec.eruploadtest.ext"
+    ttl: 300
+    record: "0CB337AB86ADDE10AA4DB9978826A135.E48EF1DC2D9EC940452F6AB503C9FB9B.e85d902e5519fe6df5f4.comodoca.com."
+  - name: "_b65db6854b591e04c902c451f8412aec.www.eruploadtest.ext"
+    ttl: 300
+    record: "0CB337AB86ADDE10AA4DB9978826A135.E48EF1DC2D9EC940452F6AB503C9FB9B.e85d902e5519fe6df5f4.comodoca.com."
   - name: "afdverify.baisweb-stg"
     ttl: 300
     record: "afdverify.hmcts-heritage-stg.azurefd.net"
+  - name: "baisweb-stg"
+    ttl: 300
+    record: "hmcts-heritage-stg.azurefd.net"

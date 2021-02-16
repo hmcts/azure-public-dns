@@ -365,9 +365,6 @@ cname:
   - name: "www.moneyclaim"
     ttl: 300
     record: "moneyclaim.reform.hmcts.net"
-  - name: "tmwww.moneyclaim-legal"
-    ttl: 300
-    record: "2a2a11d5-16a8-48c3-955a-2712ccc85d1e.cloudapp.net"
   - name: "www.moneyclaim-legal"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
@@ -819,15 +816,15 @@ cname:
   - name: "_ea7ddc228444799015f19f0b8187f919.www.paybubble"
     ttl: 300
     record: "918AE6DB4F60E56D6E92DB2F5F39E3AA.93CEB9C2DCDAAB64E151F2A7A1851C97.dfa7868c9f76acaf214a.comodoca.com."
-  - name: "_18bf7504025b44083d0aa4efbf13ff78.www.moneyclaim-legal"
+  - name: "_6b5a4b25400cfd39eeb8497f6f1b65ae.www.moneyclaim-legal"
     ttl: 300
-    record: "5B8098406E066B1E5F42D5CA3D63D949.B37E974F8BDF9C371596B20E0ACFE5A4.de9cf7fc237bf2217c1c.comodoca.com."
-  - name: "_18bf7504025b44083d0aa4efbf13ff78.moneyclaim-legal"
+    record: "3D8E7307FB268526F6123C1940D117A3.5339B0A08C67EDAFB0A94A60DF873F73.0ceed3b289e76c7f6ac4.comodoca.com."
+  - name: "_6b5a4b25400cfd39eeb8497f6f1b65ae.moneyclaim-legal"
     ttl: 300
-    record: "5B8098406E066B1E5F42D5CA3D63D949.B37E974F8BDF9C371596B20E0ACFE5A4.de9cf7fc237bf2217c1c.comodoca.com."
-  - name: "_18bf7504025b44083d0aa4efbf13ff78.tmwww.moneyclaim-legal"
+    record: "3D8E7307FB268526F6123C1940D117A3.5339B0A08C67EDAFB0A94A60DF873F73.0ceed3b289e76c7f6ac4.comodoca.com."
+  - name: "_6b5a4b25400cfd39eeb8497f6f1b65ae.tmwww.moneyclaim-legal"
     ttl: 300
-    record: "5B8098406E066B1E5F42D5CA3D63D949.B37E974F8BDF9C371596B20E0ACFE5A4.de9cf7fc237bf2217c1c.comodoca.com."
+    record: "3D8E7307FB268526F6123C1940D117A3.5339B0A08C67EDAFB0A94A60DF873F73.0ceed3b289e76c7f6ac4.comodoca.com."
   - name: "administer-orgs-ethosldata"
     ttl: 60
     record: "hmcts-ldata.azurefd.net"
@@ -843,3 +840,10 @@ cname:
   - name: "_68eb6eab9fec859325f8f4241bfe2275.immigration-appeal"
     ttl: 300
     record: "A8C4D115FC5A34458E4B73D245C80242.B2FFBBAFF515D028E2CC66DFD36FFD86.142c65e00f4f7cf2e6c4.comodoca.com."
+  - name: "_0394489b9f6de5795a1f1972c6a2f0b7.case-activity-api.ccd"
+    ttl: 300
+    record: "E471F8EBB34054D18B9376888B88962C.F593C879C9BAA54EFF43CECCA0AD56B0.fa17a68f853853baf9cf.comodoca.com."
+  - name: "_0394489b9f6de5795a1f1972c6a2f0b7.return-case-doc.ccd"
+    ttl: 300
+    record: "E471F8EBB34054D18B9376888B88962C.F593C879C9BAA54EFF43CECCA0AD56B0.fa17a68f853853baf9cf.comodoca.com."
+    
