@@ -220,7 +220,7 @@ txt:
   - name: "mailrelay"
     ttl: 3600
     record:
-      - "v=spf1 ip4:20.50.108.242 ip4:20.50.109.148 ip4:51.11.124.205 ip4:51.11.124.216 include:spf.protection.outlook.com ~all"
+      - "v=spf1 ip4:20.50.108.242 ip4:20.50.109.148 ip4:51.11.124.205 ip4:51.11.124.216 include:spf.protection.outlook.com include:hmcts.net ~all"
   - name: "_dmarc.mailrelay"
     ttl: 3600
     record:
