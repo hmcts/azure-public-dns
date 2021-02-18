@@ -45,3 +45,12 @@ cname:
   - name: "s2._domainkey.mail"
     ttl: 300
     record: "s2.domainkey.u19129221.wl222.sendgrid.net"
+  - name: "_48f9b2dfa747e036c6399b890fcb216c"
+    ttl: 300
+    record: "5BD8DC30E7E8F44DBE0E4DE60B0EE79C.0616110B06BF084BE4966371ED31B3FC.98af8de5c746356a4b87.comodoca.com."
+  - name: "_48f9b2dfa747e036c6399b890fcb216c.www"
+    ttl: 300
+    record: "5BD8DC30E7E8F44DBE0E4DE60B0EE79C.0616110B06BF084BE4966371ED31B3FC.98af8de5c746356a4b87.comodoca.com."
+  - name: "_48f9b2dfa747e036c6399b890fcb216c.tmwww"
+    ttl: 300
+    record: "5BD8DC30E7E8F44DBE0E4DE60B0EE79C.0616110B06BF084BE4966371ED31B3FC.98af8de5c746356a4b87.comodoca.com."
