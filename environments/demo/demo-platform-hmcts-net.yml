@@ -33,7 +33,7 @@ cname:
   - name: "_c90f6fda2be96a09fcc613bc71ce799f.www.moneyclaims-legal"
     ttl: 60
     record: "86FB2AAB19A8F5E5C8E7A30814BD0277.E99F825ACD0F3A60C735A1826AE278C9.cb41662fe265cad3ff1b.comodoca.com."
-    - name: "_c90f6fda2be96a09fcc613bc71ce799f.tmwww.moneyclaims"
+  - name: "_c90f6fda2be96a09fcc613bc71ce799f.tmwww.moneyclaims"
     ttl: 60
     record: "86FB2AAB19A8F5E5C8E7A30814BD0277.E99F825ACD0F3A60C735A1826AE278C9.cb41662fe265cad3ff1b.comodoca.com."
   - name: "_c90f6fda2be96a09fcc613bc71ce799f.tmwww.moneyclaims-legal"
