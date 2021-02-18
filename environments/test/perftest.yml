@@ -18,7 +18,13 @@ cname:
   - name: "afdverify.sscs-cor"
     ttl: 3600
     record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "afdverify.sscs-mya"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
   - name: "sscs-cor"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
+  - name: "sscs-mya"
     ttl: 3600
     record: "hmcts-perftest.azurefd.net"
   - name: "reformscan"
@@ -110,7 +116,7 @@ cname:
     record: "afdverify.hmcts-perftest.azurefd.net"
   - name: "register-org"
     ttl: 3600
-    record: "hmcts-perftest.azurefd.net"  
+    record: "hmcts-perftest.azurefd.net"
   - name: "afdverify.idam-web-admin"
     ttl: 3600
     record: "afdverify.hmcts-perftest.azurefd.net"

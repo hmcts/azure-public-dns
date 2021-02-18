@@ -79,7 +79,13 @@ cname:
   - name: "afdverify.sscs-cor"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "afdverify.sscs-mya"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
   - name: "sscs-cor"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
+  - name: "sscs-mya"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
   - name: "afdverify.track-appeal"
