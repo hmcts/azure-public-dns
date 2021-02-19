@@ -33,7 +33,7 @@ cname:
   - name: "baisweb-stg"
     ttl: 300
     record: "hmcts-heritage-stg.azurefd.net"
-    - name: "www.baisweb-stg"
+  - name: "www.baisweb-stg"
     ttl: 300
     record: "hmcts-heritage-stg.azurefd.net"
   - name: "baisweb"
