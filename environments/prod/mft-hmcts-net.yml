@@ -41,4 +41,4 @@ cname:
 	  record: "hmcts-heritage-prod.azurefd.net"
   - name: "www.baisweb"
 	  ttl: 300
-	  record: "hmcts-heritage-prod.azurefd.net"
+    record: "hmcts-heritage-prod.azurefd.net"
