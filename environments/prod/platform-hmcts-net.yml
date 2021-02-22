@@ -245,7 +245,7 @@ cname:
   - name: "administer-orgs"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "afdverify.administer-orgs"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -270,7 +270,7 @@ cname:
   - name: "gateway.ccd"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "tmgateway.ccd"
     ttl: 60
     record: "5a052b01-331d-4789-9c63-8ccea30883da.cloudapp.net"
@@ -280,7 +280,7 @@ cname:
   - name: "www.ccd"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: true   
+    shutter: false   
   - name: "apply-divorce.demo"
     ttl: 600
     record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
@@ -314,14 +314,14 @@ cname:
   - name: "fees-register"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "tmwww.fees-register"
     ttl: 60
     record: "58fd15f9-7a11-4de2-8df1-9aef0e807ec2.cloudapp.net"
   - name: "www.fees-register"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "gateway-ccd-ethosldata"
     ttl: 60
     record: "hmcts-ldata.azurefd.net"
@@ -337,7 +337,7 @@ cname:
   - name: "manage-case"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "afdverify.manage-case"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -350,7 +350,7 @@ cname:
   - name: "manage-org"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "afdverify.manage-org"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -363,21 +363,21 @@ cname:
   - name: "manage-payments"
     ttl: 900
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "tmwww.manage-payments"
     ttl: 900
     record: "58fd15f9-7a11-4de2-8df1-9aef0e807ec2.cloudapp.net"
   - name: "www.manage-payments"
     ttl: 900
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "www.moneyclaim"
     ttl: 300
     record: "moneyclaim.reform.hmcts.net"
   - name: "www.moneyclaim-legal"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "divorce.nonprod"
     ttl: 3600
     record: "mojmaintenance.azurewebsites.net"
@@ -402,14 +402,14 @@ cname:
   - name: "paybubble"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "_274fa105e35a1c6271534224dcfcc482.paybubble"
     ttl: 300
     record: "9F30B8FF955609E7056D651B27162A6F.71EA2C4A41C2C63882CABF5E5CB7649E.8cb94e7a9661ea20b129.comodoca.com."
   - name: "www.paybubble"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "_274fa105e35a1c6271534224dcfcc482.www.paybubble"
     ttl: 300
     record: "9F30B8FF955609E7056D651B27162A6F.71EA2C4A41C2C63882CABF5E5CB7649E.8cb94e7a9661ea20b129.comodoca.com."
@@ -446,7 +446,7 @@ cname:
   - name: "register-org"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "_c2c531954464a2c755d6a6dd2c487d88.register-org"
     ttl: 300
     record: "F6DE5E30E7052660D9019668EA45C85F.C9519747E6B82801DCE298E005B0D8AE.db4b852fceaa5260e33e.comodoca.com."
@@ -501,7 +501,7 @@ cname:
   - name: "tmadminister-orgs"
     ttl: 60
     record: "3ea55565-0202-4fa4-a74b-e9b0bccdefd5.cloudapp.net"
-    shutter: true
+    shutter: false
   - name: "tmbenefit-appeal"
     ttl: 3600
     record: "58fd15f9-7a11-4de2-8df1-9aef0e807ec2.cloudapp.net"
@@ -550,7 +550,7 @@ cname:
   - name: "return-case-doc.ccd"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "immigration-appeal"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
@@ -642,7 +642,7 @@ cname:
   - name: "equality-and-diversity"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "_281472626d92865dd0e95a36c73ed2fe.payment"
     ttl: 300
     record: "AAC25DC156BF452752D274DA48EE63A6.9CAF936AECD4A0F0F2BF0004AB5CFCD3.78f9eb91b8c7b3b3967f.comodoca.com."
@@ -757,7 +757,7 @@ cname:
   - name: "idam-web-admin"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name:  "_69d539555eed4d84d69173f5b732ecf5.manage-org"
     ttl: 300
     record: "F681353ADA7EFE7C75275E7642A2D520.44940D84935C5C06776F04813B18EF22.4b3909f00d45451966f2.comodoca.com."
@@ -785,7 +785,7 @@ cname:
   - name: "hmi-apim"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "cdnverify.hmi-apim"
     ttl: 3600
     record: "cdnverify.hmcts-hmi-apim-shutter-prod.azureedge.net"  
