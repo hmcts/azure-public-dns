@@ -138,4 +138,15 @@ cname:
   - name: "nfdiv-end-civil-partnership"
     ttl: 300
     record: "hmcts-perftest.azurefd.net"
-
+  - name: "decree-absolute-aks"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
+  - name: "decree-nisi-aks"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
+  - name: "petitioner-frontend-aks"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
+  - name: "respond-divorce-aks"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
