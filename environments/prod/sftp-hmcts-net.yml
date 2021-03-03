@@ -1,0 +1,14 @@
+ns: []
+
+mx: []
+
+A: []
+
+txt: []
+
+srv: []
+
+cname:
+  - name: "_25417D7075D30ABD4E48C0830F61EB3F.bais-ext-stg"
+    ttl: 300
+    record: "318026A8ECB0D5E7B3D35424E77700B5.C96C9DA1E59CDF0E26F1E5065E2BEA25.ed2ddd0dcd323046d0f9.comodoca.com."
