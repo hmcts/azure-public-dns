@@ -1,6 +1,6 @@
-ns:
+ns: []
 
-mx:
+mx: []
 
 A:
   - name: "prod"
@@ -44,4 +44,4 @@ txt:
     record:
       - "v=DMARC1; p=none"
 
-cname:
+cname: []
