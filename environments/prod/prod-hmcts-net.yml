@@ -1,0 +1,15 @@
+ns: []
+
+mx: []
+
+A:
+  - name: "caps.db"
+    ttl: 300
+    record: 
+      - "10.24.242.4"
+
+txt: []
+
+srv: []
+
+cname: []
