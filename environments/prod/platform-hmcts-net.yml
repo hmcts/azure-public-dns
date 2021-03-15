@@ -870,3 +870,12 @@ cname:
   - name: "_defca9944606874ff3b5e0e653ff9825"
     ttl: 300
     record: "882B317559A955DAA77E56E15B374766.A2851A8D271748B93C979BB5B30DD924.696f61d7a31edd36aa11.comodoca.com."
+  - name: "em6661.mail-divorce-nonprod"
+    ttl: 300
+    record: "u20932712.wl213.sendgrid.net"
+  - name: "s1._domainkey.mail-divorce-nonprod"
+    ttl: 300
+    record: "s1.domainkey.u20932712.wl213.sendgrid.net"
+  - name: "s2._domainkey.mail-divorce-nonprod"
+    ttl: 300
+    record: "s2.domainkey.u20932712.wl213.sendgrid.net"
