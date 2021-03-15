@@ -879,3 +879,13 @@ cname:
   - name: "s2._domainkey.mail-divorce-nonprod"
     ttl: 300
     record: "s2.domainkey.u20932712.wl213.sendgrid.net"
+  - name: "em8346.mail-divorce"
+    ttl: 300
+    record: "u20932751.wl002.sendgrid.net"
+  - name: "s1._domainkey.mail-divorce"
+    ttl: 300
+    record: "s1.domainkey.u20932751.wl002.sendgrid.net"
+  - name: "s2._domainkey.mail-divorce"
+    ttl: 300
+    record: "s2.domainkey.u20932751.wl002.sendgrid.net"
+    
