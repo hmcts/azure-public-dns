@@ -42,3 +42,15 @@ cname:
   - name: "www.baisweb"
     ttl: 300
     record: "hmcts-heritage-prod.azurefd.net"
+  - name: "eruploadSTG.ext"
+    ttl: 300
+    record: "hmcts-heritage-stg.azurefd.net"
+  - name: "www.eruploadSTG.ext"
+    ttl: 300
+    record: "hmcts-heritage-stg.azurefd.net"
+  - name: "erupload.ext"
+    ttl: 300
+    record: "hmcts-heritage-prod.azurefd.net"
+  - name: "www.erupload.ext"
+    ttl: 300
+    record: "hmcts-heritage-prod.azurefd.net"
