@@ -888,4 +888,7 @@ cname:
   - name: "s2._domainkey.mail-divorce"
     ttl: 300
     record: "s2.domainkey.u20932751.wl002.sendgrid.net"
+  - name: "_4c2aa3cf7820ad559328554b0084d4af.aat"
+    ttl: 300
+    record: "A8DE39B21BE7C0E63C7D0233E683637A.205D792E60EE2E5C66131C38BCD98C87.aad64398a969ec318680.comodoca.com."
     
