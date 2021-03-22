@@ -104,6 +104,13 @@ ns:
       - "ns2-07.azure-dns.net."
       - "ns3-07.azure-dns.org."
       - "ns4-07.azure-dns.info."
+  - name: "mailrelay"
+    ttl: 900
+    record:
+      - "ns1-03.azure-dns.com"
+      - "ns2-03.azure-dns.net"
+      - "ns3-03.azure-dns.org"
+      - "ns4-03.azure-dns.info"
 
 mx:
 

@@ -1,18 +1,4 @@
-ns:
-  - name: "prod"
-    ttl: 900
-    record:
-      - "ns1-03.azure-dns.com"
-      - "ns2-03.azure-dns.net"
-      - "ns3-03.azure-dns.org"
-      - "ns4-03.azure-dns.info"
-  - name: "dev"
-    ttl: 900
-    record:
-      - "ns1-03.azure-dns.com"
-      - "ns2-03.azure-dns.net"
-      - "ns3-03.azure-dns.org"
-      - "ns4-03.azure-dns.info"
+ns: []
 
 mx: []
 
