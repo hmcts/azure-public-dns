@@ -7,6 +7,14 @@ A:
     ttl: 300
     record: 
       - "20.49.140.58"
+  - name: "pcnotify"
+    ttl: 300
+    record: 
+      - "20.49.172.131"
+  - name: "pcol"
+    ttl: 300
+    record: 
+      - "20.49.172.131"
 
 txt: []
 
