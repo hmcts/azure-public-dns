@@ -215,23 +215,8 @@ A:
     ttl: 60
     record:
       - "51.141.228.194"
-  - name: "mailrelay"
-    ttl: 60
-    record:
-      - "20.50.108.242"
-      - "20.50.109.148"
-      - "51.11.124.205"
-      - "51.11.124.216"
 
 txt:
-  - name: "mailrelay"
-    ttl: 3600
-    record:
-      - "v=spf1 ip4:20.50.108.242 ip4:20.50.109.148 ip4:51.11.124.205 ip4:51.11.124.216 include:spf.protection.outlook.com ~all"
-  - name: "_dmarc.mailrelay"
-    ttl: 3600
-    record:
-      - "v=DMARC1; p=none"
   - name: "@"
     ttl: 3600
     record:
