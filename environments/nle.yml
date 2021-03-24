@@ -7,17 +7,21 @@ A:
     ttl: 300
     record: 
       - "20.49.140.58"
-  - name: "pcnotify"
-    ttl: 300
-    record: 
-      - "20.49.172.131"
-  - name: "pcol"
-    ttl: 300
-    record: 
-      - "20.49.172.131"
 
 txt: []
 
 srv: []
 
-cname: []
+cname:
+  - name: "pcnotify"
+    ttl: 300
+    record: "hmcts-nle-int.azurefd.net"
+  - name: "afdverify.pcnotify"
+    ttl: 300
+    record: "afdverify.hmcts-nle-int.azurefd.net"
+  - name: "pcol"
+    ttl: 300
+    record: "hmcts-nle-int.azurefd.net"
+  - name: "afdverify.pcol"
+    ttl: 300
+    record: "afdverify.hmcts-nle-int.azurefd.net"
