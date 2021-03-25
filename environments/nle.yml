@@ -25,3 +25,6 @@ cname:
   - name: "afdverify.pcol"
     ttl: 300
     record: "afdverify.hmcts-nle-int.azurefd.net"
+  - name: "caps"
+    ttl: 300
+    record: "firewall-nonprodi-palo-capsnle.uksouth.cloudapp.azure.com
