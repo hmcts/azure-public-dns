@@ -15,16 +15,10 @@ srv: []
 cname:
   - name: "pcnotify"
     ttl: 300
-    record: "hmcts-nle-int.azurefd.net"
-  - name: "afdverify.pcnotify"
-    ttl: 300
-    record: "afdverify.hmcts-nle-int.azurefd.net"
+    record: "firewall-nonprodi-palo-pcnotify.uksouth.cloudapp.azure.com"
   - name: "pcol"
     ttl: 300
-    record: "hmcts-nle-int.azurefd.net"
-  - name: "afdverify.pcol"
-    ttl: 300
-    record: "afdverify.hmcts-nle-int.azurefd.net"
+    record: "firewall-nonprodi-palo-pcnotify.uksouth.cloudapp.azure.com"
   - name: "caps"
     ttl: 300
     record: "firewall-nonprodi-palo-capsnle.uksouth.cloudapp.azure.com"
