@@ -59,10 +59,10 @@ cname:
   - name: "_6190d868bd83918bf30c53d52e605197.vh-video-api-prod.hearings"
     ttl: 300
     record: "FA464B758B44E54A018CCA566CBD2245.7D372B1188513CB3241A15A065288D13.3a909674b845c826eccc.comodoca.com."
-  - name: " _dcba8dfd057acc58db8ca3359798884b.vh-notification-api-prod.hearings"
+  - name: "_dcba8dfd057acc58db8ca3359798884b.vh-notification-api-prod.hearings"
     ttl: 300
     record: "DC915CF71D379B7D5221FBA5434B72E6.91921F8C3E97780AFFAB1079A90A6A62.fc9b0afb85bfffc53285.comodoca.com."
-  - name: "_5c7ef33bcb57182a54f2d9cc8d8ac0f8.vh-bookings-api-prod"
+  - name: "_5c7ef33bcb57182a54f2d9cc8d8ac0f8.vh-bookings-api-prod.hearings"
     ttl: 300
     record: "08E60EBA79EA6B37AF69DD9DAA4AB07B.CA262AC686ACA64F449F28648260431C.9c0309e638a30971dfa0.comodoca.com."
   - name: "_df529a77950081e3ad8c21586162089b.video.hearings"
