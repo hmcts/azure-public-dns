@@ -793,15 +793,15 @@ cname:
   - name: "s2._domainkey.mail-sscs-nonprod"
     ttl: 300
     record: "s2.domainkey.u19166834.wl085.sendgrid.net"
-  - name: "em6474.mail-money-claims-nonprod"
+  - name: "em2301.mail-money-claims-nonprod"
     ttl: 300
-    record: "u18847643.wl144.sendgrid.net"
+    record: "u21300784.wl035.sendgrid.net"
   - name: "s1._domainkey.mail-money-claims-nonprod"
     ttl: 300
-    record: "s1.domainkey.u18847643.wl144.sendgrid.net"
+    record: "s1.domainkey.u21300784.wl035.sendgrid.net"
   - name: "s2._domainkey.mail-money-claims-nonprod"
     ttl: 300
-    record: "s2.domainkey.u18847643.wl144.sendgrid.net"
+    record: "s2.domainkey.u21300784.wl035.sendgrid.net"
   - name: "em8228.mail-sscs"
     ttl: 300
     record: "u19471273.wl024.sendgrid.net"
