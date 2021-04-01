@@ -793,15 +793,15 @@ cname:
   - name: "s2._domainkey.mail-sscs-nonprod"
     ttl: 300
     record: "s2.domainkey.u19166834.wl085.sendgrid.net"
-  - name: "em6474.mail-money-claims-nonprod"
+  - name: "em2301.mail-money-claims-nonprod"
     ttl: 300
-    record: "u18847643.wl144.sendgrid.net"
+    record: "u21300784.wl035.sendgrid.net"
   - name: "s1._domainkey.mail-money-claims-nonprod"
     ttl: 300
-    record: "s1.domainkey.u18847643.wl144.sendgrid.net"
+    record: "s1.domainkey.u21300784.wl035.sendgrid.net"
   - name: "s2._domainkey.mail-money-claims-nonprod"
     ttl: 300
-    record: "s2.domainkey.u18847643.wl144.sendgrid.net"
+    record: "s2.domainkey.u21300784.wl035.sendgrid.net"
   - name: "em8228.mail-sscs"
     ttl: 300
     record: "u19471273.wl024.sendgrid.net"
@@ -901,12 +901,3 @@ cname:
   - name: "_df529a77950081e3ad8c21586162089b.video"
     ttl: 300
     record: "88849E439635A2EC10EC9DAA27E311FB.97641532D0C35FEA6572BE4722A6C5F0.606c90a06173d69682fe.comodoca.com."
-  - name: "em2301.mail-money-claims-nonprod"
-    ttl: 300
-    record: "u21300784.wl035.sendgrid.net"
-  - name: "s1._domainkey.mail-money-claims-nonprod"
-    ttl: 300
-    record: "s1.domainkey.u21300784.wl035.sendgrid.net"
-  - name: "s2._domainkey.mail-money-claims-nonprod"
-    ttl: 300
-    record: "s2.domainkey.u21300784.wl035.sendgrid.net"
