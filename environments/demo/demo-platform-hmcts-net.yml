@@ -26,7 +26,7 @@ cname:
     record: "56DDD5BB7BD629DD7B32C2EF75824ECB.4FDD1FE37015F188615E327886C95C9B.44e67a303e887000a548.comodoca.com."
   - name: "afdverify.immigration-appeal"
     ttl: 3600
-    record: "afdverify."
+    record: "afdverify.hmcts-demo.azurefd.net"
   - name: "immigration-appeal"
     ttl: 3600
     record: "hmcts-demo.azurefd.net"
