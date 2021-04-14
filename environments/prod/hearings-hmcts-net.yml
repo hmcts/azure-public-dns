@@ -460,6 +460,20 @@ cname:
   - name: _cffc0f58728ffeb1aec569f22929d62c.sip.preprod.self-test
     ttl: 300
     record: 3E61D2C283A5EEC4DDB95FC695903E9A.F1743509B80EFA3A153C613F20DA3B5A.fa6c94460e902005a0b6.comodoca.com.
+  - name:  _d864adaf02e9051bf985dbb682b9854b.preprod
+    ttl: 300
+    record: 6BBA5CFFA66FA4A5F030F0A9BCF04B22.68176DC9921D4946CD004FFFED6EFA9F.e1bc55fb92b356f04a98.comodoca.com.
+  - name:  _d864adaf02e9051bf985dbb682b9854b.join.preprod
+    ttl: 300
+    record: 6BBA5CFFA66FA4A5F030F0A9BCF04B22.68176DC9921D4946CD004FFFED6EFA9F.e1bc55fb92b356f04a98.comodoca.com.
+  - name:  _f87ed9a8ff96315a44caedda408bbb5f.preprod.self-test
+    ttl: 300
+    record: 52A30A2425F1494C94D2421CD123C9D7.ABCB31231780603E4ACDEFB83902AC3C.fc5c0cd21ddca3b39da7.comodoca.com.
+  - name:  _f87ed9a8ff96315a44caedda408bbb5f.join.preprod.self-test
+    ttl: 300
+    record: 52A30A2425F1494C94D2421CD123C9D7.ABCB31231780603E4ACDEFB83902AC3C.fc5c0cd21ddca3b39da7.comodoca.com.
+
+    
 
 
 # test
