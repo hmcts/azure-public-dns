@@ -919,3 +919,12 @@ cname:
   - name: "s2._domainkey.mail-payment-nonprod"
     ttl: 300
     record: "s2.domainkey.u21452115.wl116.sendgrid.net"
+  - name: "em8309.mail-payment"
+    ttl: 300
+    record: "u21484024.wl025.sendgrid.net"
+  - name: "s1._domainkey.mail-payment"
+    ttl: 300
+    record: "s1.domainkey.u21484024.wl025.sendgrid.net"
+  - name: "s2._domainkey.mail-payment"
+    ttl: 300
+    record: "s2.domainkey.u21484024.wl025.sendgrid.net"
