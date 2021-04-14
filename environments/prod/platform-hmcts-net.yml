@@ -910,3 +910,12 @@ cname:
   - name: "s2._domainkey.mail-damages-nonprod"
     ttl: 300
     record: "s2.domainkey.u21391694.wl195.sendgrid.net"
+  - name: "em5261.mail-payment-nonprod"
+    ttl: 300
+    record: "u21452115.wl116.sendgrid.net"
+  - name: "s1._domainkey.mail-payment-nonprod"
+    ttl: 300
+    record: "s1.domainkey.u21452115.wl116.sendgrid.net"
+  - name: "s2._domainkey.mail-payment-nonprod"
+    ttl: 300
+    record: "s2.domainkey.u21452115.wl116.sendgrid.net"
