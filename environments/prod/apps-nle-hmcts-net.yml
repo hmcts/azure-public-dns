@@ -12,9 +12,18 @@ cname:
   - name: "caps"
     ttl: 300
     record: "hmcts-nle-int.azurefd.net"
+  - name: "cman"
+    ttl: 300
+    record: "hmcts-nle-int.azurefd.net"
+  - name: "mcol"
+    ttl: 300
+    record: "hmcts-nle-ext.azurefd.net"
   - name: "pcol"
     ttl: 300
     record: "hmcts-nle-ext.azurefd.net"
   - name: "pcnotify"
     ttl: 300
     record: "hmcts-nle-ext.azurefd.net"
+  - name: "sdt"
+    ttl: 300
+    record: "hmcts-nle-int.azurefd.net"

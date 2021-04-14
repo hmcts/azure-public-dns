@@ -13,12 +13,21 @@ txt: []
 srv: []
 
 cname:
+  - name: "caps"
+    ttl: 300
+    record: "firewall-nonprodi-palo-capsnle.uksouth.cloudapp.azure.com"
+  - name: "cman"
+    ttl: 300
+    record: "firewall-nonprodi-palo-cmannle.uksouth.cloudapp.azure.com"
+  - name: "mcol"
+    ttl: 300
+    record: "firewall-nonprodi-palo-mcolnle.uksouth.cloudapp.azure.com"
   - name: "pcnotify"
     ttl: 300
     record: "firewall-nonprodi-palo-pcnotify.uksouth.cloudapp.azure.com"
   - name: "pcol"
     ttl: 300
     record: "firewall-nonprodi-palo-pcnotify.uksouth.cloudapp.azure.com"
-  - name: "caps"
+  - name: "sdt"
     ttl: 300
-    record: "firewall-nonprodi-palo-capsnle.uksouth.cloudapp.azure.com"
+    record: "firewall-nonprodi-palo-sdtnle.uksouth.cloudapp.azure.com"
