@@ -75,7 +75,7 @@ Due to current limitations of the Terraform language, recordsets in Azure DNS
 are correlated to `recordsets` elements using the index into the `recordsets`
 list. Adding or removing records from the list will therefore cause this
 module to also update all records with indices greater than where the
-addition or removal was made..
+addition or removal was made.
 
 ## Limitations
 
