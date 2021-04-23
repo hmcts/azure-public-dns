@@ -49,4 +49,4 @@ srv:
       - "10,10,5061,px01.vh.hmcts.net"
       - "10,10,5061,px02.vh.hmcts.net"
 
-cname:
+cname: []

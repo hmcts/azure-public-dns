@@ -44,4 +44,4 @@ txt:
     record:
       - "v=DMARC1; p=none"
 
-cname:
+cname: []
