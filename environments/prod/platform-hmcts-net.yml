@@ -261,9 +261,6 @@ cname:
   - name: "apply-divorce.demo"
     ttl: 600
     record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
-  - name: "tmwww.apply-divorce.demo"
-    ttl: 3600
-    record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
   - name: "www.apply-divorce.demo"
     ttl: 60
     record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
@@ -283,9 +280,6 @@ cname:
     ttl: 60
     record: "hmcts-prod.azurefd.net"
     shutter: false
-  - name: "tmwww.fees-register"
-    ttl: 60
-    record: "58fd15f9-7a11-4de2-8df1-9aef0e807ec2.cloudapp.net"
   - name: "www.fees-register"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
@@ -432,9 +426,6 @@ cname:
     ttl: 300
     record: "hmcts-prod.azurefd.net"
     shutter: true
-  - name: "plum-timj-debug"
-    ttl: 3600
-    record: "timj-debug.azurefd.net"
   - name: "afdverify.immigration-appeal"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
