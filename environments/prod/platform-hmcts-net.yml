@@ -258,9 +258,6 @@ cname:
     ttl: 60
     record: "hmcts-prod.azurefd.net"
     shutter: false   
-  - name: "apply-divorce.demo"
-    ttl: 600
-    record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
   - name: "www.apply-divorce.demo"
     ttl: 60
     record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
