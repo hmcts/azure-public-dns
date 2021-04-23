@@ -17,18 +17,9 @@ cname:
     ttl: 60
     record: "www.apply-divorce.service.gov.uk"
     shutter: false
-  - name: "_45a726e6b562188b09c3646d5ad34983"
-    ttl: 3600
-    record: "C1EB7C78C6448477066C9915B1FD71E6.D52AE9FBE6362839344F409B3A3D621A.5ae078197ba9c.comodoca.com"
-  - name: "_a533c9d251b609f116601293f1d3aea8"
-    ttl: 60
-    record: "F971873619088D33E2BBFEFF9C89820C.F365B7B75162D89DCCF4714AFC9573B6.5ad9f861d5f91.comodoca.com"
   - name: "decree-absolute"
     ttl: 300
     record: "www.decree-absolute.apply-divorce.service.gov.uk"
-  - name: "_d9ec4536101c13783d85912fb622c3d1.decree-absolute"
-    ttl: 300
-    record: "CFB97CA810B7148874BE5DA1CF971ED4.AF7567D4581DD8D30A4E86060DA15C61.2618c3e4c775f2c5f5f7.comodoca.com."
   - name: "www.decree-absolute"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
@@ -42,59 +33,23 @@ cname:
   - name: "decree-nisi"
     ttl: 300
     record: "www.decree-nisi.apply-divorce.service.gov.uk"
-  - name: "_73f395344556287b0869cc57ed617fc1.decree-nisi"
-    ttl: 300
-    record: "D419B79DCFB96FCE3193A045334CECC7.A7B3FD329BA55A1B2FD92EA4D87D419F.4f0adf8dde494dff7c0c.comodoca.com."
-  - name: "_99b281d4ca7410e9692ac4b8772d68f5.decree-nisi"
-    ttl: 300
-    record: "0F92E4D9272A97899DDC640DA9FD3F4A.D88FABF0435BEE3862B637A109C3C533.637386e85513e2141b43.comodoca.com"
   - name: "www.decree-nisi"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
     shutter: false
-  - name: "_73f395344556287b0869cc57ed617fc1.www.decree-nisi"
-    ttl: 300
-    record: "D419B79DCFB96FCE3193A045334CECC7.A7B3FD329BA55A1B2FD92EA4D87D419F.4f0adf8dde494dff7c0c.comodoca.com."
-  - name: "_99b281d4ca7410e9692ac4b8772d68f5.www.decree-nisi"
-    ttl: 300
-    record: "0F92E4D9272A97899DDC640DA9FD3F4A.D88FABF0435BEE3862B637A109C3C533.637386e85513e2141b43.comodoca.com"
   - name: "afdverify.www.decree-nisi"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
   - name: "cdnverify.www.decree-nisi"
     ttl: 3600
     record: "cdnverify.hmcts-decree-nisi-shutter-prod.azureedge.net"
-  - name: "tmwww"
-    ttl: 1200
-    record: "divorce-palo-prod.platform.hmcts.net"
-  - name: "_45a726e6b562188b09c3646d5ad34983.tmwww"
-    ttl: 3600
-    record: "C1EB7C78C6448477066C9915B1FD71E6.D52AE9FBE6362839344F409B3A3D621A.5ae078197ba9c.comodoca.com"
   - name: "www"
     ttl: 120
     record: "hmcts-prod.azurefd.net"
     shutter: false
-  - name: "_45a726e6b562188b09c3646d5ad34983.www"
-    ttl: 3600
-    record: "C1EB7C78C6448477066C9915B1FD71E6.D52AE9FBE6362839344F409B3A3D621A.5ae078197ba9c.comodoca.com"
-  - name: "_a533c9d251b609f116601293f1d3aea8.www"
-    ttl: 3600
-    record: "F971873619088D33E2BBFEFF9C89820C.F365B7B75162D89DCCF4714AFC9573B6.5ad9f861d5f91.comodoca.com"
   - name: "afdverify.www"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
   - name: "cdnverify.www"
     ttl: 3600
     record: "cdnverify.hmcts-apply-divorce-shutter-prod.azureedge.net"
-  - name: "_ebcea3aaa604ee544afe2171a1c19d4a.decree-absolute"
-    ttl: 300
-    record: "CFBF67E5860E17571AFAFDC7492F6BA1.142AB2C674199D39D63BC25392096FBF.38b2baf94efabe47b94f.comodoca.com."
-  - name: "_ec53c8cb679310256197da46eddb2c1b"
-    ttl: 300
-    record: "AE69DBD76372FBFBB775300BE1624EE8.78144D7E5A66FA50A61AFD9B7D2C1D10.256e4ba50694f4872a80.comodoca.com."
-  - name: "_ec53c8cb679310256197da46eddb2c1b.tmwww"
-    ttl: 300
-    record: "AE69DBD76372FBFBB775300BE1624EE8.78144D7E5A66FA50A61AFD9B7D2C1D10.256e4ba50694f4872a80.comodoca.com."
-  - name: "_ec53c8cb679310256197da46eddb2c1b.www"
-    ttl: 300
-    record: "AE69DBD76372FBFBB775300BE1624EE8.78144D7E5A66FA50A61AFD9B7D2C1D10.256e4ba50694f4872a80.comodoca.com."

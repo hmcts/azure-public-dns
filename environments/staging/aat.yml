@@ -64,9 +64,6 @@ cname:
   - name: "tmgateway-ccd"
     ttl: 60
     record: "fbdcf28e-3dee-4ff3-b202-b2367b261d8d.cloudapp.net"
-  - name: "tmwww-ccd"
-    ttl: 900
-    record: "7f3cb82c-0944-4944-b8fd-0d736315b202.cloudapp.net"
   - name: "www-ccd"
     ttl: 900
     record: "hmcts-aat.azurefd.net"
