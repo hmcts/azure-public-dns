@@ -22,7 +22,7 @@ jobs:
         displayName: Plan - ${{ parameters.zone }}
         inputs:
           command: 'plan'
-          commandOptions: '-out=${{ parameters.zone }}${{ parameters.build }}plan'
+          commandOptions: '-out=${{ parameters.zone }}${{ parameters.build }}plan -parallelism=50'
           workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.zone }}'
           environmentServiceName: 'Reform-CFT-Mgmt'
       - task: Bash@3
