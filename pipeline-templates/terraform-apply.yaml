@@ -37,6 +37,6 @@ jobs:
               displayName: Apply - ${{ parameters.zone }}
               inputs:
                 command: 'apply'
-                commandOptions: '${{ parameters.zone }}${{ parameters.build }}plan -parallelism=50'
+                commandOptions: '-parallelism=50 ${{ parameters.zone }}${{ parameters.build }}plan'
                 environmentServiceName: 'Reform-CFT-Mgmt'
                 workingDirectory: '$(Pipeline.Workspace)/drop/components/${{ parameters.zone }}'
