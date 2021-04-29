@@ -585,7 +585,7 @@ cname:
   - name: "_3B26FAD15FB8BD90E7FE1338AB32F385.www.manage-payments"
     ttl: 300
     record: "FD1178437F864168D0E110089F4B3CA6.60180546A5391526F1C97CE9159530A8.6be93f7a96fed60c477d.comodoca.com."
-  - name: "_81561b7b9d7ee224ca33371799b09d93.fees-register.platform"
+  - name: "_81561b7b9d7ee224ca33371799b09d93.fees-register"
     ttl: 300
     record: "2704E664C97D0712CC8B62B52698A726.3775C15CAA91AA19C97158084B41B96D.ff19aaaec6a0ea4ed365.comodoca.com."
   - name: "_81561b7b9d7ee224ca33371799b09d93.tmwww.fees-register"
