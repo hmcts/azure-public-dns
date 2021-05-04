@@ -612,3 +612,9 @@ cname:
   - name: "_024f58e39afc36d6affaf9c831b41a79.www.idam-web-public"
     ttl: 300
     record: "A45A9F4F6F67544E0513407B50EF42D8.39C3777DE40F1D8613D175B52E110235.4f2bed48f31aa4f70b89.comodoca.com."
+  - name: "_50723077147e969b1f874131913bcea7.equality-and-diversity"
+    ttl: 300
+    record: "D9C7C7B34A30E682E5E6F8D28EDFC953.A3DA0D967467BE34829D08884EA1C62D.cc7146d26842552ef3ae.comodoca.com."
+  - name: "_50723077147e969b1f874131913bcea7.www.equality-and-diversity"
+    ttl: 300
+    record: "D9C7C7B34A30E682E5E6F8D28EDFC953.A3DA0D967467BE34829D08884EA1C62D.cc7146d26842552ef3ae.comodoca.com."
