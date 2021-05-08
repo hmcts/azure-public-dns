@@ -309,6 +309,18 @@ srv:
     record:
       - 10,10,1719,ext-node02.hearings.hmcts.net
       - 10,10,1719,ext-node01.hearings.hmcts.net
+  - name: sip._tcp
+    ttl: 86400
+    record:
+      - 10,10,5060,px01.preprod.hearings.hmcts.net
+      - 10,10,5060,px02.preprod.hearings.hmcts.net
+      - 10,10,5060,px03.preprod.hearings.hmcts.net
+  - name: sips._tcp
+    ttl: 86400
+    record:
+      - 10,10,5061,px01.preprod.hearings.hmcts.net
+      - 10,10,5061,px02.preprod.hearings.hmcts.net
+      - 10,10,5061,px03.preprod.hearings.hmcts.net
 
 
 cname: []
