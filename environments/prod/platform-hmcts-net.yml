@@ -570,37 +570,37 @@ cname:
   - name: "_6a1b0148b51aa81b6efa9ee381182f7d.ccd"
     ttl: 300
     record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
-   - name: "_6a1b0148b51aa81b6efa9ee381182f7d.admin-gateway.ccd"
+  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.admin-gateway.ccd"
     ttl: 300
     record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
-   - name: "_6a1b0148b51aa81b6efa9ee381182f7d.admin.ccd"
+  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.admin.ccd"
     ttl: 300
     record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
-   - name: "_6a1b0148b51aa81b6efa9ee381182f7d.api.ccd"
+  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.api.ccd"
     ttl: 300
     record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
-   - name: "_6a1b0148b51aa81b6efa9ee381182f7d.callback.ccd"
+  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.callback.ccd"
     ttl: 300
     record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
-   - name: "_6a1b0148b51aa81b6efa9ee381182f7d.case-activity-api.ccd"
+  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.case-activity-api.ccd"
     ttl: 300
     record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
-   - name: "_6a1b0148b51aa81b6efa9ee381182f7d.case-data-api.ccd"
+  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.case-data-api.ccd"
     ttl: 300
     record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
-   - name: "_6a1b0148b51aa81b6efa9ee381182f7d.case-definition-api.ccd"
+  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.case-definition-api.ccd"
     ttl: 300
     record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
-   - name: "_6a1b0148b51aa81b6efa9ee381182f7d.gateway.ccd"
+  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.gateway.ccd"
     ttl: 300
     record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
-   - name: "_6a1b0148b51aa81b6efa9ee381182f7d.return-case-doc.ccd"
+  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.return-case-doc.ccd"
     ttl: 300
     record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
-   - name: "_6a1b0148b51aa81b6efa9ee381182f7d.user-profile-api.ccd"
+  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.user-profile-api.ccd"
     ttl: 300
     record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
-   - name: "_6a1b0148b51aa81b6efa9ee381182f7d.www.ccd"
+  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.www.ccd"
     ttl: 300
     record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
 
