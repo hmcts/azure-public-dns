@@ -41,7 +41,7 @@ cname:
   - name: "decree-nisi-aks"
     ttl: 3600
     record: "hmcts-ithc.azurefd.net"
-  - name: "moneyclaim-legal"
+  - name: "moneyclaims-legal"
     ttl: 60
     record: "hmcts-ithc.azurefd.net"
   - name: "moneyclaims"
