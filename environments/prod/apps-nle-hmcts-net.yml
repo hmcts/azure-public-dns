@@ -15,13 +15,16 @@ cname:
   - name: "cman"
     ttl: 300
     record: "hmcts-nle-int.azurefd.net"
+  - name: "mcnotify"
+    ttl: 300
+    record: "hmcts-nle-ext.azurefd.net"
   - name: "mcol"
     ttl: 300
     record: "hmcts-nle-ext.azurefd.net"
-  - name: "pcol"
+  - name: "pcnotify"
     ttl: 300
     record: "hmcts-nle-ext.azurefd.net"
-  - name: "pcnotify"
+  - name: "pcol"
     ttl: 300
     record: "hmcts-nle-ext.azurefd.net"
   - name: "sdt"
