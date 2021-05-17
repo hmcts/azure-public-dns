@@ -290,6 +290,9 @@ srv:
     record:
       - 10,10,5060,ext-node02.hearings.hmcts.net
       - 10,10,5060,ext-node01.hearings.hmcts.net
+      - 10,10,5060,px01.hearings.hmcts.net
+      - 10,10,5060,px02.hearings.hmcts.net
+      - 10,10,5060,px03.hearings.hmcts.net
   - name: _sipfederationtls._tcp
     ttl: 86400
     record:
@@ -299,6 +302,9 @@ srv:
     record:
       - 10,10,5061,ext-node02.hearings.hmcts.net
       - 10,10,5061,ext-node01.hearings.hmcts.net
+      - 10,10,5061,px01.hearings.hmcts.net
+      - 10,10,5061,px02.hearings.hmcts.net
+      - 10,10,5061,px03.hearings.hmcts.net
   - name: _h323ls._udp
     ttl: 86400
     record:
@@ -321,4 +327,5 @@ srv:
       - 10,10,5061,px01.preprod.hearings.hmcts.net
       - 10,10,5061,px02.preprod.hearings.hmcts.net
       - 10,10,5061,px03.preprod.hearings.hmcts.net
+  
 cname: []
