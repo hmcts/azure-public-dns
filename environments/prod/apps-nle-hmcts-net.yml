@@ -2,7 +2,23 @@ ns: []
 
 mx: []
 
-A: []
+A:
+  - name: "sdt-uks"
+    ttl: 60
+    record:
+      - "20.49.164.175"
+  - name: "sdt-ukw"
+    ttl: 60
+    record:
+      - "51.104.34.126"
+  - name: "sdtcomm-uks"
+    ttl: 60
+    record:
+      - "52.151.120.164"
+  - name: "sdtcomm-ukw"
+    ttl: 60
+    record:
+      - "20.68.122.135"
 
 txt: []
 
@@ -29,4 +45,7 @@ cname:
     record: "hmcts-nle-ext.azurefd.net"
   - name: "sdt"
     ttl: 300
-    record: "hmcts-nle-int.azurefd.net"
+    record: "sdt-uks.apps-nle.hmcts.net"
+  - name: "sdtcomm"
+    ttl: 300
+    record: "sdtcomm-uks.apps-nle.hmcts.net"
