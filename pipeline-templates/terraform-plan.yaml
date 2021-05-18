@@ -10,7 +10,6 @@ jobs:
         displayName: Init - ${{ parameters.zone }}
         inputs:
           command: 'init'
-          commandOptions: '-lock=false' # don't lock on PRs / validate phase
           backendType: 'azurerm'
           backendServiceArm: 'Reform-CFT-Mgmt'
           backendAzureRmResourceGroupName: 'reform-cft-mgmt'
@@ -22,7 +21,7 @@ jobs:
         displayName: Plan - ${{ parameters.zone }}
         inputs:
           command: 'plan'
-          commandOptions: '-out=${{ parameters.zone }}${{ parameters.build }}plan'
+          commandOptions: '-out=${{ parameters.zone }}${{ parameters.build }}plan -parallelism=50'
           workingDirectory: '$(System.DefaultWorkingDirectory)/components/${{ parameters.zone }}'
           environmentServiceName: 'Reform-CFT-Mgmt'
       - task: Bash@3

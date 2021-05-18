@@ -8,30 +8,6 @@ txt:
 
 
 cname:
-  - name: "_19343dab32040a0d2cd6a9a0197d763d"
-    ttl: 900
-    record: "A130E3C47445C49F6AC9BCB9F96E439B.685427F090581E1932805099BF424378.B55I55u5hZ5oXAyMQ5CH.comodoca.com"
   - name: "afdverify.hmi-apim"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "_ac285a78514b19d657b18c29b98f4c7f.vh-admin-web"
-    ttl: 300
-    record: "032DDB9A61BB0588601DD6D4C005A812.302202E1FB30DE99CD976C202BDB71AC.3d2d30960eae9770a232.comodoca.com."
-  - name: "_0be35efd23b00eb9f75301c49805b99a.vh-user-api"
-    ttl: 300
-    record: "8C47FAE79316C0E04179D5E02FC8F22E.344D0959408A32581A917DB101A254E6.d84210a75448034bcc49.comodoca.com."
-  - name: "_250e8aa720222655812148349eda33fd.vh-service-web"
-    ttl: 300
-    record: "5ACFBA0AA417BAFA4550FA83C9A7045F.4AE56392D19F5DD02F28CECC678B9FA7.d9b85b7ae11b4ceb07c1.comodoca.com."
-  - name: "_6190d868bd83918bf30c53d52e605197.vh-video-api"
-    ttl: 300
-    record: "FA464B758B44E54A018CCA566CBD2245.7D372B1188513CB3241A15A065288D13.3a909674b845c826eccc.comodoca.com."
-  - name: "_dcba8dfd057acc58db8ca3359798884b.vh-notification-api"
-    ttl: 300
-    record: "DC915CF71D379B7D5221FBA5434B72E6.91921F8C3E97780AFFAB1079A90A6A62.fc9b0afb85bfffc53285.comodoca.com."
-  - name: "_5c7ef33bcb57182a54f2d9cc8d8ac0f8.vh-bookings-api"
-    ttl: 300
-    record: "08E60EBA79EA6B37AF69DD9DAA4AB07B.CA262AC686ACA64F449F28648260431C.9c0309e638a30971dfa0.comodoca.com."
-  - name: "_df529a77950081e3ad8c21586162089b.vh-video-web"
-    ttl: 300
-    record: "88849E439635A2EC10EC9DAA27E311FB.97641532D0C35FEA6572BE4722A6C5F0.606c90a06173d69682fe.comodoca.com."

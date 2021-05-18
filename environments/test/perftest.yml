@@ -150,3 +150,6 @@ cname:
   - name: "respond-divorce-aks"
     ttl: 3600
     record: "hmcts-perftest.azurefd.net"
+  - name: "_1b8b380f5b498882531eade6c02400cd"
+    ttl: 3600
+    record: "F9A67113DE1A34EE3AB88C964719B045.D0CB73465718E425F308BE76B7946D22.b49fdab097253cac48e3.comodoca.com."

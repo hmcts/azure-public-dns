@@ -24,10 +24,10 @@ cname:
     record: "firewall-nonprodi-palo-mcolnle.uksouth.cloudapp.azure.com"
   - name: "pcnotify"
     ttl: 300
-    record: "firewall-nonprodi-palo-pcnotify.uksouth.cloudapp.azure.com"
+    record: "firewall-nonprodi-palo-pcolnle.uksouth.cloudapp.azure.com"
   - name: "pcol"
     ttl: 300
-    record: "firewall-nonprodi-palo-pcnotify.uksouth.cloudapp.azure.com"
+    record: "firewall-nonprodi-palo-pcolnle.uksouth.cloudapp.azure.com"
   - name: "sdt"
     ttl: 300
     record: "firewall-nonprodi-palo-sdtnle.uksouth.cloudapp.azure.com"

@@ -12,25 +12,13 @@ txt:
 
 
 cname:
-  - name: "_d735b639c74a3942196ec3245845f0f0"
-    ttl: 60
-    record: "E6F58A185B2FFB34CA36E29C726CD768.51ABEB32C7BCE7B6E621866CC24FACBA.5b3cbafa73920.comodoca.com."
   - name: "www"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
     shutter: false
-  - name: "_d735b639c74a3942196ec3245845f0f0.www"
-    ttl: 3600
-    record: "E6F58A185B2FFB34CA36E29C726CD768.51ABEB32C7BCE7B6E621866CC24FACBA.5b3cbafa73920.comodoca.com."
   - name: "cdnverify.www"
     ttl: 300
     record: "cdnverify.hmcts-apply-for-probate-shutter-prod.azureedge.net"
   - name: "afdverify.www"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "_a10eb8f495e341517c5d7d849e11aa4c"
-    ttl: 300
-    record: "6FE5C000389826CC34854D26968159BD.87006C7797A54392DE28FC01B8C2B6C6.db35b1f3d006b037c6ac.comodoca.com."
-  - name: "_a10eb8f495e341517c5d7d849e11aa4c.www"
-    ttl: 300
-    record: "6FE5C000389826CC34854D26968159BD.87006C7797A54392DE28FC01B8C2B6C6.db35b1f3d006b037c6ac.comodoca.com."

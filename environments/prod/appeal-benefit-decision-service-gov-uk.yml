@@ -8,22 +8,13 @@ txt:
 
 
 cname:
-  - name: "_3a78c4f718d0ae63a4b9018f0e3d548d"
-    ttl: 3600
-    record: "61fc774aa368c0c2ae624b21b470c030.d134730d8b6fecff1bc41351fb0f1d46.5b3cb951bd6dd.comodoca.com"
   - name: "manage"
     ttl: 300
     record: "www.manage.appeal-benefit-decision.service.gov.uk"
-  - name: "_450e1bd3bc80b1f7a49de1c04ad0fce1.manage"
-    ttl: 300
-    record: "FA095616B4B8EE4A3A3DAED015E2F89D.327318523FC0C21F743601DB7D9A6A94.8e266aef0beb22dc747c.comodoca.com."
   - name: "www.manage"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
     shutter: false
-  - name: "_450e1bd3bc80b1f7a49de1c04ad0fce1.www.manage"
-    ttl: 300
-    record: "FA095616B4B8EE4A3A3DAED015E2F89D.327318523FC0C21F743601DB7D9A6A94.8e266aef0beb22dc747c.comodoca.com."
   - name: "www"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
@@ -40,18 +31,3 @@ cname:
   - name: "afdverify.www.manage"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "_cb0c2bed94126d7a978859e149667827"
-    ttl: 300
-    record: "B150AA2D48C0447905F17445F4F98DAE.AE8A0B3F2B54B5A13BF89BC567D47FA0.1685a13066f6f21b02e6.comodoca.com."
-  - name: "_6cebcabf7ea6a949096f3c20f14f7184.manage"
-    ttl: 300
-    record: "AACFCF00D49419F5E307CA123A7AE102.DF18BF647919D8578E66BE7DE88152D6.f91e24dfe80012e2a798.comodoca.com."
-  - name: "_6cebcabf7ea6a949096f3c20f14f7184.www.manage"
-    ttl: 300
-    record: "AACFCF00D49419F5E307CA123A7AE102.DF18BF647919D8578E66BE7DE88152D6.f91e24dfe80012e2a798.comodoca.com."
-  - name: "_6cebcabf7ea6a949096f3c20f14f7184.www.tyatomanage"
-    ttl: 300
-    record: "AACFCF00D49419F5E307CA123A7AE102.DF18BF647919D8578E66BE7DE88152D6.f91e24dfe80012e2a798.comodoca.com."
-  - name: "_6cebcabf7ea6a949096f3c20f14f7184.tyatomanage"
-    ttl: 300
-    record: "AACFCF00D49419F5E307CA123A7AE102.DF18BF647919D8578E66BE7DE88152D6.f91e24dfe80012e2a798.comodoca.com."
