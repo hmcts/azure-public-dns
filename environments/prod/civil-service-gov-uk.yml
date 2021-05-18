@@ -1,0 +1,19 @@
+ns:
+
+mx:
+
+A:
+
+txt:
+
+
+cname:
+  - name: "s2._domainkey.hmcts.net"
+    ttl: 300
+    record: "s2.domainkey.u21392014.wl015.sendgrid.net"
+  - name: "s1._domainkey.hmcts.net"
+    ttl: 300
+    record: "s1.domainkey.u21392014.wl015.sendgrid.net"
+  - name: "em5435.hmcts.net"
+    ttl: 300
+    record: "u21392014.wl015.sendgrid.net"
