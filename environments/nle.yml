@@ -22,6 +22,9 @@ cname:
   - name: "mcol"
     ttl: 300
     record: "firewall-nonprodi-palo-mcolnle.uksouth.cloudapp.azure.com"
+  - name: "mcnotify"
+    ttl: 300
+    record: "firewall-nonprodi-palo-mcolnle.uksouth.cloudapp.azure.com"
   - name: "pcnotify"
     ttl: 300
     record: "firewall-nonprodi-palo-pcolnle.uksouth.cloudapp.azure.com"
