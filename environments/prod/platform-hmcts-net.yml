@@ -567,6 +567,15 @@ cname:
   - name: "s2._domainkey.mail-payment"
     ttl: 300
     record: "s2.domainkey.u21484024.wl025.sendgrid.net"
+  - name: "em5088.mail-civil-prod.platform.hmcts.net"
+    ttl: 300
+    record: "u21914017.wl018.sendgrid.net"
+  - name: "s1._domainkey.mail-civil-prod.platform.hmcts.net"
+    ttl: 300
+    record: "s1.domainkey.u21914017.wl018.sendgrid.net"
+  - name: "s2._domainkey.mail-civil-prod.platform.hmcts.net"
+    ttl: 300
+    record: "s2.domainkey.u21914017.wl018.sendgrid.net"
   - name: "_6a1b0148b51aa81b6efa9ee381182f7d.ccd"
     ttl: 300
     record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
