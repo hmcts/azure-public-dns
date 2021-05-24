@@ -1,8 +1,3 @@
-resource "azurerm_dns_zone" "zone" {
-  name                = "ithc.platform.hmcts.net"
-  resource_group_name = data.azurerm_resource_group.main.name
-}
-
 data "local_file" "ithc" {
   filename = "${path.cwd}/../../environments/ithc.yml"
 }
