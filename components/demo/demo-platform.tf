@@ -1,8 +1,3 @@
-resource "azurerm_dns_zone" "demo" {
-  name                = "demo.platform.hmcts.net"
-  resource_group_name = data.azurerm_resource_group.main.name
-}
-
 data "local_file" "demo-platform-configuration" {
   filename = "${path.cwd}/../../environments/demo/demo-platform-hmcts-net.yml"
 }
@@ -10,7 +5,7 @@ data "local_file" "demo-platform-configuration" {
 module "demo-platform" {
   source              = "../../modules/azure-public-dns/"
   cname_records       = yamldecode(data.local_file.demo-platform-configuration.content).cname
-  zone_name           = azurerm_dns_zone.demo.name
+  zone_name           = "demo.platform.hmcts.net"
   resource_group_name = var.resource_group_name
   env                 = var.env
   a_recordsets        = yamldecode(data.local_file.demo-platform-configuration.content).A
