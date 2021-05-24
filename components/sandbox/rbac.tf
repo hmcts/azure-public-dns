@@ -1,0 +1,5 @@
+resource "azurerm_role_assignment" "dnszonecontributer" {
+  principal_id         = data.azuread_group.dnszone_contributor_group.id
+  role_definition_name = "DNS Zone Contributor"
+  scope                = azurerm_dns_zone.zone.id
+}
