@@ -112,9 +112,15 @@ cname:
   - name: "afdverify.moneyclaims"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "moneyclaims"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.moneyclaims-legal"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "moneyclaims-legal"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.www-ccd"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
@@ -124,6 +130,9 @@ cname:
   - name: "afdverify.return-case-doc-ccd"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "return-case-doc-ccd"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.pcq"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
@@ -139,21 +148,39 @@ cname:
   - name: "afdverify.fact"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "fact"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.fact-admin"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "fact-admin"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.nfdiv"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "nfdiv"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.nfdiv-apply-for-divorce"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "nfdiv-apply-for-divorce"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.nfdiv-end-civil-partnership"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "nfdiv-end-civil-partnership"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.wa-proto-frontend"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "wa-proto-frontend"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.immigration-appeal"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
@@ -175,12 +202,18 @@ cname:
   - name: "afdverify.bar"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "bar"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.paybubble"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
   - name: "afdverify.fees-register"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "fees-register"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.idam-web-admin"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
