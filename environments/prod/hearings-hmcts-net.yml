@@ -327,5 +327,17 @@ srv:
       - 10,10,5061,px01.preprod.hearings.hmcts.net
       - 10,10,5061,px02.preprod.hearings.hmcts.net
       - 10,10,5061,px03.preprod.hearings.hmcts.net
+  - name: _sip._tcp.test
+    ttl: 86400
+    record:
+      - 10,10,5060,px01.test.hearings.hmcts.net
+      - 10,10,5060,px02.test.hearings.hmcts.net
+      - 10,10,5060,px03.test.hearings.hmcts.net
+  - name: _sips._tcp.test
+    ttl: 86400
+    record:
+      - 10,10,5061,px01.test.hearings.hmcts.net
+      - 10,10,5061,px02.test.hearings.hmcts.net
+      - 10,10,5061,px03.test.hearings.hmcts.net
   
 cname: []
