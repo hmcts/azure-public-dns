@@ -421,7 +421,7 @@ cname:
   - name: "return-case-doc.ccd"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: falsse
+    shutter: true
   - name: "immigration-appeal"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
