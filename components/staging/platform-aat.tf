@@ -12,5 +12,5 @@ module "public-dns" {
   txt_recordsets      = yamldecode(data.local_file.aat.content).txt
   zone_name           = "aat.platform.hmcts.net"
   resource_group_name = data.azurerm_resource_group.main.name
-  env                 = "aat"
+  env                 = "stg"
 }

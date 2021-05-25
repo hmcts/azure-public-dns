@@ -12,5 +12,5 @@ module "public-dns" {
   txt_recordsets      = yamldecode(data.local_file.perftest.content).txt
   zone_name           = "perftest.platform.hmcts.net"
   resource_group_name = data.azurerm_resource_group.main.name
-  env                 = "perftest"
+  env                 = "test"
 }
