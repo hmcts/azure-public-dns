@@ -7,7 +7,7 @@ module "public-dns" {
   cname_records       = yamldecode(data.local_file.preview.content).cname
   zone_name           = "preview.platform.hmcts.net"
   resource_group_name = data.azurerm_resource_group.main.name
-  env                 = "preview"
+  env                 = "dev"
   a_recordsets        = yamldecode(data.local_file.preview.content).A
   mx_recordsets       = yamldecode(data.local_file.preview.content).mx
   ns_recordsets       = yamldecode(data.local_file.preview.content).ns
