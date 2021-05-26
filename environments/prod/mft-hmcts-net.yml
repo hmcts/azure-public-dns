@@ -36,3 +36,6 @@ cname:
   - name: "www.erupload.ext"
     ttl: 300
     record: "hmcts-heritage-prod.azurefd.net"
+  - name: "baisexternal.ext"
+    ttl: 300
+    record: "hmcts-heritage-prod.azurefd.net"
