@@ -17,7 +17,7 @@ cname:
   - name: "www"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "admin"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
