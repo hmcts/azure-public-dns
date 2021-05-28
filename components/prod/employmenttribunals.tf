@@ -1,4 +1,4 @@
-data "local_file" employmenttribunals-config" {
+data "local_file" "employmenttribunals-config" {
   filename = "${path.cwd}/../../environments/prod/employmenttribunals-justice-gov-uk.yml"
 }
 
