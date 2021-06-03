@@ -288,8 +288,6 @@ srv:
   - name: _sip._tcp
     ttl: 86400
     record:
-      - 10,10,5060,ext-node02.hearings.hmcts.net
-      - 10,10,5060,ext-node01.hearings.hmcts.net
       - 10,10,5060,px01.hearings.hmcts.net
       - 10,10,5060,px02.hearings.hmcts.net
       - 10,10,5060,px03.hearings.hmcts.net
@@ -300,8 +298,6 @@ srv:
   - name: _sips._tcp
     ttl: 86400
     record:
-      - 10,10,5061,ext-node02.hearings.hmcts.net
-      - 10,10,5061,ext-node01.hearings.hmcts.net
       - 10,10,5061,px01.hearings.hmcts.net
       - 10,10,5061,px02.hearings.hmcts.net
       - 10,10,5061,px03.hearings.hmcts.net
