@@ -44,4 +44,7 @@ txt:
     record:
       - "v=DMARC1; p=none"
 
-cname: []
+cname:
+  - name: "_93C2F3E02CA882E3F4FD39F6EFA6F73F.dev-in"
+    ttl: 300
+    record: "B60805165EF963DEA79E46FEE7FD460B.3711E2BDE60B142259B1F76AA2FDFB27.a9bd402e9971cc6f171e.comodoca.com."
