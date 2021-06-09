@@ -13,10 +13,6 @@ A:
     ttl: 3600
     record:
       - "51.104.202.183"
-  - name: "paybubble"
-    ttl: 60
-    record:
-      - "51.143.182.143"
 
 txt:
   - name: "contact.justice"
@@ -141,6 +137,9 @@ cname:
   - name: "afdverify.paybubble"
     ttl: 3600
     record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "paybubble"
+    ttl: 3600
+    record: "hmcts-ithc.azurefd.net"
   - name: "fact"
     ttl: 3600
     record: "hmcts-ithc.azurefd.net"
