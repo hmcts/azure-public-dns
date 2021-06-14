@@ -48,7 +48,7 @@ txt:
     record:
       - "v=DMARC1; p=none"
   - name: "@"
-    ttl: 3600
+    ttl: 300
     record:
       - "bd8chq77rjb8j6q0qbc88yc4dnrs6179"
 
