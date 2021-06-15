@@ -50,7 +50,7 @@ txt:
   - name: "@"
     ttl: 300
     record:
-      - "bd8chq77rjb8j6q0qbc88yc4dnrs6179"
+      - "c86bv4dfxsj658s998cb55zz6qcvlwy0"
 
 # In order to swap the DNS for shutterring an application enable the shutter parameter for the corresponding application.
 # e.g. This will shutter the plum app in sbox environment
