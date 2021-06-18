@@ -47,7 +47,7 @@ txt:
     ttl: 3600
     record:
       - "v=DMARC1; p=none"
-  - name: "@.hmi-apim"
+  - name: "*.hmi-apim"
     ttl: 300
     record:
       - "jbssh25kn945y5zdd51p00shs3kfjytg"
