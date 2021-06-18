@@ -6,19 +6,19 @@ A:
   - name: "sdt-uks"
     ttl: 60
     record:
-      - "20.49.164.175"
+      - "20.90.234.106"
   - name: "sdt-ukw"
     ttl: 60
     record:
-      - "51.104.34.126"
+      - "51.141.85.60"
   - name: "sdtcomm-uks"
     ttl: 60
     record:
-      - "52.151.120.164"
+      - "20.90.234.105"
   - name: "sdtcomm-ukw"
     ttl: 60
     record:
-      - "20.68.122.135"
+      - "51.141.85.61"
 
 txt: []
 
