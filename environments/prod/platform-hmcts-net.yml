@@ -664,3 +664,12 @@ cname:
   - name: "s2._domainkey.mail-rd-nonprod.platform.hmcts.net"
     ttl: 300
     record: "s2.domainkey.u22410865.wl116.sendgrid.net"
+  - name: "em6206.mail-rd.platform.hmcts.net"
+    ttl: 300
+    record: "u22410882.wl133.sendgrid.net"
+  - name: "s1._domainkey.mail-rd.platform.hmcts.net"
+    ttl: 300
+    record: "s1.domainkey.u22410882.wl133.sendgrid.net"
+  - name: "s2._domainkey.mail-rd.platform.hmcts.net"
+    ttl: 300
+    record: "s2.domainkey.u22410882.wl133.sendgrid.net"
