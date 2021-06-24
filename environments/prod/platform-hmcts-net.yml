@@ -655,7 +655,7 @@ cname:
   - name: "_5ecfb849dc48eea11d818fd219b68bb1.www.manage-case"
     ttl: 10800
     record: "2CA16B148A8386A15DD52D1B6FF6ED42.A81C8A2EA633B271718353B91541677A.907de5e1e92c840c8a42.comodoca.com."
-  - name: "em3257.mail-rd-nonprod"
+  - name: "em5255.mail-rd-nonprod"
     ttl: 300
     record: "u22410865.wl116.sendgrid.net"
   - name: "s1._domainkey.mail-rd-nonprod"
@@ -664,7 +664,7 @@ cname:
   - name: "s2._domainkey.mail-rd-nonprod"
     ttl: 300
     record: "s2.domainkey.u22410865.wl116.sendgrid.net"
-  - name: "em6035.mail-rd"
+  - name: "em3038.mail-rd"
     ttl: 300
     record: "u22410882.wl133.sendgrid.net"
   - name: "s1._domainkey.mail-rd"
