@@ -19,6 +19,10 @@ A:
     ttl: 60
     record:
       - "51.141.85.61"
+  - name: "testclaim-pcol"
+    ttl: 300
+    record:
+      - "20.50.97.246"
 
 txt: []
 
