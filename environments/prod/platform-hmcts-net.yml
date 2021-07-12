@@ -183,6 +183,10 @@ A:
     ttl: 60
     record: 
       - "51.104.212.71"
+  - name: "sds-build"
+    ttl: 60
+    record:
+      - "51.104.210.52"
   - name: "sftp"
     ttl: 300
     record: 
