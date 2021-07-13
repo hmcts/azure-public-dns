@@ -2,7 +2,7 @@ data "local_file" "appeal-immigration-asylum-decision-config" {
   filename = "${path.cwd}/../../environments/prod/appeal-immigration-asylum-decision-service-gov-uk.yml"
 }
 
-module "apply-divorce" {
+module "appeal-immigration" {
   source              = "../../modules/azure-public-dns/"
   cname_records       = yamldecode(data.local_file.appeal-immigration-asylum-decision-config.content).cname
   txt_recordsets      = yamldecode(data.local_file.appeal-immigration-asylum-decision-config.content).txt
