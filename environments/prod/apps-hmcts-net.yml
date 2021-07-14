@@ -21,12 +21,6 @@ cname:
   - name: "pcol"
     ttl: 300
     record: "hmcts-live-ext.azurefd.net"
-  - name: "sdt"
-    ttl: 300
-    record: "sdt-uks.apps.hmcts.net"
-  - name: "sdtcomm"
-    ttl: 300
-    record: "sdtcomm-uks.apps.hmcts.net"
   - name: "testclaim-pcol"
     ttl: 300
     record: "hmcts-live-ext.azurefd.net"
