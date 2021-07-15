@@ -9,21 +9,14 @@ txt:
 
 
 cname:
-  - name: "*"
+  - name: "www"
     ttl: 60
-    record: "www.appeal-immigration-asylum-decision.service.gov.uk"
-    shutter: true
-  - name: "appeal-immigration-asylum-decision"
-    ttl: 300
-    record: "www.appeal-immigration-asylum-decision.apply-divorce.service.gov.uk"
-  - name: "www.appeal-immigration-asylum-decision"
-    ttl: 300
     record: "hmcts-prod.azurefd.net"
     shutter: true
-  - name: "afdverify.www.appeal-immigration-asylum-decision"
-    ttl: 3600
+  - name: "cdnverify.www"
+    ttl: 300
+    record: "cdnverify.hmcts-prod.azurefd.net"
+  - name: "afdverify.www"
+    ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.www.appeal-immigration-asylum-decision"
-    ttl: 3600
-    record: "cdnverify.hmcts-appeal-immigration-asylum-decision-shutter-prod.azureedge.net"
 
