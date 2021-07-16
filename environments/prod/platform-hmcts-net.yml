@@ -223,6 +223,18 @@ A:
     ttl: 60
     record:
       - "51.141.228.194"
+  - name: "caps"
+    ttl: 60
+    record:
+      - "10.24.240.6"
+  - name: "pcol"
+    ttl: 60
+    record:
+      - "10.24.248.134"
+  - name: "pcnotify"
+    ttl: 60
+    record:
+      - "10.24.248.134"
 
 txt:
   - name: "@"
