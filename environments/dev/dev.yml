@@ -39,4 +39,9 @@ cname:
   - name: "afdverify.toffee"
     ttl: 3600
     record: "afdverify.sdshmcts-dev.azurefd.net"
-
+  - name: "jd-dev"
+    record: "sdshmcts-dev.azurefd.net"
+    ttl: 300
+  - name: "jd-public"
+    record: "sdshmcts-dev.azurefd.net"
+    ttl: 300
