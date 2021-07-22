@@ -235,6 +235,10 @@ A:
     ttl: 60
     record:
       - "20.90.136.82"
+  - name: "vpn-ext"
+    ttl: 360
+    record:
+      - "51.141.230.130"
 
 txt:
   - name: "@"
