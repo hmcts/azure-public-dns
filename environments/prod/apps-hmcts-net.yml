@@ -24,3 +24,7 @@ cname:
   - name: "testclaim-pcol"
     ttl: 300
     record: "hmcts-live-ext.azurefd.net"
+  - name: "caps"
+    ttl: 300
+    record: "hmcts-live-int.azurefd.net"
+

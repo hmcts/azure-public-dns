@@ -223,6 +223,22 @@ A:
     ttl: 60
     record:
       - "51.141.228.194"
+  - name: "caps"
+    ttl: 60
+    record:
+      - "20.90.136.92"
+  - name: "pcol"
+    ttl: 60
+    record:
+      - "20.90.136.82"
+  - name: "pcnotify"
+    ttl: 60
+    record:
+      - "20.90.136.82"
+  - name: "vpn-ext"
+    ttl: 360
+    record:
+      - "51.141.230.130"
 
 txt:
   - name: "@"
@@ -677,3 +693,21 @@ cname:
   - name: "s2._domainkey.mail-rd"
     ttl: 300
     record: "s2.domainkey.u22410882.wl133.sendgrid.net"
+  - name: "em8468.mail-am-nonprod"
+    ttl: 300
+    record: "u22723454.wl205.sendgrid.net"
+  - name: "s1._domainkey.mail-am-nonprod"
+    ttl: 300
+    record: "s1.domainkey.u22723454.wl205.sendgrid.net"
+  - name: "s2._domainkey.mail-am-nonprod"
+    ttl: 300
+    record: "s2.domainkey.u22723454.wl205.sendgrid.net"
+  - name: "em2631.mail-am"
+    ttl: 300
+    record: "u22723469.wl220.sendgrid.net"
+  - name: "s1._domainkey.mail-am"
+    ttl: 300
+    record: "s1.domainkey.u22723469.wl220.sendgrid.net"
+  - name: "s2._domainkey.mail-am"
+    ttl: 300
+    record: "s2.domainkey.u22723469.wl220.sendgrid.net"
