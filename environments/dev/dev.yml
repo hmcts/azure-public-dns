@@ -23,4 +23,18 @@ cname:
   - name: "afdverify.toffee"
     ttl: 3600
     record: "afdverify.sdshmcts-dev.azurefd.net"
+  - name: "jdbureau"
+    ttl: 300
+    record: "sdshmcts-dev.azurefd.net"
+    shutter: false
+  - name: "afdverify.jdbureau"
+    ttl: 3600
+    record: "afdverify.sdshmcts-dev.azurefd.net"
+  - name: "jdfrontend"
+    ttl: 300
+    record: "sdshmcts-dev.azurefd.net"
+    shutter: false
+  - name: "afdverify.jdfrontend"
+    ttl: 3600
+    record: "afdverify.sdshmcts-dev.azurefd.net"
 
