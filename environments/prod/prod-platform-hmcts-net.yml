@@ -8,9 +8,6 @@ txt:
 
 
 cname:
-  - name: "_19343dab32040a0d2cd6a9a0197d763d"
-    ttl: 900
-    record: "A130E3C47445C49F6AC9BCB9F96E439B.685427F090581E1932805099BF424378.B55I55u5hZ5oXAyMQ5CH.comodoca.com"
   - name: "afdverify.hmi-apim"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"

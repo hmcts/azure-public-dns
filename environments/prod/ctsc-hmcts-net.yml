@@ -11,168 +11,25 @@ A:
     ttl: 300
     record: 
       - "81.144.180.165"
+  - name: "webchat.training"
+    ttl: 300
+    record: 
+      - "81.131.15.82"
+  - name: "webchat-client.training"
+    ttl: 300
+    record: 
+      - "81.131.15.82"
+  - name: "webchat.pp"
+    ttl: 300
+    record: 
+      - "81.131.15.81"
+  - name: "webchat-client.pp"
+    ttl: 300
+    record: 
+      - "81.131.15.81"
 
 
 txt:
 
 
-cname:
-  - name: "_5e405d41fa27b56864616edfd5f1daab.preprod.glb"
-    ttl: 300
-    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
-  - name: "_5e405d41fa27b56864616edfd5f1daab.aep.preprod.glb"
-    ttl: 300
-    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
-  - name: "_5e405d41fa27b56864616edfd5f1daab.em.preprod.glb"
-    ttl: 300
-    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
-  - name: "_5e405d41fa27b56864616edfd5f1daab.wfo.preprod.glb"
-    ttl: 300
-    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
-  - name: "_5e405d41fa27b56864616edfd5f1daab.iad.preprod.glb"
-    ttl: 300
-    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
-  - name: "_5e405d41fa27b56864616edfd5f1daab.api-gw.preprod.glb"
-    ttl: 300
-    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
-  - name: "_5e405d41fa27b56864616edfd5f1daab.widg.preprod.glb"
-    ttl: 300
-    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
-  - name: "_5e405d41fa27b56864616edfd5f1daab.ctl-mgr.preprod.glb"
-    ttl: 300
-    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
-  - name: "_5e405d41fa27b56864616edfd5f1daab.ana.preprod.glb"
-    ttl: 300
-    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
-  - name: "_5e405d41fa27b56864616edfd5f1daab.cba.preprod.glb"
-    ttl: 300
-    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
-  - name: "_5e405d41fa27b56864616edfd5f1daab.hmcts-aads.preprod.glb"
-    ttl: 300
-    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
-  - name: "_5e405d41fa27b56864616edfd5f1daab.hmcts-ixmeet.preprod.glb"
-    ttl: 300
-    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
-  - name: "_5e405d41fa27b56864616edfd5f1daab.hmcts-us.preprod.glb"
-    ttl: 300
-    record: "38B2A9927DF7CB92C2B99B866CD736FE.3858BC88F066ABA4C6847967B1B6AF6D.71f7e51efde5fe99cc2d.comodoca.com."
-  - name: "_379e6dd67d0f5abf8962ced9bf0fbf33.avaya.glb"
-    ttl: 300
-    record: "B5A82261B4D856188321E1F4C2D2AD89.214EEB88F3DBDABEBC900F424F54FB2E.35ff606e4148c4c08b12.comodoca.com."
-  - name: "_379e6dd67d0f5abf8962ced9bf0fbf33.aep.glb"
-    ttl: 300
-    record: "B5A82261B4D856188321E1F4C2D2AD89.214EEB88F3DBDABEBC900F424F54FB2E.35ff606e4148c4c08b12.comodoca.com."
-  - name: "_379e6dd67d0f5abf8962ced9bf0fbf33.aicont-v.glb"
-    ttl: 300
-    record: "B5A82261B4D856188321E1F4C2D2AD89.214EEB88F3DBDABEBC900F424F54FB2E.35ff606e4148c4c08b12.comodoca.com."
-  - name: "_379e6dd67d0f5abf8962ced9bf0fbf33.aicont-b.glb"
-    ttl: 300
-    record: "B5A82261B4D856188321E1F4C2D2AD89.214EEB88F3DBDABEBC900F424F54FB2E.35ff606e4148c4c08b12.comodoca.com."
-  - name: "_379e6dd67d0f5abf8962ced9bf0fbf33.api-gw.glb"
-    ttl: 300
-    record: "B5A82261B4D856188321E1F4C2D2AD89.214EEB88F3DBDABEBC900F424F54FB2E.35ff606e4148c4c08b12.comodoca.com."
-  - name: "_379e6dd67d0f5abf8962ced9bf0fbf33.widg.glb"
-    ttl: 300
-    record: "B5A82261B4D856188321E1F4C2D2AD89.214EEB88F3DBDABEBC900F424F54FB2E.35ff606e4148c4c08b12.comodoca.com."
-  - name: "_379e6dd67d0f5abf8962ced9bf0fbf33.ctl-mgr.glb"
-    ttl: 300
-    record: "B5A82261B4D856188321E1F4C2D2AD89.214EEB88F3DBDABEBC900F424F54FB2E.35ff606e4148c4c08b12.comodoca.com."
-  - name: "_379e6dd67d0f5abf8962ced9bf0fbf33.cba.glb"
-    ttl: 300
-    record: "B5A82261B4D856188321E1F4C2D2AD89.214EEB88F3DBDABEBC900F424F54FB2E.35ff606e4148c4c08b12.comodoca.com."
-  - name: "_379e6dd67d0f5abf8962ced9bf0fbf33.hmcts-aads.glb"
-    ttl: 300
-    record: "B5A82261B4D856188321E1F4C2D2AD89.214EEB88F3DBDABEBC900F424F54FB2E.35ff606e4148c4c08b12.comodoca.com."
-  - name: "_379e6dd67d0f5abf8962ced9bf0fbf33.hmcts-ixmeet.glb"
-    ttl: 300
-    record: "B5A82261B4D856188321E1F4C2D2AD89.214EEB88F3DBDABEBC900F424F54FB2E.35ff606e4148c4c08b12.comodoca.com."
-  - name: "_379e6dd67d0f5abf8962ced9bf0fbf33.hmcts-us.glb"
-    ttl: 300
-    record: "B5A82261B4D856188321E1F4C2D2AD89.214EEB88F3DBDABEBC900F424F54FB2E.35ff606e4148c4c08b12.comodoca.com."
-  - name: "_4e0e5c209b2636333b1e9f036fd587fc.verint.glb"
-    ttl: 300
-    record: "8914C3769F5FEE7EAB28A41C314943D5.D31DBBFF753BD6C5BFE4DE8D1E477402.5a7535cf531bc52d3200.comodoca.com."
-  - name: "_4e0e5c209b2636333b1e9f036fd587fc.em.glb"
-    ttl: 300
-    record: "8914C3769F5FEE7EAB28A41C314943D5.D31DBBFF753BD6C5BFE4DE8D1E477402.5a7535cf531bc52d3200.comodoca.com."
-  - name: "_4e0e5c209b2636333b1e9f036fd587fc.emint.glb"
-    ttl: 300
-    record: "8914C3769F5FEE7EAB28A41C314943D5.D31DBBFF753BD6C5BFE4DE8D1E477402.5a7535cf531bc52d3200.comodoca.com."
-  - name: "_4e0e5c209b2636333b1e9f036fd587fc.emsolr.glb"
-    ttl: 300
-    record: "8914C3769F5FEE7EAB28A41C314943D5.D31DBBFF753BD6C5BFE4DE8D1E477402.5a7535cf531bc52d3200.comodoca.com."
-  - name: "_4e0e5c209b2636333b1e9f036fd587fc.wfo.glb"
-    ttl: 300
-    record: "8914C3769F5FEE7EAB28A41C314943D5.D31DBBFF753BD6C5BFE4DE8D1E477402.5a7535cf531bc52d3200.comodoca.com."
-  - name: "_3cd9213197344aac2d90b478da0b9797.oceana.glb"
-    ttl: 300
-    record: "ECA5619AB42D795F47570DD7698142F5.3A1D71D1B23F010B8E3B137DDA4346EF.3a2c1c2b2f19c0d47bf7.comodoca.com."
-  - name: "_3cd9213197344aac2d90b478da0b9797.iad-v.glb"
-    ttl: 300
-    record: "ECA5619AB42D795F47570DD7698142F5.3A1D71D1B23F010B8E3B137DDA4346EF.3a2c1c2b2f19c0d47bf7.comodoca.com."
-  - name: "_3cd9213197344aac2d90b478da0b9797.iad-b.glb"
-    ttl: 300
-    record: "ECA5619AB42D795F47570DD7698142F5.3A1D71D1B23F010B8E3B137DDA4346EF.3a2c1c2b2f19c0d47bf7.comodoca.com."
-  - name: "_ebcef0daaeaaf02df585f801856639e7.analytics.glb"
-    ttl: 300
-    record: "FB5CC1A3F2381A6C06D4C0883B3567BA.5BF74863074800E88C479B93E19C45D1.8f7f2375ba3e2ee3adf6.comodoca.com."
-  - name: "_ebcef0daaeaaf02df585f801856639e7.aicont-v.glb"
-    ttl: 300
-    record: "FB5CC1A3F2381A6C06D4C0883B3567BA.5BF74863074800E88C479B93E19C45D1.8f7f2375ba3e2ee3adf6.comodoca.com."
-  - name: "_ebcef0daaeaaf02df585f801856639e7.aicont-b.glb"
-    ttl: 300
-    record: "FB5CC1A3F2381A6C06D4C0883B3567BA.5BF74863074800E88C479B93E19C45D1.8f7f2375ba3e2ee3adf6.comodoca.com."
-  - name: "_ebcef0daaeaaf02df585f801856639e7.ana.glb"
-    ttl: 300
-    record: "FB5CC1A3F2381A6C06D4C0883B3567BA.5BF74863074800E88C479B93E19C45D1.8f7f2375ba3e2ee3adf6.comodoca.com."
-  - name: "_a459c1c501b9faed1a88be73144a4b12.webchat-client"
-    ttl: 300
-    record: "202FD864FC0BA0A97991DFFCC1C4EC37.1A37741866AC30884BD5893471BF3EBB.ec5ec3ab3ae96eb7f598.comodoca.com."
-  - name: "_6255444fc555396b0596d2e8289a583f.webchat"
-    ttl: 300
-    record: "9E052A38C2BF833896985D884EB2214A.FE54E0065ECBBF6BCA2070B754ACBC9D.e22d5796509ba2c7f822.comodoca.com."
-  - name: "_df3d459fe740ff7db27dc632a3ea5969.iad.glb"
-    ttl: 300
-    record: "2C93940E7E3FDC7EA975335A980BB55A.82CC2772C3DF0844C6A3858B51082FE8.67455a0673f5cf26deae.comodoca.com."
-  - name: "_df3d459fe740ff7db27dc632a3ea5969.iad-v.glb"
-    ttl: 300
-    record: "2C93940E7E3FDC7EA975335A980BB55A.82CC2772C3DF0844C6A3858B51082FE8.67455a0673f5cf26deae.comodoca.com."
-  - name: "_df3d459fe740ff7db27dc632a3ea5969.iad-b.glb"
-    ttl: 300
-    record: "2C93940E7E3FDC7EA975335A980BB55A.82CC2772C3DF0844C6A3858B51082FE8.67455a0673f5cf26deae.comodoca.com."
-  - name: "_6ea59b134f6ea293deda78266224c6b8.avaya.glb"
-    ttl: 300
-    record: "5612CA4E037695ED02E504F7E3B53899.9F7F5015F24B2A73B78FB8CBD9FB27D7.253614bbac999b38b5b6.comodoca.com."
-  - name: "_6ea59b134f6ea293deda78266224c6b8.aep-v.glb"
-    ttl: 300
-    record: "5612CA4E037695ED02E504F7E3B53899.9F7F5015F24B2A73B78FB8CBD9FB27D7.253614bbac999b38b5b6.comodoca.com."
-  - name: "_6ea59b134f6ea293deda78266224c6b8.aep-b.glb"
-    ttl: 300
-    record: "5612CA4E037695ED02E504F7E3B53899.9F7F5015F24B2A73B78FB8CBD9FB27D7.253614bbac999b38b5b6.comodoca.com."
-  - name: "_6ea59b134f6ea293deda78266224c6b8.aicont-v.glb"
-    ttl: 300
-    record: "5612CA4E037695ED02E504F7E3B53899.9F7F5015F24B2A73B78FB8CBD9FB27D7.253614bbac999b38b5b6.comodoca.com."
-  - name: "_6ea59b134f6ea293deda78266224c6b8.aicont-b.glb"
-    ttl: 300
-    record: "5612CA4E037695ED02E504F7E3B53899.9F7F5015F24B2A73B78FB8CBD9FB27D7.253614bbac999b38b5b6.comodoca.com."
-  - name: "_6ea59b134f6ea293deda78266224c6b8.api-gw.glb"
-    ttl: 300
-    record: "5612CA4E037695ED02E504F7E3B53899.9F7F5015F24B2A73B78FB8CBD9FB27D7.253614bbac999b38b5b6.comodoca.com."
-  - name: "_6ea59b134f6ea293deda78266224c6b8.widg.glb"
-    ttl: 300
-    record: "5612CA4E037695ED02E504F7E3B53899.9F7F5015F24B2A73B78FB8CBD9FB27D7.253614bbac999b38b5b6.comodoca.com."
-  - name: "_6ea59b134f6ea293deda78266224c6b8.ctl-mgr.glb"
-    ttl: 300
-    record: "5612CA4E037695ED02E504F7E3B53899.9F7F5015F24B2A73B78FB8CBD9FB27D7.253614bbac999b38b5b6.comodoca.com."
-  - name: "_6ea59b134f6ea293deda78266224c6b8.cba.glb"
-    ttl: 300
-    record: "5612CA4E037695ED02E504F7E3B53899.9F7F5015F24B2A73B78FB8CBD9FB27D7.253614bbac999b38b5b6.comodoca.com."
-  - name: "_6ea59b134f6ea293deda78266224c6b8.hmcts-aads.glb"
-    ttl: 300
-    record: "5612CA4E037695ED02E504F7E3B53899.9F7F5015F24B2A73B78FB8CBD9FB27D7.253614bbac999b38b5b6.comodoca.com."
-  - name: "_6ea59b134f6ea293deda78266224c6b8.hmcts-ixmeet.glb"
-    ttl: 300
-    record: "5612CA4E037695ED02E504F7E3B53899.9F7F5015F24B2A73B78FB8CBD9FB27D7.253614bbac999b38b5b6.comodoca.com."
-  - name: "_6ea59b134f6ea293deda78266224c6b8.hmcts-us.glb"
-    ttl: 300
-    record: "5612CA4E037695ED02E504F7E3B53899.9F7F5015F24B2A73B78FB8CBD9FB27D7.253614bbac999b38b5b6.comodoca.com."
+cname: []

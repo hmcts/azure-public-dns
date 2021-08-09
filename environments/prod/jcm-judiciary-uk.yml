@@ -13,18 +13,15 @@ txt:
 
 
 cname:
-  - name: "_b080a2ca741a04bdaac5d34276eae7a2"
-    ttl: 3600
-    record: "AE6FCAA905F9A29A8541CF733D443158.CB61D1FA73DC837649034C8EA55ABF44.e35ea8785afb1ee2643c.comodoca.com."
   - name: "www"
     ttl: 300
     record: "mojmaintenance.azurewebsites.net"
   - name: "cdnverify"
     ttl: 3600
     record: "cdnverify.hmcts-jcm-shutter-prod.azureedge.net"
-  - name: "_5db7d528bfeadbde0b8dfd84f4283194"
-    ttl: 300
-    record: "DE54C87654E25C2667E96297ED00EFB2.A78B01DF342FE16F3EE2939AE1DE5AE6.ca3445d71de0ef386033.comodoca.com."
-  - name: "_5db7d528bfeadbde0b8dfd84f4283194.www"
-    ttl: 300
-    record: "DE54C87654E25C2667E96297ED00EFB2.A78B01DF342FE16F3EE2939AE1DE5AE6.ca3445d71de0ef386033.comodoca.com."
+  - name: "_5ecfb849dc48eea11d818fd219b68bb1"
+    ttl: 3600
+    record: "2CA16B148A8386A15DD52D1B6FF6ED42.A81C8A2EA633B271718353B91541677A.907de5e1e92c840c8a42.comodoca.com."
+  - name: "_5ecfb849dc48eea11d818fd219b68bb1.www"
+    ttl: 3600
+    record: "2CA16B148A8386A15DD52D1B6FF6ED42.A81C8A2EA633B271718353B91541677A.907de5e1e92c840c8a42.comodoca.com."

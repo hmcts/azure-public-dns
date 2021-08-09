@@ -7,9 +7,34 @@ A:
     ttl: 300
     record: 
       - "20.49.140.58"
+  - name: "testclaim-pcol"
+    ttl: 300
+    record:
+      - "20.50.97.246"
 
 txt: []
 
 srv: []
 
-cname: []
+cname:
+  - name: "caps"
+    ttl: 300
+    record: "firewall-nonprodi-palo-capsnle.uksouth.cloudapp.azure.com"
+  - name: "cman"
+    ttl: 300
+    record: "firewall-nonprodi-palo-cmannle.uksouth.cloudapp.azure.com"
+  - name: "mcol"
+    ttl: 300
+    record: "firewall-nonprodi-palo-mcolnle.uksouth.cloudapp.azure.com"
+  - name: "mcnotify"
+    ttl: 300
+    record: "firewall-nonprodi-palo-mcolnle.uksouth.cloudapp.azure.com"
+  - name: "pcnotify"
+    ttl: 300
+    record: "firewall-nonprodi-palo-pcolnle.uksouth.cloudapp.azure.com"
+  - name: "pcol"
+    ttl: 300
+    record: "firewall-nonprodi-palo-pcolnle.uksouth.cloudapp.azure.com"
+  - name: "sdt"
+    ttl: 300
+    record: "firewall-nonprodi-palo-sdtnle.uksouth.cloudapp.azure.com"

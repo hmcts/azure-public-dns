@@ -104,6 +104,13 @@ ns:
       - "ns2-07.azure-dns.net."
       - "ns3-07.azure-dns.org."
       - "ns4-07.azure-dns.info."
+  - name: "mailrelay"
+    ttl: 900
+    record:
+      - "ns1-03.azure-dns.com"
+      - "ns2-03.azure-dns.net"
+      - "ns3-03.azure-dns.org"
+      - "ns4-03.azure-dns.info"
 
 mx:
 
@@ -172,6 +179,14 @@ A:
     ttl: 60
     record: 
       - "40.120.54.64"
+  - name: "sds-sandbox-build"
+    ttl: 60
+    record: 
+      - "51.104.212.71"
+  - name: "sds-build"
+    ttl: 60
+    record:
+      - "51.104.210.52"
   - name: "sftp"
     ttl: 300
     record: 
@@ -208,14 +223,35 @@ A:
     ttl: 60
     record:
       - "51.141.228.194"
+  - name: "caps"
+    ttl: 60
+    record:
+      - "20.90.136.92"
+  - name: "pcol"
+    ttl: 60
+    record:
+      - "20.90.136.82"
+  - name: "pcnotify"
+    ttl: 60
+    record:
+      - "20.90.136.82"
+  - name: "vpn-ext"
+    ttl: 360
+    record:
+      - "51.141.230.130"
 
 txt:
-
+  - name: "@"
+    ttl: 3600
+    record:
+      - "google-site-verification=84FQ9BSdIuIv3OWiwB-yuHNUkQtuZ9t3JLmCc32O08Q"
+      - "v=spf1 ip4:20.50.108.242 ip4:20.50.109.148 ip4:51.11.124.205 ip4:51.11.124.216 include:spf.protection.outlook.com ~all"
+  - name: "_dmarc"
+    ttl: 3600
+    record:
+      - "v=DMARC1; p=none"
 
 cname:
-  - name: "_9c4d3a31c7755933c820c13ece0caaca"
-    ttl: 900
-    record: "5FB0CEFAAA0AA8102FDD0A6804FB846B.516553A1B23D93381A318F4E0A1B67C6.7fea1fb9e9b410a5a0c5.comodoca.com."
   - name: "awverify.probate.aat"
     ttl: 1
     record: "awverify.probate-frontend-aat-shutter.azurewebsites.net"
@@ -229,15 +265,9 @@ cname:
   - name: "cdnverify.administer-orgs"
     ttl: 3600
     record: "cdnverify.hmcts-administer-orgs-shutter-prod.azureedge.net"
-  - name: "_32b104df3aace6a2d9e9ff6637a81c2f.administer-orgs"
-    ttl: 300
-    record: "A55BDFDFA635B5D69F9770A7D344E4BF.E78E96400CB03D8CA3945CB7A0931989.d5e95a3c9f187c3d6835.comodoca.com."
   - name: "apply-divorce"
     ttl: 3600
     record: "www.apply-divorce.platform.hmcts.net"
-  - name: "tmwww.apply-divorce"
-    ttl: 60
-    record: "divorce-palo-prod.platform.hmcts.net"
   - name: "www.apply-divorce"
     ttl: 60
     record: "www.apply-divorce.service.gov.uk"
@@ -248,21 +278,12 @@ cname:
     ttl: 60
     record: "hmcts-prod.azurefd.net"
     shutter: false
-  - name: "tmgateway.ccd"
-    ttl: 60
-    record: "5a052b01-331d-4789-9c63-8ccea30883da.cloudapp.net"
-  - name: "tmwww.ccd"
-    ttl: 60
-    record: "5a052b01-331d-4789-9c63-8ccea30883da.cloudapp.net"
   - name: "www.ccd"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
     shutter: false   
   - name: "apply-divorce.demo"
     ttl: 600
-    record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
-  - name: "tmwww.apply-divorce.demo"
-    ttl: 3600
     record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
   - name: "www.apply-divorce.demo"
     ttl: 60
@@ -273,28 +294,16 @@ cname:
   - name: "www.ccd.demo"
     ttl: 900
     record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
-  - name: "_72b3a0f9ed774e1b8b760515c730bbe0.enquiry.demo"
-    ttl: 300
-    record: "9A2B3A109D6D5C3A22AFD9F47225EEBA.F04D34FF5A0EF8DAF2774AC358E3E8FA.2d2c18c1aaeac9fcc028.comodoca.com."
   - name: "hmcts-access.demo"
     ttl: 900
     record: "bdd07956-53a1-46ed-a7b9-baf686c9bee1.cloudapp.net"
   - name: "awverify.sscs.demo"
     ttl: 60
     record: "awverify.sscs-tya-frontend-demo-shutter.azurewebsites.net"
-  - name: "_51d8b1c9dd4e64d34db2fbe4ee69a972.docmosis"
-    ttl: 300
-    record: "C1DF7BB648B8C6A26E8BE421298A8110.E423F10778C699B9F67661AF08050428.91f5738a827405b0f0bd.comodoca.com."
-  - name: "_03e19b887aab622531c6eedb5e375d07.enquiry"
-    ttl: 300
-    record: "8ACA4868E050A1C9D5621621EDC9E9F8.6AD45D4646F72722AF5602E076ED8A8F.10088cc50a44bc6d611a.comodoca.com."
   - name: "fees-register"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
     shutter: false
-  - name: "tmwww.fees-register"
-    ttl: 60
-    record: "58fd15f9-7a11-4de2-8df1-9aef0e807ec2.cloudapp.net"
   - name: "www.fees-register"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
@@ -305,9 +314,6 @@ cname:
   - name: "idam-web-public-ethosldata"
     ttl: 60
     record: "hmcts-ldata.azurefd.net"
-  - name: "_daa65891b4b28959dc2cba8b2137cfb3.ithc"
-    ttl: 300
-    record: "DA0140C78CC21363E7612FB5B696B2F0.72669650AD22FEAC804FFF33F441B4A9.ed1dac006b5ef6170e64.comodoca.com."
   - name: "jlfsrhi3m76w"
     ttl: 300
     record: "gv-st2ccjwg4awsh2.dv.googlehosted.com"
@@ -321,9 +327,6 @@ cname:
   - name: "cdnverify.manage-case"
     ttl: 3600
     record: "cdnverify.hmcts-manage-case-shutter-prod.azureedge.net"
-  - name: "_5ecfb849dc48eea11d818fd219b68bb1.manage-case"
-    ttl: 300
-    record: "2CA16B148A8386A15DD52D1B6FF6ED42.A81C8A2EA633B271718353B91541677A.de3c1a733c9c51de130b.comodoca.com."
   - name: "manage-org"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
@@ -334,16 +337,10 @@ cname:
   - name: "cdnverify.manage-org"
     ttl: 3600
     record: "cdnverify.hmcts-manage-org-shutter-prod.azureedge.net"
-  - name: "_227c728ce7ed54743e78fb8f4843fcd5.manage-org"
-    ttl: 300
-    record: "ADD9E7046E11AB4A157C185A2CDD1458.919EB75126175B997DCAA66BE4A0E9EC.e52c9599ea82e0087458.comodoca.com."
   - name: "manage-payments"
     ttl: 900
     record: "hmcts-prod.azurefd.net"
     shutter: false
-  - name: "tmwww.manage-payments"
-    ttl: 900
-    record: "58fd15f9-7a11-4de2-8df1-9aef0e807ec2.cloudapp.net"
   - name: "www.manage-payments"
     ttl: 900
     record: "hmcts-prod.azurefd.net"
@@ -351,9 +348,6 @@ cname:
   - name: "www.moneyclaim"
     ttl: 300
     record: "moneyclaim.reform.hmcts.net"
-  - name: "tmwww.moneyclaim-legal"
-    ttl: 300
-    record: "2a2a11d5-16a8-48c3-955a-2712ccc85d1e.cloudapp.net"
   - name: "www.moneyclaim-legal"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
@@ -370,32 +364,14 @@ cname:
   - name: "maintenance.moneyclaim-legal.nonprod"
     ttl: 3600
     record: "mojmaintenance.azurewebsites.net"
-  - name: "tmdivorce.nonprod"
-    ttl: 900
-    record: "7f3cb82c-0944-4944-b8fd-0d736315b202.cloudapp.net"
-  - name: "tmmoneyclaim.nonprod"
-    ttl: 3600
-    record: "7f3cb82c-0944-4944-b8fd-0d736315b202.cloudapp.net"
-  - name: "tmmoneyclaim-legal.nonprod"
-    ttl: 3600
-    record: "7f3cb82c-0944-4944-b8fd-0d736315b202.cloudapp.net"
   - name: "paybubble"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
     shutter: false
-  - name: "_274fa105e35a1c6271534224dcfcc482.paybubble"
-    ttl: 300
-    record: "9F30B8FF955609E7056D651B27162A6F.71EA2C4A41C2C63882CABF5E5CB7649E.8cb94e7a9661ea20b129.comodoca.com."
   - name: "www.paybubble"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
     shutter: false
-  - name: "_274fa105e35a1c6271534224dcfcc482.www.paybubble"
-    ttl: 300
-    record: "9F30B8FF955609E7056D651B27162A6F.71EA2C4A41C2C63882CABF5E5CB7649E.8cb94e7a9661ea20b129.comodoca.com."
-  - name: "_c3b5fe13b4756db80168bc42e0db38eb.perftest"
-    ttl: 300
-    record: "28AC2C3343F82103E5B6E3CE2E408F9A.3A56404AB020AE88C3FCCACBED8F7066.9f2998dcc45d58baf6f7.comodoca.com."
   - name: "probate"
     ttl: 60
     record: "6a9d29fa-e848-4bc7-b62b-31f7e3979eda.cloudapp.net"
@@ -427,73 +403,12 @@ cname:
     ttl: 60
     record: "hmcts-prod.azurefd.net"
     shutter: false
-  - name: "_c2c531954464a2c755d6a6dd2c487d88.register-org"
-    ttl: 300
-    record: "F6DE5E30E7052660D9019668EA45C85F.C9519747E6B82801DCE298E005B0D8AE.db4b852fceaa5260e33e.comodoca.com."
-  - name: "_92ffb1be77f85c0ee399f4ac827f2fe2.www.registration"
-    ttl: 300
-    record: "4F322C641E1B2C63C893DAFAC1ADB44F.05D83D4E12FDA00572A7750ED4111315.5ba0eda06642d.comodoca.com"
   - name: "probate.saat"
     ttl: 60
     record: "probate-frontend-0f57-saat.azurewebsites.net"
   - name: "awverify.probate.saat"
     ttl: 60
     record: "awverify.probate-frontend-0f57-saat.azurewebsites.net"
-  - name: "_fe952d2ae36602de857ba2c3e66d049f.sharedservices"
-    ttl: 300
-    record: "3D4173ADC0AA3CD47318DC2295E46A17.BC942C46B4C23BD4BB4C58E14F3B218B.c6ae0d36f2b809808a40.comodoca.com."
-  - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl"
-    ttl: 60
-    record: "A7B189C7C4F1A978D3A38A0B82D1C130.19259BC1E2806E3CDEDB77E0346DCCA2.5be957abaab99.comodoca.com"
-  - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl-api"
-    ttl: 60
-    record: "A7B189C7C4F1A978D3A38A0B82D1C130.19259BC1E2806E3CDEDB77E0346DCCA2.5be957abaab99.comodoca.com"
-  - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl-notes"
-    ttl: 60
-    record: "A7B189C7C4F1A978D3A38A0B82D1C130.19259BC1E2806E3CDEDB77E0346DCCA2.5be957abaab99.comodoca.com"
-  - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl1"
-    ttl: 60
-    record: "A7B189C7C4F1A978D3A38A0B82D1C130.19259BC1E2806E3CDEDB77E0346DCCA2.5be957abaab99.comodoca.com"
-  - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl1-api"
-    ttl: 60
-    record: "A7B189C7C4F1A978D3A38A0B82D1C130.19259BC1E2806E3CDEDB77E0346DCCA2.5be957abaab99.comodoca.com"
-  - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl1-notes"
-    ttl: 60
-    record: "A7B189C7C4F1A978D3A38A0B82D1C130.19259BC1E2806E3CDEDB77E0346DCCA2.5be957abaab99.comodoca.com"
-  - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl2"
-    ttl: 60
-    record: "A7B189C7C4F1A978D3A38A0B82D1C130.19259BC1E2806E3CDEDB77E0346DCCA2.5be957abaab99.comodoca.com"
-  - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl2-api"
-    ttl: 60
-    record: "A7B189C7C4F1A978D3A38A0B82D1C130.19259BC1E2806E3CDEDB77E0346DCCA2.5be957abaab99.comodoca.com"
-  - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl2-notes"
-    ttl: 60
-    record: "A7B189C7C4F1A978D3A38A0B82D1C130.19259BC1E2806E3CDEDB77E0346DCCA2.5be957abaab99.comodoca.com"
-  - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl3"
-    ttl: 60
-    record: "A7B189C7C4F1A978D3A38A0B82D1C130.19259BC1E2806E3CDEDB77E0346DCCA2.5be957abaab99.comodoca.com"
-  - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl3-api"
-    ttl: 60
-    record: "A7B189C7C4F1A978D3A38A0B82D1C130.19259BC1E2806E3CDEDB77E0346DCCA2.5be957abaab99.comodoca.com"
-  - name: "_3b5e9d1a9a79a5e31335db08218959ea.snl3-notes"
-    ttl: 60
-    record: "A7B189C7C4F1A978D3A38A0B82D1C130.19259BC1E2806E3CDEDB77E0346DCCA2.5be957abaab99.comodoca.com"
-  - name: "tmadminister-orgs"
-    ttl: 60
-    record: "3ea55565-0202-4fa4-a74b-e9b0bccdefd5.cloudapp.net"
-    shutter: false
-  - name: "tmbenefit-appeal"
-    ttl: 3600
-    record: "58fd15f9-7a11-4de2-8df1-9aef0e807ec2.cloudapp.net"
-  - name: "tmmanage-case"
-    ttl: 300
-    record: "3ea55565-0202-4fa4-a74b-e9b0bccdefd5.cloudapp.net"
-  - name: "tmmanage-org"
-    ttl: 300
-    record: "3ea55565-0202-4fa4-a74b-e9b0bccdefd5.cloudapp.net"
-  - name: "tmpaybubble"
-    ttl: 300
-    record: "3563cbf6-3619-4245-9ff8-bd4ffc8bd57f.cloudapp.net"
   - name: "www-ccd-ethosldata"
     ttl: 60
     record: "hmcts-ldata.azurefd.net"
@@ -534,16 +449,7 @@ cname:
   - name: "immigration-appeal"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
-  - name: "plum-timj-debug"
-    ttl: 3600
-    record: "timj-debug.azurefd.net"
-  - name: "_a5c44ca36ccd97f3ab974feeb78c42f8.demo"
-    ttl: 300
-    record: "98BEA4422F4AB8C7CC5A6330E1C2C751.5726AA22C841D0DCE1CD2D4D89B4567B.ff413935bfae4f0e2d8d.comodoca.com."
-  - name: "_686d635f8daaaf312855f75f33e21a43.sandbox"
-    ttl: 300
-    record: "6D82ADFD27EB55596AA22EA0334BAEBD.5E8740043D246E6278FBCB006901C596.ebb87faa733d9a04ebb4.comodoca.com."
+    shutter: false
   - name: "afdverify.immigration-appeal"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -574,45 +480,6 @@ cname:
   - name: "cdnverify.fees-register"
     ttl: 300
     record: "cdnverify.hmcts-fees-register-shutter-prod.azureedge.net"
-  - name: "_404182799e5e3fefe26b09d10f47bce9.ithc"
-    ttl: 300
-    record: "17C2322AA10D8E2E87769BDD1EBC28EC.B245DB1A1DB26037B07B508290FC32A6.b387056cb9e8740f3772.comodoca.com."
-  - name: "_4712852fa79a89c556a901c1cd722371.manage-payments-api"
-    ttl: 300
-    record: "A46D4A003A3137F071E881F42E0EF363.36A60C3B316C59E9446EAA728CFF391A.38087d90fe0083a5d17f.comodoca.com."
-  - name: "_4712852fa79a89c556a901c1cd722371.tmwww.manage-payments-api"
-    ttl: 300
-    record: "A46D4A003A3137F071E881F42E0EF363.36A60C3B316C59E9446EAA728CFF391A.38087d90fe0083a5d17f.comodoca.com."
-  - name: "_4712852fa79a89c556a901c1cd722371.www.manage-payments-api"
-    ttl: 300
-    record: "A46D4A003A3137F071E881F42E0EF363.36A60C3B316C59E9446EAA728CFF391A.38087d90fe0083a5d17f.comodoca.com."
-  - name: "_024f58e39afc36d6affaf9c831b41a79.idam-web-public"
-    ttl: 300
-    record: "A45A9F4F6F67544E0513407B50EF42D8.39C3777DE40F1D8613D175B52E110235.b2f1234b9a029e7a4021.comodoca.com."
-  - name: "_024f58e39afc36d6affaf9c831b41a79.idam-api"
-    ttl: 300
-    record: "A45A9F4F6F67544E0513407B50EF42D8.39C3777DE40F1D8613D175B52E110235.b2f1234b9a029e7a4021.comodoca.com."
-  - name: "_024f58e39afc36d6affaf9c831b41a79.idam-web-admin"
-    ttl: 300
-    record: "A45A9F4F6F67544E0513407B50EF42D8.39C3777DE40F1D8613D175B52E110235.b2f1234b9a029e7a4021.comodoca.com."
-  - name: "_024f58e39afc36d6affaf9c831b41a79.www.idam-api"
-    ttl: 300
-    record: "A45A9F4F6F67544E0513407B50EF42D8.39C3777DE40F1D8613D175B52E110235.b2f1234b9a029e7a4021.comodoca.com."
-  - name: "_024f58e39afc36d6affaf9c831b41a79.www.idam-web-admin"
-    ttl: 300
-    record: "A45A9F4F6F67544E0513407B50EF42D8.39C3777DE40F1D8613D175B52E110235.b2f1234b9a029e7a4021.comodoca.com."
-  - name: "_024f58e39afc36d6affaf9c831b41a79.www.idam-web-public"
-    ttl: 300
-    record: "A45A9F4F6F67544E0513407B50EF42D8.39C3777DE40F1D8613D175B52E110235.b2f1234b9a029e7a4021.comodoca.com."
-  - name: "_81561b7b9d7ee224ca33371799b09d93.fees-register"
-    ttl: 300
-    record: "2704E664C97D0712CC8B62B52698A726.3775C15CAA91AA19C97158084B41B96D.9cd9550491104e2d0a8d.comodoca.com."
-  - name: "_81561b7b9d7ee224ca33371799b09d93.tmwww.fees-register"
-    ttl: 300
-    record: "2704E664C97D0712CC8B62B52698A726.3775C15CAA91AA19C97158084B41B96D.9cd9550491104e2d0a8d.comodoca.com."
-  - name: "_81561b7b9d7ee224ca33371799b09d93.www.fees-register"
-    ttl: 300
-    record: "2704E664C97D0712CC8B62B52698A726.3775C15CAA91AA19C97158084B41B96D.9cd9550491104e2d0a8d.comodoca.com."
   - name: "afdverify.equality-and-diversity"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -623,111 +490,6 @@ cname:
     ttl: 300
     record: "hmcts-prod.azurefd.net"
     shutter: false
-  - name: "_281472626d92865dd0e95a36c73ed2fe.payment"
-    ttl: 300
-    record: "AAC25DC156BF452752D274DA48EE63A6.9CAF936AECD4A0F0F2BF0004AB5CFCD3.78f9eb91b8c7b3b3967f.comodoca.com."
-  - name: "_281472626d92865dd0e95a36c73ed2fe.www.payment"
-    ttl: 300
-    record: "AAC25DC156BF452752D274DA48EE63A6.9CAF936AECD4A0F0F2BF0004AB5CFCD3.78f9eb91b8c7b3b3967f.comodoca.com."
-  - name: "_281472626d92865dd0e95a36c73ed2fe.tmwww.payment"
-    ttl: 300
-    record: "AAC25DC156BF452752D274DA48EE63A6.9CAF936AECD4A0F0F2BF0004AB5CFCD3.78f9eb91b8c7b3b3967f.comodoca.com."
-  - name: "_89f571fbd2f13e3f708f759af23ea7a1.fees-register-api"
-    ttl: 300
-    record: "E2FCB141307FF548AA10E53453DEDA56.4CC7A5196672CEB333FFD9BB1FC0E74D.d4a7d6def9138bb65e8a.comodoca.com."
-  - name: "_89f571fbd2f13e3f708f759af23ea7a1.www.fees-register-api"
-    ttl: 300
-    record: "E2FCB141307FF548AA10E53453DEDA56.4CC7A5196672CEB333FFD9BB1FC0E74D.d4a7d6def9138bb65e8a.comodoca.com."
-  - name: "_89f571fbd2f13e3f708f759af23ea7a1.tmwww.fees-register-api"
-    ttl: 300
-    record: "E2FCB141307FF548AA10E53453DEDA56.4CC7A5196672CEB333FFD9BB1FC0E74D.d4a7d6def9138bb65e8a.comodoca.com."
-  - name: "_0ca0cb0091b091d3779077c1129fdab7.ccd"
-    ttl: 300
-    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
-  - name: "_0ca0cb0091b091d3779077c1129fdab7.admin-gateway.ccd"
-    ttl: 300
-    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
-  - name: "_0ca0cb0091b091d3779077c1129fdab7.admin.ccd"
-    ttl: 300
-    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
-  - name: "_0ca0cb0091b091d3779077c1129fdab7.api.ccd"
-    ttl: 300
-    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
-  - name: "_0ca0cb0091b091d3779077c1129fdab7.callback.ccd"
-    ttl: 300
-    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
-  - name: "_0ca0cb0091b091d3779077c1129fdab7.case-activity-api.ccd"
-    ttl: 300
-    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
-  - name: "_0ca0cb0091b091d3779077c1129fdab7.case-data-api.ccd"
-    ttl: 300
-    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
-  - name: "_0ca0cb0091b091d3779077c1129fdab7.case-definition-api.ccd"
-    ttl: 300
-    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
-  - name: "_0ca0cb0091b091d3779077c1129fdab7.gateway.ccd"
-    ttl: 300
-    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
-  - name: "_0ca0cb0091b091d3779077c1129fdab7.return-case-doc.ccd"
-    ttl: 300
-    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
-  - name: "_0ca0cb0091b091d3779077c1129fdab7.tmadmin.ccd"
-    ttl: 300
-    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
-  - name: "_0ca0cb0091b091d3779077c1129fdab7.tmgateway.ccd"
-    ttl: 300
-    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
-  - name: "_0ca0cb0091b091d3779077c1129fdab7.tmwww.ccd"
-    ttl: 300
-    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
-  - name: "_0ca0cb0091b091d3779077c1129fdab7.user-profile-api.ccd"
-    ttl: 300
-    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
-  - name: "_0ca0cb0091b091d3779077c1129fdab7.www.ccd"
-    ttl: 300
-    record: "B408D9ECF0954AFBB0B84EE859D13C43.40F69DD91A0C747C4886C1B53B0A42F6.585eb4127afd003bd784.comodoca.com."
-  - name: "_50723077147e969b1f874131913bcea7.equality-and-diversity"
-    ttl: 300
-    record: "D9C7C7B34A30E682E5E6F8D28EDFC953.A3DA0D967467BE34829D08884EA1C62D.0336cbaaed223cbc7e46.comodoca.com."
-  - name: "_50723077147e969b1f874131913bcea7.www.equality-and-diversity"
-    ttl: 300
-    record: "D9C7C7B34A30E682E5E6F8D28EDFC953.A3DA0D967467BE34829D08884EA1C62D.0336cbaaed223cbc7e46.comodoca.com."
-  - name: "_f42a85b5ba7e306496e0785611130b45.manage-payments"
-    ttl: 300
-    record: "451299A6EB656F0D2B8DDE22728EE0FF.354B82B7888D57F876E11850A90FCC47.ffbad8b9da2093d25ab5.comodoca.com."
-  - name: "_f42a85b5ba7e306496e0785611130b45.tmwww.manage-payments"
-    ttl: 300
-    record: "451299A6EB656F0D2B8DDE22728EE0FF.354B82B7888D57F876E11850A90FCC47.ffbad8b9da2093d25ab5.comodoca.com."
-  - name: "_f42a85b5ba7e306496e0785611130b45.www.manage-payments"
-    ttl: 300
-    record: "451299A6EB656F0D2B8DDE22728EE0FF.354B82B7888D57F876E11850A90FCC47.ffbad8b9da2093d25ab5.comodoca.com."
-  - name: "_5db7d528bfeadbde0b8dfd84f4283194.manage-case"
-    ttl: 300
-    record: "DE54C87654E25C2667E96297ED00EFB2.A78B01DF342FE16F3EE2939AE1DE5AE6.ca3445d71de0ef386033.comodoca.com."
-  - name: "_5db7d528bfeadbde0b8dfd84f4283194.www.manage-case"
-    ttl: 300
-    record: "DE54C87654E25C2667E96297ED00EFB2.A78B01DF342FE16F3EE2939AE1DE5AE6.ca3445d71de0ef386033.comodoca.com."
-  - name: "_d4be8b88faa3be1e91a1e861ab668710.preview"
-    ttl: 300
-    record: "D9618E9A3218DCA2320C068F66A18CF2.EEFA659552FEC6A9F634EEFC30D1254D.7a0c1035bcb33b6d8694.comodoca.com."
-  - name:  "_7cba87adcad4f57372a715b2577d9386.apply-for-probate"
-    ttl: 300
-    record: "BE73A2977B64696A8ECC0E21AA29D069.36518B3A580CD808AA0F4507876C9E34.0fea24d4edf999326dfa.comodoca.com."
-  - name:  "_7cba87adcad4f57372a715b2577d9386.tmapply-for-probate"
-    ttl: 300
-    record: "BE73A2977B64696A8ECC0E21AA29D069.36518B3A580CD808AA0F4507876C9E34.0fea24d4edf999326dfa.comodoca.com."
-  - name:  "_7cba87adcad4f57372a715b2577d9386.tmwww.apply-for-probate"
-    ttl: 300
-    record: "BE73A2977B64696A8ECC0E21AA29D069.36518B3A580CD808AA0F4507876C9E34.0fea24d4edf999326dfa.comodoca.com."
-  - name:  "_7cba87adcad4f57372a715b2577d9386.www.apply-for-probate"
-    ttl: 300
-    record: "BE73A2977B64696A8ECC0E21AA29D069.36518B3A580CD808AA0F4507876C9E34.0fea24d4edf999326dfa.comodoca.com."
-  - name:  "_3825e02bb8c28ec8ba893c325ecb72b2.ethosldata"
-    ttl: 300
-    record: "0F22025E8E2C60A07445AD5496570180.4352296197FA9E9A25A74552E07F7204.9554b1e815bd9412c45c.comodoca.com."
-  - name:  "_840e76f7b1abca12538423a45b33cebf.darts-service.nle"
-    ttl: 300
-    record: "D4E69E43D1B29BC73E3ACC4B24C5EC3D.064FCC3215C58BBD19F8FCEEA51B67B2.59727fa212140da7999b.comodoca.com."
   - name: "afdverify.idam-web-admin"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -738,27 +500,6 @@ cname:
     ttl: 300
     record: "hmcts-prod.azurefd.net"
     shutter: false
-  - name:  "_69d539555eed4d84d69173f5b732ecf5.manage-org"
-    ttl: 300
-    record: "F681353ADA7EFE7C75275E7642A2D520.44940D84935C5C06776F04813B18EF22.4b3909f00d45451966f2.comodoca.com."
-  - name:  "_47b962675da3acdf675a80d24d8b6e83.register-org"
-    ttl: 300
-    record: "DC91B6F1050F5C02BD18DDEA4C661EB3.527127C5E523DF92BF49D886C58300C3.2585eb8dd46328ec14bc.comodoca.com."
-  - name:  "_fc039d41fc1cec3f7d31ac0515f0c7f2.administer-orgs"
-    ttl: 300
-    record: "A506487C5FD0F4577CCDD2F0B647F5EE.7F955D8044806C793BBD0E0F14F5CE40.1f2b8183cd1e469ad3a7.comodoca.com."
-  - name:  "_05419e47146002b8dd987aef3cfbf750.idam-web-public"
-    ttl: 300
-    record: "DE64189710DB87A09E0476D5164AA455.AC99F435F877B0110113A7409EA7638F.4991a0a8bc16b501dc8a.comodoca.com."
-  - name:  "_05419e47146002b8dd987aef3cfbf750.idam"
-    ttl: 300
-    record: "DE64189710DB87A09E0476D5164AA455.AC99F435F877B0110113A7409EA7638F.4991a0a8bc16b501dc8a.comodoca.com."
-  - name:  "_05419e47146002b8dd987aef3cfbf750.www.idam"
-    ttl: 300
-    record: "DE64189710DB87A09E0476D5164AA455.AC99F435F877B0110113A7409EA7638F.4991a0a8bc16b501dc8a.comodoca.com." 
-  - name:  "_fc8094f91268ff8fdd596054134f8d9a.hmi"
-    ttl: 300
-    record: "9CC70766D8DD913344E9E53DFC9B5472.0837CFD7897DDC95C511C2B8EDF6B969.9f1f4938963fa5f9ab4d.comodoca.com."
   - name: "afdverify.hmi-apim"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -769,9 +510,6 @@ cname:
   - name: "cdnverify.hmi-apim"
     ttl: 3600
     record: "cdnverify.hmcts-hmi-apim-shutter-prod.azureedge.net"  
-  - name: "_c3e531902e6606f7e9b3adefd38c81ac.dev"
-    ttl: 300
-    record: "3571F80AA236C8E7ABC6C7EDEB82C82B.90C6AAB2D5252F7CD071E5F74585AFFB.fa757d4df53d4143d09e.comodoca.com."
   - name: "em11.mail-sscs-nonprod"
     ttl: 300
     record: "u19166834.wl085.sendgrid.net"
@@ -781,15 +519,15 @@ cname:
   - name: "s2._domainkey.mail-sscs-nonprod"
     ttl: 300
     record: "s2.domainkey.u19166834.wl085.sendgrid.net"
-  - name: "em6474.mail-money-claims-nonprod"
+  - name: "em2301.mail-money-claims-nonprod"
     ttl: 300
-    record: "u18847643.wl144.sendgrid.net"
+    record: "u21300784.wl035.sendgrid.net"
   - name: "s1._domainkey.mail-money-claims-nonprod"
     ttl: 300
-    record: "s1.domainkey.u18847643.wl144.sendgrid.net"
+    record: "s1.domainkey.u21300784.wl035.sendgrid.net"
   - name: "s2._domainkey.mail-money-claims-nonprod"
     ttl: 300
-    record: "s2.domainkey.u18847643.wl144.sendgrid.net"
+    record: "s2.domainkey.u21300784.wl035.sendgrid.net"
   - name: "em8228.mail-sscs"
     ttl: 300
     record: "u19471273.wl024.sendgrid.net"
@@ -799,9 +537,177 @@ cname:
   - name: "s2._domainkey.mail-sscs"
     ttl: 300
     record: "s2.domainkey.u19471273.wl024.sendgrid.net"
-  - name: "_ea7ddc228444799015f19f0b8187f919.paybubble"
+  - name: "administer-orgs-ethosldata"
+    ttl: 60
+    record: "hmcts-ldata.azurefd.net"
+  - name: "manage-org-ethosldata"
+    ttl: 60
+    record: "hmcts-ldata.azurefd.net"
+  - name: "manage-case-ethosldata"
+    ttl: 60
+    record: "hmcts-ldata.azurefd.net"
+  - name: "em6661.mail-divorce-nonprod"
     ttl: 300
-    record: "918AE6DB4F60E56D6E92DB2F5F39E3AA.93CEB9C2DCDAAB64E151F2A7A1851C97.dfa7868c9f76acaf214a.comodoca.com."
-  - name: "_ea7ddc228444799015f19f0b8187f919.www.paybubble"
+    record: "u20932712.wl213.sendgrid.net"
+  - name: "s1._domainkey.mail-divorce-nonprod"
     ttl: 300
-    record: "918AE6DB4F60E56D6E92DB2F5F39E3AA.93CEB9C2DCDAAB64E151F2A7A1851C97.dfa7868c9f76acaf214a.comodoca.com."
+    record: "s1.domainkey.u20932712.wl213.sendgrid.net"
+  - name: "s2._domainkey.mail-divorce-nonprod"
+    ttl: 300
+    record: "s2.domainkey.u20932712.wl213.sendgrid.net"
+  - name: "em8346.mail-divorce"
+    ttl: 300
+    record: "u20932751.wl002.sendgrid.net"
+  - name: "s1._domainkey.mail-divorce"
+    ttl: 300
+    record: "s1.domainkey.u20932751.wl002.sendgrid.net"
+  - name: "s2._domainkey.mail-divorce"
+    ttl: 300
+    record: "s2.domainkey.u20932751.wl002.sendgrid.net"
+  - name: "em9503.mail-damages-nonprod"
+    ttl: 300
+    record: "u21391694.wl195.sendgrid.net"
+  - name: "s1._domainkey.mail-damages-nonprod"
+    ttl: 300
+    record: "s1.domainkey.u21391694.wl195.sendgrid.net"
+  - name: "s2._domainkey.mail-damages-nonprod"
+    ttl: 300
+    record: "s2.domainkey.u21391694.wl195.sendgrid.net"
+  - name: "em5261.mail-payment-nonprod"
+    ttl: 300
+    record: "u21452115.wl116.sendgrid.net"
+  - name: "s1._domainkey.mail-payment-nonprod"
+    ttl: 300
+    record: "s1.domainkey.u21452115.wl116.sendgrid.net"
+  - name: "s2._domainkey.mail-payment-nonprod"
+    ttl: 300
+    record: "s2.domainkey.u21452115.wl116.sendgrid.net"
+  - name: "em8309.mail-payment"
+    ttl: 300
+    record: "u21484024.wl025.sendgrid.net"
+  - name: "s1._domainkey.mail-payment"
+    ttl: 300
+    record: "s1.domainkey.u21484024.wl025.sendgrid.net"
+  - name: "s2._domainkey.mail-payment"
+    ttl: 300
+    record: "s2.domainkey.u21484024.wl025.sendgrid.net"
+  - name: "em5088.mail-civil-prod.platform.hmcts.net"
+    ttl: 300
+    record: "u21914017.wl018.sendgrid.net"
+  - name: "s1._domainkey.mail-civil-prod.platform.hmcts.net"
+    ttl: 300
+    record: "s1.domainkey.u21914017.wl018.sendgrid.net"
+  - name: "s2._domainkey.mail-civil-prod.platform.hmcts.net"
+    ttl: 300
+    record: "s2.domainkey.u21914017.wl018.sendgrid.net"
+  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.ccd"
+    ttl: 300
+    record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
+  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.admin-gateway.ccd"
+    ttl: 300
+    record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
+  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.admin.ccd"
+    ttl: 300
+    record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
+  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.api.ccd"
+    ttl: 300
+    record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
+  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.callback.ccd"
+    ttl: 300
+    record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
+  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.case-activity-api.ccd"
+    ttl: 300
+    record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
+  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.case-data-api.ccd"
+    ttl: 300
+    record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
+  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.case-definition-api.ccd"
+    ttl: 300
+    record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
+  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.gateway.ccd"
+    ttl: 300
+    record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
+  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.return-case-doc.ccd"
+    ttl: 300
+    record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
+  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.user-profile-api.ccd"
+    ttl: 300
+    record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
+  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.www.ccd"
+    ttl: 300
+    record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
+  - name: "_94FBE046A53C70650B5F488AE7D5EE4B.splunk"
+    ttl: 10800
+    record: "7CF07AF5BB9F4390B8CE2021A726BE35.3281CFD1C7AA3F647C247FD3E6A8C9E6.7aa7b77461bd44a3f9da.comodoca.com."
+  - name: "_94FBE046A53C70650B5F488AE7D5EE4B.splunk-idx-prod-vm00"
+    ttl: 10800
+    record: "7CF07AF5BB9F4390B8CE2021A726BE35.3281CFD1C7AA3F647C247FD3E6A8C9E6.7aa7b77461bd44a3f9da.comodoca.com."
+  - name: "_94FBE046A53C70650B5F488AE7D5EE4B.splunk-idx-prod-vm01"
+    ttl: 10800
+    record: "7CF07AF5BB9F4390B8CE2021A726BE35.3281CFD1C7AA3F647C247FD3E6A8C9E6.7aa7b77461bd44a3f9da.comodoca.com."
+  - name: "_94FBE046A53C70650B5F488AE7D5EE4B.splunk-idx-prod-vm02"
+    ttl: 10800
+    record: "7CF07AF5BB9F4390B8CE2021A726BE35.3281CFD1C7AA3F647C247FD3E6A8C9E6.7aa7b77461bd44a3f9da.comodoca.com."
+  - name: "_94FBE046A53C70650B5F488AE7D5EE4B.splunk-sh-prod-vm00"
+    ttl: 10800
+    record: "7CF07AF5BB9F4390B8CE2021A726BE35.3281CFD1C7AA3F647C247FD3E6A8C9E6.7aa7b77461bd44a3f9da.comodoca.com."
+  - name: "_94FBE046A53C70650B5F488AE7D5EE4B.splunk-es-prod-vm00"
+    ttl: 10800
+    record: "7CF07AF5BB9F4390B8CE2021A726BE35.3281CFD1C7AA3F647C247FD3E6A8C9E6.7aa7b77461bd44a3f9da.comodoca.com."
+  - name: "_94FBE046A53C70650B5F488AE7D5EE4B.splunk-hfwd-prod-vm00"
+    ttl: 10800
+    record: "7CF07AF5BB9F4390B8CE2021A726BE35.3281CFD1C7AA3F647C247FD3E6A8C9E6.7aa7b77461bd44a3f9da.comodoca.com."
+  - name: "_94FBE046A53C70650B5F488AE7D5EE4B.splunk-hfwd-prod-vm01"
+    ttl: 10800
+    record: "7CF07AF5BB9F4390B8CE2021A726BE35.3281CFD1C7AA3F647C247FD3E6A8C9E6.7aa7b77461bd44a3f9da.comodoca.com."
+  - name: "_94FBE046A53C70650B5F488AE7D5EE4B.splunk-lm-prod-vm00"
+    ttl: 10800
+    record: "7CF07AF5BB9F4390B8CE2021A726BE35.3281CFD1C7AA3F647C247FD3E6A8C9E6.7aa7b77461bd44a3f9da.comodoca.com."
+  - name: "_94FBE046A53C70650B5F488AE7D5EE4B.splunk-mc-prod-vm00"
+    ttl: 10800
+    record: "7CF07AF5BB9F4390B8CE2021A726BE35.3281CFD1C7AA3F647C247FD3E6A8C9E6.7aa7b77461bd44a3f9da.comodoca.com."
+  - name: "_94FBE046A53C70650B5F488AE7D5EE4B.splunk-cm-prod-vm00"
+    ttl: 10800
+    record: "7CF07AF5BB9F4390B8CE2021A726BE35.3281CFD1C7AA3F647C247FD3E6A8C9E6.7aa7b77461bd44a3f9da.comodoca.com."
+  - name: "_5ecfb849dc48eea11d818fd219b68bb1.manage-case"
+    ttl: 10800
+    record: "2CA16B148A8386A15DD52D1B6FF6ED42.A81C8A2EA633B271718353B91541677A.907de5e1e92c840c8a42.comodoca.com."
+  - name: "_5ecfb849dc48eea11d818fd219b68bb1.www.manage-case"
+    ttl: 10800
+    record: "2CA16B148A8386A15DD52D1B6FF6ED42.A81C8A2EA633B271718353B91541677A.907de5e1e92c840c8a42.comodoca.com."
+  - name: "em5255.mail-rd-nonprod"
+    ttl: 300
+    record: "u22410865.wl116.sendgrid.net"
+  - name: "s1._domainkey.mail-rd-nonprod"
+    ttl: 300
+    record: "s1.domainkey.u22410865.wl116.sendgrid.net"
+  - name: "s2._domainkey.mail-rd-nonprod"
+    ttl: 300
+    record: "s2.domainkey.u22410865.wl116.sendgrid.net"
+  - name: "em3038.mail-rd"
+    ttl: 300
+    record: "u22410882.wl133.sendgrid.net"
+  - name: "s1._domainkey.mail-rd"
+    ttl: 300
+    record: "s1.domainkey.u22410882.wl133.sendgrid.net"
+  - name: "s2._domainkey.mail-rd"
+    ttl: 300
+    record: "s2.domainkey.u22410882.wl133.sendgrid.net"
+  - name: "em8468.mail-am-nonprod"
+    ttl: 300
+    record: "u22723454.wl205.sendgrid.net"
+  - name: "s1._domainkey.mail-am-nonprod"
+    ttl: 300
+    record: "s1.domainkey.u22723454.wl205.sendgrid.net"
+  - name: "s2._domainkey.mail-am-nonprod"
+    ttl: 300
+    record: "s2.domainkey.u22723454.wl205.sendgrid.net"
+  - name: "em2631.mail-am"
+    ttl: 300
+    record: "u22723469.wl220.sendgrid.net"
+  - name: "s1._domainkey.mail-am"
+    ttl: 300
+    record: "s1.domainkey.u22723469.wl220.sendgrid.net"
+  - name: "s2._domainkey.mail-am"
+    ttl: 300
+    record: "s2.domainkey.u22723469.wl220.sendgrid.net"

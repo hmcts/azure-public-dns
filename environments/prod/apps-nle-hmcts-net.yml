@@ -1,0 +1,54 @@
+ns: []
+
+mx: []
+
+A:
+  - name: "sdt-uks"
+    ttl: 60
+    record:
+      - "20.90.234.106"
+  - name: "sdt-ukw"
+    ttl: 60
+    record:
+      - "51.141.85.60"
+  - name: "sdtcomm-uks"
+    ttl: 60
+    record:
+      - "20.90.234.105"
+  - name: "sdtcomm-ukw"
+    ttl: 60
+    record:
+      - "51.141.85.61"
+
+txt: []
+
+srv: []
+
+cname:
+  - name: "caps"
+    ttl: 300
+    record: "hmcts-nle-int.azurefd.net"
+  - name: "cman"
+    ttl: 300
+    record: "hmcts-nle-int.azurefd.net"
+  - name: "mcnotify"
+    ttl: 300
+    record: "hmcts-nle-ext.azurefd.net"
+  - name: "mcol"
+    ttl: 300
+    record: "hmcts-nle-ext.azurefd.net"
+  - name: "pcnotify"
+    ttl: 300
+    record: "hmcts-nle-ext.azurefd.net"
+  - name: "pcol"
+    ttl: 300
+    record: "hmcts-nle-ext.azurefd.net"
+  - name: "sdt"
+    ttl: 300
+    record: "sdt-uks.apps-nle.hmcts.net"
+  - name: "sdtcomm"
+    ttl: 300
+    record: "sdtcomm-uks.apps-nle.hmcts.net"
+  - name: "testclaim-pcol"
+    ttl: 300
+    record: "hmcts-nle-ext.azurefd.net"

@@ -25,4 +25,3 @@ cname:
   - name: "afdverify.toffee"
     ttl: 3600
     record: "afdverify.sdshmcts-stg.azurefd.net"
-

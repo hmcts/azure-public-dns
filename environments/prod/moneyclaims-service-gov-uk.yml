@@ -8,28 +8,10 @@ txt:
 
 
 cname:
-  - name: "_6a51478569b43a0942cd0165e3ee53be"
-    ttl: 300
-    record: "9336D3BF8912D01A91B7F0E768304F7F.145BFE1B9EE875298E82C98EA6AB00E7.5ad06c16aad77.comodoca.com"
-  - name: "_cddf219b9b1bc5e7352581667fa9d408"
-    ttl: 900
-    record: "F88757C85617781BF24549F524B929C3.3C7E5FACB87A31D8352625A3C2013695.5aaa7d7902b7f.comodoca.com"
-  - name: "tmwww"
-    ttl: 300
-    record: "2a2a11d5-16a8-48c3-955a-2712ccc85d1e.cloudapp.net"
-  - name: "_6a51478569b43a0942cd0165e3ee53be.tmwww"
-    ttl: 3600
-    record: "9336D3BF8912D01A91B7F0E768304F7F.145BFE1B9EE875298E82C98EA6AB00E7.5ad8ff8c02567.comodoca.com"
   - name: "www"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
     shutter: false
-  - name: "_6a51478569b43a0942cd0165e3ee53be.www"
-    ttl: 300
-    record: "9336D3BF8912D01A91B7F0E768304F7F.145BFE1B9EE875298E82C98EA6AB00E7.5ad06c16aad77.comodoca.com"
-  - name: "_cddf219b9b1bc5e7352581667fa9d408.www"
-    ttl: 900
-    record: "F88757C85617781BF24549F524B929C3.3C7E5FACB87A31D8352625A3C2013695.5aaa7d7902b7f.comodoca.com"
   - name: "cdnverify.www"
     ttl: 300
     record: "cdnverify.hmcts-moneyclaims-shutter-prod.azureedge.net"

@@ -41,4 +41,3 @@ cname:
   - name: "em8472"
     ttl: 300
     record: "u18847995.wl246.sendgrid.net"
-

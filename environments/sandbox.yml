@@ -5,11 +5,11 @@ srv: []
 mx:
   - name: "@"
     ttl: 300
-    record: 
+    record:
       - "0 mail.contact.justice.sandbox.platform.hmcts.net"
   - name: "contact.justice"
     ttl: 3600
-    record: 
+    record:
       - "10 ctscmail.sandbox.platform.hmcts.net"
 
 A:
@@ -36,16 +36,16 @@ A:
   - name: "portal"
     ttl: 60
     record:
-      - "20.49.172.208"
+      - "51.132.51.56"
 
 txt:
   - name: "contact.justice"
     ttl: 3600
-    record: 
+    record:
       - "v=spf1 ip4:51.105.21.172  ip4:51.105.21.118 -all"
   - name: "_dmarc.contact.justice"
     ttl: 3600
-    record: 
+    record:
       - "v=DMARC1; p=none"
 
 # In order to swap the DNS for shutterring an application enable the shutter parameter for the corresponding application.
@@ -80,6 +80,9 @@ cname:
   - name: "plum.uksouth"
     ttl: 3600
     record: "firewall-sbox.uksouth.cloudapp.azure.com"
+  - name: "cdnverify.plum"
+    ttl: 300
+    record: "cdnverify.hmcts-plum-shutter-sbox.azureedge.net"
   - name: "afdverify.idam-web-public"
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
@@ -130,3 +133,6 @@ cname:
   - name: "cdnverify.hmi-apim"
     ttl: 300
     record: "cdnverify.hmcts-hmi-apim-shutter-sbox.azureedge.net"
+  - name: "_9af30f185640a6f0617d0d1ef8e9de95"
+    ttl: 300
+    record: "2135FD8EB464CCFADFCD6999525A52F0.230B7360D54C272A4FB658B45A962B2E.eb30a0ede6e02b3430fe.comodoca.com."

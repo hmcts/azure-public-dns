@@ -64,9 +64,6 @@ cname:
   - name: "tmgateway-ccd"
     ttl: 60
     record: "fbdcf28e-3dee-4ff3-b202-b2367b261d8d.cloudapp.net"
-  - name: "tmwww-ccd"
-    ttl: 900
-    record: "7f3cb82c-0944-4944-b8fd-0d736315b202.cloudapp.net"
   - name: "www-ccd"
     ttl: 900
     record: "hmcts-aat.azurefd.net"
@@ -115,9 +112,15 @@ cname:
   - name: "afdverify.moneyclaims"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "moneyclaims"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.moneyclaims-legal"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "moneyclaims-legal"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.www-ccd"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
@@ -127,6 +130,9 @@ cname:
   - name: "afdverify.return-case-doc-ccd"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "return-case-doc-ccd"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.pcq"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
@@ -142,21 +148,39 @@ cname:
   - name: "afdverify.fact"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "fact"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.fact-admin"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "fact-admin"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.nfdiv"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "nfdiv"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.nfdiv-apply-for-divorce"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "nfdiv-apply-for-divorce"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.nfdiv-end-civil-partnership"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "nfdiv-end-civil-partnership"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.wa-proto-frontend"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "wa-proto-frontend"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.immigration-appeal"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
@@ -178,15 +202,24 @@ cname:
   - name: "afdverify.bar"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "bar"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.paybubble"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
   - name: "afdverify.fees-register"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "fees-register"
+    ttl: 3600
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.idam-web-admin"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
   - name: "idam-web-admin"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
+  - name: "_4c2aa3cf7820ad559328554b0084d4af"
+    ttl: 300
+    record: "A8DE39B21BE7C0E63C7D0233E683637A.205D792E60EE2E5C66131C38BCD98C87.aad64398a969ec318680.comodoca.com."

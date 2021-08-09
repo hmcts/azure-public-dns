@@ -1,8 +1,3 @@
-resource "azurerm_dns_zone" "zone" {
-  name                = "sandbox.platform.hmcts.net"
-  resource_group_name = data.azurerm_resource_group.main.name
-}
-
 data "local_file" "configuration" {
   filename = "${path.cwd}/../../environments/sandbox.yml"
 }
@@ -13,7 +8,7 @@ module "public-dns" {
   mx_recordsets       = yamldecode(data.local_file.configuration.content).mx
   a_recordsets        = yamldecode(data.local_file.configuration.content).A
   txt_recordsets      = yamldecode(data.local_file.configuration.content).txt
-  zone_name           = azurerm_dns_zone.zone.name
+  zone_name           = "sandbox.platform.hmcts.net"
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = "sbox"
   ns_recordsets       = yamldecode(data.local_file.configuration.content).ns
