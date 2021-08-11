@@ -3,7 +3,7 @@ data "local_file" "reply-jury-summons-config" {
   filename = "${path.cwd}/../../environments/prod/reply-jury-summons-service-gov-uk.yml"
 }
 
-module "respond-divorce" {
+module "reply-jury-summons" {
   source              = "../../modules/azure-public-dns/"
   cname_records       = yamldecode(data.local_file.reply-jury-summons-config.content).cname
   zone_name           = "reply-jury-summons.service.gov.uk"

@@ -3,7 +3,7 @@ data "local_file" "juror-bureau-config" {
   filename = "${path.cwd}/../../environments/prod/juror-bureau-service-gov-uk.yml"
 }
 
-module "respond-divorce" {
+module "juror-bureau" {
   source              = "../../modules/azure-public-dns/"
   cname_records       = yamldecode(data.local_file.juror-bureau-config.content).cname
   zone_name           = "juror-bureau.service.gov.uk"
