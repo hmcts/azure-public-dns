@@ -10,4 +10,4 @@ txt:
 cname:
   - name: "afdverify"
     ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.sdshmcts-prod.azurefd.net"
