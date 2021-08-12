@@ -3,6 +3,10 @@ ns:
 mx:
 
 A:
+  - name: "@"
+    ttl: 60
+    record: 
+      - "51.11.44.158"
 
 txt:
 
