@@ -3,7 +3,10 @@ ns:
 mx:
 
 A:
-
+  - name: "@"
+    ttl: 60
+    record: 
+      - "51.11.44.158"
 txt:
 
 
@@ -11,3 +14,9 @@ cname:
   - name: "afdverify"
     ttl: 300
     record: "afdverify.sdshmcts-prod.azurefd.net"
+  - name: "_12e2c0e127a5699e90bc266c6118a29d"
+    ttl: 60
+    record: "30104E917B4B9721E8927EFA31B7A7BB.5F98998B4C5BA93A7A7E60EA9791AD22.7e4ddecd5564e9fe8a83.comodoca.com"
+  - name: "_be0b52995718ffa34b280040c77dae28"
+    ttl: 60
+    record: "C01223A8E68F302CE358B634B8A33D0C.6D1CDB8BD4F3DC229D310B3317014888.2b4bf71bc3df8c999ad2.comodoca.com"
