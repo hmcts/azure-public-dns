@@ -7,6 +7,7 @@ A:
     ttl: 60
     record: 
       - "51.11.44.158"
+
 txt:
 
 
@@ -20,3 +21,4 @@ cname:
   - name: "_be0b52995718ffa34b280040c77dae28"
     ttl: 60
     record: "C01223A8E68F302CE358B634B8A33D0C.6D1CDB8BD4F3DC229D310B3317014888.2b4bf71bc3df8c999ad2.comodoca.com"
+
