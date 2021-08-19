@@ -17,4 +17,4 @@ cname:
     record: "afdverify.sdshmcts-prod.azurefd.net"
   - name: "cdnverify"
     ttl: 300
-    record: "cdnverify.hmcts-jdpublic-shutter-prod.azureedge.net"
+    record: "cdnverify.hmcts-reply-jury-summons-shutter-prod.azureedge.net"
