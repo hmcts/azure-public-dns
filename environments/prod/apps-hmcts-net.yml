@@ -15,15 +15,6 @@ cname:
   - name: "mcol"
     ttl: 300
     record: "hmcts-live-ext.azurefd.net"
-  - name: "pcnotify"
-    ttl: 300
-    record: "hmcts-live-ext.azurefd.net"
-  - name: "pcol"
-    ttl: 300
-    record: "hmcts-live-ext.azurefd.net"
-  - name: "testclaim-pcol"
-    ttl: 300
-    record: "hmcts-live-ext.azurefd.net"
   - name: "caps"
     ttl: 300
     record: "hmcts-live-int.azurefd.net"
