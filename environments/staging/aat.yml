@@ -139,6 +139,18 @@ cname:
   - name: "pcq"
     ttl: 300
     record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.lau"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "lau"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.lau-case"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "lau-case"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.adoption"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
