@@ -139,3 +139,6 @@ cname:
   - name: "cdnverify.toffee"
     ttl: 300
     record: "cdnverify.hmcts-toffee-shutter-sbox.azureedge.net"
+  - name: pip-frontend
+    record: sdshmcts-sbox.azurefd.net
+    ttl: 300

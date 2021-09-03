@@ -53,4 +53,6 @@ cname:
   - name: "afdverify.jdfrontend"
     ttl: 3600
     record: "afdverify.sdshmcts-dev.azurefd.net"
-
+  - name: pip-frontend
+    record: sdshmcts-dev.azurefd.net
+    ttl: 300
