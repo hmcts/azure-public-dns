@@ -139,3 +139,10 @@ cname:
   - name: "cdnverify.toffee"
     ttl: 300
     record: "cdnverify.hmcts-toffee-shutter-sbox.azureedge.net"
+  - name: "afdverify.core-api-mgmt"
+    ttl: 300
+    record: "afdverify.hmcts-sbox.azurefd.net"
+  - name: "core-api-mgmt"
+    ttl: 300
+    record: "hmcts-sbox.azurefd.net"
+    shutter: false
