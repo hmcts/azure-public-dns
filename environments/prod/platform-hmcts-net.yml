@@ -711,3 +711,12 @@ cname:
   - name: "s2._domainkey.mail-am"
     ttl: 300
     record: "s2.domainkey.u22723469.wl220.sendgrid.net"
+  - name: "mcol"
+    ttl: 300
+    record: "firewall-prod-int-palo-mcolprod.uksouth.cloudapp.azure.com"
+  - name: "mcnotify"
+    ttl: 300
+    record: "firewall-prod-int-palo-mcolprod.uksouth.cloudapp.azure.com"
+  - name: "cman"
+    ttl: 300
+    record: "firewall-prod-int-palo-cmanprod.uksouth.cloudapp.azure.com"
