@@ -720,3 +720,12 @@ cname:
   - name: "cman"
     ttl: 300
     record: "firewall-prod-int-palo-cmanprod.uksouth.cloudapp.azure.com"
+  - name: "em2983.mail-db-reporting-prod.platform.hmcts.net"
+    ttl: 300
+    record: "u23337691.wl192.sendgrid.net"
+  - name: "s1._domainkey.mail-db-reporting-prod.platform.hmcts.net"
+    ttl: 300
+    record: "s1.domainkey.u23337691.wl192.sendgrid.net"
+  - name: "s2._domainkey.mail-db-reporting-prod.platform.hmcts.net"
+    ttl: 300
+    record: "s2.domainkey.u23337691.wl192.sendgrid.net"
