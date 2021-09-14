@@ -126,7 +126,7 @@ cname:
   - name: "toffee"
     ttl: 300
     record: "sdshmcts-sbox.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "afdverify.toffee"
     ttl: 3600
     record: "afdverify.sdshmcts-sbox.azurefd.net"
