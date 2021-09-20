@@ -21,5 +21,8 @@ cname:
   - name: "cman"
     ttl: 300
     record: "hmcts-live-int.azurefd.net"
+  - name: "sdt"
+    ttl: 300
+    record: "firewall-prod-int-palo-sdtprod.uksouth.cloudapp.azure.com"
 
 
