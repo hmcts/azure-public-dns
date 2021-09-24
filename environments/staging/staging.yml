@@ -31,3 +31,7 @@ cname:
   - name: hmi-case-hq-emulator
     record: sdshmcts-stg.azurefd.net
     ttl: 300
+  - name: pip-business-rules
+    record: sdshmcts-stg.azurefd.net
+    ttl: 300
+    
