@@ -31,5 +31,7 @@ A:
 
 txt:
 
-
-cname: []
+cname:
+  - name: "_5094A556B4B6EDD71A798B02182264C2.webchat-client"
+    ttl: 300
+    record: "A85DDF726F0230CA78B2F8CE91AE8450.8FE8EBD27A47FDEF98455C8B06D4CDD3.388823cb9249d4cebc9d.comodoca.com."
