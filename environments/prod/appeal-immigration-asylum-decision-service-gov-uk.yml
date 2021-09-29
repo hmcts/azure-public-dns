@@ -17,5 +17,5 @@ cname:
     #shuttering must be achieved for IAC by pointing to hmcts-appeal-immigration-asylum-decision-shutter.azureedge.net at present
   - name: "afdverify.www"
     ttl: 300
-    record: "hmcts-appeal-immigration-asylum-decision-shutter.azureedge.net"
+    record: "afdverify.hmcts-prod.azurefd.net"
 
