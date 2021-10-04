@@ -27,6 +27,19 @@ A:
     ttl: 300
     record: 
       - "81.131.15.81"
+  - name: "wfmapp"
+    ttl: 300
+    record: 
+      - "81.131.15.78"
+  - name: "wfmapp.preprod"
+    ttl: 300
+    record: 
+      - "81.131.15.79"
+  - name: "wfmapp.training"
+    ttl: 300
+    record: 
+      - "81.131.15.79"
+
 
 
 txt:
