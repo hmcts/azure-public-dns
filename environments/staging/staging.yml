@@ -25,3 +25,13 @@ cname:
   - name: "afdverify.toffee"
     ttl: 3600
     record: "afdverify.sdshmcts-stg.azurefd.net"
+  - name: pip-frontend
+    record: sdshmcts-stg.azurefd.net
+    ttl: 300
+  - name: hmi-case-hq-emulator
+    record: sdshmcts-stg.azurefd.net
+    ttl: 300
+  - name: pip-business-rules
+    record: sdshmcts-stg.azurefd.net
+    ttl: 300
+    
