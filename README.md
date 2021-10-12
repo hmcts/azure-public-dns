@@ -84,10 +84,12 @@ of the underlying Terraform provider:
 
 - `A`
 - `AAAA`
+- `CAA`
 - `CNAME`
 - `MX`
 - `NS`
 - `PTR`
 - `SRV`
 - `TXT`
+
 
