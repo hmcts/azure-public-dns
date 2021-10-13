@@ -14,11 +14,11 @@ cname:
   - name: "www.manage"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "www"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "cdnverify.www"
     ttl: 300
     record: "cdnverify.hmcts-appeal-benefit-decision-shutter-prod.azureedge.net"
