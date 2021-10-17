@@ -145,4 +145,4 @@ cname:
   - name: "core-api-mgmt"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
-    shutter: false
+    shutter: true
