@@ -303,11 +303,11 @@ cname:
   - name: "fees-register"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "www.fees-register"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "gateway-ccd-ethosldata"
     ttl: 60
     record: "hmcts-ldata.azurefd.net"
