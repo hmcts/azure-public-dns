@@ -5,8 +5,8 @@ mx:
 A:
   - name: "@"
     ttl: 60
-    record: 
-      - "51.11.44.158"
+    alias_target_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/lz-prod-rg/providers/Microsoft.Network/frontdoors/sdshmcts-prod"
+    shutter: false
 
 txt:
 
