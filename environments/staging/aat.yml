@@ -151,10 +151,10 @@ cname:
   - name: "lau-case"
     ttl: 300
     record: "hmcts-aat.azurefd.net"
-  - name: "afdverify.adoption"
+  - name: "afdverify.adoption-web"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
-  - name: "adoption"
+  - name: "adoption-web"
     ttl: 300
     record: "hmcts-aat.azurefd.net"
   - name: "afdverify.fact"
