@@ -25,5 +25,5 @@ cname:
     ttl: 300
     record: "56DDD5BB7BD629DD7B32C2EF75824ECB.4FDD1FE37015F188615E327886C95C9B.44e67a303e887000a548.comodoca.com."
   - name: pip-frontend
-    record: sdshmcts-stg.azurefd.net
+    record: sdshmcts-demo.azurefd.net
     ttl: 300
