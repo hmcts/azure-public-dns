@@ -4,7 +4,11 @@ mx: []
 
 A: []
 
-txt: []
+txt:
+  - name: "@"
+    ttl: 3600
+    record:
+      - "google-site-verification=fbwn6ddd7I1aWiBQ6Z3owPZPpZIpv101kbZcXII2bzY"
 
 srv: []
 
