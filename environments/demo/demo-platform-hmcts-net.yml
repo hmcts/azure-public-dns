@@ -8,7 +8,7 @@ txt:
   - name: "idam-web-public"
     ttl: 3600
     record:
-      - "google-site-verification=fbwn6ddd7I1aWiBQ6Z3owPZPpZIpv101kbZcXII2bzY"
+      - "google-site-verification=eqMUm6VJdh4KEmuEJpRYRUe-Hmaee8GHf-pniuk7bLI"
 
 srv: []
 
