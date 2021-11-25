@@ -23,6 +23,10 @@ A:
     ttl: 300
     record: 
       - "81.131.15.81"
+  - name: "efm.training"
+    ttl: 300
+    record:
+      - "81.131.15.82"
   - name: "webchat-client.pp"
     ttl: 300
     record: 
