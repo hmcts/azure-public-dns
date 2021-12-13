@@ -1,7 +1,7 @@
 ns:
   - name: "aat"
     ttl: 900
-    record:
+    record: 
       - "ns1-03.azure-dns.com"
       - "ns2-03.azure-dns.net"
       - "ns3-03.azure-dns.org"
@@ -15,28 +15,28 @@ ns:
       - "ns4-09.azure-dns.info."
   - name: "demo"
     ttl: 900
-    record:
+    record: 
       - "ns1-02.azure-dns.com"
       - "ns2-02.azure-dns.net"
       - "ns3-02.azure-dns.org"
       - "ns4-02.azure-dns.info."
   - name: "hmctsdemo"
     ttl: 3600
-    record:
+    record: 
       - "ns1-06.azure-dns.com."
       - "ns2-06.azure-dns.net."
       - "ns3-06.azure-dns.org."
       - "ns4-06.azure-dns.info."
   - name: "ithc"
     ttl: 900
-    record:
+    record: 
       - "ns1-01.azure-dns.com"
       - "ns2-01.azure-dns.net"
       - "ns3-01.azure-dns.org"
       - "ns4-01.azure-dns.info"
   - name: "preview"
     ttl: 900
-    record:
+    record: 
       - "ns1-06.azure-dns.com"
       - "ns2-06.azure-dns.net"
       - "ns3-06.azure-dns.org"
@@ -50,42 +50,42 @@ ns:
       - "ns4-05.azure-dns.info."
   - name: "prod"
     ttl: 3600
-    record:
+    record: 
       - "ns1-05.azure-dns.com"
       - "ns2-05.azure-dns.net"
       - "ns3-05.azure-dns.org"
       - "ns4-05.azure-dns.info"
   - name: "saat"
     ttl: 900
-    record:
+    record: 
       - "ns1-03.azure-dns.com"
       - "ns2-03.azure-dns.net"
       - "ns3-03.azure-dns.org"
       - "ns4-03.azure-dns.info"
   - name: "sandbox"
     ttl: 900
-    record:
+    record: 
       - "ns1-05.azure-dns.com"
       - "ns2-08.azure-dns.net"
       - "ns3-08.azure-dns.org"
       - "ns4-08.azure-dns.info"
   - name: "spreview"
     ttl: 54000
-    record:
+    record: 
       - "ns1-08.azure-dns.com"
       - "ns2-08.azure-dns.net"
       - "ns3-08.azure-dns.org"
       - "ns4-08.azure-dns.info"
   - name: "sprod"
     ttl: 900
-    record:
+    record: 
       - "ns1-01.azure-dns.com"
       - "ns2-01.azure-dns.net"
       - "ns3-01.azure-dns.org"
       - "ns4-01.azure-dns.info"
   - name: "perftest"
     ttl: 900
-    record:
+    record: 
       - "ns1-09.azure-dns.com."
       - "ns2-09.azure-dns.net."
       - "ns3-09.azure-dns.org."
@@ -99,7 +99,7 @@ ns:
       - "ns4-01.azure-dns.info."
   - name: "nle"
     ttl: 900
-    record:
+    record: 
       - "ns1-07.azure-dns.com."
       - "ns2-07.azure-dns.net."
       - "ns3-07.azure-dns.org."
@@ -117,71 +117,71 @@ mx:
 A:
   - name: "bar"
     ttl: 900
-    record:
+    record: 
       - "51.143.156.74"
   - name: "build"
     ttl: 60
-    record:
+    record: 
       - "51.145.50.201"
   - name: "build-beta"
     ttl: 60
-    record:
+    record: 
       - "51.145.50.201"
   - name: "courts"
     ttl: 60
-    record:
+    record: 
       - "51.140.44.46"
   - name: "cp-nle"
     ttl: 3600
-    record:
+    record: 
       - "51.145.47.4"
   - name: "ctsc-web-forms-ui-stg"
     ttl: 60
-    record:
+    record: 
       - "51.145.47.4"
   - name: "divorce-palo-prod"
     ttl: 60
-    record:
+    record: 
       - "52.151.74.140"
   - name: "jdbureau"
     ttl: 60
-    record:
+    record: 
       - "51.11.44.158"
   - name: "jdbureau-nle"
     ttl: 60
-    record:
+    record: 
       - "51.145.47.4"
   - name: "jdfrontend"
     ttl: 60
-    record:
+    record: 
       - "51.104.252.236"
   - name: "jdfrontend-nle"
     ttl: 60
-    record:
+    record: 
       - "51.145.47.4"
   - name: "jdproxy-nle"
     ttl: 3600
-    record:
+    record: 
       - "51.145.47.4"
   - name: "maintenance-ccd"
     ttl: 3600
-    record:
+    record: 
       - "51.140.63.161"
   - name: "portal"
     ttl: 60
-    record:
+    record: 
       - "51.145.4.100"
   - name: "sandbox-build"
     ttl: 60
-    record:
+    record: 
       - "40.120.54.64"
   - name: "sandbox-build-beta"
     ttl: 60
-    record:
+    record: 
       - "40.120.54.64"
   - name: "sds-sandbox-build"
     ttl: 60
-    record:
+    record: 
       - "51.104.212.71"
   - name: "sds-build"
     ttl: 60
@@ -189,36 +189,36 @@ A:
       - "51.104.210.52"
   - name: "sftp"
     ttl: 300
-    record:
+    record: 
       - "51.132.40.106"
   - name: "sod-ss"
     ttl: 60
-    record:
+    record: 
       - "51.132.42.55"
   - name: "traefik-sod-ss"
     ttl: 60
-    record:
+    record: 
       - "51.132.42.55"
   - name: "traefik-stg"
     ttl: 60
-    record:
+    record: 
       - "51.145.47.4"
   - name: "traefik-ui-jb"
     ttl: 60
-    record:
+    record: 
       - "51.11.44.158"
   - name: "traefik-ui-jd"
     ttl: 60
-    record:
+    record: 
       - "51.104.252.236"
   - name: "vpn"
     ttl: 60
-    record:
+    record: 
       - "51.141.230.130"
   - name: "cvp-recording"
     ttl: 60
     record:
-      - "20.50.101.55"
+    - "20.50.101.55"
   - name: "response"
     ttl: 60
     record:
@@ -258,7 +258,7 @@ cname:
   - name: "administer-orgs"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.administer-orgs"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -277,11 +277,11 @@ cname:
   - name: "gateway.ccd"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "www.ccd"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true   
   - name: "apply-divorce.demo"
     ttl: 600
     record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
@@ -303,11 +303,11 @@ cname:
   - name: "fees-register"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "www.fees-register"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "gateway-ccd-ethosldata"
     ttl: 60
     record: "hmcts-ldata.azurefd.net"
@@ -320,7 +320,7 @@ cname:
   - name: "manage-case"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.manage-case"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -330,7 +330,7 @@ cname:
   - name: "manage-org"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.manage-org"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -340,18 +340,18 @@ cname:
   - name: "manage-payments"
     ttl: 900
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "www.manage-payments"
     ttl: 900
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "www.moneyclaim"
     ttl: 300
     record: "moneyclaim.reform.hmcts.net"
   - name: "www.moneyclaim-legal"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "divorce.nonprod"
     ttl: 3600
     record: "mojmaintenance.azurewebsites.net"
@@ -367,11 +367,11 @@ cname:
   - name: "paybubble"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "www.paybubble"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "probate"
     ttl: 60
     record: "6a9d29fa-e848-4bc7-b62b-31f7e3979eda.cloudapp.net"
@@ -402,7 +402,7 @@ cname:
   - name: "register-org"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "probate.saat"
     ttl: 60
     record: "probate-frontend-0f57-saat.azurewebsites.net"
@@ -445,11 +445,11 @@ cname:
   - name: "return-case-doc.ccd"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "immigration-appeal"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.immigration-appeal"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -489,7 +489,7 @@ cname:
   - name: "equality-and-diversity"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.idam-web-admin"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -499,17 +499,17 @@ cname:
   - name: "idam-web-admin"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.hmi-apim"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
   - name: "hmi-apim"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "cdnverify.hmi-apim"
     ttl: 3600
-    record: "cdnverify.hmcts-hmi-apim-shutter-prod.azureedge.net"
+    record: "cdnverify.hmcts-hmi-apim-shutter-prod.azureedge.net"  
   - name: "em11.mail-sscs-nonprod"
     ttl: 300
     record: "u19166834.wl085.sendgrid.net"
