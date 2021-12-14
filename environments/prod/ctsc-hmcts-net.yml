@@ -43,6 +43,20 @@ A:
     ttl: 300
     record: 
       - "81.131.15.79"
+  - name: "survey"
+    ttl: 300
+    record: 
+      - "81.131.15.79"
+     - name: "survey.preprod"
+    ttl: 300
+    record: 
+      - "81.131.15.81"
+        - name: "survey.training"
+    ttl: 300
+    record: 
+      - "81.131.15.82"
+
+
 
 
 
