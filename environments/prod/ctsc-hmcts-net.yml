@@ -56,10 +56,6 @@ A:
     record: 
       - "81.131.15.82"
 
-
-
-
-
 txt:
 
 cname:
@@ -81,4 +77,7 @@ cname:
   - name: "_b1d88452ca0fe46b8b5Bfedfe15fc923.efm.training"
     ttl: 300
     record: "00EFB4B0FE034DE4FED6085A13814E21.CD8F2B206441860AB1E3C152F1F81367.99a03297cd334305eeb2.sectigo.com."
+  - name: "_B3206FCFEEB16A87A7AE2328971DB3C9.survey"
+    ttl: 300
+    record: "D93F4FA3894409BB3DCC8B18D9D47F49.740EB5F79BFFF929B2D1F64FC92014EF.a3b2e0d095b2d7155d1b.sectigo.com."
     
