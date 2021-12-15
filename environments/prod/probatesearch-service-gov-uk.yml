@@ -8,4 +8,8 @@ txt: []
 
 srv: []
 
-cname: []
+cname:
+  - name: "www"
+    ttl: 360
+    record: "hmcts-portal.irm31-insight-a-uk.com"
+    shutter: false
