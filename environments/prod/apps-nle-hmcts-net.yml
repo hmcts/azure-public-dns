@@ -28,21 +28,27 @@ cname:
   - name: "caps"
     ttl: 300
     record: "hmcts-nle-int.azurefd.net"
+    shutter: true
   - name: "cman"
     ttl: 300
     record: "hmcts-nle-int.azurefd.net"
+    shutter: true
   - name: "mcnotify"
     ttl: 300
     record: "hmcts-nle-ext.azurefd.net"
+    shutter: true
   - name: "mcol"
     ttl: 300
     record: "hmcts-nle-ext.azurefd.net"
+    shutter: true
   - name: "pcnotify"
     ttl: 300
     record: "hmcts-nle-ext.azurefd.net"
+    shutter: true
   - name: "pcol"
     ttl: 300
     record: "hmcts-nle-ext.azurefd.net"
+    shutter: true
   - name: "sdt"
     ttl: 300
     record: "sdt-uks.apps-nle.hmcts.net"

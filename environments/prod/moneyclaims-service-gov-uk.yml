@@ -18,6 +18,7 @@ cname:
   - name: "afdverify.www"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
+    shutter: true
   - name: "em714.mail"
     ttl: 300
     record: "u19129221.wl222.sendgrid.net"

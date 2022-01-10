@@ -18,3 +18,4 @@ cname:
   - name: "afdverify.www"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
+    shutter: true

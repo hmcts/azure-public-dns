@@ -27,6 +27,7 @@ cname:
   - name: "afdverify.www.decree-absolute"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
+    shutter: true
   - name: "cdnverify.www.decree-absolute"
     ttl: 3600
     record: "cdnverify.hmcts-decree-absolute-shutter-prod.azureedge.net"
@@ -40,16 +41,18 @@ cname:
   - name: "afdverify.www.decree-nisi"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
+    shutter: true
   - name: "cdnverify.www.decree-nisi"
     ttl: 3600
     record: "cdnverify.hmcts-decree-nisi-shutter-prod.azureedge.net"
   - name: "www"
     ttl: 120
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.www"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
+    shutter: true
   - name: "cdnverify.www"
     ttl: 3600
     record: "cdnverify.hmcts-apply-divorce-shutter-prod.azureedge.net"

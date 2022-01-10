@@ -16,6 +16,7 @@ cname:
   - name: "afdverify"
     ttl: 300
     record: "afdverify.sdshmcts-prod.azurefd.net"
+    shutter: true
   - name: "cdnverify"
     ttl: 300
     record: "cdnverify.hmcts-jdbureau-shutter-prod.azureedge.net"

@@ -11,3 +11,4 @@ cname:
   - name: "afdverify.hmi-apim"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
+    shutter: true

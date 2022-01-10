@@ -25,9 +25,11 @@ cname:
   - name: "afdverify.www"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
+    shutter: true
   - name: "cdnverify.www.manage"
     ttl: 300
     record: "cdnverify.hmcts-manage-shutter-prod.azureedge.net"
   - name: "afdverify.www.manage"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
+    shutter: true

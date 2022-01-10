@@ -12,7 +12,9 @@ cname:
   - name: "caps"
     ttl: 300
     record: "hmcts-live-int.azurefd.net"
+    shutter: true
   - name: "cman"
     ttl: 300
     record: "hmcts-live-int.azurefd.net"
+    shutter: true
 
