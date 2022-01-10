@@ -59,3 +59,9 @@ cname:
   - name: "_4E5364004532ACECCFE1D7B1B1E2D414.px02"
     ttl: 10800
     record: "38F8C27E325F0ECB3B981256EB4C8FDD.B23B9774F924B30E0C871DC3713A2D4F.935a0def48ff0d197932.sectigo.com"
+
+txt:
+  - name: "_acme-challenge.hearings.reform.hmcts.net"
+    ttl: 60
+    record:
+      - "uoTTM_T2vyrt6xiv53-x0cKvMYHUFyNnB_jBVky2cvI"
