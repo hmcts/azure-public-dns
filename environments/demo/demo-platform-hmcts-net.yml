@@ -31,3 +31,12 @@ cname:
   - name: pip-frontend
     record: sdshmcts-demo.azurefd.net
     ttl: 300
+  - name: "em2252.mail-private-law-nonprod"
+    ttl: 300
+    record: "u24999805.wl056.sendgrid.net"
+  - name: "s1._domainkey.mail-private-law-nonprod"
+    ttl: 300
+    record: "s1.domainkey.u24999805.wl056.sendgrid.net"
+  - name: "s2._domainkey.mail-private-law-nonprod"
+    ttl: 300
+    record: "s2.domainkey.u24999805.wl056.sendgrid.net"

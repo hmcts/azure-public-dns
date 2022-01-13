@@ -241,3 +241,12 @@ cname:
   - name: "_4c2aa3cf7820ad559328554b0084d4af"
     ttl: 300
     record: "A8DE39B21BE7C0E63C7D0233E683637A.205D792E60EE2E5C66131C38BCD98C87.aad64398a969ec318680.comodoca.com."
+  - name: "em2252.mail-private-law-nonprod"
+    ttl: 300
+    record: "u24999805.wl056.sendgrid.net"
+  - name: "s1._domainkey.mail-private-law-nonprod"
+    ttl: 300
+    record: "s1.domainkey.u24999805.wl056.sendgrid.net"
+  - name: "s2._domainkey.mail-private-law-nonprod"
+    ttl: 300
+    record: "s2.domainkey.u24999805.wl056.sendgrid.net"
