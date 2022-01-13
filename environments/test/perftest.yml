@@ -75,6 +75,12 @@ cname:
   - name: "pcq"
     ttl: 3600
     record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.lau"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "lau"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
   - name: "afdverify.lau-case"
     ttl: 3600
     record: "afdverify.hmcts-perftest.azurefd.net"
@@ -179,6 +185,12 @@ cname:
     record: "afdverify.hmcts-perftest.azurefd.net"
   - name: "immigration-appeal"
     ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.cft-api-mgmt"
+    ttl: 300
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "cft-api-mgmt"
+    ttl: 300
     record: "hmcts-perftest.azurefd.net"
   - name: "_1b8b380f5b498882531eade6c02400cd"
     ttl: 3600
