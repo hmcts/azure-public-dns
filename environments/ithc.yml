@@ -195,6 +195,12 @@ cname:
     ttl: 300
     record: "hmcts-ithc.azurefd.net"
     shutter: false
+  - name: "afdverify.idam-user-dashboard"
+    ttl: 300
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "idam-user-dashboard"
+    ttl: 300
+    record: "hmcts-ithc.azurefd.net"
   - name: "toffee"
     ttl: 300
     record: "sdshmcts-ithc.azurefd.net"
