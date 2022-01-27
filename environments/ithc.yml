@@ -232,5 +232,17 @@ cname:
   - name: "s2._domainkey.mail-private-law-nonprod"
     ttl: 300
     record: "s2.domainkey.u24999805.wl056.sendgrid.net"
+  - name: vh-video-web
+    record: sdshmcts-ithc.azurefd.net
+    ttl: 300
+  - name: vh-admin-web
+    record: sdshmcts-ithc.azurefd.net
+    ttl: 300
+  - name: vh-service-web
+    record: sdshmcts-ithc.azurefd.net
+    ttl: 300
+  - name: vh-test-web
+    record: sdshmcts-ithc.azurefd.net
+    ttl: 300
 
 
