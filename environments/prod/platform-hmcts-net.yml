@@ -729,3 +729,6 @@ cname:
   - name: "s2._domainkey.mail-db-reporting-prod"
     ttl: 300
     record: "s2.domainkey.u23337691.wl192.sendgrid.net"
+  - name: pip-frontend
+    record: sdshmcts-prod.azurefd.net
+    ttl: 300
