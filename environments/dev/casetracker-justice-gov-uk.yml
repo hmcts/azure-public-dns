@@ -1,0 +1,16 @@
+ns:
+
+mx:
+
+A:
+  - name: "@"
+    ttl: 60
+    alias_target_resource_id: "/subscriptions/867a878b-cb68-4de5-9741-361ac9e178b6/resourceGroups/lz-dev-rg/providers/Microsoft.Network/frontdoors/sdshmcts-dev"
+
+txt:
+
+
+cname:
+  - name: "afdverify"
+    ttl: 300
+    record: "afdverify.sdshmcts-dev.azurefd.net"
