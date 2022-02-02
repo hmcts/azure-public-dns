@@ -8,5 +8,5 @@ module "casetracker" {
   a_recordsets        = yamldecode(data.local_file.casetracker-config.content).A
   zone_name           = "staging-casetracker.justice.gov.uk"
   resource_group_name = data.azurerm_resource_group.main.name
-  env                 = var.env
+  env                 = "stg"
 }
