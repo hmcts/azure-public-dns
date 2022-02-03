@@ -27,6 +27,12 @@ cname:
   - name: "afdverify.reformscan"
     ttl: 60
     record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "afdverify.civil-citizen-ui"
+    ttl: 300
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "civil-citizen-ui"
+    ttl: 300
+    record: "hmcts-perftest.azurefd.net"
   - name: "afdverify.moneyclaims"
     ttl: 3600
     record: "afdverify.hmcts-perftest.azurefd.net"
