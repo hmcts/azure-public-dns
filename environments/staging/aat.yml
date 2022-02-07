@@ -118,6 +118,12 @@ cname:
   - name: "moneyclaims-legal"
     ttl: 3600
     record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.civil-citizen-ui"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "civil-citizen-ui"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.www-ccd"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
