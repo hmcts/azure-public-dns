@@ -52,12 +52,6 @@ cname:
   - name: vh-test-web
     record: sdshmcts-demo.azurefd.net
     ttl: 300
-  - name: "afdverify.adoption-web"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "adoption-web"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
   - name: "afdverify.civil-citizen-ui"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
