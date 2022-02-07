@@ -142,6 +142,7 @@ cname:
   - name: "pcq"
     ttl: 300
     record: "hmcts-aat.azurefd.net"
+    shutter: true
   - name: "afdverify.lau"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
