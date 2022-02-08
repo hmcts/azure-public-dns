@@ -737,3 +737,15 @@ cname:
   - name: vh-test-web
     record: sdshmcts-prod.azurefd.net
     ttl: 300
+  - name: "afdverify.pip"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "afdverify.vh"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.pip" 
+    ttl: 300
+    record: "cdnverify.hmcts-pip-shutter-prod.azureedge.net"
+  - name: "cdnverify.vh" 
+    ttl: 300
+    record: "cdnverify.hmcts-vh-shutter-prod.azureedge.net"

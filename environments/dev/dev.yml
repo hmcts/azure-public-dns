@@ -65,3 +65,6 @@ cname:
   - name: vh-test-web
     record: sdshmcts-dev.azurefd.net
     ttl: 300
+  - name: "afdverify.vh"
+    ttl: 300
+    record: "afdverify.hmcts-dev.azurefd.net"

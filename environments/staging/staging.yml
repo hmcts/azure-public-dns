@@ -25,6 +25,12 @@ cname:
   - name: "afdverify.toffee"
     ttl: 3600
     record: "afdverify.sdshmcts-stg.azurefd.net"
+  - name: "afdverify.pip"
+    ttl: 300
+    record: "afdverify.hmcts-stg.azurefd.net"
+  - name: "afdverify.vh"
+    ttl: 300
+    record: "afdverify.hmcts-stg.azurefd.net"
   - name: pip-frontend
     record: sdshmcts-stg.azurefd.net
     ttl: 300
