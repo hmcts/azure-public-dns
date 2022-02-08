@@ -168,3 +168,6 @@ cname:
   - name: vh-test-web
     record: sdshmcts-sbox.azurefd.net
     ttl: 300
+  - name: "afdverify.vh"
+    ttl: 300
+    record: "afdverify.hmcts-sbox.azurefd.net"
