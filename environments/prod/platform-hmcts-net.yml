@@ -278,10 +278,6 @@ cname:
     ttl: 60
     record: "hmcts-prod.azurefd.net"
     shutter: false
-  - name: "www.ccd"
-    ttl: 60
-    record: "hmcts-prod.azurefd.net"
-    shutter: false
   - name: "apply-divorce.demo"
     ttl: 600
     record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
@@ -290,9 +286,6 @@ cname:
     record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
   - name: "tmgateway.ccd.demo"
     ttl: 300
-    record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
-  - name: "www.ccd.demo"
-    ttl: 900
     record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
   - name: "hmcts-access.demo"
     ttl: 900
@@ -744,3 +737,15 @@ cname:
   - name: vh-test-web
     record: sdshmcts-prod.azurefd.net
     ttl: 300
+  - name: "afdverify.pip"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "afdverify.vh"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.pip" 
+    ttl: 300
+    record: "cdnverify.hmcts-pip-shutter-prod.azureedge.net"
+  - name: "cdnverify.vh" 
+    ttl: 300
+    record: "cdnverify.hmcts-vh-shutter-prod.azureedge.net"
