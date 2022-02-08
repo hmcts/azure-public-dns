@@ -62,6 +62,12 @@ cname:
     ttl: 300
     record: "hmcts-ithc.azurefd.net"
     shutter: false
+  - name: "afdverify.civil-citizen-ui"
+    ttl: 300
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "civil-citizen-ui"
+    ttl: 300
+    record: "hmcts-ithc.azurefd.net"
   - name: "afdverify.moneyclaims"
     ttl: 3600
     record: "afdverify.hmcts-ithc.azurefd.net"
@@ -77,9 +83,6 @@ cname:
   - name: "afdverify.return-case-doc-ccd"
     ttl: 3600
     record: "afdverify.hmcts-ithc.azurefd.net"
-  - name: "www-ccd"
-    ttl: 3600
-    record: "hmcts-ithc.azurefd.net"
   - name: "gateway-ccd"
     ttl: 3600
     record: "hmcts-ithc.azurefd.net"
@@ -232,5 +235,17 @@ cname:
   - name: "s2._domainkey.mail-private-law-nonprod"
     ttl: 300
     record: "s2.domainkey.u24999805.wl056.sendgrid.net"
+  - name: vh-video-web
+    record: sdshmcts-ithc.azurefd.net
+    ttl: 300
+  - name: vh-admin-web
+    record: sdshmcts-ithc.azurefd.net
+    ttl: 300
+  - name: vh-service-web
+    record: sdshmcts-ithc.azurefd.net
+    ttl: 300
+  - name: vh-test-web
+    record: sdshmcts-ithc.azurefd.net
+    ttl: 300
 
 

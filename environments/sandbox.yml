@@ -156,3 +156,15 @@ cname:
   - name: "labs-louisehuyton-nodejs"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
+  - name: vh-video-web
+    record: sdshmcts-sbox.azurefd.net
+    ttl: 300
+  - name: vh-admin-web
+    record: sdshmcts-sbox.azurefd.net
+    ttl: 300
+  - name: vh-service-web
+    record: sdshmcts-sbox.azurefd.net
+    ttl: 300
+  - name: vh-test-web
+    record: sdshmcts-sbox.azurefd.net
+    ttl: 300

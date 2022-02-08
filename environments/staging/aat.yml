@@ -64,9 +64,6 @@ cname:
   - name: "tmgateway-ccd"
     ttl: 60
     record: "fbdcf28e-3dee-4ff3-b202-b2367b261d8d.cloudapp.net"
-  - name: "www-ccd"
-    ttl: 900
-    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.benefit-appeal"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
@@ -120,6 +117,12 @@ cname:
     record: "afdverify.hmcts-aat.azurefd.net"
   - name: "moneyclaims-legal"
     ttl: 3600
+    record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.civil-citizen-ui"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "civil-citizen-ui"
+    ttl: 300
     record: "hmcts-aat.azurefd.net"
   - name: "afdverify.www-ccd"
     ttl: 3600
