@@ -5,7 +5,6 @@ data "local_file" "end-civil-partnership-config" {
 module "end-civil-partnership" {
   source              = "../../modules/azure-public-dns/"
   cname_records       = yamldecode(data.local_file.end-civil-partnership-config.content).cname
-  txt_recordsets      = yamldecode(data.local_file.end-civil-partnership-config.content).txt
   zone_name           = "end-civil-partnership.service.gov.uk"
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
