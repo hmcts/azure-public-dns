@@ -135,7 +135,7 @@ A:
     ttl: 3600
     record:
       - "51.145.47.4"
-  - name: "ctsc-web-forms-ui-stg"
+  - name: "ctsc-web-forms-ui-prod"
     ttl: 60
     record:
       - "51.145.47.4"
@@ -199,7 +199,7 @@ A:
     ttl: 60
     record:
       - "51.132.42.55"
-  - name: "traefik-stg"
+  - name: "traefik-prod"
     ttl: 60
     record:
       - "51.145.47.4"
@@ -386,10 +386,10 @@ cname:
   - name: "asverify.reformscan"
     ttl: 3600
     record: "asverify.reformscanprod.blob.core.windows.net"
-  - name: "asverify.reformscanstg"
+  - name: "asverify.reformscanprod"
     ttl: 300
     record: "asverify.reformscanprodstaging.blob.core.windows.net"
-  - name: "reformscanstg"
+  - name: "reformscanprod"
     ttl: 300
     record: "reformscanprodstaging.blob.core.windows.net"
   - name: "register-org"
@@ -723,47 +723,47 @@ cname:
     ttl: 300
     record: "s2.domainkey.u23337691.wl192.sendgrid.net"
   - name: pip-frontend
-    record: sdshmcts-stg.azurefd.net
+    record: sdshmcts-prod.azurefd.net
     ttl: 300
   - name: "afdverify.pip-frontend"
     ttl: 300
-    record: "afdverify.hmcts-stg.azurefd.net"
+    record: "afdverify.hmcts-prod.azurefd.net"
   - name: "cdnverify.pip-frontend" 
     ttl: 300
     record: "cdnverify.hmcts-pip-frontend-shutter-prod.azureedge.net"
   - name: vh-video-web
-    record: sdshmcts-stg.azurefd.net
+    record: sdshmcts-prod.azurefd.net
     ttl: 300
   - name: "afdverify.vh-video-web"
     ttl: 300
-    record: "afdverify.hmcts-stg.azurefd.net"
+    record: "afdverify.hmcts-prod.azurefd.net"
   - name: "cdnverify.vh-video-web" 
     ttl: 300
     record: "cdnverify.hmcts-vh-video-web-shutter-prod.azureedge.net"
   - name: vh-admin-web
-    record: sdshmcts-stg.azurefd.net
+    record: sdshmcts-prod.azurefd.net
     ttl: 300
   - name: "afdverify.vh-admin-web"
     ttl: 300
-    record: "afdverify.hmcts-stg.azurefd.net"
+    record: "afdverify.hmcts-prod.azurefd.net"
   - name: "cdnverify.vh-admin-web" 
     ttl: 300
     record: "cdnverify.hmcts-vh-admin-web-shutter-prod.azureedge.net"
   - name: vh-service-web
-    record: sdshmcts-stg.azurefd.net
+    record: sdshmcts-prod.azurefd.net
     ttl: 300
   - name: "afdverify.vh-service-web"
     ttl: 300
-    record: "afdverify.hmcts-stg.azurefd.net"
+    record: "afdverify.hmcts-prod.azurefd.net"
   - name: "cdnverify.vh-service-web" 
     ttl: 300
     record: "cdnverify.hmcts-vh-service-web-shutter-prod.azureedge.net"
   - name: vh-test-web
-    record: sdshmcts-stg.azurefd.net
+    record: sdshmcts-prod.azurefd.net
     ttl: 300
   - name: "afdverify.vh-test-web"
     ttl: 300
-    record: "afdverify.hmcts-stg.azurefd.net"
+    record: "afdverify.hmcts-prod.azurefd.net"
   - name: "cdnverify.vh-test-web" 
     ttl: 300
     record: "cdnverify.hmcts-vh-test-web-shutter-prod.azureedge.net"
