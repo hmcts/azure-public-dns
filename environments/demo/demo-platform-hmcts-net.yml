@@ -42,17 +42,29 @@ cname:
     ttl: 300
     record: "s2.domainkey.u24999805.wl056.sendgrid.net"
   - name: vh-video-web
-    record: sdshmcts-demo.azurefd.net
+    record: sdshmcts-stg.azurefd.net
     ttl: 300
+  - name: "afdverify.vh-video-web"
+    ttl: 300
+    record: "afdverify.hmcts-stg.azurefd.net"
   - name: vh-admin-web
-    record: sdshmcts-demo.azurefd.net
+    record: sdshmcts-stg.azurefd.net
     ttl: 300
+  - name: "afdverify.vh-admin-web"
+    ttl: 300
+    record: "afdverify.hmcts-stg.azurefd.net"
   - name: vh-service-web
-    record: sdshmcts-demo.azurefd.net
+    record: sdshmcts-stg.azurefd.net
     ttl: 300
+  - name: "afdverify.vh-service-web"
+    ttl: 300
+    record: "afdverify.hmcts-stg.azurefd.net"
   - name: vh-test-web
-    record: sdshmcts-demo.azurefd.net
+    record: sdshmcts-stg.azurefd.net
     ttl: 300
+  - name: "afdverify.vh-test-web"
+    ttl: 300
+    record: "afdverify.hmcts-stg.azurefd.net"
   - name: "afdverify.civil-citizen-ui"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"

@@ -157,17 +157,26 @@ cname:
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
   - name: vh-video-web
-    record: sdshmcts-sbox.azurefd.net
+    record: sdshmcts-stg.azurefd.net
     ttl: 300
+  - name: "afdverify.vh-video-web"
+    ttl: 300
+    record: "afdverify.hmcts-stg.azurefd.net"
   - name: vh-admin-web
-    record: sdshmcts-sbox.azurefd.net
+    record: sdshmcts-stg.azurefd.net
     ttl: 300
+  - name: "afdverify.vh-admin-web"
+    ttl: 300
+    record: "afdverify.hmcts-stg.azurefd.net"
   - name: vh-service-web
-    record: sdshmcts-sbox.azurefd.net
+    record: sdshmcts-stg.azurefd.net
     ttl: 300
+  - name: "afdverify.vh-service-web"
+    ttl: 300
+    record: "afdverify.hmcts-stg.azurefd.net"
   - name: vh-test-web
-    record: sdshmcts-sbox.azurefd.net
+    record: sdshmcts-stg.azurefd.net
     ttl: 300
-  - name: "afdverify.vh"
+  - name: "afdverify.vh-test-web"
     ttl: 300
-    record: "afdverify.hmcts-sbox.azurefd.net"
+    record: "afdverify.hmcts-stg.azurefd.net"
