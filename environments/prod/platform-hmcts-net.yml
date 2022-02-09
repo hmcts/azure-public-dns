@@ -135,7 +135,7 @@ A:
     ttl: 3600
     record:
       - "51.145.47.4"
-  - name: "ctsc-web-forms-ui-prod"
+  - name: "ctsc-web-forms-ui-stg"
     ttl: 60
     record:
       - "51.145.47.4"
@@ -199,7 +199,7 @@ A:
     ttl: 60
     record:
       - "51.132.42.55"
-  - name: "traefik-prod"
+  - name: "traefik-stg"
     ttl: 60
     record:
       - "51.145.47.4"
@@ -386,10 +386,10 @@ cname:
   - name: "asverify.reformscan"
     ttl: 3600
     record: "asverify.reformscanprod.blob.core.windows.net"
-  - name: "asverify.reformscanprod"
+  - name: "asverify.reformscanstg"
     ttl: 300
     record: "asverify.reformscanprodstaging.blob.core.windows.net"
-  - name: "reformscanprod"
+  - name: "reformscanstg"
     ttl: 300
     record: "reformscanprodstaging.blob.core.windows.net"
   - name: "register-org"
