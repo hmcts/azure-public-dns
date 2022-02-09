@@ -1,0 +1,29 @@
+ns:
+
+
+mx:
+
+A:
+
+txt:
+  - name: "_dnsauth.www"
+    ttl: 3600
+    record: 
+      - "5bz95ky3c27gb6475yz0yx2x1g4wg6qc"
+
+
+cname:
+  - name: "*"
+    ttl: 60
+    record: "www.end-civil-partnership.service.gov.uk"
+    shutter: false
+  - name: "www"
+    ttl: 120
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
+  - name: "afdverify.www"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.www"
+    ttl: 3600
+    record: "cdnverify.hmcts-apply-divorce-shutter-prod.azureedge.net"
