@@ -153,9 +153,6 @@ cname:
   - name: "afdverify.sds-api-mgmt"
     ttl: 3600
     record: "afdverify.sdshmcts-sbox.azurefd.net"
-  - name: "labs-louisehuyton-nodejs"
-    ttl: 300
-    record: "hmcts-sbox.azurefd.net"
   - name: vh-video-web
     record: sdshmcts-stg.azurefd.net
     ttl: 300
