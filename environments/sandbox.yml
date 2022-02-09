@@ -156,19 +156,28 @@ cname:
   - name: vh-video-web
     record: sdshmcts-sbox.azurefd.net
     ttl: 300
+    shutter: false
+  - name: "afdverify.vh-video-web"
+    ttl: 300
+    record: "afdverify.hmcts-sbox.azurefd.net"
   - name: vh-admin-web
     record: sdshmcts-sbox.azurefd.net
     ttl: 300
+    shutter: false
+  - name: "afdverify.vh-admin-web"
+    ttl: 300
+    record: "afdverify.hmcts-sbox.azurefd.net"
   - name: vh-service-web
     record: sdshmcts-sbox.azurefd.net
     ttl: 300
+    shutter: false
+  - name: "afdverify.vh-service-web"
+    ttl: 300
+    record: "afdverify.hmcts-sbox.azurefd.net"
   - name: vh-test-web
     record: sdshmcts-sbox.azurefd.net
     ttl: 300
-  - name: "afdverify.vh"
+    shutter: false
+  - name: "afdverify.vh-test-web"
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
-  - name: "labs-louisehuyton-walkthrough"
-    ttl: 300
-    record: "hmcts-sbox.azurefd.net"
-    
