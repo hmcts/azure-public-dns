@@ -2,7 +2,11 @@ ns: []
 
 mx: []
 
-A: []
+A:
+  - name: "toffee"
+    ttl: 300
+    record:
+      - "20.108.232.218"
 
 txt:
   - name: "idam-web-public"
