@@ -34,18 +34,30 @@ cname:
   - name: pip-frontend
     record: sdshmcts-stg.azurefd.net
     ttl: 300
-  - name: hmi-case-hq-emulator
-    record: sdshmcts-stg.azurefd.net
+  - name: "afdverify.pip-frontend"
     ttl: 300
+    record: "afdverify.hmcts-stg.azurefd.net"
   - name: vh-video-web
     record: sdshmcts-stg.azurefd.net
     ttl: 300
+  - name: "afdverify.vh-video-web"
+    ttl: 300
+    record: "afdverify.hmcts-stg.azurefd.net"
   - name: vh-admin-web
     record: sdshmcts-stg.azurefd.net
     ttl: 300
+  - name: "afdverify.vh-admin-web"
+    ttl: 300
+    record: "afdverify.hmcts-stg.azurefd.net"
   - name: vh-service-web
     record: sdshmcts-stg.azurefd.net
     ttl: 300
+  - name: "afdverify.vh-service-web"
+    ttl: 300
+    record: "afdverify.hmcts-stg.azurefd.net"
   - name: vh-test-web
     record: sdshmcts-stg.azurefd.net
     ttl: 300
+  - name: "afdverify.vh-test-web"
+    ttl: 300
+    record: "afdverify.hmcts-stg.azurefd.net"

@@ -2,7 +2,15 @@ ns: []
 
 mx: []
 
-A: []
+A:
+  - name: "toffee"
+    ttl: 300
+    record:
+      - "20.108.232.218"
+  - name: "pip-frontend"
+    ttl: 300
+    record:
+      - "20.108.232.218"
 
 txt:
   - name: "idam-web-public"
@@ -44,15 +52,27 @@ cname:
   - name: vh-video-web
     record: sdshmcts-demo.azurefd.net
     ttl: 300
+  - name: "afdverify.vh-video-web"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
   - name: vh-admin-web
     record: sdshmcts-demo.azurefd.net
     ttl: 300
+  - name: "afdverify.vh-admin-web"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
   - name: vh-service-web
     record: sdshmcts-demo.azurefd.net
     ttl: 300
+  - name: "afdverify.vh-service-web"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
   - name: vh-test-web
     record: sdshmcts-demo.azurefd.net
     ttl: 300
+  - name: "afdverify.vh-test-web"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
   - name: "afdverify.civil-citizen-ui"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
