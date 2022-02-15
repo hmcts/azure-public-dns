@@ -11,6 +11,3 @@ txt:
 
 
 cname:
-  - name: "afdverify"
-    ttl: 300
-    record: "afdverify.sdshmcts-stg.azurefd.net"
