@@ -7,7 +7,6 @@ A:
     ttl: 60
     alias_target_resource_id: "/subscriptions/74dacd4f-a248-45bb-a2f0-af700dc4cf68/resourceGroups/lz-stg-rg/providers/Microsoft.Network/frontdoors/sdshmcts-stg"
 
-txt:
+txt: []
 
-
-cname:
+cname: []
