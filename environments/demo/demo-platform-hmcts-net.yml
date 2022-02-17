@@ -21,6 +21,10 @@ txt:
     ttl: 3600
     record:
       - 20.108.232.218
+  - name: "_acme-challenge"
+    ttl: 3600
+    record:
+      - "HWE6ryoKJzI-pOKY7IvQelHbrTa7uEkK5J9h2prcByY"
 
 srv: []
 
