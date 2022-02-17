@@ -79,3 +79,6 @@ cname:
   - name: "civil-citizen-ui"
     ttl: 300
     record: "hmcts-demo.azurefd.net"
+  - name: "_acme-challenge"
+    ttl: 300
+    record: "tfEEgVzwyAF4cpjngYa6xZexc-bQnW1VBiZLL_bwPG0"
