@@ -82,3 +82,6 @@ cname:
   - name: "_acme-challenge"
     ttl: 300
     record: "tfEEgVzwyAF4cpjngYa6xZexc-bQnW1VBiZLL_bwPG0"
+  - name: "_acme-challenge"
+    ttl: 300
+    record: "HWE6ryoKJzI-pOKY7IvQelHbrTa7uEkK5J9h2prcByY"
