@@ -21,10 +21,6 @@ txt:
     ttl: 3600
     record:
       - 20.108.232.218
-  - name: "_acme-challenge"
-    ttl: 3600
-    record:
-      - "HWE6ryoKJzI-pOKY7IvQelHbrTa7uEkK5J9h2prcByY"
 
 srv: []
 
@@ -83,6 +79,3 @@ cname:
   - name: "civil-citizen-ui"
     ttl: 300
     record: "hmcts-demo.azurefd.net"
-  - name: "_acme-challenge"
-    ttl: 300
-    record: "tfEEgVzwyAF4cpjngYa6xZexc-bQnW1VBiZLL_bwPG0"
