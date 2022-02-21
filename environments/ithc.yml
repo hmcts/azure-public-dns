@@ -83,9 +83,6 @@ cname:
   - name: "afdverify.return-case-doc-ccd"
     ttl: 3600
     record: "afdverify.hmcts-ithc.azurefd.net"
-  - name: "www-ccd"
-    ttl: 3600
-    record: "hmcts-ithc.azurefd.net"
   - name: "gateway-ccd"
     ttl: 3600
     record: "hmcts-ithc.azurefd.net"
@@ -138,18 +135,6 @@ cname:
     ttl: 3600
     record: "afdverify.hmcts-ithc.azurefd.net"
   - name: "lau"
-    ttl: 3600
-    record: "hmcts-ithc.azurefd.net"
-  - name: "afdverify.lau-case"
-    ttl: 3600
-    record: "afdverify.hmcts-ithc.azurefd.net"
-  - name: "lau-case"
-    ttl: 3600
-    record: "hmcts-ithc.azurefd.net"
-  - name: "afdverify.lau-idam"
-    ttl: 3600
-    record: "afdverify.hmcts-ithc.azurefd.net"
-  - name: "lau-idam"
     ttl: 3600
     record: "hmcts-ithc.azurefd.net"
   - name: "afdverify.bar"

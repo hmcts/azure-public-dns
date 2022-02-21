@@ -278,10 +278,6 @@ cname:
     ttl: 60
     record: "hmcts-prod.azurefd.net"
     shutter: false
-  - name: "www.ccd"
-    ttl: 60
-    record: "hmcts-prod.azurefd.net"
-    shutter: false
   - name: "apply-divorce.demo"
     ttl: 600
     record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
@@ -290,9 +286,6 @@ cname:
     record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
   - name: "tmgateway.ccd.demo"
     ttl: 300
-    record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
-  - name: "www.ccd.demo"
-    ttl: 900
     record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
   - name: "hmcts-access.demo"
     ttl: 900
@@ -742,15 +735,33 @@ cname:
   - name: pip-frontend
     record: sdshmcts-prod.azurefd.net
     ttl: 300
+  - name: "afdverify.pip-frontend"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.pip-frontend" 
+    ttl: 300
+    record: "cdnverify.hmcts-pip-frontend-shutter-prod.azureedge.net"
   - name: vh-video-web
     record: sdshmcts-prod.azurefd.net
     ttl: 300
+  - name: "afdverify.vh-video-web"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
   - name: vh-admin-web
     record: sdshmcts-prod.azurefd.net
     ttl: 300
+  - name: "afdverify.vh-admin-web"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
   - name: vh-service-web
     record: sdshmcts-prod.azurefd.net
     ttl: 300
+  - name: "afdverify.vh-service-web"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
   - name: vh-test-web
     record: sdshmcts-prod.azurefd.net
     ttl: 300
+  - name: "afdverify.vh-test-web"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"

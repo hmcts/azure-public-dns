@@ -2,13 +2,25 @@ ns: []
 
 mx: []
 
-A: []
+A:
+  - name: "toffee"
+    ttl: 300
+    record:
+      - "20.108.232.218"
+  - name: "pip-frontend"
+    ttl: 300
+    record:
+      - "20.108.232.218"
 
 txt:
   - name: "idam-web-public"
     ttl: 3600
     record:
       - "google-site-verification=eqMUm6VJdh4KEmuEJpRYRUe-Hmaee8GHf-pniuk7bLI"
+  - name: "pip-frontend"
+    ttl: 3600
+    record:
+      - 20.108.232.218
 
 srv: []
 
@@ -28,9 +40,6 @@ cname:
   - name: "_44cb36f0c4dde84c9ff1534180bb24da"
     ttl: 300
     record: "56DDD5BB7BD629DD7B32C2EF75824ECB.4FDD1FE37015F188615E327886C95C9B.44e67a303e887000a548.comodoca.com."
-  - name: pip-frontend
-    record: sdshmcts-demo.azurefd.net
-    ttl: 300
   - name: "em2252.mail-private-law-nonprod"
     ttl: 300
     record: "u24999805.wl056.sendgrid.net"
@@ -43,21 +52,27 @@ cname:
   - name: vh-video-web
     record: sdshmcts-demo.azurefd.net
     ttl: 300
+  - name: "afdverify.vh-video-web"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
   - name: vh-admin-web
     record: sdshmcts-demo.azurefd.net
     ttl: 300
+  - name: "afdverify.vh-admin-web"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
   - name: vh-service-web
     record: sdshmcts-demo.azurefd.net
     ttl: 300
+  - name: "afdverify.vh-service-web"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
   - name: vh-test-web
     record: sdshmcts-demo.azurefd.net
     ttl: 300
-  - name: "afdverify.adoption-web"
+  - name: "afdverify.vh-test-web"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "adoption-web"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
   - name: "afdverify.civil-citizen-ui"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
