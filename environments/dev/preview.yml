@@ -27,13 +27,13 @@ cname:
   - name: "_c67fec9b0864f2bb0714ad20237737b8"
     ttl: 60
     record: "F34A65BD30EBB2DFDFB79A4AA2BB1DE2.345B5C367A0AB72A72BDE0D54D9AA0E7.09ce3c5fe952c1b21211.comodoca.com."
-  - name: "em2252.mail-private-law-nonprod"
+  - name: "	em6134.mail-prl-nonprod"
     ttl: 300
     record: "u24999805.wl056.sendgrid.net"
-  - name: "s1._domainkey.mail-private-law-nonprod"
+  - name: "s1._domainkey.mail-prl-nonprod"
     ttl: 300
     record: "s1.domainkey.u24999805.wl056.sendgrid.net"
-  - name: "s2._domainkey.mail-private-law-nonprod"
+  - name: "s2._domainkey.mail-prl-nonprod"
     ttl: 300
     record: "s2.domainkey.u24999805.wl056.sendgrid.net"
 
