@@ -73,9 +73,4 @@ cname:
   - name: "afdverify.vh-test-web"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "afdverify.civil-citizen-ui"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "civil-citizen-ui"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
+
