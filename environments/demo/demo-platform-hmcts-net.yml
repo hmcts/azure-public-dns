@@ -6,7 +6,7 @@ A:
   - name: "toffee"
     ttl: 300
     record:
-      - "20.108.232.218"
+      - "20.90.197.52"
   - name: "pip-frontend"
     ttl: 300
     record:
