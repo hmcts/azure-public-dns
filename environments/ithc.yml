@@ -211,13 +211,13 @@ cname:
   - name: "_404182799e5e3fefe26b09d10f47bce9"
     ttl: 3600
     record: "17C2322AA10D8E2E87769BDD1EBC28EC.B245DB1A1DB26037B07B508290FC32A6.e56dbe0f3e1c9cecf699.comodoca.com."
-  - name: "em2252.mail-private-law-nonprod"
+  - name: "em8016.mail-prl-nonprod"
     ttl: 300
     record: "u24999805.wl056.sendgrid.net"
-  - name: "s1._domainkey.mail-private-law-nonprod"
+  - name: "s1._domainkey.mail-prl-nonprod"
     ttl: 300
     record: "s1.domainkey.u24999805.wl056.sendgrid.net"
-  - name: "s2._domainkey.mail-private-law-nonprod"
+  - name: "s2._domainkey.mail-prl-nonprod"
     ttl: 300
     record: "s2.domainkey.u24999805.wl056.sendgrid.net"
   - name: vh-video-web

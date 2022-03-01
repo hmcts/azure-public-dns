@@ -189,12 +189,12 @@ cname:
   - name: "_1b8b380f5b498882531eade6c02400cd"
     ttl: 3600
     record: "F9A67113DE1A34EE3AB88C964719B045.D0CB73465718E425F308BE76B7946D22.b49fdab097253cac48e3.comodoca.com."
-  - name: "em2252.mail-private-law-nonprod"
+  - name: "em8852.mail-prl-nonprod"
     ttl: 300
     record: "u24999805.wl056.sendgrid.net"
-  - name: "s1._domainkey.mail-private-law-nonprod"
+  - name: "s1._domainkey.mail-prl-nonprod"
     ttl: 300
     record: "s1.domainkey.u24999805.wl056.sendgrid.net"
-  - name: "s2._domainkey.mail-private-law-nonprod"
+  - name: "s2._domainkey.mail-prl-nonprod"
     ttl: 300
     record: "s2.domainkey.u24999805.wl056.sendgrid.net"
