@@ -45,9 +45,6 @@ cname:
   - name: "moneyclaims-legal"
     ttl: 300
     record: "hmcts-perftest.azurefd.net"
-  - name: "afdverify.www-ccd"
-    ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
   - name: "afdverify.gateway-ccd"
     ttl: 3600
     record: "afdverify.hmcts-perftest.azurefd.net"

@@ -278,21 +278,6 @@ cname:
     ttl: 60
     record: "hmcts-prod.azurefd.net"
     shutter: false
-  - name: "apply-divorce.demo"
-    ttl: 600
-    record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
-  - name: "www.apply-divorce.demo"
-    ttl: 60
-    record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
-  - name: "tmgateway.ccd.demo"
-    ttl: 300
-    record: "315e3bca-08c2-4597-a4fb-1dd076eff917.cloudapp.net"
-  - name: "hmcts-access.demo"
-    ttl: 900
-    record: "bdd07956-53a1-46ed-a7b9-baf686c9bee1.cloudapp.net"
-  - name: "awverify.sscs.demo"
-    ttl: 60
-    record: "awverify.sscs-tya-frontend-demo-shutter.azurewebsites.net"
   - name: "fees-register"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
@@ -301,9 +286,6 @@ cname:
     ttl: 60
     record: "hmcts-prod.azurefd.net"
     shutter: false
-  - name: "gateway-ccd-ethosldata"
-    ttl: 60
-    record: "hmcts-ldata.azurefd.net"
   - name: "idam-web-public-ethosldata"
     ttl: 60
     record: "hmcts-ldata.azurefd.net"
@@ -402,9 +384,6 @@ cname:
   - name: "awverify.probate.saat"
     ttl: 60
     record: "awverify.probate-frontend-0f57-saat.azurewebsites.net"
-  - name: "www-ccd-ethosldata"
-    ttl: 60
-    record: "hmcts-ldata.azurefd.net"
   - name: "afdverify.register-org"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -597,81 +576,6 @@ cname:
   - name: "s2._domainkey.mail-civil-prod.platform.hmcts.net"
     ttl: 300
     record: "s2.domainkey.u21914017.wl018.sendgrid.net"
-  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.ccd"
-    ttl: 300
-    record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
-  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.admin-gateway.ccd"
-    ttl: 300
-    record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
-  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.admin.ccd"
-    ttl: 300
-    record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
-  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.api.ccd"
-    ttl: 300
-    record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
-  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.callback.ccd"
-    ttl: 300
-    record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
-  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.case-activity-api.ccd"
-    ttl: 300
-    record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
-  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.case-data-api.ccd"
-    ttl: 300
-    record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
-  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.case-definition-api.ccd"
-    ttl: 300
-    record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
-  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.gateway.ccd"
-    ttl: 300
-    record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
-  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.return-case-doc.ccd"
-    ttl: 300
-    record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
-  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.user-profile-api.ccd"
-    ttl: 300
-    record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
-  - name: "_6a1b0148b51aa81b6efa9ee381182f7d.www.ccd"
-    ttl: 300
-    record: "3781917CFA062884E530D8F4801CAA7C.B379E5FF10F7E956ADEF47D7A55DFA5B.83e6341c952eb1f0fe89.comodoca.com."
-  - name: "_94FBE046A53C70650B5F488AE7D5EE4B.splunk"
-    ttl: 10800
-    record: "7CF07AF5BB9F4390B8CE2021A726BE35.3281CFD1C7AA3F647C247FD3E6A8C9E6.7aa7b77461bd44a3f9da.comodoca.com."
-  - name: "_94FBE046A53C70650B5F488AE7D5EE4B.splunk-idx-prod-vm00"
-    ttl: 10800
-    record: "7CF07AF5BB9F4390B8CE2021A726BE35.3281CFD1C7AA3F647C247FD3E6A8C9E6.7aa7b77461bd44a3f9da.comodoca.com."
-  - name: "_94FBE046A53C70650B5F488AE7D5EE4B.splunk-idx-prod-vm01"
-    ttl: 10800
-    record: "7CF07AF5BB9F4390B8CE2021A726BE35.3281CFD1C7AA3F647C247FD3E6A8C9E6.7aa7b77461bd44a3f9da.comodoca.com."
-  - name: "_94FBE046A53C70650B5F488AE7D5EE4B.splunk-idx-prod-vm02"
-    ttl: 10800
-    record: "7CF07AF5BB9F4390B8CE2021A726BE35.3281CFD1C7AA3F647C247FD3E6A8C9E6.7aa7b77461bd44a3f9da.comodoca.com."
-  - name: "_94FBE046A53C70650B5F488AE7D5EE4B.splunk-sh-prod-vm00"
-    ttl: 10800
-    record: "7CF07AF5BB9F4390B8CE2021A726BE35.3281CFD1C7AA3F647C247FD3E6A8C9E6.7aa7b77461bd44a3f9da.comodoca.com."
-  - name: "_94FBE046A53C70650B5F488AE7D5EE4B.splunk-es-prod-vm00"
-    ttl: 10800
-    record: "7CF07AF5BB9F4390B8CE2021A726BE35.3281CFD1C7AA3F647C247FD3E6A8C9E6.7aa7b77461bd44a3f9da.comodoca.com."
-  - name: "_94FBE046A53C70650B5F488AE7D5EE4B.splunk-hfwd-prod-vm00"
-    ttl: 10800
-    record: "7CF07AF5BB9F4390B8CE2021A726BE35.3281CFD1C7AA3F647C247FD3E6A8C9E6.7aa7b77461bd44a3f9da.comodoca.com."
-  - name: "_94FBE046A53C70650B5F488AE7D5EE4B.splunk-hfwd-prod-vm01"
-    ttl: 10800
-    record: "7CF07AF5BB9F4390B8CE2021A726BE35.3281CFD1C7AA3F647C247FD3E6A8C9E6.7aa7b77461bd44a3f9da.comodoca.com."
-  - name: "_94FBE046A53C70650B5F488AE7D5EE4B.splunk-lm-prod-vm00"
-    ttl: 10800
-    record: "7CF07AF5BB9F4390B8CE2021A726BE35.3281CFD1C7AA3F647C247FD3E6A8C9E6.7aa7b77461bd44a3f9da.comodoca.com."
-  - name: "_94FBE046A53C70650B5F488AE7D5EE4B.splunk-mc-prod-vm00"
-    ttl: 10800
-    record: "7CF07AF5BB9F4390B8CE2021A726BE35.3281CFD1C7AA3F647C247FD3E6A8C9E6.7aa7b77461bd44a3f9da.comodoca.com."
-  - name: "_94FBE046A53C70650B5F488AE7D5EE4B.splunk-cm-prod-vm00"
-    ttl: 10800
-    record: "7CF07AF5BB9F4390B8CE2021A726BE35.3281CFD1C7AA3F647C247FD3E6A8C9E6.7aa7b77461bd44a3f9da.comodoca.com."
-  - name: "_5ecfb849dc48eea11d818fd219b68bb1.manage-case"
-    ttl: 10800
-    record: "2CA16B148A8386A15DD52D1B6FF6ED42.A81C8A2EA633B271718353B91541677A.907de5e1e92c840c8a42.comodoca.com."
-  - name: "_5ecfb849dc48eea11d818fd219b68bb1.www.manage-case"
-    ttl: 10800
-    record: "2CA16B148A8386A15DD52D1B6FF6ED42.A81C8A2EA633B271718353B91541677A.907de5e1e92c840c8a42.comodoca.com."
   - name: "em5255.mail-rd-nonprod"
     ttl: 300
     record: "u22410865.wl116.sendgrid.net"
