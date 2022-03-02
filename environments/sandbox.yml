@@ -159,6 +159,9 @@ cname:
   - name: "labs-zcwalkthrough-nodejs"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
+  - name: "afdverify.labs-zcwalkthrough-nodejs"
+    ttl: 3600
+    record: "afdverify.hmcts-sbox.azurefd.net"
   - name: vh-video-web
     record: sdshmcts-sbox.azurefd.net
     ttl: 300
