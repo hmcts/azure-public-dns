@@ -156,6 +156,9 @@ cname:
   - name: "labs-louisehuyton-walkthrough"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
+  - name: "labs-zcwalkthrough-nodejs"
+    ttl: 300
+    record: "hmcts-sbox.azurefd.net"
   - name: vh-video-web
     record: sdshmcts-sbox.azurefd.net
     ttl: 300
