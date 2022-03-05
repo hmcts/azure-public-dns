@@ -193,9 +193,6 @@ cname:
   - name: "cdnverify.cft-api-mgmt"
     ttl: 300
     record: "cdnverify.hmcts-cft-api-mgmt-shutter-sbox.azureedge.net"
-  - name: "cdnverify.cft-api-mgmt"
-    ttl: 300
-    record: "cdnverify.hmcts-cft-api-mgmt-shutter-sbox.azureedge.net"
   - name: "cdnverify.labs-louisehuyton-walkthrough"
     ttl: 300
     record: "cdnverify.hmcts-labs-louisehuyton-walkthrough-shutter-sbox.azureedge.net"
