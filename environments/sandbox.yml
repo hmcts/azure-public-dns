@@ -190,3 +190,12 @@ cname:
   - name: "afdverify.vh-test-web"
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
+  - name: "cdnverify.cft-api-mgmt"
+    ttl: 300
+    record: "cdnverify.hmcts-cft-api-mgmt-shutter-sbox.azureedge.net"
+  - name: "cdnverify.labs-louisehuyton-walkthrough"
+    ttl: 300
+    record: "cdnverify.hmcts-labs-louisehuyton-walkthrough-shutter-sbox.azureedge.net"
+  - name: "cdnverify.labs-zcwalkthrough-nodejs"
+    ttl: 300
+    record: "cdnverify.hmcts-labs-zcwalkthrough-nodejs-shutter-sbox.azureedge.net"
