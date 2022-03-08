@@ -175,6 +175,12 @@ cname:
   - name: "nfdiv-end-civil-partnership"
     ttl: 300
     record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.et-sya"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "et-sya"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.wa-proto-frontend"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
