@@ -196,6 +196,7 @@ cname:
   - name: "afdverify.labs-louisehuyton-walkthrough"
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
+    shutter: false
   - name: "cdnverify.labs-louisehuyton-walkthrough"
     ttl: 300
     record: "cdnverify.hmcts-labs-louisehuyton-walkthrough-shutter-sbox.azureedge.net"
