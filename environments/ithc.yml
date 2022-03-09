@@ -237,4 +237,5 @@ cname:
     record: "hmcts-ithc.azurefd.net"
   - name: "afdverify.rpts"
     ttl: 300
+    record: "afdverify.hmcts-ithc.azurefd.net"
 
