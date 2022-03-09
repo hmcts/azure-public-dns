@@ -347,6 +347,14 @@ cname:
     ttl: 300
     record: "hmcts-prod.azurefd.net"
     shutter: false
+  - name: "paymentoutcome-web"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
+  - name: "www.paymentoutcome-web"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
   - name: "probate"
     ttl: 60
     record: "6a9d29fa-e848-4bc7-b62b-31f7e3979eda.cloudapp.net"
@@ -646,7 +654,7 @@ cname:
   - name: "afdverify.pip-frontend"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.pip-frontend" 
+  - name: "cdnverify.pip-frontend"
     ttl: 300
     record: "cdnverify.hmcts-pip-frontend-shutter-prod.azureedge.net"
   - name: vh-video-web
