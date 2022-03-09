@@ -244,3 +244,10 @@ cname:
   - name: "s2._domainkey.mail-prl-nonprod"
     ttl: 300
     record: "s2.domainkey.u24999805.wl056.sendgrid.net"
+  - name: "afdverify.cft-api-mgmt"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "cft-api-mgmt"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
+
