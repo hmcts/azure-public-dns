@@ -198,3 +198,9 @@ cname:
   - name: "s2._domainkey.mail-prl-nonprod"
     ttl: 300
     record: "s2.domainkey.u24999805.wl056.sendgrid.net"
+  - name: "afdverify.adoption-web"
+    ttl: 300
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "adoption-web"
+    ttl: 300
+    record: "hmcts-perftest.azurefd.net"

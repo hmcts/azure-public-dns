@@ -232,5 +232,11 @@ cname:
   - name: vh-test-web
     record: sdshmcts-ithc.azurefd.net
     ttl: 300
+  - name: "afdverify.adoption-web"
+    ttl: 300
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "adoption-web"
+    ttl: 300
+    record: "hmcts-ithc.azurefd.net"
 
 
