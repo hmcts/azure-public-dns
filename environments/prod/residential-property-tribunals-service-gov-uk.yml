@@ -1,0 +1,19 @@
+ns: []
+
+mx: []
+
+A: []
+
+txt: []
+
+cname:
+  - name: "www"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
+  - name: "cdnverify.www"
+    ttl: 300
+    record: "cdnverify.hmcts-residential-property-tribunals-service-shutter-prod.azureedge.net"
+  - name: "afdverify.www"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
