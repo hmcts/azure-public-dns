@@ -9,4 +9,17 @@ A:
 
 txt: []
 
-cname: []
+cname:
+  - name: "dev.certificatedbailiffs.justice.gov.uk"
+    ttl: 3000
+    record: "sdshmcts-dev.azurefd.net"
+  - name: "afdverify.dev.certificatedbailiffs.justice.gov.uk"
+    ttl: 3000
+    record: "afdverify.sdshmcts-dev.azurefd.net"
+  - name: "staging.certificatedbailiffs.justice.gov.uk"
+    ttl: 3000
+    record: "sdshmcts-stg.azurefd.net"
+  - name: "afdverify.staging.certificatedbailiffs.justice.gov.uk"
+    ttl: 3000
+    record: "afdverify.sdshmcts-stg.azurefd.net"
+
