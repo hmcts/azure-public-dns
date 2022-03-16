@@ -10,15 +10,15 @@ A:
 txt: []
 
 cname:
-  - name: "dev.casetracker.justice.gov.uk"
+  - name: "dev"
     ttl: 3000
     record: "sdshmcts-dev.azurefd.net"
-  - name: "afdverify.dev.casetracker.justice.gov.uk"
+  - name: "afdverify.dev"
     ttl: 3000
     record: "afdverify.sdshmcts-dev.azurefd.net"
-  - name: "staging.casetracker.justice.gov.uk"
+  - name: "staging"
     ttl: 3000
     record: "sdshmcts-stg.azurefd.net"
-  - name: "afdverify.staging.casetracker.justice.gov.uk"
+  - name: "afdverify.staging"
     ttl: 3000
     record: "afdverify.sdshmcts-stg.azurefd.net"
