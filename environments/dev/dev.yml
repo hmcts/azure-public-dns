@@ -77,3 +77,9 @@ cname:
   - name: "afdverify.vh-test-web"
     ttl: 300
     record: "afdverify.hmcts-dev.azurefd.net"
+  - name: sds-api-mgmt
+    record: sdshmcts-dev.azurefd.net
+    ttl: 300
+  - name: "afdverify.sds-api-mgmt"
+    ttl: 300
+    record: "afdverify.hmcts-dev.azurefd.net"
