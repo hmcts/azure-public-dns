@@ -650,7 +650,8 @@ cname:
     record: "s2.domainkey.u23337691.wl192.sendgrid.net"
   - name: pip-frontend
     record: sdshmcts-prod.azurefd.net
-    ttl: 300
+    ttl: 300    
+    shutter: true
   - name: "afdverify.pip-frontend"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
