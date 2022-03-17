@@ -157,6 +157,12 @@ cname:
   - name: "fact-admin"
     ttl: 300
     record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.rpts"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "rpts"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.nfdiv"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
@@ -173,6 +179,12 @@ cname:
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
   - name: "nfdiv-end-civil-partnership"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.et-sya"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "et-sya"
     ttl: 300
     record: "hmcts-aat.azurefd.net"
   - name: "afdverify.wa-proto-frontend"
@@ -238,3 +250,16 @@ cname:
   - name: "s2._domainkey.mail-prl-nonprod"
     ttl: 300
     record: "s2.domainkey.u24999805.wl056.sendgrid.net"
+  - name: "afdverify.cft-api-mgmt"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "cft-api-mgmt"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.ds-ui"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "ds-ui"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
+

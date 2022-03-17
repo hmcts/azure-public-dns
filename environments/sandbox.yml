@@ -153,9 +153,12 @@ cname:
   - name: "afdverify.sds-api-mgmt"
     ttl: 3600
     record: "afdverify.sdshmcts-sbox.azurefd.net"
-  - name: "labs-louisehuyton-walkthrough"
+  - name: "labs-zcwalkthrough-nodejs"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
+  - name: "afdverify.labs-zcwalkthrough-nodejs"
+    ttl: 3600
+    record: "afdverify.hmcts-sbox.azurefd.net"
   - name: vh-video-web
     record: sdshmcts-sbox.azurefd.net
     ttl: 300
@@ -184,3 +187,19 @@ cname:
   - name: "afdverify.vh-test-web"
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
+  - name: "cdnverify.cft-api-mgmt"
+    ttl: 300
+    record: "cdnverify.hmcts-cft-api-mgmt-shutter-sbox.azureedge.net"
+  - name: "cdnverify.labs-zcwalkthrough-nodejs"
+    ttl: 300
+    record: "cdnverify.hmcts-labs-zcwalkthrough-nodejs-shutter-sbox.azureedge.net"
+  - name: "afdverify.labs-louisehuyton-walkthrough"
+    ttl: 300
+    record: "afdverify.hmcts-sbox.azurefd.net"
+  - name: "labs-louisehuyton-walkthrough"
+    ttl: 300
+    record: "hmcts-sbox.azurefd.net"
+    shutter: false
+  - name: "cdnverify.labs-louisehuyton-walkthrough"
+    ttl: 300
+    record: "cdnverify.hmcts-labs-louisehuyton-walkthrough-shutter-sbox.azureedge.net"

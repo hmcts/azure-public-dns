@@ -1,0 +1,25 @@
+ns:
+
+mx:
+
+A:
+  - name: "@"
+    ttl: 60
+    alias_target_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/lz-prod-rg/providers/Microsoft.Network/frontdoors/sdshmcts-prod"
+
+txt: []
+
+cname:
+  - name: "dev"
+    ttl: 3000
+    record: "sdshmcts-dev.azurefd.net"
+  - name: "afdverify.dev"
+    ttl: 3000
+    record: "afdverify.sdshmcts-dev.azurefd.net"
+  - name: "staging"
+    ttl: 3000
+    record: "sdshmcts-stg.azurefd.net"
+  - name: "afdverify.staging"
+    ttl: 3000
+    record: "afdverify.sdshmcts-stg.azurefd.net"
+

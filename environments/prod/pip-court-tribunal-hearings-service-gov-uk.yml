@@ -1,0 +1,19 @@
+ns: []
+
+mx: []
+
+A: []
+
+txt: []
+
+cname:
+  ## PIP Frontend
+  - name: www
+    record: sdshmcts-prod.azurefd.net
+    ttl: 300
+  - name: "afdverify.www"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.www" 
+    ttl: 300
+    record: "cdnverify.hmcts-pip-frontend-shutter-prod.azureedge.net"

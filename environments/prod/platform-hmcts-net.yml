@@ -347,6 +347,14 @@ cname:
     ttl: 300
     record: "hmcts-prod.azurefd.net"
     shutter: false
+  - name: "paymentoutcome-web"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
+  - name: "www.paymentoutcome-web"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
   - name: "probate"
     ttl: 60
     record: "6a9d29fa-e848-4bc7-b62b-31f7e3979eda.cloudapp.net"
@@ -473,6 +481,16 @@ cname:
     ttl: 300
     record: "cdnverify.hmcts-idam-web-admin-shutter-prod.azureedge.net"
   - name: "idam-web-admin"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
+  - name: "afdverify.idam-user-dashboard"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.idam-user-dashboard"
+    ttl: 300
+    record: "cdnverify.hmcts-idam-user-dashboard-shutter-prod.azureedge.net"
+  - name: "idam-user-dashboard"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
     shutter: false
@@ -636,7 +654,7 @@ cname:
   - name: "afdverify.pip-frontend"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.pip-frontend" 
+  - name: "cdnverify.pip-frontend"
     ttl: 300
     record: "cdnverify.hmcts-pip-frontend-shutter-prod.azureedge.net"
   - name: vh-video-web
@@ -663,3 +681,6 @@ cname:
   - name: "afdverify.vh-test-web"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "_DEFCA9944606874FF3B5E0E653FF9825"
+    ttl: 300
+    record: "882B317559A955DAA77E56E15B374766.A2851A8D271748B93C979BB5B30DD924.458f2f30b29105c76eb1.sectigo.com."
