@@ -207,3 +207,6 @@ cname:
   - name: "paymentoutcome-web"
     ttl: 300
     record: "hmcts-perftest.azurefd.net"
+  - name: "www.paymentoutcome-web"
+    ttl: 300
+    record: "hmcts-perftest.azurefd.net"
