@@ -244,5 +244,8 @@ cname:
   - name: "adoption-web"
     ttl: 300
     record: "hmcts-ithc.azurefd.net"
+  - name: "paymentoutcome-web"
+    ttl: 300
+    record: "hmcts-ithc.azurefd.net"
 
 
