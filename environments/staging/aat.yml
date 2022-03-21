@@ -262,4 +262,9 @@ cname:
   - name: "ds-ui"
     ttl: 300
     record: "hmcts-aat.azurefd.net"
-
+  - name: "paymentoutcome-web"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
+  - name: "www.paymentoutcome-web"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
