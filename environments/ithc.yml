@@ -250,6 +250,10 @@ cname:
   - name: "www.paymentoutcome-web"
     ttl: 300
     record: "hmcts-ithc.azurefd.net"
- 
-
+  - name: "afdverify.cft-api-mgmt"
+    ttl: 300
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "cft-api-mgmt"
+    ttl: 300
+    record: "hmcts-ithc.azurefd.net"
 
