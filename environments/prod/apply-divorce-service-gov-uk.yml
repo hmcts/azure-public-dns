@@ -17,6 +17,10 @@ cname:
     ttl: 60
     record: "www.apply-divorce.service.gov.uk"
     shutter: false
+  - name: "*"
+    ttl: 60
+    record: "www.end-civil-partnership.service.gov.uk"
+    shutter: false
   - name: "decree-absolute"
     ttl: 300
     record: "www.decree-absolute.apply-divorce.service.gov.uk"
