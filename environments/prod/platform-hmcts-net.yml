@@ -707,6 +707,6 @@ cname:
   - name: "_959babd6a885261723d801a16c89a7b1.vh-notification-api"
     ttl: 300
     record: "51A3C6E8E1D96192D89D798B11CAC164.A3981A49B53AC970DEFDB6CA6F68E67F.ae8fae5681609a255674.sectigo.com."
-  - name: "_5c7ef33bcb57182a54f2d9cc8d8ac0f8.vh-bookings-api-prod"
+  - name: "_5c7ef33bcb57182a54f2d9cc8d8ac0f8.vh-bookings-api"
     ttl: 300
     record: "08E60EBA79EA6B37AF69DD9DAA4AB07B.CA262AC686ACA64F449F28648260431C.538e490f6a73108a40ea.sectigo.com."
