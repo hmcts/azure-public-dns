@@ -11,3 +11,6 @@ cname:
   - name: "afdverify.hmi-apim"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "_250e8aa720222655812148349eda33fd.vh-service-web"
+    ttl: 300
+    record: "5ACFBA0AA417BAFA4550FA83C9A7045F.4AE56392D19F5DD02F28CECC678B9FA7.022e0ee5162c13d9a7bb.sectigo.com."
