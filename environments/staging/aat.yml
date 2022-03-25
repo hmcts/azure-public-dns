@@ -268,3 +268,9 @@ cname:
   - name: "www.paymentoutcome-web"
     ttl: 300
     record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.fis-ds-web"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "fis-ds-web"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
