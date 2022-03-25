@@ -127,6 +127,10 @@ A:
     ttl: 60
     record:
       - "51.145.50.201"
+  - name: "static-build"
+    ttl: 60
+    record:
+      - "51.145.50.201" 
   - name: "courts"
     ttl: 60
     record:
@@ -179,6 +183,10 @@ A:
     ttl: 60
     record:
       - "40.120.54.64"
+  - name: "static-sandbox-build"
+    ttl: 60
+    record:
+      - "40.120.54.64"
   - name: "sds-sandbox-build"
     ttl: 60
     record:
@@ -188,6 +196,10 @@ A:
     record:
       - "51.104.212.71"    
   - name: "sds-build"
+    ttl: 60
+    record:
+      - "51.104.210.52"
+  - name: "static-sds-build"
     ttl: 60
     record:
       - "51.104.210.52"
