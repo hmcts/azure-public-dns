@@ -20,3 +20,6 @@ cname:
   - name: "_5c7ef33bcb57182a54f2d9cc8d8ac0f8.vh-bookings-api"
     ttl: 300
     record: "08E60EBA79EA6B37AF69DD9DAA4AB07B.CA262AC686ACA64F449F28648260431C.538e490f6a73108a40ea.sectigo.com."
+  - name: "_ac285a78514b19d657b18c29b98f4c7f.vh-admin-web"
+    ttl: 300
+    record: "032DDB9A61BB0588601DD6D4C005A812.302202E1FB30DE99CD976C202BDB71AC.fbb25c1fc3c9ad12a80d.sectigo.com."
