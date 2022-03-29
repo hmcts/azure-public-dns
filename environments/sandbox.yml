@@ -147,7 +147,6 @@ cname:
   - name: "afdverify.cft-api-mgmt"
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
-    shutter: false
   - name: "cft-api-mgmt"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
