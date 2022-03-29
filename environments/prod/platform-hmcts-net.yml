@@ -127,6 +127,10 @@ A:
     ttl: 60
     record:
       - "51.145.50.201"
+  - name: "static-build"
+    ttl: 60
+    record:
+      - "51.145.50.201" 
   - name: "courts"
     ttl: 60
     record:
@@ -179,11 +183,23 @@ A:
     ttl: 60
     record:
       - "40.120.54.64"
+  - name: "static-sandbox-build"
+    ttl: 60
+    record:
+      - "40.120.54.64"
   - name: "sds-sandbox-build"
     ttl: 60
     record:
       - "51.104.212.71"
+  - name: "static-sds-sandbox-build"
+    ttl: 60
+    record:
+      - "51.104.212.71"    
   - name: "sds-build"
+    ttl: 60
+    record:
+      - "51.104.210.52"
+  - name: "static-sds-build"
     ttl: 60
     record:
       - "51.104.210.52"
@@ -347,6 +363,14 @@ cname:
     ttl: 300
     record: "hmcts-prod.azurefd.net"
     shutter: false
+  - name: "paymentoutcome-web"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
+  - name: "www.paymentoutcome-web"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
   - name: "probate"
     ttl: 60
     record: "6a9d29fa-e848-4bc7-b62b-31f7e3979eda.cloudapp.net"
@@ -473,6 +497,16 @@ cname:
     ttl: 300
     record: "cdnverify.hmcts-idam-web-admin-shutter-prod.azureedge.net"
   - name: "idam-web-admin"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
+  - name: "afdverify.idam-user-dashboard"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.idam-user-dashboard"
+    ttl: 300
+    record: "cdnverify.hmcts-idam-user-dashboard-shutter-prod.azureedge.net"
+  - name: "idam-user-dashboard"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
     shutter: false
@@ -632,11 +666,12 @@ cname:
     record: "s2.domainkey.u23337691.wl192.sendgrid.net"
   - name: pip-frontend
     record: sdshmcts-prod.azurefd.net
-    ttl: 300
+    ttl: 300    
+    shutter: true
   - name: "afdverify.pip-frontend"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.pip-frontend" 
+  - name: "cdnverify.pip-frontend"
     ttl: 300
     record: "cdnverify.hmcts-pip-frontend-shutter-prod.azureedge.net"
   - name: vh-video-web
@@ -666,3 +701,18 @@ cname:
   - name: "_DEFCA9944606874FF3B5E0E653FF9825"
     ttl: 300
     record: "882B317559A955DAA77E56E15B374766.A2851A8D271748B93C979BB5B30DD924.458f2f30b29105c76eb1.sectigo.com."
+  - name: "_250e8aa720222655812148349eda33fd.service"
+    ttl: 300
+    record: "5ACFBA0AA417BAFA4550FA83C9A7045F.4AE56392D19F5DD02F28CECC678B9FA7.022e0ee5162c13d9a7bb.sectigo.com."
+  - name: "_959babd6a885261723d801a16c89a7b1.vh-notification-api"
+    ttl: 300
+    record: "51A3C6E8E1D96192D89D798B11CAC164.A3981A49B53AC970DEFDB6CA6F68E67F.ae8fae5681609a255674.sectigo.com."
+  - name: "_5c7ef33bcb57182a54f2d9cc8d8ac0f8.vh-bookings-api"
+    ttl: 300
+    record: "08E60EBA79EA6B37AF69DD9DAA4AB07B.CA262AC686ACA64F449F28648260431C.538e490f6a73108a40ea.sectigo.com."
+  - name: "_ac285a78514b19d657b18c29b98f4c7f.admin"
+    ttl: 300
+    record: "032DDB9A61BB0588601DD6D4C005A812.302202E1FB30DE99CD976C202BDB71AC.fbb25c1fc3c9ad12a80d.sectigo.com."
+  - name: "_df529a77950081e3ad8c21586162089b.video"
+    ttl: 300
+    record: "88849E439635A2EC10EC9DAA27E311FB.97641532D0C35FEA6572BE4722A6C5F0.ae696eea53f7a9525d7d.sectigo.com."

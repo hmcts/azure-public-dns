@@ -158,6 +158,12 @@ cname:
   - name: "afdverify.fact-admin"
     ttl: 300
     record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "rpts"
+    ttl: 3600
+    record: "hmcts-ithc.azurefd.net"
+  - name: "afdverify.rpts"
+    ttl: 300
+    record: "afdverify.hmcts-ithc.azurefd.net"
   - name: "nfdiv"
     ttl: 3600
     record: "hmcts-ithc.azurefd.net"
@@ -232,5 +238,22 @@ cname:
   - name: vh-test-web
     record: sdshmcts-ithc.azurefd.net
     ttl: 300
-
+  - name: "afdverify.adoption-web"
+    ttl: 300
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "adoption-web"
+    ttl: 300
+    record: "hmcts-ithc.azurefd.net"
+  - name: "paymentoutcome-web"
+    ttl: 300
+    record: "hmcts-ithc.azurefd.net"
+  - name: "www.paymentoutcome-web"
+    ttl: 300
+    record: "hmcts-ithc.azurefd.net"
+  - name: "afdverify.cft-api-mgmt"
+    ttl: 300
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "cft-api-mgmt"
+    ttl: 300
+    record: "hmcts-ithc.azurefd.net"
 
