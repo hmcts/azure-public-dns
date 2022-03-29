@@ -151,6 +151,7 @@ cname:
   - name: "cft-api-mgmt"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
+    shutter: false
   - name: "sds-api-mgmt"
     ttl: 300
     record: "sdshmcts-sbox.azurefd.net"
