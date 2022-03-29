@@ -38,7 +38,7 @@ A:
     record:
       - "51.132.209.233"
 
-  - name: "cft-api-mgmt"
+  - name: "cft-api-mgmt-appgw"
     ttl: 60
     record:
       - "20.108.237.1"
@@ -148,6 +148,9 @@ cname:
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
     shutter: false
+  - name: "cft-api-mgmt"
+    ttl: 300
+    record: "hmcts-sbox.azurefd.net"
   - name: "sds-api-mgmt"
     ttl: 300
     record: "sdshmcts-sbox.azurefd.net"
