@@ -667,7 +667,7 @@ cname:
   - name: pip-frontend
     record: sdshmcts-prod.azurefd.net
     ttl: 300    
-    shutter: true
+    shutter: false
   - name: "afdverify.pip-frontend"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
