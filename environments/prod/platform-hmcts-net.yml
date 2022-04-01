@@ -718,13 +718,13 @@ cname:
     record: "88849E439635A2EC10EC9DAA27E311FB.97641532D0C35FEA6572BE4722A6C5F0.ae696eea53f7a9525d7d.sectigo.com."
   
   # Adoption
-  - name: "afdverify.apply-for-adoption"
+  - name: "afdverify.adoption"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.apply-for-adoption"
+  - name: "cdnverify.adoption"
     ttl: 300
-    record: "cdnverify.hmcts-apply-for-adoption-shutter-prod.azureedge.net"
-  - name: "apply-for-adoption"
+    record: "cdnverify.hmcts-adoption-shutter-prod.azureedge.net"
+  - name: "adoption"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
     shutter: false
