@@ -280,3 +280,15 @@ cname:
   - name: "privatelaw"
     ttl: 300
     record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.fis-cos-api"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "fis-cos-api"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.fis-bulk-scan-api"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "fis-bulk-scan-api"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"  
