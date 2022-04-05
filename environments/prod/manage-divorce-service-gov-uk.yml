@@ -10,7 +10,7 @@ txt:
 cname:
   - name: "*"
     ttl: 60
-    record: "www.manage-divorce.service.gov.uk"
+    record: "www.manage-divorce-application.service.gov.uk"
     shutter: false
   - name: "www"
     ttl: 120
@@ -21,4 +21,4 @@ cname:
     record: "afdverify.hmcts-prod.azurefd.net"
   - name: "cdnverify.www"
     ttl: 3600
-    record: "cdnverify.hmcts-manage-divorce-shutter-prod.azureedge.net"
+    record: "cdnverify.hmcts-manage-divorce-application-shutter-prod.azureedge.net"
