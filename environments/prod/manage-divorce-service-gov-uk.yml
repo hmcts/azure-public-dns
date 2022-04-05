@@ -1,0 +1,24 @@
+ns:
+
+
+mx:
+
+A:
+
+txt:
+
+cname:
+  - name: "*"
+    ttl: 60
+    record: "www.manage-divorce.service.gov.uk"
+    shutter: false
+  - name: "www"
+    ttl: 120
+    record: "hmcts-prod.azurefd.net"
+    shutter: true
+  - name: "afdverify.www"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.www"
+    ttl: 3600
+    record: "cdnverify.hmcts-manage-divorce-shutter-prod.azureedge.net"
