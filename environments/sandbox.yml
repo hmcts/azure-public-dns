@@ -41,7 +41,7 @@ A:
   - name: "cft-api-mgmt-appgw"
     ttl: 60
     record:
-      - "20.108.237.1"
+      - "20.108.143.135"
 
 txt:
   - name: "contact.justice"
