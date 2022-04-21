@@ -727,7 +727,7 @@ cname:
   - name: "apply-for-adoption"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
     
   # Private Law
   - name: "em5901.mail-prl"
