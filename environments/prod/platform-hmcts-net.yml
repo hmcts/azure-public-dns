@@ -147,26 +147,6 @@ A:
     ttl: 60
     record:
       - "52.151.74.140"
-  - name: "jdbureau"
-    ttl: 60
-    record:
-      - "51.11.44.158"
-  - name: "jdbureau-nle"
-    ttl: 60
-    record:
-      - "51.145.47.4"
-  - name: "jdfrontend"
-    ttl: 60
-    record:
-      - "51.104.252.236"
-  - name: "jdfrontend-nle"
-    ttl: 60
-    record:
-      - "51.145.47.4"
-  - name: "jdproxy-nle"
-    ttl: 3600
-    record:
-      - "51.145.47.4"
   - name: "maintenance-ccd"
     ttl: 3600
     record:
@@ -223,10 +203,6 @@ A:
     ttl: 60
     record:
       - "51.11.44.158"
-  - name: "traefik-ui-jd"
-    ttl: 60
-    record:
-      - "51.104.252.236"
   - name: "vpn"
     ttl: 60
     record:
