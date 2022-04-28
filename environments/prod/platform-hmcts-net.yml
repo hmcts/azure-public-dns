@@ -717,7 +717,7 @@ cname:
     ttl: 300
     record: "88849E439635A2EC10EC9DAA27E311FB.97641532D0C35FEA6572BE4722A6C5F0.ae696eea53f7a9525d7d.sectigo.com."
     
-    # SecOps Splunk SIEM SSL Cert recreation April 2022
+    # SecOps Splunk SIEM SSL Cert recreation April 2022 
   - name: "_CB1DD78F67BA76AF2CBE77450B26471A.splunk"
     ttl: 300
     record: "E8CDA1BCEF49632E9580939D6A183892.ED63C9DFA0712CD0DC4D250C83A7B6DE.3d191ef6e236bd1b9bdb.sectigo.com."
