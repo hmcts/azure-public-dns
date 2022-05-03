@@ -115,9 +115,8 @@ ns:
 mx:
   - name: "@"
     ttl: 3600
-    priority: 32767
     record:
-      - "ms50395572.msv1.invalid"
+      - "ms50395572.msv1.invalid 32767"
 A:
   - name: "bar"
     ttl: 900
