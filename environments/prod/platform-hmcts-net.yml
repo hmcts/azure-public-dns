@@ -116,7 +116,7 @@ mx:
   - name: "@"
     ttl: 3600
     record:
-      - "ms50395572.msv1.invalid 32767"
+      - "32767 ms50395572.msv1.invalid"
 A:
   - name: "bar"
     ttl: 900
