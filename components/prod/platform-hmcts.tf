@@ -8,6 +8,7 @@ module "platform-hmcts" {
   ns_recordsets       = yamldecode(data.local_file.platform-hmcts-config.content).ns
   a_recordsets        = yamldecode(data.local_file.platform-hmcts-config.content).A
   txt_recordsets      = yamldecode(data.local_file.platform-hmcts-config.content).txt
+  mx_recordsets       = yamldecode(data.local_file.platform-hmcts-config.content).mx
   zone_name           = "platform.hmcts.net"
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env

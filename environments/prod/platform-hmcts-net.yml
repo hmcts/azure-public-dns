@@ -113,7 +113,10 @@ ns:
       - "ns4-03.azure-dns.info"
 
 mx:
-
+  - name: "@"
+    ttl: 3600
+    record:
+      - "ms50395572.msv1.invalid 32767"
 A:
   - name: "bar"
     ttl: 900
