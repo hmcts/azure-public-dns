@@ -8,4 +8,19 @@ txt: []
 
 srv: []
 
-cname: []
+cname: 
+  - name: "portal-sbox"
+    ttl: 300
+    record: "pre-sbox.powerappsportals.com"
+  - name: "portal-test"
+    ttl: 300
+    record: "pre-test.powerappsportals.com"
+  - name: "portal-stg"
+    ttl: 300
+    record: "portal-stg.powerappsportals.com"
+  - name: "portal-demo"
+    ttl: 300
+    record: "portal-demo.powerappsportals.com"
+  - name: "pre-prod"
+    ttl: 300
+    record: "pre-prod.powerappsportals.com"
