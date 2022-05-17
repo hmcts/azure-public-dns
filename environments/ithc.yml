@@ -256,9 +256,6 @@ cname:
   - name: "cft-api-mgmt"
     ttl: 300
     record: "hmcts-ithc.azurefd.net"
-  - name: pip-frontend
-    record: sdshmcts-ithc.azurefd.net
-    ttl: 300
   - name: "afdverify.plum"
     ttl: 3600
     record: "afdverify.hmcts-ithc.azurefd.net"
