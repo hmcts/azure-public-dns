@@ -24,3 +24,10 @@ cname:
   - name: "pre-prod"
     ttl: 300
     record: "pre-prod.powerappsportals.com"
+  - name: "_DF951D84EC56B1E5082F885CCEE801BD.sbox"
+    ttl: 300
+    record: "0BB52DA775050F13B476B66537E36A33.EF6D854C218100A7EE004A1D3A4C11EE.5056e88bd52775b023eb.sectigo.com."
+  - name: "_DF951D84EC56B1E5082F885CCEE801BD.portal-sbox"
+    ttl: 300
+    record: "0BB52DA775050F13B476B66537E36A33.EF6D854C218100A7EE004A1D3A4C11EE.5056e88bd52775b023eb.sectigo.com."
+
