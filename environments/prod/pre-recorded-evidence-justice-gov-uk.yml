@@ -14,14 +14,14 @@ cname:
     record: "pre-sbox.powerappsportals.com"
   - name: "portal-test"
     ttl: 300
-    record: "pre-test.powerappsportals.com"
+    record: "pre-testing.powerappsportals.com"
   - name: "portal-stg"
     ttl: 300
     record: "portal-stg.powerappsportals.com"
   - name: "portal-demo"
     ttl: 300
     record: "portal-demo.powerappsportals.com"
-  - name: "pre-prod"
+  - name: "portal"
     ttl: 300
     record: "pre-prod.powerappsportals.com"
   - name: "_DF951D84EC56B1E5082F885CCEE801BD.sbox"
