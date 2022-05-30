@@ -4,8 +4,11 @@ mx: []
 
 A: []
 
-txt: []
-
+txt: 
+  - name: "@"
+    ttl: 3600
+    record:
+      - "MS=ms41898718"
 cname:
   ## PIP Frontend
   - name: www
@@ -18,3 +21,9 @@ cname:
   - name: "cdnverify.www" 
     ttl: 300
     record: "cdnverify.hmcts-pip-frontend-shutter-prod.azureedge.net"
+  - name: sign-in
+    record: sdshmcts-prod.azurefd.net
+    ttl: 300
+  - name: staff
+    record: sdshmcts-prod.azurefd.net
+    ttl: 300
