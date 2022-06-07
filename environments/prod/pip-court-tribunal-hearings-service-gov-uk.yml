@@ -22,9 +22,12 @@ cname:
     ttl: 300
     record: "cdnverify.hmcts-pip-frontend-shutter-prod.azureedge.net"
   - name: sign-in
-    record: pip-ss-sbox-fd.azurefd.net
+    record: sdshmcts-prod.azurefd.net
     ttl: 300
   - name: staff
     record: sdshmcts-prod.azurefd.net
+    ttl: 300
+  - name: login
+    record: pip-ss-sbox-fd.azurefd.net
     ttl: 300
     
