@@ -27,3 +27,4 @@ cname:
   - name: staff
     record: sdshmcts-prod.azurefd.net
     ttl: 300
+    
