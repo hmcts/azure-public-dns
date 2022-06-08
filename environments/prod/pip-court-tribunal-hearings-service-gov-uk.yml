@@ -30,7 +30,7 @@ cname:
   - name: login
     record: pip-ss-sbox-fd.azurefd.net
     ttl: 300
-  - name: sign-in.staging
+  - name: login.stg
     record: sdshmcts-stg.azurefd.net
     ttl: 300
     
