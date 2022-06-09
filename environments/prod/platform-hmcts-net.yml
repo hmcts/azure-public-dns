@@ -489,6 +489,12 @@ cname:
     ttl: 300
     record: "hmcts-prod.azurefd.net"
     shutter: false
+  - name: cft-api-mgmt
+    record: hmcts-prod.azurefd.net
+    ttl: 300
+  - name: "afdverify.cft-api-mgmt"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
   - name: "afdverify.hmi-apim"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
