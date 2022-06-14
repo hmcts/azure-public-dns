@@ -17,25 +17,11 @@ cname:
     record: "pre-testing.powerappsportals.com"
   - name: "portal-stg"
     ttl: 300
-    record: "portal-stg.powerappsportals.com"
+    record: "pre-stg.powerappsportals.com"
   - name: "portal-demo"
     ttl: 300
     record: "portal-demo.powerappsportals.com"
   - name: "portal"
     ttl: 300
     record: "pre-prod.powerappsportals.com"
-  - name: "_DF951D84EC56B1E5082F885CCEE801BD.sbox"
-    ttl: 300
-    record: "0BB52DA775050F13B476B66537E36A33.EF6D854C218100A7EE004A1D3A4C11EE.5056e88bd52775b023eb.sectigo.com."
-  - name: "_DF951D84EC56B1E5082F885CCEE801BD.portal-sbox"
-    ttl: 300
-    record: "0BB52DA775050F13B476B66537E36A33.EF6D854C218100A7EE004A1D3A4C11EE.5056e88bd52775b023eb.sectigo.com."
-  - name: "_958967C042EA395E998DC11A42D53F52.portal-test"
-    ttl: 300
-    record: "D650496855552EE0FE13E5BE91B0DDED.1E090743514B2CA2E531BAB1CC661435.98d0c2a2816ff30684a5.sectigo.com."  
-  - name: "_F16F4F848C537DC583264991C2D7FFA7.portal-demo"
-    ttl: 300
-    record: "19F892DFE5C533D19A40EC9DD840B8A1.6C1700CA6F0FD4FAA0187D1370B1DBDD.0353ab4cbed5beae847a.sectigo.com."  
-  - name: "_4D59E70FAFD1B2F4594378D78B96F523.portal-stg"
-    ttl: 300
-    record: "B30999F22C72B067353AB0BC51ABF7AD.D31773857EAF3995E94D3B00B580A175.6106c564e568969d698d.sectigo.com."  
+ 
