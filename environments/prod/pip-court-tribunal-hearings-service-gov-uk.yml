@@ -11,22 +11,22 @@ txt:
       - "MS=ms41898718"
 cname:
   ## PIP Frontend
-#  - name: www
-#    record: sdshmcts-prod.azurefd.net
-#    ttl: 300
-#    shutter: false
+  - name: www
+    record: sdshmcts-prod.azurefd.net
+    ttl: 300
+    shutter: false
   - name: "afdverify.www"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
   - name: "cdnverify.www" 
     ttl: 300
     record: "cdnverify.hmcts-court-tribunal-hearings-shutter-prod.azureedge.net"
-#  - name: sign-in
-#    record: sdshmcts-prod.azurefd.net
-#    ttl: 300
-#  - name: staff
-#    record: sdshmcts-prod.azurefd.net
-#    ttl: 300
+  - name: sign-in
+    record: sdshmcts-prod.azurefd.net
+    ttl: 300
+  - name: staff
+    record: sdshmcts-prod.azurefd.net
+    ttl: 300
   - name: login
     record: pip-ss-sbox-fd.azurefd.net
     ttl: 300
