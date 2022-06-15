@@ -11,10 +11,10 @@ txt:
       - "MS=ms41898718"
 cname:
   ## PIP Frontend
-  - name: www
-    record: sdshmcts-prod.azurefd.net
-    ttl: 300
-    shutter: false
+#  - name: www
+#    record: sdshmcts-prod.azurefd.net
+#    ttl: 300
+#    shutter: false
   - name: "afdverify.www"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
