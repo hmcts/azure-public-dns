@@ -3,9 +3,9 @@
 
 trigger:
   batch: true
-  branches:
-    include:
-    - master
+  # branches:
+  #   include:
+  #   - master
     
 variables:
   terraformVersion: 0.14.6
@@ -22,54 +22,54 @@ stages:
           agentPool: ${{ variables.agentPool }}
           terraformVersion: ${{ variables.terraformVersion }}
 
-      - template: pipeline-templates/terraform-plan.yaml
-        parameters:
-          zone: 'demo'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
+      # - template: pipeline-templates/terraform-plan.yaml
+      #   parameters:
+      #     zone: 'demo'
+      #     build: $(Build.BuildNumber)
+      #     agentPool: ${{ variables.agentPool }}
+      #     terraformVersion: ${{ variables.terraformVersion }}
 
-      - template: pipeline-templates/terraform-plan.yaml
-        parameters:
-          zone: 'dev'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
+      # - template: pipeline-templates/terraform-plan.yaml
+      #   parameters:
+      #     zone: 'dev'
+      #     build: $(Build.BuildNumber)
+      #     agentPool: ${{ variables.agentPool }}
+      #     terraformVersion: ${{ variables.terraformVersion }}
           
-      - template: pipeline-templates/terraform-plan.yaml
-        parameters:
-          zone: 'ithc'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
+      # - template: pipeline-templates/terraform-plan.yaml
+      #   parameters:
+      #     zone: 'ithc'
+      #     build: $(Build.BuildNumber)
+      #     agentPool: ${{ variables.agentPool }}
+      #     terraformVersion: ${{ variables.terraformVersion }}
 
-      - template: pipeline-templates/terraform-plan.yaml
-        parameters:
-          zone: 'test'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
+      # - template: pipeline-templates/terraform-plan.yaml
+      #   parameters:
+      #     zone: 'test'
+      #     build: $(Build.BuildNumber)
+      #     agentPool: ${{ variables.agentPool }}
+      #     terraformVersion: ${{ variables.terraformVersion }}
 
-      - template: pipeline-templates/terraform-plan.yaml
-        parameters:
-          zone: 'staging'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
+      # - template: pipeline-templates/terraform-plan.yaml
+      #   parameters:
+      #     zone: 'staging'
+      #     build: $(Build.BuildNumber)
+      #     agentPool: ${{ variables.agentPool }}
+      #     terraformVersion: ${{ variables.terraformVersion }}
 
-      - template: pipeline-templates/terraform-plan.yaml
-        parameters:
-          zone: 'nle'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
+      # - template: pipeline-templates/terraform-plan.yaml
+      #   parameters:
+      #     zone: 'nle'
+      #     build: $(Build.BuildNumber)
+      #     agentPool: ${{ variables.agentPool }}
+      #     terraformVersion: ${{ variables.terraformVersion }}
 
-      - template: pipeline-templates/terraform-plan.yaml
-        parameters:
-          zone: 'prod'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-          terraformVersion: ${{ variables.terraformVersion }}
+      # - template: pipeline-templates/terraform-plan.yaml
+      #   parameters:
+      #     zone: 'prod'
+      #     build: $(Build.BuildNumber)
+      #     agentPool: ${{ variables.agentPool }}
+      #     terraformVersion: ${{ variables.terraformVersion }}
               
       - job: Archive
         pool:
