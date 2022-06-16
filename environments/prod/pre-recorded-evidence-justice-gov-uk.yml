@@ -20,7 +20,7 @@ cname:
     record: "pre-stg.powerappsportals.com"
   - name: "portal-demo"
     ttl: 300
-    record: "portal-demo.powerappsportals.com"
+    record: "pre-demo.powerappsportals.com"
   - name: "portal"
     ttl: 300
     record: "pre-prod.powerappsportals.com"
