@@ -216,9 +216,9 @@ cname:
   - name: "plum"
     ttl: 300
     record: "hmcts-perftest.azurefd.net"
-  - name: "prl-citizen-frontend"
+  - name: "afdverify.privatelaw"
     ttl: 3600
     record: "afdverify.hmcts-perftest.azurefd.net"
-  - name: "prl-citizen-frontend"
+  - name: "privatelaw"
     ttl: 300
     record: "hmcts-perftest.azurefd.net"
