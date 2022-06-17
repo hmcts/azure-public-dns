@@ -217,5 +217,8 @@ cname:
     ttl: 300
     record: "hmcts-perftest.azurefd.net"
   - name: "prl-citizen-frontend"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "prl-citizen-frontend"
     ttl: 300
     record: "hmcts-perftest.azurefd.net"
