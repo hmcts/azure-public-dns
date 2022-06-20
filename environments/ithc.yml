@@ -268,3 +268,9 @@ cname:
   - name: "afdverify.sds-api-mgmt"
     ttl: 300
     record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "afdverify.privatelaw"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "privatelaw"
+    ttl: 300
+    record: "hmcts-ithc.azurefd.net"
