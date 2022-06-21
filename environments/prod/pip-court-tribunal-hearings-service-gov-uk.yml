@@ -33,4 +33,3 @@ cname:
 ##  - name: sign.stg
 ##    record: sdshmcts-stg.azurefd.net
 ##    ttl: 300
-    
