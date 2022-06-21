@@ -221,15 +221,15 @@ A:
   - name: "caps"
     ttl: 60
     record:
-      - "20.90.136.92"
+      - "51.142.80.64"
   - name: "pcol"
     ttl: 60
     record:
-      - "20.90.136.82"
+      - "51.142.80.52"
   - name: "pcnotify"
     ttl: 60
     record:
-      - "20.90.136.82"
+      - "51.142.80.52"
   - name: "vpn-ext"
     ttl: 360
     record:
