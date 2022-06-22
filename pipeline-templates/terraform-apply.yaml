@@ -25,7 +25,7 @@ jobs:
               displayName: Init - ${{ parameters.zone }}
               inputs:
                 command: 'init'
-                commandOptions: '-lock=false' # don't lock on PRs / validate phase
+                commandOptions: '-upgrade' # don't lock on PRs / validate phase
                 backendType: 'azurerm'
                 backendServiceArm: 'Reform-CFT-Mgmt'
                 backendAzureRmResourceGroupName: 'reform-cft-mgmt'
