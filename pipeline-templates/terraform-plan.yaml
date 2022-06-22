@@ -10,6 +10,9 @@ jobs:
         displayName: Terraform install (tfenv)
         inputs:
           filePath: $(System.DefaultWorkingDirectory)/cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh
+      - task: TerraformCLI@0
+        displayName: Init - ${{ parameters.zone }}
+        inputs:
           command: 'init'
           backendType: 'azurerm'
           backendServiceArm: 'Reform-CFT-Mgmt'
