@@ -29,6 +29,7 @@ jobs:
           commandOptions: '-out=${{ parameters.zone }}${{ parameters.build }}plan -parallelism=50'
           workingDirectory: '$(System.DefaultWorkingDirectory)/$(buildRepoSuffix)/components/${{ parameters.zone }}'
           environmentServiceName: 'Reform-CFT-Mgmt'
+          publishPlanResults: '${{ parameters.zone }}'
       - task: Bash@3
         displayName: "Remove local tfstate"
         inputs:
