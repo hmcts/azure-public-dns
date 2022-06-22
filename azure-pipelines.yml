@@ -86,7 +86,6 @@ stages:
   - stage: Sandbox_Apply
     dependsOn: Plan_phase
     displayName: "Sandbox Apply"
-    condition: (succeeded)
     jobs:
       - template: pipeline-templates/terraform-apply.yaml
         parameters:
