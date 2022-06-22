@@ -28,18 +28,13 @@ stages:
           zone: 'sandbox'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          backendServiceArm: 'Reform-CFT-Mgmt'
-          backendAzureRmResourceGroupName: 'reform-cft-mgmt'
-          backendAzureRmStorageAccountName: 'reformcftmgmt'
 
       - template: pipeline-templates/terraform-plan.yaml
         parameters:
           zone: 'demo'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          backendServiceArm: 'Reform-CFT-Mgmt'
-          backendAzureRmResourceGroupName: 'reform-cft-mgmt'
-          backendAzureRmStorageAccountName: 'reformcftmgmt'
+
 
           
       - template: pipeline-templates/terraform-plan.yaml
@@ -47,55 +42,36 @@ stages:
           zone: 'dev'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          backendServiceArm: 'Reform-CFT-Mgmt'
-          backendAzureRmResourceGroupName: 'reform-cft-mgmt'
-          backendAzureRmStorageAccountName: 'reformcftmgmt'
           
       - template: pipeline-templates/terraform-plan.yaml
         parameters:
           zone: 'ithc'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          backendServiceArm: 'Reform-CFT-Mgmt'
-          backendAzureRmResourceGroupName: 'reform-cft-mgmt'
-          backendAzureRmStorageAccountName: 'reformcftmgmt'
 
       - template: pipeline-templates/terraform-plan.yaml
         parameters:
           zone: 'test'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          backendServiceArm: 'Reform-CFT-Mgmt'
-          backendAzureRmResourceGroupName: 'reform-cft-mgmt'
-          backendAzureRmStorageAccountName: 'reformcftmgmt'
-
       - template: pipeline-templates/terraform-plan.yaml
         parameters:
           zone: 'staging'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          backendServiceArm: 'Reform-CFT-Mgmt'
-          backendAzureRmResourceGroupName: 'reform-cft-mgmt'
-          backendAzureRmStorageAccountName: 'reformcftmgmt'
 
       - template: pipeline-templates/terraform-plan.yaml
         parameters:
           zone: 'nle'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          backendServiceArm: 'Reform-CFT-Mgmt'
-          backendAzureRmResourceGroupName: 'reform-cft-mgmt'
-          backendAzureRmStorageAccountName: 'reformcftmgmt'
 
       - template: pipeline-templates/terraform-plan.yaml
         parameters:
           zone: 'prod'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          backendServiceArm: 'Reform-CFT-Mgmt'
-          backendAzureRmResourceGroupName: 'reform-cft-mgmt'
-          backendAzureRmStorageAccountName: 'reformcftmgmt'
-              
+
       - job: Archive
         pool:
           vmImage: ${{ variables.agentPool }}
@@ -118,9 +94,6 @@ stages:
           zone: 'sandbox'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          backendServiceArm: 'Reform-CFT-Mgmt'
-          backendAzureRmResourceGroupName: 'reform-cft-mgmt'
-          backendAzureRmStorageAccountName: 'reformcftmgmt'
 
   - stage: Demo_Apply
     dependsOn: Plan_phase
@@ -132,9 +105,6 @@ stages:
           zone: 'demo'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          backendServiceArm: 'Reform-CFT-Mgmt'
-          backendAzureRmResourceGroupName: 'reform-cft-mgmt'
-          backendAzureRmStorageAccountName: 'reformcftmgmt'
 
   - stage: Dev_Apply
     dependsOn: Plan_phase
@@ -146,9 +116,6 @@ stages:
           zone: 'dev'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
-          backendServiceArm: 'Reform-CFT-Mgmt'
-          backendAzureRmResourceGroupName: 'reform-cft-mgmt'
-          backendAzureRmStorageAccountName: 'reformcftmgmt'
 
   - stage: Ithc_Apply
     dependsOn: Plan_phase
