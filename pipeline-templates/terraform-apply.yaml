@@ -25,9 +25,6 @@ jobs:
                 sourceFolder: '$(Pipeline.Workspace)/${{ parameters.zone }}${{ parameters.build }}plan'
                 targetFolder: '$(Pipeline.Workspace)/drop/components/${{ parameters.zone }}'
             
-            - task: TerraformInstaller@0
-              inputs:
-                terraformVersion: ${{ parameters.terraformVersion }}
             - task: TerraformCLI@0
               displayName: Init - ${{ parameters.zone }}
               inputs:

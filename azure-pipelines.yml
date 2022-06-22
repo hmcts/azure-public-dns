@@ -28,6 +28,9 @@ stages:
           zone: 'sandbox'
           build: $(Build.BuildNumber)
           agentPool: ${{ variables.agentPool }}
+          backendServiceArm: 'dts-cftsbox-intsvc'
+          backendAzureRmResourceGroupName: 'reform-cft-mgmt'
+          backendAzureRmStorageAccountName: 'reformcftmgmt'
 
       - template: pipeline-templates/terraform-plan.yaml
         parameters:
