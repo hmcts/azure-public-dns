@@ -649,16 +649,6 @@ cname:
   - name: "s2._domainkey.mail-db-reporting-prod"
     ttl: 300
     record: "s2.domainkey.u23337691.wl192.sendgrid.net"
-  - name: pip-frontend
-    record: sdshmcts-prod.azurefd.net
-    ttl: 300    
-    shutter: true
-  - name: "afdverify.pip-frontend"
-    ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.pip-frontend"
-    ttl: 300
-    record: "cdnverify.hmcts-pip-frontend-shutter-prod.azureedge.net"
   - name: vh-video-web
     record: sdshmcts-prod.azurefd.net
     ttl: 300
