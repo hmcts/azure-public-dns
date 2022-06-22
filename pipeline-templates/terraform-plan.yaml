@@ -47,4 +47,4 @@ jobs:
           scriptLocation: scriptPath
           azureSubscription: 'Reform-CFT-Mgmt'
           scriptPath: $(System.DefaultWorkingDirectory)/cnp-azuredevops-libraries/scripts/unlock-tf-state.sh
-          arguments: ${{ parameters.backendAzureRmStorageAccountName }} "public-dns/${{ parameters.zone }}.tfstate" 'Reform-CFT-Mgmt' tfstate
+          arguments: ${{ parameters.backendAzureRmStorageAccountName }} "public-dns/${{ parameters.zone }}.tfstate" ${{ parameters.backendServiceArm }} tfstate
