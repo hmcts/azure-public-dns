@@ -7,6 +7,13 @@ jobs:
       runOnce:
         deploy:
           steps:
+            - checkout: self
+            - checkout: cnp-azuredevops-libraries
+            - template: steps/set-build-repo-suffix-env-var.yaml@cnp-azuredevops-libraries
+            - task: Bash@3
+              displayName: Terraform install (tfenv)
+              inputs:
+                filePath: $(System.DefaultWorkingDirectory)/cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh
             - download: current
               displayName: 'Download artifacts'
               artifact: drop
@@ -18,9 +25,6 @@ jobs:
                 sourceFolder: '$(Pipeline.Workspace)/${{ parameters.zone }}${{ parameters.build }}plan'
                 targetFolder: '$(Pipeline.Workspace)/drop/components/${{ parameters.zone }}'
             
-            - task: TerraformInstaller@0
-              inputs:
-                terraformVersion: ${{ parameters.terraformVersion }}
             - task: TerraformCLI@0
               displayName: Init - ${{ parameters.zone }}
               inputs:
