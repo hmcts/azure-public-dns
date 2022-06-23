@@ -350,6 +350,9 @@ cname:
     ttl: 300
     record: "hmcts-prod.azurefd.net"
     shutter: false
+  - name: "cdnverify.paymentoutcome-web"
+    ttl: 300
+    record: "cdnverify.hmcts-paymentoutcome-web-shutter-prod.azureedge.net"
   - name: "probate"
     ttl: 60
     record: "6a9d29fa-e848-4bc7-b62b-31f7e3979eda.cloudapp.net"
