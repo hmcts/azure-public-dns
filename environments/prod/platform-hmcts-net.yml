@@ -350,6 +350,9 @@ cname:
     ttl: 300
     record: "hmcts-prod.azurefd.net"
     shutter: false
+  - name: "cdnverify.paymentoutcome-web"
+    ttl: 300
+    record: "cdnverify.hmcts-paymentoutcome-web-shutter-prod.azureedge.net"
   - name: "probate"
     ttl: 60
     record: "6a9d29fa-e848-4bc7-b62b-31f7e3979eda.cloudapp.net"
@@ -493,6 +496,12 @@ cname:
     record: hmcts-prod.azurefd.net
     ttl: 300
   - name: "afdverify.cft-api-mgmt"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: sds-api-mgmt
+    record: sdshmcts-prod.azurefd.net
+    ttl: 300
+  - name: "afdverify.sds-api-mgmt"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
   - name: "afdverify.hmi-apim"
@@ -649,16 +658,6 @@ cname:
   - name: "s2._domainkey.mail-db-reporting-prod"
     ttl: 300
     record: "s2.domainkey.u23337691.wl192.sendgrid.net"
-  - name: pip-frontend
-    record: sdshmcts-prod.azurefd.net
-    ttl: 300    
-    shutter: true
-  - name: "afdverify.pip-frontend"
-    ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.pip-frontend"
-    ttl: 300
-    record: "cdnverify.hmcts-pip-frontend-shutter-prod.azureedge.net"
   - name: vh-video-web
     record: sdshmcts-prod.azurefd.net
     ttl: 300
