@@ -38,6 +38,11 @@ A:
     record:
       - "51.132.209.233"
 
+  - name: "cft-api-mgmt-appgw"
+    ttl: 60
+    record:
+      - "20.108.143.135"
+
 txt:
   - name: "contact.justice"
     ttl: 3600

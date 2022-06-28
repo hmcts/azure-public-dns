@@ -8,4 +8,23 @@ txt: []
 
 srv: []
 
-cname: []
+cname: 
+  - name: "portal-sbox"
+    ttl: 300
+    record: "pre-sbox.powerappsportals.com"
+  - name: "portal-test"
+    ttl: 300
+    record: "pre-testing.powerappsportals.com"
+  - name: "portal-stg"
+    ttl: 300
+    record: "pre-stg.powerappsportals.com"
+  - name: "portal-demo"
+    ttl: 300
+    record: "pre-demo.powerappsportals.com"
+  - name: "portal"
+    ttl: 300
+    record: "pre-prod.powerappsportals.com"
+  - name: "_18FBACA52BAEA05806CA7012CA715BB2.portal"
+    ttl: 300
+    record: "530C930BA75A95023693228A4E2CE9E1.45A667A0ACF7037A9118BC3C4D7E3E16.3f8dcd6ba8c3eafe3d3d.sectigo.com."
+ 

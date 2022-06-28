@@ -256,4 +256,21 @@ cname:
   - name: "cft-api-mgmt"
     ttl: 300
     record: "hmcts-ithc.azurefd.net"
-
+  - name: "afdverify.plum"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "plum"
+    ttl: 300
+    record: "hmcts-ithc.azurefd.net"
+  - name: sds-api-mgmt
+    record: sdshmcts-ithc.azurefd.net
+    ttl: 300
+  - name: "afdverify.sds-api-mgmt"
+    ttl: 300
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "afdverify.privatelaw"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "privatelaw"
+    ttl: 300
+    record: "hmcts-ithc.azurefd.net"

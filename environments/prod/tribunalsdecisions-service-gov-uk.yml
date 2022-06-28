@@ -9,4 +9,19 @@ A:
 
 txt: []
 
-cname: []
+cname:
+  - name: "url3746"
+    ttl: 300
+    record: "sendgrid.net"
+  - name: "27626045"
+    ttl: 300
+    record: "sendgrid.net"
+  - name: "em5456"
+    ttl: 300
+    record: "u27626045.wl046.sendgrid.net"
+  - name: "s1._domainkey"
+    ttl: 300
+    record: "s1.domainkey.u27626045.wl046.sendgrid.net"
+  - name: "s2._domainkey"
+    ttl: 300
+    record: "s2.domainkey.u27626045.wl046.sendgrid.net"

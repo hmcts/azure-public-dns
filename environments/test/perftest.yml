@@ -210,3 +210,15 @@ cname:
   - name: "www.paymentoutcome-web"
     ttl: 300
     record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.plum"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "plum"
+    ttl: 300
+    record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.privatelaw"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "privatelaw"
+    ttl: 300
+    record: "hmcts-perftest.azurefd.net"

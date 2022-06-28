@@ -10,7 +10,7 @@ A:
   - name: "testclaim-pcol"
     ttl: 300
     record:
-      - "20.50.97.246"
+      - "51.142.82.12"
 
 txt: []
 

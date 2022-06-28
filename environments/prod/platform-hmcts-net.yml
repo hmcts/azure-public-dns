@@ -113,7 +113,10 @@ ns:
       - "ns4-03.azure-dns.info"
 
 mx:
-
+  - name: "@"
+    ttl: 3600
+    record:
+      - "32767 ms50395572.msv1.invalid"
 A:
   - name: "bar"
     ttl: 900
@@ -127,6 +130,10 @@ A:
     ttl: 60
     record:
       - "51.145.50.201"
+  - name: "static-build"
+    ttl: 60
+    record:
+      - "51.145.50.201" 
   - name: "courts"
     ttl: 60
     record:
@@ -143,26 +150,6 @@ A:
     ttl: 60
     record:
       - "52.151.74.140"
-  - name: "jdbureau"
-    ttl: 60
-    record:
-      - "51.11.44.158"
-  - name: "jdbureau-nle"
-    ttl: 60
-    record:
-      - "51.145.47.4"
-  - name: "jdfrontend"
-    ttl: 60
-    record:
-      - "51.104.252.236"
-  - name: "jdfrontend-nle"
-    ttl: 60
-    record:
-      - "51.145.47.4"
-  - name: "jdproxy-nle"
-    ttl: 3600
-    record:
-      - "51.145.47.4"
   - name: "maintenance-ccd"
     ttl: 3600
     record:
@@ -179,6 +166,10 @@ A:
     ttl: 60
     record:
       - "40.120.54.64"
+  - name: "static-sandbox-build"
+    ttl: 60
+    record:
+      - "40.120.54.64"
   - name: "sds-sandbox-build"
     ttl: 60
     record:
@@ -188,6 +179,10 @@ A:
     record:
       - "51.104.212.71"    
   - name: "sds-build"
+    ttl: 60
+    record:
+      - "51.104.210.52"
+  - name: "static-sds-build"
     ttl: 60
     record:
       - "51.104.210.52"
@@ -211,10 +206,6 @@ A:
     ttl: 60
     record:
       - "51.11.44.158"
-  - name: "traefik-ui-jd"
-    ttl: 60
-    record:
-      - "51.104.252.236"
   - name: "vpn"
     ttl: 60
     record:
@@ -230,15 +221,15 @@ A:
   - name: "caps"
     ttl: 60
     record:
-      - "20.90.136.92"
+      - "51.142.80.64"
   - name: "pcol"
     ttl: 60
     record:
-      - "20.90.136.82"
+      - "51.142.80.52"
   - name: "pcnotify"
     ttl: 60
     record:
-      - "20.90.136.82"
+      - "51.142.80.52"
   - name: "vpn-ext"
     ttl: 360
     record:
@@ -359,6 +350,9 @@ cname:
     ttl: 300
     record: "hmcts-prod.azurefd.net"
     shutter: false
+  - name: "cdnverify.paymentoutcome-web"
+    ttl: 300
+    record: "cdnverify.hmcts-paymentoutcome-web-shutter-prod.azureedge.net"
   - name: "probate"
     ttl: 60
     record: "6a9d29fa-e848-4bc7-b62b-31f7e3979eda.cloudapp.net"
@@ -498,6 +492,18 @@ cname:
     ttl: 300
     record: "hmcts-prod.azurefd.net"
     shutter: false
+  - name: cft-api-mgmt
+    record: hmcts-prod.azurefd.net
+    ttl: 300
+  - name: "afdverify.cft-api-mgmt"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: sds-api-mgmt
+    record: sdshmcts-prod.azurefd.net
+    ttl: 300
+  - name: "afdverify.sds-api-mgmt"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
   - name: "afdverify.hmi-apim"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -652,16 +658,6 @@ cname:
   - name: "s2._domainkey.mail-db-reporting-prod"
     ttl: 300
     record: "s2.domainkey.u23337691.wl192.sendgrid.net"
-  - name: pip-frontend
-    record: sdshmcts-prod.azurefd.net
-    ttl: 300    
-    shutter: true
-  - name: "afdverify.pip-frontend"
-    ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.pip-frontend"
-    ttl: 300
-    record: "cdnverify.hmcts-pip-frontend-shutter-prod.azureedge.net"
   - name: vh-video-web
     record: sdshmcts-prod.azurefd.net
     ttl: 300
@@ -689,3 +685,81 @@ cname:
   - name: "_DEFCA9944606874FF3B5E0E653FF9825"
     ttl: 300
     record: "882B317559A955DAA77E56E15B374766.A2851A8D271748B93C979BB5B30DD924.458f2f30b29105c76eb1.sectigo.com."
+  - name: "_250e8aa720222655812148349eda33fd.service"
+    ttl: 300
+    record: "5ACFBA0AA417BAFA4550FA83C9A7045F.4AE56392D19F5DD02F28CECC678B9FA7.022e0ee5162c13d9a7bb.sectigo.com."
+  - name: "_959babd6a885261723d801a16c89a7b1.vh-notification-api"
+    ttl: 300
+    record: "51A3C6E8E1D96192D89D798B11CAC164.A3981A49B53AC970DEFDB6CA6F68E67F.ae8fae5681609a255674.sectigo.com."
+  - name: "_5c7ef33bcb57182a54f2d9cc8d8ac0f8.vh-bookings-api"
+    ttl: 300
+    record: "08E60EBA79EA6B37AF69DD9DAA4AB07B.CA262AC686ACA64F449F28648260431C.538e490f6a73108a40ea.sectigo.com."
+  - name: "_ac285a78514b19d657b18c29b98f4c7f.admin"
+    ttl: 300
+    record: "032DDB9A61BB0588601DD6D4C005A812.302202E1FB30DE99CD976C202BDB71AC.fbb25c1fc3c9ad12a80d.sectigo.com."
+  - name: "_df529a77950081e3ad8c21586162089b.video"
+    ttl: 300
+    record: "88849E439635A2EC10EC9DAA27E311FB.97641532D0C35FEA6572BE4722A6C5F0.ae696eea53f7a9525d7d.sectigo.com."
+    
+  # SecOps Splunk SIEM SSL Cert recreation April 2022
+  - name: "_CB1DD78F67BA76AF2CBE77450B26471A.splunk"
+    ttl: 300
+    record: "E8CDA1BCEF49632E9580939D6A183892.ED63C9DFA0712CD0DC4D250C83A7B6DE.3d191ef6e236bd1b9bdb.sectigo.com."
+  - name: "_CB1DD78F67BA76AF2CBE77450B26471A.splunk-idx-prod-vm00"
+    ttl: 300
+    record: "E8CDA1BCEF49632E9580939D6A183892.ED63C9DFA0712CD0DC4D250C83A7B6DE.3d191ef6e236bd1b9bdb.sectigo.com."
+  - name: "_CB1DD78F67BA76AF2CBE77450B26471A.splunk-idx-prod-vm01"
+    ttl: 300
+    record: "E8CDA1BCEF49632E9580939D6A183892.ED63C9DFA0712CD0DC4D250C83A7B6DE.3d191ef6e236bd1b9bdb.sectigo.com."
+  - name: "_CB1DD78F67BA76AF2CBE77450B26471A.splunk-idx-prod-vm02"
+    ttl: 300
+    record: "E8CDA1BCEF49632E9580939D6A183892.ED63C9DFA0712CD0DC4D250C83A7B6DE.3d191ef6e236bd1b9bdb.sectigo.com."
+  - name: "_CB1DD78F67BA76AF2CBE77450B26471A.splunk-sh-prod-vm00"
+    ttl: 300
+    record: "E8CDA1BCEF49632E9580939D6A183892.ED63C9DFA0712CD0DC4D250C83A7B6DE.3d191ef6e236bd1b9bdb.sectigo.com."
+  - name: "_CB1DD78F67BA76AF2CBE77450B26471A.splunk-es-prod-vm00"
+    ttl: 300
+    record: "E8CDA1BCEF49632E9580939D6A183892.ED63C9DFA0712CD0DC4D250C83A7B6DE.3d191ef6e236bd1b9bdb.sectigo.com."
+  - name: "_CB1DD78F67BA76AF2CBE77450B26471A.splunk-hfwd-prod-vm00"
+    ttl: 300
+    record: "E8CDA1BCEF49632E9580939D6A183892.ED63C9DFA0712CD0DC4D250C83A7B6DE.3d191ef6e236bd1b9bdb.sectigo.com."
+  - name: "_CB1DD78F67BA76AF2CBE77450B26471A.splunk-hfwd-prod-vm01"
+    ttl: 300
+    record: "E8CDA1BCEF49632E9580939D6A183892.ED63C9DFA0712CD0DC4D250C83A7B6DE.3d191ef6e236bd1b9bdb.sectigo.com."
+  - name: "_CB1DD78F67BA76AF2CBE77450B26471A.splunk-lm-prod-vm00"
+    ttl: 300
+    record: "E8CDA1BCEF49632E9580939D6A183892.ED63C9DFA0712CD0DC4D250C83A7B6DE.3d191ef6e236bd1b9bdb.sectigo.com."
+  - name: "_CB1DD78F67BA76AF2CBE77450B26471A.splunk-mc-prod-vm00"
+    ttl: 300
+    record: "E8CDA1BCEF49632E9580939D6A183892.ED63C9DFA0712CD0DC4D250C83A7B6DE.3d191ef6e236bd1b9bdb.sectigo.com."
+  - name: "_CB1DD78F67BA76AF2CBE77450B26471A.splunk-cm-prod-vm00"
+    ttl: 300
+    record: "E8CDA1BCEF49632E9580939D6A183892.ED63C9DFA0712CD0DC4D250C83A7B6DE.3d191ef6e236bd1b9bdb.sectigo.com."
+  - name: "_0be35efd23b00eb9f75301c49805b99a.vh-user-api"
+    ttl: 300
+    record: "8C47FAE79316C0E04179D5E02FC8F22E.344D0959408A32581A917DB101A254E6.21c22eeca3fcb1c69935.sectigo.com."
+
+  # Adoption
+  - name: "afdverify.apply-for-adoption"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.apply-for-adoption"
+    ttl: 300
+    record: "cdnverify.hmcts-apply-for-adoption-shutter-prod.azureedge.net"
+  - name: "apply-for-adoption"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
+    
+  # Private Law
+  - name: "em5901.mail-prl"
+    ttl: 300
+    record: "u24999813.wl064.sendgrid.net"
+  - name: "s1._domainkey.mail-prl"
+    ttl: 300
+    record: "s1.domainkey.u24999813.wl064.sendgrid.net"
+  - name: "s2._domainkey.mail-prl"
+    ttl: 300
+    record: "s2.domainkey.u24999813.wl064.sendgrid.net"
+    
+    
