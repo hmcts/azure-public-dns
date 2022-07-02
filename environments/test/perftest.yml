@@ -222,3 +222,9 @@ cname:
   - name: "privatelaw"
     ttl: 300
     record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.et-sya.perftest"
+    ttl: 300
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "et-sya"
+    ttl: 300
+    record: "hmcts-perftest.azurefd.net"
