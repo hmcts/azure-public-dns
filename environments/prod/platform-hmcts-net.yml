@@ -504,6 +504,10 @@ cname:
   - name: "afdverify.sds-api-mgmt"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.sds-api-mgmt"
+    ttl: 300
+    record: "cdnverify.hmcts-sds-api-mgmt-shutter-prod.azureedge.net"
+
   - name: "afdverify.hmi-apim"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -658,30 +662,38 @@ cname:
   - name: "s2._domainkey.mail-db-reporting-prod"
     ttl: 300
     record: "s2.domainkey.u23337691.wl192.sendgrid.net"
+
+#### Video Hearings
   - name: vh-video-web
     record: sdshmcts-prod.azurefd.net
     ttl: 300
   - name: "afdverify.vh-video-web"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.vh-video-web"
+    ttl: 300
+    record: "cdnverify.hmcts-vh-video-web-shutter-prod.azureedge.net"
+
   - name: vh-admin-web
     record: sdshmcts-prod.azurefd.net
     ttl: 300
   - name: "afdverify.vh-admin-web"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: vh-service-web
-    record: sdshmcts-prod.azurefd.net
+  - name: "cdnverify.vh-admin-web"
     ttl: 300
-  - name: "afdverify.vh-service-web"
-    ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "cdnverify.hmcts-vh-admin-web-shutter-prod.azureedge.net"
+
   - name: vh-test-web
     record: sdshmcts-prod.azurefd.net
     ttl: 300
   - name: "afdverify.vh-test-web"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.vh-test-web"
+    ttl: 300
+    record: "cdnverify.hmcts-vh-test-web-shutter-prod.azureedge.net"
+
   - name: "_DEFCA9944606874FF3B5E0E653FF9825"
     ttl: 300
     record: "882B317559A955DAA77E56E15B374766.A2851A8D271748B93C979BB5B30DD924.458f2f30b29105c76eb1.sectigo.com."
