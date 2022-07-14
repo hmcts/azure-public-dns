@@ -6,7 +6,7 @@ A:
   - name: "sdt-uks"
     ttl: 60
     record:
-      - "20.90.234.106"
+      - "13.87.70.10"
   - name: "sdt-ukw"
     ttl: 60
     record:
@@ -14,7 +14,7 @@ A:
   - name: "sdtcomm-uks"
     ttl: 60
     record:
-      - "20.90.234.105"
+      - "51.142.81.183"
   - name: "sdtcomm-ukw"
     ttl: 60
     record:
