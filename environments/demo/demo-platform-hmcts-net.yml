@@ -11,6 +11,14 @@ A:
     ttl: 300
     record:
       - "20.108.232.218"
+  - name: tax-tribunals
+    record:
+     - 51.145.96.41
+     ttl: 300
+  - name: tax-tribunals-downloader
+    record:
+     - 51.145.96.41
+     ttl: 300
 
 txt:
   - name: "idam-web-public"
