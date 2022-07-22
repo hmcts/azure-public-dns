@@ -2,7 +2,15 @@ ns: []
 
 mx: []
 
-A: []
+A:
+  - name: "tax-tribunals"
+    ttl: 300
+    record:
+      - 52.151.100.245
+  - name: "tax-tribunals-downloader"
+    ttl: 300
+    record:
+      - 52.151.100.245
 
 txt: []
 
