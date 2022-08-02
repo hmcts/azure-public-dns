@@ -75,3 +75,9 @@ cname:
   - name: "afdverify.sds-api-mgmt"
     ttl: 300
     record: "afdverify.hmcts-stg.azurefd.net"
+  - name: vh-wowza
+    record: sdshmcts-stg.azurefd.net
+    ttl: 300
+  - name: afdverify.vh-wowza
+    record: "afdverify.hmcts-stg.azurefd.net"
+    ttl: 300
