@@ -11,7 +11,7 @@ A:
     ttl: 300
     record:
       - 52.151.100.245
-  - name: vh-wowza
+  - name: vh-wowza-public
     record: 
       - 20.254.40.90
     ttl: 300
