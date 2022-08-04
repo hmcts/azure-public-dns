@@ -234,7 +234,7 @@ A:
     ttl: 360
     record:
       - "51.141.230.130"
-  - name: vh-wowza
+  - name: vh-wowza-public
     record: 
       - "51.142.236.29"
     ttl: 300
