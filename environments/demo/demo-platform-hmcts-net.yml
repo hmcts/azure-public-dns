@@ -19,6 +19,10 @@ A:
     ttl: 300
     record:
       - 51.145.96.41
+  - name: vh-wowza
+    record: 
+      - 20.77.78.162
+    ttl: 300
 
 txt:
   - name: "idam-web-public"
@@ -93,9 +97,6 @@ cname:
   - name: "afdverify.sds-api-mgmt"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
-  - name: vh-wowza
-    record: sdshmcts-demo.azurefd.net
-    ttl: 300
   - name: afdverify.vh-wowza
     record: "afdverify.hmcts-demo.azurefd.net"
     ttl: 300
