@@ -10,6 +10,10 @@ A:
       - "20.49.168.17"
       - "51.11.124.149"
       - "51.11.124.158"
+  - name: vh-wowza
+    record: 
+      - 20.68.204.210
+    ttl: 300
 
 txt:
   - name: "mailrelay"
@@ -83,9 +87,6 @@ cname:
   - name: "afdverify.sds-api-mgmt"
     ttl: 300
     record: "afdverify.hmcts-dev.azurefd.net"
-  - name: vh-wowza
-    record: sdshmcts-dev.azurefd.net
-    ttl: 300
   - name: afdverify.vh-wowza
     record: "afdverify.hmcts-dev.azurefd.net"
     ttl: 300
