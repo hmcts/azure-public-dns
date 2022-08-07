@@ -38,7 +38,7 @@ txt:
   - name: "prod-in"
     ttl: 3600
     record:
-      - "v=spf1 ip4:20.50.108.242 ip4:20.50.109.148 ip4:51.11.124.205 ip4:51.11.124.216 include:spf.protection.outlook.com ~all"
+      - "v=spf1 include:spf.protection.outlook.com ~all"
   - name: "_dmarc.prod-in"
     ttl: 3600
     record:
@@ -46,7 +46,7 @@ txt:
   - name: "dev-in"
     ttl: 3600
     record:
-      - "v=spf1 ip4:20.49.168.141 ip4:20.49.168.17 ip4:51.11.124.149 ip4:51.11.124.158 include:spf.protection.outlook.com ~all"
+      - "v=spf1 include:spf.protection.outlook.com ~all"
   - name: "_dmarc.dev-in"
     ttl: 3600
     record:
