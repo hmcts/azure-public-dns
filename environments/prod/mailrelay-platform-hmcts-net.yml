@@ -35,18 +35,10 @@ txt:
     ttl: 3600
     record:
       - "v=DMARC1; p=none"
-  - name: "prod-in"
-    ttl: 3600
-    record:
-      - "v=spf1 include:spf.protection.outlook.com ~all"
   - name: "_dmarc.prod-in"
     ttl: 3600
     record:
       - "v=DMARC1; p=none"
-  - name: "dev-in"
-    ttl: 3600
-    record:
-      - "v=spf1 include:spf.protection.outlook.com ~all"
   - name: "_dmarc.dev-in"
     ttl: 3600
     record:
