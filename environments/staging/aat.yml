@@ -280,3 +280,10 @@ cname:
   - name: "privatelaw"
     ttl: 300
     record: "hmcts-aat.azurefd.net"
+  - name: "plum"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
+    shutter: false
+  - name: "afdverify.plum"
+    ttl: 3600
+    record: "afdverify.hmcts-aat.azurefd.net"
