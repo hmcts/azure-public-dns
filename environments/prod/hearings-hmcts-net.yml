@@ -470,18 +470,3 @@ cname:
     ttl: 10800
     record: F0A31F942EADE8432A447B6647015235.95F202863B8BD1A7135E46F5DE3778F8.5fc4698a9539a70b368c.sectigo.com
   
-  # SDS Staging
-  - name: video-stg
-    ttl: 300
-    record: "hmcts-stg.azurefd.net"
-    shutter: false
-  - name: "afdverify.video-stg"
-    ttl: 300
-    record: "afdverify.hmcts-stg.azurefd.net"
-  - name: admin-stg
-    ttl: 300
-    record: "hmcts-stg.azurefd.net"
-    shutter: false
-  - name: "afdverify.admin-stg"
-    ttl: 300
-    record: "afdverify.hmcts-stg.azurefd.net"

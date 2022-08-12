@@ -1,0 +1,32 @@
+ns: 
+  - name: "prod"
+    ttl: 900
+    record:
+      - "ns1-07.azure-dns.com"
+      - "ns2-07.azure-dns.net"
+      - "ns3-07.azure-dns.org"
+      - "ns4-07.azure-dns.info"
+
+mx: []
+
+A: []
+
+txt: []
+
+srv: []
+
+cname:
+  - name: video-stg
+    ttl: 300
+    record: "hmcts-stg.azurefd.net"
+    shutter: false
+  - name: "afdverify.video-stg"
+    ttl: 300
+    record: "afdverify.hmcts-stg.azurefd.net"
+  - name: admin-stg
+    ttl: 300
+    record: "hmcts-stg.azurefd.net"
+    shutter: false
+  - name: "afdverify.admin-stg"
+    ttl: 300
+    record: "afdverify.hmcts-stg.azurefd.net"
