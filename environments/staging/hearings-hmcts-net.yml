@@ -1,0 +1,25 @@
+ns:  []
+
+mx: []
+
+A: []
+
+txt: []
+
+srv: []
+
+cname:
+  - name: video
+    ttl: 300
+    record: "hmcts-stg.azurefd.net"
+    shutter: false
+  - name: "afdverify.video"
+    ttl: 300
+    record: "afdverify.hmcts-stg.azurefd.net"
+  - name: admin
+    ttl: 300
+    record: "hmcts-stg.azurefd.net"
+    shutter: false
+  - name: "afdverify.admin"
+    ttl: 300
+    record: "afdverify.hmcts-stg.azurefd.net"
