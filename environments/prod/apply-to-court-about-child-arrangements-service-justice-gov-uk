@@ -1,0 +1,14 @@
+ns:
+
+mx:
+
+A:
+  - name: "@"
+    ttl: 3600
+    record:
+      - "FILL THIS IN WITH IP ADDRESS"
+
+txt:
+
+cname:
+
