@@ -57,30 +57,6 @@ cname:
   - name: "afdverify.jdfrontend"
     ttl: 3600
     record: "afdverify.sdshmcts-dev.azurefd.net"
-  - name: vh-video-web
-    record: sdshmcts-dev.azurefd.net
-    ttl: 300
-  - name: "afdverify.vh-video-web"
-    ttl: 300
-    record: "afdverify.hmcts-dev.azurefd.net"
-  - name: vh-admin-web
-    record: sdshmcts-dev.azurefd.net
-    ttl: 300
-  - name: "afdverify.vh-admin-web"
-    ttl: 300
-    record: "afdverify.hmcts-dev.azurefd.net"
-  - name: vh-service-web
-    record: sdshmcts-dev.azurefd.net
-    ttl: 300
-  - name: "afdverify.vh-service-web"
-    ttl: 300
-    record: "afdverify.hmcts-dev.azurefd.net"
-  - name: vh-test-web
-    record: sdshmcts-dev.azurefd.net
-    ttl: 300
-  - name: "afdverify.vh-test-web"
-    ttl: 300
-    record: "afdverify.hmcts-dev.azurefd.net"
   - name: sds-api-mgmt
     record: sdshmcts-dev.azurefd.net
     ttl: 300
