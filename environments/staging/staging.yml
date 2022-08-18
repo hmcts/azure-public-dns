@@ -21,6 +21,12 @@ txt: []
 srv: []
 
 cname:
+  - name: "afdverify.c100-application"
+    ttl: 300
+    record: "afdverify.sdshmcts-stg.azurefd.net"
+  - name: "c100-application"
+    ttl: 300
+    record: "sdshmcts-stg.azurefd.net"
   - name: "afdverify.hmi-apim"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
