@@ -25,6 +25,12 @@ txt:
       - "v=DMARC1; p=none"
 
 cname:
+  - name: "afdverify.c100-application"
+    ttl: 300
+    record: "afdverify.sdshmcts-ithc.azurefd.net"
+  - name: "c100-application"
+    ttl: 300
+    record: "sdshmcts-ithc.azurefd.net"
   - name: "tmmanage.appeal-benefit-decision"
     ttl: 60
     record: "590582cd-441a-4601-9f6a-f8203d4c19fe.cloudapp.net"
