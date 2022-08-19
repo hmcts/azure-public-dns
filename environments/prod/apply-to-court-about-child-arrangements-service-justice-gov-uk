@@ -1,0 +1,19 @@
+ns:
+
+mx:
+
+A:
+
+txt:
+
+cname:
+- name: "afdverify.c100-application"
+  ttl: 300
+  record: "afdverify.sdshmcts-prod.azurefd.net"
+- name: "cdnverify.c100-application"
+  ttl: 300
+  record: "cdnverify.sdshmcts-c100-application-shutter-prod.azureedge.net"
+- name: "c100-application"
+  ttl: 300
+  record: "hmcts-prod.azurefd.net"
+
