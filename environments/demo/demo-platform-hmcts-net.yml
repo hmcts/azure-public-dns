@@ -23,7 +23,7 @@ A:
     record: 
       - 20.77.78.162
     ttl: 300
-
+ 
 txt:
   - name: "idam-web-public"
     ttl: 3600
