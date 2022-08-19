@@ -511,6 +511,12 @@ cname:
   - name: "cdnverify.sds-api-mgmt"
     ttl: 300
     record: "cdnverify.hmcts-sds-api-mgmt-shutter-prod.azureedge.net"
+  - name: toffee
+    record: sdshmcts-prod.azurefd.net
+    ttl: 300
+  - name: "afdverify.toffee"
+    ttl: 300
+    record: "afdverify.sdshmcts-prod.azurefd.net"
 
   - name: "afdverify.hmi-apim"
     ttl: 300
