@@ -190,6 +190,10 @@ A:
     ttl: 300
     record:
       - "51.132.40.106"
+  - name: "backstage"
+    ttl: 300
+    record:
+      - "10.10.73.250"
   - name: "sod-ss"
     ttl: 60
     record:
