@@ -799,7 +799,19 @@ cname:
     ttl: 300
     record: "hmcts-prod.azurefd.net"
     shutter: false
-    
+
+  # C100
+  - name: "afdverify.c100-application"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.c100-application"
+    ttl: 300
+    record: "cdnverify.hmcts-c100-application-shutter-prod.azureedge.net"
+  - name: "c100-application"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
+
   # Private Law
   - name: "em5901.mail-prl"
     ttl: 300
