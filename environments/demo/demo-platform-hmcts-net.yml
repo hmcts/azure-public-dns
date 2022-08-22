@@ -40,12 +40,6 @@ cname:
   - name: "bulkscan"
     ttl: 60
     record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.c100-application"
-    ttl: 300
-    record: "afdverify.sdshmcts-demo.azurefd.net"
-  - name: "c100-application"
-    ttl: 300
-    record: "sdshmcts-demo.azurefd.net"
   - name: "afdverify.bulkscan"
     ttl: 60
     record: "afdverify.hmcts-demo.azurefd.net"
