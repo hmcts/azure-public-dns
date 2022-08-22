@@ -813,7 +813,7 @@ cname:
     record: "cdnverify.hmcts-c100-application-shutter-prod.azureedge.net"
   - name: "c100-application"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "sdshmcts-prod.azurefd.net"
     shutter: false
 
   # Private Law
