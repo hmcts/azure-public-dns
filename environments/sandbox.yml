@@ -118,6 +118,16 @@ cname:
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
     shutter: false
+  - name: "afdverify.idam-user-dashboard"
+    ttl: 300
+    record: "afdverify.hmcts-sbox.azurefd.net"
+  - name: "cdnverify.idam-user-dashboard"
+    ttl: 300
+    record: "cdnverify.hmcts-idam-user-dashboard-shutter-sbox.azureedge.net"
+  - name: "idam-user-dashboard"
+    ttl: 300
+    record: "hmcts-sbox.azurefd.net"
+    shutter: false  
   - name: "afdverify.hmi-apim"
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
