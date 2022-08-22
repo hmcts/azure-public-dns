@@ -807,10 +807,10 @@ cname:
   # C100
   - name: "afdverify.c100-application"
     ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.sdshmcts-prod.azurefd.net"
   - name: "cdnverify.c100-application"
     ttl: 300
-    record: "cdnverify.hmcts-c100-application-shutter-prod.azureedge.net"
+    record: "cdnverify.sdshmcts-c100-application-shutter-prod.azureedge.net"
   - name: "c100-application"
     ttl: 300
     record: "sdshmcts-prod.azurefd.net"
