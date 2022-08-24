@@ -16,11 +16,7 @@ A:
       - 20.254.40.90
     ttl: 300
 
-txt: 
-  - name: "pip-frontend"
-    ttl: 3600
-    record:
-      - "MS=ms19809512"
+txt:
   - name: "sign-in.pip-frontend"
     ttl: 3600
     record:
