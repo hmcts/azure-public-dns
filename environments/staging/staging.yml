@@ -16,7 +16,11 @@ A:
       - 20.254.40.90
     ttl: 300
 
-txt: []
+txt: 
+  - name: "pip-frontend"
+    ttl: 300
+    record:
+      - "MS=ms19809512"
 
 srv: []
 
@@ -49,9 +53,9 @@ cname:
   - name: "afdverify.vh"
     ttl: 300
     record: "afdverify.hmcts-stg.azurefd.net"
-  - name: pip-frontend
-    record: sdshmcts-stg.azurefd.net
-    ttl: 300
+  # - name: pip-frontend
+  #   record: sdshmcts-stg.azurefd.net
+  #   ttl: 300
   - name: staff.pip-frontend
     record: sdshmcts-stg.azurefd.net
     ttl: 300
