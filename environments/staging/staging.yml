@@ -17,10 +17,18 @@ A:
     ttl: 300
 
 txt: 
-  - name: "@"
+  - name: "pip-frontend"
     ttl: 3600
     record:
-      - "MS=ms92490321"
+      - "MS=ms19809512"
+  - name: "sign-in.pip-frontend"
+    ttl: 3600
+    record:
+      - "MS=ms46404176"
+  - name: "staff.pip-frontend"
+    ttl: 3600
+    record:
+      - "MS=ms84812883"
 
 srv: []
 
