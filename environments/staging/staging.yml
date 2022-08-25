@@ -53,9 +53,6 @@ cname:
   - name: "afdverify.vh"
     ttl: 300
     record: "afdverify.hmcts-stg.azurefd.net"
-  # - name: pip-frontend
-  #   record: sdshmcts-stg.azurefd.net
-  #   ttl: 300
   - name: staff.pip-frontend
     record: sdshmcts-stg.azurefd.net
     ttl: 300
