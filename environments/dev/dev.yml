@@ -24,6 +24,10 @@ txt:
     ttl: 3600
     record:
       - "v=DMARC1; p=none"
+  - name: "@"
+    ttl: 3600
+    record:
+      - "MS=ms74851057"
 
 
 srv: []
