@@ -16,158 +16,85 @@ resources:
     endpoint: 'hmcts (1)'
 
 variables:
-  terraformVersion: 0.14.6
-  agentPool: 'ubuntu-18.04'
+  - name: timeoutInMinutes
+    value: 60
+  - name: agentPool
+    value: 'ubuntu-latest'
+  - name: build
+    value: $(Build.BuildNumber)
+  - name: product
+    value: AzureDNS
+  - name: terraformInitSubscription
+    value: 04d27a32-7a07-48b3-95b8-3c8691e1a263
+  - template: vars/input-variables.yaml@cnp-azuredevops-libraries
+
+parameters:
+  - name: overrideAction
+    type: string
+    default: plan
+    values:
+      - plan
+      - apply
+      - destroy
+
+  - name: environment_components
+    type: object
+    default:
+      - deployment: 'Sandbox'
+        environment: 'sandbox'
+        component: 'sandbox'
+      - deployment: 'Demo'
+        environment: 'demo'
+        component: 'demo'
+      - deployment: 'dev'
+        environment: 'dev'
+        component: 'dev'
+        service_connection: "GA"
+      - deployment: 'ITHC'
+        environment: 'ithc'
+        component: 'ithc'
+      - deployment: 'Test'
+        environment: 'test'
+        component: 'test'
+      - deployment: 'Staging'
+        environment: 'staging'
+        component: 'staging'
+      - deployment: 'NLE'
+        environment: 'nle'
+        component: 'nle'
+      - deployment: 'PROD'
+        environment: 'prod'
+        component: 'prod'
+
 
 stages:
-  - stage: Plan_phase
-    displayName: "Terraform Plan"
+  - stage: Precheck
     jobs:
-      - template: pipeline-templates/terraform-plan.yaml
-        parameters:
-          zone: 'sandbox'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-
-      - template: pipeline-templates/terraform-plan.yaml
-        parameters:
-          zone: 'demo'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-
-
-          
-      - template: pipeline-templates/terraform-plan.yaml
-        parameters:
-          zone: 'dev'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-          
-      - template: pipeline-templates/terraform-plan.yaml
-        parameters:
-          zone: 'ithc'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-
-      - template: pipeline-templates/terraform-plan.yaml
-        parameters:
-          zone: 'test'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-      - template: pipeline-templates/terraform-plan.yaml
-        parameters:
-          zone: 'staging'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-
-      - template: pipeline-templates/terraform-plan.yaml
-        parameters:
-          zone: 'nle'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-
-      - template: pipeline-templates/terraform-plan.yaml
-        parameters:
-          zone: 'prod'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-
-      - job: Archive
+      - job:
         pool:
           vmImage: ${{ variables.agentPool }}
+        timeoutInMinutes: ${{ variables.timeoutInMinutes }}
         steps:
-          - task: CopyFiles@2
-            displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
-            inputs:
-              TargetFolder: '$(Build.ArtifactStagingDirectory)'
+          - template: steps/terraform-precheck.yaml@cnp-azuredevops-libraries
+            parameters:
+              keyvaultName: 'infra-vault-nonprod'
+              keyvaultSecret: 'azure-devops-token'
+              serviceConnection: 'DCD-CFTAPPS-DEV'
 
-          - task: PublishBuildArtifacts@1
-            displayName: 'Publish Artifact: drop'
-
-  - stage: Sandbox_Apply
-    dependsOn: Plan_phase
-    displayName: "Sandbox Apply"
-    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
-    jobs:
-      - template: pipeline-templates/terraform-apply.yaml
-        parameters:
-          zone: 'sandbox'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-
-  - stage: Demo_Apply
-    dependsOn: Plan_phase
-    displayName: "Demo Apply"
-    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
-    jobs:
-      - template: pipeline-templates/terraform-apply.yaml
-        parameters:
-          zone: 'demo'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-
-  - stage: Dev_Apply
-    dependsOn: Plan_phase
-    displayName: "Dev Apply"
-    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
-    jobs:
-      - template: pipeline-templates/terraform-apply.yaml
-        parameters:
-          zone: 'dev'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-
-  - stage: Ithc_Apply
-    dependsOn: Plan_phase
-    displayName: "Ithc Apply"
-    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
-    jobs:
-      - template: pipeline-templates/terraform-apply.yaml
-        parameters:
-          zone: 'ithc'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-
-  - stage: Test_Apply
-    dependsOn: Plan_phase
-    displayName: "Test Apply"
-    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
-    jobs:
-      - template: pipeline-templates/terraform-apply.yaml
-        parameters:
-          zone: 'test'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-
-  - stage: Staging_Apply
-    dependsOn: Plan_phase
-    displayName: "Staging Apply"
-    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
-    jobs:
-      - template: pipeline-templates/terraform-apply.yaml
-        parameters:
-          zone: 'staging'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-
-  - stage: Nle_Apply
-    dependsOn: Plan_phase
-    displayName: "Nle Apply"
-    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
-    jobs:
-      - template: pipeline-templates/terraform-apply.yaml
-        parameters:
-          zone: 'nle'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
-
-  - stage: Prod_Apply
-    dependsOn: Plan_phase
-    displayName: "Prod Apply"
-    condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/master'))
-    jobs:
-      - template: pipeline-templates/terraform-apply.yaml
-        parameters:
-          zone: 'prod'
-          build: $(Build.BuildNumber)
-          agentPool: ${{ variables.agentPool }}
+  - ${{ each deployment in parameters.environment_components }}:
+      - stage: ${{ deployment.deployment }}
+        dependsOn: ${{ deployment.dependsOn }}
+        jobs:
+          - job: TerraformPlanApply
+            pool:
+              vmImage: ${{ variables.agentPool }}
+            timeoutInMinutes: ${{ variables.timeoutInMinutes }}
+            steps:
+              - template: steps/terraform.yaml@cnp-azuredevops-libraries
+                parameters:
+                  overrideAction: ${{ parameters.overrideAction }}
+                  environment: ${{ deployment.environment }}
+                  component: ${{ deployment.component }}
+#                  serviceConnection: ${{ deployment.serviceconnection }}
+                  terraformInitSubscription: ${{ variables.terraformInitSubscription }}
+                  product: ${{ variables.product }}
