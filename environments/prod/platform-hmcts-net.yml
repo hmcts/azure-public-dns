@@ -265,6 +265,13 @@ cname:
   - name: "afdverify.administer-orgs"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "plum"
+    ttl: 60
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
+  - name: "afdverify.plum"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
   - name: "cdnverify.administer-orgs"
     ttl: 3600
     record: "cdnverify.hmcts-administer-orgs-shutter-prod.azureedge.net"
