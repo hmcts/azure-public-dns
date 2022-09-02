@@ -15,6 +15,9 @@ resources:
     name: hmcts/cnp-azuredevops-libraries
     endpoint: 'hmcts (1)'
 
+#variables:
+#  terraformVersion: 0.14.6
+#  agentPool: 'ubuntu-18.04'
 variables:
   - name: timeoutInMinutes
     value: 60
@@ -23,6 +26,8 @@ variables:
   - name: build
     value: $(Build.BuildNumber)
   - name: product
+    value: CFT
+  - name: project
     value: AzureDNS
   - name: terraformInitSubscription
     value: 04d27a32-7a07-48b3-95b8-3c8691e1a263
@@ -43,29 +48,51 @@ parameters:
       - deployment: 'Sandbox'
         environment: 'sandbox'
         component: 'sandbox'
+        serviceConnection: 'azurerm-sandbox'
+        dependsOn:
+          - Precheck
       - deployment: 'Demo'
         environment: 'demo'
         component: 'demo'
+        serviceConnection: 'azurerm-nonprod-PlatformOperations'
+        dependsOn:
+          - Precheck
       - deployment: 'dev'
         environment: 'dev'
         component: 'dev'
-        service_connection: "GA"
+        serviceConnection: 'azurerm-nonprod-PlatformOperations'
+        dependsOn:
+          - Precheck
       - deployment: 'ITHC'
         environment: 'ithc'
         component: 'ithc'
+        serviceConnection: 'azurerm-nonprod-PlatformOperations'
+        dependsOn:
+          - Precheck
       - deployment: 'Test'
         environment: 'test'
         component: 'test'
+        serviceConnection: 'azurerm-nonprod-PlatformOperations'
+        dependsOn:
+          - Precheck
       - deployment: 'Staging'
         environment: 'staging'
         component: 'staging'
+        serviceConnection: 'azurerm-nonprod-PlatformOperations'
+        dependsOn:
+          - Precheck
       - deployment: 'NLE'
         environment: 'nle'
         component: 'nle'
+        serviceConnection: 'azurerm-nonprod-PlatformOperations'
+        dependsOn:
+          - Precheck
       - deployment: 'PROD'
         environment: 'prod'
         component: 'prod'
-
+        serviceConnection: 'azurerm-prod'
+        dependsOn:
+          - Precheck
 
 stages:
   - stage: Precheck
@@ -79,7 +106,7 @@ stages:
             parameters:
               keyvaultName: 'infra-vault-nonprod'
               keyvaultSecret: 'azure-devops-token'
-              serviceConnection: 'DCD-CFTAPPS-DEV'
+              serviceConnection: 'azurerm-sandbox'
 
   - ${{ each deployment in parameters.environment_components }}:
       - stage: ${{ deployment.deployment }}
@@ -95,6 +122,6 @@ stages:
                   overrideAction: ${{ parameters.overrideAction }}
                   environment: ${{ deployment.environment }}
                   component: ${{ deployment.component }}
-#                  serviceConnection: ${{ deployment.serviceconnection }}
+                  serviceConnection: ${{ deployment.serviceConnection }}
                   terraformInitSubscription: ${{ variables.terraformInitSubscription }}
                   product: ${{ variables.product }}
