@@ -5,13 +5,13 @@ variable "resource_group_name" {
 }
 
 variable "env" {
-  type        = string
+  type = string
 }
 
 variable "product" {
-  type        = string
+  type = string
 }
 
 variable "builtFrom" {
-  type        = string
+  type = string
 }
