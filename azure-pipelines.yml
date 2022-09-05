@@ -55,42 +55,49 @@ parameters:
       - deployment: 'Demo'
         environment: 'demo'
         component: 'demo'
+        resource_group_name: 'azure-control-mgmt-rg'
         serviceConnection: 'Reform-CFT-Mgmt'
         dependsOn:
           - Precheck
       - deployment: 'Dev'
         environment: 'dev'
         component: 'dev'
+        resource_group_name: 'azure-control-mgmt-rg'
         serviceConnection: 'Reform-CFT-Mgmt'
         dependsOn:
           - Precheck
       - deployment: 'ITHC'
         environment: 'ithc'
         component: 'ithc'
+        resource_group_name: 'azure-control-mgmt-rg'
         serviceConnection: 'Reform-CFT-Mgmt'
         dependsOn:
           - Precheck
       - deployment: 'Test'
         environment: 'test'
         component: 'test'
+        resource_group_name: 'azure-control-mgmt-rg'
         serviceConnection: 'Reform-CFT-Mgmt'
         dependsOn:
           - Precheck
       - deployment: 'Staging'
         environment: 'staging'
         component: 'staging'
+        resource_group_name: 'azure-control-mgmt-rg'
         serviceConnection: 'Reform-CFT-Mgmt'
         dependsOn:
           - Precheck
       - deployment: 'NLE'
         environment: 'nle'
         component: 'nle'
+        resource_group_name: 'azure-control-mgmt-rg'
         serviceConnection: 'Reform-CFT-Mgmt'
         dependsOn:
           - Precheck
       - deployment: 'Prod'
         environment: 'prod'
         component: 'prod'
+        resource_group_name: 'azure-control-mgmt-rg'
         serviceConnection: 'Reform-CFT-Mgmt'
         dependsOn:
           - Precheck
