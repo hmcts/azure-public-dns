@@ -76,7 +76,7 @@ stages:
         pool:
           vmImage: ${{ variables.agentPool }}
         steps:
-          - task: CopyFiles@2
+          - task: CopyFiles@2.209.0
             displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
             inputs:
               TargetFolder: '$(Build.ArtifactStagingDirectory)'
