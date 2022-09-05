@@ -14,4 +14,4 @@ variable "product" {
 
 variable "builtFrom" {
   type        = string
-}x
+}
