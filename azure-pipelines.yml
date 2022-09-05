@@ -48,49 +48,49 @@ parameters:
       - deployment: 'Sandbox'
         environment: 'sandbox'
         component: 'sandbox'
-        serviceConnection: 'azurerm-sandbox'
+        serviceConnection: 'Reform-CFT-Mgmt'
         dependsOn:
           - Precheck
       - deployment: 'Demo'
         environment: 'demo'
         component: 'demo'
-        serviceConnection: 'azurerm-nonprod-PlatformOperations'
+        serviceConnection: 'Reform-CFT-Mgmt'
         dependsOn:
           - Precheck
-      - deployment: 'dev'
+      - deployment: 'Dev'
         environment: 'dev'
         component: 'dev'
-        serviceConnection: 'azurerm-nonprod-PlatformOperations'
+        serviceConnection: 'Reform-CFT-Mgmt'
         dependsOn:
           - Precheck
       - deployment: 'ITHC'
         environment: 'ithc'
         component: 'ithc'
-        serviceConnection: 'azurerm-nonprod-PlatformOperations'
+        serviceConnection: 'Reform-CFT-Mgmt'
         dependsOn:
           - Precheck
       - deployment: 'Test'
         environment: 'test'
         component: 'test'
-        serviceConnection: 'azurerm-nonprod-PlatformOperations'
+        serviceConnection: 'Reform-CFT-Mgmt'
         dependsOn:
           - Precheck
       - deployment: 'Staging'
         environment: 'staging'
         component: 'staging'
-        serviceConnection: 'azurerm-nonprod-PlatformOperations'
+        serviceConnection: 'Reform-CFT-Mgmt'
         dependsOn:
           - Precheck
       - deployment: 'NLE'
         environment: 'nle'
         component: 'nle'
-        serviceConnection: 'azurerm-nonprod-PlatformOperations'
+        serviceConnection: 'Reform-CFT-Mgmt'
         dependsOn:
           - Precheck
-      - deployment: 'PROD'
+      - deployment: 'Prod'
         environment: 'prod'
         component: 'prod'
-        serviceConnection: 'azurerm-prod'
+        serviceConnection: 'Reform-CFT-Mgmt'
         dependsOn:
           - Precheck
 
