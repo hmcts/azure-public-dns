@@ -265,6 +265,9 @@ cname:
   - name: "afdverify.administer-orgs"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.administer-orgs"
+    ttl: 3600
+    record: "cdnverify.hmcts-administer-orgs-shutter-prod.azureedge.net"
   - name: "plum"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
@@ -272,9 +275,9 @@ cname:
   - name: "afdverify.plum"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.administer-orgs"
+  - name: "cdnverify.plum"
     ttl: 3600
-    record: "cdnverify.hmcts-administer-orgs-shutter-prod.azureedge.net"
+    record: "cdnverify.hmcts-plum-shutter-prod.azureedge.net"
   - name: "apply-divorce"
     ttl: 3600
     record: "www.apply-divorce.platform.hmcts.net"
