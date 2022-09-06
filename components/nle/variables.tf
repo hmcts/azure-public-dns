@@ -5,7 +5,9 @@ variable "resource_group_name" {
 }
 
 variable "env" {
+  default = "stg"
 }
+
 
 variable "product" {
   type = string
