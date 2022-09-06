@@ -66,7 +66,7 @@ parameters:
         serviceConnection: 'Reform-CFT-Mgmt'
         dependsOn:
           - Precheck
-      - deployment: 'ITHC'
+      - deployment: 'Ithc'
         environment: 'ithc'
         component: 'ithc'
         resource_group_name: 'azure-control-mgmt-rg'
@@ -87,7 +87,7 @@ parameters:
         serviceConnection: 'Reform-CFT-Mgmt'
         dependsOn:
           - Precheck
-      - deployment: 'NLE'
+      - deployment: 'nle'
         environment: 'nle'
         component: 'nle'
         resource_group_name: 'azure-control-mgmt-rg'
