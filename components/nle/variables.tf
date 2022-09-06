@@ -5,5 +5,13 @@ variable "resource_group_name" {
 }
 
 variable "env" {
-  default = "stg"
+  default = "nle"
+}
+
+variable "product" {
+  type = string
+}
+
+variable "builtFrom" {
+  type = string
 }

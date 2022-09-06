@@ -5,7 +5,7 @@ variable "resource_group_name" {
 }
 
 variable "env" {
-  type = string
+  default = "sandbox"
 }
 
 variable "product" {
