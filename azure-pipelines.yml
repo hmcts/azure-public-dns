@@ -11,13 +11,10 @@ resources:
   repositories:
   - repository: cnp-azuredevops-libraries
     type: github
-    ref: DTSPO-9663-template-file-cleanup
+    ref: master
     name: hmcts/cnp-azuredevops-libraries
     endpoint: 'hmcts (1)'
 
-#variables:
-#  terraformVersion: 0.14.6
-#  agentPool: 'ubuntu-18.04'
 variables:
   - name: timeoutInMinutes
     value: 60
