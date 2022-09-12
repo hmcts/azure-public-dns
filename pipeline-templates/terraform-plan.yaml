@@ -39,12 +39,14 @@ jobs:
             rm -f terraform.tfstate* && rm -rf .terraform/
       - publish: $(System.DefaultWorkingDirectory)/$(buildRepoSuffix)/components/${{ parameters.zone }}/${{ parameters.zone }}${{ parameters.build }}plan
         artifact: ${{ parameters.zone }}${{ parameters.build }}plan
-      - task: AzureCLI@2
-        displayName: 'Unlock TF state if required'
-        condition: always()
-        inputs:
-          scriptType: bash
-          scriptLocation: scriptPath
-          azureSubscription: 'Reform-CFT-Mgmt'
-          scriptPath: $(System.DefaultWorkingDirectory)/cnp-azuredevops-libraries/scripts/unlock-tf-state.sh
-          arguments: ${{ parameters.backendAzureRmStorageAccountName }} "public-dns/${{ parameters.zone }}.tfstate" ${{ parameters.backendServiceArm }} tfstate
+
+#      - task: AzureCLI@2
+#        displayName: 'Unlock TF state if required'
+#        condition: always()
+#        inputs:
+#          scriptType: bash
+#          scriptLocation: scriptPath
+#          azureSubscription: 'Reform-CFT-Mgmt'
+#          scriptPath: $(System.DefaultWorkingDirectory)/cnp-azuredevops-libraries/scripts/unlock-tf-state.sh
+#          arguments: ${{ parameters.backendAzureRmStorageAccountName }} "public-dns/${{ parameters.zone }}.tfstate" ${{ parameters.backendServiceArm }} tfstate
+#          arguments: ${{ parameters.backendAzureRmStorageAccountName }} "public-dns/${{ parameters.zone }}.tfstate" ${{ parameters.terraformInitSubscription }} tfstate
