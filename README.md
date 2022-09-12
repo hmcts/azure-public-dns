@@ -80,7 +80,7 @@ addition or removal was made.
 ## Limitations
 
 This module supports only the following DNS record types, due to limitations
-of the underlying Terraform provider::
+of the underlying Terraform provider:
 
 - `A`
 - `AAAA`
