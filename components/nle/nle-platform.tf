@@ -13,5 +13,5 @@ module "public-dns" {
   txt_recordsets      = yamldecode(data.local_file.configuration.content).txt
   zone_name           = "nle.platform.hmcts.net"
   resource_group_name = data.azurerm_resource_group.main.name
-  env                 = "stg"
+  env                 = var.env
 }

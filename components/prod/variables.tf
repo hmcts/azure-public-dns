@@ -7,11 +7,3 @@ variable "resource_group_name" {
 variable "env" {
   default = "prod"
 }
-
-variable "product" {
-  type = string
-}
-
-variable "builtFrom" {
-  type = string
-}
