@@ -61,6 +61,12 @@ cname:
   - name: "respond-divorce-aks"
     ttl: 3600
     record: "hmcts-ithc.azurefd.net"
+  - name: "afdverify.hmi-apim"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "hmi-apim"
+    ttl: 3600
+    record: "hmcts-ithc.azurefd.net"
   - name: "tmsscs-tribunals-frontend"
     ttl: 300
     record: "590582cd-441a-4601-9f6a-f8203d4c19fe.cloudapp.net"
