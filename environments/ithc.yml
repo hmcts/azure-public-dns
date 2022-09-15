@@ -280,3 +280,21 @@ cname:
   - name: "privatelaw"
     ttl: 300
     record: "hmcts-ithc.azurefd.net"
+  - name: vh-video-web
+    record: sdshmcts-ithc.azurefd.net
+    ttl: 300
+  - name: adverify.vh-video-web
+    record: afdverify.sdshmcts-ithc.azurefd.net
+    ttl: 300
+  - name: vh-admin-web
+    record: sdshmcts-ithc.azurefd.net
+    ttl: 300
+  - name: adverify.vh-admin-web
+    record: afdverify.sdshmcts-ithc.azurefd.net
+    ttl: 300
+  - name: vh-test-web
+    record: sdshmcts-ithc.azurefd.net
+    ttl: 300
+  - name: adverify.vh-test-web
+    record: afdverify.sdshmcts-ithc.azurefd.net
+    ttl: 300

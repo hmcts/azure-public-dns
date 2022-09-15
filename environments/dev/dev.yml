@@ -82,3 +82,9 @@ cname:
   - name: "afdverify.vh-admin-web"
     ttl: 300
     record: "afdverify.hmcts-dev.azurefd.net"
+  - name: vh-test-web
+    record: sdshmcts-dev.azurefd.net
+    ttl: 300
+  - name: "afdverify.vh-test-web"
+    ttl: 300
+    record: "afdverify.hmcts-dev.azurefd.net"
