@@ -23,7 +23,18 @@ A:
     record: 
       - 20.77.78.162
     ttl: 300
- 
+  - name: vh-admin-web
+    record: 
+      - "51.142.81.239"
+    ttl: 300
+  - name: vh-video-web
+    record: 
+      - "51.142.81.239"
+    ttl: 300
+  - name: vh-test-web
+    record: 
+      - "51.142.81.239"
+    ttl: 300
 txt:
   - name: "idam-web-public"
     ttl: 3600
@@ -76,21 +87,3 @@ cname:
   - name: afdverify.vh-wowza
     record: "afdverify.hmcts-demo.azurefd.net"
     ttl: 300
-  - name: vh-video-web
-    record: sdshmcts-demo.azurefd.net
-    ttl: 300
-  - name: "afdverify.vh-video-web"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: vh-admin-web
-    record: sdshmcts-demo.azurefd.net
-    ttl: 300
-  - name: "afdverify.vh-admin-web"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: vh-test-web
-    record: sdshmcts-demo.azurefd.net
-    ttl: 300
-  - name: "afdverify.vh-test-web"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
