@@ -43,3 +43,21 @@ cname:
   - name: afdverify.vh-wowza-public
     record: "afdverify.hmcts-test.azurefd.net"
     ttl: 300
+  - name: vh-video-web
+    record: sdshmcts-dev.azurefd.net
+    ttl: 300
+  - name: "afdverify.vh-video-web"
+    ttl: 300
+    record: "afdverify.hmcts-dev.azurefd.net"
+  - name: vh-admin-web
+    record: sdshmcts-dev.azurefd.net
+    ttl: 300
+  - name: "afdverify.vh-admin-web"
+    ttl: 300
+    record: "afdverify.hmcts-dev.azurefd.net"
+  - name: vh-test-web
+    record: sdshmcts-dev.azurefd.net
+    ttl: 300
+  - name: "afdverify.vh-test-web"
+    ttl: 300
+    record: "afdverify.hmcts-dev.azurefd.net"
