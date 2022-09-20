@@ -6,7 +6,6 @@ A:
 
 txt:
 
-
 cname:
   - name: "afdverify.et-sya"
     ttl: 300
