@@ -1,0 +1,19 @@
+ns:
+
+mx:
+
+A:
+
+txt:
+
+
+cname:
+  - name: "afdverify.et-sya"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.et-sya"
+    ttl: 300
+    record: "cdnverify.hmcts-et-sya-shutter-prod.azureedge.net"
+  - name: "et-sya"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
