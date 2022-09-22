@@ -298,3 +298,9 @@ cname:
   - name: adverify.vh-test-web
     record: afdverify.sdshmcts-ithc.azurefd.net
     ttl: 300
+  - name: "afdverify.et-sya"
+    ttl: 300
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "et-sya"
+    ttl: 300
+    record: "hmcts-ithc.azurefd.net"
