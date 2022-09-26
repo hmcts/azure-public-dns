@@ -88,3 +88,6 @@ cname:
   - name: "afdverify.vh-test-web"
     ttl: 300
     record: "afdverify.hmcts-dev.azurefd.net"
+  - name: "signalr"
+    ttl: 300
+    record: "vh-infra-core-dev.service.signalr.net"
