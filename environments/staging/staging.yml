@@ -94,3 +94,6 @@ cname:
   - name: afdverify.vh-wowza
     record: "afdverify.hmcts-stg.azurefd.net"
     ttl: 300
+  - name: "signalr"
+    ttl: 300
+    record: "vh-infra-core-stg.service.signalr.net"
