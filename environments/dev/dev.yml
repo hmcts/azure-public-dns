@@ -10,10 +10,6 @@ A:
       - "20.49.168.17"
       - "51.11.124.149"
       - "51.11.124.158"
-  - name: vh-wowza-public
-    record: 
-      - 20.68.204.210
-    ttl: 300
 
 txt:
   - name: "mailrelay"
@@ -91,3 +87,6 @@ cname:
   - name: "signalr"
     ttl: 300
     record: "vh-infra-core-dev.service.signalr.net"
+  - name: "vh-wowza"
+    ttl: 300
+    record: "vh-infra-wowza-dev.uksouth.cloudapp.azure.com"
