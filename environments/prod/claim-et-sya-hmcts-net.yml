@@ -16,4 +16,4 @@ cname:
   - name: "et-sya"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
