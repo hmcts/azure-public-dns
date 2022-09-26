@@ -12,7 +12,7 @@ cname:
   - name: "www"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
     #record: "hmcts-appeal-immigration-asylum-decision-shutter.azureedge.net"
     #shuttering must be achieved for IAC by pointing to hmcts-appeal-immigration-asylum-decision-shutter.azureedge.net at present
   - name: "afdverify.www"

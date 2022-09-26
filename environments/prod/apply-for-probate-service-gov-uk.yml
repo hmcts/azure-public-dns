@@ -15,7 +15,7 @@ cname:
   - name: "www"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "cdnverify.www"
     ttl: 300
     record: "cdnverify.hmcts-apply-for-probate-shutter-prod.azureedge.net"
