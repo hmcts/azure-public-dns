@@ -87,3 +87,6 @@ cname:
   - name: afdverify.vh-wowza
     record: "afdverify.hmcts-demo.azurefd.net"
     ttl: 300
+  - name: "signalr"
+    ttl: 300
+    record: "vh-infra-core-demo.service.signalr.net"

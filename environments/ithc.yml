@@ -304,3 +304,6 @@ cname:
   - name: "et-sya"
     ttl: 300
     record: "hmcts-ithc.azurefd.net"
+  - name: "signalr"
+    ttl: 300
+    record: "vh-infra-core-ithc.service.signalr.net"
