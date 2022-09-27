@@ -2,7 +2,7 @@ data "local_file" "hearings-reform-config" {
   filename = "${path.cwd}/../../environments/staging/hearings-reform-hmcts-net.yml"
 }
 
-module "hearings" {
+module "hearings-reform" {
   source              = "../../modules/azure-public-dns/"
   cname_records       = yamldecode(data.local_file.hearings-reform-config.content).cname
   a_recordsets        = yamldecode(data.local_file.hearings-reform-config.content).A
