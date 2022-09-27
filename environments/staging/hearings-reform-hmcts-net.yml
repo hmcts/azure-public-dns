@@ -1,0 +1,28 @@
+ns:  []
+
+mx: []
+
+A: []
+
+txt: []
+
+srv: []
+
+cname:
+  - name: video
+    ttl: 300
+    record: "sdshmcts-stg.azurefd.net"
+    shutter: false
+  - name: "afdverify.video"
+    ttl: 300
+    record: "afdverify.sdshmcts-stg.azurefd.net"
+  - name: admin
+    ttl: 300
+    record: "sdshmcts-stg.azurefd.net"
+    shutter: false
+  - name: "afdverify.admin"
+    ttl: 300
+    record: "afdverify.sdshmcts-stg.azurefd.net"
+  - name: "signalr"
+    ttl: 300
+    record: "vh-infra-core-stg.service.signalr.net"
