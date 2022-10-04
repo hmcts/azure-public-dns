@@ -7,6 +7,10 @@ A: []
 txt: []
 
 cname:
+  - name: "*"
+    ttl: 60
+    record: "claim-employment-tribunals.service.gov.uk"
+    shutter: false
   - name: "www"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
