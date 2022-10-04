@@ -23,6 +23,13 @@ cname:
   - name: "afdverify.admin"
     ttl: 300
     record: "afdverify.sdshmcts-stg.azurefd.net"
+  - name: test
+    ttl: 300
+    record: "sdshmcts-stg.azurefd.net"
+    shutter: false
+  - name: "afdverify.test"
+    ttl: 300
+    record: "afdverify.sdshmcts-stg.azurefd.net"
   - name: "signalr"
     ttl: 300
     record: "vh-infra-core-stg.service.signalr.net"
