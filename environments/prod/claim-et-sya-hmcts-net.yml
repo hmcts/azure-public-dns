@@ -10,11 +10,11 @@ cname:
   - name: "*"
     ttl: 60
     record: "claim-employment-tribunals.service.gov.uk"
-    shutter: false
+    shutter: true
   - name: "www"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.www"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
