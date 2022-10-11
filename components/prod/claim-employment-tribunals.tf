@@ -1,5 +1,5 @@
 data "local_file" "claim-et-sya-config" {
-  filename = "${path.cwd}/../../environments/prod/claim-et-sya-hmcts-net.yml"
+  filename = "${path.cwd}/../../environments/prod/claim-employment-tribunal-service-gov-uk.yml"
 }
 
 module "claim-employment-tribunals" {
