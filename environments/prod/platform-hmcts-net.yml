@@ -516,6 +516,9 @@ cname:
   - name: "afdverify.cft-api-mgmt"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.cft-api-mgmt"
+    ttl: 300
+    record: "cdnverify.hmcts-cft-api-mgmt-shutter-prod.azureedge.net"
   - name: sds-api-mgmt
     record: sdshmcts-prod.azurefd.net
     ttl: 300
