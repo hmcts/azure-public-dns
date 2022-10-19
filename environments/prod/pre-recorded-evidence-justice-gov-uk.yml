@@ -14,7 +14,7 @@ cname:
     record: "sdshmcts-sbox.azurefd.net"
   - name: "afdverify.portal-sbox"
     ttl: 300
-    record: "afdverify.hmcts-sbox.azurefd.net"
+    record: "afdverify.sdshmcts-sbox.azurefd.net"
   - name: "portal-test"
     ttl: 300
     record: "pre-testing.powerappsportals.com"
