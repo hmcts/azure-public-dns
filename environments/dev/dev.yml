@@ -90,3 +90,17 @@ cname:
   - name: "vh-wowza"
     ttl: 300
     record: "vh-infra-wowza-dev.uksouth.cloudapp.azure.com"
+
+  - name: vh-video-web-pr-1926 # TODO this is for testing changes for Azure Front Door Cache Issues. Will be removed after testing.
+    record: sdshmcts-dev.azurefd.net
+    ttl: 300
+  - name: "afdverify.vh-video-web-pr-1926" # TODO this is for testing changes for Azure Front Door Cache Issues. Will be removed after testing.
+    ttl: 300
+    record: "afdverify.hmcts-dev.azurefd.net"
+
+  - name: vh-admin-web-pr-989 # TODO this is for testing changes for Azure Front Door Cache Issues. Will be removed after testing.
+    record: sdshmcts-dev.azurefd.net
+    ttl: 300
+  - name: "afdverify.vh-admin-web-pr-989" # TODO this is for testing changes for Azure Front Door Cache Issues. Will be removed after testing.
+    ttl: 300
+    record: "afdverify.hmcts-dev.azurefd.net"
