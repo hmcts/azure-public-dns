@@ -11,7 +11,10 @@ srv: []
 cname: 
   - name: "portal-sbox"
     ttl: 300
-    record: "pre-sbox.powerappsportals.com"
+    record: "sdshmcts-sbox.azurefd.net"
+  - name: "afdverify.portal-sbox"
+    ttl: 300
+    record: "afdverify.sdshmcts-sbox.azurefd.net"
   - name: "portal-test"
     ttl: 300
     record: "pre-testing.powerappsportals.com"
