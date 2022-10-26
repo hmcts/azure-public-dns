@@ -17,13 +17,19 @@ cname:
     record: "afdverify.sdshmcts-sbox.azurefd.net"
   - name: "portal-test"
     ttl: 300
-    record: "pre-testing.powerappsportals.com"
+    record: "sdshmcts-test.azurefd.net"
+  - name: "afdverify.portal-test"
+    ttl: 300
+    record: "afdverify.sdshmcts-test.azurefd.net"
   - name: "portal-stg"
     ttl: 300
     record: "pre-stg1.powerappsportals.com"
   - name: "portal-demo"
     ttl: 300
-    record: "pre-demo.powerappsportals.com"
+    record: "sdshmcts-demo.azurefd.net"
+  - name: "afdverify.portal-demo"
+    ttl: 300
+    record: "afdverify.sdshmcts-demo.azurefd.net"
   - name: "portal"
     ttl: 300
     record: "pre-prod.powerappsportals.com"
