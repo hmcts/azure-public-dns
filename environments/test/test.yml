@@ -37,10 +37,10 @@ cname:
   - name: "afdverify.sds-api-mgmt"
     ttl: 300
     record: "afdverify.hmcts-test.azurefd.net"
-  - name: vh-wowza-public
+  - name: vh-wowza
     record: sdshmcts-test.azurefd.net
     ttl: 300
-  - name: afdverify.vh-wowza-public
+  - name: afdverify.vh-wowza
     record: "afdverify.hmcts-test.azurefd.net"
     ttl: 300
   - name: vh-video-web
