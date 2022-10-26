@@ -11,11 +11,7 @@ A:
     ttl: 300
     record:
       - 52.151.100.245
-  - name: vh-wowza
-    record: 
-      - 20.254.40.90
-    ttl: 300
-
+      
 txt: []
 
 srv: []
@@ -91,9 +87,9 @@ cname:
   - name: "afdverify.sds-api-mgmt"
     ttl: 300
     record: "afdverify.hmcts-stg.azurefd.net"
-  - name: afdverify.vh-wowza
-    record: "afdverify.hmcts-stg.azurefd.net"
-    ttl: 300
   - name: "signalr"
     ttl: 300
     record: "vh-infra-core-stg.service.signalr.net"
+  - name: vh-wowza
+    ttl: 300
+    record: vh-infra-wowza-stg.uksouth.cloudapp.azure.com

@@ -37,12 +37,6 @@ cname:
   - name: "afdverify.sds-api-mgmt"
     ttl: 300
     record: "afdverify.hmcts-test.azurefd.net"
-  - name: vh-wowza
-    record: sdshmcts-test.azurefd.net
-    ttl: 300
-  - name: afdverify.vh-wowza
-    record: "afdverify.hmcts-test.azurefd.net"
-    ttl: 300
   - name: vh-video-web
     record: sdshmcts-dev.azurefd.net
     ttl: 300
@@ -64,3 +58,6 @@ cname:
   - name: "signalr"
     ttl: 300
     record: "vh-infra-core-test.service.signalr.net"
+  - name: vh-wowza
+    ttl: 300
+    record: vh-infra-wowza-test.uksouth.cloudapp.azure.com

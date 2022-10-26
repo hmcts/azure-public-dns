@@ -19,10 +19,6 @@ A:
     ttl: 300
     record:
       - 51.145.96.41
-  - name: vh-wowza
-    record: 
-      - 20.77.78.162
-    ttl: 300
   - name: vh-admin-web
     record: 
       - "51.142.81.239"
@@ -84,9 +80,6 @@ cname:
   - name: "afdverify.sds-api-mgmt"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
-  - name: afdverify.vh-wowza
-    record: "afdverify.hmcts-demo.azurefd.net"
-    ttl: 300
   - name: "signalr"
     ttl: 300
     record: "vh-infra-core-demo.service.signalr.net"

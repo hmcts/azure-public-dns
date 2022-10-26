@@ -63,9 +63,6 @@ cname:
   - name: "afdverify.sds-api-mgmt"
     ttl: 300
     record: "afdverify.hmcts-dev.azurefd.net"
-  - name: afdverify.vh-wowza
-    record: "afdverify.hmcts-dev.azurefd.net"
-    ttl: 300
   - name: vh-video-web
     record: sdshmcts-dev.azurefd.net
     ttl: 300

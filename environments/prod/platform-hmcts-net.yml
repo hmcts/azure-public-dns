@@ -238,10 +238,6 @@ A:
     ttl: 360
     record:
       - "51.141.230.130"
-  - name: vh-wowza
-    record: 
-      - "51.142.236.29"
-    ttl: 300
 
 txt:
   - name: "@"
@@ -721,10 +717,6 @@ cname:
     ttl: 300
     record: "cdnverify.hmcts-vh-test-web-shutter-prod.azureedge.net"
 
-  - name: afdverify.vh-wowza
-    record: "afdverify.hmcts-prod.azurefd.net"
-    ttl: 300
-
   - name: "_DEFCA9944606874FF3B5E0E653FF9825"
     ttl: 300
     record: "882B317559A955DAA77E56E15B374766.A2851A8D271748B93C979BB5B30DD924.458f2f30b29105c76eb1.sectigo.com."
@@ -743,6 +735,10 @@ cname:
   - name: "_df529a77950081e3ad8c21586162089b.video"
     ttl: 300
     record: "88849E439635A2EC10EC9DAA27E311FB.97641532D0C35FEA6572BE4722A6C5F0.ae696eea53f7a9525d7d.sectigo.com."
+
+  - name: vh-wowza
+    ttl: 300
+    record: vh-infra-wowza-prod.uksouth.cloudapp.azure.com
     
   # SecOps Splunk SIEM SSL Cert recreation July 2022 (SECOPS-2322)
   - name: "_57FB5B9CD7C93A5B9C28ACA5C634ECDF.splunk" 
