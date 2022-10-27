@@ -33,3 +33,16 @@ cname:
   - name: "signalr"
     ttl: 300
     record: "vh-infra-core-stg.service.signalr.net"
+  - name: video-sds
+    ttl: 300
+    record: "sdshmcts-prod.azurefd.net"
+  - name: afdverify.video-sds
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: admin-sds
+    ttl: 300
+    record: "sdshmcts-prod.azurefd.net"
+  - name: afdverify.admin-sds
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+
