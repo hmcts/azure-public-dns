@@ -576,7 +576,7 @@ cname:
     record: "s1.domainkey.u21913992.wl243.sendgrid.net"
   - name: "s2._domainkey.mail-civil-nonprod"
     ttl: 300
-    record: "s2.domainkey.u21913992.wl243.sendgrid.net"    
+    record: "s2.domainkey.u21913992.wl243.sendgrid.net"
   - name: "administer-orgs-ethosldata"
     ttl: 60
     record: "hmcts-ldata.azurefd.net"
