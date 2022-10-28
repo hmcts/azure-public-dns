@@ -257,7 +257,7 @@ cname:
   - name: "administer-orgs"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "afdverify.administer-orgs"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -286,15 +286,15 @@ cname:
   - name: "gateway.ccd"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "fees-register"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "www.fees-register"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "idam-web-public-ethosldata"
     ttl: 60
     record: "hmcts-ldata.azurefd.net"
@@ -304,7 +304,7 @@ cname:
   - name: "manage-case"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "afdverify.manage-case"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -314,7 +314,7 @@ cname:
   - name: "manage-org"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "afdverify.manage-org"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -324,18 +324,18 @@ cname:
   - name: "manage-payments"
     ttl: 900
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "www.manage-payments"
     ttl: 900
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "www.moneyclaim"
     ttl: 300
     record: "moneyclaim.reform.hmcts.net"
   - name: "www.moneyclaim-legal"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "divorce.nonprod"
     ttl: 3600
     record: "mojmaintenance.azurewebsites.net"
@@ -351,19 +351,19 @@ cname:
   - name: "paybubble"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "www.paybubble"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "paymentoutcome-web"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "www.paymentoutcome-web"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "cdnverify.paymentoutcome-web"
     ttl: 300
     record: "cdnverify.hmcts-paymentoutcome-web-shutter-prod.azureedge.net"
@@ -397,7 +397,7 @@ cname:
   - name: "register-org"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "probate.saat"
     ttl: 60
     record: "probate-frontend-0f57-saat.azurewebsites.net"
@@ -431,11 +431,11 @@ cname:
   - name: "return-case-doc.ccd"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "immigration-appeal"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "afdverify.immigration-appeal"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -475,7 +475,7 @@ cname:
   - name: "equality-and-diversity"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "afdverify.log-and-audit"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -485,7 +485,7 @@ cname:
   - name: "log-and-audit"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "afdverify.idam-web-admin"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -495,7 +495,7 @@ cname:
   - name: "idam-web-admin"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "afdverify.idam-user-dashboard"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -505,7 +505,7 @@ cname:
   - name: "idam-user-dashboard"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: cft-api-mgmt
     record: hmcts-prod.azurefd.net
     ttl: 300
@@ -820,7 +820,7 @@ cname:
   - name: "apply-for-adoption"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
 
   # C100
   - name: "afdverify.c100-application"

@@ -10,7 +10,7 @@ cname:
   - name: "www"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "cdnverify.www"
     ttl: 300
     record: "cdnverify.hmcts-residential-property-tribunals-service-shutter-prod.azureedge.net"
