@@ -10,11 +10,11 @@ cname:
   - name: "www"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.www"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "cdnverify.www"
     ttl: 300
     record: "cdnverify.hmcts-employment-tribunals-shutter-prod.azureedge.net"
