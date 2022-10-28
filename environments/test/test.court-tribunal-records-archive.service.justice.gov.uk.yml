@@ -1,0 +1,8 @@
+name: "test.court-tribunal-records-archive.service.justice.gov.uk"
+vnet_links:
+  
+A:
+  - name: test-public
+    record:
+    - 0.0.0.0
+    ttl: 300
