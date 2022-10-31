@@ -707,16 +707,6 @@ cname:
     ttl: 300
     record: "cdnverify.hmcts-vh-admin-web-shutter-prod.azureedge.net"
 
-  - name: vh-test-web
-    record: sdshmcts-prod.azurefd.net
-    ttl: 300
-  - name: "afdverify.vh-test-web"
-    ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.vh-test-web"
-    ttl: 300
-    record: "cdnverify.hmcts-vh-test-web-shutter-prod.azureedge.net"
-
   - name: "_DEFCA9944606874FF3B5E0E653FF9825"
     ttl: 300
     record: "882B317559A955DAA77E56E15B374766.A2851A8D271748B93C979BB5B30DD924.458f2f30b29105c76eb1.sectigo.com."
