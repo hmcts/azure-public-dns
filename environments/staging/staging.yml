@@ -69,12 +69,6 @@ cname:
   - name: "afdverify.vh-admin-web"
     ttl: 300
     record: "afdverify.hmcts-stg.azurefd.net"
-  - name: vh-service-web
-    record: sdshmcts-stg.azurefd.net
-    ttl: 300
-  - name: "afdverify.vh-service-web"
-    ttl: 300
-    record: "afdverify.hmcts-stg.azurefd.net"
   - name: vh-test-web
     record: sdshmcts-stg.azurefd.net
     ttl: 300
