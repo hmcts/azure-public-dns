@@ -274,6 +274,12 @@ cname:
   - name: "fis-ds-web"
     ttl: 300
     record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.sptribs-frontend"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "sptribs-frontend"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.privatelaw"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
