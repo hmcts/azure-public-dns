@@ -21,15 +21,24 @@ cname:
   - name: "afdverify.portal-test"
     ttl: 300
     record: "afdverify.sdshmcts-test.azurefd.net"
-  - name: "portal-stg"
-    ttl: 300
-    record: "pre-stg1.powerappsportals.com"
   - name: "portal-demo"
     ttl: 300
     record: "sdshmcts-demo.azurefd.net"
   - name: "afdverify.portal-demo"
     ttl: 300
     record: "afdverify.sdshmcts-demo.azurefd.net"
+  - name: "portal-stg"
+    ttl: 300
+    record: "sdshmcts-stg.azurefd.net"
+  - name: "afdverify.portal-stg"
+    ttl: 300
+    record: "afdverify.sdshmcts-stg.azurefd.net"
   - name: "portal"
     ttl: 300
-    record: "pre-prod.powerappsportals.com"
+    record: "sdshmcts-prod.azurefd.net"
+  - name: "afdverify.portal"
+    ttl: 300
+    record: "afdverify.sdshmcts-prod.azurefd.net"
+  - name: "cdnverify.portal"
+    ttl: 300
+    record: "cdnverify.sdshmcts-portal-shutter-prod.azureedge.net"
