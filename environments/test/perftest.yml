@@ -141,6 +141,12 @@ cname:
   - name: "idam-user-dashboard"
     ttl: 3600
     record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.idam-hmcts-access"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "idam-hmcts-access"
+    ttl: 3600
+    record: "hmcts-perftest.azurefd.net"
   - name: "fact"
     ttl: 300
     record: "hmcts-perftest.azurefd.net"
