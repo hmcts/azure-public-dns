@@ -238,10 +238,10 @@ cname:
   - name: "idam-user-dashboard"
     ttl: 300
     record: "hmcts-aat.azurefd.net"
-  - name: "afdverify.idam-hmcts-access"
+  - name: "afdverify.hmcts-access"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
-  - name: "idam-hmcts-access"
+  - name: "hmcts-access"
     ttl: 300
     record: "hmcts-aat.azurefd.net"
   - name: "_4c2aa3cf7820ad559328554b0084d4af"

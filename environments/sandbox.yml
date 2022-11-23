@@ -128,13 +128,13 @@ cname:
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
     shutter: false
-  - name: "afdverify.idam-hmcts-access"
+  - name: "afdverify.hmcts-access"
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
-  - name: "cdnverify.idam-hmcts-access"
+  - name: "cdnverify.hmcts-access"
     ttl: 300
-    record: "cdnverify.hmcts-idam-hmcts-access-shutter-sbox.azureedge.net"
-  - name: "idam-hmcts-access"
+    record: "cdnverify.hmcts-hmcts-access-shutter-sbox.azureedge.net"
+  - name: "hmcts-access"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
     shutter: false
