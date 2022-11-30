@@ -1,0 +1,13 @@
+mx: []
+
+A:
+  - name: "poc"
+    ttl: 300
+    record:
+      - "34.89.118.38"
+
+txt: []
+
+srv: []
+
+cname: []
