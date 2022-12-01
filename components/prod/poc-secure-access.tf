@@ -4,7 +4,7 @@ data "local_file" "poc-secureaccess-config" {
 
 module "poc-secure-access" {
   source              = "../../modules/azure-public-dns/"
-  cname_records       = yamldecode(data.local_file.poc-secureaccess-config.content).ns
+  ns_recordsets       = yamldecode(data.local_file.poc-secureaccess-config.content).ns
   a_recordsets        = yamldecode(data.local_file.poc-secureaccess-config.content).A
   zone_name           = "poc.secureaccess.justice.gov.uk"
   resource_group_name = data.azurerm_resource_group.main.name

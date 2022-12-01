@@ -8,16 +8,9 @@ ns:
       - "ns3-04.azure-dns.org."
       - "ns4-04.azure-dns.info."
 
-mx: []
 
 A:
   - name: "@"
     ttl: 300
     record:
       - "4.234.33.219"
-
-txt: []
-
-srv: []
-
-cname: []
