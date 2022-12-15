@@ -398,12 +398,6 @@ cname:
     ttl: 60
     record: "hmcts-prod.azurefd.net"
     shutter: false
-  - name: "probate.saat"
-    ttl: 60
-    record: "probate-frontend-0f57-saat.azurewebsites.net"
-  - name: "awverify.probate.saat"
-    ttl: 60
-    record: "awverify.probate-frontend-0f57-saat.azurewebsites.net"
   - name: "afdverify.register-org"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
