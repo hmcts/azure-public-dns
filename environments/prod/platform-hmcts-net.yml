@@ -244,9 +244,6 @@ txt:
       - "v=DMARC1; p=none"
 
 cname:
-  - name: "awverify.probate.aat"
-    ttl: 1
-    record: "awverify.probate-frontend-aat-shutter.azurewebsites.net"
   - name: "administer-orgs"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
