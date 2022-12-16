@@ -299,3 +299,9 @@ cname:
   - name: "afdverify.plum"
     ttl: 3600
     record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "afdverify.em-icp"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "em-icp"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
