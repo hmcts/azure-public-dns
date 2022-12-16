@@ -292,6 +292,7 @@ cname:
   - name: "privatelaw"
     ttl: 300
     record: "hmcts-aat.azurefd.net"
+    shutter: true
   - name: "plum"
     ttl: 300
     record: "hmcts-aat.azurefd.net"
