@@ -55,13 +55,6 @@ ns:
       - "ns2-05.azure-dns.net"
       - "ns3-05.azure-dns.org"
       - "ns4-05.azure-dns.info"
-  - name: "saat"
-    ttl: 900
-    record:
-      - "ns1-03.azure-dns.com"
-      - "ns2-03.azure-dns.net"
-      - "ns3-03.azure-dns.org"
-      - "ns4-03.azure-dns.info"
   - name: "sandbox"
     ttl: 900
     record:
@@ -251,9 +244,6 @@ txt:
       - "v=DMARC1; p=none"
 
 cname:
-  - name: "awverify.probate.aat"
-    ttl: 1
-    record: "awverify.probate-frontend-aat-shutter.azurewebsites.net"
   - name: "administer-orgs"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
@@ -398,12 +388,6 @@ cname:
     ttl: 60
     record: "hmcts-prod.azurefd.net"
     shutter: false
-  - name: "probate.saat"
-    ttl: 60
-    record: "probate-frontend-0f57-saat.azurewebsites.net"
-  - name: "awverify.probate.saat"
-    ttl: 60
-    record: "awverify.probate-frontend-0f57-saat.azurewebsites.net"
   - name: "afdverify.register-org"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
