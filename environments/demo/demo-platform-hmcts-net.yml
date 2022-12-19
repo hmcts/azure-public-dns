@@ -7,6 +7,10 @@ A:
     ttl: 300
     record:
       - "51.142.81.239"
+  - name: "oauth-proxy"
+    ttl: 300
+    record:
+      - "51.142.81.239"
   - name: "pip-frontend"
     ttl: 300
     record:
