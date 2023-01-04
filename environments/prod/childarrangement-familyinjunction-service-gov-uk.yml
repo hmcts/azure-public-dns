@@ -1,0 +1,29 @@
+ns:
+
+mx:
+
+A:
+
+txt:
+
+
+cname:
+  - name: "afdverify.www"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.www"
+    ttl: 300
+    record: "cdnverify.hmcts-childarrangement-familyinjunction-shutter-prod.azureedge.net"
+  - name: "www"
+    ttl: 120
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
+  - name: "em5901.mail-prl"
+    ttl: 300
+    record: "u24999813.wl064.sendgrid.net"
+  - name: "s1._domainkey.mail-prl"
+    ttl: 300
+    record: "s1.domainkey.u24999813.wl064.sendgrid.net"
+  - name: "s2._domainkey.mail-prl"
+    ttl: 300
+    record: "s2.domainkey.u24999813.wl064.sendgrid.net"
