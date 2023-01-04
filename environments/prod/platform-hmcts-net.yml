@@ -789,6 +789,16 @@ cname:
     shutter: false
 
   # Private Law
+  - name: "afdverify.childarrangement-familyinjunction"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "cdnverify.childarrangement-familyinjunction"
+    ttl: 300
+    record: "cdnverify.hmcts-childarrangement-familyinjunction-shutter-prod.azureedge.net"
+  - name: "childarrangement-familyinjunction"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
   - name: "em5901.mail-prl"
     ttl: 300
     record: "u24999813.wl064.sendgrid.net"
