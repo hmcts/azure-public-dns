@@ -787,16 +787,3 @@ cname:
     ttl: 300
     record: "sdshmcts-prod.azurefd.net"
     shutter: false
-
-  # Private Law
-  - name: "em5901.mail-prl"
-    ttl: 300
-    record: "u24999813.wl064.sendgrid.net"
-  - name: "s1._domainkey.mail-prl"
-    ttl: 300
-    record: "s1.domainkey.u24999813.wl064.sendgrid.net"
-  - name: "s2._domainkey.mail-prl"
-    ttl: 300
-    record: "s2.domainkey.u24999813.wl064.sendgrid.net"
-    
-    
