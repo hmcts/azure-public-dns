@@ -9,6 +9,7 @@ module "childarrangement-familyinjunction" {
   a_recordsets        = yamldecode(data.local_file.childarrangement-familyinjunction-config.content).A
   txt_recordsets      = yamldecode(data.local_file.childarrangement-familyinjunction-config.content).txt
   mx_recordsets       = yamldecode(data.local_file.childarrangement-familyinjunction-config.content).mx
+  zone_name           = "childarrangement-familyinjunction.service.gov.uk"
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
 }
