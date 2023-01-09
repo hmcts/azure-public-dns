@@ -6,7 +6,6 @@ A: []
 
 txt: []
 
-
 cname:
   - name: "afdverify.www"
     ttl: 300
