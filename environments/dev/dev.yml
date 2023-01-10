@@ -87,3 +87,6 @@ cname:
   - name: "vh-wowza"
     ttl: 300
     record: "vh-infra-wowza-dev.uksouth.cloudapp.azure.com"
+  - name: vh-video-web-pr-1955 #TO DO: REMOVE AFTER TESTING
+    record: sdshmcts-dev.azurefd.net
+    ttl: 300
