@@ -247,7 +247,7 @@ cname:
   - name: "administer-orgs"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.administer-orgs"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -257,7 +257,7 @@ cname:
   - name: "plum"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.plum"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -294,7 +294,7 @@ cname:
   - name: "manage-case"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.manage-case"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -304,7 +304,7 @@ cname:
   - name: "manage-org"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.manage-org"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -314,7 +314,7 @@ cname:
   - name: "manage-payments"
     ttl: 900
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "www.manage-payments"
     ttl: 900
     record: "hmcts-prod.azurefd.net"
@@ -387,7 +387,7 @@ cname:
   - name: "register-org"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.register-org"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
