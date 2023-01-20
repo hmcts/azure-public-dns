@@ -160,7 +160,7 @@ cname:
     record: "cdnverify.hmcts-hmi-apim-shutter-sbox.azureedge.net"
   - name: "_9af30f185640a6f0617d0d1ef8e9de95"
     ttl: 300
-    record: "2135FD8EB464CCFADFCD6999525A52F0.230B7360D54C272A4FB658B45A962B2E.eb30a0ede6e02b3430fe.comodoca.com."
+    record: "2135FD8EB464CCFADFCD6999525A52F0.230B7360D54C272A4FB658B45A962B2E.0d8f919297a24c7c5223.sectigo.com."
   - name: "cdnverify.toffee"
     ttl: 300
     record: "cdnverify.hmcts-toffee-shutter-sbox.azureedge.net"
