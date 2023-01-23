@@ -341,11 +341,11 @@ cname:
   - name: "paybubble"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "www.paybubble"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "paymentoutcome-web"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
