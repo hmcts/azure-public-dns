@@ -19,18 +19,6 @@ A:
     ttl: 300
     record:
       - 51.145.96.41
-  - name: vh-admin-web
-    record: 
-      - "51.142.81.239"
-    ttl: 300
-  - name: vh-video-web
-    record: 
-      - "51.142.81.239"
-    ttl: 300
-  - name: vh-test-web
-    record: 
-      - "51.142.81.239"
-    ttl: 300
 txt:
   - name: "idam-web-public"
     ttl: 3600
@@ -83,3 +71,9 @@ cname:
   - name: "signalr"
     ttl: 300
     record: "vh-infra-core-demo.service.signalr.net"
+  - name: vh-video-web
+    record: sdshmcts-demo.azurefd.net
+    ttl: 300
+  - name: vh-admin-web
+    record: sdshmcts-demo.azurefd.net
+    ttl: 300
