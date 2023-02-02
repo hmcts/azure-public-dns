@@ -19,18 +19,6 @@ A:
     ttl: 300
     record:
       - 51.145.96.41
-  - name: vh-admin-web
-    record: 
-      - "51.142.81.239"
-    ttl: 300
-  - name: vh-video-web
-    record: 
-      - "51.142.81.239"
-    ttl: 300
-  - name: vh-test-web
-    record: 
-      - "51.142.81.239"
-    ttl: 300
 txt:
   - name: "idam-web-public"
     ttl: 3600
@@ -68,6 +56,13 @@ cname:
   - name: "s2._domainkey.mail-prl-nonprod"
     ttl: 300
     record: "s2.domainkey.u24999805.wl056.sendgrid.net"
+  - name: "plum-public"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+    shutter: false
+  - name: "afdverify.plum-public"
+    ttl: 3600
+    record: "afdverify.hmcts-demo.azurefd.net"
   - name: "afdverify.cft-api-mgmt"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
@@ -83,3 +78,6 @@ cname:
   - name: "signalr"
     ttl: 300
     record: "vh-infra-core-demo.service.signalr.net"
+  - name: "vh-wowza"
+    ttl: 300
+    record: "vh-infra-wowza-demo.uksouth.cloudapp.azure.com"
