@@ -83,8 +83,8 @@ cname:
     record: "vh-infra-wowza-demo.uksouth.cloudapp.azure.com"
   - name: "toffee"
     ttl: 300
-    record: "hmcts-demo.azurefd.net"
+    record: "sdshmcts-demo.azurefd.net"
     shutter: false
   - name: "afdverify.toffee"
     ttl: 3600
-    record: "afdverify.hmcts-demo.azurefd.net"
+    record: "afdverify.sdshmcts-demo.azurefd.net"
