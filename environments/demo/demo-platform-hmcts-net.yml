@@ -81,3 +81,10 @@ cname:
   - name: "vh-wowza"
     ttl: 300
     record: "vh-infra-wowza-demo.uksouth.cloudapp.azure.com"
+  - name: "toffee"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+    shutter: false
+  - name: "afdverify.toffee"
+    ttl: 3600
+    record: "afdverify.hmcts-demo.azurefd.net"
