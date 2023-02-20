@@ -3,10 +3,6 @@ ns: []
 mx: []
 
 A:
-  - name: "pip-frontend"
-    ttl: 300
-    record:
-      - "20.108.232.218"
   - name: tax-tribunals
     ttl: 300
     record:
