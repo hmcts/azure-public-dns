@@ -16,10 +16,6 @@ txt:
     ttl: 3600
     record:
       - "google-site-verification=eqMUm6VJdh4KEmuEJpRYRUe-Hmaee8GHf-pniuk7bLI"
-  - name: "pip-frontend"
-    ttl: 3600
-    record:
-      - 20.108.232.218
 
 srv: []
 
