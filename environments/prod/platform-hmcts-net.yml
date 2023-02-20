@@ -678,6 +678,9 @@ cname:
   - name: "s2._domainkey.mail-db-reporting-prod"
     ttl: 300
     record: "s2.domainkey.u23337691.wl192.sendgrid.net"
+  - name: "_DEFCA9944606874FF3B5E0E653FF9825"
+    ttl: 300
+    record: "882B317559A955DAA77E56E15B374766.A2851A8D271748B93C979BB5B30DD924.8ca796345941b412779a.sectigo.com."
 
 #### Video Hearings
   - name: "_DEFCA9944606874FF3B5E0E653FF9825"
