@@ -111,3 +111,6 @@ cname:
   - name: "afdverify.vh-video-web"
     ttl: 3600
     record: "afdverify.sdshmcts-demo.azurefd.net"
+  - name: "afdverify.hmi-apim"
+    ttl: 3600
+    record: "afdverify.sdshmcts-demo.azurefd.net"
