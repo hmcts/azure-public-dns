@@ -534,15 +534,6 @@ cname:
   - name: "s2._domainkey.mail-sscs-nonprod"
     ttl: 300
     record: "s2.domainkey.u19166834.wl085.sendgrid.net"
-  - name: "em2301.mail-money-claims-nonprod"
-    ttl: 300
-    record: "u21300784.wl035.sendgrid.net"
-  - name: "s1._domainkey.mail-money-claims-nonprod"
-    ttl: 300
-    record: "s1.domainkey.u21300784.wl035.sendgrid.net"
-  - name: "s2._domainkey.mail-money-claims-nonprod"
-    ttl: 300
-    record: "s2.domainkey.u21300784.wl035.sendgrid.net"
   - name: "em8228.mail-sscs"
     ttl: 300
     record: "u19471273.wl024.sendgrid.net"
@@ -552,15 +543,6 @@ cname:
   - name: "s2._domainkey.mail-sscs"
     ttl: 300
     record: "s2.domainkey.u19471273.wl024.sendgrid.net"
-  - name: "em4449.mail-civil-nonprod"
-    ttl: 300
-    record: "u21913992.wl243.sendgrid.net"
-  - name: "s1._domainkey.mail-civil-nonprod"
-    ttl: 300
-    record: "s1.domainkey.u21913992.wl243.sendgrid.net"
-  - name: "s2._domainkey.mail-civil-nonprod"
-    ttl: 300
-    record: "s2.domainkey.u21913992.wl243.sendgrid.net"
   - name: "administer-orgs-ethosldata"
     ttl: 60
     record: "hmcts-ldata.azurefd.net"
@@ -570,96 +552,6 @@ cname:
   - name: "manage-case-ethosldata"
     ttl: 60
     record: "hmcts-ldata.azurefd.net"
-  - name: "em6661.mail-divorce-nonprod"
-    ttl: 300
-    record: "u20932712.wl213.sendgrid.net"
-  - name: "s1._domainkey.mail-divorce-nonprod"
-    ttl: 300
-    record: "s1.domainkey.u20932712.wl213.sendgrid.net"
-  - name: "s2._domainkey.mail-divorce-nonprod"
-    ttl: 300
-    record: "s2.domainkey.u20932712.wl213.sendgrid.net"
-  - name: "em8346.mail-divorce"
-    ttl: 300
-    record: "u20932751.wl002.sendgrid.net"
-  - name: "s1._domainkey.mail-divorce"
-    ttl: 300
-    record: "s1.domainkey.u20932751.wl002.sendgrid.net"
-  - name: "s2._domainkey.mail-divorce"
-    ttl: 300
-    record: "s2.domainkey.u20932751.wl002.sendgrid.net"
-  - name: "em9503.mail-damages-nonprod"
-    ttl: 300
-    record: "u21391694.wl195.sendgrid.net"
-  - name: "s1._domainkey.mail-damages-nonprod"
-    ttl: 300
-    record: "s1.domainkey.u21391694.wl195.sendgrid.net"
-  - name: "s2._domainkey.mail-damages-nonprod"
-    ttl: 300
-    record: "s2.domainkey.u21391694.wl195.sendgrid.net"
-  - name: "em5261.mail-payment-nonprod"
-    ttl: 300
-    record: "u21452115.wl116.sendgrid.net"
-  - name: "s1._domainkey.mail-payment-nonprod"
-    ttl: 300
-    record: "s1.domainkey.u21452115.wl116.sendgrid.net"
-  - name: "s2._domainkey.mail-payment-nonprod"
-    ttl: 300
-    record: "s2.domainkey.u21452115.wl116.sendgrid.net"
-  - name: "em8309.mail-payment"
-    ttl: 300
-    record: "u21484024.wl025.sendgrid.net"
-  - name: "s1._domainkey.mail-payment"
-    ttl: 300
-    record: "s1.domainkey.u21484024.wl025.sendgrid.net"
-  - name: "s2._domainkey.mail-payment"
-    ttl: 300
-    record: "s2.domainkey.u21484024.wl025.sendgrid.net"
-  - name: "em5088.mail-civil-prod.platform.hmcts.net"
-    ttl: 300
-    record: "u21914017.wl018.sendgrid.net"
-  - name: "s1._domainkey.mail-civil-prod.platform.hmcts.net"
-    ttl: 300
-    record: "s1.domainkey.u21914017.wl018.sendgrid.net"
-  - name: "s2._domainkey.mail-civil-prod.platform.hmcts.net"
-    ttl: 300
-    record: "s2.domainkey.u21914017.wl018.sendgrid.net"
-  - name: "em5255.mail-rd-nonprod"
-    ttl: 300
-    record: "u22410865.wl116.sendgrid.net"
-  - name: "s1._domainkey.mail-rd-nonprod"
-    ttl: 300
-    record: "s1.domainkey.u22410865.wl116.sendgrid.net"
-  - name: "s2._domainkey.mail-rd-nonprod"
-    ttl: 300
-    record: "s2.domainkey.u22410865.wl116.sendgrid.net"
-  - name: "em3038.mail-rd"
-    ttl: 300
-    record: "u22410882.wl133.sendgrid.net"
-  - name: "s1._domainkey.mail-rd"
-    ttl: 300
-    record: "s1.domainkey.u22410882.wl133.sendgrid.net"
-  - name: "s2._domainkey.mail-rd"
-    ttl: 300
-    record: "s2.domainkey.u22410882.wl133.sendgrid.net"
-  - name: "em8468.mail-am-nonprod"
-    ttl: 300
-    record: "u22723454.wl205.sendgrid.net"
-  - name: "s1._domainkey.mail-am-nonprod"
-    ttl: 300
-    record: "s1.domainkey.u22723454.wl205.sendgrid.net"
-  - name: "s2._domainkey.mail-am-nonprod"
-    ttl: 300
-    record: "s2.domainkey.u22723454.wl205.sendgrid.net"
-  - name: "em2631.mail-am"
-    ttl: 300
-    record: "u22723469.wl220.sendgrid.net"
-  - name: "s1._domainkey.mail-am"
-    ttl: 300
-    record: "s1.domainkey.u22723469.wl220.sendgrid.net"
-  - name: "s2._domainkey.mail-am"
-    ttl: 300
-    record: "s2.domainkey.u22723469.wl220.sendgrid.net"
   - name: "mcol"
     ttl: 300
     record: "firewall-prod-int-palo-mcolprod.uksouth.cloudapp.azure.com"
@@ -669,15 +561,6 @@ cname:
   - name: "cman"
     ttl: 300
     record: "firewall-prod-int-palo-cmanprod.uksouth.cloudapp.azure.com"
-  - name: "em2983.mail-db-reporting-prod"
-    ttl: 300
-    record: "u23337691.wl192.sendgrid.net"
-  - name: "s1._domainkey.mail-db-reporting-prod"
-    ttl: 300
-    record: "s1.domainkey.u23337691.wl192.sendgrid.net"
-  - name: "s2._domainkey.mail-db-reporting-prod"
-    ttl: 300
-    record: "s2.domainkey.u23337691.wl192.sendgrid.net"
 
 #### Video Hearings
   - name: "_DEFCA9944606874FF3B5E0E653FF9825"
