@@ -14,7 +14,7 @@ cname:
   - name: www
     record: sdshmcts-prod.azurefd.net
     ttl: 300
-    shutter: false
+    shutter: true
   - name: "afdverify.www"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
