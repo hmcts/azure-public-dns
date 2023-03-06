@@ -221,7 +221,7 @@ cname:
   - name: "afdverify.vh-test-web"
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
-    - name: "afdverify.labs-ozzyib-walkthrough"
+  - name: "afdverify.labs-ozzyib-walkthrough"
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
   - name: "labs-ozzyib-walkthrough"
