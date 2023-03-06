@@ -221,3 +221,13 @@ cname:
   - name: "afdverify.vh-test-web"
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
+  - name: "afdverify.labs-ozzyib-walkthrough"
+    ttl: 300
+    record: "afdverify.hmcts-sbox.azurefd.net"
+  - name: "labs-ozzyib-walkthrough"
+    ttl: 300
+    record: "hmcts-sbox.azurefd.net"
+    shutter: false
+  - name: "cdnverify.labs-ozzyib-walkthrough"
+    ttl: 300
+    record: "cdnverify.hmcts-labs-ozzyib-walkthrough-shutter-sbox.azureedge.net"
