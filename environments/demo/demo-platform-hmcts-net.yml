@@ -44,13 +44,6 @@ cname:
   - name: "s2._domainkey.mail-prl-nonprod"
     ttl: 300
     record: "s2.domainkey.u24999805.wl056.sendgrid.net"
-  - name: "plum-public"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-    shutter: false
-  - name: "afdverify.plum-public"
-    ttl: 3600
-    record: "afdverify.hmcts-demo.azurefd.net"
   - name: "afdverify.cft-api-mgmt"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
