@@ -241,7 +241,7 @@ cname:
   - name: "cdnverify.labs-goldenpath-felix"
     ttl: 300
     record: "cdnverify.hmcts-labs-goldenpath-felix-shutter-sbox.azureedge.net"
-   - name: "afdverify.labs-goldenpath-tyler"
+  - name: "afdverify.labs-goldenpath-tyler"
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
   - name: "labs-goldenpath-tyler"
