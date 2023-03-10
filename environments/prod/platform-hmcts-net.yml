@@ -118,7 +118,7 @@ A:
   - name: "build"
     ttl: 60
     record:
-      - "51.141.228.15"
+      - "20.108.188.3"
   - name: "build-beta"
     ttl: 60
     record:
