@@ -139,6 +139,12 @@ cname:
   - name: "lau"
     ttl: 300
     record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.judicial-payments"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "judicial-payments"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
   - name: "afdverify.adoption-web"
     ttl: 300
     record: "afdverify.hmcts-aat.azurefd.net"
