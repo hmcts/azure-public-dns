@@ -118,7 +118,7 @@ A:
   - name: "build"
     ttl: 60
     record:
-      - "20.108.188.3"
+      - "20.108.187.167"
   - name: "build-beta"
     ttl: 60
     record:
@@ -126,7 +126,7 @@ A:
   - name: "static-build"
     ttl: 60
     record:
-      - "51.141.228.15" 
+      - "20.108.187.167" 
   - name: "courts"
     ttl: 60
     record:
@@ -154,7 +154,7 @@ A:
   - name: "sandbox-build"
     ttl: 60
     record:
-      - "20.108.187.120"
+      - "20.108.187.153"
   - name: "sandbox-build-beta"
     ttl: 60
     record:
