@@ -221,13 +221,4 @@ cname:
   - name: "afdverify.vh-test-web"
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
-  - name: "afdverify.labs-ozzyib-nodejs"
-    ttl: 300
-    record: "afdverify.hmcts-sbox.azurefd.net"
-  - name: "labs-ozzyib-nodejs"
-    ttl: 300
-    record: "hmcts-sbox.azurefd.net"
-    shutter: false
-  - name: "cdnverify.labs-ozzyib-nodejs"
-    ttl: 300
-    record: "cdnverify.hmcts-labs-ozzyib-nodejs-shutter-sbox.azureedge.net"
+    
