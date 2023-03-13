@@ -231,13 +231,3 @@ cname:
   - name: "cdnverify.labs-ozzyib-nodejs"
     ttl: 300
     record: "cdnverify.hmcts-labs-ozzyib-nodejs-shutter-sbox.azureedge.net"
-  - name: "afdverify.labs-goldenpath-felix"
-    ttl: 300
-    record: "afdverify.hmcts-sbox.azurefd.net"
-  - name: "labs-goldenpath-felix"
-    ttl: 300
-    record: "hmcts-sbox.azurefd.net"
-    shutter: false
-  - name: "cdnverify.labs-goldenpath-felix"
-    ttl: 300
-    record: "cdnverify.hmcts-labs-goldenpath-felix-shutter-sbox.azureedge.net"
