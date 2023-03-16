@@ -317,3 +317,9 @@ cname:
   - name: "em-icp"
     ttl: 300
     record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.dss-update-case"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "dss-update-case"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
