@@ -313,3 +313,9 @@ cname:
   - name: "signalr"
     ttl: 300
     record: "vh-infra-core-ithc.service.signalr.net"
+  - name: "afdverify.dss-update-case"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "dss-update-case"
+    ttl: 300
+    record: "hmcts-ithc.azurefd.net"
