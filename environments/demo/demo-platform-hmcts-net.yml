@@ -190,9 +190,6 @@ cname:
   - name: "afdverify.idam-web-public"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "afdverify.idam-web-public"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
   - name: "afdverify.idam-web-admin"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
