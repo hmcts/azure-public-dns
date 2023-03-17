@@ -13,7 +13,7 @@ A:
       - 51.145.96.41
 txt:
   - name: "idam-web-public"
-    ttl: 300
+    ttl: 3600
     record:
       - "google-site-verification=eqMUm6VJdh4KEmuEJpRYRUe-Hmaee8GHf-pniuk7bLI"
 
@@ -251,43 +251,43 @@ cname:
     record: "sdshmcts-demo.azurefd.net"
     shutter: false
   - name: "afdverify.toffee"
-    ttl: 300
+    ttl: 3600
     record: "afdverify.sdshmcts-demo.azurefd.net"
   - name: "pip-frontend"
     ttl: 300
     record: "sdshmcts-demo.azurefd.net"
     shutter: false
   - name: "afdverify.pip-frontend"
-    ttl: 300
+    ttl: 3600
     record: "afdverify.sdshmcts-demo.azurefd.net"
   - name: "c100-application"
     ttl: 300
     record: "sdshmcts-demo.azurefd.net"
     shutter: false
   - name: "afdverify.c100-application"
-    ttl: 300
+    ttl: 3600
     record: "afdverify.sdshmcts-demo.azurefd.net"
   - name: "vh-admin-web"
     ttl: 300
     record: "sdshmcts-demo.azurefd.net"
     shutter: false
   - name: "afdverify.vh-admin-web"
-    ttl: 300
+    ttl: 3600
     record: "afdverify.sdshmcts-demo.azurefd.net"
   - name: "vh-test-web"
     ttl: 300
     record: "sdshmcts-demo.azurefd.net"
     shutter: false
   - name: "afdverify.vh-test-web"
-    ttl: 300
+    ttl: 3600
     record: "afdverify.sdshmcts-demo.azurefd.net"
   - name: "vh-video-web"
     ttl: 300
     record: "sdshmcts-demo.azurefd.net"
     shutter: false
   - name: "afdverify.vh-video-web"
-    ttl: 300
+    ttl: 3600
     record: "afdverify.sdshmcts-demo.azurefd.net"
   - name: "afdverify.hmi-apim"
-    ttl: 300
+    ttl: 3600
     record: "afdverify.sdshmcts-demo.azurefd.net"
