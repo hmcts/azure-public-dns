@@ -240,3 +240,9 @@ cname:
   - name: "et-sya"
     ttl: 300
     record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.dss-update-case"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "dss-update-case"
+    ttl: 300
+    record: "hmcts-perftest.azurefd.net"

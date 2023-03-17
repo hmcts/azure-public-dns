@@ -115,3 +115,10 @@ cname:
   - name: "afdverify.hmi-apim"
     ttl: 3600
     record: "afdverify.sdshmcts-demo.azurefd.net"
+  - name: "dss-update-case"
+    ttl: 300
+    record: "sdshmcts-demo.azurefd.net"
+    shutter: false
+  - name: "afdverify.dss-update-case"
+    ttl: 3600
+    record: "afdverify.sdshmcts-demo.azurefd.net"
