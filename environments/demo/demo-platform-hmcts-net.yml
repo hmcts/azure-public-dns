@@ -88,8 +88,8 @@ cname:
     record: "afdverify.hmcts-demo.azurefd.net"
   - name: "petitioner-frontend-aks"
     ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "petitioner-frontend-aks"
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.petitioner-frontend-aks"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
   - name: "afdverify.pet-app1"
