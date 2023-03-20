@@ -68,18 +68,28 @@ cname:
   - name: "afdverify.plum"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
-
-
+  - name: "decree-nisi-aks"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
   - name: "afdverify.decree-nisi-aks"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "decree-absolute-aks"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
   - name: "afdverify.decree-absolute-aks"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "respond-divorce-aks"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
   - name: "afdverify.respond-divorce-aks"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "afdverify.petitioner-frontend-aks"
+  - name: "petitioner-frontend-aks"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "petitioner-frontend-aks"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
   - name: "afdverify.pet-app1"
@@ -124,9 +134,15 @@ cname:
   - name: "afdverify.moneyclaims-legal"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "fact"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
   - name: "afdverify.fact"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "fact-admin"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
   - name: "afdverify.fact-admin"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
@@ -142,6 +158,9 @@ cname:
   - name: "afdverify.nfdiv-end-civil-partnership"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "et-sya"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
   - name: "afdverify.et-sya"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
@@ -196,9 +215,15 @@ cname:
   - name: "afdverify.hmcts-access"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "paybubble"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
   - name: "afdverify.paybubble"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "paybubble-int"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
   - name: "afdverify.paybubble-int"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
@@ -232,9 +257,15 @@ cname:
   - name: "afdverify.privatelaw"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "paymentoutcome-web"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
   - name: "afdverify.paymentoutcome-web"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "paymentoutcome-web-int"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
   - name: "afdverify.paymentoutcome-web-int"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
