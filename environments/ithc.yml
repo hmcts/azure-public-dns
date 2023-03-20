@@ -319,3 +319,6 @@ cname:
   - name: "dss-update-case"
     ttl: 300
     record: "hmcts-ithc.azurefd.net"
+  - name: "vh-wowza"
+    ttl: 300
+    record: "vh-infra-wowza-ithc.uksouth.cloudapp.azure.com"
