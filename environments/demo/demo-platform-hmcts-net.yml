@@ -235,6 +235,9 @@ cname:
   - name: "afdverify.paymentoutcome-web"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "afdverify.www.paymentoutcome-web"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
   - name: "afdverify.paymentoutcome-web-int"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
