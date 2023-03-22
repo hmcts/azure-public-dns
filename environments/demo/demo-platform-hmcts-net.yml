@@ -220,6 +220,9 @@ cname:
   - name: "afdverify.ds-ui"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "fis-ds-web"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
   - name: "afdverify.fis-ds-web"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
