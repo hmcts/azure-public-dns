@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "packageRules": [
+    {      
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true,
+      "automergeType": "pr"
+    }
+  ],
+  "platformAutomerge": true
+}
