@@ -90,3 +90,9 @@ cname:
   - name: vh-video-web-pr-1955 #TO DO: REMOVE AFTER TESTING
     record: sdshmcts-dev.azurefd.net
     ttl: 300
+  - name: "afdverify.darts-portal"
+    ttl: 300
+    record: "afdverify.hmcts-dev.azurefd.net"
+  - name: "darts-portal"
+    ttl: 300
+    record: "hmcts-dev.azurefd.net"

@@ -125,3 +125,10 @@ cname:
   - name: "afdverify.vh-video-web"
     ttl: 3600
     record: "afdverify.sdshmcts-demo.azurefd.net"
+  - name: "afdverify.darts-portal"
+    ttl: 3600
+    record: "afdverify.sdshmcts-demo.azurefd.net"
+  - name: "darts-portal"
+    ttl: 300
+    record: "sdshmcts-demo.azurefd.net"
+    shutter: false
