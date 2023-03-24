@@ -15,6 +15,12 @@ cname:
   - name: "afdverify.portal-sbox"
     ttl: 300
     record: "afdverify.sdshmcts-sbox.azurefd.net"
+  - name: "portal-dev"
+    ttl: 300
+    record: "sdshmcts-dev.azurefd.net"
+  - name: "afdverify.portal-dev"
+    ttl: 300
+    record: "afdverify.sdshmcts-dev.azurefd.net"
   - name: "portal-test"
     ttl: 300
     record: "sdshmcts-test.azurefd.net"
