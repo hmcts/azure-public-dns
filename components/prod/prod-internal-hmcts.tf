@@ -1,5 +1,5 @@
 data "local_file" "prod-internal-hmcts-config" {
-  filename = "${path.cwd}/../../environments/prod/prod-internal-hmcts-net.yml.yml"
+  filename = "${path.cwd}/../../environments/prod/prod-internal-hmcts-net.yml"
 }
 
 module "prod-internal" {
