@@ -66,9 +66,94 @@ cname:
     ttl: 300
     record: "hmcts-demo.azurefd.net"
   - name: "afdverify.plum"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "dss-update-case"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+    shutter: false
+  - name: "afdverify.dss-update-case"
     ttl: 3600
     record: "afdverify.hmcts-demo.azurefd.net"
-    
+  - name: "hmi-apim"
+    ttl: 3600
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.hmi-apim"
+    ttl: 3600
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "decree-nisi-aks"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.decree-nisi-aks"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "decree-absolute-aks"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.decree-absolute-aks"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "respond-divorce-aks"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.respond-divorce-aks"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "petitioner-frontend-aks"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.petitioner-frontend-aks"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "fact"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.fact"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "fact-admin"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.fact-admin"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "et-sya"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.et-sya"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "paybubble"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.paybubble"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "paybubble-int"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.paybubble-int"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "paymentoutcome-web"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "www.paymentoutcome-web"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.paymentoutcome-web"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "www.paymentoutcome-web-int"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "paymentoutcome-web-int"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.paymentoutcome-web-int"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+
   # SDS Front Door
   - name: "toffee"
     ttl: 300
@@ -112,13 +197,10 @@ cname:
   - name: "afdverify.vh-video-web"
     ttl: 3600
     record: "afdverify.sdshmcts-demo.azurefd.net"
-  - name: "afdverify.hmi-apim"
+  - name: "afdverify.darts-portal"
     ttl: 3600
     record: "afdverify.sdshmcts-demo.azurefd.net"
-  - name: "dss-update-case"
+  - name: "darts-portal"
     ttl: 300
     record: "sdshmcts-demo.azurefd.net"
     shutter: false
-  - name: "afdverify.dss-update-case"
-    ttl: 3600
-    record: "afdverify.sdshmcts-demo.azurefd.net"
