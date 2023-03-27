@@ -138,9 +138,6 @@ cname:
   - name: "paymentoutcome-web"
     ttl: 300
     record: "hmcts-demo.azurefd.net"
-  - name: "paymentoutcome-web-int"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
   - name: "www.paymentoutcome-web"
     ttl: 300
     record: "hmcts-demo.azurefd.net"
@@ -150,6 +147,12 @@ cname:
   - name: "www.paymentoutcome-web-int"
     ttl: 300
     record: "hmcts-demo.azurefd.net"
+  - name: "paymentoutcome-web-int"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.paymentoutcome-web-int"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
   - name: "fees-register"
     ttl: 300
     record: "hmcts-demo.azurefd.net"
