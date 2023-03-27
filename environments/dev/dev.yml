@@ -92,7 +92,7 @@ cname:
     ttl: 300
   - name: "afdverify.darts-portal"
     ttl: 300
-    record: "afdverify.hmcts-dev.azurefd.net"
+    record: "afdverify.sdshmcts-dev.azurefd.net"
   - name: "darts-portal"
     ttl: 300
-    record: "hmcts-dev.azurefd.net"
+    record: "sdshmcts-dev.azurefd.net"
