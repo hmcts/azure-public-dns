@@ -1,4 +1,18 @@
-ns: []
+ns:
+  - name: "prod"
+    ttl: 900
+    record:
+      - "ns1-04.azure-dns.com"
+      - "ns2-04.azure-dns.net"
+      - "ns3-04.azure-dns.org"
+      - "ns4-04.azure-dns.info"
+  - name: "staging"
+    ttl: 900
+    record:
+      - "ns1-04.azure-dns.com"
+      - "ns2-04.azure-dns.net"
+      - "ns3-04.azure-dns.org"
+      - "ns4-04.azure-dns.info"
 
 mx: []
 
