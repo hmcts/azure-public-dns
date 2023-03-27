@@ -201,12 +201,6 @@ cname:
   - name: "afdverify.nfdiv"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "nfdiv-end-civil-partnership"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.nfdiv-end-civil-partnership"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
   - name: "pcq"
     ttl: 300
     record: "hmcts-demo.azurefd.net"
