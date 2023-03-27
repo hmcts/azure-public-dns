@@ -153,7 +153,90 @@ cname:
   - name: "afdverify.paymentoutcome-web-int"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
-
+  - name: "fees-register"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.fees-register"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "fees-register-int"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.fees-register-int"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "fis-ds-web"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.fis-ds-web"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "immigration-appeal"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.immigration-appeal"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "lau"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.lau"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "lau-int"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.lau-int"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "moneyclaims"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.moneyclaims"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "nfdiv"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.nfdiv"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "pcq"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.pcq"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "pcq-int"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.pcq-int"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "privatelaw"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.privatelaw"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "probate"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.probate"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "rpts"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.rpts"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "civil-citizen-ui"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.civil-citizen-ui"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
   # SDS Front Door
   - name: "toffee"
     ttl: 300
