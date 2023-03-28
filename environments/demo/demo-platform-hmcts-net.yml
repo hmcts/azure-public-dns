@@ -237,6 +237,72 @@ cname:
   - name: "afdverify.civil-citizen-ui"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "bar"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.bar"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "bar-int"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.bar-int"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "ac-int-gateway-ccd"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.ac-int-gateway-ccd"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "adoption-web"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.adoption-web"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "sptribs-frontend"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.sptribs-frontend"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "sscs-cor"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.sscs-cor"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "benefit-appeal"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.benefit-appeal"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "hmcts-access"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.hmcts-access"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "idam-user-dashboard"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.idam-user-dashboard"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "administer-orgs-int"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.administer-orgs-int"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "manage-org-int"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.manage-org-int"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
   # SDS Front Door
   - name: "toffee"
     ttl: 300
