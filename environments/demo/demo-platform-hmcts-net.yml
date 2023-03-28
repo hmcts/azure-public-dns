@@ -303,6 +303,19 @@ cname:
   - name: "afdverify.manage-org-int"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "idam-web-admin"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.idam-web-admin"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "idam-web-public"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.idam-web-public"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+
   # SDS Front Door
   - name: "toffee"
     ttl: 300
