@@ -4,6 +4,13 @@ cname: []
 
 mx: []
 
-ns: []
+ns:
+  - name: "internal"
+    ttl: 900
+    record:
+      - "ns1-02.azure-dns.com"
+      - "ns2-02.azure-dns.net"
+      - "ns3-02.azure-dns.org"
+      - "ns4-02.azure-dns.info"
 
 txt: []
