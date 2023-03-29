@@ -11,7 +11,7 @@ A:
     ttl: 300
     record:
       - 51.145.96.41
-txt:
+txt: []
   
 srv: []
 
