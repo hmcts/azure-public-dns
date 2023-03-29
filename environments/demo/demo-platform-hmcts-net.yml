@@ -11,12 +11,8 @@ A:
     ttl: 300
     record:
       - 51.145.96.41
-txt:
-  - name: "idam-web-public"
-    ttl: 3600
-    record:
-      - "google-site-verification=eqMUm6VJdh4KEmuEJpRYRUe-Hmaee8GHf-pniuk7bLI"
-
+txt: []
+  
 srv: []
 
 cname:
