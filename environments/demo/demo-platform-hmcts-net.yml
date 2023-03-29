@@ -311,7 +311,54 @@ cname:
   - name: "afdverify.idam-web-public"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
-
+  - name: "gateway-ccd"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.gateway-ccd"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "gateway-ccd-int"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.gateway-ccd-int"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "return-case-doc-ccd"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.return-case-doc-ccd"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "return-case-doc-ccd-int"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.return-case-doc-ccd-int"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "manage-case-ac-int"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.manage-case-ac-int"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "manage-case-int"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.manage-case-int"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "manage-case-caa-assigned-case-view"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.manage-case-caa-assigned-case-view"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "manage-case-hearings-int"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.manage-case-hearings-int"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
   # SDS Front Door
   - name: "toffee"
     ttl: 300
