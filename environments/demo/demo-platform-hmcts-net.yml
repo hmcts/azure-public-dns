@@ -359,6 +359,54 @@ cname:
   - name: "afdverify.manage-case-hearings-int"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "register-org"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.register-org"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "administer-orgs"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.administer-orgs"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "manage-org"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.manage-org"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "manage-case-int1"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.manage-case-int1"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "manage-case-int2"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.manage-case-int2"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "manage-case"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.manage-case"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "manage-case-srt"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.manage-case-srt"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
+  - name: "manage-case-wa-int"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+  - name: "afdverify.manage-case-wa-int"
+    ttl: 300
+    record: "afdverify.hmcts-demo.azurefd.net"
   # SDS Front Door
   - name: "toffee"
     ttl: 300
