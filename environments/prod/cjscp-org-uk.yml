@@ -32,22 +32,10 @@ A:
     ttl: 3600
     record:
       - 52.151.86.126
-  - name: api.nft
-    ttl: 3600
-    record:
-      - 52.151.88.205
-  - name: api.prp
-    ttl: 3600
-    record:
-      - 52.151.86.221
   - name: api.sit
     ttl: 3600
     record:
       - 52.151.80.183
-  - name: apigw
-    ttl: 3600
-    record:
-      - 52.151.86.126
   - name: apigw.dev
     ttl: 3600
     record:
