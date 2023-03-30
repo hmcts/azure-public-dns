@@ -1,7 +1,7 @@
 ns: []
 
 mx:
-  - name: @
+  - name: '@'
     ttl: 3600
     record:
       - smtp.secureserver.net.
@@ -328,7 +328,7 @@ cname:
     record: email.secureserver.net.
   - name: ftp
     ttl: 3600
-    record: @
+    record: '@'
   - name: identity-gateway.nft
     ttl: 3600
     record: token.nft.cjscp.org.uk.
@@ -388,4 +388,4 @@ cname:
     record: idamnftpreview.northeurope.cloudapp.azure.com.
   - name: www
     ttl: 3600
-    record: @
+    record: '@'
