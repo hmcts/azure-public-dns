@@ -9,3 +9,5 @@
 *.iml
 
 .terraform.lock.hcl
+
+scripts/*.txt

@@ -1,9 +1,391 @@
-A: []
-
-cname: []
-
-mx: []
-
 ns: []
 
+mx:
+  - name: @
+    ttl: 3600
+    record:
+      - smtp.secureserver.net.
+      - mailstore1.secureserver.net.
+
+A:
+  - name: api
+    ttl: 3600
+    record:
+      - 52.151.86.126
+  - name: api.dev
+    ttl: 3600
+    record:
+      - 51.140.122.1
+  - name: api.nft
+    ttl: 3600
+    record:
+      - 52.151.88.205
+  - name: api.prp
+    ttl: 3600
+    record:
+      - 52.151.86.221
+  - name: api.sit
+    ttl: 3600
+    record:
+      - 52.151.80.183
+  - name: apigw
+    ttl: 3600
+    record:
+      - 52.151.86.126
+  - name: api.nft
+    ttl: 3600
+    record:
+      - 52.151.88.205
+  - name: api.prp
+    ttl: 3600
+    record:
+      - 52.151.86.221
+  - name: api.sit
+    ttl: 3600
+    record:
+      - 52.151.80.183
+  - name: apigw
+    ttl: 3600
+    record:
+      - 52.151.86.126
+  - name: apigw.dev
+    ttl: 3600
+    record:
+      - 51.140.122.1
+  - name: apigw.nft
+    ttl: 3600
+    record:
+      - 52.151.88.205
+  - name: apigw.prp
+    ttl: 3600
+    record:
+      - 52.151.86.221
+  - name: apigw.sit
+    ttl: 3600
+    record:
+      - 52.151.80.183
+  - name: identity-gateway
+    ttl: 3600
+    record:
+      - 13.79.32.203
+  - name: identity-gateway.bae
+    ttl: 3600
+    record:
+      - 51.140.115.34
+  - name: identity-gateway.prp2
+    ttl: 3600
+    record:
+      - 13.87.71.105
+  - name: identity-gateway.sit
+    ttl: 3600
+    record:
+      - 40.120.50.225
+  - name: identity-gateway.support
+    ttl: 3600
+    record:
+      - 51.145.9.218
+  - name: identity-gateway.test
+    ttl: 3600
+    record:
+      - 51.140.120.225
+  - name: libra-gateway.cpp
+    ttl: 3600
+    record:
+      - 51.179.202.173
+  - name: login
+    ttl: 3600
+    record:
+      - 13.79.32.203
+  - name: login.bae
+    ttl: 3600
+    record:
+      - 51.140.115.34
+  - name: login.prp2
+    ttl: 3600
+    record:
+      - 13.87.71.105
+  - name: login.sit
+    ttl: 3600
+    record:
+      - 40.120.50.225
+  - name: login.support
+    ttl: 3600
+    record:
+      - 51.145.9.218
+  - name: login.test
+    ttl: 3600
+    record:
+      - 51.140.120.225
+  - name: manage-users
+    ttl: 3600
+    record:
+      - 13.79.32.203
+  - name: manage-users.bae
+    ttl: 3600
+    record:
+      - 51.140.115.34
+  - name: manage-users.prp2
+    ttl: 3600
+    record:
+      - 13.87.71.105
+  - name: manage-users.sit
+    ttl: 3600
+    record:
+      - 40.120.50.225
+  - name: manage-users.support
+    ttl: 3600
+    record:
+      - 51.145.9.218
+  - name: manage-users.test
+    ttl: 3600
+    record:
+      - 51.140.120.225
+  - name: my-services
+    ttl: 3600
+    record:
+      - 13.79.32.203
+  - name: my-services.bae
+    ttl: 3600
+    record:
+      - 51.140.115.34
+  - name: my-services.prp2
+    ttl: 3600
+    record:
+      - 13.87.71.105
+  - name: my-services.sit
+    ttl: 3600
+    record:
+      - 40.120.50.225
+  - name: my-services.support
+    ttl: 3600
+    record:
+      - 51.145.9.218
+  - name: my-services.test
+    ttl: 3600
+    record:
+      - 51.140.120.225
+  - name: nft.cpp
+    ttl: 3600
+    record:
+      - 51.140.118.70
+  - name: nft02.cpp
+    ttl: 3600
+    record:
+      - 51.140.118.70
+  - name: onlineplea
+    ttl: 3600
+    record:
+      - 51.140.120.175
+  - name: onlineplea.dev
+    ttl: 3600
+    record:
+      - 51.140.39.30
+  - name: onlineplea.nft
+    ttl: 3600
+    record:
+      - 51.140.118.70
+  - name: onlineplea.prp
+    ttl: 3600
+    record:
+      - 51.140.189.195
+  - name: onlineplea.sit
+    ttl: 3600
+    record:
+      - 51.140.120.225
+  - name: prosecuting
+    ttl: 1800
+    record:
+      - 51.140.120.175
+  - name: prosecuting-stub-idam.nft
+    ttl: 3600
+    record:
+      - 51.145.9.218
+  - name: prosecuting-stub-idam.sit
+    ttl: 3600
+    record:
+      - 40.120.50.225
+  - name: prosecuting-stub-idam.support
+    ttl: 3600
+    record:
+      - 51.145.9.218
+  - name: prosecuting-stub-idam.test
+    ttl: 3600
+    record:
+      - 51.140.120.225
+  - name: prosecuting.bae
+    ttl: 1800
+    record:
+      - 51.140.115.34
+  - name: prosecuting.dev
+    ttl: 3600
+    record:
+      - 51.140.39.30
+  - name: prosecuting.nft
+    ttl: 600
+    record:
+      - 51.140.118.70
+  - name: prosecuting.prp
+    ttl: 1800
+    record:
+      - 51.140.189.195
+  - name: prosecuting.sit
+    ttl: 600
+    record:
+      - 51.140.120.225
+  - name: rota
+    ttl: 1800
+    record:
+      - 51.140.120.175
+  - name: rota-nft.nftpr2
+    ttl: 3600
+    record:
+      - 51.140.118.70
+  - name: rota-stub-idam.nft
+    ttl: 3600
+    record:
+      - 51.145.9.218
+  - name: rota-stub-idam.sit
+    ttl: 3600
+    record:
+      - 40.120.50.225
+  - name: rota-stub-idam.support
+    ttl: 3600
+    record:
+      - 51.145.9.218
+  - name: rota-stub-idam.test
+    ttl: 3600
+    record:
+      - 51.140.120.225
+  - name: rota.nft
+    ttl: 600
+    record:
+      - 51.140.118.70
+  - name: rota.prp
+    ttl: 1800
+    record:
+      - 51.140.189.195
+  - name: rota.sit
+    ttl: 600
+    record:
+      - 51.140.120.225
+  - name: token
+    ttl: 1800
+    record:
+      - 13.79.32.203
+  - name: token.bae
+    ttl: 3600
+    record:
+      - 51.140.115.34
+  - name: token.nft
+    ttl: 3600
+    record:
+      - 13.79.245.35
+  - name: token.nft.cpp
+    ttl: 3600
+    record:
+      - 52.208.56.206
+  - name: token.prp
+    ttl: 1800
+    record:
+      - 52.138.167.120
+  - name: token.prp2
+    ttl: 3600
+    record:
+      - 13.87.71.105
+  - name: token.sit
+    ttl: 3600
+    record:
+      - 40.120.50.225
+  - name: token.support
+    ttl: 3600
+    record:
+      - 51.145.9.218
+  - name: token.test
+    ttl: 3600
+    record:
+      - 51.140.120.225
+  - name: tools-nle.nft.cpp
+    ttl: 1800
+    record:
+      - 13.79.245.35
+
 txt: []
+
+srv: []
+
+cname:
+  - name: demo
+    ttl: 3600
+    record: 2406f838-b5aa-4fd3-8d4b-f486b60d53c2.cloudapp.net.
+  - name: em5650
+    ttl: 1800
+    record: u16048077.wl078.sendgrid.net.
+  - name: em7121
+    ttl: 3600
+    record: u10151501.wl002.sendgrid.net.
+  - name: email
+    ttl: 3600
+    record: email.secureserver.net.
+  - name: ftp
+    ttl: 3600
+    record: @
+  - name: identity-gateway.nft
+    ttl: 3600
+    record: token.nft.cjscp.org.uk.
+  - name: identity-gateway.nft.cpp
+    ttl: 3600
+    record: token.nft.cpp.cjscp.org.uk.
+  - name: identity-gateway.nftpr2
+    ttl: 600
+    record: idamnftpreview.northeurope.cloudapp.azure.com.
+  - name: identity-gateway.prp
+    ttl: 1800
+    record: token.prp.cjscp.org.uk.
+  - name: login.nft
+    ttl: 3600
+    record: token.nft.cjscp.org.uk.
+  - name: login.nft.cpp
+    ttl: 3600
+    record: token.nft.cpp.cjscp.org.uk.
+  - name: login.nftpr2
+    ttl: 600
+    record: idamnftpreview.northeurope.cloudapp.azure.com.
+  - name: login.prp
+    ttl: 1800
+    record: token.prp.cjscp.org.uk.
+  - name: manage-users.nft
+    ttl: 3600
+    record: token.nft.cjscp.org.uk.
+  - name: manage-users.nft.cpp
+    ttl: 3600
+    record: token.nft.cpp.cjscp.org.uk.
+  - name: manage-users.nftpr2
+    ttl: 600
+    record: idamnftpreview.northeurope.cloudapp.azure.com.
+  - name: manage-users.prp
+    ttl: 1800
+    record: token.prp.cjscp.org.uk.
+  - name: my-services.nft
+    ttl: 3600
+    record: token.nft.cjscp.org.uk.
+  - name: my-services.nft.cpp
+    ttl: 3600
+    record: token.nft.cpp.cjscp.org.uk.
+  - name: my-services.nftpr2
+    ttl: 600
+    record: idamnftpreview.northeurope.cloudapp.azure.com.
+  - name: my-services.prp
+    ttl: 1800
+    record: token.prp.cjscp.org.uk.
+  - name: s1._domainkey
+    ttl: 1800
+    record: s1.domainkey.u16048077.wl078.sendgrid.net.
+  - name: s2._domainkey
+    ttl: 1800
+    record: s2.domainkey.u16048077.wl078.sendgrid.net.
+  - name: token.nftpr2
+    ttl: 600
+    record: idamnftpreview.northeurope.cloudapp.azure.com.
+  - name: www
+    ttl: 3600
+    record: @

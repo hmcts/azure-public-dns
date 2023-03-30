@@ -1,16 +1,306 @@
-A: []
-
-cname: []
-
-mx: []
-
 ns:
-  - name: "internal"
+  - name: apps
+    ttl: 3600
+    record:
+      - ns1-03.azure-dns.com.
+      - ns2-03.azure-dns.net.
+      - ns3-03.azure-dns.org.
+      - ns4-03.azure-dns.info.
+  - name: apps-nle
+    ttl: 3600
+    record:
+      - ns1-01.azure-dns.com.
+      - ns2-01.azure-dns.net.
+      - ns3-01.azure-dns.org.
+      - ns4-01.azure-dns.info.
+  - name: az
+    ttl: 3600
+    record:
+      - ns2.he.net.
+      - ns3.he.net.
+      - ns4.he.net.
+      - ns5.he.net.
+  - name: ctsc
+    ttl: 3600
+    record:
+      - ns1-09.azure-dns.com.
+      - ns2-09.azure-dns.net.
+      - ns3-09.azure-dns.org.
+      - ns4-09.azure-dns.info.
+  - name: hearings
+    ttl: 3600
+    record:
+      - ns1-07.azure-dns.com.
+      - ns2-07.azure-dns.net.
+      - ns3-07.azure-dns.org.
+      - ns4-07.azure-dns.info.
+  - name: internal
     ttl: 900
     record:
-      - "ns1-02.azure-dns.com"
-      - "ns2-02.azure-dns.net"
-      - "ns3-02.azure-dns.org"
-      - "ns4-02.azure-dns.info"
+      - ns1-02.azure-dns.com
+      - ns2-02.azure-dns.net
+      - ns3-02.azure-dns.org
+      - ns4-02.azure-dns.info
+  - name: lab
+    ttl: 3600
+    record:
+      - ns1-02.azure-dns.com.
+      - ns2-02.azure-dns.net.
+      - ns3-02.azure-dns.org.
+      - ns4-02.azure-dns.info.
+  - name: mft
+    ttl: 3600
+    record:
+      - ns1-01.azure-dns.com.
+      - ns2-01.azure-dns.net.
+      - ns3-01.azure-dns.org.
+      - ns4-01.azure-dns.info.
+  - name: platform
+    ttl: 1800
+    record:
+      - ns1-04.azure-dns.com.
+      - ns2-04.azure-dns.net.
+      - ns3-04.azure-dns.org.
+      - ns4-04.azure-dns.info.
+  - name: reform
+    ttl: 3600
+    record:
+      - ns1-09.azure-dns.com.
+      - ns2-09.azure-dns.net.
+      - ns3-09.azure-dns.org.
+      - ns4-09.azure-dns.info.
+  - name: sftp
+    ttl: 3600
+    record:
+      - ns1-03.azure-dns.com.
+      - ns2-03.azure-dns.net.
+      - ns3-03.azure-dns.org.
+      - ns4-03.azure-dns.info.
+  - name: ukc
+    ttl: 3600
+    record:
+      - ns2.he.net.
+      - ns3.he.net.
+      - ns4.he.net.
+      - ns5.he.net.
+  - name: vh
+    ttl: 3600
+    record:
+      - ns1-01.azure-dns.com.
+      - ns2-01.azure-dns.net.
+      - ns3-01.azure-dns.org.
+      - ns4-01.azure-dns.info.
 
-txt: []
+mx:
+  - name: @
+    ttl: 3600
+    record:
+      - hmcts-net.mail.protection.outlook.com.
+
+A:
+  - name: atcmdemo
+    ttl: 1800
+    record:
+      - 83.151.216.178
+  - name: c2idemo
+    ttl: 1800
+    record:
+      - 83.151.216.178
+  - name: c2ishowandtell
+    ttl: 1800
+    record:
+      - 83.151.216.178
+  - name: ccr-prototype
+    ttl: 3600
+    record:
+      - 83.151.216.178
+  - name: ccrdemo
+    ttl: 43200
+    record:
+      - 83.151.216.178
+  - name: confluence-nle
+    ttl: 1800
+    record:
+      - 51.145.22.226
+  - name: cp.cjs
+    ttl: 3600
+    record:
+      - 40.67.248.37
+  - name: crowd-nle
+    ttl: 1800
+    record:
+      - 51.145.22.226
+  - name: dev.cpp
+    ttl: 3600
+    record:
+      - 83.151.216.178
+  - name: devcp2.cpp
+    ttl: 3600
+    record:
+      - 10.125.114.60
+  - name: i2tdemo
+    ttl: 1800
+    record:
+      - 83.151.216.178
+  - name: jira-nle
+    ttl: 1800
+    record:
+      - 51.145.22.226
+  - name: pp.confluence
+    ttl: 3600
+    record:
+      - 51.179.201.14
+  - name: pp.crowd
+    ttl: 3600
+    record:
+      - 51.179.201.14
+  - name: pp.hipchat
+    ttl: 3600
+    record:
+      - 51.179.201.14
+  - name: pp.jira
+    ttl: 3600
+    record:
+      - 51.179.201.14
+  - name: preprod-bastion
+    ttl: 600
+    record:
+      - 10.20.1.27
+  - name: prod-bastion
+    ttl: 1800
+    record:
+      - 10.20.1.12
+  - name: r2showandtell
+    ttl: 1800
+    record:
+      - 83.151.216.178
+  - name: redact.c2idemo
+    ttl: 1800
+    record:
+      - 83.151.216.178
+  - name: redact.dev.cpp
+    ttl: 3600
+    record:
+      - 83.151.216.178
+  - name: sandbox.divorce-backoffice.reform
+    ttl: 1800
+    record:
+      - 51.179.201.13
+  - name: sandbox.divorce.reform
+    ttl: 1800
+    record:
+      - 51.179.201.13
+  - name: sandbox.probate-two.reform
+    ttl: 1800
+    record:
+      - 51.179.201.13
+  - name: sandbox.probate.reform
+    ttl: 1800
+    record:
+      - 51.179.201.13
+  - name: sandbox.sscs.reform
+    ttl: 1800
+    record:
+      - 51.179.201.13
+  - name: test-reform
+    ttl: 1800
+    record:
+      - 83.151.216.178
+  - name: tools
+    ttl: 600
+    record:
+      - 51.104.17.168
+
+txt:
+  - name: @
+    ttl: 86400
+    record:
+      - "docker-verification=f8449b84-5631-4671-b7f0-e7f06acbdbf8"
+      - "Dynatrace-site-verification=d47aef0a-5479-4cca-a55c-61e11aa2dfd2__h43u3tim5arpipfnpqj3l75aap"
+      - "google-site-verification=4lnbRW6qCFRgeNOyGIONf-Z2xyieSnKiHMngA60wxpE"
+      - "google-site-verification=TMU69wadrpW6V0YxpFfxuXST3nKEiMWWHA2KN88CwvI"
+      - "v=spf1
+      - "v=verifydomain
+  - name: cp.cjs
+    ttl: 3600
+    record:
+      - "MS=ms61478066"
+  - name: mailrelay.platform
+    ttl: 3600
+    record:
+      - "MS=ms79803021"
+  - name: _asvdns-c088fba7-73a7-472a-badb-d3009e6de955
+    ttl: 3600
+    record:
+      - "asvdns_34e5993c-ddc8-4eba-9d00-b9f6f77b97f2"
+  - name: _dmarc
+    ttl: 3600
+    record:
+      - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:ems@hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:ems@hmcts.net"
+  - name: _github-challenge-hmcts
+    ttl: 3600
+    record:
+      - "2902f9735b"
+
+srv:
+  - name: _sip._tls.@
+    ttl: 3600
+    record:
+      - sipdir.online.lync.com.
+  - name: _sipfederationtls._tcp.@
+    ttl: 3600
+    record:
+      - sipfed.online.lync.com.
+
+cname:
+  - name: "*.dev.cpp"
+    ttl: 3600
+    record: dev.cpp.hmcts.net.
+  - name: "*.dev2.cpp"
+    ttl: 3600
+    record: "*dev.cpp."
+  - name: autodiscover
+    ttl: 3600
+    record: autodiscover.outlook.com.
+  - name: email
+    ttl: 3600
+    record: email.secureserver.net.
+  - name: enterpriseenrollment
+    ttl: 3600
+    record: enterpriseenrollment.manage.microsoft.com.
+  - name: enterpriseregistration
+    ttl: 3600
+    record: enterpriseregistration.windows.net.
+  - name: ftp
+    ttl: 3600
+    record: @
+  - name: lyncdiscover
+    ttl: 3600
+    record: webdir.online.lync.com.
+  - name: msoid
+    ttl: 3600
+    record: clientconfig.microsoftonline-p.net.
+  - name: notices
+    ttl: 600
+    record: www95.wixdns.net.
+  - name: selector1._domainkey
+    ttl: 3600
+    record: selector1-hmcts-net._domainkey.cjscommonplatform.onmicrosoft.com.
+  - name: selector2._domainkey
+    ttl: 3600
+    record: selector2-hmcts-net._domainkey.cjscommonplatform.onmicrosoft.com.
+  - name: sip
+    ttl: 3600
+    record: sipdir.online.lync.com.
+  - name: tools.oldprd
+    ttl: 600
+    record: atlprod.northeurope.cloudapp.azure.com.
+  - name: www
+    ttl: 3600
+    record: @
+  - name: www.notices
+    ttl: 600
+    record: www95.wixdns.net.
+  - name: _domainconnect
+    ttl: 3600
+    record: _domainconnect.gd.domaincontrol.com.
