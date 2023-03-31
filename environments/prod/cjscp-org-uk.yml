@@ -370,6 +370,3 @@ cname:
   - name: token.nftpr2
     ttl: 600
     record: idamnftpreview.northeurope.cloudapp.azure.com.
-  - name: www
-    ttl: 3600
-    record: '@'
