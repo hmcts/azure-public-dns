@@ -4,8 +4,8 @@ mx:
   - name: '@'
     ttl: 3600
     record:
-      - smtp.secureserver.net.
-      - mailstore1.secureserver.net.
+      - 0 smtp.secureserver.net.
+      - 10 mailstore1.secureserver.net.
 
 A:
   - name: api
@@ -32,10 +32,6 @@ A:
     ttl: 3600
     record:
       - 52.151.86.126
-  - name: api.sit
-    ttl: 3600
-    record:
-      - 52.151.80.183
   - name: apigw.dev
     ttl: 3600
     record:

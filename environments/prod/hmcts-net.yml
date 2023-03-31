@@ -95,7 +95,7 @@ mx:
   - name: '@'
     ttl: 3600
     record:
-      - hmcts-net.mail.protection.outlook.com.
+      - 0 hmcts-net.mail.protection.outlook.com.
 
 A:
   - name: atcmdemo
@@ -243,14 +243,14 @@ txt:
       - "2902f9735b"
 
 srv:
-  - name: _sip._tls.@
+  - name: _sip._tls
     ttl: 3600
     record:
-      - sipdir.online.lync.com.
-  - name: _sipfederationtls._tcp.@
+      - 100,1,443,sipdir.online.lync.com.
+  - name: _sipfederationtls._tcp
     ttl: 3600
     record:
-      - sipfed.online.lync.com.
+      - 100,1,5061,sipfed.online.lync.com.
 
 cname:
   - name: "*.dev.cpp"
