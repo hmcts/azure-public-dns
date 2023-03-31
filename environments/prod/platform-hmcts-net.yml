@@ -118,15 +118,15 @@ A:
   - name: "build"
     ttl: 60
     record:
-      - "20.108.187.167"
+      - "13.87.65.183"
   - name: "build-beta"
     ttl: 60
     record:
-      - "20.108.187.167"
+      - "13.87.65.183"
   - name: "static-build"
     ttl: 60
     record:
-      - "20.108.187.167" 
+      - "13.87.65.183" 
   - name: "courts"
     ttl: 60
     record:
@@ -154,15 +154,15 @@ A:
   - name: "sandbox-build"
     ttl: 60
     record:
-      - "20.108.187.153"
+      - "13.87.65.149"
   - name: "sandbox-build-beta"
     ttl: 60
     record:
-      - "20.108.187.153"
+      - "13.87.65.149"
   - name: "static-sandbox-build"
     ttl: 60
     record:
-      - "20.108.187.153"
+      - "13.87.65.149"
   - name: "sds-sandbox-build"
     ttl: 60
     record:
@@ -174,11 +174,11 @@ A:
   - name: "sds-build"
     ttl: 60
     record:
-      - "20.108.188.32"
+      - "13.87.65.228"
   - name: "static-sds-build"
     ttl: 60
     record:
-      - "20.108.188.32"
+      - "13.87.65.228"
   - name: "sftp"
     ttl: 300
     record:
