@@ -20,13 +20,6 @@ ns:
       - "ns2-02.azure-dns.net"
       - "ns3-02.azure-dns.org"
       - "ns4-02.azure-dns.info."
-  - name: "hmctsdemo"
-    ttl: 3600
-    record:
-      - "ns1-06.azure-dns.com."
-      - "ns2-06.azure-dns.net."
-      - "ns3-06.azure-dns.org."
-      - "ns4-06.azure-dns.info."
   - name: "ithc"
     ttl: 900
     record:
@@ -62,20 +55,6 @@ ns:
       - "ns2-08.azure-dns.net"
       - "ns3-08.azure-dns.org"
       - "ns4-08.azure-dns.info"
-  - name: "spreview"
-    ttl: 54000
-    record:
-      - "ns1-08.azure-dns.com"
-      - "ns2-08.azure-dns.net"
-      - "ns3-08.azure-dns.org"
-      - "ns4-08.azure-dns.info"
-  - name: "sprod"
-    ttl: 900
-    record:
-      - "ns1-01.azure-dns.com"
-      - "ns2-01.azure-dns.net"
-      - "ns3-01.azure-dns.org"
-      - "ns4-01.azure-dns.info"
   - name: "perftest"
     ttl: 900
     record:
