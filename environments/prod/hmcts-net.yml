@@ -256,9 +256,6 @@ cname:
   - name: "*.dev.cpp"
     ttl: 3600
     record: dev.cpp.hmcts.net.
-  - name: "*.dev2.cpp"
-    ttl: 3600
-    record: "*dev.cpp."
   - name: autodiscover
     ttl: 3600
     record: autodiscover.outlook.com.
@@ -271,9 +268,6 @@ cname:
   - name: enterpriseregistration
     ttl: 3600
     record: enterpriseregistration.windows.net.
-  - name: ftp
-    ttl: 3600
-    record: '@'
   - name: lyncdiscover
     ttl: 3600
     record: webdir.online.lync.com.
@@ -295,9 +289,6 @@ cname:
   - name: tools.oldprd
     ttl: 600
     record: atlprod.northeurope.cloudapp.azure.com.
-  - name: www
-    ttl: 3600
-    record: '@'
   - name: www.notices
     ttl: 600
     record: www95.wixdns.net.
