@@ -355,6 +355,9 @@ cname:
   - name: my-services.nftpr2
     ttl: 600
     record: idamnftpreview.northeurope.cloudapp.azure.com.
+  - name: awdsadsadasdas.validation-record
+    ttl: 600
+    record: comodoca.verificationsomething
   - name: my-services.prp
     ttl: 1800
     record: token.prp.cjscp.org.uk.
