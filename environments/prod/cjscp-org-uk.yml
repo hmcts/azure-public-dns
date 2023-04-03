@@ -12,6 +12,10 @@ A:
     ttl: 3600
     record:
       - 52.151.86.126
+  - name: dummy-record
+    ttl: 3600
+    record:
+      - 127.0.0.1
   - name: api.dev
     ttl: 3600
     record:
