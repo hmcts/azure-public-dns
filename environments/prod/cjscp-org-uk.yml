@@ -310,9 +310,6 @@ cname:
   - name: email
     ttl: 3600
     record: email.secureserver.net.
-  - name: ftp
-    ttl: 3600
-    record: '@'
   - name: identity-gateway.nft
     ttl: 3600
     record: token.nft.cjscp.org.uk.
