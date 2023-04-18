@@ -2,7 +2,39 @@ ns: []
 
 mx: []
 
-A: []
+A: 
+  - name: "pih4171sec001"
+    ttl: 300
+    record:
+      - "10.23.3.164" 
+  - name: "pih4171sec002"
+    ttl: 300
+    record:
+      - "10.23.3.165" 
+  - name: "pih4171sec003"
+    ttl: 300
+    record:
+      - "10.23.3.166" 
+  - name: "pih4171sec004"
+    ttl: 300
+    record:
+      - "10.23.3.167" 
+  - name: "pih4172sec001"
+    ttl: 300
+    record:
+      - "10.25.3.164" 
+  - name: "pih4172sec002"
+    ttl: 300
+    record:
+      - "10.25.3.165" 
+  - name: "pih4172sec003"
+    ttl: 300
+    record:
+      - "10.25.3.166" 
+  - name: "pih4172sec004"
+    ttl: 300
+    record:
+      - "10.25.3.167"
 
 txt: []
 
