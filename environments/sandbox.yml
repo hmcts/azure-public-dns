@@ -221,4 +221,15 @@ cname:
   - name: "afdverify.vh-test-web"
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
-    
+  - name: "afdverify.safe-settings"
+    ttl: 300
+    record: "afdverify.hmcts-sbox.azurefd.net"
+  - name: "safe-settings"
+    ttl: 300
+    record: "hmcts-sbox.azurefd.net"
+  - name: "afdverify.darts-portal"
+    ttl: 300
+    record: "afdverify.sdshmcts-sbox.azurefd.net"
+  - name: "darts-portal"
+    ttl: 300
+    record: "sdshmcts-sbox.azurefd.net"
