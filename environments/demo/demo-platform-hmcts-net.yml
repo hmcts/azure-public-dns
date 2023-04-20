@@ -2,458 +2,458 @@ ns: []
 
 mx: []
 
-A:
-  - name: tax-tribunals
-    ttl: 300
-    record:
-      - 51.145.96.41
-  - name: tax-tribunals-downloader
-    ttl: 300
-    record:
-      - 51.145.96.41
+A: []
+#  - name: tax-tribunals
+#    ttl: 300
+#    record:
+#      - 51.145.96.41
+#  - name: tax-tribunals-downloader
+#    ttl: 300
+#    record:
+#      - 51.145.96.41
 txt: []
   
 srv: []
 
-cname:
-  - name: "bulkscan"
-    ttl: 60
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.bulkscan"
-    ttl: 60
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "reformscan"
-    ttl: 60
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.reformscan"
-    ttl: 60
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "_44cb36f0c4dde84c9ff1534180bb24da"
-    ttl: 300
-    record: "56DDD5BB7BD629DD7B32C2EF75824ECB.4FDD1FE37015F188615E327886C95C9B.44e67a303e887000a548.comodoca.com."
-  - name: "em9743.mail-prl-nonprod"
-    ttl: 300
-    record: "u24999805.wl056.sendgrid.net"
-  - name: "s1._domainkey.mail-prl-nonprod"
-    ttl: 300
-    record: "s1.domainkey.u24999805.wl056.sendgrid.net"
-  - name: "s2._domainkey.mail-prl-nonprod"
-    ttl: 300
-    record: "s2.domainkey.u24999805.wl056.sendgrid.net"
-  - name: "afdverify.cft-api-mgmt"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "cft-api-mgmt"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: sds-api-mgmt
-    record: sdshmcts-demo.azurefd.net
-    ttl: 300
-  - name: "afdverify.sds-api-mgmt"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "signalr"
-    ttl: 300
-    record: "vh-infra-core-demo.service.signalr.net"
-  - name: "vh-wowza"
-    ttl: 300
-    record: "vh-infra-wowza-demo.uksouth.cloudapp.azure.com"
-  - name: "plum"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.plum"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "dss-update-case"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-    shutter: false
-  - name: "afdverify.dss-update-case"
-    ttl: 3600
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "hmi-apim"
-    ttl: 3600
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.hmi-apim"
-    ttl: 3600
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "decree-nisi-aks"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.decree-nisi-aks"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "decree-absolute-aks"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.decree-absolute-aks"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "respond-divorce-aks"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.respond-divorce-aks"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "petitioner-frontend-aks"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.petitioner-frontend-aks"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "fact"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.fact"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "fact-admin"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.fact-admin"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "et-sya"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.et-sya"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "paybubble"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.paybubble"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "paybubble-int"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.paybubble-int"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "paymentoutcome-web"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "www.paymentoutcome-web"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.paymentoutcome-web"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "www.paymentoutcome-web-int"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "paymentoutcome-web-int"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.paymentoutcome-web-int"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "fees-register"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.fees-register"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "fees-register-int"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.fees-register-int"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "fis-ds-web"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.fis-ds-web"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "immigration-appeal"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.immigration-appeal"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "lau"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.lau"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "lau-int"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.lau-int"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "moneyclaims"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.moneyclaims"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "nfdiv"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.nfdiv"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "pcq"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.pcq"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "pcq-int"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.pcq-int"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "privatelaw"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.privatelaw"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "probate"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.probate"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "rpts"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.rpts"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "civil-citizen-ui"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.civil-citizen-ui"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "bar"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.bar"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "bar-int"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.bar-int"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "ac-int-gateway-ccd"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.ac-int-gateway-ccd"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "adoption-web"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.adoption-web"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "sptribs-frontend"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.sptribs-frontend"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "sscs-cor"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.sscs-cor"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "benefit-appeal"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.benefit-appeal"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "hmcts-access"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.hmcts-access"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "idam-user-dashboard"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.idam-user-dashboard"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "administer-orgs-int"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.administer-orgs-int"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "manage-org-int"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.manage-org-int"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "idam-web-admin"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.idam-web-admin"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "idam-web-public"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.idam-web-public"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "gateway-ccd"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.gateway-ccd"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "gateway-ccd-int"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.gateway-ccd-int"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "return-case-doc-ccd"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.return-case-doc-ccd"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "return-case-doc-ccd-int"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.return-case-doc-ccd-int"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "manage-case-ac-int"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.manage-case-ac-int"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "manage-case-int"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.manage-case-int"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "manage-case-caa-assigned-case-view"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.manage-case-caa-assigned-case-view"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "manage-case-hearings-int"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.manage-case-hearings-int"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "register-org"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.register-org"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "administer-orgs"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.administer-orgs"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "manage-org"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.manage-org"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "manage-case-int1"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.manage-case-int1"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "manage-case-int2"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.manage-case-int2"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "manage-case"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.manage-case"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "manage-case-srt"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.manage-case-srt"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  - name: "manage-case-wa-int"
-    ttl: 300
-    record: "hmcts-demo.azurefd.net"
-  - name: "afdverify.manage-case-wa-int"
-    ttl: 300
-    record: "afdverify.hmcts-demo.azurefd.net"
-  # SDS Front Door
-  - name: "toffee"
-    ttl: 300
-    record: "sdshmcts-demo.azurefd.net"
-    shutter: false
-  - name: "afdverify.toffee"
-    ttl: 3600
-    record: "afdverify.sdshmcts-demo.azurefd.net"
-  - name: "pip-frontend"
-    ttl: 300
-    record: "sdshmcts-demo.azurefd.net"
-    shutter: false
-  - name: "afdverify.pip-frontend"
-    ttl: 3600
-    record: "afdverify.sdshmcts-demo.azurefd.net"
-  - name: "c100-application"
-    ttl: 300
-    record: "sdshmcts-demo.azurefd.net"
-    shutter: false
-  - name: "afdverify.c100-application"
-    ttl: 3600
-    record: "afdverify.sdshmcts-demo.azurefd.net"
-  - name: "vh-admin-web"
-    ttl: 300
-    record: "sdshmcts-demo.azurefd.net"
-    shutter: false
-  - name: "afdverify.vh-admin-web"
-    ttl: 3600
-    record: "afdverify.sdshmcts-demo.azurefd.net"
-  - name: "vh-test-web"
-    ttl: 300
-    record: "sdshmcts-demo.azurefd.net"
-    shutter: false
-  - name: "afdverify.vh-test-web"
-    ttl: 3600
-    record: "afdverify.sdshmcts-demo.azurefd.net"
-  - name: "vh-video-web"
-    ttl: 300
-    record: "sdshmcts-demo.azurefd.net"
-    shutter: false
-  - name: "afdverify.vh-video-web"
-    ttl: 3600
-    record: "afdverify.sdshmcts-demo.azurefd.net"
-  - name: "afdverify.darts-portal"
-    ttl: 3600
-    record: "afdverify.sdshmcts-demo.azurefd.net"
-  - name: "darts-portal"
-    ttl: 300
-    record: "sdshmcts-demo.azurefd.net"
-    shutter: false
+cname: []
+#  - name: "bulkscan"
+#    ttl: 60
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.bulkscan"
+#    ttl: 60
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "reformscan"
+#    ttl: 60
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.reformscan"
+#    ttl: 60
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "_44cb36f0c4dde84c9ff1534180bb24da"
+#    ttl: 300
+#    record: "56DDD5BB7BD629DD7B32C2EF75824ECB.4FDD1FE37015F188615E327886C95C9B.44e67a303e887000a548.comodoca.com."
+#  - name: "em9743.mail-prl-nonprod"
+#    ttl: 300
+#    record: "u24999805.wl056.sendgrid.net"
+#  - name: "s1._domainkey.mail-prl-nonprod"
+#    ttl: 300
+#    record: "s1.domainkey.u24999805.wl056.sendgrid.net"
+#  - name: "s2._domainkey.mail-prl-nonprod"
+#    ttl: 300
+#    record: "s2.domainkey.u24999805.wl056.sendgrid.net"
+#  - name: "afdverify.cft-api-mgmt"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "cft-api-mgmt"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: sds-api-mgmt
+#    record: sdshmcts-demo.azurefd.net
+#    ttl: 300
+#  - name: "afdverify.sds-api-mgmt"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "signalr"
+#    ttl: 300
+#    record: "vh-infra-core-demo.service.signalr.net"
+#  - name: "vh-wowza"
+#    ttl: 300
+#    record: "vh-infra-wowza-demo.uksouth.cloudapp.azure.com"
+#  - name: "plum"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.plum"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "dss-update-case"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#    shutter: false
+#  - name: "afdverify.dss-update-case"
+#    ttl: 3600
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "hmi-apim"
+#    ttl: 3600
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.hmi-apim"
+#    ttl: 3600
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "decree-nisi-aks"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.decree-nisi-aks"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "decree-absolute-aks"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.decree-absolute-aks"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "respond-divorce-aks"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.respond-divorce-aks"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "petitioner-frontend-aks"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.petitioner-frontend-aks"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "fact"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.fact"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "fact-admin"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.fact-admin"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "et-sya"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.et-sya"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "paybubble"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.paybubble"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "paybubble-int"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.paybubble-int"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "paymentoutcome-web"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "www.paymentoutcome-web"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.paymentoutcome-web"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "www.paymentoutcome-web-int"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "paymentoutcome-web-int"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.paymentoutcome-web-int"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "fees-register"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.fees-register"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "fees-register-int"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.fees-register-int"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "fis-ds-web"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.fis-ds-web"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "immigration-appeal"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.immigration-appeal"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "lau"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.lau"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "lau-int"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.lau-int"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "moneyclaims"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.moneyclaims"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "nfdiv"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.nfdiv"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "pcq"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.pcq"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "pcq-int"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.pcq-int"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "privatelaw"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.privatelaw"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "probate"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.probate"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "rpts"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.rpts"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "civil-citizen-ui"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.civil-citizen-ui"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "bar"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.bar"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "bar-int"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.bar-int"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "ac-int-gateway-ccd"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.ac-int-gateway-ccd"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "adoption-web"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.adoption-web"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "sptribs-frontend"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.sptribs-frontend"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "sscs-cor"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.sscs-cor"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "benefit-appeal"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.benefit-appeal"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "hmcts-access"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.hmcts-access"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "idam-user-dashboard"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.idam-user-dashboard"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "administer-orgs-int"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.administer-orgs-int"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "manage-org-int"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.manage-org-int"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "idam-web-admin"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.idam-web-admin"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "idam-web-public"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.idam-web-public"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "gateway-ccd"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.gateway-ccd"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "gateway-ccd-int"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.gateway-ccd-int"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "return-case-doc-ccd"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.return-case-doc-ccd"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "return-case-doc-ccd-int"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.return-case-doc-ccd-int"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "manage-case-ac-int"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.manage-case-ac-int"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "manage-case-int"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.manage-case-int"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "manage-case-caa-assigned-case-view"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.manage-case-caa-assigned-case-view"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "manage-case-hearings-int"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.manage-case-hearings-int"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "register-org"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.register-org"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "administer-orgs"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.administer-orgs"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "manage-org"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.manage-org"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "manage-case-int1"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.manage-case-int1"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "manage-case-int2"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.manage-case-int2"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "manage-case"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.manage-case"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "manage-case-srt"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.manage-case-srt"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  - name: "manage-case-wa-int"
+#    ttl: 300
+#    record: "hmcts-demo.azurefd.net"
+#  - name: "afdverify.manage-case-wa-int"
+#    ttl: 300
+#    record: "afdverify.hmcts-demo.azurefd.net"
+#  # SDS Front Door
+#  - name: "toffee"
+#    ttl: 300
+#    record: "sdshmcts-demo.azurefd.net"
+#    shutter: false
+#  - name: "afdverify.toffee"
+#    ttl: 3600
+#    record: "afdverify.sdshmcts-demo.azurefd.net"
+#  - name: "pip-frontend"
+#    ttl: 300
+#    record: "sdshmcts-demo.azurefd.net"
+#    shutter: false
+#  - name: "afdverify.pip-frontend"
+#    ttl: 3600
+#    record: "afdverify.sdshmcts-demo.azurefd.net"
+#  - name: "c100-application"
+#    ttl: 300
+#    record: "sdshmcts-demo.azurefd.net"
+#    shutter: false
+#  - name: "afdverify.c100-application"
+#    ttl: 3600
+#    record: "afdverify.sdshmcts-demo.azurefd.net"
+#  - name: "vh-admin-web"
+#    ttl: 300
+#    record: "sdshmcts-demo.azurefd.net"
+#    shutter: false
+#  - name: "afdverify.vh-admin-web"
+#    ttl: 3600
+#    record: "afdverify.sdshmcts-demo.azurefd.net"
+#  - name: "vh-test-web"
+#    ttl: 300
+#    record: "sdshmcts-demo.azurefd.net"
+#    shutter: false
+#  - name: "afdverify.vh-test-web"
+#    ttl: 3600
+#    record: "afdverify.sdshmcts-demo.azurefd.net"
+#  - name: "vh-video-web"
+#    ttl: 300
+#    record: "sdshmcts-demo.azurefd.net"
+#    shutter: false
+#  - name: "afdverify.vh-video-web"
+#    ttl: 3600
+#    record: "afdverify.sdshmcts-demo.azurefd.net"
+#  - name: "afdverify.darts-portal"
+#    ttl: 3600
+#    record: "afdverify.sdshmcts-demo.azurefd.net"
+#  - name: "darts-portal"
+#    ttl: 300
+#    record: "sdshmcts-demo.azurefd.net"
+#    shutter: false
