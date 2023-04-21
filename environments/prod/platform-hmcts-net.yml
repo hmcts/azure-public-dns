@@ -627,6 +627,9 @@ cname:
   - name: "_0be35efd23b00eb9f75301c49805b99a.vh-user-api"
     ttl: 300
     record: "8C47FAE79316C0E04179D5E02FC8F22E.344D0959408A32581A917DB101A254E6.21c22eeca3fcb1c69935.sectigo.com."
+  - name: "_D7BC9C94CCECEF2B47A23F6CDB45C9A0.vh-user-api"
+    ttl: 10800
+    record: "E2ECB8313DACA9CA4A29CFB86C20736F.5F10E5D5D826058053EAE74381014248.ed41d0d1ce831744f465.sectigo.com."
 
   # Adoption
   - name: "afdverify.apply-for-adoption"
