@@ -11,10 +11,6 @@ A:
     ttl: 14400
     record:
       - "94.136.40.82"
-  - name: "owa"
-    ttl: 14400
-    record:
-      - "157.56.248.6"
   - name: "test"
     ttl: 14400
     record:
