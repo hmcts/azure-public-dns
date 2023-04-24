@@ -89,10 +89,6 @@ txt:
     ttl: 14400
     record:
       - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:dmarc-rua@dmarc.service.gov.uk"
-  - name: '_domainconnect'
-    ttl: 14400
-    record:
-      - "domainconnect.123-reg.co.uk"
   - name: '_mta-sts'
     ttl: 14400
     record:
