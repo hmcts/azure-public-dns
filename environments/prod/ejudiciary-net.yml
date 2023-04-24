@@ -1,9 +1,106 @@
-A: []
+A:
+  - name: "@"
+    ttl: 14400
+    record:
+      - "94.136.40.82"
+  - name: "*"
+    ttl: 14400
+    record:
+      - "94.136.40.82"
+  - name: "home"
+    ttl: 14400
+    record:
+      - "94.136.40.82"
+  - name: "owa"
+    ttl: 14400
+    record:
+      - "157.56.248.6"
+  - name: "test"
+    ttl: 14400
+    record:
+      - "94.136.40.82"
+  - name: "www"
+    ttl: 14400
+    record:
+      - "94.136.40.82"
 
-cname: []
+cname:
+  - name: "autodiscover"
+    ttl: 14400
+    record: "autodiscover.outlook.com."
+  - name: "cdnverify.www.mta-sts"
+    ttl: 14400
+    record: "mta-stscdn.azureedge.net."
+  - name: "enterpriseenrollment"
+    ttl: 14400
+    record: "enterpriseenrollment.manage.microsoft.com."
+  - name: "enterpriseregistration"
+    ttl: 14400
+    record: "enterpriseregistration.windows.net."
+  - name: "lyncdiscover"
+    ttl: 14400
+    record: "webdir.online.lync.com."
+  - name: "msoid"
+    ttl: 14400
+    record: "clientconfig.microsoftonline-p.net."
+  - name: "mta-sts"
+    ttl: 14400
+    record: "mta-stscdn.azureedge.net."
+  - name: "selector1._domainkey"
+    ttl: 14400
+    record: "selector1-ejudiciary-net._domainkey.judiciary.onmicrosoft.com."
+  - name: "selector2._domainkey"
+    ttl: 14400
+    record: "selector2-ejudiciary-net._domainkey.judiciary.onmicrosoft.com."
+  - name: "sip"
+    ttl: 14400
+    record: "sipdir.online.lync.com."
 
-mx: []
+mx:
+  - name: '@'
+    ttl: 14400
+    record:
+      - 0 ejudiciary-net.mail.protection.outlook.com.
 
 ns: []
 
-txt: []
+srv:
+  - name: _sip._tls
+    ttl: 3600
+    record:
+      - 100,1,443,sipdir.online.lync.com.
+  - name: _sipfederationtls._tcp
+    ttl: 3600
+    record:
+      - 100,1,5061,sipfed.online.lync.com.
+
+txt:
+  - name: '@'
+    ttl: 14400
+    record:
+      - "access-domain-verification=eaca74e79c800b9617b4cd6f62af33a9776a482c25958647f66c6495f2b78eaa"
+      - "v=spf1 include:spf.protection.outlook.com -all"
+  - name: '_adsp._domainkey'
+    ttl: 14400
+    record:
+      - "dkim=discardable"
+  - name: '_asvdns-374ed0b4-285b-4347-9868-f7e08407a499'
+    ttl: 14400
+    record:
+      - "asvdns_2eb453f0-8c56-46af-b3f8-c34ebd1bdd1b"
+  - name: '_dmarc'
+    ttl: 14400
+    record:
+      - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:dmarc-rua@dmarc.service.gov.uk"
+  - name: '_domainconnect'
+    ttl: 14400
+    record:
+      - "domainconnect.123-reg.co.uk"
+  - name: '_mta-sts'
+    ttl: 14400
+    record:
+      - "v=STSv1; id=20042023"
+  - name: '_smtp._tls'
+    ttl: 14400
+    record:
+      - "v=TLSRPTv1;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk"
