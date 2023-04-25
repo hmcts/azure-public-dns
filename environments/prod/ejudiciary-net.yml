@@ -24,9 +24,6 @@ cname:
   - name: "autodiscover"
     ttl: 14400
     record: "autodiscover.outlook.com."
-  - name: "cdnverify.www.mta-sts"
-    ttl: 14400
-    record: "mta-stscdn.azureedge.net."
   - name: "enterpriseenrollment"
     ttl: 14400
     record: "enterpriseenrollment.manage.microsoft.com."
