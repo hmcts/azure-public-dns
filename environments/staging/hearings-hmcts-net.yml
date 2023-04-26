@@ -23,9 +23,3 @@ cname:
   - name: "afdverify.admin"
     ttl: 300
     record: "afdverify.sdshmcts-stg.azurefd.net"
-  - name: _9ABADD28C1380711E31674A501C86439.preprod.self-test
-    ttl: 10800
-    record: 5DDB743FE98CC5F734118BDCC8861AA1.7E51D470F894EA8834BBFAB442E6A7AC.48786c47d4efaff7bfcd.sectigo.com
-  - name: _9ABADD28C1380711E31674A501C86439.join.preprod.self-test
-    ttl: 10800
-    record: 5DDB743FE98CC5F734118BDCC8861AA1.7E51D470F894EA8834BBFAB442E6A7AC.48786c47d4efaff7bfcd.sectigo.com
