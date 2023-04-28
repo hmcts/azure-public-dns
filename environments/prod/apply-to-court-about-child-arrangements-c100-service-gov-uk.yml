@@ -16,7 +16,7 @@ cname:
   - name: "www"
     ttl: 120
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "em5901.mail-prl"
     ttl: 300
     record: "u24999813.wl064.sendgrid.net"
