@@ -299,7 +299,7 @@ cname:
   - name: _domainconnect
     ttl: 3600
     record: _domainconnect.gd.domaincontrol.com.
-  - name: _9F6B9A52ABE1DAE6B5F23DB8E18F4627.tools.hmcts.net.
+  - name: _9F6B9A52ABE1DAE6B5F23DB8E18F4627.tools
     ttl: 3600
     record: E189D47D2948EAFB402A8CD67B272D9F.1C90C06D53959B7D91B4948516041E7A.3a531c35ad5115a3ec54.sectigo.com.
   - name: _810B28CC039C9196401D691A354251B6.tools.prp
