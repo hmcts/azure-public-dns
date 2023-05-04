@@ -15,7 +15,7 @@ A:
   - name: api.dev
     ttl: 3600
     record:
-      - 51.140.122.1
+      - 51.11.44.116
   - name: api.nft
     ttl: 3600
     record:
@@ -35,7 +35,7 @@ A:
   - name: apigw.dev
     ttl: 3600
     record:
-      - 51.140.122.1
+      - 51.11.44.116
   - name: apigw.nft
     ttl: 3600
     record:
@@ -203,7 +203,7 @@ A:
   - name: prosecuting.dev
     ttl: 3600
     record:
-      - 51.140.39.30
+      - 51.11.44.0
   - name: prosecuting.nft
     ttl: 600
     record:
