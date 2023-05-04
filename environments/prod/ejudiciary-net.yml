@@ -77,7 +77,7 @@ txt:
   - name: '_mta-sts'
     ttl: 14400
     record:
-      - "v=STSv1; id=20042023"
+      - "v=STSv1; id=02052023"
   - name: '_smtp._tls'
     ttl: 14400
     record:
