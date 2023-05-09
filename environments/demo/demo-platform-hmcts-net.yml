@@ -188,7 +188,6 @@ cname:
   - name: "moneyclaims"
     ttl: 300
     record: "hmcts-demo.azurefd.net"
-    shutter: true
   - name: "afdverify.moneyclaims"
     ttl: 300
     record: "afdverify.hmcts-demo.azurefd.net"
