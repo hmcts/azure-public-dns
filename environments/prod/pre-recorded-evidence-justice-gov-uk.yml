@@ -17,10 +17,10 @@ cname:
   #   record: "afdverify.sdshmcts-sbox.azurefd.net"
   - name: "portal-dev"
     ttl: 300
-    record: "pre-dev.powerappsportals.com"
-  # - name: "afdverify.portal-dev"
-  #   ttl: 300
-  #   record: "afdverify.sdshmcts-dev.azurefd.net"
+    record: "sdshmcts-dev.azurefd.ne"
+  - name: "afdverify.portal-dev"
+    ttl: 300
+    record: "afdverify.sdshmcts-dev.azurefd.net"
   - name: "portal-test"
     ttl: 300
     record: "sdshmcts-test.azurefd.net"
