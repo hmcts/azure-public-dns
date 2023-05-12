@@ -42,6 +42,11 @@ A:
     ttl: 60
     record:
       - "20.108.143.135"
+      
+  - name: "sds-api-mgmt-appgw"
+    ttl: 60
+    record:
+      - "51.104.255.30"
 
 txt:
   - name: "contact.justice"
