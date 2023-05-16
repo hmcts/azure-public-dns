@@ -231,6 +231,7 @@ cname:
     record: "afdverify.hmcts-sbox.azurefd.net"
   - name: "safe-settings"
     ttl: 300
+    shutter: true
     record: "hmcts-sbox.azurefd.net"
   - name: "afdverify.darts-portal"
     ttl: 300
