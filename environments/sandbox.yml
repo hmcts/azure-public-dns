@@ -46,7 +46,7 @@ A:
   - name: "sds-api-mgmt-appgw"
     ttl: 60
     record:
-      - "51.104.255.30"
+      - "20.49.142.14"
       
   - name: "sds-mtls-api-mgmt-appgw"
     ttl: 60
