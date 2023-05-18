@@ -47,7 +47,12 @@ A:
     ttl: 60
     record:
       - "51.104.255.30"
-
+      
+  - name: "sds-mtls-api-mgmt-appgw"
+    ttl: 60
+    record:
+      - "20.49.142.14"
+      
 txt:
   - name: "contact.justice"
     ttl: 3600
