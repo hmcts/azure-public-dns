@@ -10,6 +10,16 @@ A:
       - "20.49.168.17"
       - "51.11.124.149"
       - "51.11.124.158"
+      
+  - name: "sds-mtls-api-mgmt-appgw"
+    ttl: 60
+    record:
+      - "20.254.22.0"
+
+  - name: "sds-api-mgmt-appgw"
+    ttl: 60
+    record:
+      - "20.254.22.0"
 
 txt:
   - name: "mailrelay"
