@@ -23,10 +23,10 @@ cname:
     record: "afdverify.sdshmcts-dev.azurefd.net"
   - name: "portal-test"
     ttl: 300
-    record: "sdshmcts-test.azurefd.net"
-  - name: "afdverify.portal-test"
-    ttl: 300
-    record: "afdverify.sdshmcts-test.azurefd.net"
+    record: "pre-test.powerappsportals.com"
+  # - name: "afdverify.portal-test"
+  #   ttl: 300
+  #   record: "afdverify.sdshmcts-test.azurefd.net"
   - name: "portal-demo"
     ttl: 300
     record: "sdshmcts-demo.azurefd.net"
