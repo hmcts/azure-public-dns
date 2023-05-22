@@ -58,6 +58,11 @@ A:
     record:
       - "20.108.48.132"
       
+  - name: "oauth2-proxy-00"
+    ttl: 300
+    record:
+      - "20.108.48.132"
+      
 txt:
   - name: "contact.justice"
     ttl: 3600
