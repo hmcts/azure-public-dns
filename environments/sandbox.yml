@@ -53,6 +53,11 @@ A:
     record:
       - "20.49.142.14"
       
+  - name: "nginx"
+    ttl: 300
+    record:
+      - "20.108.48.132"
+      
 txt:
   - name: "contact.justice"
     ttl: 3600
