@@ -2,8 +2,17 @@ ns: []
 
 mx: []
 
-A: []
-
+A: 
+  - name: "sds-mtls-api-mgmt-appgw"
+    ttl: 3600
+    record:
+      - "20.254.21.195"
+      
+  - name: "sds-api-mgmt-appgw"
+    ttl: 3600
+    record:
+      - "20.254.21.195"
+      
 txt: []
 
 srv: []

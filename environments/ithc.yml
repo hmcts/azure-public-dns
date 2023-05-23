@@ -14,6 +14,16 @@ A:
     record:
       - "51.104.202.183"
 
+  - name: "sds-mtls-api-mgmt-appgw"
+    ttl: 3600
+    record:
+      - "20.254.18.242"
+      
+  - name: "sds-api-mgmt-appgw"
+    ttl: 3600
+    record:
+      - "20.254.18.242"
+      
 txt:
   - name: "contact.justice"
     ttl: 3600
@@ -322,3 +332,9 @@ cname:
   - name: "vh-wowza"
     ttl: 300
     record: "vh-infra-wowza-ithc.uksouth.cloudapp.azure.com"
+  - name: "afdverify.sptribs-frontend"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "sptribs-frontend"
+    ttl: 300
+    record: "hmcts-ithc.azurefd.net"

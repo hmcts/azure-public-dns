@@ -12,11 +12,12 @@ cname:
     record: "afdverify.hmcts-prod.azurefd.net"
   - name: "cdnverify.www"
     ttl: 300
-    record: "cdnverify.hmcts-apply-to-court-about-child-arrangements-c100-shutter-prod.azureedge.net"
+    record: "cdnverify.hmcts-apply-to-court-about-child-arrangements-c1.azureedge.net"
   - name: "www"
     ttl: 120
-    record: "hmcts-prod.azurefd.net"
-    shutter: true
+    record: "hmcts-apply-to-court-about-child-arrangements-c1.azureedge.net"
+    shutter: false
+    #shuttering must be achieved by pointing to hmcts-apply-to-court-about-child-arrangements-c1.azureedge.net at present
   - name: "em5901.mail-prl"
     ttl: 300
     record: "u24999813.wl064.sendgrid.net"
