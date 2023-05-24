@@ -218,6 +218,14 @@ A:
     ttl: 360
     record:
       - "20.58.20.26"
+  - name: "sds-api-mgmt-appgw"
+    ttl: 300
+    record:
+      - "20.108.148.46"
+  - name: "sds-mtls-api-mgmt-appgw"
+    ttl: 300
+    record:
+      - "20.108.148.46"
 
 txt:
   - name: "@"
