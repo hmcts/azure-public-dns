@@ -1,3 +1,4 @@
+* @hmcts/platform-operations
+
 environments/prod/cjscp-org-uk.yml @hmcts/platform-operations @hmcts/cpp-development-admin
 environments/prod/hmcts-net.yml @hmcts/platform-operations @hmcts/cpp-development-admin
-* @hmcts/platform-operations
