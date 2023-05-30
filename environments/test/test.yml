@@ -70,3 +70,9 @@ cname:
   - name: vh-wowza
     ttl: 300
     record: vh-infra-wowza-test.uksouth.cloudapp.azure.com
+  - name: "afdverify.sptribs-frontend"
+    ttl: 3600
+    record: "afdverify.hmcts-test.azurefd.net"
+  - name: "sptribs-frontend"
+    ttl: 300
+    record: "hmcts-test.azurefd.net"

@@ -53,6 +53,16 @@ A:
     record:
       - "20.49.142.14"
       
+  - name: "nginx"
+    ttl: 300
+    record:
+      - "20.108.48.132"
+      
+  - name: "oauth2-proxy-00"
+    ttl: 300
+    record:
+      - "20.108.48.132"
+      
 txt:
   - name: "contact.justice"
     ttl: 3600
@@ -244,3 +254,9 @@ cname:
   - name: "darts-portal"
     ttl: 300
     record: "sdshmcts-sbox.azurefd.net"
+  - name: "labs-rhodrif-nodejs"
+    ttl: 300
+    record: "hmcts-sbox.azurefd.net"
+  - name: "afdverify.labs-rhodrif-nodejs"
+    ttl: 3600
+    record: "afdverify.hmcts-sbox.azurefd.net"

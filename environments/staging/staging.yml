@@ -11,6 +11,16 @@ A:
     ttl: 300
     record:
       - 52.151.100.245
+
+  - name: "sds-mtls-api-mgmt-appgw"
+    ttl: 300
+    record:
+      - "20.108.148.125"
+      
+  - name: "sds-api-mgmt-appgw"
+    ttl: 300
+    record:
+      - "20.108.148.125"
       
 txt: []
 

@@ -332,3 +332,9 @@ cname:
   - name: "vh-wowza"
     ttl: 300
     record: "vh-infra-wowza-ithc.uksouth.cloudapp.azure.com"
+  - name: "afdverify.sptribs-frontend"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "sptribs-frontend"
+    ttl: 300
+    record: "hmcts-ithc.azurefd.net"
