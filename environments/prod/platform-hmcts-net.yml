@@ -197,7 +197,7 @@ A:
   - name: "response"
     ttl: 60
     record:
-      - "51.141.228.194"
+      - "20.108.188.3"
   - name: "caps"
     ttl: 60
     record:
