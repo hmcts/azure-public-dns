@@ -265,9 +265,6 @@ cname:
   - name: "www.apply-divorce"
     ttl: 60
     record: "www.apply-divorce.service.gov.uk"
-  - name: "benefit-appeal"
-    ttl: 60
-    record: "d9bb5705-1e1d-43d7-9a3d-8a7a97562873.cloudapp.net"
   - name: "gateway.ccd"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
