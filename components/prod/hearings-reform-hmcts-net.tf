@@ -18,5 +18,5 @@ module "hearings_reform_hmcts_net" {
 import {
   id = "/subscriptions/ed302caf-ec27-4c64-a05e-85731c3ce90e/resourceGroups/reformMgmtRG/providers/Microsoft.Network/dnszones/hearings.reform.hmcts.net"
 
-  to = module.hearings_reform_hmcts_net.azurerm_dns_zone.dns_zone
+  to = module.hearings_reform_hmcts_net.azurerm_dns_zone.zone
 }
