@@ -667,3 +667,12 @@ cname:
   - name: "dtsse-ardoq-adapter"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
+
+  # DARTS
+  - name: "afdverify.darts-portal"
+    ttl: 300
+    record: "afdverify.sdshmcts-prod.azurefd.net"
+  - name: "darts-portal"
+    ttl: 300
+    record: "sdshmcts-prod.azurefd.net"
+    shutter: false
