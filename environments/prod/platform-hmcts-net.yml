@@ -672,6 +672,9 @@ cname:
   - name: "afdverify.darts-portal"
     ttl: 300
     record: "afdverify.sdshmcts-prod.azurefd.net"
+  - name: "cdnverify.darts-portal"
+    ttl: 300
+    record: "cdnverify.sdshmcts-darts-portal-shutter-prod.azureedge.net"
   - name: "darts-portal"
     ttl: 300
     record: "sdshmcts-prod.azurefd.net"
