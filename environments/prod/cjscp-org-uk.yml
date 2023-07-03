@@ -383,3 +383,9 @@ cname:
   - name: token.nftpr2
     ttl: 600
     record: idamnftpreview.northeurope.cloudapp.azure.com.
+  - name: _9BA2642663021978FE3A8EC864478464.prp
+    ttl: 600
+    record: E9D81F1FB97D9C6A2DEBFDA9E5C7F528.9432A4726F08030E508E624EBE90E4A5.541f6fde7f8886087069.sectigo.com.
+  - name: _AAC99EB4E708B2A9E6D8FC2E7189D108.prd
+    ttl: 600
+    record: 459DE8956C5462F8437492853747EB8D.37B2C7D665937C9386C5D1F5868CA60F.f2e58f21abe575fab678.sectigo.com.    
