@@ -14,7 +14,7 @@ cname:
   - name: "www.manage"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "www"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
