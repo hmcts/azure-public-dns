@@ -178,7 +178,7 @@ cname:
     shutter: false
   - name: "toffee3"
     ttl: 300
-    record: "hmcts-new-test-sbox-cugrdxdvh2b7hqgm.z01.azurefd.net"
+    record: "sdshmcts-new-test-sbox-dab3b4ftaxf4fjbv.z01.azurefd.net"
     shutter: false
   - name: "afdverify.toffee"
     ttl: 3600
