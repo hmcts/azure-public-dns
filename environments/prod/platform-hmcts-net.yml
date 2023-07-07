@@ -679,7 +679,6 @@ cname:
   - name: "response"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
   - name: "afdverify.response"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
