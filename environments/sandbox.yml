@@ -174,11 +174,11 @@ cname:
     shutter: false
   - name: "toffee2"
     ttl: 300
-    record: "hmcts-test1-sbox.azurefd.net"
+    record: "hmcts-test1-sbox-agcdg0bwcfa0gqdm.z01.azurefd.net"
     shutter: false
   - name: "toffee3"
     ttl: 300
-    record: "hmcts-test1-sbox.azurefd.net"
+    record: "hmcts-test1-sbox-agcdg0bwcfa0gqdm.z01.azurefd.net"
     shutter: false
   - name: "afdverify.toffee"
     ttl: 3600
