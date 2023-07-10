@@ -172,6 +172,10 @@ cname:
     ttl: 300
     record: "sdshmcts-sbox.azurefd.net"
     shutter: false
+  - name: "@"
+    ttl: 300
+    record: "hmcts-test1-sbox-agcdg0bwcfa0gqdm.z01.azurefd.net"
+    shutter: false
   - name: "toffee2"
     ttl: 300
     record: "hmcts-test1-sbox-agcdg0bwcfa0gqdm.z01.azurefd.net"
