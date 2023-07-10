@@ -233,6 +233,10 @@ cname:
     ttl: 300
     record: "sdshmcts-ithc.azurefd.net"
     shutter: false
+  - name: "toffee3"
+    ttl: 300
+    record: "sdshmcts-new-test-ithc-gua7aqh4eybzcdgd.z01.azurefd.net"
+    shutter: false
   - name: "afdverify.toffee"
     ttl: 3600
     record: "afdverify.sdshmcts-ithc.azurefd.net"

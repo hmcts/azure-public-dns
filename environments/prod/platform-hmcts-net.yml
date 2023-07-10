@@ -194,10 +194,6 @@ A:
     ttl: 60
     record:
       - "20.50.101.55"
-  - name: "response"
-    ttl: 60
-    record:
-      - "20.108.188.3"
   - name: "caps"
     ttl: 60
     record:
@@ -679,3 +675,10 @@ cname:
     ttl: 300
     record: "sdshmcts-prod.azurefd.net"
     shutter: false
+
+  - name: "response"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+  - name: "afdverify.response"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
