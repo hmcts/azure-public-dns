@@ -264,7 +264,6 @@ cname:
     record: "sdshmcts-sbox.azurefd.net"
   - name: "labs-rhodrif-nodejs"
     ttl: 300
-    shutter: false
     record: "hmcts-sbox.azurefd.net"
   - name: "afdverify.labs-rhodrif-nodejs"
     ttl: 3600
