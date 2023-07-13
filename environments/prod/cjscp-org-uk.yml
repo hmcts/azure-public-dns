@@ -374,12 +374,6 @@ cname:
   - name: my-services.prp
     ttl: 1800
     record: token.prp.cjscp.org.uk.
-  - name: s1._domainkey
-    ttl: 1800
-    record: s1.domainkey.u16048077.wl078.sendgrid.net.
-  - name: s2._domainkey
-    ttl: 1800
-    record: s2.domainkey.u16048077.wl078.sendgrid.net.
   - name: token.nftpr2
     ttl: 600
     record: idamnftpreview.northeurope.cloudapp.azure.com.
