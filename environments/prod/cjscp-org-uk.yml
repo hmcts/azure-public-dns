@@ -51,7 +51,7 @@ A:
   - name: email-client.nft
     ttl: 3600
     record:
-      - 13.79.245.35
+      - 20.77.130.152
   - name: email-client.sit
     ttl: 3600
     record:
@@ -279,7 +279,7 @@ A:
   - name: token.nft
     ttl: 3600
     record:
-      - 13.79.245.35
+      - 20.77.130.152
   - name: token.nft.cpp
     ttl: 3600
     record:
