@@ -392,3 +392,12 @@ cname:
   - name: s2._domainkey
     ttl: 600
     record: s2.domainkey.u16040309.wl060.sendgrid.net
+  - name: em2687.bae
+    ttl: 600
+    record: u16040309.wl060.sendgrid.net
+  - name: s1._domainkey.bae
+    ttl: 600
+    record: s1.domainkey.u16040309.wl060.sendgrid.net
+  - name: s2._domainkey.bae
+    ttl: 600
+    record: s2._domainkey.bae.cjscp.org.uk
