@@ -18,6 +18,7 @@ cname:
   - name: "portal-dev"
     ttl: 300
     record: "sdshmcts-dev.azurefd.net"
+    shutter: true
   - name: "afdverify.portal-dev"
     ttl: 300
     record: "afdverify.sdshmcts-dev.azurefd.net"
