@@ -42,7 +42,6 @@ cname:
   - name: "portal"
     ttl: 300
     record: "sdshmcts-prod.azurefd.net"
-    shutter: true
   - name: "afdverify.portal"
     ttl: 300
     record: "afdverify.sdshmcts-prod.azurefd.net"
