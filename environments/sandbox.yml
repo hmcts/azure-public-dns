@@ -42,27 +42,27 @@ A:
     ttl: 60
     record:
       - "20.108.143.135"
-      
+
   - name: "sds-api-mgmt-appgw"
     ttl: 60
     record:
       - "20.49.142.14"
-      
+
   - name: "sds-mtls-api-mgmt-appgw"
     ttl: 60
     record:
       - "20.49.142.14"
-      
+
   - name: "nginx"
     ttl: 300
     record:
       - "20.108.48.132"
-      
+
   - name: "oauth2-proxy-00"
     ttl: 300
     record:
       - "20.108.48.132"
-      
+
 txt:
   - name: "contact.justice"
     ttl: 3600
@@ -80,6 +80,16 @@ txt:
 #    record: "hmcts-sbox.azurefd.net"
 #    shutter: true
 cname:
+  - name: "afdverify.labs-goldenpath-nc"
+    ttl: 300
+    record: "afdverify.hmcts-sbox.azurefd.net"
+  - name: "labs-goldenpath-nc"
+    ttl: 300
+    record: "hmcts-sbox.azurefd.net"
+    shutter: false
+  - name: "cdnverify.labs-goldenpath-nc"
+    ttl: 300
+    record: "cdnverify.hmcts-labs-goldenpath-nc-shutter-sbox.azureedge.net"
   - name: "_1fc88e03b87b33fb04a3b1c5978e80b8"
     ttl: 900
     record: "3FED4C626334D6135F1258241ADBBF36.F6728027F74DAF3E336958B894F24534.ma5er55rQa0HPM55O5Fq.comodoca.com"
