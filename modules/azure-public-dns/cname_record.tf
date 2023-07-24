@@ -13,4 +13,4 @@ resource "azurerm_dns_cname_record" "this" {
   name   = lower(each.value.name)
   ttl    = each.value.ttl
   record = lookup(each.value, "shutter", false) == true ? "hmcts-${split(".", replace(join(".", [each.value.name, var.zone_name]), "www.", ""))[0]}-shutter-${var.env}.${local.shutter_domain}" : lookup(each.value, "shutter_v2", false) ? join(".", [join("-", [each.value.name, "shutter"]), var.zone_name]) : each.value.record
-
+}
