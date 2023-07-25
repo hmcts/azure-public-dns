@@ -102,7 +102,8 @@ cname:
   - name: "plum"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
-    shutter: false
+    shutter: true
+    shutter_v2: true
   - name: "www.plum"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
@@ -181,7 +182,9 @@ cname:
   - name: "toffee"
     ttl: 300
     record: "sdshmcts-sbox.azurefd.net"
+    shutter: true 
     shutter_v2: true
+
   - name: "toffee2"
     ttl: 300
     record: "hmcts-test1-sbox-agcdg0bwcfa0gqdm.z01.azurefd.net"
