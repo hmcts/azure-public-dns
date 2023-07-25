@@ -249,6 +249,7 @@ cname:
     ttl: 300
     record: "hmcts-prod.azurefd.net"
     shutter: false
+    shutter_v2: true
   - name: "afdverify.plum"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -499,6 +500,7 @@ cname:
   - name: toffee
     record: sdshmcts-prod.azurefd.net
     ttl: 300
+    shutter_v2: true
   - name: "afdverify.toffee"
     ttl: 300
     record: "afdverify.sdshmcts-prod.azurefd.net"
