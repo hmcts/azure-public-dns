@@ -500,7 +500,7 @@ cname:
   - name: toffee
     record: sdshmcts-prod.azurefd.net
     ttl: 300
-    shutter_v2: true
+    shutter_v2: false
   - name: "afdverify.toffee"
     ttl: 300
     record: "afdverify.sdshmcts-prod.azurefd.net"
