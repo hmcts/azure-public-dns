@@ -678,9 +678,3 @@ cname:
   - name: "afdverify.sandbox-build"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "static-sandbox-build"
-    ttl: 300
-    record: "hmcts-prod.azurefd.net"
-  - name: "afdverify.static-sandbox-build"
-    ttl: 3600
-    record: "afdverify.hmcts-prod.azurefd.net"
