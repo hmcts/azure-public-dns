@@ -134,18 +134,6 @@ A:
     ttl: 60
     record:
       - "20.58.23.145"
-  - name: "sandbox-build"
-    ttl: 60
-    record:
-      - "13.87.65.149"
-  - name: "sandbox-build-beta"
-    ttl: 60
-    record:
-      - "13.87.65.149"
-  - name: "static-sandbox-build"
-    ttl: 60
-    record:
-      - "13.87.65.149"
   - name: "sds-sandbox-build"
     ttl: 60
     record:
@@ -682,5 +670,17 @@ cname:
     ttl: 300
     record: "hmcts-prod.azurefd.net"
   - name: "afdverify.response"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "sandbox-build"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+  - name: "afdverify.sandbox-build"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "static-sandbox-build"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+  - name: "afdverify.static-sandbox-build"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
