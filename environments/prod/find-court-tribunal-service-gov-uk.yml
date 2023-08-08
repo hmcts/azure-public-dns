@@ -27,7 +27,3 @@ cname:
   - name: "afdverify.www.admin"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.www.admin"
-    ttl: 300
-    record: "cdnverify.hmcts-admin-find-court-tribunal-shutter-prod.azureedge.net"  
- 
