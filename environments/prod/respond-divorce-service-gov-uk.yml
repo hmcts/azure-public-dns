@@ -15,6 +15,4 @@ cname:
   - name: "afdverify.www"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.www"
-    ttl: 3600
-    record: "cdnverify.hmcts-respond-divorce-shutter-prod.azureedge.net"
+ 
