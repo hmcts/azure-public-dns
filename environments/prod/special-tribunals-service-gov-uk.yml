@@ -15,6 +15,3 @@ cname:
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
     shutter: true
-  - name: "cdnverify.www"
-    ttl: 300
-    record: "cdnverify.hmcts-special-tribunals-shutter-prod.azureedge.net"
