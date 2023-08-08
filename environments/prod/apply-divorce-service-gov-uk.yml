@@ -27,9 +27,6 @@ cname:
   - name: "afdverify.www.decree-absolute"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.www.decree-absolute"
-    ttl: 3600
-    record: "cdnverify.hmcts-decree-absolute-shutter-prod.azureedge.net"
   - name: "decree-nisi"
     ttl: 300
     record: "www.decree-nisi.apply-divorce.service.gov.uk"
@@ -40,9 +37,6 @@ cname:
   - name: "afdverify.www.decree-nisi"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.www.decree-nisi"
-    ttl: 3600
-    record: "cdnverify.hmcts-decree-nisi-shutter-prod.azureedge.net"
   - name: "manage-application"
     ttl: 300
     record: "www.manage-application.apply-divorce.service.gov.uk"
@@ -53,9 +47,6 @@ cname:
   - name: "afdverify.www.manage-application"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.www.manage-application"
-    ttl: 3600
-    record: "cdnverify.hmcts-manage-application-shutter-prod.azureedge.net"
   - name: "www"
     ttl: 120
     record: "hmcts-prod.azurefd.net"
@@ -63,6 +54,3 @@ cname:
   - name: "afdverify.www"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.www"
-    ttl: 3600
-    record: "cdnverify.hmcts-apply-divorce-shutter-prod.azureedge.net"

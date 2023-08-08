@@ -349,9 +349,6 @@ cname:
   - name: "afdverify.register-org"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.www.moneyclaim-legal"
-    ttl: 300
-    record: "cdnverify.hmcts-moneyclaim-legal-shutter-prod.azureedge.net"
   - name: "afdverify.www.moneyclaim-legal"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -390,15 +387,9 @@ cname:
   - name: "afdverify.www.fees-register"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.fees-register"
-    ttl: 300
-    record: "cdnverify.hmcts-fees-register-shutter-prod.azureedge.net"
   - name: "afdverify.equality-and-diversity"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.equality-and-diversity"
-    ttl: 300
-    record: "cdnverify.hmcts-equality-and-diversity-shutter-prod.azureedge.net"
   - name: "equality-and-diversity"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
@@ -406,9 +397,6 @@ cname:
   - name: "afdverify.log-and-audit"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.log-and-audit"
-    ttl: 300
-    record: "cdnverify.hmcts-log-and-audit-shutter-prod.azureedge.net"
   - name: "log-and-audit"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
@@ -423,9 +411,6 @@ cname:
   - name: "afdverify.idam-user-dashboard"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.idam-user-dashboard"
-    ttl: 300
-    record: "cdnverify.hmcts-idam-user-dashboard-shutter-prod.azureedge.net"
   - name: "idam-user-dashboard"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
@@ -436,9 +421,6 @@ cname:
   - name: "afdverify.cft-api-mgmt"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.cft-api-mgmt"
-    ttl: 300
-    record: "cdnverify.hmcts-cft-api-mgmt-shutter-prod.azureedge.net"
   - name: sds-api-mgmt
     record: sdshmcts-prod.azurefd.net
     ttl: 300
@@ -579,9 +561,6 @@ cname:
   - name: "afdverify.apply-for-adoption"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.apply-for-adoption"
-    ttl: 300
-    record: "cdnverify.hmcts-apply-for-adoption-shutter-prod.azureedge.net"
   - name: "apply-for-adoption"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
@@ -591,9 +570,6 @@ cname:
   - name: "afdverify.c100-application"
     ttl: 300
     record: "afdverify.sdshmcts-prod.azurefd.net"
-  - name: "cdnverify.c100-application"
-    ttl: 300
-    record: "cdnverify.sdshmcts-c100-application-shutter-prod.azureedge.net"
   - name: "c100-application"
     ttl: 300
     record: "sdshmcts-prod.azurefd.net"
@@ -611,9 +587,6 @@ cname:
   - name: "afdverify.darts-portal"
     ttl: 300
     record: "afdverify.sdshmcts-prod.azurefd.net"
-  - name: "cdnverify.darts-portal"
-    ttl: 300
-    record: "cdnverify.sdshmcts-darts-portal-shutter-prod.azureedge.net"
   - name: "darts-portal"
     ttl: 300
     record: "sdshmcts-prod.azurefd.net"

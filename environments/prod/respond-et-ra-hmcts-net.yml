@@ -10,9 +10,6 @@ cname:
   - name: "afdverify.et-ra"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.et-ra"
-    ttl: 300
-    record: "cdnverify.hmcts-et-ra-shutter-prod.azureedge.net"
   - name: "et-ra"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
