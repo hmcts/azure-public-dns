@@ -16,6 +16,10 @@ A:
     ttl: 3600
     record:
       - 51.11.44.116
+  - name: api.dev03
+    ttl: 3600
+    record:
+      - 51.11.44.116
   - name: api.nft
     ttl: 3600
     record:
@@ -33,6 +37,10 @@ A:
     record:
       - 52.151.86.126
   - name: apigw.dev
+    ttl: 3600
+    record:
+      - 51.11.44.116
+  - name: apigw.dev03
     ttl: 3600
     record:
       - 51.11.44.116
@@ -179,7 +187,11 @@ A:
   - name: onlineplea.dev
     ttl: 3600
     record:
-      - 51.140.39.30
+      - 51.11.44.0
+  - name: onlineplea.dev03
+    ttl: 3600
+    record:
+      - 51.11.44.0
   - name: onlineplea.nft
     ttl: 3600
     record:
@@ -217,6 +229,10 @@ A:
     record:
       - 51.140.115.34
   - name: prosecuting.dev
+    ttl: 3600
+    record:
+      - 51.11.44.0
+  - name: prosecuting.dev03
     ttl: 3600
     record:
       - 51.11.44.0
