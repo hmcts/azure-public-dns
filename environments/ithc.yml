@@ -339,3 +339,9 @@ cname:
   - name: "sptribs-frontend"
     ttl: 300
     record: "hmcts-ithc.azurefd.net"
+  - name: "afdverify.cui-ra"
+    ttl: 300
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "cui-ra"
+    ttl: 300
+    record: "hmcts-ithc.azurefd.net"
