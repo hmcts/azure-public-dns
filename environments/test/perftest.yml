@@ -252,5 +252,9 @@ cname:
   - name: "sptribs-frontend"
     ttl: 300
     record: "hmcts-perftest.azurefd.net"
-
-
+  - name: "afdverify.cui-ra"
+    ttl: 300
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "cui-ra"
+    ttl: 300
+    record: "hmcts-perftest.azurefd.net"
