@@ -83,9 +83,6 @@ cname:
   - name: "afdverify.idam-web-public"
     ttl: 300
     record: "afdverify.hmcts-ithc.azurefd.net"
-  - name: "cdnverify.idam-web-public"
-    ttl: 300
-    record: "cdnverify.hmcts-idam-web-public-shutter-ithc.azureedge.net"
   - name: "idam-web-public"
     ttl: 300
     record: "hmcts-ithc.azurefd.net"
@@ -233,6 +230,10 @@ cname:
     ttl: 300
     record: "sdshmcts-ithc.azurefd.net"
     shutter: false
+  - name: "toffee3"
+    ttl: 300
+    record: "sdshmcts-new-test-ithc-gua7aqh4eybzcdgd.z01.azurefd.net"
+    shutter: false
   - name: "afdverify.toffee"
     ttl: 3600
     record: "afdverify.sdshmcts-ithc.azurefd.net"
@@ -332,3 +333,9 @@ cname:
   - name: "vh-wowza"
     ttl: 300
     record: "vh-infra-wowza-ithc.uksouth.cloudapp.azure.com"
+  - name: "afdverify.sptribs-frontend"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc.azurefd.net"
+  - name: "sptribs-frontend"
+    ttl: 300
+    record: "hmcts-ithc.azurefd.net"

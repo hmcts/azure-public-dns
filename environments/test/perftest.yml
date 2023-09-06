@@ -246,3 +246,11 @@ cname:
   - name: "dss-update-case"
     ttl: 300
     record: "hmcts-perftest.azurefd.net"
+  - name: "afdverify.sptribs-frontend"
+    ttl: 3600
+    record: "afdverify.hmcts-perftest.azurefd.net"
+  - name: "sptribs-frontend"
+    ttl: 300
+    record: "hmcts-perftest.azurefd.net"
+
+

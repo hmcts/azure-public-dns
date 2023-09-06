@@ -42,17 +42,27 @@ A:
     ttl: 60
     record:
       - "20.108.143.135"
-      
+
   - name: "sds-api-mgmt-appgw"
     ttl: 60
     record:
       - "20.49.142.14"
-      
+
   - name: "sds-mtls-api-mgmt-appgw"
     ttl: 60
     record:
       - "20.49.142.14"
-      
+
+  - name: "nginx"
+    ttl: 300
+    record:
+      - "20.108.48.132"
+
+  - name: "oauth2-proxy-00"
+    ttl: 300
+    record:
+      - "20.108.48.132"
+
 txt:
   - name: "contact.justice"
     ttl: 3600
@@ -62,6 +72,11 @@ txt:
     ttl: 3600
     record:
       - "v=DMARC1; p=none"
+  - name: "@"
+    ttl: 3600
+    record:
+      - "ms-domain-verification=fb92e12a-fb28-48e0-b5ec-5fa92a9001c4"
+      - "v=spf1 include:spf.protection.outlook.com -all"
 
 # In order to swap the DNS for shutterring an application enable the shutter parameter for the corresponding application.
 # e.g. This will shutter the plum app in sbox environment
@@ -70,6 +85,13 @@ txt:
 #    record: "hmcts-sbox.azurefd.net"
 #    shutter: true
 cname:
+  - name: "afdverify.labs-goldenpath-nc"
+    ttl: 300
+    record: "afdverify.hmcts-sbox.azurefd.net"
+  - name: "labs-goldenpath-nc"
+    ttl: 300
+    record: "hmcts-sbox.azurefd.net"
+    shutter: false
   - name: "_1fc88e03b87b33fb04a3b1c5978e80b8"
     ttl: 900
     record: "3FED4C626334D6135F1258241ADBBF36.F6728027F74DAF3E336958B894F24534.ma5er55rQa0HPM55O5Fq.comodoca.com"
@@ -82,7 +104,7 @@ cname:
   - name: "plum"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
-    shutter: false
+    shutter_v2: false
   - name: "www.plum"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
@@ -95,15 +117,9 @@ cname:
   - name: "plum.uksouth"
     ttl: 3600
     record: "firewall-sbox.uksouth.cloudapp.azure.com"
-  - name: "cdnverify.plum"
-    ttl: 300
-    record: "cdnverify.hmcts-plum-shutter-sbox.azureedge.net"
   - name: "afdverify.idam-web-public"
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
-  - name: "cdnverify.idam-web-public"
-    ttl: 300
-    record: "cdnverify.hmcts-idam-web-public-shutter-sbox.azureedge.net"
   - name: "idam-web-public"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
@@ -111,9 +127,6 @@ cname:
   - name: "afdverify.idam-web-public-sprod"
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
-  - name: "cdnverify.idam-web-public-sprod"
-    ttl: 300
-    record: "cdnverify.hmcts-idam-web-public-sprod-shutter-sbox.azureedge.net"
   - name: "idam-web-public-sprod"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
@@ -121,9 +134,6 @@ cname:
   - name: "afdverify.idam-web-admin"
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
-  - name: "cdnverify.idam-web-admin"
-    ttl: 300
-    record: "cdnverify.hmcts-idam-web-admin-shutter-sbox.azureedge.net"
   - name: "idam-web-admin"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
@@ -131,9 +141,6 @@ cname:
   - name: "afdverify.idam-user-dashboard"
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
-  - name: "cdnverify.idam-user-dashboard"
-    ttl: 300
-    record: "cdnverify.hmcts-idam-user-dashboard-shutter-sbox.azureedge.net"
   - name: "idam-user-dashboard"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
@@ -141,9 +148,6 @@ cname:
   - name: "afdverify.hmcts-access"
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
-  - name: "cdnverify.hmcts-access"
-    ttl: 300
-    record: "cdnverify.hmcts-hmcts-access-shutter-sbox.azureedge.net"
   - name: "hmcts-access"
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
@@ -155,25 +159,25 @@ cname:
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
     shutter: false
-  - name: "cdnverify.reformscan"
-    ttl: 300
-    record: "cdnverify.hmcts-reformscan-shutter-sbox.azureedge.net"
   - name: "toffee"
     ttl: 300
     record: "sdshmcts-sbox.azurefd.net"
+    shutter_v2: true
+
+  - name: "toffee2"
+    ttl: 300
+    record: "hmcts-test1-sbox-agcdg0bwcfa0gqdm.z01.azurefd.net"
+    shutter: false
+  - name: "toffee3"
+    ttl: 300
+    record: "sdshmcts-new-test-sbox-dab3b4ftaxf4fjbv.z01.azurefd.net"
     shutter: false
   - name: "afdverify.toffee"
     ttl: 3600
     record: "afdverify.sdshmcts-sbox.azurefd.net"
-  - name: "cdnverify.hmi-apim"
-    ttl: 300
-    record: "cdnverify.hmcts-hmi-apim-shutter-sbox.azureedge.net"
   - name: "_9af30f185640a6f0617d0d1ef8e9de95"
     ttl: 300
     record: "2135FD8EB464CCFADFCD6999525A52F0.230B7360D54C272A4FB658B45A962B2E.0d8f919297a24c7c5223.sectigo.com."
-  - name: "cdnverify.toffee"
-    ttl: 300
-    record: "cdnverify.hmcts-toffee-shutter-sbox.azureedge.net"
   - name: "afdverify.cft-api-mgmt"
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
@@ -194,12 +198,6 @@ cname:
   - name: "afdverify.labs-zcwalkthrough-nodejs"
     ttl: 3600
     record: "afdverify.hmcts-sbox.azurefd.net"
-  - name: "cdnverify.cft-api-mgmt"
-    ttl: 300
-    record: "cdnverify.hmcts-cft-api-mgmt-shutter-sbox.azureedge.net"
-  - name: "cdnverify.labs-zcwalkthrough-nodejs"
-    ttl: 300
-    record: "cdnverify.hmcts-labs-zcwalkthrough-nodejs-shutter-sbox.azureedge.net"
   - name: "afdverify.labs-louisehuyton-walkthrough"
     ttl: 300
     record: "afdverify.hmcts-sbox.azurefd.net"
@@ -207,9 +205,6 @@ cname:
     ttl: 300
     record: "hmcts-sbox.azurefd.net"
     shutter: false
-  - name: "cdnverify.labs-louisehuyton-walkthrough"
-    ttl: 300
-    record: "cdnverify.hmcts-labs-louisehuyton-walkthrough-shutter-sbox.azureedge.net"
   - name: vh-video-web
     record: sdshmcts-sbox.azurefd.net
     ttl: 300
@@ -244,6 +239,18 @@ cname:
   - name: "darts-portal"
     ttl: 300
     record: "sdshmcts-sbox.azurefd.net"
+  - name: "labs-rhodrif-nodejs"
+    ttl: 300
+    record: "hmcts-sbox.azurefd.net"
+  - name: "afdverify.labs-rhodrif-nodejs"
+    ttl: 3600
+    record: "afdverify.hmcts-sbox.azurefd.net"
+  - name: "selector1-azurecomm-prod-net._domainkey"
+    ttl: 3600
+    record: "selector1-azurecomm-prod-net._domainkey.azurecomm.net"
+  - name: "selector2-azurecomm-prod-net._domainkey"
+    ttl: 3600
+    record: "selector2-azurecomm-prod-net._domainkey.azurecomm.net"
   - name: "pre-portal"
     ttl: 300
     record: "sdshmcts-sbox.azurefd.net"

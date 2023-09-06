@@ -14,6 +14,3 @@ cname:
   - name: "afdverify"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify"
-    ttl: 3600
-    record: "cdnverify.hmcts-hmcts-access-shutter-prod.azureedge.net"

@@ -323,3 +323,9 @@ cname:
   - name: "dss-update-case"
     ttl: 300
     record: "hmcts-aat.azurefd.net"
+  - name: "afdverify.cui-ra"
+    ttl: 300
+    record: "afdverify.hmcts-aat.azurefd.net"
+  - name: "cui-ra"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"

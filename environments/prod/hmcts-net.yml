@@ -209,7 +209,7 @@ A:
   - name: tools
     ttl: 600
     record:
-      - 51.104.17.168
+      - 20.108.186.180
   - name: tools.prp
     ttl: 600
     record:

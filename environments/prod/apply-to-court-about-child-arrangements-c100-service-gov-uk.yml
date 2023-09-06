@@ -10,9 +10,6 @@ cname:
   - name: "afdverify.www"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.www"
-    ttl: 300
-    record: "cdnverify.hmcts-apply-to-court-about-child-arrangements-c1.azureedge.net"
   - name: "www"
     ttl: 120
     record: "hmcts-apply-to-court-about-child-arrangements-c1.azureedge.net"

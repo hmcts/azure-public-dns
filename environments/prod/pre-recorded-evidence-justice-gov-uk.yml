@@ -45,6 +45,3 @@ cname:
   - name: "afdverify.portal"
     ttl: 300
     record: "afdverify.sdshmcts-prod.azurefd.net"
-  - name: "cdnverify.portal"
-    ttl: 300
-    record: "cdnverify.sdshmcts-portal-shutter-prod.azureedge.net"
