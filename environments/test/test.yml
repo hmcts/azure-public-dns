@@ -76,3 +76,10 @@ cname:
   - name: "sptribs-frontend"
     ttl: 300
     record: "hmcts-test.azurefd.net"
+  - name: "pre-portal"
+    ttl: 300
+    record: "sdshmcts-test.azurefd.net"
+    shutter: false
+  - name: "afdverify.pre-portal"
+    ttl: 3600
+    record: "afdverify.sdshmcts-test.azurefd.net"
