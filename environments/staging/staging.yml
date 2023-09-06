@@ -104,3 +104,10 @@ cname:
   - name: "afdverify.darts-portal"
     ttl: 3600
     record: "afdverify.sdshmcts-stg.azurefd.net"
+  - name: "pre-portal"
+    ttl: 300
+    record: "sdshmcts-stg.azurefd.net"
+    shutter: false
+  - name: "afdverify.pre-portal"
+    ttl: 3600
+    record: "afdverify.sdshmcts-stg.azurefd.net"
