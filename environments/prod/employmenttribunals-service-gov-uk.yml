@@ -2,11 +2,7 @@ ns: []
 
 mx: []
 
-A:
-  - name: "@"
-    ttl: 60
-    alias_target_resource_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/resourceGroups/lz-prod-rg/providers/Microsoft.Network/frontdoors/hmcts-prod"
-    shutter: false
+A: []
 
 txt: []
 
