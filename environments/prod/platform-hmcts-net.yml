@@ -604,3 +604,12 @@ cname:
   - name: "afdverify.sandbox-build"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
+
+  # PRE
+  - name: "pre-portal"
+    ttl: 300
+    record: "sdshmcts-prod.azurefd.net"
+    shutter: false
+  - name: "afdverify.pre-portal"
+    ttl: 300
+    record: "afdverify.sdshmcts-prod.azurefd.net"
