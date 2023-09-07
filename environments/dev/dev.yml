@@ -34,6 +34,10 @@ txt:
     ttl: 3600
     record:
       - "MS=ms74851057"
+  - name: "asuid.help-with-fees"
+    ttl: 3600
+    record:
+      - "ABF985515CE7017CB81683BA683A172F83116EB29083812B5D1C3ED49F13C50D"
 
 
 srv: []
@@ -113,3 +117,6 @@ cname:
   - name: "afdverify.pre-portal"
     ttl: 3600
     record: "afdverify.sdshmcts-dev.azurefd.net"
+  - name: "help-with-fees"
+    ttl: 3600
+    record: "poc.icyplant-b7386997.uksouth.azurecontainerapps.io"
