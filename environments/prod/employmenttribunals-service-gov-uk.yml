@@ -19,3 +19,11 @@ cname:
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
     shutter: false
+  - name: "admin"
+    ttl: 60
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
+  - name: "afdverify.admin"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+    shutter: false
