@@ -38,6 +38,10 @@ txt:
     ttl: 3600
     record:
       - "ABF985515CE7017CB81683BA683A172F83116EB29083812B5D1C3ED49F13C50D"
+  - name: "asuid.staff.help-with-fees"
+    ttl: 3600
+    record:
+      - "ABF985515CE7017CB81683BA683A172F83116EB29083812B5D1C3ED49F13C50D"
 
 
 srv: []
@@ -119,4 +123,7 @@ cname:
     record: "afdverify.sdshmcts-dev.azurefd.net"
   - name: "help-with-fees"
     ttl: 3600
-    record: "poc.icyplant-b7386997.uksouth.azurecontainerapps.io"
+    record: "hwf-public-dev.nicemushroom-6841cfc0.uksouth.azurecontainerapps.io"
+  - name: "staff.help-with-fees"
+    ttl: 3600
+    record: "hwf-staff-ext-dev.nicemushroom-6841cfc0.uksouth.azurecontainerapps.io"
