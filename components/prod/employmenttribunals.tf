@@ -5,6 +5,8 @@ data "local_file" "et-pet-config" {
 module "employment-tribunals" {
   source              = "../../modules/azure-public-dns/"
   cname_records       = yamldecode(data.local_file.et-pet-config.content).cname
+  txt_recordsets      = yamldecode(data.local_file.et-pet-config.content).txt
+  a_recordsets        = yamldecode(data.local_file.et-pet-config.content).A
   zone_name           = "employmenttribunals.service.gov.uk"
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
