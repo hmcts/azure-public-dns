@@ -166,7 +166,7 @@ cname:
 
   - name: "toffee2"
     ttl: 300
-    record: "hmcts-test1-sbox-agcdg0bwcfa0gqdm.z01.azurefd.net"
+    record: "sdshmcts-new-test-sbox-dab3b4ftaxf4fjbv.z01.azurefd.net"
     shutter: false
   - name: "toffee3"
     ttl: 300
