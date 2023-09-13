@@ -475,3 +475,15 @@ cname:
   - name: "afdverify.pre-portal"
     ttl: 3600
     record: "afdverify.sdshmcts-demo.azurefd.net"
+  - name: "et-pet-admin"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+    shutter: false
+  - name: "et-pet-et1"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+    shutter: false
+  - name: "et-pet-et3"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+    shutter: false
