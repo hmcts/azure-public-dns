@@ -329,3 +329,12 @@ cname:
   - name: "cui-ra"
     ttl: 300
     record: "hmcts-aat.azurefd.net"
+  - name: "et-pet-et1"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
+  - name: "et-pet-et3"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
+  - name: "et-pet-admin"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
