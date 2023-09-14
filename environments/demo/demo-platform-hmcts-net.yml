@@ -487,3 +487,7 @@ cname:
     ttl: 300
     record: "hmcts-demo.azurefd.net"
     shutter: false
+  - name: "tax-tribunals-datacapture"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+    shutter: false

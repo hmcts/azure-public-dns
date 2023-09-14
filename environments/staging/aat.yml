@@ -338,3 +338,6 @@ cname:
   - name: "et-pet-admin"
     ttl: 300
     record: "hmcts-aat.azurefd.net"
+  - name: "tax-tribunals-datacapture"
+    ttl: 300
+    record: "hmcts-aat.azurefd.net"
