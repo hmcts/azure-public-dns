@@ -475,6 +475,13 @@ cname:
   - name: "afdverify.pre-portal"
     ttl: 3600
     record: "afdverify.sdshmcts-demo.azurefd.net"
+  - name: "pre-api"
+    ttl: 300
+    record: "sdshmcts-demo.azurefd.net"
+    shutter: false
+  - name: "afdverify.pre-api"
+    ttl: 3600
+    record: "afdverify.sdshmcts-demo.azurefd.net"
   - name: "et-pet-admin"
     ttl: 300
     record: "hmcts-demo.azurefd.net"

@@ -119,6 +119,13 @@ cname:
   - name: "afdverify.pre-portal"
     ttl: 3600
     record: "afdverify.sdshmcts-stg.azurefd.net"
+  - name: "pre-api"
+    ttl: 300
+    record: "sdshmcts-stg.azurefd.net"
+    shutter: false
+  - name: "afdverify.pre-api"
+    ttl: 3600
+    record: "afdverify.sdshmcts-stg.azurefd.net"
   - name: "help-with-fees"
     ttl: 3600
     record: "hwf-public-stg.niceglacier-a3f52750.uksouth.azurecontainerapps.io"

@@ -257,6 +257,12 @@ cname:
   - name: "afdverify.pre-portal"
     ttl: 300
     record: "afdverify.sdshmcts-sbox.azurefd.net"
+  - name: "pre-api"
+    ttl: 300
+    record: "sdshmcts-sbox.azurefd.net"
+  - name: "afdverify.pre-api"
+    ttl: 300
+    record: "afdverify.sdshmcts-sbox.azurefd.net"
   - name: "pip-frontend"
     ttl: 300
     record: "sdshmcts-sbox.azurefd.net"

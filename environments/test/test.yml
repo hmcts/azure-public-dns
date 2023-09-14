@@ -83,3 +83,10 @@ cname:
   - name: "afdverify.pre-portal"
     ttl: 3600
     record: "afdverify.sdshmcts-test.azurefd.net"
+  - name: "pre-api"
+    ttl: 300
+    record: "sdshmcts-test.azurefd.net"
+    shutter: false
+  - name: "afdverify.pre-api"
+    ttl: 3600
+    record: "afdverify.sdshmcts-test.azurefd.net"
