@@ -39,12 +39,9 @@ cname:
   - name: "em4285"
     ttl: 300
     record: "u22046801.wl052.sendgrid.net"
-    shutter: false
   - name: "s1._domainkey"
     ttl: 300
     record: "s1.domainkey.u22046801.wl052.sendgrid.net"
-    shutter: false
   - name: "s2._domainkey"
     ttl: 300
     record: "s2.domainkey.u22046801.wl052.sendgrid.net"
-    shutter: false
