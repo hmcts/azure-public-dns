@@ -36,3 +36,12 @@ cname:
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
     shutter: false
+  - name: "em4285"
+    ttl: 300
+    record: "u22046801.wl052.sendgrid.net"
+  - name: "s1._domainkey"
+    ttl: 300
+    record: "s1.domainkey.u22046801.wl052.sendgrid.net"
+  - name: "s2._domainkey"
+    ttl: 300
+    record: "s2.domainkey.u22046801.wl052.sendgrid.net"
