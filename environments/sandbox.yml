@@ -168,6 +168,10 @@ cname:
     ttl: 300
     record: "sdshmcts-new-test-sbox-dab3b4ftaxf4fjbv.z01.azurefd.net"
     shutter: false
+  - name: "toffee4"
+    ttl: 300
+    record: "sdshmcts-test1-sbox.azurefd.net"
+    shutter: false
   - name: "toffee3"
     ttl: 300
     record: "sdshmcts-new-test-sbox-dab3b4ftaxf4fjbv.z01.azurefd.net"
