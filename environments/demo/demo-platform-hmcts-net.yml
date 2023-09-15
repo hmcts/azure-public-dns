@@ -491,3 +491,11 @@ cname:
     ttl: 300
     record: "hmcts-demo.azurefd.net"
     shutter: false
+  - name: "hwf-publicapp"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+    shutter: false
+  - name: "hwf-staffapp"
+    ttl: 300
+    record: "hmcts-demo.azurefd.net"
+    shutter: false
