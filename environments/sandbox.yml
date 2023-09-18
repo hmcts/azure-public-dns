@@ -260,3 +260,7 @@ cname:
   - name: "pip-frontend"
     ttl: 300
     record: "sdshmcts-sbox.azurefd.net"
+  - name: "plumclassic"
+    ttl: 300
+    record: "cnphmcts-classic-sbox.azurefd.net"
+    shutter: false
