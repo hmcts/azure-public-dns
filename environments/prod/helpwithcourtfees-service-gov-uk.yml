@@ -6,10 +6,8 @@ A:
   - name: "@"
     ttl: 60
     #alias_target_resource_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/resourceGroups/cft-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/staticSites/hwf-pet"
-    #alias_target_resource_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/resourceGroups/lz-prod-rg/providers/Microsoft.Network/frontdoors/hmcts-prod"
-    record:
-      - "51.11.62.203"
-    shutter: false
+    alias_target_resource_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/resourceGroups/lz-prod-rg/providers/Microsoft.Network/frontdoors/hmcts-prod"
+    shutter: true
 
 txt:
   - name: "asuid"
@@ -33,8 +31,8 @@ cname:
     shutter: false
   - name: "staff"
     ttl: 60
-    record: "hwf-staff-ext-prod.wonderfulmushroom-1f9e43ec.uksouth.azurecontainerapps.io"
-    shutter: false
+    record: "hmcts-prod.azurefd.net"
+    shutter: true
   - name: "afdverify.staff"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
