@@ -163,23 +163,6 @@ cname:
     ttl: 300
     record: "sdshmcts-sbox.azurefd.net"
     shutter_v2: true
-
-  - name: "toffee2"
-    ttl: 300
-    record: "sdshmcts-new-test-sbox-dab3b4ftaxf4fjbv.z01.azurefd.net"
-    shutter: false
-  - name: "toffee3"
-    ttl: 300
-    record: "sdshmcts-new-test-sbox-dab3b4ftaxf4fjbv.z01.azurefd.net"
-    shutter: false
-  - name: "toffee4"
-    ttl: 300
-    record: "sdshmcts-test1-sbox.azurefd.net"
-    shutter: false
-  - name: "toffee5"
-    ttl: 300
-    record: "sdshmcts-test2-sbox.azurefd.net"
-    shutter: false
   - name: "afdverify.toffee"
     ttl: 3600
     record: "afdverify.sdshmcts-sbox.azurefd.net"
