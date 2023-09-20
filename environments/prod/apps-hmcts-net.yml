@@ -15,4 +15,9 @@ cname:
   - name: "cman"
     ttl: 300
     record: "hmcts-live-int.azurefd.net"
-
+  - name: "crimeportal"
+    ttl: 300
+    record: "hmcts-live-int.azurefd.net"
+  - name: "crimeportal-nle"
+    ttl: 300
+    record: "hmcts-nle-int.azurefd.net"
