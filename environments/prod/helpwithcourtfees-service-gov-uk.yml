@@ -32,7 +32,7 @@ cname:
   - name: "staff"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "afdverify.staff"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
