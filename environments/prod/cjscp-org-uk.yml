@@ -399,15 +399,6 @@ cname:
   - name: _AAC99EB4E708B2A9E6D8FC2E7189D108.prd
     ttl: 600
     record: 459DE8956C5462F8437492853747EB8D.37B2C7D665937C9386C5D1F5868CA60F.f2e58f21abe575fab678.sectigo.com.
-  - name: em8536
-    ttl: 600
-    record: u16040309.wl060.sendgrid.net
-  - name: s1._domainkey
-    ttl: 600
-    record: s1.domainkey.u16040309.wl060.sendgrid.net
-  - name: s2._domainkey
-    ttl: 600
-    record: s2.domainkey.u16040309.wl060.sendgrid.net
   - name: em2687.bae
     ttl: 600
     record: u16040309.wl060.sendgrid.net
@@ -432,3 +423,12 @@ cname:
   - name: _497177860BD0CDB7D7F508BBAB2476E0.prosecuting.dev
     ttl: 10800
     record: 2B6A1C0D2808548BC62A57BEC21B2175.A9C4230AFAC34ABB2A34993920BB2440.9bc60a0de7e72d8ee211.sectigo.com.
+  - name: em3537
+    ttl: 600
+    record: u10165397.wl148.sendgrid.net
+  - name: s1._domainkey
+    ttl: 600
+    record: s1.domainkey.u10165397.wl148.sendgrid.net
+  - name: s2._domainkey
+    ttl: 600
+    record: s2.domainkey.u10165397.wl148.sendgrid.net
