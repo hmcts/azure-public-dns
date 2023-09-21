@@ -6,12 +6,12 @@ A:
   - name: "cft-api-mgmt-appgw"
     ttl: 300
     record:
-      - "20.108.94.100"
+      - "20.26.57.242"
 
   - name: "cft-mtls-api-mgmt-appgw"
     ttl: 300
     record:
-      - "20.108.94.100"
+      - "20.26.57.242"
 
 txt: []
 
