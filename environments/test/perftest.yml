@@ -2,7 +2,16 @@ ns: []
 
 mx: []
 
-A: []
+A: 
+  - name: "cft-api-mgmt-appgw"
+    ttl: 300
+    record:
+      - "20.108.94.100"
+
+  - name: "cft-mtls-api-mgmt-appgw"
+    ttl: 300
+    record:
+      - "20.108.94.100"
 
 txt: []
 
