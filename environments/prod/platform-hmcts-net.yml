@@ -471,6 +471,9 @@ cname:
   - name: "crimeportal"
     ttl: 300
     record: "firewall-prod-int-palo-crimeportal.uksouth.cloudapp.azure.com"
+  - name: "glimr"
+    ttl: 300
+    record: "firewall-prod-int-palo-glimr.uksouth.cloudapp.azure.com"
 
 #### Video Hearings
   - name: "_DEFCA9944606874FF3B5E0E653FF9825"
