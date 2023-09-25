@@ -9,5 +9,5 @@ module "prod-internal" {
   ns_recordsets       = yamldecode(data.local_file.frontdoor-sbox-hmcts-config.content).ns
   zone_name           = "frontdoor.sandbox.hmcts.net"
   resource_group_name = data.azurerm_resource_group.main.name
-  env                 = var.env
+  env                 = "sbox"
 }
