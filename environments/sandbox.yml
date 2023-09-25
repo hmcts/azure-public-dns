@@ -1,4 +1,11 @@
-ns: []
+ns:
+  - name: "frontdoor"
+    ttl: 900
+    record:
+      - "ns1-33.azure-dns.com."
+      - "ns2-33.azure-dns.net."
+      - "ns3-33.azure-dns.org."
+      - "ns4-33.azure-dns.info."
 
 srv: []
 
