@@ -11,4 +11,7 @@ A:
 
 txt: []
 
-cname: []
+cname:
+  - name: "afdverify"
+    ttl: 3600
+    record: "afdverify.hmcts-sbox.azurefd.net"
