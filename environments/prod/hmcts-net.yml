@@ -213,7 +213,7 @@ A:
   - name: tools.prp
     ttl: 600
     record:
-      - 51.132.220.208
+      - 4.234.211.95
 
 txt:
   - name: '@'
