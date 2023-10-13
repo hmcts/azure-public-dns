@@ -55,10 +55,10 @@ srv: []
 cname:
   - name: "afdverify.hmi-apim"
     ttl: 3000
-    record: "afdverify.hmcts-preview.azurefd.net"
+    record: "afdverify.hmcts-preview-fkhfehdgahcrhbds.z01.azurefd.net"
   - name: "hmi-apim"
     ttl: 3000
-    record: "hmcts-preview.azurefd.net"
+    record: "hmcts-preview-fkhfehdgahcrhbds.z01.azurefd.net"
   - name: "toffee"
     ttl: 300
     record: "sdshmcts-dev.azurefd.net"

@@ -20,193 +20,193 @@ srv: []
 cname:
   - name: "afdverify.benefit-appeal"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "benefit-appeal"
     ttl: 3600
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.sscs-cor"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "sscs-cor"
     ttl: 3600
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "reformscan"
     ttl: 60
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.reformscan"
     ttl: 60
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.civil-citizen-ui"
     ttl: 300
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "civil-citizen-ui"
     ttl: 300
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.moneyclaims"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "moneyclaims"
     ttl: 300
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.moneyclaims-legal"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "moneyclaims-legal"
     ttl: 300
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.gateway-ccd"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.return-case-doc-ccd"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "gateway-ccd"
     ttl: 3600
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "return-case-doc-ccd"
     ttl: 3600
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.idam-web-public"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "idam-web-public"
     ttl: 3600
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.probate"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "probate"
     ttl: 3600
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.pcq"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "pcq"
     ttl: 3600
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.lau"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "lau"
     ttl: 3600
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.bar"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "bar"
     ttl: 300
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.paybubble"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "paybubble"
     ttl: 300
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.fees-register"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "fees-register"
     ttl: 3600
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.fees-register-dom1"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "fees-register-dom1"
     ttl: 3600
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.manage-case"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "manage-case"
     ttl: 3600
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.manage-org"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "manage-org"
     ttl: 3600
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.administer-orgs"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "administer-orgs"
     ttl: 3600
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.register-org"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "register-org"
     ttl: 3600
-    record: "hmcts-perftest.azurefd.net"  
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"  
   - name: "afdverify.idam-web-admin"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "idam-web-admin"
     ttl: 3600
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.idam-user-dashboard"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "idam-user-dashboard"
     ttl: 3600
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.hmcts-access"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "hmcts-access"
     ttl: 3600
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "fact"
     ttl: 300
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.fact"
     ttl: 300
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "fact-admin"
     ttl: 300
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.fact-admin"
     ttl: 300
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "rpts"
     ttl: 300
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.rpts"
     ttl: 300
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "nfdiv"
     ttl: 300
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "nfdiv-apply-for-divorce"
     ttl: 300
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "nfdiv-end-civil-partnership"
     ttl: 300
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "decree-absolute-aks"
     ttl: 3600
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "decree-nisi-aks"
     ttl: 3600
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "petitioner-frontend-aks"
     ttl: 3600
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "respond-divorce-aks"
     ttl: 3600
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.immigration-appeal"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "immigration-appeal"
     ttl: 3600
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.cft-api-mgmt"
     ttl: 300
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "cft-api-mgmt"
     ttl: 300
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "_1b8b380f5b498882531eade6c02400cd"
     ttl: 3600
     record: "F9A67113DE1A34EE3AB88C964719B045.D0CB73465718E425F308BE76B7946D22.b49fdab097253cac48e3.comodoca.com."
@@ -221,45 +221,45 @@ cname:
     record: "s2.domainkey.u24999805.wl056.sendgrid.net"
   - name: "afdverify.adoption-web"
     ttl: 300
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "adoption-web"
     ttl: 300
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "paymentoutcome-web"
     ttl: 300
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "www.paymentoutcome-web"
     ttl: 300
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.plum"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "plum"
     ttl: 300
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.privatelaw"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "privatelaw"
     ttl: 300
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.et-sya.perftest"
     ttl: 300
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "et-sya"
     ttl: 300
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.dss-update-case"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "dss-update-case"
     ttl: 300
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.sptribs-frontend"
     ttl: 3600
-    record: "afdverify.hmcts-perftest.azurefd.net"
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "sptribs-frontend"
     ttl: 300
-    record: "hmcts-perftest.azurefd.net"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
 
 
