@@ -30,226 +30,226 @@ cname:
     record: "C648764CDB3F90B8D135D9335993A767.ABBA811E0AD75A1ABB2EB5C0CDCD5B0F.wiRpxFcZvwUNTJeY5mtL.comodoca.com"
   - name: "reformscan"
     ttl: 60
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.reformscan"
     ttl: 60
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "reformscanstg"
     ttl: 60
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.reformscanstg"
     ttl: 60
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "decree-absolute-aks"
     ttl: 3600
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "decree-nisi-aks"
     ttl: 3600
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "gateway-ccd"
     ttl: 900
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.pet-app1"
     ttl: 60
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "petitioner-frontend-aks"
     ttl: 3600
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "respond-divorce-aks"
     ttl: 3600
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.benefit-appeal"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "benefit-appeal"
     ttl: 3600
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.sscs-cor"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "sscs-cor"
     ttl: 3600
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.track-appeal"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "track-appeal"
     ttl: 3600
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.manage-case"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "manage-case"
     ttl: 3600
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.manage-org"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "manage-org"
     ttl: 3600
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.administer-orgs"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "administer-orgs"
     ttl: 3600
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.register-org"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "register-org"
     ttl: 3600
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.moneyclaims"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "moneyclaims"
     ttl: 3600
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.moneyclaims-legal"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "moneyclaims-legal"
     ttl: 3600
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.civil-citizen-ui"
     ttl: 300
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "civil-citizen-ui"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.gateway-ccd"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.return-case-doc-ccd"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "return-case-doc-ccd"
     ttl: 3600
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.pcq"
     ttl: 300
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "pcq"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.lau"
     ttl: 300
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "lau"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.judicial-payments"
     ttl: 300
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "judicial-payments"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.adoption-web"
     ttl: 300
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "adoption-web"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.fact"
     ttl: 300
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "fact"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.fact-admin"
     ttl: 300
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "fact-admin"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.rpts"
     ttl: 300
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "rpts"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.nfdiv"
     ttl: 300
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "nfdiv"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.nfdiv-apply-for-divorce"
     ttl: 300
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "nfdiv-apply-for-divorce"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.nfdiv-end-civil-partnership"
     ttl: 300
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "nfdiv-end-civil-partnership"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.et-sya"
     ttl: 300
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "et-sya"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.wa-proto-frontend"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "wa-proto-frontend"
     ttl: 3600
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.immigration-appeal"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "immigration-appeal"
     ttl: 3600
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.idam-web-public"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "idam-web-public"
     ttl: 3600
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.probate"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "probate"
     ttl: 3600
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.bar"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "bar"
     ttl: 3600
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.paybubble"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.fees-register"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "fees-register"
     ttl: 3600
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.idam-web-admin"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "idam-web-admin"
     ttl: 3600
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.idam-user-dashboard"
     ttl: 300
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "idam-user-dashboard"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.hmcts-access"
     ttl: 300
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "hmcts-access"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "_4c2aa3cf7820ad559328554b0084d4af"
     ttl: 300
     record: "A8DE39B21BE7C0E63C7D0233E683637A.205D792E60EE2E5C66131C38BCD98C87.aad64398a969ec318680.comodoca.com."
@@ -264,86 +264,86 @@ cname:
     record: "s2.domainkey.u24999805.wl056.sendgrid.net"
   - name: "afdverify.cft-api-mgmt"
     ttl: 300
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "cft-api-mgmt"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.ds-ui"
     ttl: 300
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "ds-ui"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "paymentoutcome-web"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "www.paymentoutcome-web"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.fis-ds-web"
     ttl: 300
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "fis-ds-web"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.fis-ds-update-web"
     ttl: 300
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "fis-ds-update-web"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.sptribs-frontend"
     ttl: 300
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "sptribs-frontend"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.privatelaw"
     ttl: 300
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "privatelaw"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "plum"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
     shutter: false
   - name: "afdverify.plum"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.em-icp"
     ttl: 300
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "em-icp"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.dss-update-case"
     ttl: 300
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "dss-update-case"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.cui-ra"
     ttl: 300
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "cui-ra"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "et-pet-et1"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "et-pet-et3"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "et-pet-admin"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "tax-tribunals-datacapture"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "hwf-publicapp"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "hwf-staffapp"
     ttl: 300
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
