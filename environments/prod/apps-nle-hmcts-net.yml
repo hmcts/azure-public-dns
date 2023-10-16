@@ -52,3 +52,6 @@ cname:
   - name: "testclaim-pcol"
     ttl: 300
     record: "hmcts-nle-ext.azurefd.net"
+  - name: "crimeportal"
+    ttl: 300
+    record: "hmcts-nle-int.azurefd.net"
