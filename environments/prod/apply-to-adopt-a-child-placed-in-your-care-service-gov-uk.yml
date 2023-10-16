@@ -1,0 +1,15 @@
+ns: []
+
+mx: []
+
+A: []
+
+txt: []
+
+cname:
+  - name: "afdverify.child-adoption"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "child-adoption"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
