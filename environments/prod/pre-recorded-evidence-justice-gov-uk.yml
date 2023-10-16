@@ -17,10 +17,10 @@ cname:
   #   record: "afdverify.sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
   - name: "portal-dev"
     ttl: 300
-    record: "sdshmcts-dev.azurefd.net"
+    record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
   - name: "afdverify.portal-dev"
     ttl: 300
-    record: "afdverify.sdshmcts-dev.azurefd.net"
+    record: "afdverify.sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
   - name: "portal-test"
     ttl: 300
     record: "sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net"
