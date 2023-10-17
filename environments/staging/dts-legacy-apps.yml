@@ -8,4 +8,7 @@ A:
     alias_target_resource_id: "/subscriptions/74dacd4f-a248-45bb-a2f0-af700dc4cf68/resourcegroups/lz-stg-rg/providers/Microsoft.Cdn/profiles/sdshmcts-stg/afdendpoints/sdshmcts-stg"
 txt: []
 
-cname: []
+cname:
+  - name: "afdverify"
+    ttl: 3600
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
