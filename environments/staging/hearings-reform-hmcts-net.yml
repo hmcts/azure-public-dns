@@ -11,25 +11,25 @@ srv: []
 cname:
   - name: video
     ttl: 300
-    record: "sdshmcts-stg.azurefd.net"
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
     shutter: false
   - name: "afdverify.video"
     ttl: 300
-    record: "afdverify.sdshmcts-stg.azurefd.net"
+    record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
   - name: admin
     ttl: 300
-    record: "sdshmcts-stg.azurefd.net"
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
     shutter: false
   - name: "afdverify.admin"
     ttl: 300
-    record: "afdverify.sdshmcts-stg.azurefd.net"
+    record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
   - name: test
     ttl: 300
-    record: "sdshmcts-stg.azurefd.net"
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
     shutter: false
   - name: "afdverify.test"
     ttl: 300
-    record: "afdverify.sdshmcts-stg.azurefd.net"
+    record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
   - name: "signalr"
     ttl: 300
     record: "vh-infra-core-stg.service.signalr.net"

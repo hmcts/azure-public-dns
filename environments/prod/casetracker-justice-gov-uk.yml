@@ -18,7 +18,7 @@ cname:
     record: "afdverify.sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
   - name: "staging"
     ttl: 3000
-    record: "sdshmcts-stg.azurefd.net"
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
   - name: "afdverify.staging"
     ttl: 3000
-    record: "afdverify.sdshmcts-stg.azurefd.net"
+    record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"

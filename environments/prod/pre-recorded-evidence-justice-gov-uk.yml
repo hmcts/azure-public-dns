@@ -35,10 +35,10 @@ cname:
     record: "afdverify.sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
   - name: "portal-stg"
     ttl: 300
-    record: "sdshmcts-stg.azurefd.net"
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
   - name: "afdverify.portal-stg"
     ttl: 300
-    record: "afdverify.sdshmcts-stg.azurefd.net"
+    record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
   - name: "portal"
     ttl: 300
     record: "sdshmcts-prod.azurefd.net"
