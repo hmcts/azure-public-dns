@@ -61,45 +61,45 @@ cname:
     record: "hmcts-preview-fkhfehdgahcrhbds.z01.azurefd.net"
   - name: "toffee"
     ttl: 300
-    record: "sdshmcts-dev.azurefd.net"
+    record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
     shutter: false
   - name: "afdverify.toffee"
     ttl: 3600
-    record: "afdverify.sdshmcts-dev.azurefd.net"
+    record: "afdverify.sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
   - name: "jdbureau"
     ttl: 300
-    record: "sdshmcts-dev.azurefd.net"
+    record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
     shutter: false
   - name: "afdverify.jdbureau"
     ttl: 3600
-    record: "afdverify.sdshmcts-dev.azurefd.net"
+    record: "afdverify.sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
   - name: "jdfrontend"
     ttl: 300
-    record: "sdshmcts-dev.azurefd.net"
+    record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
     shutter: false
   - name: "afdverify.jdfrontend"
     ttl: 3600
-    record: "afdverify.sdshmcts-dev.azurefd.net"
+    record: "afdverify.sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
   - name: sds-api-mgmt
-    record: sdshmcts-dev.azurefd.net
+    record: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
     ttl: 300
   - name: "afdverify.sds-api-mgmt"
     ttl: 300
     record: "afdverify.hmcts-dev.azurefd.net"
   - name: vh-video-web
-    record: sdshmcts-dev.azurefd.net
+    record: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
     ttl: 300
   - name: "afdverify.vh-video-web"
     ttl: 300
     record: "afdverify.hmcts-dev.azurefd.net"
   - name: vh-admin-web
-    record: sdshmcts-dev.azurefd.net
+    record: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
     ttl: 300
   - name: "afdverify.vh-admin-web"
     ttl: 300
     record: "afdverify.hmcts-dev.azurefd.net"
   - name: vh-test-web
-    record: sdshmcts-dev.azurefd.net
+    record: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
     ttl: 300
   - name: "afdverify.vh-test-web"
     ttl: 300
@@ -111,21 +111,21 @@ cname:
     ttl: 300
     record: "vh-infra-wowza-dev.uksouth.cloudapp.azure.com"
   - name: vh-video-web-pr-2057 #TO DO: REMOVE AFTER TESTING
-    record: sdshmcts-dev.azurefd.net
+    record: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
     ttl: 300
   - name: "afdverify.darts-portal"
     ttl: 300
-    record: "afdverify.sdshmcts-dev.azurefd.net"
+    record: "afdverify.sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
   - name: "darts-portal"
     ttl: 300
-    record: "sdshmcts-dev.azurefd.net"
+    record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
   - name: "pre-portal"
     ttl: 300
-    record: "sdshmcts-dev.azurefd.net"
+    record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
     shutter: false
   - name: "afdverify.pre-portal"
     ttl: 3600
-    record: "afdverify.sdshmcts-dev.azurefd.net"
+    record: "afdverify.sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
   - name: "help-with-fees"
     ttl: 3600
     record: "hwf-public-dev.nicemushroom-6841cfc0.uksouth.azurecontainerapps.io"
