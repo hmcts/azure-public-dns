@@ -208,6 +208,18 @@ cname:
   - name: "afdverify.nfdiv"
     ttl: 300
     record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "afdverify.nfdiv-apply-for-divorce"
+    ttl: 300
+    record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "nfdiv-apply-for-divorce"
+    ttl: 300
+    record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "afdverify.nfdiv-end-civil-partnership"
+    ttl: 300
+    record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "nfdiv-end-civil-partnership"
+    ttl: 300
+    record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
   - name: "pcq"
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
