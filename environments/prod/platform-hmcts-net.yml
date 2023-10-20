@@ -134,10 +134,6 @@ A:
     ttl: 60
     record:
       - "20.58.23.145"
-  - name: "sds-sandbox-build"
-    ttl: 60
-    record:
-      - "51.104.212.71"
   - name: "static-sds-sandbox-build"
     ttl: 60
     record:
@@ -608,6 +604,12 @@ cname:
     ttl: 300
     record: "hmcts-prod.azurefd.net"
   - name: "afdverify.sandbox-build"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "sds-sandbox-build"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+  - name: "afdverify.sds-sandbox-build"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
 
