@@ -608,10 +608,10 @@ cname:
     record: "afdverify.hmcts-prod.azurefd.net"
   - name: "sds-sandbox-build"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "sdshmcts-prod.azurefd.net"
   - name: "afdverify.sds-sandbox-build"
     ttl: 3600
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.sdshmcts-prod.azurefd.net"
 
   # PRE
   - name: "pre-portal"
