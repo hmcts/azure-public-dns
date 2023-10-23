@@ -22,7 +22,15 @@ A:
     record:
       - "20.254.22.154"
 
-txt: []
+txt:
+  - name: "_dnsauth.nfdiv-apply-for-divorce.demo.platform.hmcts.net"
+    ttl: 3600
+    record:
+      - "087x4v56cpnqp2mll955tyf06yyq4v07"
+  - name: "_dnsauth.nfdiv-end-civil-partnership.demo.platform.hmcts.net"
+    ttl: 3600
+    record:
+      - "fclj2t768fjpc5pt88zwd8tc5s1cc48v"
 
 srv: []
 
