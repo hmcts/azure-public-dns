@@ -612,7 +612,12 @@ cname:
   - name: "afdverify.sds-sandbox-build"
     ttl: 3600
     record: "afdverify.sdshmcts-prod.azurefd.net"
-
+  - name: "static-sds-sandbox-build"
+    ttl: 300
+    record: "sdshmcts-prod.azurefd.net"
+  - name: "afdverify.static-sds-sandbox-build"
+    ttl: 3600
+    record: "afdverify.sdshmcts-prod.azurefd.net"
   # PRE
   - name: "pre-portal"
     ttl: 300
