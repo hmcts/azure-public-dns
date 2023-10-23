@@ -11,13 +11,13 @@ srv: []
 cname:
   - name: "afdverify.baisweb-stg"
     ttl: 300
-    record: "afdverify.hmcts-heritage-stg.azurefd.net"
+    record: "hmcts-heritage-stg-augbagbfeme3eqck.z01.azurefd.net" 
   - name: "baisweb-stg"
     ttl: 300
-    record: "hmcts-heritage-stg.azurefd.net"
+    record: "hmcts-heritage-stg-augbagbfeme3eqck.z01.azurefd.net"
   - name: "www.baisweb-stg"
     ttl: 300
-    record: "hmcts-heritage-stg.azurefd.net"
+    record: "hmcts-heritage-stg-augbagbfeme3eqck.z01.azurefd.net"
   - name: "baisweb"
     ttl: 300
     record: "hmcts-heritage-prod.azurefd.net"
@@ -26,10 +26,10 @@ cname:
     record: "hmcts-heritage-prod.azurefd.net"
   - name: "eruploadSTG.ext"
     ttl: 300
-    record: "hmcts-heritage-stg.azurefd.net"
+    record: "hmcts-heritage-stg-augbagbfeme3eqck.z01.azurefd.net"
   - name: "www.eruploadSTG.ext"
     ttl: 300
-    record: "hmcts-heritage-stg.azurefd.net"
+    record: "hmcts-heritage-stg-augbagbfeme3eqck.z01.azurefd.net"
   - name: "erupload.ext"
     ttl: 300
     record: "hmcts-heritage-prod.azurefd.net"
