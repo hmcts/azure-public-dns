@@ -580,6 +580,9 @@ cname:
   - name: "afdverify.response"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "build"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
   - name: "afdverify.build"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -619,9 +622,6 @@ cname:
   - name: "afdverify.static-sds-build"
     ttl: 3600
     record: "afdverify.sdshmcts-prod.azurefd.net"
-  - name: "build"
-    ttl: 300
-    record: "hmcts-prod.azurefd.net"
 
   # PRE
   - name: "pre-portal"
