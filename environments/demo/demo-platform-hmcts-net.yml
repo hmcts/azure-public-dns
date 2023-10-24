@@ -26,11 +26,11 @@ txt:
   - name: "_dnsauth.nfdiv-apply-for-divorce"
     ttl: 3600
     record:
-      - "087x4v56cpnqp2mll955tyf06yyq4v07"
+      - "03bnf96znrn70zrm2yc4s38w2ty97jyp"
   - name: "_dnsauth.nfdiv-end-civil-partnership"
     ttl: 3600
     record:
-      - "fclj2t768fjpc5pt88zwd8tc5s1cc48v"
+      - "8fyppglw4rvxy8w3zs8g8ry5pxnfwccr"
 
 srv: []
 
