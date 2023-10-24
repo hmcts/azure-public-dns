@@ -134,14 +134,6 @@ A:
     ttl: 60
     record:
       - "20.58.23.145"
-  - name: "sds-build"
-    ttl: 60
-    record:
-      - "13.87.65.228"
-  - name: "static-sds-build"
-    ttl: 60
-    record:
-      - "13.87.65.228"
   - name: "sftp"
     ttl: 300
     record:
