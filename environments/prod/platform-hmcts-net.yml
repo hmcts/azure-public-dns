@@ -134,14 +134,6 @@ A:
     ttl: 60
     record:
       - "20.58.23.145"
-  - name: "sds-build"
-    ttl: 60
-    record:
-      - "13.87.65.228"
-  - name: "static-sds-build"
-    ttl: 60
-    record:
-      - "13.87.65.228"
   - name: "sftp"
     ttl: 300
     record:
@@ -612,6 +604,18 @@ cname:
     ttl: 300
     record: "sdshmcts-prod.azurefd.net"
   - name: "afdverify.static-sds-sandbox-build"
+    ttl: 3600
+    record: "afdverify.sdshmcts-prod.azurefd.net"
+  - name: "sds-build"
+    ttl: 300
+    record: "sdshmcts-prod.azurefd.net"
+  - name: "afdverify.sds-build"
+    ttl: 3600
+    record: "afdverify.sdshmcts-prod.azurefd.net"
+  - name: "static-sds-build"
+    ttl: 300
+    record: "sdshmcts-prod.azurefd.net"
+  - name: "afdverify.static-sds-build"
     ttl: 3600
     record: "afdverify.sdshmcts-prod.azurefd.net"
   # PRE
