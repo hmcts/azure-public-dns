@@ -94,18 +94,10 @@ A:
     ttl: 900
     record:
       - "51.143.156.74"
-  - name: "build"
-    ttl: 60
-    record:
-      - "13.87.65.183"
   - name: "build-beta"
     ttl: 60
     record:
       - "13.87.65.183"
-  - name: "static-build"
-    ttl: 60
-    record:
-      - "13.87.65.183" 
   - name: "courts"
     ttl: 60
     record:
@@ -588,6 +580,18 @@ cname:
   - name: "afdverify.response"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "build"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+  - name: "afdverify.build"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "static-build"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+  - name: "afdverify.static-build"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
   - name: "sandbox-build"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
@@ -618,6 +622,7 @@ cname:
   - name: "afdverify.static-sds-build"
     ttl: 3600
     record: "afdverify.sdshmcts-prod.azurefd.net"
+
   # PRE
   - name: "pre-portal"
     ttl: 300
