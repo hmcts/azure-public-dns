@@ -266,3 +266,13 @@ cname:
     ttl: 300
     record: "cnphmcts-classic-sbox.azurefd.net"
     shutter: false
+  - name: "afdverify.labs-goldenpath-mfox"
+    ttl: 300
+    record: "afdverify.hmcts-sbox.azurefd.net"
+  - name: "labs-goldenpath-mfox"
+    ttl: 300
+    record: "hmcts-sbox.azurefd.net"
+    shutter: false
+  - name: "cdnverify.labs-goldenpath-mfox"
+    ttl: 300
+    record: "cdnverify.hmcts-labs-goldenpath-mfox-shutter-sbox.azureedge.net"
