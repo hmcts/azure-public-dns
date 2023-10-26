@@ -268,11 +268,8 @@ cname:
     shutter: false
   - name: "afdverify.labs-goldenpath-mfox"
     ttl: 300
-    record: "afdverify.hmcts-sbox.azurefd.net"
+    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: "labs-goldenpath-mfox"
     ttl: 300
-    record: "hmcts-sbox.azurefd.net"
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
     shutter: false
-  - name: "cdnverify.labs-goldenpath-mfox"
-    ttl: 300
-    record: "cdnverify.hmcts-labs-goldenpath-mfox-shutter-sbox.azureedge.net"
