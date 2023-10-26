@@ -31,6 +31,10 @@ txt:
     ttl: 3600
     record:
       - "8fyppglw4rvxy8w3zs8g8ry5pxnfwccr"
+  - name: "pip-frontend"
+    ttl: 300
+    record:
+      - "MS=ms11204835"
 
 srv: []
 
