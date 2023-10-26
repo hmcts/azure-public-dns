@@ -11,7 +11,7 @@ txt:
 cname:
   - name: "www"
     ttl: 60
-    record: "hmcts-appeal-immigration-asylum-decision-shutter.azureedge.net"
+    record: "hmcts-prod.azurefd.net"
     shutter: false
     #record: "hmcts-appeal-immigration-asylum-decision-shutter.azureedge.net"
     #shuttering must be achieved for IAC by pointing to hmcts-appeal-immigration-asylum-decision-shutter.azureedge.net at present
