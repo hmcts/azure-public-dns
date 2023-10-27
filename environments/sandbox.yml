@@ -84,7 +84,7 @@ txt:
     record:
       - "ms-domain-verification=fb92e12a-fb28-48e0-b5ec-5fa92a9001c4"
       - "v=spf1 include:spf.protection.outlook.com -all"
-  - name: "_dnsauth.labs-goldenpath-mfox.sandbox.platform.hmcts.net"
+  - name: "_dnsauth.labs-goldenpath-mfox"
     ttl: 3600
     record: 
       - "z5vl9sc7mn566pqxdbpxjggttvchpvqx"
