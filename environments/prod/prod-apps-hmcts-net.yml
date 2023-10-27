@@ -1,0 +1,15 @@
+ns: []
+
+mx: []
+
+A:
+  - name: "libra-gateway"
+    ttl: 300
+    record: 
+      - "185.230.153.229"
+
+txt: []
+
+srv: []
+
+cname: []
