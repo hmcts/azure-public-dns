@@ -84,7 +84,11 @@ txt:
     record:
       - "ms-domain-verification=fb92e12a-fb28-48e0-b5ec-5fa92a9001c4"
       - "v=spf1 include:spf.protection.outlook.com -all"
-
+  - name: "_dnsauth.labs-goldenpath-mfox.sandbox.platform.hmcts.net"
+    ttl: 3600
+    record: 
+      - "z5vl9sc7mn566pqxdbpxjggttvchpvqx"
+    
 # In order to swap the DNS for shutterring an application enable the shutter parameter for the corresponding application.
 # e.g. This will shutter the plum app in sbox environment
 #  - name: "plum"
