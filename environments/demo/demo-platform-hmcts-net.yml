@@ -31,10 +31,6 @@ txt:
     ttl: 3600
     record:
       - "8fyppglw4rvxy8w3zs8g8ry5pxnfwccr"
-  - name: "pip-frontend"
-    ttl: 300
-    record:
-      - "MS=ms11204835"
 
 srv: []
 
@@ -451,10 +447,10 @@ cname:
   - name: "afdverify.toffee"
     ttl: 3600
     record: "afdverify.sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-  # - name: "pip-frontend"
-  #   ttl: 300
-  #   record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-  #   shutter: false
+  - name: "pip-frontend"
+    ttl: 300
+    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
+    shutter: false
   - name: "afdverify.pip-frontend"
     ttl: 3600
     record: "afdverify.sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
