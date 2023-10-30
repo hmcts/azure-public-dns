@@ -10,7 +10,7 @@ A:
   - name: "libra-gateway.prod"
     ttl: 300
     record: 
-      - "185.230.153.229"
+      - "185.230.153.228"
   
 
 txt: []
