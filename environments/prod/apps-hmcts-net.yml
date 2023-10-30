@@ -3,10 +3,15 @@ ns: []
 mx: []
 
 A:
-  - name: "libra-gateway"
+  - name: "libra-gateway.staging"
     ttl: 300
     record: 
       - "185.230.153.229"
+  - name: "libra-gateway.prod"
+    ttl: 300
+    record: 
+      - "185.230.153.229"
+  
 
 txt: []
 
@@ -31,3 +36,6 @@ cname:
   - name: "glimr-dev"
     ttl: 300
     record: "hmcts-nle-int.azurefd.net"
+  - name: "crime-portal-nle"
+    ttl: 300
+    record: "crimeportal.apps-nle.hmcts.net"
