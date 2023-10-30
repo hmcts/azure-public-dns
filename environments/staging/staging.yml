@@ -37,26 +37,26 @@ srv: []
 cname:
   - name: "afdverify.c100-application"
     ttl: 300
-    record: "afdverify.sdshmcts-stg.azurefd.net"
+    record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
   - name: "c100-application"
     ttl: 300
-    record: "sdshmcts-stg.azurefd.net"
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
   - name: "afdverify.hmi-apim"
     ttl: 3600
-    record: "afdverify.hmcts-aat.azurefd.net"
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "hmi-apim"
     ttl: 3600
-    record: "hmcts-aat.azurefd.net"
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "_a7c390b60c8a53c3d0bc0ed7f0b93d43"
     ttl: 300
     record: "8A49378F10CA1DB2BDFB0BC43E68D2EF.4119A1D9C9464645E90F4FCE3A4610AA.6fb41c898918ad5a0df0.comodoca.com."
   - name: "toffee"
     ttl: 300
-    record: "sdshmcts-stg.azurefd.net"
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
     shutter: false
   - name: "afdverify.toffee"
     ttl: 3600
-    record: "afdverify.sdshmcts-stg.azurefd.net"
+    record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
   - name: "afdverify.pip"
     ttl: 300
     record: "afdverify.hmcts-stg.azurefd.net"
@@ -64,37 +64,37 @@ cname:
     ttl: 300
     record: "afdverify.hmcts-stg.azurefd.net"
   - name: staff.pip-frontend
-    record: sdshmcts-stg.azurefd.net
+    record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
     ttl: 300
   - name: sign-in.pip-frontend
-    record: sdshmcts-stg.azurefd.net
+    record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
     ttl: 300
   - name: pip-frontend
-    record: sdshmcts-stg.azurefd.net
+    record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
     ttl: 300
   - name: "afdverify.pip-frontend"
     ttl: 300
     record: "afdverify.hmcts-stg.azurefd.net"
   - name: vh-video-web
-    record: sdshmcts-stg.azurefd.net
+    record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
     ttl: 300
   - name: "afdverify.vh-video-web"
     ttl: 300
     record: "afdverify.hmcts-stg.azurefd.net"
   - name: vh-admin-web
-    record: sdshmcts-stg.azurefd.net
+    record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
     ttl: 300
   - name: "afdverify.vh-admin-web"
     ttl: 300
     record: "afdverify.hmcts-stg.azurefd.net"
   - name: vh-test-web
-    record: sdshmcts-stg.azurefd.net
+    record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
     ttl: 300
   - name: "afdverify.vh-test-web"
     ttl: 300
     record: "afdverify.hmcts-stg.azurefd.net"
   - name: sds-api-mgmt
-    record: sdshmcts-stg.azurefd.net
+    record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
     ttl: 300
   - name: "afdverify.sds-api-mgmt"
     ttl: 300
@@ -107,18 +107,18 @@ cname:
     record: vh-infra-wowza-stg.uksouth.cloudapp.azure.com
   - name: "darts-portal"
     ttl: 300
-    record: "sdshmcts-stg.azurefd.net"
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
     shutter: false
   - name: "afdverify.darts-portal"
     ttl: 3600
-    record: "afdverify.sdshmcts-stg.azurefd.net"
+    record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
   - name: "pre-portal"
     ttl: 300
-    record: "sdshmcts-stg.azurefd.net"
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
     shutter: false
   - name: "afdverify.pre-portal"
     ttl: 3600
-    record: "afdverify.sdshmcts-stg.azurefd.net"
+    record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
   - name: "help-with-fees"
     ttl: 3600
     record: "hwf-public-stg.niceglacier-a3f52750.uksouth.azurecontainerapps.io"

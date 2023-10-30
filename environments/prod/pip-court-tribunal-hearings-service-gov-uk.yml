@@ -25,5 +25,5 @@ cname:
     record: sdshmcts-prod.azurefd.net
     ttl: 300
 ##  - name: sign.stg
-##    record: sdshmcts-stg.azurefd.net
+##    record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
 ##    ttl: 300

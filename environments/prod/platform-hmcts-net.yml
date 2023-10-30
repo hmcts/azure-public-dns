@@ -94,18 +94,10 @@ A:
     ttl: 900
     record:
       - "51.143.156.74"
-  - name: "build"
-    ttl: 60
-    record:
-      - "13.87.65.183"
   - name: "build-beta"
     ttl: 60
     record:
       - "13.87.65.183"
-  - name: "static-build"
-    ttl: 60
-    record:
-      - "13.87.65.183" 
   - name: "courts"
     ttl: 60
     record:
@@ -134,22 +126,6 @@ A:
     ttl: 60
     record:
       - "20.58.23.145"
-  - name: "sds-sandbox-build"
-    ttl: 60
-    record:
-      - "51.104.212.71"
-  - name: "static-sds-sandbox-build"
-    ttl: 60
-    record:
-      - "51.104.212.71"    
-  - name: "sds-build"
-    ttl: 60
-    record:
-      - "13.87.65.228"
-  - name: "static-sds-build"
-    ttl: 60
-    record:
-      - "13.87.65.228"
   - name: "sftp"
     ttl: 300
     record:
@@ -468,6 +444,12 @@ cname:
   - name: "cman"
     ttl: 300
     record: "firewall-prod-int-palo-cmanprod.uksouth.cloudapp.azure.com"
+  - name: "crimeportal"
+    ttl: 300
+    record: "firewall-prod-int-palo-crimeportal.uksouth.cloudapp.azure.com"
+  - name: "glimr"
+    ttl: 300
+    record: "firewall-prod-int-palo-glimr.uksouth.cloudapp.azure.com"
 
 #### Video Hearings
   - name: "_DEFCA9944606874FF3B5E0E653FF9825"
@@ -598,12 +580,48 @@ cname:
   - name: "afdverify.response"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "build"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+  - name: "afdverify.build"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "static-build"
+    ttl: 300
+    record: "hmcts-prod.azurefd.net"
+  - name: "afdverify.static-build"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
   - name: "sandbox-build"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
   - name: "afdverify.sandbox-build"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "sds-sandbox-build"
+    ttl: 300
+    record: "sdshmcts-prod.azurefd.net"
+  - name: "afdverify.sds-sandbox-build"
+    ttl: 3600
+    record: "afdverify.sdshmcts-prod.azurefd.net"
+  - name: "static-sds-sandbox-build"
+    ttl: 300
+    record: "sdshmcts-prod.azurefd.net"
+  - name: "afdverify.static-sds-sandbox-build"
+    ttl: 3600
+    record: "afdverify.sdshmcts-prod.azurefd.net"
+  - name: "sds-build"
+    ttl: 300
+    record: "sdshmcts-prod.azurefd.net"
+  - name: "afdverify.sds-build"
+    ttl: 3600
+    record: "afdverify.sdshmcts-prod.azurefd.net"
+  - name: "static-sds-build"
+    ttl: 300
+    record: "sdshmcts-prod.azurefd.net"
+  - name: "afdverify.static-sds-build"
+    ttl: 3600
+    record: "afdverify.sdshmcts-prod.azurefd.net"
 
   # PRE
   - name: "pre-portal"

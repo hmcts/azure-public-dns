@@ -15,4 +15,15 @@ cname:
   - name: "cman"
     ttl: 300
     record: "hmcts-live-int.azurefd.net"
-
+  - name: "crimeportal"
+    ttl: 300
+    record: "hmcts-live-int.azurefd.net"
+  - name: "glimr"
+    ttl: 300
+    record: "hmcts-live-int.azurefd.net"
+  - name: "glimr-nle"
+    ttl: 300
+    record: "hmcts-nle-int.azurefd.net"
+  - name: "glimr-dev"
+    ttl: 300
+    record: "hmcts-nle-int.azurefd.net"

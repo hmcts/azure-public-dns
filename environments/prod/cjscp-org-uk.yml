@@ -303,7 +303,7 @@ A:
   - name: token.prp
     ttl: 1800
     record:
-      - 52.138.167.120
+      - 51.143.238.233
   - name: token.prp2
     ttl: 3600
     record:
@@ -393,21 +393,6 @@ cname:
   - name: token.nftpr2
     ttl: 600
     record: idamnftpreview.northeurope.cloudapp.azure.com.
-  - name: _9BA2642663021978FE3A8EC864478464.prp
-    ttl: 600
-    record: E9D81F1FB97D9C6A2DEBFDA9E5C7F528.9432A4726F08030E508E624EBE90E4A5.541f6fde7f8886087069.sectigo.com.
-  - name: _AAC99EB4E708B2A9E6D8FC2E7189D108.prd
-    ttl: 600
-    record: 459DE8956C5462F8437492853747EB8D.37B2C7D665937C9386C5D1F5868CA60F.f2e58f21abe575fab678.sectigo.com.
-  - name: em8536
-    ttl: 600
-    record: u16040309.wl060.sendgrid.net
-  - name: s1._domainkey
-    ttl: 600
-    record: s1.domainkey.u16040309.wl060.sendgrid.net
-  - name: s2._domainkey
-    ttl: 600
-    record: s2.domainkey.u16040309.wl060.sendgrid.net
   - name: em2687.bae
     ttl: 600
     record: u16040309.wl060.sendgrid.net
@@ -417,18 +402,18 @@ cname:
   - name: s2._domainkey.bae
     ttl: 600
     record: s2.domainkey.u16040309.wl060.sendgrid.net
-  - name: _242ED7F71DB14FB65EE0BFDD43B624F6.prosecuting.dev03
+  - name: em3537
     ttl: 600
-    record: 424AB98F2D44D8EE9FB9EFEA9E7C1704.0E7199CCC0814FE0A531CF82A7CAFDFE.ba66d14268d659027271.sectigo.com.
-  - name: _095E1C72ED9944E9E087D42091CE07F8.apigw.dev03
+    record: u10165397.wl148.sendgrid.net
+  - name: s1._domainkey
     ttl: 600
-    record: E23D0313B00666B51A9C8E79AE3AE326.0AD431CA4E4465B2F2CB02E464AA5E00.a6725b33ef76421d440e.sectigo.com.
-  - name: _2BF4C5209B62E6C134F4E5E0B9922CB5.onlineplea.dev03
+    record: s1.domainkey.u10165397.wl148.sendgrid.net
+  - name: s2._domainkey
     ttl: 600
-    record: FEC9284C3F4FB7C0F8CA2A005AB34FFE.D235258E8F1F808F6907581756D506A9.9b58b451cf8aeffa209e.sectigo.com.
-  - name: _5AB389AAF581389903F3BFB1BE2D9823.api.sit
+    record: s2.domainkey.u10165397.wl148.sendgrid.net
+  - name: _3961216817E4B15A8BB9CD770D58B36B.prosecuting.prp
     ttl: 600
-    record: E4688C7D4DB9F1F2108C5A22D9BA5D39.C038F7B838B2FB607DAFED02D288473D.7b4affa930b68553a839.sectigo.com.
-  - name: _497177860BD0CDB7D7F508BBAB2476E0.prosecuting.dev
-    ttl: 10800
-    record: 2B6A1C0D2808548BC62A57BEC21B2175.A9C4230AFAC34ABB2A34993920BB2440.9bc60a0de7e72d8ee211.sectigo.com.
+    record: BEBB70A40013C759A5D1BA1775CAE6D3.D0B8C40322FA2A8AE4750A492AC4A3A0.662e5a603fc508d2b853.sectigo.com.
+  - name: _3961216817E4B15A8BB9CD770D58B36B.prp
+    ttl: 600
+    record: BEBB70A40013C759A5D1BA1775CAE6D3.D0B8C40322FA2A8AE4750A492AC4A3A0.662e5a603fc508d2b853.sectigo.com.

@@ -14,16 +14,16 @@ cname:
     record: "BE33372D30A32248927A2E0C69898A6E.122BACF6D0ACD67EDE96B289A369FE37.OI555FjyjC556tD05Lad.comodoca.com"
   - name: "afdverify.hmi-apim"
     ttl: 3000
-    record: "afdverify.hmcts-preview.azurefd.net"
+    record: "afdverify.hmcts-preview-fkhfehdgahcrhbds.z01.azurefd.net"
   - name: "hmi-apim"
     ttl: 3000
-    record: "hmcts-preview.azurefd.net"
+    record: "hmcts-preview-fkhfehdgahcrhbds.z01.azurefd.net"
   - name: "reformscan"
     ttl: 60
-    record: "hmcts-preview.azurefd.net"
+    record: "hmcts-preview-fkhfehdgahcrhbds.z01.azurefd.net"
   - name: "afdverify.reformscan"
     ttl: 60
-    record: "afdverify.hmcts-preview.azurefd.net"
+    record: "afdverify.hmcts-preview-fkhfehdgahcrhbds.z01.azurefd.net"
   - name: "_c67fec9b0864f2bb0714ad20237737b8"
     ttl: 60
     record: "F34A65BD30EBB2DFDFB79A4AA2BB1DE2.345B5C367A0AB72A72BDE0D54D9AA0E7.09ce3c5fe952c1b21211.comodoca.com."
