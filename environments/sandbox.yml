@@ -260,3 +260,9 @@ cname:
   - name: "afdverify.labs-rhodrif-nodejs"
     ttl: 3600
     record: "afdverify.hmcts-sbox.azurefd.net"
+  - name: "netbox-sandbox"
+    ttl: 300
+    record: "hsdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
+  - name: "afdverify.netbox-sandbox"
+    ttl: 3600
+    record: "afdverify.sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
