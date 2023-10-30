@@ -32,11 +32,11 @@ txt:
     record:
       - "8fyppglw4rvxy8w3zs8g8ry5pxnfwccr"
   - name: "_dnsauth.moneyclaims"
-    ttl: 3600
+    ttl: 60
     record:
       - "knf8wv4ym7rh88gdz20wr5dh226bzwg0"
   - name: "_dnsauth.moneyclaims1"
-    ttl: 3600
+    ttl: 60
     record:
       - "cn9b2w9jzh9jj5mkgg249p1sx59tl5qd"
 
