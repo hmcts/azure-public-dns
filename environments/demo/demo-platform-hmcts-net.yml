@@ -31,6 +31,14 @@ txt:
     ttl: 3600
     record:
       - "8fyppglw4rvxy8w3zs8g8ry5pxnfwccr"
+  - name: "_dnsauth.moneyclaims.demo.platform.hmcts.net"
+    ttl: 3600
+    record:
+      - "9n548ckjy0h9xcqbp5df9f2ns2qt9cym"
+  - name: "_dnsauth.moneyclaims1.demo.platform.hmcts.net"
+    ttl: 3600
+    record:
+      - "cn9b2w9jzh9jj5mkgg249p1sx59tl5qd"
 
 srv: []
 
