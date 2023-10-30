@@ -364,3 +364,9 @@ cname:
   - name: "et-pet-admin"
     ttl: 300
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: vh-service-web
+    record: sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
+    ttl: 300
+  - name: adverify.vh-service-web
+    record: afdverify.sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
+    ttl: 300
