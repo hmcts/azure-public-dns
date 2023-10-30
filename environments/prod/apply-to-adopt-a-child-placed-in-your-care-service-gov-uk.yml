@@ -16,3 +16,6 @@ cname:
   - name: "afdverify.www"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
+  - name: "afdverify"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
