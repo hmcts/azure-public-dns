@@ -1,0 +1,16 @@
+ns: []
+
+mx: []
+
+A:
+  - name: "@"
+    ttl: 60
+    alias_target_resource_id: "/subscriptions/b72ab7b7-723f-4b18-b6f6-03b0f2c6a1bb/resourcegroups/lz-sbox-rg/providers/Microsoft.Cdn/profiles/hmcts-sbox/afdendpoints/hmcts-sbox"
+    shutter: false
+
+txt: []
+
+cname:
+  - name: "afdverify"
+    ttl: 3600
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"

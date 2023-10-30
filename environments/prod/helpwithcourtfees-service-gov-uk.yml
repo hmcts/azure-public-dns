@@ -1,0 +1,39 @@
+ns: []
+
+mx: []
+
+A:
+  - name: "@"
+    ttl: 60
+    #alias_target_resource_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/resourceGroups/cft-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/staticSites/hwf-pet"
+    alias_target_resource_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/resourceGroups/lz-prod-rg/providers/Microsoft.Network/frontdoors/hmcts-prod"
+    shutter: false
+
+txt:
+  - name: "asuid"
+    ttl: 360
+    record:
+      - "ABF985515CE7017CB81683BA683A172F83116EB29083812B5D1C3ED49F13C50D"
+    ttl: 60
+  - name: "asuid.staff"
+    ttl: 360
+    record:
+      - "ABF985515CE7017CB81683BA683A172F83116EB29083812B5D1C3ED49F13C50D"
+
+cname:
+  - name: "www"
+    ttl: 60
+    record: "hmcts-prod.azurefd.net"
+    shutter: true
+  - name: "afdverify.www"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+    shutter: false
+  - name: "staff"
+    ttl: 60
+    record: "hmcts-prod.azurefd.net"
+    shutter: false
+  - name: "afdverify.staff"
+    ttl: 300
+    record: "afdverify.hmcts-prod.azurefd.net"
+    shutter: false

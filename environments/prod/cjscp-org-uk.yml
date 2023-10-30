@@ -16,6 +16,10 @@ A:
     ttl: 3600
     record:
       - 51.11.44.116
+  - name: api.dev03
+    ttl: 3600
+    record:
+      - 51.11.44.116
   - name: api.nft
     ttl: 3600
     record:
@@ -36,6 +40,10 @@ A:
     ttl: 3600
     record:
       - 51.11.44.116
+  - name: apigw.dev03
+    ttl: 3600
+    record:
+      - 51.11.44.116
   - name: apigw.nft
     ttl: 3600
     record:
@@ -51,7 +59,7 @@ A:
   - name: email-client.nft
     ttl: 3600
     record:
-      - 13.79.245.35
+      - 20.77.130.152
   - name: email-client.sit
     ttl: 3600
     record:
@@ -179,7 +187,11 @@ A:
   - name: onlineplea.dev
     ttl: 3600
     record:
-      - 51.140.39.30
+      - 51.11.44.0
+  - name: onlineplea.dev03
+    ttl: 3600
+    record:
+      - 51.11.44.0
   - name: onlineplea.nft
     ttl: 3600
     record:
@@ -217,6 +229,10 @@ A:
     record:
       - 51.140.115.34
   - name: prosecuting.dev
+    ttl: 3600
+    record:
+      - 51.11.44.0
+  - name: prosecuting.dev03
     ttl: 3600
     record:
       - 51.11.44.0
@@ -279,7 +295,7 @@ A:
   - name: token.nft
     ttl: 3600
     record:
-      - 13.79.245.35
+      - 20.77.130.152
   - name: token.nft.cpp
     ttl: 3600
     record:
@@ -287,7 +303,7 @@ A:
   - name: token.prp
     ttl: 1800
     record:
-      - 52.138.167.120
+      - 51.143.238.233
   - name: token.prp2
     ttl: 3600
     record:
@@ -374,84 +390,33 @@ cname:
   - name: my-services.prp
     ttl: 1800
     record: token.prp.cjscp.org.uk.
-  - name: s1._domainkey
-    ttl: 1800
-    record: s1.domainkey.u16048077.wl078.sendgrid.net.
-  - name: s2._domainkey
-    ttl: 1800
-    record: s2.domainkey.u16048077.wl078.sendgrid.net.
   - name: token.nftpr2
     ttl: 600
     record: idamnftpreview.northeurope.cloudapp.azure.com.
-  - name: _9956A50C17EA0872A58F753A35D19F13.cpp-sit.nftpr1
+  - name: em2687.bae
     ttl: 600
-    record: 8531A92CBA8611BCF9F27ADC20652D1C.E668F57A8245B4F70356621433C54926.a4bfd74e26dbe994564f.sectigo.com.
-  - name: _9956A50C17EA0872A58F753A35D19F13.login.nftpr1
+    record: u16040309.wl060.sendgrid.net
+  - name: s1._domainkey.bae
     ttl: 600
-    record: 8531A92CBA8611BCF9F27ADC20652D1C.E668F57A8245B4F70356621433C54926.a4bfd74e26dbe994564f.sectigo.com.
-  - name: _9956A50C17EA0872A58F753A35D19F13.identity-gateway.nftpr1
+    record: s1.domainkey.u16040309.wl060.sendgrid.net
+  - name: s2._domainkey.bae
     ttl: 600
-    record: 8531A92CBA8611BCF9F27ADC20652D1C.E668F57A8245B4F70356621433C54926.a4bfd74e26dbe994564f.sectigo.com.
-  - name: _9956A50C17EA0872A58F753A35D19F13.manage-users.nftpr1
+    record: s2.domainkey.u16040309.wl060.sendgrid.net
+  - name: em3537
     ttl: 600
-    record: 8531A92CBA8611BCF9F27ADC20652D1C.E668F57A8245B4F70356621433C54926.a4bfd74e26dbe994564f.sectigo.com.
-  - name: _9956A50C17EA0872A58F753A35D19F13.my-services.nftpr1
+    record: u10165397.wl148.sendgrid.net
+  - name: s1._domainkey
     ttl: 600
-    record: 8531A92CBA8611BCF9F27ADC20652D1C.E668F57A8245B4F70356621433C54926.a4bfd74e26dbe994564f.sectigo.com.
-  - name: _9956A50C17EA0872A58F753A35D19F13.token.nftpr1
+    record: s1.domainkey.u10165397.wl148.sendgrid.net
+  - name: s2._domainkey
     ttl: 600
-    record: 8531A92CBA8611BCF9F27ADC20652D1C.E668F57A8245B4F70356621433C54926.a4bfd74e26dbe994564f.sectigo.com.
-  - name: _9956A50C17EA0872A58F753A35D19F13.login.nftpr2
+    record: s2.domainkey.u10165397.wl148.sendgrid.net
+  - name: _3961216817E4B15A8BB9CD770D58B36B.prosecuting.prp
     ttl: 600
-    record: 8531A92CBA8611BCF9F27ADC20652D1C.E668F57A8245B4F70356621433C54926.a4bfd74e26dbe994564f.sectigo.com.
-  - name: _9956A50C17EA0872A58F753A35D19F13.identity-gateway.nftpr2
+    record: BEBB70A40013C759A5D1BA1775CAE6D3.D0B8C40322FA2A8AE4750A492AC4A3A0.662e5a603fc508d2b853.sectigo.com.
+  - name: _3961216817E4B15A8BB9CD770D58B36B.prp
     ttl: 600
-    record: 8531A92CBA8611BCF9F27ADC20652D1C.E668F57A8245B4F70356621433C54926.a4bfd74e26dbe994564f.sectigo.com.
-  - name: _9956A50C17EA0872A58F753A35D19F13.manage-users.nftpr2
+    record: BEBB70A40013C759A5D1BA1775CAE6D3.D0B8C40322FA2A8AE4750A492AC4A3A0.662e5a603fc508d2b853.sectigo.com.
+  - name: _598FF8487569BDF1502FE54E600C4450.api
     ttl: 600
-    record: 8531A92CBA8611BCF9F27ADC20652D1C.E668F57A8245B4F70356621433C54926.a4bfd74e26dbe994564f.sectigo.com.
-  - name: _9956A50C17EA0872A58F753A35D19F13.my-services.nftpr2
-    ttl: 600
-    record: 8531A92CBA8611BCF9F27ADC20652D1C.E668F57A8245B4F70356621433C54926.a4bfd74e26dbe994564f.sectigo.com.
-  - name: _9956A50C17EA0872A58F753A35D19F13.token.nftpr2
-    ttl: 600
-    record: 8531A92CBA8611BCF9F27ADC20652D1C.E668F57A8245B4F70356621433C54926.a4bfd74e26dbe994564f.sectigo.com.
-  - name: _9956A50C17EA0872A58F753A35D19F13.sit.cpp
-    ttl: 600
-    record: 8531A92CBA8611BCF9F27ADC20652D1C.E668F57A8245B4F70356621433C54926.a4bfd74e26dbe994564f.sectigo.com.
-  - name: _1A69EDFA0D3A9FB86CFFD92AE3866C86.prosecuting.prx
-    ttl: 600
-    record: 7CCD6598397B2801202FBBD825A5EF4A.76F9457709C7F984AE64F129371CDBB4.3b633c23c4d80a05dcb2.sectigo.com.
-  - name: _1A69EDFA0D3A9FB86CFFD92AE3866C86.prosecuting.bae
-    ttl: 600
-    record: 7CCD6598397B2801202FBBD825A5EF4A.76F9457709C7F984AE64F129371CDBB4.3b633c23c4d80a05dcb2.sectigo.com.
-  - name: _1A69EDFA0D3A9FB86CFFD92AE3866C86.login.bae
-    ttl: 600
-    record: 7CCD6598397B2801202FBBD825A5EF4A.76F9457709C7F984AE64F129371CDBB4.3b633c23c4d80a05dcb2.sectigo.com.
-  - name: _1A69EDFA0D3A9FB86CFFD92AE3866C86.identity-gateway.bae
-    ttl: 600
-    record: 7CCD6598397B2801202FBBD825A5EF4A.76F9457709C7F984AE64F129371CDBB4.3b633c23c4d80a05dcb2.sectigo.com.
-  - name: _1A69EDFA0D3A9FB86CFFD92AE3866C86.manage-users.bae
-    ttl: 600
-    record: 7CCD6598397B2801202FBBD825A5EF4A.76F9457709C7F984AE64F129371CDBB4.3b633c23c4d80a05dcb2.sectigo.com.
-  - name: _1A69EDFA0D3A9FB86CFFD92AE3866C86.my-services.bae
-    ttl: 600
-    record: 7CCD6598397B2801202FBBD825A5EF4A.76F9457709C7F984AE64F129371CDBB4.3b633c23c4d80a05dcb2.sectigo.com.
-  - name: _1A69EDFA0D3A9FB86CFFD92AE3866C86.token.bae
-    ttl: 600
-    record: 7CCD6598397B2801202FBBD825A5EF4A.76F9457709C7F984AE64F129371CDBB4.3b633c23c4d80a05dcb2.sectigo.com.
-  - name: _1A69EDFA0D3A9FB86CFFD92AE3866C86.login.prx
-    ttl: 600
-    record: 7CCD6598397B2801202FBBD825A5EF4A.76F9457709C7F984AE64F129371CDBB4.3b633c23c4d80a05dcb2.sectigo.com. 
-  - name: _1A69EDFA0D3A9FB86CFFD92AE3866C86.identity-gateway.prx
-    ttl: 600
-    record: 7CCD6598397B2801202FBBD825A5EF4A.76F9457709C7F984AE64F129371CDBB4.3b633c23c4d80a05dcb2.sectigo.com.
-  - name: _1A69EDFA0D3A9FB86CFFD92AE3866C86.manage-users.prx
-    ttl: 600
-    record: 7CCD6598397B2801202FBBD825A5EF4A.76F9457709C7F984AE64F129371CDBB4.3b633c23c4d80a05dcb2.sectigo.com.
-  - name: _1A69EDFA0D3A9FB86CFFD92AE3866C86.my-services.prx
-    ttl: 600
-    record: 7CCD6598397B2801202FBBD825A5EF4A.76F9457709C7F984AE64F129371CDBB4.3b633c23c4d80a05dcb2.sectigo.com.
-  - name: _1A69EDFA0D3A9FB86CFFD92AE3866C86.token.prx
-    ttl: 600
-    record: 7CCD6598397B2801202FBBD825A5EF4A.76F9457709C7F984AE64F129371CDBB4.3b633c23c4d80a05dcb2.sectigo.com.
+    record: 78E7445C3F4BC337FB3EFAA33F110850.6BE929522A496E65541D75F0E19542A8.22742c1f0f8b05d8981a.sectigo.com.

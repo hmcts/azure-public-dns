@@ -18,6 +18,4 @@ cname:
   - name: "afdverify.www"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
-  - name: "cdnverify.www"
-    ttl: 300
-    record: "cdnverify.hmcts-appeal-immigration-asylum-decision-shutter.azureedge.net"
+ 

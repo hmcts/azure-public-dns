@@ -2,3 +2,7 @@
 
 environments/prod/cjscp-org-uk.yml @hmcts/platform-operations @hmcts/cpp-development-admin
 environments/prod/hmcts-net.yml @hmcts/platform-operations @hmcts/cpp-development-admin
+
+### JD
+environments/prod/reply-jury-summons-service-gov-uk.yml @hmcts/platform-operations @hmcts/juror-digital
+environments/prod/juror-bureau-justice-gov-uk.yml @hmcts/platform-operations @hmcts/juror-digital

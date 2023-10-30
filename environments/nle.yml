@@ -38,3 +38,12 @@ cname:
   - name: "sdt"
     ttl: 300
     record: "firewall-nonprodi-palo-sdtnle.uksouth.cloudapp.azure.com"
+  - name: "crimeportal"
+    ttl: 300
+    record: "firewall-nonprodi-palo-crimeportal.uksouth.cloudapp.azure.com"
+  - name: "glimr"
+    ttl: 300
+    record: "firewall-nonprodi-palo-glimr.uksouth.cloudapp.azure.com"
+  - name: "glimr-dev"
+    ttl: 300
+    record: "firewall-nonprodi-palo-glimr-dev.uksouth.cloudapp.azure.com"
