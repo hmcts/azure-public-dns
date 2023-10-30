@@ -13,11 +13,7 @@ A:
     record:
       - "20.254.21.195"
       
-txt: 
-  - name: "pip-frontend"
-    ttl: 300
-    record:
-      - "MS=ms76296101"
+txt: []
 
 srv: []
 
@@ -38,9 +34,9 @@ cname:
   - name: "afdverify.toffee"
     ttl: 3600
     record: "afdverify.sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net"
-  # - name: pip-frontend
-  #   record: sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net
-  #   ttl: 300
+  - name: pip-frontend
+    record: sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net
+    ttl: 300
   - name: "afdverify.pip-frontend"
     ttl: 300
     record: "afdverify.hmcts-test.azurefd.net"
