@@ -34,7 +34,7 @@ txt:
   - name: "_dnsauth.moneyclaims"
     ttl: 3600
     record:
-      - "9n548ckjy0h9xcqbp5df9f2ns2qt9cym"
+      - "knf8wv4ym7rh88gdz20wr5dh226bzwg0"
   - name: "_dnsauth.moneyclaims1"
     ttl: 3600
     record:
