@@ -31,10 +31,14 @@ txt:
     ttl: 3600
     record:
       - "8fyppglw4rvxy8w3zs8g8ry5pxnfwccr"
-  - name: "pip-frontend"
-    ttl: 300
+  - name: "_dnsauth.moneyclaims"
+    ttl: 3600
     record:
-      - "MS=ms11204835"
+      - "9n548ckjy0h9xcqbp5df9f2ns2qt9cym"
+  - name: "_dnsauth.moneyclaims1"
+    ttl: 3600
+    record:
+      - "cn9b2w9jzh9jj5mkgg249p1sx59tl5qd"
 
 srv: []
 
@@ -451,10 +455,10 @@ cname:
   - name: "afdverify.toffee"
     ttl: 3600
     record: "afdverify.sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-  # - name: "pip-frontend"
-  #   ttl: 300
-  #   record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-  #   shutter: false
+  - name: "pip-frontend"
+    ttl: 300
+    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
+    shutter: false
   - name: "afdverify.pip-frontend"
     ttl: 3600
     record: "afdverify.sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
