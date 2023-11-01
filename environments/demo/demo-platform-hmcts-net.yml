@@ -459,6 +459,12 @@ cname:
     ttl: 300
     record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
     shutter: false
+  - name: "staff.pip-frontend"
+    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
+    ttl: 300
+  - name: "sign-in.pip-frontend"
+    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
+    ttl: 300
   - name: "afdverify.pip-frontend"
     ttl: 3600
     record: "afdverify.sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
