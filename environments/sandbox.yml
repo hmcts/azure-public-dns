@@ -128,6 +128,9 @@ cname:
   - name: "plum.uksouth"
     ttl: 3600
     record: "firewall-sbox.uksouth.cloudapp.azure.com"
+  - name: "netbox"
+    ttl: 300
+    record: "sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
   - name: "afdverify.idam-web-public"
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
