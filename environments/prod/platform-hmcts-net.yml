@@ -637,3 +637,11 @@ cname:
   - name: "afdverify.pre-portal"
     ttl: 300
     record: "afdverify.sdshmcts-prod.azurefd.net"
+
+  # Netbox
+  - name: "netbox"
+    ttl: 300
+    record: "sdshmcts-prod.azurefd.net"
+  - name: "afdverify.netbox"
+    ttl: 3600
+    record: "afdverify.sdshmcts-prod.azurefd.net"
