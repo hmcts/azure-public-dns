@@ -243,11 +243,10 @@ cname:
   - name: "afdverify.labs-rhodrif-nodejs"
     ttl: 3600
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    record: "afdverify.hmcts-sbox.azurefd.net"
-  - name: "netbox-sandbox"
+  - name: "netbox"
     ttl: 300
     record: "sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
-  - name: "afdverify.netbox-sandbox"
+  - name: "afdverify.netbox"
     ttl: 3600
     record: "afdverify.sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
   - name: "selector1-azurecomm-prod-net._domainkey"
