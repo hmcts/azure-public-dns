@@ -265,9 +265,6 @@ cname:
   - name: "www1.moneyclaim"
     ttl: 300
     record: "moneyclaim.reform.hmcts.net"
-  - name: "afdverify.www1.moneyclaim"
-    ttl: 60
-    record: "afdverify.hmcts-prod.azurefd.net"
   - name: "www.moneyclaim-legal"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
