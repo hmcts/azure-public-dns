@@ -370,3 +370,6 @@ cname:
   - name: adverify.vh-service-web
     record: afdverify.sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
     ttl: 300
+  - name: "cui-ra"
+    ttl: 300
+    record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
