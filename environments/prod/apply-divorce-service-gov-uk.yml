@@ -16,14 +16,14 @@ cname:
   - name: "*"
     ttl: 60
     record: "www.apply-divorce.service.gov.uk"
-    shutter: false
+    shutter: true
   - name: "decree-absolute"
     ttl: 300
     record: "www.decree-absolute.apply-divorce.service.gov.uk"
   - name: "www.decree-absolute"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.www.decree-absolute"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -33,7 +33,7 @@ cname:
   - name: "www.decree-nisi"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.www.decree-nisi"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
@@ -43,14 +43,14 @@ cname:
   - name: "www.manage-application"
     ttl: 300
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.www.manage-application"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
   - name: "www"
     ttl: 120
     record: "hmcts-prod.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.www"
     ttl: 3600
     record: "afdverify.hmcts-prod.azurefd.net"
