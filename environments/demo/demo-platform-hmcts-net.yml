@@ -39,6 +39,10 @@ txt:
     ttl: 60
     record:
       - "cn9b2w9jzh9jj5mkgg249p1sx59tl5qd"
+  - name: "_dnsauth.cui-ra.demo.platform.hmcts.net"
+    ttl: 3600
+    record:
+      - "n7jzgdc7mrqmh2wb15h0wqny8wgbbhz0"
 
 srv: []
 
