@@ -13,7 +13,11 @@ A:
     record:
       - "20.26.57.242"
 
-txt: []
+txt:
+  - name: "_dnsauth.cui-ra.perftest.platform.hmcts.net"
+    ttl: 3600
+    record:
+      - "4knt5b6vhmd8hv8vxgyx8hsy43jprxbw"
 
 srv: []
 
@@ -259,6 +263,9 @@ cname:
     ttl: 3600
     record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "sptribs-frontend"
+    ttl: 300
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
+  - name: "cui-ra"
     ttl: 300
     record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
 

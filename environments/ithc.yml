@@ -45,6 +45,10 @@ txt:
     ttl: 3600
     record:
       - "h9tbt3v2j6550glynh9dd8yczqcqv7q9"
+  - name: "_dnsauth.cui-ra.ithc.platform.hmcts.net"
+    ttl: 3600
+    record:
+      - "cmzhm4s1sx402fpm6l0xskr521cxrnrx"
 
 
 cname:
@@ -370,3 +374,6 @@ cname:
   - name: adverify.vh-service-web
     record: afdverify.sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
     ttl: 300
+  - name: "cui-ra"
+    ttl: 300
+    record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
