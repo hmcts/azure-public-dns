@@ -45,3 +45,6 @@ cname:
   - name: "s2._domainkey"
     ttl: 300
     record: "s2.domainkey.u22046801.wl052.sendgrid.net"
+  - name: "afdverify"
+    ttl: 3600
+    record: "afdverify.hmcts-prod.azurefd.net"
