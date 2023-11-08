@@ -12,17 +12,17 @@ txt:
 cname:
   ## PIP Frontend
   - name: www
-    record: sdshmcts-prod.azurefd.net
+    record: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
     ttl: 300
     shutter: false
   - name: "afdverify.www"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
   - name: sign-in
-    record: sdshmcts-prod.azurefd.net
+    record: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
     ttl: 300
   - name: staff
-    record: sdshmcts-prod.azurefd.net
+    record: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
     ttl: 300
 ##  - name: sign.stg
 ##    record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
