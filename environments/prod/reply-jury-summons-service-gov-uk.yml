@@ -15,5 +15,5 @@ txt:
 cname:
   - name: "afdverify"
     ttl: 300
-    record: "afdverify.sdshmcts-prod.azurefd.net"
+    record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
  

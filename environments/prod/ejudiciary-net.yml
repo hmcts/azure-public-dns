@@ -33,10 +33,10 @@ cname:
     record: "sipdir.online.lync.com."
   - name: "home"
     ttl: 3600
-    record: "sdshmcts-prod.azurefd.net."
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net."
   - name: "www"
     ttl: 3600
-    record: "sdshmcts-prod.azurefd.net."
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net."
 
 mx:
   - name: '@'
