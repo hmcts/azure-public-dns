@@ -41,7 +41,7 @@ cname:
     record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
   - name: "portal"
     ttl: 300
-    record: "sdshmcts-prod.azurefd.net"
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
   - name: "afdverify.portal"
     ttl: 300
-    record: "afdverify.sdshmcts-prod.azurefd.net"
+    record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"

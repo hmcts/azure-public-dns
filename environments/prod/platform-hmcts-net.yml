@@ -398,17 +398,17 @@ cname:
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
   - name: sds-api-mgmt
-    record: sdshmcts-prod.azurefd.net
+    record: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
     ttl: 300
   - name: "afdverify.sds-api-mgmt"
     ttl: 300
     record: "afdverify.hmcts-prod.azurefd.net"
   - name: toffee
-    record: sdshmcts-prod.azurefd.net
+    record: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
     ttl: 300
   - name: "afdverify.toffee"
     ttl: 300
-    record: "afdverify.sdshmcts-prod.azurefd.net"
+    record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
 
   - name: "afdverify.hmi-apim"
     ttl: 300
@@ -551,10 +551,10 @@ cname:
   # C100
   - name: "afdverify.c100-application"
     ttl: 300
-    record: "afdverify.sdshmcts-prod.azurefd.net"
+    record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
   - name: "c100-application"
     ttl: 300
-    record: "sdshmcts-prod.azurefd.net"
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
     shutter: false
 
   # DTSSE
@@ -568,10 +568,10 @@ cname:
   # DARTS
   - name: "afdverify.darts-portal"
     ttl: 300
-    record: "afdverify.sdshmcts-prod.azurefd.net"
+    record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
   - name: "darts-portal"
     ttl: 300
-    record: "sdshmcts-prod.azurefd.net"
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
     shutter: false
 
   - name: "response"
@@ -600,42 +600,42 @@ cname:
     record: "afdverify.hmcts-prod.azurefd.net"
   - name: "sds-sandbox-build"
     ttl: 300
-    record: "sdshmcts-prod.azurefd.net"
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
   - name: "afdverify.sds-sandbox-build"
     ttl: 3600
-    record: "afdverify.sdshmcts-prod.azurefd.net"
+    record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
   - name: "static-sds-sandbox-build"
     ttl: 300
-    record: "sdshmcts-prod.azurefd.net"
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
   - name: "afdverify.static-sds-sandbox-build"
     ttl: 3600
-    record: "afdverify.sdshmcts-prod.azurefd.net"
+    record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
   - name: "sds-build"
     ttl: 300
-    record: "sdshmcts-prod.azurefd.net"
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
   - name: "afdverify.sds-build"
     ttl: 3600
-    record: "afdverify.sdshmcts-prod.azurefd.net"
+    record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
   - name: "static-sds-build"
     ttl: 300
-    record: "sdshmcts-prod.azurefd.net"
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
   - name: "afdverify.static-sds-build"
     ttl: 3600
-    record: "afdverify.sdshmcts-prod.azurefd.net"
+    record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
 
   # PRE
   - name: "pre-portal"
     ttl: 300
-    record: "sdshmcts-prod.azurefd.net"
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
     shutter: false
   - name: "afdverify.pre-portal"
     ttl: 300
-    record: "afdverify.sdshmcts-prod.azurefd.net"
+    record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
 
   # Netbox
   - name: "netbox"
     ttl: 300
-    record: "sdshmcts-prod.azurefd.net"
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
   - name: "afdverify.netbox"
     ttl: 3600
-    record: "afdverify.sdshmcts-prod.azurefd.net"
+    record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"

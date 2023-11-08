@@ -14,7 +14,7 @@ A:
       - "20.26.57.242"
 
 txt:
-  - name: "_dnsauth.cui-ra.perftest.platform.hmcts.net"
+  - name: "_dnsauth.cui-ra"
     ttl: 3600
     record:
       - "4knt5b6vhmd8hv8vxgyx8hsy43jprxbw"
