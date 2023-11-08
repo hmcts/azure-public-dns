@@ -48,7 +48,7 @@ txt:
   - name: "_dnsauth.cui-ra.ithc.platform.hmcts.net"
     ttl: 3600
     record:
-      - "v71bhrkwzgpfmk8vrqqmnc6n7xmpw051"
+      - "cmzhm4s1sx402fpm6l0xskr521cxrnrx"
 
 
 cname:
