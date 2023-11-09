@@ -44,13 +44,13 @@ txt:
     record:
       - "n7jzgdc7mrqmh2wb15h0wqny8wgbbhz0"
   - name: "_dnsauth.sign-in.pip-frontend.demo.platform.hmcts.net"
-    ttl: 3600
+    ttl: 60
     record:
-      - "pls53h0zkqz98kv6qfh1xj1n61hs8yzc"
+      - "m1015ngxxp5ddb6mlgfsx0y9v8dbwpzs"
   - name: "_dnsauth.staff.pip-frontend.demo.platform.hmcts.net"
-    ttl: 3600
+    ttl: 60
     record:
-      - "1272w6vjcr5hf7vlyvfx3c65r5xm5ntq"
+      - "7nq8rw1y80tyn3h94tfkcsq1mlwnh765"
 
 srv: []
 
