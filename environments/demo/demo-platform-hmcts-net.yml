@@ -43,6 +43,14 @@ txt:
     ttl: 3600
     record:
       - "n7jzgdc7mrqmh2wb15h0wqny8wgbbhz0"
+  - name: "_dnsauth.sign-in.pip-frontend.demo.platform.hmcts.net"
+    ttl: 3600
+    record:
+      - "pls53h0zkqz98kv6qfh1xj1n61hs8yzc"
+  - name: "_dnsauth.staff.pip-frontend.demo.platform.hmcts.net"
+    ttl: 3600
+    record:
+      - "1272w6vjcr5hf7vlyvfx3c65r5xm5ntq"
 
 srv: []
 

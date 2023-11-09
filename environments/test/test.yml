@@ -13,7 +13,15 @@ A:
     record:
       - "20.254.21.195"
       
-txt: []
+txt:
+  - name: "_dnsauth.sign-in.pip-frontend.test.platform.hmcts.net"
+    ttl: 3600
+    record:
+      - "5zrckvs8k2mgyd98rr7mz9dd4v14qqq8"
+  - name: "_dnsauth.staff.pip-frontend.test.platform.hmcts.net"
+    ttl: 3600
+    record:
+      - "b0bfsdkqsprfxrxn8m7b0pbwydd3ypzt"
 
 srv: []
 
