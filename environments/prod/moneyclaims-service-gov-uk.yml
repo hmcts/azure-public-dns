@@ -11,7 +11,7 @@ cname:
   - name: "www"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "www1"
     ttl: 60
     record: "hmcts-prod.azurefd.net"
