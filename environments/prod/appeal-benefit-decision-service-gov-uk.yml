@@ -13,15 +13,15 @@ cname:
     record: "www.manage.appeal-benefit-decision.service.gov.uk"
   - name: "www.manage"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "www"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.www"
     ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.www.manage"
     ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"

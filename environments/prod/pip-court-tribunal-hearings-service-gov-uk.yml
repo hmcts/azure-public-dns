@@ -17,7 +17,7 @@ cname:
     shutter: false
   - name: "afdverify.www"
     ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: sign-in
     record: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
     ttl: 300

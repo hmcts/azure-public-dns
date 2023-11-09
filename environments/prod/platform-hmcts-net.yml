@@ -201,18 +201,18 @@ txt:
 cname:
   - name: "administer-orgs"
     ttl: 60
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.administer-orgs"
     ttl: 3600
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "plum"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false 
   - name: "afdverify.plum"
     ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "apply-divorce"
     ttl: 3600
     record: "www.apply-divorce.platform.hmcts.net"
@@ -221,15 +221,15 @@ cname:
     record: "www.apply-divorce.service.gov.uk"
   - name: "gateway.ccd"
     ttl: 60
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "fees-register"
     ttl: 60
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "www.fees-register"
     ttl: 60
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "idam-web-public-ethosldata"
     ttl: 60
@@ -239,32 +239,32 @@ cname:
     record: "gv-st2ccjwg4awsh2.dv.googlehosted.com"
   - name: "manage-case"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.manage-case"
     ttl: 3600
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "manage-org"
     ttl: 60
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.manage-org"
     ttl: 3600
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "manage-payments"
     ttl: 900
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "www.manage-payments"
     ttl: 900
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "www.moneyclaim"
     ttl: 300
     record: "moneyclaim.reform.hmcts.net"
   - name: "www.moneyclaim-legal"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "divorce.nonprod"
     ttl: 3600
@@ -280,19 +280,19 @@ cname:
     record: "mojmaintenance.azurewebsites.net"
   - name: "paybubble"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "www.paybubble"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "paymentoutcome-web"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "www.paymentoutcome-web"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "probate"
     ttl: 60
@@ -305,10 +305,10 @@ cname:
     record: "awverify.probate-frontend-prod-shutter.azurewebsites.net"
   - name: "reformscan"
     ttl: 3600
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.reformscan"
     ttl: 60
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "asverify.reformscan"
     ttl: 3600
     record: "asverify.reformscanprod.blob.core.windows.net"
@@ -320,89 +320,89 @@ cname:
     record: "reformscanprodstaging.blob.core.windows.net"
   - name: "register-org"
     ttl: 60
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.register-org"
     ttl: 3600
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.www.moneyclaim-legal"
     ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.gateway.ccd"
     ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.return-case-doc.ccd"
     ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "return-case-doc.ccd"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "immigration-appeal"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.immigration-appeal"
     ttl: 3600
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.www.manage-payments"
     ttl: 3600
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.manage-payments"
     ttl: 3600
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.paybubble"
     ttl: 3600
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.www.paybubble"
     ttl: 3600
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.fees-register"
     ttl: 3600
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.www.fees-register"
     ttl: 3600
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.equality-and-diversity"
     ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "equality-and-diversity"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.log-and-audit"
     ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "log-and-audit"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.idam-web-admin"
     ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "idam-web-admin"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.idam-user-dashboard"
     ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "idam-user-dashboard"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: cft-api-mgmt
-    record: hmcts-prod.azurefd.net
+    record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net
     ttl: 300
   - name: "afdverify.cft-api-mgmt"
     ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: sds-api-mgmt
     record: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
     ttl: 300
   - name: "afdverify.sds-api-mgmt"
     ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: toffee
     record: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
     ttl: 300
@@ -412,10 +412,10 @@ cname:
 
   - name: "afdverify.hmi-apim"
     ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "hmi-apim"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "em8228.mail-sscs"
     ttl: 300
@@ -542,10 +542,10 @@ cname:
   # Adoption
   - name: "afdverify.apply-for-adoption"
     ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "apply-for-adoption"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
 
   # C100
@@ -560,10 +560,10 @@ cname:
   # DTSSE
   - name: "afdverify.dtsse-ardoq-adapter"
     ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "dtsse-ardoq-adapter"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
 
   # DARTS
   - name: "afdverify.darts-portal"
@@ -576,28 +576,28 @@ cname:
 
   - name: "response"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.response"
     ttl: 3600
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "build"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.build"
     ttl: 3600
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "static-build"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.static-build"
     ttl: 3600
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "sandbox-build"
     ttl: 300
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.sandbox-build"
     ttl: 3600
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "sds-sandbox-build"
     ttl: 300
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
