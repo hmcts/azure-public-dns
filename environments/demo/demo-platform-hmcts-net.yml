@@ -42,7 +42,7 @@ txt:
   - name: "_dnsauth.cui-ra"
     ttl: 3600
     record:
-      - "n7jzgdc7mrqmh2wb15h0wqny8wgbbhz0"
+      - "ryy91pfnngctwfd73cgprb6szh2czq3j"
   - name: "_dnsauth.sign-in.pip-frontend.demo.platform.hmcts.net"
     ttl: 60
     record:

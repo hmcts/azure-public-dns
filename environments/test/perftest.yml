@@ -17,7 +17,7 @@ txt:
   - name: "_dnsauth.cui-ra"
     ttl: 3600
     record:
-      - "4knt5b6vhmd8hv8vxgyx8hsy43jprxbw"
+      - "l4y93ksk1rpsbfbyn33765yk6wfb39wh"
 
 srv: []
 
