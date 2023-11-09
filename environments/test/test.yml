@@ -17,11 +17,11 @@ txt:
   - name: "_dnsauth.sign-in.pip-frontend"
     ttl: 60
     record:
-      - "17481hchz7r0cgr45fwg5y3f1s3qdys0"
+      - "gg58h23cb85f5tz802hpqj8g0hhx8w7z"
   - name: "_dnsauth.staff.pip-frontend"
     ttl: 60
     record:
-      - "xny73sms1g52yn2lrb2tvst6xd59sl14"
+      - "tb0cnrbtv5xhrkrmnznpjgwxrgw11gnh"
 
 srv: []
 

@@ -46,11 +46,11 @@ txt:
   - name: "_dnsauth.sign-in.pip-frontend"
     ttl: 60
     record:
-      - "m1015ngxxp5ddb6mlgfsx0y9v8dbwpzs"
+      - "gcj8z4d2ff1jp0dcww1y2k0pmgx8btvv"
   - name: "_dnsauth.staff.pip-frontend"
     ttl: 60
     record:
-      - "7nq8rw1y80tyn3h94tfkcsq1mlwnh765"
+      - "n1xlvdhzs43rqcd9ql9pxlhtqm9cl1yl"
 
 srv: []
 
