@@ -15,13 +15,13 @@ A:
       
 txt:
   - name: "_dnsauth.sign-in.pip-frontend.test.platform.hmcts.net"
-    ttl: 3600
+    ttl: 60
     record:
-      - "5zrckvs8k2mgyd98rr7mz9dd4v14qqq8"
+      - "17481hchz7r0cgr45fwg5y3f1s3qdys0"
   - name: "_dnsauth.staff.pip-frontend.test.platform.hmcts.net"
-    ttl: 3600
+    ttl: 60
     record:
-      - "b0bfsdkqsprfxrxn8m7b0pbwydd3ypzt"
+      - "xny73sms1g52yn2lrb2tvst6xd59sl14"
 
 srv: []
 
