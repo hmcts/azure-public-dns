@@ -47,7 +47,7 @@ txt:
     ttl: 60
     record:
       - "m1015ngxxp5ddb6mlgfsx0y9v8dbwpzs"
-  - name: "_dnsauth.staff.pip-frontend.demo"
+  - name: "_dnsauth.staff.pip-frontend"
     ttl: 60
     record:
       - "7nq8rw1y80tyn3h94tfkcsq1mlwnh765"
