@@ -273,3 +273,10 @@ cname:
     ttl: 300
     record: "cnphmcts-classic-sbox.azurefd.net"
     shutter: false
+  - name: "toffee2"
+    ttl: 300
+    record: "sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
+    shutter_v2: true
+  - name: "afdverify.toffee2"
+    ttl: 3600
+    record: "afdverify.sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
