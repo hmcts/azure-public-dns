@@ -13,15 +13,7 @@ A:
     record:
       - "20.254.21.195"
       
-txt:
-  - name: "_dnsauth.sign-in.pip-frontend"
-    ttl: 60
-    record:
-      - "gg58h23cb85f5tz802hpqj8g0hhx8w7z"
-  - name: "_dnsauth.staff.pip-frontend"
-    ttl: 60
-    record:
-      - "tb0cnrbtv5xhrkrmnznpjgwxrgw11gnh"
+txt: []
 
 srv: []
 

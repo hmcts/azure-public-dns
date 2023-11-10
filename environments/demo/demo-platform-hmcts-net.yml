@@ -43,14 +43,6 @@ txt:
     ttl: 3600
     record:
       - "ryy91pfnngctwfd73cgprb6szh2czq3j"
-  - name: "_dnsauth.sign-in.pip-frontend"
-    ttl: 60
-    record:
-      - "gcj8z4d2ff1jp0dcww1y2k0pmgx8btvv"
-  - name: "_dnsauth.staff.pip-frontend"
-    ttl: 60
-    record:
-      - "n1xlvdhzs43rqcd9ql9pxlhtqm9cl1yl"
 
 srv: []
 
