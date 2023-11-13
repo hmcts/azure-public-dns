@@ -33,22 +33,6 @@ txt:
     ttl: 3600
     record:
       - "v=DMARC1; p=none"
-  - name: "_dnsauth.et-pet-et3"
-    ttl: 3600
-    record:
-      - "7ww8q8cbr3dj5mfl6ryv5ywq6kk3843g"
-  - name: "_dnsauth.et-pet-et1"
-    ttl: 3600
-    record:
-      - "m2sn4k4l3mzkjvszfprwmmdz5q3rftv0"
-  - name: "_dnsauth.et-pet-admin"
-    ttl: 3600
-    record:
-      - "h9tbt3v2j6550glynh9dd8yczqcqv7q9"
-  - name: "_dnsauth.cui-ra"
-    ttl: 3600
-    record:
-      - "cmzhm4s1sx402fpm6l0xskr521cxrnrx"
 
 
 cname:
