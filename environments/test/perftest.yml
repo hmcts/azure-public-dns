@@ -13,11 +13,7 @@ A:
     record:
       - "20.26.57.242"
 
-txt:
-  - name: "_dnsauth.cui-ra"
-    ttl: 3600
-    record:
-      - "l4y93ksk1rpsbfbyn33765yk6wfb39wh"
+txt: []
 
 srv: []
 

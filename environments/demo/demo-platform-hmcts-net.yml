@@ -22,27 +22,7 @@ A:
     record:
       - "20.254.22.154"
 
-txt:
-  - name: "_dnsauth.nfdiv-apply-for-divorce"
-    ttl: 3600
-    record:
-      - "03bnf96znrn70zrm2yc4s38w2ty97jyp"
-  - name: "_dnsauth.nfdiv-end-civil-partnership"
-    ttl: 3600
-    record:
-      - "8fyppglw4rvxy8w3zs8g8ry5pxnfwccr"
-  - name: "_dnsauth.moneyclaims"
-    ttl: 60
-    record:
-      - "knf8wv4ym7rh88gdz20wr5dh226bzwg0"
-  - name: "_dnsauth.moneyclaims1"
-    ttl: 60
-    record:
-      - "cn9b2w9jzh9jj5mkgg249p1sx59tl5qd"
-  - name: "_dnsauth.cui-ra"
-    ttl: 3600
-    record:
-      - "ryy91pfnngctwfd73cgprb6szh2czq3j"
+txt: []
 
 srv: []
 
