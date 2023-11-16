@@ -135,3 +135,9 @@ cname:
   - name: "wsproxy"
     ttl: 3600
     record: "wsproxy-dev.nicemushroom-6841cfc0.uksouth.azurecontainerapps.io"
+  - name: "afdverify.opal-frontend"
+    ttl: 300
+    record: "afdverify.sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
+  - name: "opal-frontend"
+    ttl: 300
+    record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
