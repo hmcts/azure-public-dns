@@ -129,6 +129,3 @@ cname:
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
     shutter: false
-  - name: "afdverify.opal-frontend"
-    ttl: 3600
-    record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
