@@ -11,10 +11,4 @@ A:
 txt:
 
 
-cname:
-  - name: "afdverify"
-    ttl: 300
-    record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
-  - name: "cdnverify"
-    ttl: 300
-    record: "cdnverify.hmcts-jdbureau-shutter-prod.azureedge.net"
+cname: []
