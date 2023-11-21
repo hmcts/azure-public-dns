@@ -27,10 +27,10 @@ srv: []
 cname:
   - name: "caps"
     ttl: 300
-    record: "hmcts-nle-int.azurefd.net"
+    record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"
   - name: "cman"
     ttl: 300
-    record: "hmcts-nle-int.azurefd.net"
+    record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"
   - name: "mcnotify"
     ttl: 300
     record: "hmcts-nle-ext.azurefd.net"
@@ -54,4 +54,4 @@ cname:
     record: "hmcts-nle-ext.azurefd.net"
   - name: "crimeportal"
     ttl: 300
-    record: "hmcts-nle-int.azurefd.net"
+    record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"

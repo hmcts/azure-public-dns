@@ -32,10 +32,10 @@ cname:
     record: "hmcts-live-int.azurefd.net"
   - name: "glimr-nle"
     ttl: 300
-    record: "hmcts-nle-int.azurefd.net"
+    record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"
   - name: "glimr-dev"
     ttl: 300
-    record: "hmcts-nle-int.azurefd.net"
+    record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"
   - name: "crime-portal-nle"
     ttl: 300
     record: "crimeportal.apps-nle.hmcts.net"
