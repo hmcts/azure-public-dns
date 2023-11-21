@@ -178,7 +178,7 @@ cname:
     record: "afdverify.sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
   - name: "_9af30f185640a6f0617d0d1ef8e9de95"
     ttl: 300
-    record: "2135FD8EB464CCFADFCD6999525A52F0.230B7360D54C272A4FB658B45A962B2E.0d8f919297a24c7c5223.sectigo.com."
+    record: "2135FD8EB464CCFADFCD6999525A52F0.230B7360D54C272A4FB658B45A962B2E.3e9057d1242855a43416.sectigo.com."
   - name: "afdverify.cft-api-mgmt"
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
