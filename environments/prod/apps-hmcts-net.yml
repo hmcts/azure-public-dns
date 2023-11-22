@@ -39,3 +39,23 @@ cname:
   - name: "crime-portal-nle"
     ttl: 300
     record: "crimeportal.apps-nle.hmcts.net"
+
+    # DARTS
+  - name: "darts-portal"
+    ttl: 300
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
+    shutter: false
+  - name: "darts-portal-staging"
+    ttl: 300
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
+    shutter: false
+  - name: "darts-portal-dev"
+    ttl: 300
+    record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
+  - name: "darts-portal-demo"
+    ttl: 300
+    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
+    shutter: false
+  - name: "darts-portal-sandbox"
+    ttl: 300
+    record: "sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
