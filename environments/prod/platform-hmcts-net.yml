@@ -565,14 +565,7 @@ cname:
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
 
-  # DARTS
-  - name: "afdverify.darts-portal"
-    ttl: 300
-    record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
-  - name: "darts-portal"
-    ttl: 300
-    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
-    shutter: false
+
 
   - name: "response"
     ttl: 300
