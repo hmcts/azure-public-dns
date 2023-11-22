@@ -48,4 +48,29 @@ cname:
     ttl: 300
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
     shutter: false
-    
+  - name: "darts-portal-staging"
+    ttl: 300
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
+    shutter: false
+  - name: "afdverify.darts-portal-staging"
+    ttl: 3600
+    record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
+  - name: "afdverify.darts-portal-dev"
+    ttl: 300
+    record: "afdverify.sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
+  - name: "darts-portal-dev"
+    ttl: 300
+    record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
+  - name: "afdverify.darts-portal-demo"
+    ttl: 3600
+    record: "afdverify.sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
+  - name: "darts-portal-demo"
+    ttl: 300
+    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
+    shutter: false
+  - name: "afdverify.darts-portal-sandbox
+    ttl: 300
+    record: "afdverify.sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
+  - name: "darts-portal-sandbox"
+    ttl: 300
+    record: "sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
