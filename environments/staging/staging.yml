@@ -105,7 +105,13 @@ cname:
   - name: vh-wowza
     ttl: 300
     record: vh-infra-wowza-stg.uksouth.cloudapp.azure.com
-
+  - name: "darts-portal"
+    ttl: 300
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
+    shutter: false
+  - name: "afdverify.darts-portal"
+    ttl: 3600
+    record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
   - name: "pre-portal"
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"

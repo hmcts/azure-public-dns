@@ -113,6 +113,12 @@ cname:
   - name: vh-video-web-pr-2057 #TO DO: REMOVE AFTER TESTING
     record: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
     ttl: 300
+  - name: "afdverify.darts-portal"
+    ttl: 300
+    record: "afdverify.sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
+  - name: "darts-portal"
+    ttl: 300
+    record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
   - name: "pre-portal"
     ttl: 300
     record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
