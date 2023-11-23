@@ -480,13 +480,6 @@ cname:
   - name: "afdverify.vh-video-web"
     ttl: 3600
     record: "afdverify.sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-  - name: "afdverify.darts-portal"
-    ttl: 3600
-    record: "afdverify.sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-  - name: "darts-portal"
-    ttl: 300
-    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-    shutter: false
   - name: "pre-portal"
     ttl: 300
     record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
