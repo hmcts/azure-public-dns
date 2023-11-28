@@ -20,16 +20,16 @@ srv: []
 cname: 
   - name: "caps"
     ttl: 300
-    record: "hmcts-live-int.azurefd.net"
+    record: "hmcts-live-int-ekcjchf8fbcpfxfz.z01.azurefd.net"
   - name: "cman"
     ttl: 300
-    record: "hmcts-live-int.azurefd.net"
+    record: "hmcts-live-int-ekcjchf8fbcpfxfz.z01.azurefd.net"
   - name: "crimeportal"
     ttl: 300
-    record: "hmcts-live-int.azurefd.net"
+    record: "hmcts-live-int-ekcjchf8fbcpfxfz.z01.azurefd.net"
   - name: "glimr"
     ttl: 300
-    record: "hmcts-live-int.azurefd.net"
+    record: "hmcts-live-int-ekcjchf8fbcpfxfz.z01.azurefd.net"
   - name: "glimr-nle"
     ttl: 300
     record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"
