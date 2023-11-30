@@ -245,6 +245,14 @@ txt:
     ttl: 3600
     record:
       - "2902f9735b"
+  - name: '_mta-sts'
+    ttl: 14400
+    record:
+      - "v=STSv1; id=30112023"
+  - name: '_smtp._tls'
+    ttl: 14400
+    record:
+      - "v=TLSRPTv1;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk"
 
 srv:
   - name: _sip._tls
@@ -305,3 +313,6 @@ cname:
   - name: _810B28CC039C9196401D691A354251B6.tools.prp
     ttl: 3600
     record: BD32A0E3FB0F43D9EC21887F343CC4A3.D2AD87C6BAD8FDCE2C0548F99C78459C.51723654306e54bdb4db.sectigo.com.
+  - name: mta-sts
+    ttl: 3600
+    record: nice-moss-0f57a4803.4.azurestaticapps.net
