@@ -249,6 +249,10 @@ txt:
     ttl: 14400
     record:
       - "v=STSv1; id=30112023"
+  - name: '_smtp._tls'
+    ttl: 14400
+    record:
+      - "v=TLSRPTv1;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk"
 
 srv:
   - name: _sip._tls
