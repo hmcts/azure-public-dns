@@ -315,4 +315,4 @@ cname:
     record: BD32A0E3FB0F43D9EC21887F343CC4A3.D2AD87C6BAD8FDCE2C0548F99C78459C.51723654306e54bdb4db.sectigo.com.
   - name: mta-sts
     ttl: 3600
-    record: nice-moss-0f57a4803.4.azurestaticapps.net
+    record: lively-forest-0c951e203.4.azurestaticapps.net
