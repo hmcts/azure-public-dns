@@ -197,6 +197,10 @@ txt:
     ttl: 3600
     record:
       - "v=DMARC1; p=none"
+  - name: 'mailrelay'
+    ttl: 14400
+    record:
+      - "validated"
 
 cname:
   - name: "administer-orgs"
