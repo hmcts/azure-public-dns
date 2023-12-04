@@ -197,6 +197,8 @@ txt:
     ttl: 3600
     record:
       - "v=DMARC1; p=none"
+  - name: "mailrelay"
+    ttl: 900
 
 cname:
   - name: "administer-orgs"
