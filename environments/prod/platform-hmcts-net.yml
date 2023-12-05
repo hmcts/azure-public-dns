@@ -345,7 +345,7 @@ cname:
   - name: "immigration-appeal"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.immigration-appeal"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
