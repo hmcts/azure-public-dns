@@ -10,7 +10,7 @@ txt:
 cname:
   - name: "*"
     ttl: 60
-    record: "www.manage-your-support-for-hmcts-services.service.gov.uk"
+    record: "manage-your-support-for-hmcts-services.service.gov.uk"
     shutter: false
   - name: "www"
     ttl: 120
