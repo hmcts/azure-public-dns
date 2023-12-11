@@ -338,9 +338,6 @@ txt: []
 srv: []
 
 cname:
-  - name: demo
-    ttl: 3600
-    record: 2406f838-b5aa-4fd3-8d4b-f486b60d53c2.cloudapp.net.
   - name: em5650
     ttl: 1800
     record: u16048077.wl078.sendgrid.net.
