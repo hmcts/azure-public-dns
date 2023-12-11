@@ -294,9 +294,6 @@ cname:
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
-  - name: "probate"
-    ttl: 60
-    record: "6a9d29fa-e848-4bc7-b62b-31f7e3979eda.cloudapp.net"
   - name: "asverify.probate"
     ttl: 60
     record: "asverify.probateprod.blob.core.windows.net"
