@@ -1,0 +1,21 @@
+ns:
+
+
+mx:
+
+A:
+
+txt:
+
+cname:
+  - name: "*"
+    ttl: 60
+    record: "manage-your-support-for-hmcts-services.service.gov.uk"
+    shutter: false
+  - name: "www"
+    ttl: 120
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+    shutter: false
+  - name: "afdverify.www"
+    ttl: 3600
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"

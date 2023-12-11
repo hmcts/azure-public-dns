@@ -206,6 +206,14 @@ cname:
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
     shutter: false
+  - name: "afdverify.labs-hub-ngfw-poc"
+    ttl: 300
+    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+  - name: "labs-hub-ngfw-poc"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+    shutter: false
+
   - name: vh-video-web
     record: sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net
     ttl: 300
