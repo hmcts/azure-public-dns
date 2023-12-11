@@ -197,10 +197,6 @@ txt:
     ttl: 3600
     record:
       - "v=DMARC1; p=none"
-  - name: 'mailrelay'
-    ttl: 14400
-    record:
-      - "validated"
 
 cname:
   - name: "administer-orgs"
@@ -298,9 +294,6 @@ cname:
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
-  - name: "probate"
-    ttl: 60
-    record: "6a9d29fa-e848-4bc7-b62b-31f7e3979eda.cloudapp.net"
   - name: "asverify.probate"
     ttl: 60
     record: "asverify.probateprod.blob.core.windows.net"
@@ -345,7 +338,7 @@ cname:
   - name: "immigration-appeal"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.immigration-appeal"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
