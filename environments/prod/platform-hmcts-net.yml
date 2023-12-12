@@ -629,3 +629,8 @@ cname:
   - name: "afdverify.netbox"
     ttl: 3600
     record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
+
+   # tenable GANDI cert
+  - name: "_3F9A4543A1748F63D41BC3D28B15F929.tenable-sc"
+    ttl: 10800
+    record: "1565E06B196A8530B087718D80C9A8CC.CE7800701F925753A80DE0D48DAE1F57.76fb54ea44a230d545a9.sectigo.com."
