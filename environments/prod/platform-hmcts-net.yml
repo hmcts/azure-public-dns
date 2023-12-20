@@ -447,6 +447,9 @@ cname:
   - name: "glimr"
     ttl: 300
     record: "firewall-prod-int-palo-glimr.uksouth.cloudapp.azure.com"
+  - name: "portal-beta"
+    ttl: 300
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
 
 #### Video Hearings
   - name: "_DEFCA9944606874FF3B5E0E653FF9825"
