@@ -10,5 +10,5 @@ resource "azurerm_dns_a_record" "this" {
   name               = lower(each.value.name)
   ttl                = each.value.ttl
   records            = lookup(each.value, "shutter", false) == true ? null : length(lookup(each.value, "record", [])) == 0 ? null : each.value.record
-  target_resource_id = lookup(each.value, "shutter", false) == true ? each.value.shuter_resource_id : length(lookup(each.value, "record", [])) == 0 ? each.value.alias_target_resource_id : null
+  target_resource_id = lookup(each.value, "shutter", false) == true ? lookup(each.value, "shuter_resource_id", null) != null ? each.value.shutter_resource_id : each.value.alias_target_resource_id : length(lookup(each.value, "record", [])) == 0 ? each.value.alias_target_resource_id : null
 }
