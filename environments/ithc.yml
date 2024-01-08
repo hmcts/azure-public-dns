@@ -352,3 +352,9 @@ cname:
   - name: "cui-ra"
     ttl: 300
     record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "help-with-fees-staffapp"
+    ttl: 300
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "help-with-fees-publicapp"
+    ttl: 300
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
