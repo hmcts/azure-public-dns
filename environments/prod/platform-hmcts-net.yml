@@ -98,6 +98,10 @@ A:
     ttl: 60
     record:
       - "13.87.65.183"
+  - name: "cft-mtls-api-mgmt-appgw"
+    ttl: 60
+    record:
+      - "10.11.8.196"
   - name: "courts"
     ttl: 60
     record:
