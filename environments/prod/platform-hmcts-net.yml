@@ -101,7 +101,7 @@ A:
   - name: "cft-mtls-api-mgmt-appgw"
     ttl: 60
     record:
-      - "10.11.8.196"
+      - "20.26.73.199"
   - name: "courts"
     ttl: 60
     record:
