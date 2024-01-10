@@ -99,7 +99,7 @@ A:
     record:
       - "13.87.65.183"
   - name: "cft-mtls-api-mgmt-appgw"
-    ttl: 60
+    ttl: 300
     record:
       - "20.26.73.199"
   - name: "courts"
