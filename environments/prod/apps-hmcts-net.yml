@@ -36,9 +36,9 @@ cname:
   - name: "glimr-dev"
     ttl: 300
     record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"
-  - name: "crime-portal-nle"
+  - name: "crimeportal.staging"
     ttl: 300
-    record: "crimeportal.apps-nle.hmcts.net"
+    record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"
 
     # DARTS
   - name: "darts"
