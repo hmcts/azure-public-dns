@@ -59,6 +59,12 @@ cname:
   - name: "darts.sandbox"
     ttl: 300
     record: "sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
+  - name: "darts.ithc"
+    ttl: 300
+    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
+  - name: "darts.test"
+    ttl: 300
+    record: "sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net"
 
     # Juror
   - name: "juror"
