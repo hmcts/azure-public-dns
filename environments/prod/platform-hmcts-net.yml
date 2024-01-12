@@ -550,7 +550,7 @@ cname:
   - name: "apply-for-adoption"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: true
+    shutter: false
 
   # C100
   - name: "afdverify.c100-application"
