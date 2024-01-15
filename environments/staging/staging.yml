@@ -123,10 +123,3 @@ cname:
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
     shutter: false
-  - name: "juror-public"
-    ttl: 300
-    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
-    shutter: false
-  - name: "afdverify.juror-public"
-    ttl: 3600
-    record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
