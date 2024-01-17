@@ -6,7 +6,6 @@ A:
 
 txt:
 
-
 cname:
   - name: "www"
     ttl: 60
