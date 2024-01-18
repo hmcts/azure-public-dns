@@ -582,7 +582,7 @@ cname:
   - name: "backstage"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-  - name: "afdverify.build"
+  - name: "afdverify.backstage"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "static-build"
