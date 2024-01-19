@@ -70,6 +70,11 @@ A:
     record:
       - "20.108.48.132"
 
+  - name: "oz-dns"
+    ttl: 300
+    record:
+      - "20.0.59.160"
+
 txt:
   - name: "contact.justice"
     ttl: 3600
