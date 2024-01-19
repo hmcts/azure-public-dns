@@ -75,6 +75,11 @@ A:
     record:
       - "20.0.59.160"
 
+  - name: "nd-dns"
+    ttl: 300
+    record:
+      - "20.26.30.175"
+
 txt:
   - name: "contact.justice"
     ttl: 3600
