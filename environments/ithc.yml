@@ -48,12 +48,6 @@ cname:
   - name: "pip-frontend"
     ttl: 300
     record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
-  - name: "tmmanage.appeal-benefit-decision"
-    ttl: 60
-    record: "590582cd-441a-4601-9f6a-f8203d4c19fe.cloudapp.net"
-  - name: "ccpay-bubble"
-    ttl: 60
-    record: "11d1facb-25d7-49ef-a8dc-d698479270a2.cloudapp.net"
   - name: "decree-absolute-aks"
     ttl: 3600
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
@@ -78,9 +72,6 @@ cname:
   - name: "hmi-apim"
     ttl: 3600
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
-  - name: "tmsscs-tribunals-frontend"
-    ttl: 300
-    record: "590582cd-441a-4601-9f6a-f8203d4c19fe.cloudapp.net"
   - name: "afdverify.idam-web-public"
     ttl: 300
     record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
@@ -361,3 +352,9 @@ cname:
   - name: "cui-ra"
     ttl: 300
     record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "hwf-staffapp"
+    ttl: 300
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "hwf-publicapp"
+    ttl: 300
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"

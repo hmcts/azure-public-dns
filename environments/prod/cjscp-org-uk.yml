@@ -338,9 +338,6 @@ txt: []
 srv: []
 
 cname:
-  - name: demo
-    ttl: 3600
-    record: 2406f838-b5aa-4fd3-8d4b-f486b60d53c2.cloudapp.net.
   - name: em5650
     ttl: 1800
     record: u16048077.wl078.sendgrid.net.
@@ -467,3 +464,6 @@ cname:
   - name: _D80B074C9833F2C916AF17778EF1BD11.apigw
     ttl: 600
     record: 1B3310ECA825134A21B7C0D534244FF7.62266E8F477040A1AC713FF3D7D28C59.717110d196d456b5f4f3.sectigo.com.
+  - name: _644DBB05B67CA84E8968D44570653655.onlineplea.dev07
+    ttl: 600
+    record: 7FF5F6908FDC36B13FAC96960D17EE34.1BAB89300266B0F151384744E5E9252C.2400b97cf5216fb6d71f.sectigo.com.

@@ -98,6 +98,10 @@ A:
     ttl: 60
     record:
       - "13.87.65.183"
+  - name: "cft-mtls-api-mgmt-appgw"
+    ttl: 300
+    record:
+      - "20.26.73.199"
   - name: "courts"
     ttl: 60
     record:
@@ -121,19 +125,15 @@ A:
   - name: "portal"
     ttl: 60
     record:
-      - "20.108.187.55"
-  - name: "portal-beta"
+      - "20.58.23.145"
+  - name: "portal-old"
     ttl: 60
     record:
-      - "20.58.23.145"
+      - "20.108.187.55"
   - name: "sftp"
     ttl: 300
     record:
       - "51.132.40.106"
-  - name: "backstage"
-    ttl: 300
-    record:
-      - "10.10.73.250"
   - name: "sod-ss"
     ttl: 60
     record:
@@ -153,7 +153,7 @@ A:
   - name: "vpn"
     ttl: 60
     record:
-      - "51.141.230.130"
+      - "20.58.20.26"
   - name: "cvp-recording"
     ttl: 60
     record:
@@ -294,9 +294,6 @@ cname:
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
-  - name: "probate"
-    ttl: 60
-    record: "6a9d29fa-e848-4bc7-b62b-31f7e3979eda.cloudapp.net"
   - name: "asverify.probate"
     ttl: 60
     record: "asverify.probateprod.blob.core.windows.net"
@@ -450,6 +447,9 @@ cname:
   - name: "glimr"
     ttl: 300
     record: "firewall-prod-int-palo-glimr.uksouth.cloudapp.azure.com"
+  - name: "portal-beta"
+    ttl: 300
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
 
 #### Video Hearings
   - name: "_DEFCA9944606874FF3B5E0E653FF9825"
@@ -579,6 +579,12 @@ cname:
   - name: "afdverify.build"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+  - name: "backstage"
+    ttl: 300
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+  - name: "afdverify.backstage"
+    ttl: 3600
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "static-build"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
@@ -632,3 +638,8 @@ cname:
   - name: "afdverify.netbox"
     ttl: 3600
     record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
+
+   # tenable GANDI cert
+  - name: "_3F9A4543A1748F63D41BC3D28B15F929.tenable-sc"
+    ttl: 10800
+    record: "1565E06B196A8530B087718D80C9A8CC.CE7800701F925753A80DE0D48DAE1F57.76fb54ea44a230d545a9.sectigo.com."

@@ -223,7 +223,7 @@ txt:
       - "Dynatrace-site-verification=d47aef0a-5479-4cca-a55c-61e11aa2dfd2__h43u3tim5arpipfnpqj3l75aap"
       - "google-site-verification=4lnbRW6qCFRgeNOyGIONf-Z2xyieSnKiHMngA60wxpE"
       - "google-site-verification=TMU69wadrpW6V0YxpFfxuXST3nKEiMWWHA2KN88CwvI"
-      - "v=spf1 include:spf.protection.outlook.com include:notifications.service.gov.uk include:mailrelay.platform.hmcts.net include:prod.mailrelay.platform.hmcts.net a:c.spf.service-now.com -all"
+      - "v=spf1 include:spf.protection.outlook.com include:notifications.service.gov.uk include:prod.mailrelay.platform.hmcts.net a:c.spf.service-now.com -all"
       - "v=verifydomain MS=6154796"
   - name: cp.cjs
     ttl: 3600

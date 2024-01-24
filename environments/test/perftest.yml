@@ -264,5 +264,6 @@ cname:
   - name: "cui-ra"
     ttl: 300
     record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
-
-
+  - name: "sdt"
+    ttl: 300
+    record: "cft-mtls-api-mgmt-appgw.perftest.platform.hmcts.net"
