@@ -41,7 +41,7 @@ cname:
     record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"
   - name: "sdrs.staging"
     ttl: 300
-    record: "sdrs.staging.apps.hmcts.net"
+    record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"
 
 
     # DARTS
