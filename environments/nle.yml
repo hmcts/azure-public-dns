@@ -47,3 +47,6 @@ cname:
   - name: "glimr-dev"
     ttl: 300
     record: "firewall-nonprodi-palo-glimr-dev.uksouth.cloudapp.azure.com"
+  - name: "sdrs"
+    ttl: 300
+    record: "firewall-nonprodi-palo-sdrs.uksouth.cloudapp.azure.com"

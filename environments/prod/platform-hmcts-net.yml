@@ -450,6 +450,9 @@ cname:
   - name: "portal-beta"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+  - name: "sdrs"
+    ttl: 300
+    record: "firewall-prod-int-palo-sdrs.uksouth.cloudapp.azure.com"
 
 #### Video Hearings
   - name: "_DEFCA9944606874FF3B5E0E653FF9825"
