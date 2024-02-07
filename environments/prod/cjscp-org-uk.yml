@@ -195,7 +195,7 @@ A:
   - name: onlineplea.dev07
     ttl: 3600
     record:
-      - 51.11.44.0      
+      - 51.11.44.0
   - name: onlineplea.nft
     ttl: 3600
     record:
@@ -243,7 +243,7 @@ A:
   - name: prosecuting.dev07
     ttl: 3600
     record:
-      - 51.11.44.0      
+      - 51.11.44.0
   - name: prosecuting.nft
     ttl: 600
     record:
@@ -475,4 +475,7 @@ cname:
     record: DF018083FC834D510D40DBA16CF623B1.9DF914041D43207308197599018D8571.bd4d97fdf70dbe40e3b5.sectigo.com.
   - name: _F1D21A28371FBCD3E3A0242946B5A5CE.rota
     ttl: 10800
-    record: 9AB12A29575E8A58311A58A3CFDD1CA6.16B4AC90D138358E25437C10F61E88DC.c3e2daaba83a8b120263.sectigo.com.    
+    record: 9AB12A29575E8A58311A58A3CFDD1CA6.16B4AC90D138358E25437C10F61E88DC.c3e2daaba83a8b120263.sectigo.com.
+  - name: _BB10D6263EF21155E470412E5073AEA8.onlineplea.dev
+    ttl: 10800
+    record: 1FBFF15BB5097CAE79E378ECFDF82309.98BA6230376915C1EDF3CCD8625A055E.3a61a3787e672293f03f.sectigo.com.
