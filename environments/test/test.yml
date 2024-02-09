@@ -82,6 +82,12 @@ cname:
   - name: "sptribs-frontend"
     ttl: 300
     record: "hmcts-test.azurefd.net"
+  - name: "afdverify.sptribs-dss-update-case-web"
+    ttl: 3600
+    record: "afdverify.hmcts-test.azurefd.net"
+  - name: "sptribs-dss-update-case-web"
+    ttl: 300
+    record: "hmcts-test.azurefd.net"
   - name: "pre-portal"
     ttl: 300
     record: "sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net"
