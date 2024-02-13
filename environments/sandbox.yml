@@ -223,6 +223,13 @@ cname:
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
     shutter: false
+  - name: "afdverify.lab-apps-njs"
+    ttl: 300
+    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+  - name: "lab-apps-njs"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+    shutter: false
 
   - name: vh-video-web
     record: sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net
