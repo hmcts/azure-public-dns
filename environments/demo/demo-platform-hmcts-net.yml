@@ -22,6 +22,11 @@ A:
     record:
       - "20.254.22.154"
 
+  - name: "darts-gateway"
+    ttl: 300
+    record:
+      - "10.25.32.99"
+      
 txt: []
 
 srv: []
