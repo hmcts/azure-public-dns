@@ -62,17 +62,30 @@ parameters:
       # - deployment: 'Demo'
       #   environment: 'demo'
       #   component: 'demo'
-      #   resource_group_name: 'azure-control-mgmt-rg'
-      #   serviceConnection: 'Reform-CFT-Mgmt'
+      #   publicZoneResourceGroup: 'reformmgmtrg'
+      #   publicZoneSubscription: 'Reform-CFT-Mgmt'
+      #   privateZoneSubscription: 'DTS-CFTPTL-INTSVC'
+      #   privateZoneResourceGroup: 'core-infra-intsvc-rg'
+      #   filename: 'environments/demo/demo-platform-hmcts-net.yml'
+      #   zones:
+      #   - demo.platform.hmcts.net
       #   dependsOn:
-      #     - Precheck
+      #     - Sandbox
       # - deployment: 'Dev'
       #   environment: 'dev'
       #   component: 'dev'
-      #   resource_group_name: 'azure-control-mgmt-rg'
-      #   serviceConnection: 'Reform-CFT-Mgmt'
+      #   publicZoneResourceGroup: 'reformmgmtrg'
+      #   publicZoneSubscription: 'Reform-CFT-Mgmt'
+      #   privateZoneSubscription: 'DTS-CFTPTL-INTSVC'
+      #   privateZoneResourceGroup: 'core-infra-intsvc-rg'
+      #   filename: 'environments/dev/dev.yml environments/dev/preview.yml'
+      #   zones:
+      #     - dnsname: dev.platform.hmcts.net
+      #       filename: 'environments/dev/dev.yml'
+      #     - dnsname: preview.platform.hmcts.net
+      #       filename: 'environments/dev/preview.yml'
       #   dependsOn:
-      #     - Precheck
+      #     - Sandbox
       # - deployment: 'Ithc'
       #   environment: 'ithc'
       #   component: 'ithc'

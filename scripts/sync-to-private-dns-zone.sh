@@ -66,7 +66,7 @@ for zoneName in $zones; do
         # Extract values from each entry
         recordName=$(echo "$entry" | jq -r '.name')
         recordValue=$(echo "$entry" | jq -r '.record')
-        
+
         syncPrivateDNS=$(echo "$entry" | jq -r '.syncPrivateDNS')
         if [ "$syncPrivateDNS" != "false" ]; then
             echo $recordName;
