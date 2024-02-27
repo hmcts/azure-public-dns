@@ -123,7 +123,7 @@ stages:
       - stage: ${{ deployment.deployment }}
         # dependsOn: ${{ deployment.dependsOn }}
         jobs:
-          - job: Run sync script
+          - job: RunSyncScript
             pool:
               vmImage: ${{ variables.agentPool }}
             timeoutInMinutes: ${{ variables.timeoutInMinutes }}
