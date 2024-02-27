@@ -9,6 +9,10 @@ privateZoneResourceGroup=$4 #"core-infra-intsvc-rg"
 privateZoneSubscription=$5 #"DTS-CFTSBOX-INTSVC"
 
 echo "filename: $filename"
+echo "publicZoneResourceGroup: $publicZoneResourceGroup"
+echo "publicZoneSubscription: $publicZoneSubscription"
+echo "privateZoneResourceGroup: $privateZoneResourceGroup"
+echo "privateZoneSubscription: $privateZoneSubscription"
 echo "zones: $6"
 
 for zone in "${@:6}"; do
