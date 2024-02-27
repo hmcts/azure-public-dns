@@ -7,24 +7,17 @@ publicZoneResourceGroup=$2 #"reformmgmtrg"
 publicZoneSubscription=$3 #"Reform-CFT-Mgmt"
 privateZoneResourceGroup=$4 #"core-infra-intsvc-rg"
 privateZoneSubscription=$5 #"DTS-CFTSBOX-INTSVC"
+zones=( "${*:6}" )
 
 echo "filename: $filename"
 echo "publicZoneResourceGroup: $publicZoneResourceGroup"
 echo "publicZoneSubscription: $publicZoneSubscription"
 echo "privateZoneResourceGroup: $privateZoneResourceGroup"
 echo "privateZoneSubscription: $privateZoneSubscription"
-echo "zones: $6"
+echo "zones: $zones"
 
-IFS=',' read -ra ZONES <<< "$6"
-for zone in "${ZONES[@]}"; do
-  echo $zone
-done
-
-
-
-for zone in "${@:6}"; do
-    # Process each zone
-    echo "Processing zone: $zone"
+for n in $zones; do
+    echo $n
 done
 
 # Retrieve CNAME records from public DNS zone
