@@ -31,7 +31,7 @@ for zoneName in $zones; do
     existingPrivateRecords=$(az network private-dns record-set list --zone-name $zoneName -g $privateZoneResourceGroup --subscription $privateZoneSubscription --query "[?contains(type,'CNAME')].[name]" -o tsv)
 
     # Loop through public DNS records and create corresponding private DNS records if they don't exist
-    
+
     # for record in $(echo "$publicRecords" | jq -r '.[] | @base64'); do
     #     _jq() {
     #     echo ${record} | base64 --decode | jq -r ${1}
@@ -65,9 +65,10 @@ for zoneName in $zones; do
     while IFS= read -r entry; do
         # Extract values from each entry
         recordName=$(echo "$entry" | jq -r '.name')
+        recordValue=$(_jq '.record')
         syncPrivateDNS=$(echo "$entry" | jq -r '.syncPrivateDNS')
-        if [ "$name" != "false" ]; then
-            echo $name;
+        if [ "$syncPrivateDNS" != "false" ]; then
+            echo $recordName;
             if ! echo "$existingPrivateRecords" | grep -q "$recordName"; then
                 # Create the record in private zone
                 az network private-dns record-set cname create -g $privateZoneResourceGroup -z $zoneName  -n "$recordName" --subscription $privateZoneSubscription
