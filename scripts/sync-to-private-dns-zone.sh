@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Variables
-zoneName="sandbox.platform.hmcts.net"
+# zoneName="sandbox.platform.hmcts.net"
 filename=$1
 publicZoneResourceGroup=$2 #"reformmgmtrg"
 publicZoneSubscription=$3 #"Reform-CFT-Mgmt"
@@ -16,36 +16,51 @@ echo "privateZoneResourceGroup: $privateZoneResourceGroup"
 echo "privateZoneSubscription: $privateZoneSubscription"
 echo "zones: $zones"
 
-for n in $zones; do
-    echo $n
+cnames=$(yq eval '.cname[]' "$filename")
+for cname in $(echo "$cnames" | jq -r '.[] | @base64'); do
+    _jq() {
+     echo ${cname} | base64 --decode | jq -r ${1}
+    }
+    recordName2=$(_jq '.name')
+    
+    if [ "$syncPrivateDNS" == "false" ]; then
+        echo "Skipping sync of CNAME record $recordName2 to private DNS zone."
+        continue
+    fi
+
 done
 
-# Retrieve CNAME records from public DNS zone
-publicRecords=$(az network dns record-set list --zone-name $zoneName -g $publicZoneResourceGroup --subscription $publicZoneSubscription --query "[?contains(type,'CNAME')].{Name:name, Type:type, TTL:ttl, CNAMERecord:CNAMERecord.cname}")
+for zoneName in $zones; do
 
-privateZoneId=$(az network private-dns zone show -g $privateZoneResourceGroup -n $zoneName --query id -o tsv --subscription $privateZoneSubscription)
+    # Retrieve CNAME records from public DNS zone
+    publicRecords=$(az network dns record-set list --zone-name $zoneName -g $publicZoneResourceGroup --subscription $publicZoneSubscription --query "[?contains(type,'CNAME')].{Name:name, Type:type, TTL:ttl, CNAMERecord:CNAMERecord.cname}")
 
-# Retrieve existing CNAME records from private DNS zone
-existingPrivateRecords=$(az network private-dns record-set list --zone-name $zoneName -g $privateZoneResourceGroup --subscription $privateZoneSubscription --query "[?contains(type,'CNAME')].[name]" -o tsv)
+    privateZoneId=$(az network private-dns zone show -g $privateZoneResourceGroup -n $zoneName --query id -o tsv --subscription $privateZoneSubscription)
 
-# Loop through public DNS records and create corresponding private DNS records if they don't exist
-for record in $(echo "$publicRecords" | jq -r '.[] | @base64'); do
-    _jq() {
-     echo ${record} | base64 --decode | jq -r ${1}
-    }
-    recordName=$(_jq '.Name')
-    recordTTL=$(_jq '.TTL')
-    recordValue=$(_jq '.CNAMERecord')
-    echo $recordValue
+    # Retrieve existing CNAME records from private DNS zone
+    existingPrivateRecords=$(az network private-dns record-set list --zone-name $zoneName -g $privateZoneResourceGroup --subscription $privateZoneSubscription --query "[?contains(type,'CNAME')].[name]" -o tsv)
 
-    # Check if the record already exists in private zone
-    # if ! az network private-dns record-set cname list --zone-name $zoneName -g $privateZoneResourceGroup --subscription $privateZoneSubscription --query "[?name=='$recordName'].name" | grep -q "$recordName"; then
-    if ! echo "$existingPrivateRecords" | grep -q "$recordName"; then
-        # Create the record in private zone
-        az network private-dns record-set cname create -g $privateZoneResourceGroup -z $zoneName  -n "$recordName" --subscription $privateZoneSubscription
-        az network private-dns record-set cname set-record --record-set-name "$recordName" -g $privateZoneResourceGroup --zone-name $zoneName --cname $recordValue  --subscription $privateZoneSubscription
-        echo "Created record $recordName in private zone."
-    else
-        echo "Record $recordName already exists in private zone. Skipping..."
-    fi
+    # Loop through public DNS records and create corresponding private DNS records if they don't exist
+    for record in $(echo "$publicRecords" | jq -r '.[] | @base64'); do
+        _jq() {
+        echo ${record} | base64 --decode | jq -r ${1}
+        }
+        recordName=$(_jq '.Name')
+        recordTTL=$(_jq '.TTL')
+        recordValue=$(_jq '.CNAMERecord')
+        echo $recordValue
+
+        # Check if the record already exists in private zone
+        # if ! az network private-dns record-set cname list --zone-name $zoneName -g $privateZoneResourceGroup --subscription $privateZoneSubscription --query "[?name=='$recordName'].name" | grep -q "$recordName"; then
+        if ! echo "$existingPrivateRecords" | grep -q "$recordName"; then
+            # Create the record in private zone
+            az network private-dns record-set cname create -g $privateZoneResourceGroup -z $zoneName  -n "$recordName" --subscription $privateZoneSubscription
+            az network private-dns record-set cname set-record --record-set-name "$recordName" -g $privateZoneResourceGroup --zone-name $zoneName --cname $recordValue  --subscription $privateZoneSubscription
+            echo "Created record $recordName in private zone."
+        else
+            echo "Record $recordName already exists in private zone. Skipping..."
+        fi
+    done
+
+    
 done
