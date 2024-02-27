@@ -15,6 +15,13 @@ echo "privateZoneResourceGroup: $privateZoneResourceGroup"
 echo "privateZoneSubscription: $privateZoneSubscription"
 echo "zones: $6"
 
+IFS=',' read -ra ZONES <<< "$6"
+for zone in "${ZONES[@]}"; do
+  echo $zone
+done
+
+
+
 for zone in "${@:6}"; do
     # Process each zone
     echo "Processing zone: $zone"
