@@ -39,7 +39,13 @@ variables:
   - name: ado_service_connection
     value: OPS-APPROVAL-GATE-MGMT-ENVS
 
-
+parameters:
+  - name: overrideAction
+    type: string
+    default: run
+    values:
+      - run
+      
   - name: environment_components
     type: object
     default:
