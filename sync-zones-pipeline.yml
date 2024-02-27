@@ -42,11 +42,9 @@ variables:
 parameters:
   - name: overrideAction
     type: string
-    default: plan
+    default: run
     values:
-      - plan
-      - apply
-      - destroy
+      - run
 
   - name: environment_components
     type: object
@@ -132,5 +130,5 @@ stages:
                 inputs:
                   scriptType: bash
                   scriptPath: scripts/sync-to-private-dns-zone.sh
-                  arguments: "${{ variables.filename }} ${{ variables.publicZoneResourceGroup }} ${{ variables.publicZoneSubscription }} ${{ variables.privateZoneResourceGroup }} ${{ variables.privateZoneSubscription }} ${{ join(deployment.zones, ' ') }}"
+                  arguments: '${{ variables.filename }} ${{ variables.publicZoneResourceGroup }} ${{ variables.publicZoneSubscription }} ${{ variables.privateZoneResourceGroup }} ${{ variables.privateZoneSubscription }}'
                   azureSubscription: ${{ variables.ado_service_connection }}
