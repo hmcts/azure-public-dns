@@ -45,14 +45,14 @@ parameters:
     default: run
     values:
       - run
-      
+
   - name: environment_components
     type: object
     default:
       - deployment: 'Sandbox'
         environment: 'sandbox'
         component: 'sandbox'
-        publicZoneResourceGroup: 'azure-control-mgmt-rg'
+        publicZoneResourceGroup: 'reformmgmtrg'
         publicZoneSubscription: 'Reform-CFT-Mgmt'
         privateZoneSubscription: 'DTS-CFTSBOX-INTSVC'
         privateZoneResourceGroup: 'core-infra-intsvc-rg'
