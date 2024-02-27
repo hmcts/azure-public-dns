@@ -1,0 +1,136 @@
+# Docs:
+# https://aka.ms/yaml
+
+name: Azure Public DNS zone to Private DNS zone Sync up
+
+trigger:
+  batch: true
+  branches:
+    include:
+    - master
+  paths:
+    include:
+      - scripts/sync-to-private-dns-zone.sh
+      - sync-zones-pipeline.yml
+
+pr:
+  branches:
+    include:
+      - '*'
+  paths:
+    include:
+      - scripts/sync-to-private-dns-zone.sh
+      - sync-zones-pipeline.yml
+
+schedules:
+  - cron: "0 3 * * *"
+    displayName: Daily build @ 3am
+    branches:
+      include:
+        - master
+    
+variables:
+  - name: timeoutInMinutes
+    value: 60
+  - name: agentPool
+    value: 'ubuntu-latest'
+  - name: build
+    value: $(Build.BuildNumber)
+  - name: ado_service_connection
+    value: OPS-APPROVAL-GATE-MGMT-ENVS
+
+parameters:
+  - name: overrideAction
+    type: string
+    default: plan
+    values:
+      - plan
+      - apply
+      - destroy
+
+  - name: environment_components
+    type: object
+    default:
+      - deployment: 'Sandbox'
+        environment: 'sandbox'
+        component: 'sandbox'
+        publicZoneResourceGroup: 'azure-control-mgmt-rg'
+        publicZoneSubscription: 'Reform-CFT-Mgmt'
+        privateZoneSubscription: 'DTS-CFTSBOX-INTSVC'
+        privateZoneResourceGroup: 'core-infra-intsvc-rg'
+        filename: 'environments/sandbox.yml'
+        zones:
+        - sandbox.platform.hmcts.net
+        - demo.platform.hmcts.net
+      # - deployment: 'Demo'
+      #   environment: 'demo'
+      #   component: 'demo'
+      #   resource_group_name: 'azure-control-mgmt-rg'
+      #   serviceConnection: 'Reform-CFT-Mgmt'
+      #   dependsOn:
+      #     - Precheck
+      # - deployment: 'Dev'
+      #   environment: 'dev'
+      #   component: 'dev'
+      #   resource_group_name: 'azure-control-mgmt-rg'
+      #   serviceConnection: 'Reform-CFT-Mgmt'
+      #   dependsOn:
+      #     - Precheck
+      # - deployment: 'Ithc'
+      #   environment: 'ithc'
+      #   component: 'ithc'
+      #   resource_group_name: 'azure-control-mgmt-rg'
+      #   serviceConnection: 'Reform-CFT-Mgmt'
+      #   dependsOn:
+      #     - Precheck
+      # - deployment: 'Test'
+      #   environment: 'test'
+      #   component: 'test'
+      #   resource_group_name: 'azure-control-mgmt-rg'
+      #   serviceConnection: 'Reform-CFT-Mgmt'
+      #   dependsOn:
+      #     - Precheck
+      # - deployment: 'Staging'
+      #   environment: 'staging'
+      #   component: 'staging'
+      #   resource_group_name: 'azure-control-mgmt-rg'
+      #   serviceConnection: 'Reform-CFT-Mgmt'
+      #   dependsOn:
+      #     - Precheck
+      # - deployment: 'nle'
+      #   environment: 'nle'
+      #   component: 'nle'
+      #   resource_group_name: 'azure-control-mgmt-rg'
+      #   serviceConnection: 'Reform-CFT-Mgmt'
+      #   dependsOn:
+      #     - Precheck
+      # - deployment: 'Prod'
+      #   environment: 'prod'
+      #   component: 'prod'
+      #   resource_group_name: 'azure-control-mgmt-rg'
+      #   serviceConnection: 'Reform-CFT-Mgmt'
+      #   dependsOn:
+      #     - Precheck
+
+stages:
+  - stage: Pipeline
+    jobs:
+      - job: Pipeline
+        timeoutInMinutes: ${{ variables.timeoutInMinutes }}
+        pool:
+          vmImage: ${{ variables.agentPool }}
+  - ${{ each deployment in parameters.environment_components }}:
+      - stage: ${{ deployment.deployment }}
+        # dependsOn: ${{ deployment.dependsOn }}
+        jobs:
+          - job: Run sync script
+            pool:
+              vmImage: ${{ variables.agentPool }}
+            timeoutInMinutes: ${{ variables.timeoutInMinutes }}
+            steps:
+              - task: AzureCLI@2
+                inputs:
+                  scriptType: bash
+                  scriptPath: scripts/sync-to-private-dns-zone.sh
+                  arguments: '${{ variables.filename }} ${{ variables.publicZoneResourceGroup }} ${{ variables.publicZoneSubscription }} ${{ variables.privateZoneResourceGroup }} ${{ variables.privateZoneSubscription }} ${{ join(deployment.zones, " ") }}'
+                  azureSubscription: ${{ variables.ado_service_connection }}
