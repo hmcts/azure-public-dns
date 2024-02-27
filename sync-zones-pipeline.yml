@@ -59,7 +59,6 @@ parameters:
         filename: 'environments/sandbox.yml'
         zones:
         - sandbox.platform.hmcts.net
-        - demo.platform.hmcts.net
       # - deployment: 'Demo'
       #   environment: 'demo'
       #   component: 'demo'
