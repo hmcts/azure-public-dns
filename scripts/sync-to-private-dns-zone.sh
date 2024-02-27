@@ -65,7 +65,8 @@ for zoneName in $zones; do
     while IFS= read -r entry; do
         # Extract values from each entry
         recordName=$(echo "$entry" | jq -r '.name')
-        recordValue=$(_jq '.record')
+        recordValue=$(echo "$entry" | jq -r '.record')
+        
         syncPrivateDNS=$(echo "$entry" | jq -r '.syncPrivateDNS')
         if [ "$syncPrivateDNS" != "false" ]; then
             echo $recordName;
