@@ -8,7 +8,7 @@ publicZoneSubscription=$3 #"Reform-CFT-Mgmt"
 privateZoneResourceGroup=$4 #"core-infra-intsvc-rg"
 privateZoneSubscription=$5 #"DTS-CFTSBOX-INTSVC"
 
-
+echo "filename: $filename"
 
 for zone in "${@:6}"; do
     # Process each zone
