@@ -21,15 +21,14 @@ json_convert=$(yq eval -o=json "$filename")
 
 yaml_names=$(echo "$json_convert" | jq -c '.cname[]')
 
-# Remove brackets and split into separate lines
-cleaned_str=$(echo "$zones" | tr -d '[]' | tr ',' '\n')
-
-# Loop through the cleaned string and extract dnsname and filename
-while IFS=':' read -r key value; do
-    dnsname=$(echo "$key" | awk -F ': ' '{print $2}' | tr -d ' ')
-    filename=$(echo "$value" | awk -F ': ' '{print $2}' | tr -d ' ')
+# Remove curly braces and split by comma
+IFS=',' read -ra entries <<< "${zones//\{/\[}"
+for entry in "${entries[@]}"; do
+    # Extract dnsname and filename values
+    dnsname=$(echo "$entry" | grep -oP 'dnsname:\s*\K[^,]+')
+    filename=$(echo "$entry" | grep -oP 'filename:\s*\K[^,]+')
     echo "DNS Name: $dnsname, Filename: $filename"
-done <<< "$cleaned_str"
+done
 
 # for zoneName in $zones; do
 
