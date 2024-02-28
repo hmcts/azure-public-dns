@@ -20,15 +20,8 @@ json_convert=$(yq eval -o=json "$filename")
 
 yaml_names=$(echo "$json_convert" | jq -c '.cname[]')
 
-for zone_info in $(echo "$6" | tr ';' '\n'); do
-  dnsname=$(echo "${zone_info}" | cut -d':' -f1)
-  filename=$(echo "${zone_info}" | cut -d':' -f2)
-  
-  # Do whatever you want with dnsname and filename
-  echo "DNS Name: ${dnsname}, Filename: ${filename}"
-  
-  # Example command using dnsname and filename
-  # command_using_dnsname_and_filename "${dnsname}" "${filename}"
+for zoneName in $zones; do
+  echo  $zoneName
 done
 
 
