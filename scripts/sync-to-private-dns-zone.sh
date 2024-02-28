@@ -7,28 +7,35 @@ publicZoneResourceGroup=$2 #"reformmgmtrg"
 publicZoneSubscription=$3 #"Reform-CFT-Mgmt"
 privateZoneResourceGroup=$4 #"core-infra-intsvc-rg"
 privateZoneSubscription=$5 #"DTS-CFTSBOX-INTSVC"
-zones=$6 #( "${*:6}" )
+zones=$6
 
 echo "filename: $filename"
 echo "publicZoneResourceGroup: $publicZoneResourceGroup"
 echo "publicZoneSubscription: $publicZoneSubscription"
 echo "privateZoneResourceGroup: $privateZoneResourceGroup"
 echo "privateZoneSubscription: $privateZoneSubscription"
-echo $zones
+echo "zones: $zones"
+echo "MY_STRING: $MY_STRING"
 
 
 json_convert=$(yq eval -o=json "$filename")
 
 yaml_names=$(echo "$json_convert" | jq -c '.cname[]')
 
-# Remove curly braces and split by comma
-IFS=',' read -ra entries <<< "${zones//\{/\[}"
-for entry in "${entries[@]}"; do
-    # Extract dnsname and filename values
-    dnsname=$(echo "$entry" | grep -oP 'dnsname:\s*\K[^,]+')
-    filename=$(echo "$entry" | grep -oP 'filename:\s*\K[^,]+')
-    echo "DNS Name: $dnsname, Filename: $filename"
-done
+# # Convert the input string to valid JSON
+# json_string=$(echo "$zones" | jq -c '.')
+
+# zones2='[{"dnsname": "dev.platform.hmcts.net", "filename": "environments/dev/dev.yml"}, {"dnsname": "test.hmcts.net", "filename": "environments/test/test.yml"}]'
+
+# # Convert the input string to valid JSON
+# json_string=$(echo "$zones2" | jq -c '.')
+
+# # Loop through each entry in the JSON
+# for entry in $(echo "$json_string" | jq -c '.[]'); do
+#     dnsname=$(echo "$entry" | jq -r '.dnsname')
+#     filename=$(echo "$entry" | jq -r '.filename')
+#     echo "DNS Name: $dnsname, Filename: $filename"
+# done
 
 # for zoneName in $zones; do
 
