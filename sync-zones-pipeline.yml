@@ -57,7 +57,7 @@ parameters:
         privateZoneSubscription: 'DTS-CFTSBOX-INTSVC'
         privateZoneResourceGroup: 'core-infra-intsvc-rg'
         filename: 'environments/sandbox.yml'
-        zones: '[{"dnsname": "dev.platform.hmcts.net", "filename": "environments/dev/dev.yml"}, {"dnsname": "test.hmcts.net", "filename": "environments/test/test.yml"}]'
+        zones: '"[{"dnsname": "dev.platform.hmcts.net", "filename": "environments/dev/dev.yml"}, {"dnsname": "test.hmcts.net", "filename": "environments/test/test.yml"}]"'
         # - dnsname: 'dev.platform.hmcts.net'
         #   filename: 'environments/dev/dev.yml'
         # - dnsname: 'test.hmcts.net'
@@ -146,5 +146,5 @@ stages:
                 inputs:
                   scriptType: bash
                   scriptPath: scripts/sync-to-private-dns-zone.sh
-                  arguments: "${{ deployment.filename }} ${{ deployment.publicZoneResourceGroup }} ${{ deployment.publicZoneSubscription }} ${{ deployment.privateZoneResourceGroup }} ${{ deployment.privateZoneSubscription }} '${{ deployment.zones }}'"
+                  arguments: "${{ deployment.filename }} ${{ deployment.publicZoneResourceGroup }} ${{ deployment.publicZoneSubscription }} ${{ deployment.privateZoneResourceGroup }} ${{ deployment.privateZoneSubscription }} ${{ deployment.zones }}"
                   azureSubscription: ${{ variables.ado_service_connection }}
