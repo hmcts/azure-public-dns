@@ -22,20 +22,16 @@ json_convert=$(yq eval -o=json "$filename")
 
 yaml_names=$(echo "$json_convert" | jq -c '.cname[]')
 
-# # Convert the input string to valid JSON
-# json_string=$(echo "$zones" | jq -c '.')
 
-# zones2='[{"dnsname": "dev.platform.hmcts.net", "filename": "environments/dev/dev.yml"}, {"dnsname": "test.hmcts.net", "filename": "environments/test/test.yml"}]'
+# Convert the input string to valid JSON
+json_string=$(echo "$zones" | jq -c '.')
 
-# # Convert the input string to valid JSON
-# json_string=$(echo "$zones2" | jq -c '.')
-
-# # Loop through each entry in the JSON
-# for entry in $(echo "$json_string" | jq -c '.[]'); do
-#     dnsname=$(echo "$entry" | jq -r '.dnsname')
-#     filename=$(echo "$entry" | jq -r '.filename')
-#     echo "DNS Name: $dnsname, Filename: $filename"
-# done
+# Loop through each entry in the JSON
+for entry in $(echo "$json_string" | jq -c '.[]'); do
+    dnsname=$(echo "$entry" | jq -r '.dnsname')
+    filename=$(echo "$entry" | jq -r '.filename')
+    echo "DNS Name: $dnsname, Filename: $filename"
+done
 
 # for zoneName in $zones; do
 
