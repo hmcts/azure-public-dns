@@ -15,7 +15,7 @@ echo "publicZoneSubscription: $publicZoneSubscription"
 echo "privateZoneResourceGroup: $privateZoneResourceGroup"
 echo "privateZoneSubscription: $privateZoneSubscription"
 echo "zones: $zones"
-echo "MY_STRING: $MY_STRING"
+
 
 
 json_convert=$(yq eval -o=json "$filename")

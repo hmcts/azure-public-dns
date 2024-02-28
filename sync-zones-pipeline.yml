@@ -146,7 +146,5 @@ stages:
                 inputs:
                   scriptType: bash
                   scriptPath: scripts/sync-to-private-dns-zone.sh
-                  arguments: "${{ deployment.filename }} ${{ deployment.publicZoneResourceGroup }} ${{ deployment.publicZoneSubscription }} ${{ deployment.privateZoneResourceGroup }} ${{ deployment.privateZoneSubscription }} ${{ deployment.zones }}"
+                  arguments: '${{ deployment.filename }} ${{ deployment.publicZoneResourceGroup }} ${{ deployment.publicZoneSubscription }} ${{ deployment.privateZoneResourceGroup }} ${{ deployment.privateZoneSubscription }} ${{ deployment.zones }}'
                   azureSubscription: ${{ variables.ado_service_connection }}
-                  env:
-                    MY_STRING: ${{ deployment.zones }}
