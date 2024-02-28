@@ -7,7 +7,7 @@ publicZoneResourceGroup=$2 #"reformmgmtrg"
 publicZoneSubscription=$3 #"Reform-CFT-Mgmt"
 privateZoneResourceGroup=$4 #"core-infra-intsvc-rg"
 privateZoneSubscription=$5 #"DTS-CFTSBOX-INTSVC"
-zones=$6 #( "${*:6}" )
+zones="$6" #( "${*:6}" )
 
 echo "filename: $filename"
 echo "publicZoneResourceGroup: $publicZoneResourceGroup"
