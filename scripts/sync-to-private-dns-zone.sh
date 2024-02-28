@@ -2,12 +2,12 @@
 
 # Variables
 # zoneName="sandbox.platform.hmcts.net"
-filename=$1
-publicZoneResourceGroup=$2 #"reformmgmtrg"
-publicZoneSubscription=$3 #"Reform-CFT-Mgmt"
-privateZoneResourceGroup=$4 #"core-infra-intsvc-rg"
-privateZoneSubscription=$5 #"DTS-CFTSBOX-INTSVC"
-zones=$6
+
+publicZoneResourceGroup=$1 #"reformmgmtrg"
+publicZoneSubscription=$2 #"Reform-CFT-Mgmt"
+privateZoneResourceGroup=$3 #"core-infra-intsvc-rg"
+privateZoneSubscription=$4 #"DTS-CFTSBOX-INTSVC"
+zones=$5
 
 echo "filename: $filename"
 echo "publicZoneResourceGroup: $publicZoneResourceGroup"
