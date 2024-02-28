@@ -58,7 +58,11 @@ parameters:
         privateZoneResourceGroup: 'core-infra-intsvc-rg'
         filename: 'environments/sandbox.yml'
         zones:
-        - sandbox.platform.hmcts.net
+        - dnsname: dev.platform.hmcts.net
+          filename: 'environments/dev/dev.yml'
+        - dnsname: test.hmcts.net
+          filename: 'environments/test/test.yml'
+        # - sandbox.platform.hmcts.net
       # - deployment: 'Demo'
       #   environment: 'demo'
       #   component: 'demo'
