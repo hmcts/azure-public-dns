@@ -7,7 +7,7 @@ publicZoneResourceGroup=$2 #"reformmgmtrg"
 publicZoneSubscription=$3 #"Reform-CFT-Mgmt"
 privateZoneResourceGroup=$4 #"core-infra-intsvc-rg"
 privateZoneSubscription=$5 #"DTS-CFTSBOX-INTSVC"
-zones=( "${*:6}" )
+zones=$6 #( "${*:6}" )
 
 echo "filename: $filename"
 echo "publicZoneResourceGroup: $publicZoneResourceGroup"
@@ -20,8 +20,19 @@ json_convert=$(yq eval -o=json "$filename")
 
 yaml_names=$(echo "$json_convert" | jq -c '.cname[]')
 
-for zoneName in $zones; do
- echo "zoneName: $zoneName"
+for row in $(echo "${zones}" | jq -r '.[] | @base64'); do
+  _jq() {
+    echo "${row}" | base64 --decode | jq -r "${1}"
+  }
+  
+  dnsname=$(_jq '.dnsname')
+  filename2=$(_jq '.filename')
+  
+  # Do whatever you want with dnsname and filename
+  echo "DNS Name: ${dnsname}, Filename: ${filename2}"
+  
+  # Example command using dnsname and filename
+  # command_using_dnsname_and_filename "${dnsname}" "${filename}"
 done
 
 
