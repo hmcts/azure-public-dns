@@ -7,7 +7,7 @@ publicZoneResourceGroup=$2 #"reformmgmtrg"
 publicZoneSubscription=$3 #"Reform-CFT-Mgmt"
 privateZoneResourceGroup=$4 #"core-infra-intsvc-rg"
 privateZoneSubscription=$5 #"DTS-CFTSBOX-INTSVC"
-zones="$6" #( "${*:6}" )
+zones=$6 #( "${*:6}" )
 
 echo "filename: $filename"
 echo "publicZoneResourceGroup: $publicZoneResourceGroup"
@@ -15,16 +15,21 @@ echo "publicZoneSubscription: $publicZoneSubscription"
 echo "privateZoneResourceGroup: $privateZoneResourceGroup"
 echo "privateZoneSubscription: $privateZoneSubscription"
 echo $zones
-echo $7
+
 
 json_convert=$(yq eval -o=json "$filename")
 
 yaml_names=$(echo "$json_convert" | jq -c '.cname[]')
 
-for zoneName in $zones; do
-  echo  $zoneName
-done
+# Convert the string to valid JSON
+json_str=$(echo "$zones" | sed 's/{/{"/g; s/}/"}/g; s/:/":"/g; s/,/", "/g')
 
+# Loop through the JSON and print dnsname and filename values
+echo "$json_str" | jq -c '.[] | {dnsname: .dnsname, filename: .filename}' | while read -r line; do
+    dnsname=$(echo "$line" | jq -r '.dnsname')
+    filename=$(echo "$line" | jq -r '.filename')
+    echo "DNS Name: $dnsname, Filename: $filename"
+done
 
 # for zoneName in $zones; do
 
