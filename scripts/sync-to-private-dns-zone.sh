@@ -38,7 +38,22 @@ for entry in $(echo "$json_string" | jq -c '.[]'); do
     # Retrieve existing CNAME records from private DNS zone
     existingPrivateRecords=$(az network private-dns record-set list --zone-name $zoneName -g $privateZoneResourceGroup --subscription $privateZoneSubscription --query "[?contains(type,'CNAME')].[name]" -o tsv)
 
+    
+            while IFS= read -r entry; do
+                # Extract values from each entry
+                recordName2=$(echo "$entry" | jq -r '.name')
+                syncPrivateDNS=$(echo "$entry" | jq -r '.syncPrivateDNS')
+                if [[ "$syncPrivateDNS" == "false" ]]; then
+                    echo "recordName2 $recordName2";
+                    recordPrivateDnsList+=("$recordName2")
+                fi
+                
+            done <<< "$yaml_names"
+    
+    
     # Loop through public DNS records and create corresponding private DNS records if they don't exist
+
+
 
     for record in $(echo "$publicRecords" | jq -r '.[] | @base64'); do
         _jq() {
@@ -51,17 +66,15 @@ for entry in $(echo "$json_string" | jq -c '.[]'); do
         ignore_record=false
         echo $recordValue
 
-            while IFS= read -r entry; do
-                # Extract values from each entry
-                recordName2=$(echo "$entry" | jq -r '.name')
-                syncPrivateDNS=$(echo "$entry" | jq -r '.syncPrivateDNS')
-                if [[ "$syncPrivateDNS" == "false" && $recordName == $recordName2 ]]; then
+        for value in "${recordPrivateDnsList[@]}"
+        do
+            echo $value
+                if [[ $recordName == $value ]]; then
                     echo "recordName $recordName";
-                    echo "recordName2 $recordName2";
+                    echo "value $value";
                     ignore_record=true
                 fi
-                
-            done <<< "$yaml_names"
+        done
 
         # Check if the record already exists in private zone
         # if ! az network private-dns record-set cname list --zone-name $zoneName -g $privateZoneResourceGroup --subscription $privateZoneSubscription --query "[?name=='$recordName'].name" | grep -q "$recordName"; then
