@@ -68,13 +68,13 @@ for entry in $(echo "$json_string" | jq -c '.[]'); do
         for value in "${recordPrivateDnsList[@]}"
         do 
             if [[ $recordName == $value ]]; then
-                    # echo "recordName $recordName";
-                    # echo "value $value";
                     ignore_record=true
-                if echo "$existingPrivateRecords" | grep -q "$value"; then
-                        az network private-dns record-set cname delete -g $privateZoneResourceGroup -z $zoneName  -n "$value" --subscription $privateZoneSubscription  --yes
-                        echo "deleted $value from $zoneName zone"
-                fi
+
+                # removing delete code for now
+                # if echo "$existingPrivateRecords" | grep -q "$value"; then
+                #         az network private-dns record-set cname delete -g $privateZoneResourceGroup -z $zoneName  -n "$value" --subscription $privateZoneSubscription  --yes
+                #         echo "deleted $value from $zoneName zone"
+                # fi
             fi
         done
 

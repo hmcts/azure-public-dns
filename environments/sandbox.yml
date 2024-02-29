@@ -137,7 +137,7 @@ cname:
   - name: "netbox"
     ttl: 300
     record: "sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
-    # syncPrivateDNS: false
+    syncPrivateDNS: false
   - name: "afdverify.idam-web-public"
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
