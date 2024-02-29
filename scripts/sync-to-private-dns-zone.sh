@@ -1,12 +1,11 @@
 #!/usr/bin/env bash
 
-# Variables
-# zoneName="sandbox.platform.hmcts.net"
 
-publicZoneResourceGroup=$1 #"reformmgmtrg"
-publicZoneSubscription=$2 #"Reform-CFT-Mgmt"
-privateZoneResourceGroup=$3 #"core-infra-intsvc-rg"
-privateZoneSubscription=$4 #"DTS-CFTSBOX-INTSVC"
+
+publicZoneResourceGroup=$1
+publicZoneSubscription=$2
+privateZoneResourceGroup=$3
+privateZoneSubscription=$4
 zones=$5
 
 echo "filename: $filename"
@@ -69,15 +68,18 @@ for entry in $(echo "$json_string" | jq -c '.[]'); do
         for value in "${recordPrivateDnsList[@]}"
         do
             echo $value
-                if [[ $recordName == $value ]]; then
+
+            if echo "$existingPrivateRecords" | grep -q "$value"; then
+                        az network private-dns record-set cname delete -g $privateZoneResourceGroup -z $zoneName  -n "$value" --subscription $privateZoneSubscription
+                        echo "deleted $value from $zoneName zone as"
+            fi
+            if [[ $recordName == $value ]]; then
                     # echo "recordName $recordName";
                     # echo "value $value";
                     ignore_record=true
-                fi
+            fi
         done
 
-        # Check if the record already exists in private zone
-        # if ! az network private-dns record-set cname list --zone-name $zoneName -g $privateZoneResourceGroup --subscription $privateZoneSubscription --query "[?name=='$recordName'].name" | grep -q "$recordName"; then
         if ! echo "$existingPrivateRecords" | grep -q "$recordName" && ! $ignore_record; then
             # Create the record in private zone
             az network private-dns record-set cname create -g $privateZoneResourceGroup -z $zoneName  -n "$recordName" --subscription $privateZoneSubscription
@@ -89,34 +91,5 @@ for entry in $(echo "$json_string" | jq -c '.[]'); do
     done
 
     ##### END OF LOOP #####
-
-
-    ##### NEW LOOP #####
-
-
-
-    # echo $yaml_names
-
-    # while IFS= read -r entry; do
-    #     # Extract values from each entry
-    #     recordName=$(echo "$entry" | jq -r '.name')
-    #     recordValue=$(echo "$entry" | jq -r '.record')
-
-    #     syncPrivateDNS=$(echo "$entry" | jq -r '.syncPrivateDNS')
-    #     if [ "$syncPrivateDNS" != "false" ]; then
-    #         echo $recordName;
-    #         if ! echo "$existingPrivateRecords" | grep -q "$recordName"; then
-    #             # Create the record in private zone
-    #             az network private-dns record-set cname create -g $privateZoneResourceGroup -z $zoneName  -n "$recordName" --subscription $privateZoneSubscription
-    #             az network private-dns record-set cname set-record --record-set-name "$recordName" -g $privateZoneResourceGroup --zone-name $zoneName --cname $recordValue  --subscription $privateZoneSubscription
-    #             echo "Created record $recordName in private zone."
-    #         else
-    #             echo "Record $recordName already exists in private zone. Skipping..."
-    #         fi
-    #     fi
-        
-    # done <<< "$yaml_names"
-
-    ##### END OF NEW LOOP #####
     
 done
