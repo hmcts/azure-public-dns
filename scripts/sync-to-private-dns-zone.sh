@@ -84,7 +84,11 @@ for entry in $(echo "$json_string" | jq -c '.[]'); do
             az network private-dns record-set cname set-record --record-set-name "$recordName" -g $privateZoneResourceGroup --zone-name $zoneName --cname $recordValue  --subscription $privateZoneSubscription
             echo "Created record $recordName in private zone."
         else
-            echo "Record $recordName already exists in private zone. Skipping..."
+            if $ignore_record; then
+                echo "Record $recordName set NOT to sync with private dns zone" 
+            else
+                echo "Record $recordName already exists in private zone. Skipping..."   
+            fi
         fi
     done
 
