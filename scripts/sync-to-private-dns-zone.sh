@@ -70,8 +70,8 @@ for entry in $(echo "$json_string" | jq -c '.[]'); do
         do
             echo $value
                 if [[ $recordName == $value ]]; then
-                    echo "recordName $recordName";
-                    echo "value $value";
+                    # echo "recordName $recordName";
+                    # echo "value $value";
                     ignore_record=true
                 fi
         done
