@@ -57,6 +57,8 @@ parameters:
         privateZoneSubscription: 'DTS-CFTSBOX-INTSVC'
         privateZoneResourceGroup: 'core-infra-intsvc-rg'
         zones: '"[{\"dnsname\": \"sandbox.platform.hmcts.net\", \"filename\": \"environments/sandbox.yml\"}]"'
+        dependsOn:
+          - Pipeline
       - deployment: 'Demo'
         environment: 'demo'
         component: 'demo'
