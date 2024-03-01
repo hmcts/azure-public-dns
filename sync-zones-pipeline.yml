@@ -67,21 +67,17 @@ parameters:
         zones: '"[{\"dnsname\": \"demo.platform.hmcts.net\", \"filename\": \"environments/demo/demo-platform-hmcts-net.yml\"}]"'
         dependsOn:
           - Sandbox
-      # - deployment: 'Dev'
-      #   environment: 'dev'
-      #   component: 'dev'
-      #   publicZoneResourceGroup: 'reformmgmtrg'
-      #   publicZoneSubscription: 'Reform-CFT-Mgmt'
-      #   privateZoneSubscription: 'DTS-CFTPTL-INTSVC'
-      #   privateZoneResourceGroup: 'core-infra-intsvc-rg'
-      #   filename: 'environments/dev/dev.yml environments/dev/preview.yml'
-      #   zones:
-      #     - dnsname: dev.platform.hmcts.net
-      #       filename: 'environments/dev/dev.yml'
-      #     - dnsname: preview.platform.hmcts.net
-      #       filename: 'environments/dev/preview.yml'
-      #   dependsOn:
-      #     - Sandbox
+      - deployment: 'Dev'
+        environment: 'dev'
+        component: 'dev'
+        publicZoneResourceGroup: 'reformmgmtrg'
+        publicZoneSubscription: 'Reform-CFT-Mgmt'
+        privateZoneSubscription: 'DTS-CFTPTL-INTSVC'
+        privateZoneResourceGroup: 'core-infra-intsvc-rg'
+        filename: 'environments/dev/dev.yml environments/dev/preview.yml'
+        zones: '"[{\"dnsname\": \"dev.platform.hmcts.net\", \"filename\": \"environments/dev/dev.yml\"},{\"dnsname\": \"preview.platform.hmcts.net\", \"filename\": \"environments/dev/preview.yml\"}]"'
+        dependsOn:
+          - Sandbox
       # - deployment: 'Ithc'
       #   environment: 'ithc'
       #   component: 'ithc'
