@@ -89,13 +89,16 @@ parameters:
         zones: '"[{\"dnsname\": \"ithc.platform.hmcts.net\", \"filename\": \"environments/ithc.yml\"}]"'
         dependsOn:
           - Sandbox
-      # - deployment: 'Test'
-      #   environment: 'test'
-      #   component: 'test'
-      #   resource_group_name: 'azure-control-mgmt-rg'
-      #   serviceConnection: 'Reform-CFT-Mgmt'
-      #   dependsOn:
-      #     - Precheck
+      - deployment: 'Test'
+        environment: 'test'
+        component: 'test'
+        publicZoneResourceGroup: 'reformmgmtrg'
+        publicZoneSubscription: 'Reform-CFT-Mgmt'
+        privateZoneSubscription: 'DTS-CFTPTL-INTSVC'
+        privateZoneResourceGroup: 'core-infra-intsvc-rg'
+        zones: '"[{\"dnsname\": \"test.platform.hmcts.net\", \"filename\": \"environments/test/test.yml\"},{\"dnsname\": \"perftest.platform.hmcts.net\", \"filename\": \"environments/test/perftest.yml\"}]"'
+        dependsOn:
+          - Sandbox
       # - deployment: 'Staging'
       #   environment: 'staging'
       #   component: 'staging'
