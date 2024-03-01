@@ -57,18 +57,16 @@ parameters:
         privateZoneSubscription: 'DTS-CFTSBOX-INTSVC'
         privateZoneResourceGroup: 'core-infra-intsvc-rg'
         zones: '"[{\"dnsname\": \"sandbox.platform.hmcts.net\", \"filename\": \"environments/sandbox.yml\"}]"'
-      # - deployment: 'Demo'
-      #   environment: 'demo'
-      #   component: 'demo'
-      #   publicZoneResourceGroup: 'reformmgmtrg'
-      #   publicZoneSubscription: 'Reform-CFT-Mgmt'
-      #   privateZoneSubscription: 'DTS-CFTPTL-INTSVC'
-      #   privateZoneResourceGroup: 'core-infra-intsvc-rg'
-      #   filename: 'environments/demo/demo-platform-hmcts-net.yml'
-      #   zones:
-      #   - demo.platform.hmcts.net
-      #   dependsOn:
-      #     - Sandbox
+      - deployment: 'Demo'
+        environment: 'demo'
+        component: 'demo'
+        publicZoneResourceGroup: 'reformmgmtrg'
+        publicZoneSubscription: 'Reform-CFT-Mgmt'
+        privateZoneSubscription: 'DTS-CFTPTL-INTSVC'
+        privateZoneResourceGroup: 'core-infra-intsvc-rg'
+        zones: '"[{\"dnsname\": \"demo.platform.hmcts.net\", \"filename\": \"environments/demo/demo-platform-hmcts-net.yml\"}]"'
+        dependsOn:
+          - Sandbox
       # - deployment: 'Dev'
       #   environment: 'dev'
       #   component: 'dev'

@@ -85,7 +85,7 @@ for entry in $(echo "$json_string" | jq -c '.[]'); do
             echo "Created record $recordName in private zone."
         else
             if $ignore_record; then
-                echo "Record $recordName set NOT to sync with private dns zone" 
+                echo "$recordName set NOT to sync with private dns zone" 
             else
                 echo "Record $recordName already exists in private zone. Skipping..."   
             fi
