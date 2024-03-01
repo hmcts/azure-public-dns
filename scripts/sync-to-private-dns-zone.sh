@@ -23,7 +23,7 @@ json_string=$(echo "$zones" | jq -c '.')
 for entry in $(echo "$json_string" | jq -c '.[]'); do
     zoneName=$(echo "$entry" | jq -r '.dnsname')
     filename=$(echo "$entry" | jq -r '.filename')
-    echo "zone Name: $zoneName, Filename: $filename"
+    echo "SYNCING  - zone Name: $zoneName, Filename: $filename"
 
     json_convert=$(yq eval -o=json "$filename")
 
