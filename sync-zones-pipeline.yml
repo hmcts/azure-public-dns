@@ -109,13 +109,6 @@ parameters:
         zones: '"[{\"dnsname\": \"staging.hearings.reform.hmcts.net\", \"filename\": \"environments/staging/hearings-reform-hmcts-net.yml\"},{\"dnsname\": \"aat.platform.hmcts.net\", \"filename\": \"environments/staging/aat.yml\"},{\"dnsname\": \"staging.platform.hmcts.net\", \"filename\": \"environments/staging/staging.yml\"},{\"dnsname\": \"staging.internal.hmcts.net\", \"filename\": \"environments/staging/staging-internal-hmcts-net.yml\"}]"'
         dependsOn:
           - Sandbox
-      # - deployment: 'nle'
-      #   environment: 'nle'
-      #   component: 'nle'
-      #   resource_group_name: 'azure-control-mgmt-rg'
-      #   serviceConnection: 'Reform-CFT-Mgmt'
-      #   dependsOn:
-      #     - Precheck
       # - deployment: 'Prod'
       #   environment: 'prod'
       #   component: 'prod'
