@@ -26,7 +26,7 @@ A:
     ttl: 300
     record:
       - "10.25.32.99"
-      
+
 txt: []
 
 srv: []
@@ -221,12 +221,14 @@ cname:
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
   - name: "pcq"
     ttl: 300
+    shutter: true
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
   - name: "afdverify.pcq"
     ttl: 300
     record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
   - name: "pcq-int"
     ttl: 300
+    shutter: true
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
   - name: "afdverify.pcq-int"
     ttl: 300
