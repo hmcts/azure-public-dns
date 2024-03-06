@@ -8,7 +8,7 @@ privateZoneResourceGroup=$3
 privateZoneSubscription=$4
 zones=$5
 
-echo "filename: $filename"
+
 echo "publicZoneResourceGroup: $publicZoneResourceGroup"
 echo "publicZoneSubscription: $publicZoneSubscription"
 echo "privateZoneResourceGroup: $privateZoneResourceGroup"
