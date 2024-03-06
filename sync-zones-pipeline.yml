@@ -13,15 +13,6 @@ trigger:
       - scripts/sync-to-private-dns-zone.sh
       - sync-zones-pipeline.yml
 
-pr:
-  branches:
-    include:
-      - '*'
-  paths:
-    include:
-      - scripts/sync-to-private-dns-zone.sh
-      - sync-zones-pipeline.yml
-
 schedules:
   - cron: "0 3 * * *"
     displayName: Daily build @ 3am
@@ -109,13 +100,16 @@ parameters:
         zones: '"[{\"dnsname\": \"staging.hearings.reform.hmcts.net\", \"filename\": \"environments/staging/hearings-reform-hmcts-net.yml\"},{\"dnsname\": \"aat.platform.hmcts.net\", \"filename\": \"environments/staging/aat.yml\"},{\"dnsname\": \"staging.platform.hmcts.net\", \"filename\": \"environments/staging/staging.yml\"},{\"dnsname\": \"staging.internal.hmcts.net\", \"filename\": \"environments/staging/staging-internal-hmcts-net.yml\"}]"'
         dependsOn:
           - Sandbox
-      # - deployment: 'Prod'
-      #   environment: 'prod'
-      #   component: 'prod'
-      #   resource_group_name: 'azure-control-mgmt-rg'
-      #   serviceConnection: 'Reform-CFT-Mgmt'
-      #   dependsOn:
-      #     - Precheck
+      - deployment: 'Prod'
+        environment: 'prod'
+        component: 'prod'
+        publicZoneResourceGroup: 'reformmgmtrg'
+        publicZoneSubscription: 'Reform-CFT-Mgmt'
+        privateZoneSubscription: 'DTS-CFTPTL-INTSVC'
+        privateZoneResourceGroup: 'core-infra-intsvc-rg'
+        zones: '"[{\"dnsname\": \"hearings.reform.hmcts.net\", \"filename\": \"environments/prod/hearings-reform-hmcts-net.yml\"},{\"dnsname\": \"hmcts.net\", \"filename\": \"environments/prod/hmcts-net.yml\"},{\"dnsname\": \"mailrelay.platform.hmcts.net\", \"filename\": \"environments/prod/mailrelay-platform-hmcts-net.yml\"},{\"dnsname\": \"platform.hmcts.net\", \"filename\": \"environments/prod/platform-hmcts-net.yml\"},{\"dnsname\": \"prod.internal.hmcts.net\", \"filename\": \"environments/prod/prod-internal-hmcts-net.yml\"},{\"dnsname\": \"prod.platform.hmcts.net\", \"filename\": \"environments/prod/prod-platform-hmcts-net.yml\"},{\"dnsname\": \"reform.hmcts.net\", \"filename\": \"environments/prod/reform-hmcts-net.yml\"}]"'
+        dependsOn:
+          - Sandbox
 
 stages:
   - stage: Pipeline
