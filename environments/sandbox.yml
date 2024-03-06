@@ -130,6 +130,7 @@ cname:
   - name: "netbox"
     ttl: 300
     record: "sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
+    syncPrivateDNS: false
   - name: "afdverify.idam-web-public"
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
@@ -254,4 +255,9 @@ cname:
   - name: "plumclassic2"
     ttl: 300
     record: "cnphmcts-classic-sbox.azurefd.net"
+    shutter: false
+    syncPrivateDNS: false
+  - name: "labs-goldenpath-connor-okane"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
     shutter: false
