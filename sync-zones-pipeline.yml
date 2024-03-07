@@ -13,6 +13,8 @@ trigger:
       - scripts/sync-to-private-dns-zone.sh
       - sync-zones-pipeline.yml
 
+pr: none # Disable pull request triggers.
+
 schedules:
   - cron: "0 3 * * *"
     displayName: Daily build @ 3am
