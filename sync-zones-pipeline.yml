@@ -12,6 +12,9 @@ trigger:
     include:
       - scripts/sync-to-private-dns-zone.sh
       - sync-zones-pipeline.yml
+  exclude:
+    - refs:
+        startsWith: refs/pull/
 
 schedules:
   - cron: "0 3 * * *"
