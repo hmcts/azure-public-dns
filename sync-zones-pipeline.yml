@@ -12,9 +12,8 @@ trigger:
     include:
       - scripts/sync-to-private-dns-zone.sh
       - sync-zones-pipeline.yml
-  exclude:
-    - refs:
-        startsWith: refs/pull/*
+
+pr: none # Disable pull request triggers.
 
 schedules:
   - cron: "0 3 * * *"
