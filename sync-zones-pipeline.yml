@@ -14,7 +14,7 @@ trigger:
       - sync-zones-pipeline.yml
   exclude:
     - refs:
-        startsWith: refs/pull/
+        startsWith: refs/pull/*
 
 schedules:
   - cron: "0 3 * * *"
