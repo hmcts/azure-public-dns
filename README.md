@@ -95,4 +95,4 @@ of the underlying Terraform provider:
 
 We have got sync in place where if there are CNAMES which does not exist on any of the corresponding private DNS zone, we will sync it overnight using sync-zones-pipeline.yml.
 
-Please note that if you are creating new dns zone and if that dns zone also exist on the private dns, in order for sync to work, you will have to manually update it here. https://github.com/hmcts/azure-public-dns/blob/master/sync-zones-pipeline.yml#L40-L112  
+Please note that if you are creating new dns zone and if that dns zone also exist on the private dns, in order for sync to work, you will have to manually update on `sync-zones-pipeline.yml` file.
