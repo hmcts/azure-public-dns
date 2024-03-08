@@ -209,7 +209,7 @@ cname:
   - name: "plum"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false 
+    shutter: true 
   - name: "afdverify.plum"
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
