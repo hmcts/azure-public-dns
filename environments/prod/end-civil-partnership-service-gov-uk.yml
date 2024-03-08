@@ -11,11 +11,11 @@ cname:
   - name: "*"
     ttl: 60
     record: "www.end-civil-partnership.service.gov.uk"
-    shutter: false
+    shutter: true
   - name: "www"
     ttl: 120
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.www"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
