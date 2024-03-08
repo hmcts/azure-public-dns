@@ -8,8 +8,12 @@ A: []
 txt: []
 
 cname:
+  - name: "*"
+    ttl: 300
+    record: "manage-your-support-for-hmcts-services.service.gov.uk"
+    shutter: false
   - name: "www"
-    ttl: 60
+    ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.www"
