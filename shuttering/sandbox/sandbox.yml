@@ -32,75 +32,41 @@ cname:
     shutter: false
   - name: "reformscan"
     shutter: false
-  - name: "afdverify.reformscan"
-    shutter: false
   - name: "plum"
     shutter: false
   - name: "www.plum"
-    shutter: false
-  - name: "afdverify.plum"
-    shutter: false
-  - name: "afdverify.www.plum"
     shutter: false
   - name: "plum.uksouth"
     shutter: false
   - name: "netbox"
     shutter: false
-  - name: "afdverify.idam-web-public"
-    shutter: false
   - name: "idam-web-public"
-    shutter: false
-  - name: "afdverify.idam-web-public-sprod"
     shutter: false
   - name: "idam-web-public-sprod"
     shutter: false
-  - name: "afdverify.idam-web-admin"
-    shutter: false
   - name: "idam-web-admin"
-    shutter: false
-  - name: "afdverify.idam-user-dashboard"
     shutter: false
   - name: "idam-user-dashboard"
     shutter: false
-  - name: "afdverify.hmcts-access"
-    shutter: false
   - name: "hmcts-access"
-    shutter: false
-  - name: "afdverify.hmi-apim"
     shutter: false
   - name: "hmi-apim"
     shutter: false
   - name: "toffee"
     shutter: true
-  - name: "afdverify.toffee"
-    shutter: false
   - name: "_9af30f185640a6f0617d0d1ef8e9de95"
-    shutter: false
-  - name: "afdverify.cft-api-mgmt"
     shutter: false
   - name: "cft-api-mgmt"
     shutter: false
   - name: "sds-api-mgmt"
     shutter: false
-  - name: "afdverify.sds-api-mgmt"
-    shutter: false
-  - name: "afdverify.labs-apps-njs"
-    shutter: false
   - name: "labs-apps-njs"
     shutter: false
   - name: vh-video-web
     shutter: false
-  - name: "afdverify.vh-video-web"
-    shutter: false
   - name: vh-admin-web
     shutter: false
-  - name: "afdverify.vh-admin-web"
-    shutter: false
   - name: vh-test-web
-    shutter: false
-  - name: "afdverify.vh-test-web"
-    shutter: false
-  - name: "afdverify.safe-settings"
     shutter: false
   - name: "safe-settings"
     shutter: true
@@ -110,8 +76,6 @@ cname:
     shutter: false
   - name: "pre-portal"
     shutter: true
-  - name: "afdverify.pre-portal"
-    shutter: false
   - name: "pip-frontend"
     shutter: false
   - name: "plumclassic"
