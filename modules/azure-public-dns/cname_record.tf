@@ -3,13 +3,13 @@ locals {
 
   // Extract A record shutter configuration from yaml input file
   cname_shuttering = yamldecode(var.shutter_config).cname
-  
+
   // Merge a record values with shutter values, if global shutter is true then ignore shutter file and set all to value of local.global_shutter(true)
   cname_configuration = [for record in var.cname_records :
-      merge(
-          record, 
-          lookup({ for shutter in local.cname_shuttering : shutter.name => shutter }, record.name, {})
-      )
+    merge(
+      record,
+      lookup({ for shutter in local.cname_shuttering : shutter.name => shutter }, record.name, {})
+    )
   ]
 }
 
