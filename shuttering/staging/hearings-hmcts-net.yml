@@ -1,0 +1,11 @@
+A: []
+
+cname:
+  - name: video
+    shutter: true
+  - name: "afdverify.video"
+    shutter: false
+  - name: admin
+    shutter: true
+  - name: "afdverify.admin"
+    shutter: false

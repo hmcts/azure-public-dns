@@ -1,0 +1,7 @@
+A:
+  - name: "@"
+    shutter: false
+
+cname:
+  - name: "afdverify"
+    shutter: false
