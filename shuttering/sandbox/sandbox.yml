@@ -8,7 +8,7 @@ A:
   - name: "cvp-recording-02"
     shutter: false
   - name: "portal"
-    shutter: false
+    shutter: true
   - name: "cft-api-mgmt-appgw"
     shutter: false
   - name: "sds-api-mgmt-appgw"
@@ -106,7 +106,7 @@ cname:
   - name: "selector2-azurecomm-prod-net._domainkey"
     shutter: false
   - name: "pre-portal"
-    shutter: false
+    shutter: true
   - name: "afdverify.pre-portal"
     shutter: false
   - name: "pip-frontend"
