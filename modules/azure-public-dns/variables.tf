@@ -40,6 +40,6 @@ variable "shutter_config" {
     ]
   EOF
 
-  default = []
+  default = "{ A: [], cname: []}"
 }
 variable "env" {}

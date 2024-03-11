@@ -15,5 +15,4 @@ module "prod-internal" {
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = "sbox"
   shutter_config      = data.local_file.frontdoor-sbox-hmcts-shutter-config.content
-
 }
