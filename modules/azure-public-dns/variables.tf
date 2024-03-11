@@ -25,4 +25,21 @@ variable "txt_recordsets" {
 variable "srv_recordsets" {
   default = []
 }
+variable "shutter_config" {
+  description = <<EOF
+    (Optional) A tuple containing name and shutter configuration to apply to DNS records (A and CNAME only). Missing/Unmatched records will default to false in the module code.
+
+    (Required) name - Name that matches the record name supplied to `cname_records` or `a_recordsets`. This is the `name` not the `record` value. 
+    (Required) shutter - Boolean to enable shuttering defaults to false within the module code
+
+    [
+      {
+        name: example
+        shutter: false
+      }
+    ]
+  EOF
+
+  default = []
+}
 variable "env" {}

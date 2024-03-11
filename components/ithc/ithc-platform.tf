@@ -1,5 +1,5 @@
 data "local_file" "ithc" {
-  filename = "${path.cwd}/../../environments/ithc.yml"
+  filename = "${path.cwd}/../../environments/ithc/ithc.yml"
 }
 
 
