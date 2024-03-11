@@ -44,7 +44,6 @@ A:
     ttl: 60
     record:
       - "51.132.209.233"
-    alias_target_resource_id: "/subscriptions/b72ab7b7-723f-4b18-b6f6-03b0f2c6a1bb/resourcegroups/lz-sbox-rg/providers/Microsoft.Cdn/profiles/hmcts-sbox/afdendpoints/hmcts-sbox"
 
   - name: "cft-api-mgmt-appgw"
     ttl: 60

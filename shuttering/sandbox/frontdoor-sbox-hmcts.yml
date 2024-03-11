@@ -1,3 +1,6 @@
+shutter_all_a: false
+shutter_all_cname: false
+
 A:
   - name: "@"
     shutter: false

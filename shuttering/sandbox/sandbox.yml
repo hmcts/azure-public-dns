@@ -1,3 +1,6 @@
+shutter_all_a: false
+shutter_all_cname: true
+
 A:
   - name: "ctscmail"
     shutter: false
@@ -8,7 +11,7 @@ A:
   - name: "cvp-recording-02"
     shutter: false
   - name: "portal"
-    shutter: true
+    shutter: false
   - name: "cft-api-mgmt-appgw"
     shutter: false
   - name: "sds-api-mgmt-appgw"
