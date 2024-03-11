@@ -1,6 +1,8 @@
 locals {
+  // Extract global shutter value if available or false
+  shutter_all_a = lookup(yamldecode(var.shutter_config).shutter_all_a, "shutter", false)
+
   // Extract A record shutter configuration from yaml input file
-  shutter_all_a = yamldecode(var.shutter_config).shutter_all_a
   a_shuttering  = yamldecode(var.shutter_config).A
 
   // Merge a record values with shutter values, if global shutter is true then ignore shutter file and set all to value of local.global_shutter(true)
