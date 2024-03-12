@@ -1,0 +1,309 @@
+# Shuttering all A record types requires either of the following values to be set.
+# If you shutter all A records via the `shutter_all_a` setting and one of the records does not contain either of these values Terraform will fail.
+# - shutter_resource_id
+# - alias_target_resource_id
+shutter_all_a: false
+
+shutter_all_cname: false
+
+# Shuttering any A record type requires either of the following values to be set.
+# If you shutter an A record and one of the records does not contain either of these values Terraform will fail.
+# - shutter_resource_id
+# - alias_target_resource_id
+A:
+  # dev
+  # hearings
+  - name: dev
+    shutter: false
+  - name: join.dev
+    shutter: false
+  - name: px01.dev
+    shutter: false
+  - name: px02.dev
+    shutter: false
+  - name: px03.dev
+    shutter: false
+  - name: sip.dev
+    shutter: false
+
+  # self test
+  - name: dev.self-test
+    shutter: false
+  - name: join.dev.self-test
+    shutter: false
+  - name: px01.dev.self-test
+    shutter: false
+  - name: px02.dev.self-test
+    shutter: false
+  - name: px03.dev.self-test
+    shutter: false
+  - name: sip.dev.self-test
+    shutter: false
+
+  # preprod
+  # hearings
+  - name: preprod
+    shutter: false
+  - name: join.preprod
+    shutter: false
+  - name: px01.preprod
+    shutter: false
+  - name: px02.preprod
+    shutter: false
+  - name: px03.preprod
+    shutter: false
+  - name: sip.preprod
+    shutter: false
+
+  # self test
+  - name: preprod.self-test
+    shutter: false
+  - name: join.preprod.self-test
+    shutter: false
+  - name: px01.preprod.self-test
+    shutter: false
+  - name: px02.preprod.self-test
+    shutter: false
+  - name: px03.preprod.self-test
+    shutter: false
+  - name: sip.preprod.self-test
+    shutter: false
+
+  # prod
+  # hearings
+  - name: '@'
+    shutter: false
+  - name: join
+    shutter: false
+  - name: px01
+    shutter: false
+  - name: px02
+    shutter: false
+  - name: px03
+    shutter: false
+  - name: sip
+    shutter: false
+
+  # self test
+  - name: self-test
+    shutter: false
+  - name: join.self-test
+    shutter: false
+  - name: px01.self-test
+    shutter: false
+  - name: px02.self-test
+    shutter: false
+  - name: px03.self-test
+    shutter: false
+  - name: sip.self-test
+    shutter: false
+
+  # test
+  # hearings
+  - name: test
+    shutter: false
+  - name: join.test
+    shutter: false
+  - name: px01.test
+    shutter: false
+  - name: px02.test
+    shutter: false
+  - name: px03.test
+    shutter: false
+  - name: sip.test
+    shutter: false
+  - name: stream01.test
+    shutter: false
+  - name: stream02.test
+    shutter: false1.86
+
+  # self test
+  - name: test.self-test
+    shutter: false
+  - name: join.test.self-test
+    shutter: false
+  - name: px01.test.self-test
+    shutter: false
+  - name: px02.test.self-test
+    shutter: false
+  - name: px03.test.self-test
+    shutter: false
+  - name: sip.test.self-test
+    shutter: false
+
+  # test 2
+  # hearings
+  - name: test2
+    shutter: false
+  - name: join.test2
+    shutter: false
+  - name: px01.test2
+    shutter: false
+  - name: px02.test2
+    shutter: false
+  - name: px03.test2
+    shutter: false
+  - name: sip.test2
+    shutter: false
+  - name: stream01.test2
+    shutter: false
+  - name: stream02.test2
+    shutter: false.137
+
+cname:
+  - name: "_17D2C96CF5C0A9CDE42BF3A9F81716A5.test"
+    shutter: false
+  - name: "_F264A46BF910BB76E0AA11B752F253DE.stream.test"
+    shutter: false
+  - name: "_F78198F0169C8B39122A711742D1904A.stream.test2"
+    shutter: false
+  - name: "_3F8E9CB06CCBEB447EDDA84235605832.test2"
+    shutter: false
+  - name: "_C4470C22E6152AB5F4E8384E44AECA63.sip.test2"
+    shutter: false
+  - name: "_48DEE43CE5391E4944658ED0A639DE03.sip.test"
+    shutter: false
+  - name: "_9AE740C7ECCB56BE0F5A746B58789611.sip.test.self-test"
+    shutter: false
+  - name: "_CE95CA8B4AAC0FD386520FA87ED64BB6.test.self-test"
+    shutter: false
+  - name: "_5BC511AF7CA26EC7F7BE653BD22735A0.sip.preprod"
+    shutter: false
+  - name: "_5BC511AF7CA26EC7F7BE653BD22735A0.px01.preprod"
+    shutter: false
+  - name: "_5BC511AF7CA26EC7F7BE653BD22735A0.px02.preprod"
+    shutter: false
+  - name: "_5BC511AF7CA26EC7F7BE653BD22735A0.px03.preprod"
+    shutter: false
+  - name: "_58367157C5B84C146E7CCC64B7BF3043.sip.preprod.self-test"
+    shutter: false
+  - name: "_58367157C5B84C146E7CCC64B7BF3043.px01.preprod.self-test"
+    shutter: false
+  - name: "_58367157C5B84C146E7CCC64B7BF3043.px02.preprod.self-test"
+    shutter: false
+  - name: "_58367157C5B84C146E7CCC64B7BF3043.px03.preprod.self-test"
+    shutter: false
+  - name: "_C9757D356239C241A772506CB7AE3FB1.sip.dev"
+    shutter: false
+  - name: "_C9757D356239C241A772506CB7AE3FB1.px01.dev"
+    shutter: false
+  - name: "_C9757D356239C241A772506CB7AE3FB1.px02.dev"
+    shutter: false
+  - name: "_C9757D356239C241A772506CB7AE3FB1.px03.dev"
+    shutter: false
+  - name: "_1FF91ACC5A477EAB2D470328902883E0.sip.dev.self-test"
+    shutter: false
+  - name: "_1FF91ACC5A477EAB2D470328902883E0.px01.dev.self-test"
+    shutter: false
+  - name: "_1FF91ACC5A477EAB2D470328902883E0.px02.dev.self-test"
+    shutter: false
+  - name: "_1FF91ACC5A477EAB2D470328902883E0.px03.dev.self-test"
+    shutter: false
+  - name: "_1853BCE2740C31E32578CE1F7FACB451.preprod"
+    shutter: false
+  - name: "_1853BCE2740C31E32578CE1F7FACB451.join.preprod"
+    shutter: false
+  - name: _9ABADD28C1380711E31674A501C86439.preprod.self-test
+    shutter: false
+  - name: _9ABADD28C1380711E31674A501C86439.join.preprod.self-test
+    shutter: false
+  - name: "_C05ABA6359AB3B9FFB305A57CC59EF81.dev"
+    shutter: false
+  - name: "_C05ABA6359AB3B9FFB305A57CC59EF81.join.dev"
+    shutter: false
+  - name: _382A6339C9D57452479D75F11BE28824.sip.self-test
+    shutter: false
+  - name: _382A6339C9D57452479D75F11BE28824.px01.self-test
+    shutter: false
+  - name: _382A6339C9D57452479D75F11BE28824.px02.self-test
+    shutter: false
+  - name: _382A6339C9D57452479D75F11BE28824.px03.self-test
+    shutter: false
+  - name: _83BF00A603FB7772285B7CD42719DE2B.sip
+    shutter: false
+  - name: _83BF00A603FB7772285B7CD42719DE2B.px01
+    shutter: false
+  - name: _83BF00A603FB7772285B7CD42719DE2B.px02
+    shutter: false
+  - name: _83BF00A603FB7772285B7CD42719DE2B.px03
+    shutter: false
+  - name: _83A73F75853CF72E7DECB65DFEA5278D
+    shutter: false
+  - name: _83A73F75853CF72E7DECB65DFEA5278D.join
+    shutter: false
+  - name: _DE900A421003C8C9009000815A5D8D92.dev.self-test
+    shutter: false
+  - name: _2A2691CE3B658B5944439E230CB331F7.test.self-test
+    shutter: false
+  - name: _6B39698CB17D2D7D07EAD345EE7A3AF8.dev
+    shutter: false
+  - name: _6B39698CB17D2D7D07EAD345EE7A3AF8.join.dev
+    shutter: false
+  - name: _B38B307E1A87544793C9BDDD7A2824CB.sip.test
+    shutter: false
+  - name: _FB9246CB9A8D0D8847B2DD462B9402FF.sip.test2
+    shutter: false
+  - name: _F4BF241399847309DF9CD060575203DD.sip.test.self-test
+    shutter: false
+  - name: _EAADD6BDA2F3817575B519420F718950.stream.test2
+    shutter: false
+  - name: _E77267C82D6FC200DEA9407A4E3D74DA.stream.test
+    shutter: false
+  - name: _756F7E453FD13D587ECD32E429FB90D7.test2
+    shutter: false
+  - name: _AAEFB22A60E86AB8EC4CC1AD718271AD.preprod
+    shutter: false
+  - name: _AAEFB22A60E86AB8EC4CC1AD718271AD.join.preprod
+    shutter: false
+  - name: _5564960ED968AB20A242AE21B6A99C15.preprod.self-test
+    shutter: false
+  - name: _5564960ED968AB20A242AE21B6A99C15.join.preprod.self-test
+    shutter: false
+  - name: _C9C13EC8EAAC830C6FCDA0FB5E5F2618.sip.preprod
+    shutter: false
+  - name: _C9C13EC8EAAC830C6FCDA0FB5E5F2618.px01.preprod
+    shutter: false
+  - name: _C9C13EC8EAAC830C6FCDA0FB5E5F2618.px02.preprod
+    shutter: false
+  - name: _C9C13EC8EAAC830C6FCDA0FB5E5F2618.px03.preprod
+    shutter: false
+  - name: _CFFC0F58728FFEB1AEC569F22929D62C.sip.preprod.self-test
+    shutter: false
+  - name: _CFFC0F58728FFEB1AEC569F22929D62C.px01.preprod.self-test
+    shutter: false
+  - name: _CFFC0F58728FFEB1AEC569F22929D62C.px02.preprod.self-test
+    shutter: false
+  - name: _CFFC0F58728FFEB1AEC569F22929D62C.px03.preprod.self-test
+    shutter: false
+  - name: _2839A4D7B35DEA51C78058F9261F6878.sip.dev.self-test
+    shutter: false
+  - name: _2839A4D7B35DEA51C78058F9261F6878.px01.dev.self-test
+    shutter: false
+  - name: _2839A4D7B35DEA51C78058F9261F6878.px02.dev.self-test
+    shutter: false
+  - name: _2839A4D7B35DEA51C78058F9261F6878.px03.dev.self-test
+    shutter: false
+  - name: _452D961905287940873EA732EEA7A241.test
+    shutter: false
+  - name: _9E3AAF42E6ADCEC8607BA5CF5F65A95F.vh-admin-web.prod
+    shutter: false
+  - name: _C69F01D8CBB25949FBAE2FA648D0AA6F.sip.dev
+    shutter: false
+  - name: _C69F01D8CBB25949FBAE2FA648D0AA6F.px01.dev
+    shutter: false
+  - name: _C69F01D8CBB25949FBAE2FA648D0AA6F.px02.dev
+    shutter: false
+  - name: _C69F01D8CBB25949FBAE2FA648D0AA6F.px03.dev
+    shutter: false
+  - name: _9E3AAF42E6ADCEC8607BA5CF5F65A95F.admin
+    shutter: false
+  - name: _9E3AAF42E6ADCEC8607BA5CF5F65A95F.vh-admin-web-prod
+    shutter: false
+  - name: _B8D0619942A038D8B06E0E58009038DF.dev.self-test
+    shutter: false
+  - name: _D7BC9C94CCECEF2B47A23F6CDB45C9A0.vh-user-api-prod
+    shutter: false
+  - name: _D79AD523DFFB6B8CFEC81DF7120903DD.self-test
+    shutter: false
+  - name: _D79AD523DFFB6B8CFEC81DF7120903DD.join.self-test
+    shutter: false

@@ -1,0 +1,30 @@
+# Shuttering all A record types requires either of the following values to be set.
+# If you shutter all A records via the `shutter_all_a` setting and one of the records does not contain either of these values Terraform will fail.
+# - shutter_resource_id
+# - alias_target_resource_id
+shutter_all_a: false
+
+shutter_all_cname: false
+
+# Shuttering any A record type requires either of the following values to be set.
+# If you shutter an A record and one of the records does not contain either of these values Terraform will fail.
+# - shutter_resource_id
+# - alias_target_resource_id
+A:
+  - name: "px01"
+    shutter: false
+  - name: "px02"
+    shutter: false
+  - name: "sip"
+    shutter: false
+  - name: "test"
+    shutter: false
+
+
+cname: 
+  - name: "_18D91B37F68325E927ECCA117032DF4E.sip"
+    shutter: false
+  - name: "_18D91B37F68325E927ECCA117032DF4E.px01"
+    shutter: false
+  - name: "_18D91B37F68325E927ECCA117032DF4E.px02"
+    shutter: false

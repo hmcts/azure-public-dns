@@ -1,0 +1,107 @@
+# Shuttering all A record types requires either of the following values to be set.
+# If you shutter all A records via the `shutter_all_a` setting and one of the records does not contain either of these values Terraform will fail.
+# - shutter_resource_id
+# - alias_target_resource_id
+shutter_all_a: false
+
+shutter_all_cname: false
+
+# Shuttering any A record type requires either of the following values to be set.
+# If you shutter an A record and one of the records does not contain either of these values Terraform will fail.
+# - shutter_resource_id
+# - alias_target_resource_id
+A:
+  - name: atcmdemo
+    shutter: false
+  - name: c2idemo
+    shutter: false
+  - name: c2ishowandtell
+    shutter: false
+  - name: ccr-prototype
+    shutter: false
+  - name: ccrdemo
+    shutter: false
+  - name: confluence-nle
+    shutter: false
+  - name: cp.cjs
+    shutter: false
+  - name: crowd-nle
+    shutter: false
+  - name: dev.cpp
+    shutter: false
+  - name: devcp2.cpp
+    shutter: false
+  - name: i2tdemo
+    shutter: false
+  - name: jira-nle
+    shutter: false
+  - name: pp.confluence
+    shutter: false
+  - name: pp.crowd
+    shutter: false
+  - name: pp.hipchat
+    shutter: false
+  - name: pp.jira
+    shutter: false
+  - name: preprod-bastion
+    shutter: false
+  - name: prod-bastion
+    shutter: false
+  - name: r2showandtell
+    shutter: false
+  - name: redact.c2idemo
+    shutter: false
+  - name: redact.dev.cpp
+    shutter: false
+  - name: sandbox.divorce-backoffice.reform
+    shutter: false
+  - name: sandbox.divorce.reform
+    shutter: false
+  - name: sandbox.probate-two.reform
+    shutter: false
+  - name: sandbox.probate.reform
+    shutter: false
+  - name: sandbox.sscs.reform
+    shutter: false
+  - name: test-reform
+    shutter: false
+  - name: tools
+    shutter: false
+  - name: tools.prp
+    shutter: false
+
+cname:
+  - name: "*.dev.cpp"
+    shutter: false
+  - name: autodiscover
+    shutter: false
+  - name: email
+    shutter: false
+  - name: enterpriseenrollment
+    shutter: false
+  - name: enterpriseregistration
+    shutter: false
+  - name: lyncdiscover
+    shutter: false
+  - name: msoid
+    shutter: false
+  - name: notices
+    shutter: false
+  - name: selector1._domainkey
+    shutter: false
+  - name: selector2._domainkey
+    shutter: false
+  - name: sip
+    shutter: false
+  - name: tools.oldprd
+    shutter: false
+  - name: www.notices
+    shutter: false
+  - name: _domainconnect
+    shutter: false
+  - name: _9F6B9A52ABE1DAE6B5F23DB8E18F4627.tools
+    shutter: false
+  - name: _810B28CC039C9196401D691A354251B6.tools.prp
+    shutter: false
+  - name: mta-sts
+    shutter: false
