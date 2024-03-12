@@ -15,7 +15,7 @@ cname:
   - name: "*"
     ttl: 300
     record: "manage-your-support-for-hmcts-services.service.gov.uk"
-    shutter: false
+    shutter: true
   - name: "www"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
