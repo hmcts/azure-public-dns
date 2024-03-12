@@ -453,6 +453,10 @@ cname:
   - name: "sdrs"
     ttl: 300
     record: "firewall-prod-int-palo-sdrs.uksouth.cloudapp.azure.com"
+  - name: "cui-ra"
+    ttl: 300
+    record: "manage-your-support-for-hmcts-services.service.gov.uk"
+    shutter: true
 
 #### Video Hearings
   - name: "_DEFCA9944606874FF3B5E0E653FF9825"
