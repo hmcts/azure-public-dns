@@ -3,7 +3,7 @@ data "local_file" "claim-et-sya-config" {
 }
 
 data "local_file" "claim_et_sya_shutter_config" {
-  filename = "${path.cwd}/../../shuttering/sandbox/frontdoor-sbox-hmcts.yml"
+  filename = "${path.cwd}/../../shuttering/prod/claim-employment-tribunal-service-gov-uk.yml"
 }
 
 module "claim-employment-tribunals" {
