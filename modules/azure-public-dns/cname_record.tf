@@ -5,15 +5,15 @@ locals {
   shutter_all_cname = lookup(yamldecode(var.shutter_config), "shutter_all_cname", false)
 
   // Extract A record shutter configuration from yaml input file
-  cname_shuttering  = lookup(yamldecode(var.shutter_config), "cname", [])
+  cname_shuttering = lookup(yamldecode(var.shutter_config), "cname", [])
 
   // Merge a record values with shutter values, if global shutter is true then ignore shutter file and set all to value of local.global_shutter(true)
   cname_configuration = var.cname_records != null ? [for record in var.cname_records :
     merge(
       record,
-      (local.shutter_all_cname != true ? ( local.cname_shuttering != null ? lookup({ for shutter in local.cname_shuttering : shutter.name => shutter }, record.name, {}) : {} ) : { shutter: local.shutter_all_cname })
+      (local.shutter_all_cname != true ? (local.cname_shuttering != null ? lookup({ for shutter in local.cname_shuttering : shutter.name => shutter }, record.name, {}) : {}) : { shutter : local.shutter_all_cname })
     )
-  ] :[]
+  ] : []
 }
 
 resource "azurerm_dns_cname_record" "this" {
