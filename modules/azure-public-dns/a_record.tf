@@ -9,7 +9,7 @@ locals {
   a_configuration = [for record in var.a_recordsets :
     merge(
       record,
-      (local.shutter_all_a != true ? lookup({ for shutter in local.a_shuttering : shutter.name => shutter }, record.name, {}) : { shutter : local.shutter_all_a })
+      (local.shutter_all_a != true ? lookup({ for shutter in local.a_shuttering : shutter.name => shutter }, record.name, {}) : { shutter: local.shutter_all_a })
 
     )
   ]
