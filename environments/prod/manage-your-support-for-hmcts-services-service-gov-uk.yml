@@ -1,6 +1,5 @@
 ns: []
 
-
 mx: []
 
 A:
@@ -16,7 +15,6 @@ cname:
   - name: "www"
     ttl: 300
     record: "manage-your-support-for-hmcts-services.service.gov.uk"
-    shutter: true
   - name: "afdverify.www"
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
