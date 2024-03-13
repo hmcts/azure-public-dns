@@ -1,21 +1,20 @@
 locals {
   // Extract global shutter value if available or false
-  shutter_all_a = lookup(yamldecode(var.shutter_config).shutter_all_a, "shutter", false)
+  shutter_all_a = lookup(yamldecode(var.shutter_config), "shutter_all_a", false)
 
   // Extract A record shutter configuration from yaml input file
-  a_shuttering  = yamldecode(var.shutter_config).A
+  a_shuttering  = lookup(yamldecode(var.shutter_config), "A", [])
 
   // Merge a record values with shutter values, if global shutter is true then ignore shutter file and set all to value of local.global_shutter(true)
-  a_configuration = [for record in var.a_recordsets :
+  a_configuration = var.a_recordsets != null ? [for record in var.a_recordsets :
     merge(
       record,
-      (local.shutter_all_a != true ? lookup({ for shutter in local.a_shuttering : shutter.name => shutter }, record.name, {}) : { shutter: local.shutter_all_a })
-
+      (local.shutter_all_a != true ? ( local.a_shuttering != null ? lookup({ for shutter in local.a_shuttering : shutter.name => shutter }, record.name, {}) : {} ): { shutter: local.shutter_all_a })
     )
-  ]
+  ] : []
 }
 
-# Should either be a list of records or a target_resource_id (Alias)
+# Should either be a list of records or a target_resource_id (Alias)lookup(yamldecode(data.local_file.records.content), "A", [])
 resource "azurerm_dns_a_record" "this" {
   for_each = { for record in local.a_configuration :
     record.name => record

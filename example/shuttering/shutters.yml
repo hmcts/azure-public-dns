@@ -1,0 +1,20 @@
+shutter_all_a: false
+shutter_all_cname: false
+
+A:
+  - name: "abc"
+    shutter: false
+  - name: "def-example"
+    shutter: true
+  - name: "abc-example-01"
+    shutter: false
+    
+cname:
+  - name: "ABC"
+    shutter: true
+  - name: "DEF"
+    shutter: false
+  - name: "plumclassic"
+    shutter: false
+  - name: "plumclassic2"
+    shutter: true
