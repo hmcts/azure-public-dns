@@ -29,6 +29,6 @@ resource "azurerm_dns_cname_record" "this" {
   record = lookup(each.value, "shutter", false) == true ? join(".", [join("-", [each.value.name, "shutter"]), var.zone_name]) : each.value.record
 }
 
-output "cnames" {
+output "a" {
   value = local.cname_configuration
 } 
