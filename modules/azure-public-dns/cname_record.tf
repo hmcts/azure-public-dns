@@ -11,7 +11,7 @@ locals {
   cname_configuration = var.cname_records != null ? [for record in var.cname_records :
     merge(
       record,
-      (local.shutter_all_cname != true ? (local.cname_shuttering != null ? lookup({ for shutter in local.cname_shuttering : shutter.name => shutter }, record.name, {}) : {}) : { shutter : local.shutter_all_cname })
+      (local.shutter_all_cname == true ? { shutter: true } : (local.cname_shuttering != null ? lookup({ for shutter in local.cname_shuttering : shutter.name => shutter }, record.name, {}) : {}) )
     )
   ] : []
 }
@@ -28,3 +28,7 @@ resource "azurerm_dns_cname_record" "this" {
   ttl    = each.value.ttl
   record = lookup(each.value, "shutter", false) == true ? join(".", [join("-", [each.value.name, "shutter"]), var.zone_name]) : each.value.record
 }
+
+output "cnames" {
+  value = local.cname_configuration
+} 
