@@ -62,7 +62,7 @@ cname:
   - name: "hmi-apim"
     shutter: false
   - name: "toffee"
-    shutter: true
+    shutter: false
   - name: "_9af30f185640a6f0617d0d1ef8e9de95"
     shutter: false
   - name: "cft-api-mgmt"
@@ -84,7 +84,7 @@ cname:
   - name: "selector2-azurecomm-prod-net._domainkey"
     shutter: false
   - name: "pre-portal"
-    shutter: true
+    shutter: false
   - name: "pip-frontend"
     shutter: false
   - name: "plumclassic"
