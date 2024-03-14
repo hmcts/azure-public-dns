@@ -17,8 +17,8 @@ cname:
     shutter: true
     #shuttering must be achieved by pointing to hmcts-apply-to-court-about-child-arrangements-c1.azureedge.net at present
   - name: "em5901.mail-prl"
-    shutter: true
+    shutter: false
   - name: "s1._domainkey.mail-prl"
-    shutter: true
+    shutter: false
   - name: "s2._domainkey.mail-prl"
-    shutter: true
+    shutter: false
