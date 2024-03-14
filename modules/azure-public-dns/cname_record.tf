@@ -10,11 +10,11 @@ locals {
   // Merge CNAME record values with shutter values, if global shutter is true then ignore shutter file and set all to value of true
   cname_configuration = var.cname_records != null ? [
     for record in var.cname_records : {
-      name    = record.name
-      ttl     = record.ttl
-      record  = record.record
-      shutter = ( local.shutter_all_cname != true ? 
-        ( local.cname_shuttering != null ? lookup({ for shutter in local.cname_shuttering : shutter.name => shutter }, record.name, { shutter = false }).shutter : false) : true 
+      name   = record.name
+      ttl    = record.ttl
+      record = record.record
+      shutter = (local.shutter_all_cname != true ?
+        (local.cname_shuttering != null ? lookup({ for shutter in local.cname_shuttering : shutter.name => shutter }, record.name, { shutter = false }).shutter : false) : true
       )
     }
   ] : []

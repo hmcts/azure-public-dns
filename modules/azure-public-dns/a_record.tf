@@ -8,17 +8,17 @@ locals {
   // Merge a record values with shutter values, if global shutter is true then ignore shutter file and set all to value of true
   a_configuration = var.a_recordsets != null ? [
     for record in var.a_recordsets : merge({
-      name                      = record.name
-      ttl                       = record.ttl
-      shutter                   = ( local.shutter_all_a != true ? 
-        ( local.a_shuttering != null ? lookup({ for shutter in local.a_shuttering : shutter.name => shutter }, record.name, { shutter = false }).shutter : false) : true 
+      name = record.name
+      ttl  = record.ttl
+      shutter = (local.shutter_all_a != true ?
+        (local.a_shuttering != null ? lookup({ for shutter in local.a_shuttering : shutter.name => shutter }, record.name, { shutter = false }).shutter : false) : true
       )
-    },
-    try({record = record.record}, {}),
-    try({shutter_resource_id = record.shutter_resource_id}, {}),
-    try({alias_target_resource_id = record.alias_target_resource_id}, {})
+      },
+      try({ record = record.record }, {}),
+      try({ shutter_resource_id = record.shutter_resource_id }, {}),
+      try({ alias_target_resource_id = record.alias_target_resource_id }, {})
   )] : []
-  
+
 }
 
 # Should either be a list of records or a target_resource_id (Alias)lookup(yamldecode(data.local_file.records.content), "A", [])

@@ -13,15 +13,15 @@ locals {
 
   a_configuration = local.a_records != null ? [
     for record in local.a_records : merge({
-      name                      = record.name
-      ttl                       = record.ttl
-      shutter                   = ( local.shutter_all_a != true ? 
-        ( local.a_shuttering != null ? lookup({ for shutter in local.a_shuttering : shutter.name => shutter }, record.name, { shutter = false }).shutter : false) : true 
+      name = record.name
+      ttl  = record.ttl
+      shutter = (local.shutter_all_a != true ?
+        (local.a_shuttering != null ? lookup({ for shutter in local.a_shuttering : shutter.name => shutter }, record.name, { shutter = false }).shutter : false) : true
       )
-    },
-    try({record = record.record}, {}),
-    try({shutter_resource_id = record.shutter_resource_id}, {}),
-    try({alias_target_resource_id = record.alias_target_resource_id}, {})
+      },
+      try({ record = record.record }, {}),
+      try({ shutter_resource_id = record.shutter_resource_id }, {}),
+      try({ alias_target_resource_id = record.alias_target_resource_id }, {})
   )] : []
 
   shutter_all_cname = lookup(yamldecode(data.local_file.shutters.content), "shutter_all_cname", false)
@@ -31,11 +31,11 @@ locals {
 
   cname_configuration = local.cname_records != null ? [
     for record in local.cname_records : {
-      name    = record.name
-      ttl     = record.ttl
-      record  = record.record
-      shutter = ( local.shutter_all_cname != true ? 
-        ( local.cname_shuttering != null ? lookup({ for shutter in local.cname_shuttering : shutter.name => shutter }, record.name, { shutter = false }).shutter : false) : true 
+      name   = record.name
+      ttl    = record.ttl
+      record = record.record
+      shutter = (local.shutter_all_cname != true ?
+        (local.cname_shuttering != null ? lookup({ for shutter in local.cname_shuttering : shutter.name => shutter }, record.name, { shutter = false }).shutter : false) : true
       )
     }
   ] : []
