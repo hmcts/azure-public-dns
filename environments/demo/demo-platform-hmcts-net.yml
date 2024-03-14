@@ -26,7 +26,7 @@ A:
     ttl: 300
     record:
       - "10.25.32.99"
-      
+
 txt: []
 
 srv: []
@@ -531,4 +531,3 @@ cname:
   - name: "cui-ra"
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
-    shutter: true
