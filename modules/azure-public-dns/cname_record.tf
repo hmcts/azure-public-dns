@@ -11,7 +11,7 @@ locals {
   cname_configuration = var.cname_records != null ? [for record in var.cname_records :
     merge(
       record,
-      (local.shutter_all_cname == true ? { shutter: true } : (local.cname_shuttering != null ? lookup({ for shutter in local.cname_shuttering : shutter.name => shutter }, record.name, {}) : {}) )
+      (local.shutter_all_cname == true ? { shutter : true } : (local.cname_shuttering != null ? lookup({ for shutter in local.cname_shuttering : shutter.name => shutter }, record.name, {}) : {}))
     )
   ] : []
 }
