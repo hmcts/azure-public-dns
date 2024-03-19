@@ -33,7 +33,10 @@ txt:
     ttl: 3600
     record:
       - "v=DMARC1; p=none"
-
+  - name: "pip-frontend"
+    ttl: 3600
+    record:
+      - "MS=ms13567863"
 
 cname:
   - name: "afdverify.c100-application"
@@ -45,9 +48,9 @@ cname:
   - name: "afdverify.pip-frontend"
     ttl: 300
     record: "afdverify.sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
-  - name: "pip-frontend"
-    ttl: 300
-    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
+#  - name: "pip-frontend"
+#    ttl: 300
+#    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
   - name: "decree-absolute-aks"
     ttl: 3600
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
