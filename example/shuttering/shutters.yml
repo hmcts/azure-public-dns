@@ -1,3 +1,7 @@
+# Global shutter override
+shutter_all: false
+
+# Specific record type shutter override
 shutter_all_a: false
 shutter_all_cname: false
 

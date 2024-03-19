@@ -6,7 +6,9 @@ data "local_file" "shutters" {
 }
 
 locals {
-  shutter_all_a = lookup(yamldecode(data.local_file.shutters.content), "shutter_all_a", false)
+  shutter_all = lookup(yamldecode(data.local_file.shutters.content), "shutter_all", false)
+
+  shutter_all_a = local.shutter_all == true ? true : lookup(yamldecode(data.local_file.shutters.content), "shutter_all_a", false)
 
   a_records    = lookup(yamldecode(data.local_file.records.content), "A", [])
   a_shuttering = lookup(yamldecode(data.local_file.shutters.content), "A", [])
@@ -24,7 +26,7 @@ locals {
       try({ alias_target_resource_id = record.alias_target_resource_id }, {})
   )] : []
 
-  shutter_all_cname = lookup(yamldecode(data.local_file.shutters.content), "shutter_all_cname", false)
+  shutter_all_cname = local.shutter_all == true ? true : lookup(yamldecode(data.local_file.shutters.content), "shutter_all_cname", false)
 
   cname_records    = yamldecode(data.local_file.records.content).cname
   cname_shuttering = lookup(yamldecode(data.local_file.shutters.content), "cname", [])

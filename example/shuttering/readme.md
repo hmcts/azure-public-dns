@@ -51,11 +51,18 @@ The resulting configuration is:
 There are also additional options to shutter all records which overrides the individual configuration per records:
 
 ```yaml
+shutter_all: false
 shutter_all_a: false
 shutter_all_cname: false
 ```
 
-When false these values are ignore, when true they automatically set all records to: `{ shutter: local.shutter_all_a }` where `local.shutter_all_a` is equal to `true`
+`shutter_all: false` is the most powerful of these options, it overrides all other shutter settings to match the value set in this option.
+
+`shutter_all_a: false` is specific to A record types and will override individual record shutter settings, has no effect on CNAME records
+
+`shutter_all_cname: false` is specific to CNAME record types and will override individual record shutter settings, has no effect on A records
+
+When false these values are ignored, when true they automatically set all or specific record types, depending on the setting used, to: `{ shutter: true }`.
 
 ## Running locally
 

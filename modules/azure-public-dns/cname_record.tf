@@ -1,8 +1,10 @@
 locals {
   shutter_domain = "azureedge.net"
 
-  // Extract global shutter value if available or false
-  shutter_all_cname = lookup(yamldecode(var.shutter_config), "shutter_all_cname", false)
+  # Extract shutter_all_cname value if available or false
+  # If global shutter is true, set to true otherwise set to value of shutter_all_cname
+  shutter_all_cname = local.shutter_all == true ? true : lookup(yamldecode(var.shutter_config), "shutter_all_cname", false)
+
 
   // Extract A record shutter configuration from yaml input file
   cname_shuttering = lookup(yamldecode(var.shutter_config), "cname", [])
