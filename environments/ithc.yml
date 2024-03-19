@@ -33,6 +33,10 @@ txt:
     ttl: 3600
     record:
       - "v=DMARC1; p=none"
+  - name: "pip-frontend"
+    ttl: 3600
+    record:
+      - "MS=ms13567863"
 
 
 cname:
