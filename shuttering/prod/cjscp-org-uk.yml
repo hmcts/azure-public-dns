@@ -316,3 +316,23 @@ cname:
     shutter: false
   - name: _10B849EC72AE160CD9D84E39831BF9DB.prosecuting.nft
     shutter: false
+  - name:  _BD8645B4C2D75A0BCEFC2FB88D723FEC.onlineplea.prp
+    shutter: false
+  - name:  _E0E79E88AB5A7B98C5B766992F343A7F.onlineplea
+    shutter: false
+  - name:  _BD0342C71AE3606AAB604AAA8450611A.login.support
+    shutter: false
+  - name:   _BD0342C71AE3606AAB604AAA8450611A.email-client.support
+    shutter: false
+  - name:  _BD0342C71AE3606AAB604AAA8450611A.identity-gateway.support
+    shutter: false
+  - name:  _BD0342C71AE3606AAB604AAA8450611A.manage-users.support
+    shutter: false
+  - name:  _BD0342C71AE3606AAB604AAA8450611A.my-services.support
+    shutter: false
+  - name:  _BD0342C71AE3606AAB604AAA8450611A.prosecuting-stub-idam.support
+    shutter: false
+  - name:  _BD0342C71AE3606AAB604AAA8450611A.rota-stub-idam.support
+    shutter: false
+  - name:  _BD0342C71AE3606AAB604AAA8450611A.token.support
+    shutter: false

@@ -120,7 +120,7 @@ A:
   - name: stream01.test
     shutter: false
   - name: stream02.test
-    shutter: false1.86
+    shutter: false
 
   # self test
   - name: test.self-test
@@ -153,24 +153,24 @@ A:
   - name: stream01.test2
     shutter: false
   - name: stream02.test2
-    shutter: false.137
+    shutter: false
 
 cname:
-  - name: "_17D2C96CF5C0A9CDE42BF3A9F81716A5.test"
+  - name: "_52B9ABD061E107FB9E5EFC8D1DA91A25.test"
     shutter: false
-  - name: "_F264A46BF910BB76E0AA11B752F253DE.stream.test"
+  - name: "_C73628A576F9B6172B8556109E659EDA.stream.test"
     shutter: false
-  - name: "_F78198F0169C8B39122A711742D1904A.stream.test2"
+  - name: "_56892272085E2FE509C095A4FBFC22B8.stream.test2"
     shutter: false
-  - name: "_3F8E9CB06CCBEB447EDDA84235605832.test2"
+  - name: "_818E7F49B8B0D4B9147F0F0F0BA17B56.test2"
     shutter: false
-  - name: "_C4470C22E6152AB5F4E8384E44AECA63.sip.test2"
+  - name: "_B4FD4B2224FB1BC5C71F4E5788AC66DA.sip.test2"
     shutter: false
-  - name: "_48DEE43CE5391E4944658ED0A639DE03.sip.test"
+  - name: "_9575B4A0B6818F001FABB6458C80E712.sip.test"
     shutter: false
-  - name: "_9AE740C7ECCB56BE0F5A746B58789611.sip.test.self-test"
+  - name: "_2C6F842105D780120BE44E2FE1C64591.sip.test.self-test"
     shutter: false
-  - name: "_CE95CA8B4AAC0FD386520FA87ED64BB6.test.self-test"
+  - name: "_419CD42FB9225E8C196472DDDE87CB9A.test.self-test"
     shutter: false
   - name: "_5BC511AF7CA26EC7F7BE653BD22735A0.sip.preprod"
     shutter: false
@@ -188,21 +188,21 @@ cname:
     shutter: false
   - name: "_58367157C5B84C146E7CCC64B7BF3043.px03.preprod.self-test"
     shutter: false
-  - name: "_C9757D356239C241A772506CB7AE3FB1.sip.dev"
+  - name: "_665B825DB8696C1B1699BD981CF5D8A2.sip.dev"
     shutter: false
-  - name: "_C9757D356239C241A772506CB7AE3FB1.px01.dev"
+  - name: "_665B825DB8696C1B1699BD981CF5D8A2.px01.dev"
     shutter: false
-  - name: "_C9757D356239C241A772506CB7AE3FB1.px02.dev"
+  - name: "_665B825DB8696C1B1699BD981CF5D8A2.px02.dev"
     shutter: false
-  - name: "_C9757D356239C241A772506CB7AE3FB1.px03.dev"
+  - name: "_665B825DB8696C1B1699BD981CF5D8A2.px03.dev"
     shutter: false
-  - name: "_1FF91ACC5A477EAB2D470328902883E0.sip.dev.self-test"
+  - name: "_CE7CD90FC0D64BBA073CA874C2A9D8C1.sip.dev.self-test"
     shutter: false
-  - name: "_1FF91ACC5A477EAB2D470328902883E0.px01.dev.self-test"
+  - name: "_CE7CD90FC0D64BBA073CA874C2A9D8C1.px01.dev.self-test"
     shutter: false
-  - name: "_1FF91ACC5A477EAB2D470328902883E0.px02.dev.self-test"
+  - name: "_CE7CD90FC0D64BBA073CA874C2A9D8C1.px02.dev.self-test"
     shutter: false
-  - name: "_1FF91ACC5A477EAB2D470328902883E0.px03.dev.self-test"
+  - name: "_CE7CD90FC0D64BBA073CA874C2A9D8C1.px03.dev.self-test"
     shutter: false
   - name: "_1853BCE2740C31E32578CE1F7FACB451.preprod"
     shutter: false
@@ -212,10 +212,10 @@ cname:
     shutter: false
   - name: _9ABADD28C1380711E31674A501C86439.join.preprod.self-test
     shutter: false
-  - name: "_C05ABA6359AB3B9FFB305A57CC59EF81.dev"
-    shutter: false
-  - name: "_C05ABA6359AB3B9FFB305A57CC59EF81.join.dev"
-    shutter: false
+  - name: "_257B4DC0606C2DFCC9456C986529ED6E.dev"
+    shutter: false  
+  - name: "_257B4DC0606C2DFCC9456C986529ED6E.join.dev"
+    shutter: false  
   - name: _382A6339C9D57452479D75F11BE28824.sip.self-test
     shutter: false
   - name: _382A6339C9D57452479D75F11BE28824.px01.self-test
@@ -236,8 +236,8 @@ cname:
     shutter: false
   - name: _83A73F75853CF72E7DECB65DFEA5278D.join
     shutter: false
-  - name: _DE900A421003C8C9009000815A5D8D92.dev.self-test
-    shutter: false
+  - name: _9A5FA5E1C24B6EDE5217AE6278597A3B.dev.self-test
+    shutter: false  
   - name: _2A2691CE3B658B5944439E230CB331F7.test.self-test
     shutter: false
   - name: _6B39698CB17D2D7D07EAD345EE7A3AF8.dev
@@ -256,29 +256,29 @@ cname:
     shutter: false
   - name: _756F7E453FD13D587ECD32E429FB90D7.test2
     shutter: false
-  - name: _AAEFB22A60E86AB8EC4CC1AD718271AD.preprod
+  - name: _A9DB7D939138886910041727520F6744.preprod
     shutter: false
-  - name: _AAEFB22A60E86AB8EC4CC1AD718271AD.join.preprod
+  - name: _A9DB7D939138886910041727520F6744.join.preprod
     shutter: false
-  - name: _5564960ED968AB20A242AE21B6A99C15.preprod.self-test
+  - name: _40621C30EEE9AE3631F429A407AADE5A.preprod.self-test
     shutter: false
-  - name: _5564960ED968AB20A242AE21B6A99C15.join.preprod.self-test
+  - name: _40621C30EEE9AE3631F429A407AADE5A.join.preprod.self-test
     shutter: false
-  - name: _C9C13EC8EAAC830C6FCDA0FB5E5F2618.sip.preprod
+  - name: _BA3E0E2C63384FC25E59D8851B08767A.sip.preprod
     shutter: false
-  - name: _C9C13EC8EAAC830C6FCDA0FB5E5F2618.px01.preprod
+  - name: _BA3E0E2C63384FC25E59D8851B08767A.px01.preprod
     shutter: false
-  - name: _C9C13EC8EAAC830C6FCDA0FB5E5F2618.px02.preprod
+  - name: _BA3E0E2C63384FC25E59D8851B08767A.px02.preprod
     shutter: false
-  - name: _C9C13EC8EAAC830C6FCDA0FB5E5F2618.px03.preprod
+  - name: _BA3E0E2C63384FC25E59D8851B08767A.px03.preprod
     shutter: false
-  - name: _CFFC0F58728FFEB1AEC569F22929D62C.sip.preprod.self-test
+  - name: _D94A6566028803830B9A63A5FA62AD9E.sip.preprod.self-test
     shutter: false
-  - name: _CFFC0F58728FFEB1AEC569F22929D62C.px01.preprod.self-test
+  - name: _D94A6566028803830B9A63A5FA62AD9E.px01.preprod.self-test
     shutter: false
-  - name: _CFFC0F58728FFEB1AEC569F22929D62C.px02.preprod.self-test
+  - name: _D94A6566028803830B9A63A5FA62AD9E.px02.preprod.self-test
     shutter: false
-  - name: _CFFC0F58728FFEB1AEC569F22929D62C.px03.preprod.self-test
+  - name: _D94A6566028803830B9A63A5FA62AD9E.px03.preprod.self-test
     shutter: false
   - name: _2839A4D7B35DEA51C78058F9261F6878.sip.dev.self-test
     shutter: false

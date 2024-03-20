@@ -15,10 +15,11 @@ shutter_all_cname: false
 # If you shutter an A record and one of the records does not contain either of these values Terraform will fail.
 # - shutter_resource_id
 # - alias_target_resource_id
-A: []
+A:
+  - name: "@"
+    shutter: false
+
 
 cname:
-  - name: "*"
-    shutter: false
   - name: "www"
     shutter: false
