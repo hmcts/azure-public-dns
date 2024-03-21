@@ -1,0 +1,31 @@
+A: 
+  - name: "abc"
+    ttl: 3600
+    record:
+      - "1.2.3.4"
+
+  - name: "def-example"
+    ttl: 60
+    record:
+      - "4.33.5.11"
+
+  - name: "abc-example-01"
+    ttl: 60
+    record:
+      - "4.33.5.11"
+      - "1.2.3.4"
+
+cname:
+  - name: "ABC"
+    ttl: 900
+    record: "ABC.example.com"
+  - name: "DEF"
+    ttl: 60
+    record: "DEF.example.com"
+  - name: "plumclassic"
+    ttl: 300
+    record: "plumclassic.azurefd.net"
+  - name: "plumclassic2"
+    ttl: 300
+    record: "cnphmcts-classic-sbox.azurefd.net"
+    syncPrivateDNS: false

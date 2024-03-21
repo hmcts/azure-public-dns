@@ -1,0 +1,80 @@
+# Please be careful with this setting, it will shutter ALL records in this DNS zone
+# Please ensure you read all comments first before enabling this option, there are specific requirements
+# for A records you must be aware of!
+shutter_all: false
+
+# Shuttering all A record types requires either of the following values to be set.
+# If you shutter all A records via the `shutter_all_a` setting and one of the records does not contain either of these values Terraform will fail.
+# - shutter_resource_id
+# - alias_target_resource_id
+shutter_all_a: false
+
+shutter_all_cname: false
+
+# Shuttering any A record type requires either of the following values to be set.
+# If you shutter an A record and one of the records does not contain either of these values Terraform will fail.
+# - shutter_resource_id
+# - alias_target_resource_id
+A:
+  - name: "webchat"
+    shutter: false
+  - name: "webchat-client"
+    shutter: false
+  - name: "webchat.training"
+    shutter: false
+  - name: "webchat-client.training"
+    shutter: false
+  - name: "webchat.pp"
+    shutter: false
+  - name: "webchat-client.pp"
+    shutter: false
+  - name: "wfmapp"
+    shutter: false
+  - name: "wfmapp.preprod"
+    shutter: false
+  - name: "wfmapp.training"
+    shutter: false
+  - name: "survey"
+    shutter: false
+  - name: "survey.preprod"
+    shutter: false
+  - name: "survey.training"
+    shutter: false
+
+cname:
+  - name: "_714ACDA330AE6A018ED5F5135D6104C4.webchat-client"
+    shutter: false
+  - name: "_AE6CA95E4DF868D325F5A6F1A5F1077D.webchat"
+    shutter: false
+  - name: "_e0bdcd3e999d84aec133a95f71ee1f18.wfmapp.preprod"
+    shutter: false
+  - name: "_e0bdcd3e999d84aec133a95f71ee1f18.wfmapp.training"
+    shutter: false
+  - name: "_E0BDCD3E999D84AEC133A95F71EE1F18.wfmapp.training"
+    shutter: false
+  - name: "_E0BDCD3E999D84AEC133A95F71EE1F18.wfmapp.preprod"
+    shutter: false
+  - name: "_A218E9DEFE224C14633D06BC37AB1216.wfmapp"
+    shutter: false
+  - name: "_DA62CA29F76143D6D0EE0362809A5D75.survey"
+    shutter: false
+  - name: "_DA301A9F0DA80CC521D7C2692680A2B7.survey.preprod"
+    shutter: false
+  - name: "_b5ad23a3b52771815f77a4c7a85e6345.wfmapp"
+    shutter: false
+  - name: "_B5AD23A3B52771815F77A4C7A85E6345.wfmapp"
+    shutter: false
+  - name: "_B5AD23A3B52771815F77A4C7A85E6345.www.wfmapp"
+    shutter: false
+  - name: "_DA301A9F0DA80CC521D7C2692680A2B7.survey.training"
+    shutter: false
+  - name: "_1B5CA26792718408437D943572F2A845.verint.glb"
+    shutter: false
+  - name: "_1B5CA26792718408437D943572F2A845.em.glb"
+    shutter: false
+  - name: "_1B5CA26792718408437D943572F2A845.emint.glb"
+    shutter: false
+  - name: "_1B5CA26792718408437D943572F2A845.emsolr.glb"
+    shutter: false
+  - name: "_1B5CA26792718408437D943572F2A845.wfo.glb"
+    shutter: false

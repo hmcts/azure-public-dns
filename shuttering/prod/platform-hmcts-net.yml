@@ -1,0 +1,277 @@
+# Please be careful with this setting, it will shutter ALL records in this DNS zone
+# Please ensure you read all comments first before enabling this option, there are specific requirements
+# for A records you must be aware of!
+shutter_all: false
+
+# Shuttering all A record types requires either of the following values to be set.
+# If you shutter all A records via the `shutter_all_a` setting and one of the records does not contain either of these values Terraform will fail.
+# - shutter_resource_id
+# - alias_target_resource_id
+shutter_all_a: false
+
+shutter_all_cname: false
+
+# Shuttering any A record type requires either of the following values to be set.
+# If you shutter an A record and one of the records does not contain either of these values Terraform will fail.
+# - shutter_resource_id
+# - alias_target_resource_id
+A:
+  - name: "bar"
+    shutter: false
+  - name: "build-beta"
+    shutter: false
+  - name: "cft-mtls-api-mgmt-appgw"
+    shutter: false
+  - name: "courts"
+    shutter: false
+  - name: "cp-nle"
+    shutter: false
+  - name: "ctsc-web-forms-ui-stg"
+    shutter: false
+  - name: "divorce-palo-prod"
+    shutter: false
+  - name: "maintenance-ccd"
+    shutter: false
+  - name: "portal"
+    shutter: false
+  - name: "portal-old"
+    shutter: false
+  - name: "sftp"
+    shutter: false
+  - name: "sod-ss"
+    shutter: false
+  - name: "traefik-sod-ss"
+    shutter: false
+  - name: "traefik-stg"
+    shutter: false
+  - name: "traefik-ui-jb"
+    shutter: false
+  - name: "vpn"
+    shutter: false
+  - name: "cvp-recording"
+    shutter: false
+  - name: "caps"
+    shutter: false
+  - name: "pcol"
+    shutter: false
+  - name: "pcnotify"
+    shutter: false
+  - name: "vpn-ext"
+    shutter: false
+  - name: "vpn-ext-beta"
+    shutter: false
+  - name: "sds-api-mgmt-appgw"
+    shutter: false
+  - name: "sds-mtls-api-mgmt-appgw"
+    shutter: false
+
+cname:
+  - name: "administer-orgs"
+    shutter: false
+  - name: "plum"
+    shutter: false 
+  - name: "apply-divorce"
+    shutter: false
+  - name: "www.apply-divorce"
+    shutter: false
+  - name: "gateway.ccd"
+    shutter: false
+  - name: "fees-register"
+    shutter: false
+  - name: "www.fees-register"
+    shutter: false
+  - name: "idam-web-public-ethosldata"
+    shutter: false
+  - name: "jlfsrhi3m76w"
+    shutter: false
+  - name: "manage-case"
+    shutter: false
+  - name: "manage-org"
+    shutter: false
+  - name: "manage-payments"
+    shutter: false
+  - name: "www.manage-payments"
+    shutter: false
+  - name: "www.moneyclaim"
+    shutter: false
+  - name: "www.moneyclaim-legal"
+    shutter: false
+  - name: "divorce.nonprod"
+    shutter: false
+  - name: "maintenance.nonprod"
+    shutter: false
+  - name: "moneyclaim-legal.nonprod"
+    shutter: false
+  - name: "maintenance.moneyclaim-legal.nonprod"
+    shutter: false
+  - name: "paybubble"
+    shutter: false
+  - name: "www.paybubble"
+    shutter: false
+  - name: "paymentoutcome-web"
+    shutter: false
+  - name: "www.paymentoutcome-web"
+    shutter: false
+  - name: "asverify.probate"
+    shutter: false
+  - name: "awverify.probate"
+    shutter: false
+  - name: "reformscan"
+    shutter: false
+  - name: "asverify.reformscan"
+    shutter: false
+  - name: "asverify.reformscanstg"
+    shutter: false
+  - name: "reformscanstg"
+    shutter: false
+  - name: "register-org"
+    shutter: false
+  - name: "return-case-doc.ccd"
+    shutter: false
+  - name: "immigration-appeal"
+    shutter: false
+  - name: "equality-and-diversity"
+    shutter: false
+  - name: "log-and-audit"
+    shutter: false
+  - name: "idam-web-admin"
+    shutter: false
+  - name: "idam-user-dashboard"
+    shutter: false
+  - name: cft-api-mgmt
+    shutter: false
+  - name: sds-api-mgmt
+    shutter: false
+  - name: toffee
+    shutter: false
+  - name: "hmi-apim"
+    shutter: false
+  - name: "em8228.mail-sscs"
+    shutter: false
+  - name: "s1._domainkey.mail-sscs"
+    shutter: false
+  - name: "s2._domainkey.mail-sscs"
+    shutter: false
+  - name: "administer-orgs-ethosldata"
+    shutter: false
+  - name: "manage-org-ethosldata"
+    shutter: false
+  - name: "manage-case-ethosldata"
+    shutter: false
+  - name: "mcol"
+    shutter: false
+  - name: "mcnotify"
+    shutter: false
+  - name: "cman"
+    shutter: false
+  - name: "crimeportal"
+    shutter: false
+  - name: "glimr"
+    shutter: false
+  - name: "portal-beta"
+    shutter: false
+  - name: "sdrs"
+    shutter: false
+
+#### Video Hearings
+  - name: "_DEFCA9944606874FF3B5E0E653FF9825"
+    shutter: false
+  - name: "_250e8aa720222655812148349eda33fd.service"
+    shutter: false
+  - name: "_959babd6a885261723d801a16c89a7b1.vh-notification-api"
+    shutter: false
+  - name: "_5c7ef33bcb57182a54f2d9cc8d8ac0f8.vh-bookings-api"
+    shutter: false
+  - name: "_ac285a78514b19d657b18c29b98f4c7f.admin"
+    shutter: false
+  - name: "_df529a77950081e3ad8c21586162089b.video"
+    shutter: false
+
+  - name: vh-wowza
+    shutter: false
+
+  - name: "_0be35efd23b00eb9f75301c49805b99a.vh-user-api"
+    shutter: false
+  - name: "_D7BC9C94CCECEF2B47A23F6CDB45C9A0.vh-user-api"
+    shutter: false
+
+# SecOps Splunk SIEM SSL Cert recreation May 2023 (SECOPS-3937)
+  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk" 
+    shutter: false
+  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-cm-prod-vm00" 
+    shutter: false
+  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-es-prod-vm00"
+    shutter: false
+  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-es-prod-vm01"
+    shutter: false
+  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-hfwd-prod-vm00"
+    shutter: false
+  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-hfwd-prod-vm01"
+    shutter: false
+  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-hfwd-prod-vm02"
+    shutter: false
+  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-idx-prod-vm00"
+    shutter: false
+  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-idx-prod-vm01"
+    shutter: false
+  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-idx-prod-vm02"
+    shutter: false
+  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-idx-prod-vm03"
+    shutter: false
+  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-idx-prod-vm04"
+    shutter: false
+  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-idx-prod-vm05"
+    shutter: false
+  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-idx-prod-vm06"
+    shutter: false
+  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-idx-prod-vm07"
+    shutter: false
+  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-lm-prod-vm00"
+    shutter: false
+  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-mc-prod-vm00"
+    shutter: false
+  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-sh-prod-vm00"
+    shutter: false
+
+  # Adoption
+  - name: "apply-for-adoption"
+    shutter: true
+
+  # C100
+  - name: "c100-application"
+    shutter: false
+
+  # DTSSE
+  - name: "dtsse-ardoq-adapter"
+    shutter: false
+
+  - name: "response"
+    shutter: false
+  - name: "build"
+    shutter: false
+  - name: "backstage"
+    shutter: false
+  - name: "static-build"
+    shutter: false
+  - name: "sandbox-build"
+    shutter: false
+  - name: "sds-sandbox-build"
+    shutter: false
+  - name: "static-sds-sandbox-build"
+    shutter: false
+  - name: "sds-build"
+    shutter: false
+  - name: "static-sds-build"
+    shutter: false
+
+  # PRE
+  - name: "pre-portal"
+    shutter: false
+
+  # Netbox
+  - name: "netbox"
+    shutter: false
+
+  # tenable GANDI cert
+  - name: "_3F9A4543A1748F63D41BC3D28B15F929.tenable-sc"
+    shutter: false

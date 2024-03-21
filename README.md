@@ -2,9 +2,10 @@
 
 This module creates/updates DNS zone and recordsets in a given zone.
 
-## Example Usage.
+## Example Usage
 
 `../../components/mgmt.main.tf`
+
 ```hcl
 module "public-dns" {
   source = "hmcts/azure-platform-terraform/modules/azure-public-dns"
@@ -13,6 +14,7 @@ module "public-dns" {
 ```
 
 `azure-platform-terraform/azure-public-dns/dns-zones.auto.tfvars`
+
 ```hcl
   zones = [
     "test.example.com"
@@ -20,6 +22,7 @@ module "public-dns" {
 ```
 
 `azure-platform-terraform/azure-public-dns/dns-zones.auto.tfvars`
+
 ```hcl
   recordsets = [
     {
@@ -55,12 +58,19 @@ module "public-dns" {
 ```
 
 ## Terraform Plan Example
-[In the azure-public-dns/components/<environment-name> directory]
-$ terraform plan -var-file='../../environemtnts/<environment-name>.tfvars
+
+In the `azure-public-dns/components/<environment-name>` directory:
+
+```shell
+terraform plan -var-file='../../environemtnts/<environment-name>.tfvars
+```
 
 For example:
-[In the the azure-public-dns/components/sbox directory]
-../azure-public-dns/components/sbox$  terraform plan -var-file='../../environemtnts/sbox.tfvars
+In the the `azure-public-dns/components/sbox` directory:
+
+```shell
+terraform plan -var-file='../../environemtnts/sbox.tfvars
+```
 
 ## Arguments
 
@@ -96,3 +106,9 @@ of the underlying Terraform provider:
 We have got sync in place where if there are CNAMES which does not exist on any of the corresponding private DNS zone, we will sync it overnight using sync-zones-pipeline.yml.
 
 Please note that if you are creating new dns zone and if that dns zone also exist on the private dns, in order for sync to work, you will have to manually update on `sync-zones-pipeline.yml` file.
+
+## Shuttering
+
+Please see [shuttering](./example/shuttering/readme.md) for an example of how shuttering works and an example project that you can use locally to get an understand of how to shutter services using this repository.
+
+There is also guidance available [here](https://hmcts.github.io/cloud-native-platform/path-to-live/shutter.html)

@@ -1,0 +1,100 @@
+# Please be careful with this setting, it will shutter ALL records in this DNS zone
+# Please ensure you read all comments first before enabling this option, there are specific requirements
+# for A records you must be aware of!
+shutter_all: false
+
+# Shuttering all A record types requires either of the following values to be set.
+# If you shutter all A records via the `shutter_all_a` setting and one of the records does not contain either of these values Terraform will fail.
+# - shutter_resource_id
+# - alias_target_resource_id
+shutter_all_a: false
+
+shutter_all_cname: false
+
+# Shuttering any A record type requires either of the following values to be set.
+# If you shutter an A record and one of the records does not contain either of these values Terraform will fail.
+# - shutter_resource_id
+# - alias_target_resource_id
+A:
+  - name: "ctscmail"
+    shutter: false
+  - name: "cvp-recording"
+    shutter: false
+  - name: "cvp-recording-01"
+    shutter: false
+  - name: "cvp-recording-02"
+    shutter: false
+  - name: "portal"
+    shutter: false
+  - name: "cft-api-mgmt-appgw"
+    shutter: false
+  - name: "sds-api-mgmt-appgw"
+    shutter: false
+  - name: "sds-mtls-api-mgmt-appgw"
+    shutter: false
+  - name: "nginx"
+    shutter: false
+  - name: "oauth2-proxy-00"
+    shutter: false
+  - name: "oz-dns"
+    shutter: false
+  - name: "nd-dns"
+    shutter: false
+
+cname:
+  - name: "_1fc88e03b87b33fb04a3b1c5978e80b8"
+    shutter: false
+  - name: "reformscan"
+    shutter: false
+  - name: "plum"
+    shutter: false
+  - name: "www.plum"
+    shutter: false
+  - name: "plum.uksouth"
+    shutter: false
+  - name: "netbox"
+    shutter: false
+  - name: "idam-web-public"
+    shutter: false
+  - name: "idam-web-public-sprod"
+    shutter: false
+  - name: "idam-web-admin"
+    shutter: false
+  - name: "idam-user-dashboard"
+    shutter: false
+  - name: "hmcts-access"
+    shutter: false
+  - name: "hmi-apim"
+    shutter: false
+  - name: "toffee"
+    shutter: false
+  - name: "_9af30f185640a6f0617d0d1ef8e9de95"
+    shutter: false
+  - name: "cft-api-mgmt"
+    shutter: false
+  - name: "sds-api-mgmt"
+    shutter: false
+  - name: "labs-apps-njs"
+    shutter: false
+  - name: vh-video-web
+    shutter: false
+  - name: vh-admin-web
+    shutter: false
+  - name: vh-test-web
+    shutter: false
+  - name: "safe-settings"
+    shutter: true
+  - name: "selector1-azurecomm-prod-net._domainkey"
+    shutter: false
+  - name: "selector2-azurecomm-prod-net._domainkey"
+    shutter: false
+  - name: "pre-portal"
+    shutter: false
+  - name: "pip-frontend"
+    shutter: false
+  - name: "plumclassic"
+    shutter: false
+  - name: "plumclassic2"
+    shutter: false
+  - name: "labs-goldenpath-connor-okane"
+    shutter: false
