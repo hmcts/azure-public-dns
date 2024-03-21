@@ -25,7 +25,7 @@ cname:
   - name: "portal-test"
     shutter: false
   - name: "portal-demo"
-    shutter: false
+    shutter: true
   - name: "portal-stg"
     shutter: false
   - name: "portal"
