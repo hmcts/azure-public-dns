@@ -91,10 +91,10 @@ cname:
   - name: "pre-portal"
     shutter: false
   - name: "pip-frontend"
-    shutter: false
+    shutter: true
   - name: "plumclassic"
     shutter: false
   - name: "plumclassic2"
-    shutter: false
+    shutter: true
   - name: "labs-goldenpath-connor-okane"
     shutter: false
