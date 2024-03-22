@@ -9,11 +9,11 @@ txt: []
 cname:
   - name: "afdverify.www"
     ttl: 300
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "www"
     ttl: 120
-    record: "hmcts-apply-to-court-about-child-arrangements-c1.azureedge.net"
-    shutter: false
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+    shutter: true
     #shuttering must be achieved by pointing to hmcts-apply-to-court-about-child-arrangements-c1.azureedge.net at present
   - name: "em5901.mail-prl"
     ttl: 300

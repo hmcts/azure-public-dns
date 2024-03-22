@@ -27,22 +27,22 @@ srv: []
 cname:
   - name: "caps"
     ttl: 300
-    record: "hmcts-nle-int.azurefd.net"
+    record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"
   - name: "cman"
     ttl: 300
-    record: "hmcts-nle-int.azurefd.net"
+    record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"
   - name: "mcnotify"
     ttl: 300
-    record: "hmcts-nle-ext.azurefd.net"
+    record: "hmcts-nle-ext-h8cqggf7c7ffhbh4.z01.azurefd.net"
   - name: "mcol"
     ttl: 300
-    record: "hmcts-nle-ext.azurefd.net"
+    record: "hmcts-nle-ext-h8cqggf7c7ffhbh4.z01.azurefd.net"
   - name: "pcnotify"
     ttl: 300
-    record: "hmcts-nle-ext.azurefd.net"
+    record: "hmcts-nle-ext-h8cqggf7c7ffhbh4.z01.azurefd.net"
   - name: "pcol"
     ttl: 300
-    record: "hmcts-nle-ext.azurefd.net"
+    record: "hmcts-nle-ext-h8cqggf7c7ffhbh4.z01.azurefd.net"
   - name: "sdt"
     ttl: 300
     record: "sdt-uks.apps-nle.hmcts.net"
@@ -51,7 +51,7 @@ cname:
     record: "sdtcomm-uks.apps-nle.hmcts.net"
   - name: "testclaim-pcol"
     ttl: 300
-    record: "hmcts-nle-ext.azurefd.net"
+    record: "hmcts-nle-ext-h8cqggf7c7ffhbh4.z01.azurefd.net"
   - name: "crimeportal"
     ttl: 300
-    record: "hmcts-nle-int.azurefd.net"
+    record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"

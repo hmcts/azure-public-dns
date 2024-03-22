@@ -33,19 +33,6 @@ txt:
     ttl: 3600
     record:
       - "v=DMARC1; p=none"
-  - name: "_dnsauth.et-pet-et3"
-    ttl: 3600
-    record:
-      - "7ww8q8cbr3dj5mfl6ryv5ywq6kk3843g"
-  - name: "_dnsauth.et-pet-et1"
-    ttl: 3600
-    record:
-      - "m2sn4k4l3mzkjvszfprwmmdz5q3rftv0"
-  - name: "_dnsauth.et-pet-admin"
-    ttl: 3600
-    record:
-      - "h9tbt3v2j6550glynh9dd8yczqcqv7q9"
-
 
 cname:
   - name: "afdverify.c100-application"
@@ -60,12 +47,12 @@ cname:
   - name: "pip-frontend"
     ttl: 300
     record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
-  - name: "tmmanage.appeal-benefit-decision"
-    ttl: 60
-    record: "590582cd-441a-4601-9f6a-f8203d4c19fe.cloudapp.net"
-  - name: "ccpay-bubble"
-    ttl: 60
-    record: "11d1facb-25d7-49ef-a8dc-d698479270a2.cloudapp.net"
+  - name: "staff.pip-frontend"
+    ttl: 300
+    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
+  - name: "sign-in.pip-frontend"
+    ttl: 300
+    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
   - name: "decree-absolute-aks"
     ttl: 3600
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
@@ -90,9 +77,6 @@ cname:
   - name: "hmi-apim"
     ttl: 3600
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
-  - name: "tmsscs-tribunals-frontend"
-    ttl: 300
-    record: "590582cd-441a-4601-9f6a-f8203d4c19fe.cloudapp.net"
   - name: "afdverify.idam-web-public"
     ttl: 300
     record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
@@ -352,6 +336,12 @@ cname:
   - name: "sptribs-frontend"
     ttl: 300
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "afdverify.sptribs-dss-update-case-web"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "sptribs-dss-update-case-web"
+    ttl: 300
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   - name: "tax-tribunals-datacapture"
     ttl: 300
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
@@ -362,5 +352,20 @@ cname:
     ttl: 300
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   - name: "et-pet-admin"
+    ttl: 300
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: vh-service-web
+    record: sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
+    ttl: 300
+  - name: adverify.vh-service-web
+    record: afdverify.sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
+    ttl: 300
+  - name: "cui-ra"
+    ttl: 300
+    record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "hwf-staffapp"
+    ttl: 300
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "hwf-publicapp"
     ttl: 300
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"

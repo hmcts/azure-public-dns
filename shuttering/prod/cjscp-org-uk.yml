@@ -1,0 +1,338 @@
+# Please be careful with this setting, it will shutter ALL records in this DNS zone
+# Please ensure you read all comments first before enabling this option, there are specific requirements
+# for A records you must be aware of!
+shutter_all: false
+
+# Shuttering all A record types requires either of the following values to be set.
+# If you shutter all A records via the `shutter_all_a` setting and one of the records does not contain either of these values Terraform will fail.
+# - shutter_resource_id
+# - alias_target_resource_id
+shutter_all_a: false
+
+shutter_all_cname: false
+
+# Shuttering any A record type requires either of the following values to be set.
+# If you shutter an A record and one of the records does not contain either of these values Terraform will fail.
+# - shutter_resource_id
+# - alias_target_resource_id
+A:
+  - name: api
+    shutter: false
+  - name: api.dev
+    shutter: false
+  - name: api.dev03
+    shutter: false
+  - name: api.nft
+    shutter: false
+  - name: api.prp
+    shutter: false
+  - name: api.sit
+    shutter: false
+  - name: apigw
+    shutter: false
+  - name: apigw.dev
+    shutter: false
+  - name: apigw.dev03
+    shutter: false
+  - name: apigw.nft
+    shutter: false
+  - name: apigw.prp
+    shutter: false
+  - name: apigw.sit
+    shutter: false
+  - name: email-client.nft
+    shutter: false
+  - name: email-client.sit
+    shutter: false
+  - name: email-client.support
+    shutter: false
+  - name: email-client.test
+    shutter: false
+  - name: identity-gateway
+    shutter: false
+  - name: identity-gateway.bae
+    shutter: false
+  - name: identity-gateway.prp2
+    shutter: false
+  - name: identity-gateway.sit
+    shutter: false
+  - name: identity-gateway.support
+    shutter: false
+  - name: identity-gateway.test
+    shutter: false
+  - name: libra-gateway.cpp
+    shutter: false
+  - name: login
+    shutter: false
+  - name: login.bae
+    shutter: false
+  - name: login.prp2
+    shutter: false
+  - name: login.sit
+    shutter: false
+  - name: login.support
+    shutter: false
+  - name: login.test
+    shutter: false
+  - name: manage-users
+    shutter: false
+  - name: manage-users.bae
+    shutter: false
+  - name: manage-users.prp2
+    shutter: false
+  - name: manage-users.sit
+    shutter: false
+  - name: manage-users.support
+    shutter: false
+  - name: manage-users.test
+    shutter: false
+  - name: my-services
+    shutter: false
+  - name: my-services.bae
+    shutter: false
+  - name: my-services.prp2
+    shutter: false
+  - name: my-services.sit
+    shutter: false
+  - name: my-services.support
+    shutter: false
+  - name: my-services.test
+    shutter: false
+  - name: nft.cpp
+    shutter: false
+  - name: nft02.cpp
+    shutter: false
+  - name: onlineplea
+    shutter: false
+  - name: onlineplea.dev
+    shutter: false
+  - name: onlineplea.dev03
+    shutter: false
+  - name: onlineplea.dev07
+    shutter: false
+  - name: onlineplea.nft
+    shutter: false
+  - name: onlineplea.prp
+    shutter: false
+  - name: onlineplea.sit
+    shutter: false
+  - name: prosecuting
+    shutter: false
+  - name: prosecuting-stub-idam.nft
+    shutter: false
+  - name: prosecuting-stub-idam.sit
+    shutter: false
+  - name: prosecuting-stub-idam.support
+    shutter: false
+  - name: prosecuting-stub-idam.test
+    shutter: false
+  - name: prosecuting.bae
+    shutter: false
+  - name: prosecuting.dev
+    shutter: false
+  - name: prosecuting.dev03
+    shutter: false
+  - name: prosecuting.dev07
+    shutter: false
+  - name: prosecuting.nft
+    shutter: false
+  - name: prosecuting.prp
+    shutter: false
+  - name: prosecuting.sit
+    shutter: false
+  - name: rota
+    shutter: false
+  - name: rota-nft.nftpr2
+    shutter: false
+  - name: rota-stub-idam.nft
+    shutter: false
+  - name: rota-stub-idam.sit
+    shutter: false
+  - name: rota-stub-idam.support
+    shutter: false
+  - name: rota-stub-idam.test
+    shutter: false
+  - name: rota.nft
+    shutter: false
+  - name: rota.prp
+    shutter: false
+  - name: rota.sit
+    shutter: false
+  - name: token
+    shutter: false
+  - name: token.bae
+    shutter: false
+  - name: token.nft
+    shutter: false
+  - name: token.nft.cpp
+    shutter: false
+  - name: token.prp
+    shutter: false
+  - name: token.prp2
+    shutter: false
+  - name: token.sit
+    shutter: false
+  - name: token.support
+    shutter: false
+  - name: token.test
+    shutter: false
+  - name: tools-nle.nft.cpp
+    shutter: false
+
+cname:
+  - name: em5650
+    shutter: false
+  - name: em7121
+    shutter: false
+  - name: email
+    shutter: false
+  - name: identity-gateway.nft
+    shutter: false
+  - name: identity-gateway.nft.cpp
+    shutter: false
+  - name: identity-gateway.nftpr2
+    shutter: false
+  - name: identity-gateway.prp
+    shutter: false
+  - name: login.nft
+    shutter: false
+  - name: login.nft.cpp
+    shutter: false
+  - name: login.nftpr2
+    shutter: false
+  - name: login.prp
+    shutter: false
+  - name: manage-users.nft
+    shutter: false
+  - name: manage-users.nft.cpp
+    shutter: false
+  - name: manage-users.nftpr2
+    shutter: false
+  - name: manage-users.prp
+    shutter: false
+  - name: my-services.nft
+    shutter: false
+  - name: my-services.nft.cpp
+    shutter: false
+  - name: my-services.nftpr2
+    shutter: false
+  - name: my-services.prp
+    shutter: false
+  - name: token.nftpr2
+    shutter: false
+  - name: em2687.bae
+    shutter: false
+  - name: s1._domainkey.bae
+    shutter: false
+  - name: s2._domainkey.bae
+    shutter: false
+  - name: em3537
+    shutter: false
+  - name: s1._domainkey
+    shutter: false
+  - name: s2._domainkey
+    shutter: false
+  - name: _3961216817E4B15A8BB9CD770D58B36B.prosecuting.prp
+    shutter: false
+  - name: _3961216817E4B15A8BB9CD770D58B36B.prp
+    shutter: false
+  - name: _598FF8487569BDF1502FE54E600C4450.api
+    shutter: false
+  - name: _CA1596C0E603F59580F5EDF68813F3F0.login.prp
+    shutter: false
+  - name: _CA1596C0E603F59580F5EDF68813F3F0.identity-gateway.prp
+    shutter: false
+  - name: _CA1596C0E603F59580F5EDF68813F3F0.manage-users.prp
+    shutter: false
+  - name: _CA1596C0E603F59580F5EDF68813F3F0.my-services.prp
+    shutter: false
+  - name: _CA1596C0E603F59580F5EDF68813F3F0.token.prp
+    shutter: false
+  - name: _DB1FFB48D3AF9F1926EFF36418DF696A.apigw.sit
+    shutter: false
+  - name: _7F8E151C9391F4329271B4190058FA08.onlineplea.nft
+    shutter: false
+  - name: _BD98E70EC65B57E4664C0146AB18CDE3.apigw.nft
+    shutter: false
+  - name: _34EE0054EFC0FB0C6BF3A3EAC8AAB27C.apigw.prp
+    shutter: false
+  - name: _F803974EACC3D1198A0082E82CADDB3C.rota.prp
+    shutter: false
+  - name: _FA121E1DF2C78262A8F2F5BD00CCC906.apigw.dev
+    shutter: false
+  - name: _6317911F11238E64F89B37AAD6DC0924.api.dev
+    shutter: false
+  - name: _D80B074C9833F2C916AF17778EF1BD11.apigw
+    shutter: false
+  - name: _644DBB05B67CA84E8968D44570653655.onlineplea.dev07
+    shutter: false
+  - name: _BC22DE1AF956438D205908C941ABC3B2.nft02.cpp
+    shutter: false
+  - name: _2FC49B0C414E6BDD7E38FA89CEF263BC.onlineplea.nft02.cpp
+    shutter: false
+  - name: _F1D21A28371FBCD3E3A0242946B5A5CE.rota
+    shutter: false
+  - name: _BB10D6263EF21155E470412E5073AEA8.onlineplea.dev
+    shutter: false
+  - name: _9B23AEAE4D81BA2BEB7AEC042531EF1A.login.sit
+    shutter: false
+  - name: _9B23AEAE4D81BA2BEB7AEC042531EF1A.email-client.sit
+    shutter: false
+  - name: _9B23AEAE4D81BA2BEB7AEC042531EF1A.identity-gateway.sit
+    shutter: false
+  - name: _9B23AEAE4D81BA2BEB7AEC042531EF1A.manage-users.sit
+    shutter: false
+  - name: _9B23AEAE4D81BA2BEB7AEC042531EF1A.my-services.sit
+    shutter: false
+  - name: _9B23AEAE4D81BA2BEB7AEC042531EF1A.prosecuting-stub-idam.sit
+    shutter: false
+  - name: _9B23AEAE4D81BA2BEB7AEC042531EF1A.rota-stub-idam.sit
+    shutter: false
+  - name: _9B23AEAE4D81BA2BEB7AEC042531EF1A.token.sit
+    shutter: false
+  - name: _4FD72447F770BB815E515B93A4367F6D.onlineplea.sit
+    shutter: false
+  - name: _E2D6D02F4496F13F43AF301E6A27D258.prosecuting.sit
+    shutter: false
+  - name: _1B7DA377862A4D053018241005E56A69.rota.nft
+    shutter: false
+  - name: _2E86ACD8F61252F0F9BF2E814EFAA08F.login.nft
+    shutter: false
+  - name: _2E86ACD8F61252F0F9BF2E814EFAA08F.email-client.nft
+    shutter: false
+  - name: _2E86ACD8F61252F0F9BF2E814EFAA08F.identity-gateway.nft
+    shutter: false
+  - name: _2E86ACD8F61252F0F9BF2E814EFAA08F.manage-users.nft
+    shutter: false
+  - name: _2E86ACD8F61252F0F9BF2E814EFAA08F.my-services.nft
+    shutter: false
+  - name: _2E86ACD8F61252F0F9BF2E814EFAA08F.prosecuting-stub-idam.nft
+    shutter: false
+  - name: _2E86ACD8F61252F0F9BF2E814EFAA08F.rota-stub-idam.nft
+    shutter: false
+  - name: _2E86ACD8F61252F0F9BF2E814EFAA08F.token.nft
+    shutter: false
+  - name: _AE1CA7B7E4B002D5274D39EA0000B193.rota.sit
+    shutter: false
+  - name: _10B849EC72AE160CD9D84E39831BF9DB.prosecuting.nft
+    shutter: false
+  - name:  _BD8645B4C2D75A0BCEFC2FB88D723FEC.onlineplea.prp
+    shutter: false
+  - name:  _E0E79E88AB5A7B98C5B766992F343A7F.onlineplea
+    shutter: false
+  - name:  _BD0342C71AE3606AAB604AAA8450611A.login.support
+    shutter: false
+  - name:   _BD0342C71AE3606AAB604AAA8450611A.email-client.support
+    shutter: false
+  - name:  _BD0342C71AE3606AAB604AAA8450611A.identity-gateway.support
+    shutter: false
+  - name:  _BD0342C71AE3606AAB604AAA8450611A.manage-users.support
+    shutter: false
+  - name:  _BD0342C71AE3606AAB604AAA8450611A.my-services.support
+    shutter: false
+  - name:  _BD0342C71AE3606AAB604AAA8450611A.prosecuting-stub-idam.support
+    shutter: false
+  - name:  _BD0342C71AE3606AAB604AAA8450611A.rota-stub-idam.support
+    shutter: false
+  - name:  _BD0342C71AE3606AAB604AAA8450611A.token.support
+    shutter: false

@@ -2,6 +2,10 @@ data "local_file" "demo-platform-configuration" {
   filename = "${path.cwd}/../../environments/demo/demo-platform-hmcts-net.yml"
 }
 
+data "local_file" "demo_platform_shutter_config" {
+  filename = "${path.cwd}/../../shuttering/demo/demo-platform-hmcts-net.yml"
+}
+
 module "demo-platform" {
   source              = "../../modules/azure-public-dns/"
   cname_records       = yamldecode(data.local_file.demo-platform-configuration.content).cname
@@ -13,4 +17,6 @@ module "demo-platform" {
   ns_recordsets       = yamldecode(data.local_file.demo-platform-configuration.content).ns
   srv_recordsets      = yamldecode(data.local_file.demo-platform-configuration.content).srv
   txt_recordsets      = yamldecode(data.local_file.demo-platform-configuration.content).txt
+  shutter_config      = data.local_file.demo_platform_shutter_config.content
 }
+

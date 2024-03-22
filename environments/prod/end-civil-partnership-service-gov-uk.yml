@@ -14,8 +14,8 @@ cname:
     shutter: false
   - name: "www"
     ttl: 120
-    record: "hmcts-prod.azurefd.net"
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.www"
     ttl: 3600
-    record: "afdverify.hmcts-prod.azurefd.net"
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"

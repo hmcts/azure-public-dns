@@ -1,0 +1,209 @@
+# Please be careful with this setting, it will shutter ALL records in this DNS zone
+# Please ensure you read all comments first before enabling this option, there are specific requirements
+# for A records you must be aware of!
+shutter_all: false
+
+# Shuttering all A record types requires either of the following values to be set.
+# If you shutter all A records via the `shutter_all_a` setting and one of the records does not contain either of these values Terraform will fail.
+# - shutter_resource_id
+# - alias_target_resource_id
+shutter_all_a: false
+
+shutter_all_cname: false
+
+# Shuttering any A record type requires either of the following values to be set.
+# If you shutter an A record and one of the records does not contain either of these values Terraform will fail.
+# - shutter_resource_id
+# - alias_target_resource_id
+A:
+  - name: tax-tribunals
+    shutter: false
+  - name: tax-tribunals-downloader
+    shutter: false
+  - name: "sds-mtls-api-mgmt-appgw"
+    shutter: false
+  - name: "sds-api-mgmt-appgw"
+    shutter: false
+  - name: "darts-gateway"
+    shutter: false
+
+cname:
+  - name: "bulkscan"
+    shutter: false
+  - name: "reformscan"
+    shutter: false
+  - name: "_44cb36f0c4dde84c9ff1534180bb24da"
+    shutter: false
+  - name: "em9743.mail-prl-nonprod"
+    shutter: false
+  - name: "s1._domainkey.mail-prl-nonprod"
+    shutter: false
+  - name: "s2._domainkey.mail-prl-nonprod"
+    shutter: false
+  - name: "cft-api-mgmt"
+    shutter: false
+  - name: sds-api-mgmt
+    shutter: false
+  - name: "signalr"
+    shutter: false
+  - name: "vh-wowza"
+    shutter: false
+  - name: "plum"
+    shutter: false
+  - name: "dss-update-case"
+    shutter: false
+  - name: "hmi-apim"
+    shutter: false
+  - name: "decree-nisi-aks"
+    shutter: false
+  - name: "decree-absolute-aks"
+    shutter: false
+  - name: "respond-divorce-aks"
+    shutter: false
+  - name: "petitioner-frontend-aks"
+    shutter: false
+  - name: "fact"
+    shutter: false
+  - name: "fact-admin"
+    shutter: false
+  - name: "et-sya"
+    shutter: false
+  - name: "paybubble"
+    shutter: false
+  - name: "paybubble-int"
+    shutter: false
+  - name: "paymentoutcome-web"
+    shutter: false
+  - name: "www.paymentoutcome-web"
+    shutter: false
+  - name: "www.paymentoutcome-web-int"
+    shutter: false
+  - name: "paymentoutcome-web-int"
+    shutter: false
+  - name: "fees-register"
+    shutter: false
+  - name: "fees-register-int"
+    shutter: false
+  - name: "fis-ds-web"
+    shutter: false
+  - name: "immigration-appeal"
+    shutter: false
+  - name: "lau"
+    shutter: false
+  - name: "lau-int"
+    shutter: false
+  - name: "nfdiv"
+    shutter: false
+  - name: "nfdiv-apply-for-divorce"
+    shutter: false
+  - name: "nfdiv-end-civil-partnership"
+    shutter: false
+  - name: "pcq"
+    shutter: false
+  - name: "pcq-int"
+    shutter: false
+  - name: "privatelaw"
+    shutter: false
+  - name: "probate"
+    shutter: false
+  - name: "rpts"
+    shutter: false
+  - name: "moneyclaims"
+    shutter: false
+  - name: "moneyclaims1"
+    shutter: false
+  - name: "bar"
+    shutter: false
+  - name: "bar-int"
+    shutter: false
+  - name: "ac-int-gateway-ccd"
+    shutter: false
+  - name: "adoption-web"
+    shutter: true
+  - name: "sptribs-frontend"
+    shutter: false
+  - name: "sptribs-dss-update-case-web"
+    shutter: false
+  - name: "sscs-cor"
+    shutter: false
+  - name: "benefit-appeal"
+    shutter: false
+  - name: "hmcts-access"
+    shutter: false
+  - name: "idam-user-dashboard"
+    shutter: false
+  - name: "administer-orgs-int"
+    shutter: false
+  - name: "manage-org-int"
+    shutter: false
+  - name: "idam-web-admin"
+    shutter: false
+  - name: "idam-web-public"
+    shutter: false
+  - name: "gateway-ccd"
+    shutter: false
+  - name: "gateway-ccd-int"
+    shutter: false
+  - name: "return-case-doc-ccd"
+    shutter: false
+  - name: "return-case-doc-ccd-int"
+    shutter: false
+  - name: "manage-case-ac-int"
+    shutter: false
+  - name: "manage-case-int"
+    shutter: false
+  - name: "manage-case-caa-assigned-case-view"
+    shutter: false
+  - name: "manage-case-hearings-int"
+    shutter: false
+  - name: "register-org"
+    shutter: false
+  - name: "administer-orgs"
+    shutter: false
+  - name: "manage-org"
+    shutter: false
+  - name: "manage-case-int1"
+    shutter: false
+  - name: "manage-case-int2"
+    shutter: false
+  - name: "manage-case"
+    shutter: false
+  - name: "manage-case-srt"
+    shutter: false
+  - name: "manage-case-wa-int"
+    shutter: false
+  # SDS Front Door
+  - name: "toffee"
+    shutter: false
+  - name: "pip-frontend"
+    shutter: false
+  - name: "staff.pip-frontend"
+    shutter: false
+  - name: "sign-in.pip-frontend"
+    shutter: false
+  - name: "c100-application"
+    shutter: false
+  - name: "vh-admin-web"
+    shutter: false
+  - name: "vh-test-web"
+    shutter: false
+  - name: "vh-video-web"
+    shutter: false
+  - name: "pre-portal"
+    shutter: false
+  - name: "et-pet-admin"
+    shutter: false
+  - name: "et-pet-et1"
+    shutter: false
+  - name: "et-pet-et3"
+    shutter: false
+  - name: "tax-tribunals-datacapture"
+    shutter: false
+  - name: "hwf-publicapp"
+    shutter: false
+  - name: "hwf-staffapp"
+    shutter: false
+  - name: "judicial-payments"
+    shutter: false
+  - name: "cui-ra"
+    shutter: false

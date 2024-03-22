@@ -1,7 +1,7 @@
 A:
   - name: "@"
     ttl: 300
-    alias_target_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/lz-prod-rg/providers/Microsoft.Network/frontdoors/sdshmcts-prod"
+    alias_target_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/lz-prod-rg/providers/Microsoft.Cdn/profiles/sdshmcts-prod/afdendpoints/sdshmcts-prod"
 
 cname:
   - name: "autodiscover"
@@ -33,10 +33,10 @@ cname:
     record: "sipdir.online.lync.com."
   - name: "home"
     ttl: 3600
-    record: "sdshmcts-prod.azurefd.net."
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net."
   - name: "www"
     ttl: 3600
-    record: "sdshmcts-prod.azurefd.net."
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net."
 
 mx:
   - name: '@'

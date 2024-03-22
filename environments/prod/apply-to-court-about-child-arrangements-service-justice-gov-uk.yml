@@ -9,8 +9,8 @@ txt:
 cname:
 - name: "afdverify.c100-application"
   ttl: 300
-  record: "afdverify.sdshmcts-prod.azurefd.net"
+  record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
 - name: "c100-application"
   ttl: 300
-  record: "hmcts-prod.azurefd.net"
+  record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
 

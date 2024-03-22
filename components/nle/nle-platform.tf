@@ -1,6 +1,6 @@
 // TODO move this to staging
 data "local_file" "configuration" {
-  filename = "${path.cwd}/../../environments/nle.yml"
+  filename = "${path.cwd}/../../environments/nle/nle.yml"
 }
 
 module "public-dns" {
