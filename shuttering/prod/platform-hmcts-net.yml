@@ -67,35 +67,35 @@ A:
 
 cname:
   - name: "administer-orgs"
-    shutter: false
+    shutter: true
   - name: "plum"
-    shutter: false 
+    shutter: true 
   - name: "apply-divorce"
     shutter: false
   - name: "www.apply-divorce"
     shutter: false
   - name: "gateway.ccd"
-    shutter: false
+    shutter: true
   - name: "fees-register"
-    shutter: false
+    shutter: true
   - name: "www.fees-register"
-    shutter: false
+    shutter: true
   - name: "idam-web-public-ethosldata"
     shutter: false
   - name: "jlfsrhi3m76w"
     shutter: false
   - name: "manage-case"
-    shutter: false
+    shutter: true
   - name: "manage-org"
-    shutter: false
+    shutter: true
   - name: "manage-payments"
-    shutter: false
+    shutter: true
   - name: "www.manage-payments"
-    shutter: false
+    shutter: true
   - name: "www.moneyclaim"
     shutter: false
   - name: "www.moneyclaim-legal"
-    shutter: false
+    shutter: true
   - name: "divorce.nonprod"
     shutter: false
   - name: "maintenance.nonprod"
@@ -105,13 +105,13 @@ cname:
   - name: "maintenance.moneyclaim-legal.nonprod"
     shutter: false
   - name: "paybubble"
-    shutter: false
+    shutter: true
   - name: "www.paybubble"
-    shutter: false
+    shutter: true
   - name: "paymentoutcome-web"
-    shutter: false
+    shutter: true
   - name: "www.paymentoutcome-web"
-    shutter: false
+    shutter: true
   - name: "asverify.probate"
     shutter: false
   - name: "awverify.probate"
@@ -125,19 +125,19 @@ cname:
   - name: "reformscanstg"
     shutter: false
   - name: "register-org"
-    shutter: false
+    shutter: true
   - name: "return-case-doc.ccd"
-    shutter: false
+    shutter: true
   - name: "immigration-appeal"
-    shutter: false
+    shutter: true
   - name: "equality-and-diversity"
-    shutter: false
+    shutter: true
   - name: "log-and-audit"
-    shutter: false
+    shutter: true
   - name: "idam-web-admin"
-    shutter: false
+    shutter: true
   - name: "idam-user-dashboard"
-    shutter: false
+    shutter: true
   - name: cft-api-mgmt
     shutter: false
   - name: sds-api-mgmt
@@ -145,7 +145,7 @@ cname:
   - name: toffee
     shutter: false
   - name: "hmi-apim"
-    shutter: false
+    shutter: true
   - name: "em8228.mail-sscs"
     shutter: false
   - name: "s1._domainkey.mail-sscs"
