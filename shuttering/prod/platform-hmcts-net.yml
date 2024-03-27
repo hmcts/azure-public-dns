@@ -266,7 +266,7 @@ cname:
 
   # PRE
   - name: "pre-portal"
-    shutter: false
+    shutter: true
 
   # Netbox
   - name: "netbox"
