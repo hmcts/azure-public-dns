@@ -80,6 +80,17 @@ A:
     record:
       - "20.26.30.175"
 
+  - name: "labs-goldenpath-naraynm"
+    ttl: 300
+    record:
+      - "51.145.114.159"
+
+  - name: "labs-goldenpath-naraynm-temp"
+    ttl: 300
+    record:
+      - "4.234.74.227"
+
+
 txt:
   - name: "contact.justice"
     ttl: 3600
