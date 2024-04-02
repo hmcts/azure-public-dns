@@ -27,12 +27,6 @@ cname:
   - name: "afdverify.portal-test"
     ttl: 300
     record: "afdverify.sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net"
-  - name: "portal-demo"
-    ttl: 300
-    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-  - name: "afdverify.portal-demo"
-    ttl: 300
-    record: "afdverify.sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
   - name: "portal-stg"
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
