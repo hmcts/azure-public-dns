@@ -190,7 +190,7 @@ cname:
   - name: "vh-video-web"
     shutter: false
   - name: "pre-portal"
-    shutter: false
+    shutter: true
   - name: "et-pet-admin"
     shutter: false
   - name: "et-pet-et1"
