@@ -27,6 +27,11 @@ A:
     record:
       - "10.25.32.99"
 
+  - name: "darts-proxy"
+    ttl: 300
+    record:
+      - "10.25.32.99"
+
 txt: []
 
 srv: []
