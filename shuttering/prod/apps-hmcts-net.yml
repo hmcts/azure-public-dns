@@ -32,7 +32,11 @@ cname:
     shutter: false
   - name: "glimr-nle"
     shutter: false
+  - name: "glimr.staging"
+    shutter: false
   - name: "glimr-dev"
+    shutter: false
+  - name: "glimr.dev"
     shutter: false
   - name: "crimeportal.staging"
     shutter: false
