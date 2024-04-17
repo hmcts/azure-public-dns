@@ -19,7 +19,7 @@ A: []
 
 cname:
   - name: "*"
-    shutter: true
+    shutter: false
   - name: "decree-absolute"
     shutter: true
   - name: "www.decree-absolute"
