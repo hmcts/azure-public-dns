@@ -21,16 +21,16 @@ cname:
   - name: "*"
     shutter: false
   - name: "decree-absolute"
-    shutter: false
+    shutter: true
   - name: "www.decree-absolute"
-    shutter: false
+    shutter: true
   - name: "decree-nisi"
-    shutter: false
+    shutter: true
   - name: "www.decree-nisi"
-    shutter: false
+    shutter: true
   - name: "manage-application"
-    shutter: false
+    shutter: true
   - name: "www.manage-application"
-    shutter: false
+    shutter: true
   - name: "www"
-    shutter: false
+    shutter: true
