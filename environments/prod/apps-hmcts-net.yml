@@ -33,7 +33,13 @@ cname:
   - name: "glimr-nle"
     ttl: 300
     record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"
-  - name: "glimr.staging"
+  - name: "glimr-preprod.staging"
+    ttl: 300
+    record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"
+  - name: "glimr-training.staging"
+    ttl: 300
+    record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"
+  - name: "glimr-release.staging"
     ttl: 300
     record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"
   - name: "glimr-dev"
