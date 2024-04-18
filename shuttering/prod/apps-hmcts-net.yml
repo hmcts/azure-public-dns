@@ -32,7 +32,11 @@ cname:
     shutter: false
   - name: "glimr-nle"
     shutter: false
-  - name: "glimr.staging"
+  - name: "glimr-preprod.staging"
+    shutter: false
+  - name: "glimr-training.staging"
+    shutter: false
+  - name: "glimr-release.staging"
     shutter: false
   - name: "glimr-dev"
     shutter: false
