@@ -32,7 +32,11 @@ cname:
     shutter: false
   - name: "glimr-nle"
     shutter: false
-  - name: "glimr.staging"
+  - name: "glimr-preprod.staging"
+    shutter: false
+  - name: "glimr-training.staging"
+    shutter: false
+  - name: "glimr-release.staging"
     shutter: false
   - name: "glimr-dev"
     shutter: false
@@ -63,9 +67,9 @@ cname:
 
     # Juror
   - name: "juror"
-    shutter: false
+    shutter: true
   - name: "juror-public"
-    shutter: false
+    shutter: true
   - name: "juror.staging"
     shutter: false
   - name: "juror-public.staging"
@@ -75,9 +79,9 @@ cname:
   - name: "juror-public.demo"
     shutter: false
   - name: "juror.ithc"
-    shutter: false
+    shutter: true
   - name: "juror-public.ithc"
-    shutter: false
+    shutter: true
   - name: "juror.test"
     shutter: false
   - name: "juror-public.test"
