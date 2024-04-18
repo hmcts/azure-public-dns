@@ -75,9 +75,9 @@ cname:
   - name: "juror-public.demo"
     shutter: false
   - name: "juror.ithc"
-    shutter: false
+    shutter: true
   - name: "juror-public.ithc"
-    shutter: false
+    shutter: true
   - name: "juror.test"
     shutter: false
   - name: "juror-public.test"
