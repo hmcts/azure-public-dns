@@ -316,3 +316,6 @@ cname:
   - name: mta-sts
     ttl: 3600
     record: lively-forest-0c951e203.4.azurestaticapps.net
+  - name: _E442B0A54AC6D18B6FC06D67C011F375.tools
+    ttl: 10800
+    record: BC9F2650760B99B908197FECF2FA1D5F.1B8168FA45E2326FF067674235E34589.797461ec9d1b876dedfa.sectigo.com.
