@@ -307,15 +307,12 @@ cname:
   - name: _domainconnect
     ttl: 3600
     record: _domainconnect.gd.domaincontrol.com.
-  - name: _9F6B9A52ABE1DAE6B5F23DB8E18F4627.tools
-    ttl: 3600
-    record: E189D47D2948EAFB402A8CD67B272D9F.1C90C06D53959B7D91B4948516041E7A.3a531c35ad5115a3ec54.sectigo.com.
-  - name: _810B28CC039C9196401D691A354251B6.tools.prp
-    ttl: 3600
-    record: BD32A0E3FB0F43D9EC21887F343CC4A3.D2AD87C6BAD8FDCE2C0548F99C78459C.51723654306e54bdb4db.sectigo.com.
-  - name: mta-sts
-    ttl: 3600
-    record: lively-forest-0c951e203.4.azurestaticapps.net
   - name: _E442B0A54AC6D18B6FC06D67C011F375.tools
     ttl: 10800
     record: BC9F2650760B99B908197FECF2FA1D5F.1B8168FA45E2326FF067674235E34589.797461ec9d1b876dedfa.sectigo.com.
+  - name: _F5B7F69D2C35F960FF99096287286C2C.tools.prp
+    ttl: 10800
+    record: B009EA037741CA0FB3B5D9ACF361EC55.194367DD8A11973EB9A3855EE1F5280F.baa338d9d99dc1cd6fca.sectigo.com.
+  - name: mta-sts
+    ttl: 3600
+    record: lively-forest-0c951e203.4.azurestaticapps.net
