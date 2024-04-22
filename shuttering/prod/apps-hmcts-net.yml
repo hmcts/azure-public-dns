@@ -67,9 +67,9 @@ cname:
 
     # Juror
   - name: "juror"
-    shutter: true
+    shutter: false
   - name: "juror-public"
-    shutter: true
+    shutter: false
   - name: "juror.staging"
     shutter: false
   - name: "juror-public.staging"
@@ -79,9 +79,9 @@ cname:
   - name: "juror-public.demo"
     shutter: false
   - name: "juror.ithc"
-    shutter: true
+    shutter: false
   - name: "juror-public.ithc"
-    shutter: true
+    shutter: false
   - name: "juror.test"
     shutter: false
   - name: "juror-public.test"
