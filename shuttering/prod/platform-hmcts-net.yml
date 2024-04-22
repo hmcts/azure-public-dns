@@ -111,7 +111,7 @@ cname:
   - name: "paymentoutcome-web"
     shutter: true
   - name: "www.paymentoutcome-web"
-    shutter: false
+    shutter: true
   - name: "asverify.probate"
     shutter: false
   - name: "awverify.probate"
@@ -135,7 +135,7 @@ cname:
   - name: "log-and-audit"
     shutter: true
   - name: "idam-web-admin"
-    shutter: false
+    shutter: true
   - name: "idam-user-dashboard"
     shutter: true
   - name: cft-api-mgmt
