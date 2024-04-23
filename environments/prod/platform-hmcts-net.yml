@@ -198,7 +198,7 @@ txt:
     record:
       - "v=DMARC1; p=none"
   - name: "_dmarc.mail-civil-nonprod"
-    ttl:
+    ttl: 3600
     record:
       - "v=DMARC1; p=none;"
 
