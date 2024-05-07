@@ -69,7 +69,7 @@ cname:
   - name: "juror"
     shutter: false
   - name: "juror-public"
-    shutter: false
+    shutter: true
   - name: "juror.staging"
     shutter: false
   - name: "juror-public.staging"
