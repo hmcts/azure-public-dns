@@ -336,10 +336,10 @@ cname:
   - name: "sptribs-frontend"
     ttl: 300
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
-  - name: "afdverify.update.sptribs-frontend"
+  - name: "afdverify.sptribs-dss-update-case-web"
     ttl: 3600
     record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
-  - name: "update.sptribs-frontend"
+  - name: "sptribs-dss-update-case-web"
     ttl: 300
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   - name: "tax-tribunals-datacapture"
