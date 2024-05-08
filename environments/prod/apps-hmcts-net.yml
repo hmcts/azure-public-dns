@@ -33,7 +33,19 @@ cname:
   - name: "glimr-nle"
     ttl: 300
     record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"
+  - name: "glimr-preprod.staging"
+    ttl: 300
+    record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"
+  - name: "glimr-training.staging"
+    ttl: 300
+    record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"
+  - name: "glimr-release.staging"
+    ttl: 300
+    record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"
   - name: "glimr-dev"
+    ttl: 300
+    record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"
+  - name: "glimr.dev"
     ttl: 300
     record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"
   - name: "crimeportal.staging"
@@ -76,43 +88,33 @@ cname:
   - name: "juror"
     ttl: 300
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
-    shutter: false
   - name: "juror-public"
     ttl: 300
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
-    shutter: false
   - name: "juror.staging"
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
-    shutter: false
   - name: "juror-public.staging"
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
-    shutter: false
   - name: "juror.demo"
     ttl: 300
     record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-    shutter: false
   - name: "juror-public.demo"
     ttl: 300
     record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-    shutter: false
   - name: "juror.ithc"
     ttl: 300
     record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
-    shutter: false
   - name: "juror-public.ithc"
     ttl: 300
     record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
-    shutter: false
   - name: "juror.test"
     ttl: 300
     record: "sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net"
-    shutter: false
   - name: "juror-public.test"
     ttl: 300
     record: "sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net"
-    shutter: false
   - name: "juror.sandbox"
     ttl: 300
     record: "sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
