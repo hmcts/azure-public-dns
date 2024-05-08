@@ -45,8 +45,16 @@ cname:
   - name: "www"
     ttl: 60
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
-    shutter: true
+    shutter: false
   - name: "afdverify.www"
+    ttl: 300
+    record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
+    shutter: false
+  - name: "www.portal"
+    ttl: 60
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
+    shutter: false
+  - name: "afdverify.www.portal"
     ttl: 300
     record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
     shutter: false
