@@ -12,6 +12,10 @@ A:
 txt: []
 
 cname:
+  - name: "*"
+    ttl: 60
+    record: "www.special-tribunals.service.gov.uk"
+    shutter: false
   - name: "www"
     ttl: 60
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
