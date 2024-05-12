@@ -328,6 +328,10 @@ A:
     ttl: 3600
     record:
       - 51.140.120.225
+  - name: cath-stub-idam.test
+    ttl: 3600
+    record:
+      - 51.140.120.225      
   - name: tools-nle.nft.cpp
     ttl: 1800
     record:
