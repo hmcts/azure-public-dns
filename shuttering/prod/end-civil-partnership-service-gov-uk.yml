@@ -21,4 +21,4 @@ cname:
   - name: "*"
     shutter: false
   - name: "www"
-    shutter: true
+    shutter: false
