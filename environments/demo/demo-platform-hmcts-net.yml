@@ -30,7 +30,7 @@ A:
   - name: "darts-proxy"
     ttl: 300
     record:
-      - "10.25.32.99"
+      - "10.25.32.110"
 
 txt: []
 
