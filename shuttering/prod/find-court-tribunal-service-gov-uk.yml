@@ -9,7 +9,7 @@ shutter_all: false
 # - alias_target_resource_id
 shutter_all_a: false
 
-shutter_all_cname: true
+shutter_all_cname: false
 
 # Shuttering any A record type requires either of the following values to be set.
 # If you shutter an A record and one of the records does not contain either of these values Terraform will fail.
