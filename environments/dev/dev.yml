@@ -110,7 +110,7 @@ cname:
   - name: "vh-wowza"
     ttl: 300
     record: "vh-infra-wowza-dev.uksouth.cloudapp.azure.com"
-  - name: vh-video-web-pr-2057 #TO DO: REMOVE AFTER TESTING
+  - name: vh-video-web-pr-2142 #TO DO: REMOVE AFTER TESTING
     record: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
     ttl: 300
   - name: "pre-portal"
