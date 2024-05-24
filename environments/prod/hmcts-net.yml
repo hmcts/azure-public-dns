@@ -253,6 +253,10 @@ txt:
     ttl: 14400
     record:
       - "v=TLSRPTv1;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk"
+  - name: _dmarc
+    ttl: 3600
+    record:
+      - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:ems@hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:ems@hmcts.net"
 
 srv:
   - name: _sip._tls
