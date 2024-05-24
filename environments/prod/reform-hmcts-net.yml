@@ -45,4 +45,5 @@ cname:
 txt:
   - name: _dmarc
     ttl: 3600
-    record: "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:ems@reform.hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:ems@reform.hmcts.net"
+    record: 
+      - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:ems@reform.hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:ems@reform.hmcts.net"
