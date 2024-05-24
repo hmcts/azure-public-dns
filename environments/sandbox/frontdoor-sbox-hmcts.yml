@@ -17,3 +17,4 @@ cname:
   - name: "*"
     ttl: 3600
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+    shutter: true
