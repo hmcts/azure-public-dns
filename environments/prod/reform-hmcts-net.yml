@@ -41,3 +41,8 @@ cname:
   - name: "em8472"
     ttl: 300
     record: "u18847995.wl246.sendgrid.net"
+
+txt:
+  - name: _dmarc
+    ttl: 3600
+    record: "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:ems@reform.hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:ems@reform.hmcts.net"
