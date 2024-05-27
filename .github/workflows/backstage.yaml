@@ -1,0 +1,98 @@
+name: Create DNS Records
+
+on:
+  workflow_dispatch:
+    inputs:
+      dns_zone:
+        type: string
+        description: ""
+      record_name:
+        type: string
+        description: ""
+      record_ttl:
+        type: number
+        description: ""
+      record_type:
+        type: string
+        description: ""
+      record_value:
+        type: string
+        description: ""
+        default: ''
+      shutter_resource_id:
+        type: string
+        description: ""
+        default: ''
+      alias_target_id:
+        type: string
+        description: ""
+        default: ''
+      environments:
+        type: string
+        description: ""
+        default: "prod"
+      cft_sds:
+        type: string
+        description: ""
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set Branch Name
+      run: |
+        DNS_ZONE="${{ inputs.dns_zone }}"
+        echo "BACKSTAGE_BRANCH_NAME=${{ inputs.dns_zone }}_${{ inputs.record_type }}_${{ inputs.record_name }}_${{ inputs.cft_sds }}_${{ github.run_id }}" >> $GITHUB_ENV
+        echo "DNS_ZONE_FILE_NAME=${DNS_ZONE//./-}.yml" >> $GITHUB_ENV
+
+    - name: git create branch
+      run: |
+        git --version
+        git config user.name "GitHub Actions Bot"
+        git config user.email "<>"
+        git checkout -b $BACKSTAGE_BRANCH_NAME
+      
+    - name: Print Inputs
+      run: |
+        echo "DNS Zone Name: ${{ inputs.dns_zone }}"
+        echo "DNS Record Name: ${{ inputs.record_name }}"
+        echo "DNS Record TTL: ${{ inputs.record_ttl }}"
+        echo "DNS Record Type: ${{ inputs.record_type }}"
+        echo "DNS Record Value: ${{ inputs.record_value }}"
+        echo "DNS Record shutter Id (A record only): ${{ inputs.shutter_resource_id }}"
+        echo "DNS Records Alias Target Id (A record only): ${{ inputs.alias_target_id }}"
+        echo "Environment: ${{ inputs.environments }}"
+        echo "Platform: ${{ inputs.cft_sds }}"
+
+    - name: Add new DNS Record
+      uses: "./.github/actions/multiRecord"
+      with:
+        record_name: ${{ inputs.record_name }}
+        record_ttl: ${{ inputs.record_ttl }}
+        record_type: ${{ inputs.record_type }}
+        record_value: ${{ inputs.record_value }}
+        shutter_resource_id: ${{ inputs.shutter_resource_id }}
+        alias_target_id: ${{ inputs.alias_target_id }}
+        dns_file: environments/${{ inputs.environments }}/$DNS_ZONE_FILE_NAME
+
+    - name: Add new Shutter config
+      uses: "./.github/actions/shutterRecord"
+      with:
+        record_name: ${{ inputs.record_name }}
+        record_type: ${{ inputs.record_type }}
+        shutter_file: shuttering/${{ inputs.environments }}/$DNS_ZONE_FILE_NAME
+
+    - name: Workspace
+      run: ls ${{ github.workspace }}
+
+    - name: git commit branch
+      run: |
+        git add .
+        git commit -m "Backstage DNS workflow - Adding updated files to commit"
+        git push -u origin $BACKSTAGE_BRANCH_NAME
+
+    - name: create pull request
+      run: gh pr create -B master -H $BACKSTAGE_BRANCH_NAME --title 'Create new ${{ inputs.record_name }} record in ${{ inputs.dns_zone }}' --body 'Created by Backstage'
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
