@@ -1,14 +1,14 @@
 ns:
   - name: "hearings"
     ttl: 300
-    record: 
+    record:
       - "ns1-07.azure-dns.com."
       - "ns2-07.azure-dns.net."
       - "ns3-07.azure-dns.org."
       - "ns4-07.azure-dns.info."
   - name: "ncp"
     ttl: 900
-    record: 
+    record:
       - "ns1-04.azure-dns.com."
       - "ns2-04.azure-dns.net."
       - "ns3-04.azure-dns.org."
@@ -17,15 +17,15 @@ ns:
 A:
   - name: "mail"
     ttl: 900
-    record: 
+    record:
       - "51.140.110.41"
   - name: "sftp-dev"
     ttl: 60
-    record: 
+    record:
       - "51.140.117.157"
   - name: "sftp-prod"
     ttl: 60
-    record: 
+    record:
       - "51.140.47.203"
 
 cname:
@@ -41,3 +41,9 @@ cname:
   - name: "em8472"
     ttl: 300
     record: "u18847995.wl246.sendgrid.net"
+
+txt:
+  - name: _dmarc
+    ttl: 3600
+    record: 
+      - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:ems@reform.hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:ems@reform.hmcts.net"

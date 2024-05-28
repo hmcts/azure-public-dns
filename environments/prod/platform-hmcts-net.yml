@@ -186,6 +186,18 @@ A:
     ttl: 300
     record:
       - "20.108.148.46"
+  - name: "dai-prod-dsvm"
+    ttl: 300
+    record:
+      - "172.166.190.173"
+  - name: "crime-prod-dsvm"
+    ttl: 300
+    record:
+      - "172.166.190.136"
+  - name: "dlrm-prod-dsvm"
+    ttl: 300
+    record:
+      - "172.166.190.152"
 
 txt:
   - name: "@"
