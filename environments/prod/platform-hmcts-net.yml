@@ -213,6 +213,10 @@ txt:
     ttl: 3600
     record:
       - "v=DMARC1; p=none;"
+  - name: "_dnsauth.apply-for-adoption"
+    ttl: 3600
+    record:
+      - "n3zyn06dl4jk9flktv4d018rxhrrjfm7"
 
 cname:
   - name: "administer-orgs"
