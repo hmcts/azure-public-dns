@@ -22,15 +22,10 @@ A:
     record:
       - "20.254.22.154"
 
-  - name: "darts-gateway"
-    ttl: 300
-    record:
-      - "10.25.32.99"
-
   - name: "darts-proxy"
     ttl: 300
     record:
-      - "10.25.32.99"
+      - "10.23.2.252"
 
 txt: []
 
