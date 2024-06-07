@@ -69,7 +69,7 @@ cname:
   - name: "administer-orgs"
     shutter: false
   - name: "plum"
-    shutter: false 
+    shutter: true 
   - name: "apply-divorce"
     shutter: false
   - name: "www.apply-divorce"
