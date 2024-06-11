@@ -52,8 +52,6 @@ cname:
     shutter: false
   - name: "plum.uksouth"
     shutter: false
-  - name: "netbox"
-    shutter: false
   - name: "idam-web-public"
     shutter: false
   - name: "idam-web-public-sprod"
