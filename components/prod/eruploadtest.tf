@@ -14,4 +14,5 @@ module "eruploadtest-justice" {
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
   shutter_config      = data.local_file.eruploadtest_justice_shutter_config.content
+  area                = data.local_file.eruploadtest-justice-config.content.area
 }

@@ -13,4 +13,5 @@ module "end-civil-partnership" {
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
   shutter_config      = data.local_file.end_civil_partnership_shutter_config.content
+  area                = data.local_file.end-civil-partnership-config.content.area
 }

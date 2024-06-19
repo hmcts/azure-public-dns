@@ -14,4 +14,5 @@ module "darts-nle-service" {
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
   shutter_config      = data.local_file.darts_nle_service_shutter_config.content
+  area                = data.local_file.darts-nle-service-config.content.area
 }

@@ -14,4 +14,5 @@ module "casetracker" {
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
   shutter_config      = data.local_file.casetracker_shutter_config.content
+  area                = data.local_file.casetracker-config.content.area
 }

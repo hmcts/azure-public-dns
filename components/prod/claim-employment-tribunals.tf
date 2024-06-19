@@ -13,4 +13,5 @@ module "claim-employment-tribunals" {
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
   shutter_config      = data.local_file.claim_et_sya_shutter_config.content
+  area                = data.local_file.claim-et-sya-config.content.area
 }

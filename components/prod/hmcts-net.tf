@@ -18,4 +18,5 @@ module "hmcts_net" {
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
   shutter_config      = data.local_file.hmcts_net_shutter_config.content
+  area                = data.local_file.hmcts_net_config.content.area
 }

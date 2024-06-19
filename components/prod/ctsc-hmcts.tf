@@ -14,4 +14,5 @@ module "ctsc-hmcts" {
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
   shutter_config      = data.local_file.ctsc_hmcts_shutter_config.content
+  area                = data.local_file.ctsc-hmcts-config.content.area
 }
