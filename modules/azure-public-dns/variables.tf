@@ -39,3 +39,8 @@ variable "shutter_config" {
   default = "{ A: [], cname: []}"
 }
 variable "env" {}
+
+variable "area" {
+  description = "The business area that the DNS zone or record relates to. This is used for tagging. Options are: CFT, SDS, Mixed, Undefined."
+  default     = "Undefined"
+}
