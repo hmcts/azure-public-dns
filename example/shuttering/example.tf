@@ -42,7 +42,7 @@ locals {
       area    = lookup(record, "area", null)
       ttl     = record.ttl
       record  = record.record
-      shutter = (lookup(record, "area", null) == "cft" && local.shutter_all_cft) ? true : (lookup(record, "area", null) == "sds" && local.shutter_all_sds) ? true : (local.shutter_all_cname != true ? (local.cname_shuttering != null ? lookup({ for shutter in local.cname_shuttering : shutter.name => shutter }, record.name, { shutter = false }).shutter : false) : true)
+      shutter = (record.name != "*" && lookup(record, "area", null) == "cft" && local.shutter_all_cft) ? true : (record.name != "*" && lookup(record, "area", null) == "sds" && local.shutter_all_sds) ? true : (local.shutter_all_cname != true ? (local.cname_shuttering != null ? lookup({ for shutter in local.cname_shuttering : shutter.name => shutter }, record.name, { shutter = false }).shutter : false) : true)
     }
   ] : []
 }
