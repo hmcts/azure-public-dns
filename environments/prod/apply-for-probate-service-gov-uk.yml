@@ -1,3 +1,5 @@
+area: "cft"
+
 ns:
 
 mx:
@@ -9,7 +11,6 @@ A:
       - "51.140.162.48"
 
 txt:
-
 
 cname:
   - name: "www"

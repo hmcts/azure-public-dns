@@ -220,17 +220,21 @@ txt:
 
 cname:
   - name: "administer-orgs"
+    area: "cft"
     ttl: 60
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.administer-orgs"
+    area: "cft"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "plum"
+    area: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false 
+    shutter: false
   - name: "afdverify.plum"
+    area: "cft"
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "apply-divorce"
@@ -240,14 +244,17 @@ cname:
     ttl: 60
     record: "www.apply-divorce.service.gov.uk"
   - name: "gateway.ccd"
+    area: "cft"
     ttl: 60
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "fees-register"
+    area: "cft"
     ttl: 60
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "www.fees-register"
+    area: "cft"
     ttl: 60
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
@@ -258,31 +265,39 @@ cname:
     ttl: 300
     record: "gv-st2ccjwg4awsh2.dv.googlehosted.com"
   - name: "manage-case"
+    area: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.manage-case"
+    area: "cft"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "manage-org"
+    area: "cft"
     ttl: 60
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.manage-org"
+    area: "cft"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "manage-payments"
+    area: "cft"
     ttl: 900
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "www.manage-payments"
+    area: "cft"
     ttl: 900
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "www.moneyclaim"
+    area: "cft"
     ttl: 300
     record: "moneyclaim.reform.hmcts.net"
   - name: "www.moneyclaim-legal"
+    area: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
@@ -299,18 +314,22 @@ cname:
     ttl: 3600
     record: "mojmaintenance.azurewebsites.net"
   - name: "paybubble"
+    area: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "www.paybubble"
+    area: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "paymentoutcome-web"
+    area: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "www.paymentoutcome-web"
+    area: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
@@ -336,30 +355,37 @@ cname:
     ttl: 300
     record: "reformscanprodstaging.blob.core.windows.net"
   - name: "register-org"
+    area: "cft"
     ttl: 60
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.register-org"
+    area: "cft"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.www.moneyclaim-legal"
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.gateway.ccd"
+    area: "cft"
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.return-case-doc.ccd"
+    area: "cft"
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "return-case-doc.ccd"
+    area: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "immigration-appeal"
+    area: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.immigration-appeal"
+    area: "cft"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.www.manage-payments"
@@ -375,36 +401,46 @@ cname:
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.fees-register"
+    area: "cft"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.www.fees-register"
+    area: "cft"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.equality-and-diversity"
+    area: "cft"
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "equality-and-diversity"
+    area: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.log-and-audit"
+    area: "cft"
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "log-and-audit"
+    area: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.idam-web-admin"
+    area: "cft"
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "idam-web-admin"
+    area: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.idam-user-dashboard"
+    area: "cft"
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "idam-user-dashboard"
+    area: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
@@ -428,9 +464,11 @@ cname:
     record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
 
   - name: "afdverify.hmi-apim"
+    area: "cft"
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "hmi-apim"
+    area: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
@@ -474,7 +512,7 @@ cname:
     ttl: 300
     record: "firewall-prod-int-palo-sdrs.uksouth.cloudapp.azure.com"
 
-#### Video Hearings
+  #### Video Hearings
   - name: "_DEFCA9944606874FF3B5E0E653FF9825"
     ttl: 10800
     record: "882B317559A955DAA77E56E15B374766.A2851A8D271748B93C979BB5B30DD924.bfcf0235dbb978ff6660.sectigo.com."
@@ -497,13 +535,13 @@ cname:
   - name: vh-wowza
     ttl: 300
     record: vh-infra-wowza-prod.uksouth.cloudapp.azure.com
-       
+
   - name: "_D7BC9C94CCECEF2B47A23F6CDB45C9A0.vh-user-api"
     ttl: 10800
     record: "E2ECB8313DACA9CA4A29CFB86C20736F.5F10E5D5D826058053EAE74381014248.4afb3f5c0d009cf6b36d.sectigo.com."
 
-# SecOps Splunk SIEM TLS/SSL Cert recreation April/May 2024 (SECOPS-5524)
-  - name: "_BEAB707EE5C317495EAF61BCCDD30936.splunk" 
+  # SecOps Splunk SIEM TLS/SSL Cert recreation April/May 2024 (SECOPS-5524)
+  - name: "_BEAB707EE5C317495EAF61BCCDD30936.splunk"
     ttl: 300
     record: "6676915CA4888287EBD9BDAD179778BB.58301F2BFFA4E2E31B6B9A4FC8CC6951.4c8e6b8484009a651bfc.sectigo.com."
   - name: "_BEAB707EE5C317495EAF61BCCDD30936.splunk-idx-prod-vm00"
@@ -578,13 +616,13 @@ cname:
 
   # DTSSE
   - name: "afdverify.dtsse-ardoq-adapter"
+    area: "cft"
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "dtsse-ardoq-adapter"
+    area: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-
-
 
   - name: "response"
     ttl: 300
@@ -650,13 +688,12 @@ cname:
     ttl: 300
     record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
 
-
-   # tenable GANDI cert
+    # tenable GANDI cert
   - name: "_3F9A4543A1748F63D41BC3D28B15F929.tenable-sc"
     ttl: 10800
     record: "1565E06B196A8530B087718D80C9A8CC.CE7800701F925753A80DE0D48DAE1F57.76fb54ea44a230d545a9.sectigo.com."
 
-# Civil
+  # Civil
   - name: "em2826.mail-civil-nonprod"
     ttl: 300
     record: "u21913992.wl243.sendgrid.net"

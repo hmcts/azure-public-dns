@@ -1,12 +1,12 @@
-ns:
+area: "cft"
 
+ns:
 
 mx:
 
 A:
 
 txt:
-
 
 cname:
   - name: "www"
