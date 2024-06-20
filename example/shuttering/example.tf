@@ -63,6 +63,14 @@ output "shutter_all_cname" {
   value = local.shutter_all_cname
 }
 
+output "shutter_all_cft" {
+  value = local.shutter_all_cft
+}
+
+output "shutter_all_sds" {
+  value = local.shutter_all_sds
+}
+
 output "zone_area" {
   value = local.zone_area
 }
