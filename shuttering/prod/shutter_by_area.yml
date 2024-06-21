@@ -1,4 +1,4 @@
-# Setting this to true will shutter any zone/record tagged with area: "cft"
+# Setting this to true will shutter any zone/record tagged with # area: "cft"
 shutter_all_cft: false
 
 # Setting this to true will shutter any zone/record tagged with area: "sds".

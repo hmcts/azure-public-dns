@@ -1,17 +1,17 @@
 # You can set the area tag here if all records in the file relate to a single business area
-# area: "cft"
+# # area: "cft"
 # OR
 # area: "sds"
 
 A:
   - name: "abc"
-    area: "cft"
+    # area: "cft"
     ttl: 3600
     record:
       - "1.2.3.4"
 
   - name: "def-example"
-    area: "cft"
+    # area: "cft"
     ttl: 60
     record:
       - "4.33.5.11"
@@ -25,7 +25,7 @@ A:
 
 cname:
   - name: "ABC"
-    area: "cft"
+    # area: "cft"
     ttl: 900
     record: "ABC.example.com"
   - name: "DEF"
@@ -33,11 +33,11 @@ cname:
     ttl: 60
     record: "DEF.example.com"
   - name: "plumclassic"
-    area: "cft"
+    # area: "cft"
     ttl: 300
     record: "plumclassic.azurefd.net"
   - name: "plumclassic2"
-    area: "cft"
+    # area: "cft"
     ttl: 300
     record: "cnphmcts-classic-sbox.azurefd.net"
     syncPrivateDNS: false
