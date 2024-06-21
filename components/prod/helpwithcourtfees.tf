@@ -15,5 +15,4 @@ module "helpwithcourtfees" {
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
   shutter_config      = data.local_file.hwf_pet_shutter_config.content
-  zone_platform       = lookup(yamldecode(data.local_file.hwf-pet-config.content), "platform", null)
 }

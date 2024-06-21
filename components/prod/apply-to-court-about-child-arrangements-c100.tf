@@ -17,5 +17,4 @@ module "apply-to-court-about-child-arrangements-c100" {
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
   shutter_config      = data.local_file.apply_to_court_about_child_arrangements_c100_shutter_config.content
-  zone_platform       = lookup(yamldecode(data.local_file.apply-to-court-about-child-arrangements-c100-config.content), "platform", null)
 }

@@ -15,5 +15,4 @@ module "find-court-tribunal" {
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
   shutter_config      = data.local_file.find_court_tribunal_shutter_config.content
-  zone_platform       = lookup(yamldecode(data.local_file.find-court-tribunal.content), "platform", null)
 }

@@ -13,5 +13,4 @@ module "appeal-benefit" {
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
   shutter_config      = data.local_file.appeal_benefit_shutter_config.content
-  zone_platform       = lookup(yamldecode(data.local_file.appeal-benefit-config.content), "platform", null)
 }
