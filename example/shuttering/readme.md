@@ -9,7 +9,7 @@ This shows how the DNS records and the shuttering configuration for those record
 For example, take the following A record and A shutter configuration:
 
 ```yaml
-A: 
+A:
   - name: "abc"
     ttl: 3600
     record:
@@ -28,7 +28,7 @@ In the following code we use a for loop to loop over the A records and then merg
 ```terraform
 a_configuration = local.a_records != null ? [for record in local.a_records :
     merge(
-        record, 
+        record,
         (local.shutter_all_a != true ? lookup({ for shutter in local.a_shuttering : shutter.name => shutter }, record.name, {}) : { shutter: local.shutter_all_a })
     )
 ] : []
@@ -54,6 +54,8 @@ There are also additional options to shutter all records which overrides the ind
 shutter_all: false
 shutter_all_a: false
 shutter_all_cname: false
+shutter_all_cft: false
+shutter_all_sds: false
 ```
 
 `shutter_all: false` is the most powerful of these options, it overrides all other shutter settings to match the value set in this option.
@@ -62,12 +64,16 @@ shutter_all_cname: false
 
 `shutter_all_cname: false` is specific to CNAME record types and will override individual record shutter settings, has no effect on A records
 
+`shutter_all_cft: false` can be used to shutter any zone or record (A and CNAME only) where `area: "cft"` is set.
+
+`shutter_all_sds: false` can be used to shutter any zone or record (A and CNAME only) where `area: "sds"` is set.
+
 When false these values are ignored, when true they automatically set all or specific record types, depending on the setting used, to: `{ shutter: true }`.
 
 ## Running locally
 
 To run this example code locally, make sure you have changed directory in your terminal into this `example/shuttering` directory.
-You should have Terraform installed locally and be at least v1.4. 
+You should have Terraform installed locally and be at least v1.4.
 
 You can now run:
 

@@ -1,3 +1,5 @@
+area: "cft"
+
 ns:
 
 mx:
@@ -5,7 +7,6 @@ mx:
 A:
 
 txt:
-
 
 cname:
   - name: "www"
@@ -15,4 +16,3 @@ cname:
   - name: "afdverify.www"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
- 

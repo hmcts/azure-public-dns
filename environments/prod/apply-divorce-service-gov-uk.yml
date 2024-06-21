@@ -1,5 +1,6 @@
-ns:
+area: "cft"
 
+ns:
 
 mx:
 
@@ -8,9 +9,8 @@ A:
 txt:
   - name: "_dnsauth.www"
     ttl: 3600
-    record: 
+    record:
       - "5bz95ky3c27gb6475yz0yx2x1g4wg6qc"
-
 
 cname:
   - name: "*"

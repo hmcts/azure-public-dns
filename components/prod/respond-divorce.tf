@@ -13,4 +13,5 @@ module "respond-divorce" {
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
   shutter_config      = data.local_file.respond_divorce_shutter_config.content
+  zone_area           = lookup(yamldecode(data.local_file.respond-divorce-config.content), "area", null)
 }
