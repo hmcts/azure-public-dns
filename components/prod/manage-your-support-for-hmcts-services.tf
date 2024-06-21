@@ -14,5 +14,5 @@ module "manage-your-support-for-hmcts-services" {
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
   shutter_config      = data.local_file.manage_your_support_for_hmcts_services_shutter_config.content
-  zone_area           = lookup(yamldecode(data.local_file.manage-your-support-for-hmcts-services-config.content), "area", null)
+  zone_platform       = lookup(yamldecode(data.local_file.manage-your-support-for-hmcts-services-config.content), "platform", null)
 }

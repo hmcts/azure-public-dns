@@ -13,5 +13,5 @@ module "appeal-immigration" {
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
   shutter_config      = data.local_file.appeal_immigration_asylum_decision_shutter_config.content
-  zone_area           = lookup(yamldecode(data.local_file.appeal-immigration-asylum-decision-config.content), "area", null)
+  zone_platform       = lookup(yamldecode(data.local_file.appeal-immigration-asylum-decision-config.content), "platform", null)
 }

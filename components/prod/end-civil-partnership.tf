@@ -13,5 +13,5 @@ module "end-civil-partnership" {
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
   shutter_config      = data.local_file.end_civil_partnership_shutter_config.content
-  zone_area           = lookup(yamldecode(data.local_file.end-civil-partnership-config.content), "area", null)
+  zone_platform       = lookup(yamldecode(data.local_file.end-civil-partnership-config.content), "platform", null)
 }

@@ -14,5 +14,5 @@ module "apply-for-probate" {
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
   shutter_config      = data.local_file.apply_for_probate_shutter_config.content
-  zone_area           = lookup(yamldecode(data.local_file.apply-for-probate-config.content), "area", null)
+  zone_platform       = lookup(yamldecode(data.local_file.apply-for-probate-config.content), "platform", null)
 }

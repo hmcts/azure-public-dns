@@ -14,5 +14,5 @@ module "moneyclaims" {
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
   shutter_config      = data.local_file.moneyclaims_shutter_config.content
-  zone_area           = lookup(yamldecode(data.local_file.moneyclaims-config.content), "area", null)
+  zone_platform       = lookup(yamldecode(data.local_file.moneyclaims-config.content), "platform", null)
 }

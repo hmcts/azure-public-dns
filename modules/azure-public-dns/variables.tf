@@ -40,8 +40,8 @@ variable "shutter_config" {
 }
 variable "env" {}
 
-variable "zone_area" {
+variable "zone_platform" {
   type        = string
-  description = "The business area of the zone, used to determine if the zone is a CFT or SDS zone."
+  description = "The platform that the DNS zone belongs to. Can be CFT or SDS."
   default     = null
 }
