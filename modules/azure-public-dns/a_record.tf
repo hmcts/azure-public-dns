@@ -1,7 +1,7 @@
 locals {
   # Extract shutter_all_a value if available or false
   # If global shutter is true, set to true otherwise set to value of shutter_all_a
-  shutter_all_a = local.shutter_all == true ? true : (var.zone_platform == "cft" && local.shutter_all_cft == true) ? true : (var.zone_platform == "sds" && local.shutter_all_sds == true) ? true : lookup(yamldecode(var.shutter_config), "shutter_all_a", false)
+  shutter_all_a = local.shutter_all == true ? true : lookup(yamldecode(var.shutter_config), "shutter_all_a", false)
 
   // Extract A record shutter configuration from yaml input file
   a_shuttering = lookup(yamldecode(var.shutter_config), "A", [])

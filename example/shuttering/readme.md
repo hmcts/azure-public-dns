@@ -64,9 +64,9 @@ shutter_all_sds: false
 
 `shutter_all_cname: false` is specific to CNAME record types and will override individual record shutter settings, has no effect on A records
 
-`shutter_all_cft: false` can be used to shutter any zone or record (A and CNAME only) where `platform: "cft"` is set.
+`shutter_all_cft: false` can be used to shutter any record (A and CNAME only) where `platform: "cft"` is set.
 
-`shutter_all_sds: false` can be used to shutter any zone or record (A and CNAME only) where `platform: "sds"` is set.
+`shutter_all_sds: false` can be used to shutter any record (A and CNAME only) where `platform: "sds"` is set.
 
 When false these values are ignored, when true they automatically set all or specific record types, depending on the setting used, to: `{ shutter: true }`.
 

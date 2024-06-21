@@ -1,5 +1,3 @@
-platform: "cft"
-
 ns:
 
 mx:
@@ -10,19 +8,24 @@ txt:
 
 cname:
   - name: "manage"
+    platform: "cft"
     ttl: 300
     record: "www.manage.appeal-benefit-decision.service.gov.uk"
   - name: "www.manage"
+    platform: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "www"
+    platform: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.www"
+    platform: "cft"
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.www.manage"
+    platform: "cft"
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"

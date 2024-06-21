@@ -39,9 +39,3 @@ variable "shutter_config" {
   default = "{ A: [], cname: []}"
 }
 variable "env" {}
-
-variable "zone_platform" {
-  type        = string
-  description = "The platform that the DNS zone belongs to. Can be CFT or SDS."
-  default     = null
-}
