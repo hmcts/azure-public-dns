@@ -1,4 +1,4 @@
-# You can set the area tag here if all records in the file relate to a single business area
+# You can set the area tag here if all records in the file relate to a single business area. In this case all records will be shuttered/unshuttered with shutter_all_cft or shutter_all_sds.
 # # area: "cft"
 # OR
 # area: "sds"
