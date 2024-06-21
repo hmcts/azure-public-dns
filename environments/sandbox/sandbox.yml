@@ -122,20 +122,20 @@ cname:
     ttl: 60
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: "plum"
-    # area: "cft"
+    area: "cft"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
     shutter_v2: false
   - name: "www.plum"
-    # area: "cft"
+    area: "cft"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: "afdverify.plum"
-    # area: "cft"
+    area: "cft"
     ttl: 3600
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: "afdverify.www.plum"
-    # area: "cft"
+    area: "cft"
     ttl: 3600
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: "plum.uksouth"
