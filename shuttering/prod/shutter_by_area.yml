@@ -1,5 +1,5 @@
 # Setting this to true will shutter any zone/record tagged with # area: "cft"
-shutter_all_cft: false
+shutter_all_cft: true
 
 # Setting this to true will shutter any zone/record tagged with area: "sds".
 # No "sds" tags have been added yet. Not ssure how useful this option is for sds but can be implemented by adding tags where necessary and will work as long as all A records have a valid alias_target_resource_id or shutter_resource_id.
