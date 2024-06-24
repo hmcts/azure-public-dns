@@ -12,7 +12,7 @@ locals {
       name     = record.name
       platform = lookup(record, "platform", null)
       ttl      = record.ttl
-      shutter = (local.shutter_all_a != true ?
+      shutter = (lookup(record, "platform", null) == "cft" && local.shutter_all_cft) ? true : (lookup(record, "platform", null) == "sds" && local.shutter_all_sds) ? true : (local.shutter_all_a != true ?
         (local.a_shuttering != null ? lookup({ for shutter in local.a_shuttering : shutter.name => shutter }, record.name, { shutter = false }).shutter : false) : true
       )
       },
