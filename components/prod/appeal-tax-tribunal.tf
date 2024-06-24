@@ -15,5 +15,4 @@ module "appeal-tax-tribunal" {
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
   shutter_config      = data.local_file.tt_pet_shutter_config.content
-  zone_area           = lookup(yamldecode(data.local_file.tt-pet-config.content), "area", null)
 }

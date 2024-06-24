@@ -39,9 +39,3 @@ variable "shutter_config" {
   default = "{ A: [], cname: []}"
 }
 variable "env" {}
-
-variable "zone_area" {
-  type        = string
-  description = "The business area of the zone, used to determine if the zone is a CFT or SDS zone."
-  default     = null
-}

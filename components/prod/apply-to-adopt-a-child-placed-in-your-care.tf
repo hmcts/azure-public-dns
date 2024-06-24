@@ -17,5 +17,4 @@ module "apply-to-adopt-a-child-placed-in-your-care" {
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
   shutter_config      = data.local_file.apply_to_adopt_a_child_placed_in_your_care_shutter_config.content
-  zone_area           = lookup(yamldecode(data.local_file.apply-to-adopt-a-child-placed-in-your-care-config.content), "area", null)
 }

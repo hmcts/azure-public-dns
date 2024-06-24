@@ -1,5 +1,3 @@
-area: "cft"
-
 ns: []
 
 mx: []
@@ -10,19 +8,24 @@ txt: []
 
 cname:
   - name: "afdverify.www"
+    platform: "cft"
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "www"
+    platform: "cft"
     ttl: 120
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: true
     #shuttering must be achieved by pointing to hmcts-apply-to-court-about-child-arrangements-c1.azureedge.net at present
   - name: "em5901.mail-prl"
+    platform: "cft"
     ttl: 300
     record: "u24999813.wl064.sendgrid.net"
   - name: "s1._domainkey.mail-prl"
+    platform: "cft"
     ttl: 300
     record: "s1.domainkey.u24999813.wl064.sendgrid.net"
   - name: "s2._domainkey.mail-prl"
+    platform: "cft"
     ttl: 300
     record: "s2.domainkey.u24999813.wl064.sendgrid.net"

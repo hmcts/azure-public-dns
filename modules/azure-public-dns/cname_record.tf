@@ -3,7 +3,7 @@ locals {
 
   # Extract shutter_all_cname value if available or false
   # If global shutter is true, set to true otherwise set to value of shutter_all_cname
-  shutter_all_cname = local.shutter_all == true ? true : (var.zone_area == "cft" && local.shutter_all_cft == true) ? true : (var.zone_area == "sds" && local.shutter_all_sds == true) ? true : lookup(yamldecode(var.shutter_config), "shutter_all_cname", false)
+  shutter_all_cname = local.shutter_all == true ? true : lookup(yamldecode(var.shutter_config), "shutter_all_cname", false)
 
   // Extract A record shutter configuration from yaml input file
   cname_shuttering = lookup(yamldecode(var.shutter_config), "cname", [])
@@ -11,11 +11,11 @@ locals {
   // Merge CNAME record values with shutter values, if global shutter is true then ignore shutter file and set all to value of true
   cname_configuration = var.cname_records != null ? [
     for record in var.cname_records : {
-      name   = record.name
-      area   = lookup(record, "area", null)
-      ttl    = record.ttl
-      record = record.record
-      shutter = (lookup(record, "area", null) == "cft" && local.shutter_all_cft) ? true : (lookup(record, "area", null) == "sds" && local.shutter_all_sds) ? true : (local.shutter_all_cname != true ? (local.cname_shuttering != null ? lookup({ for shutter in local.cname_shuttering : shutter.name => shutter }, record.name, { shutter = false }).shutter : false) : true
+      name     = record.name
+      platform = lookup(record, "platform", null)
+      ttl      = record.ttl
+      record   = record.record
+      shutter = (lookup(record, "platform", null) == "cft" && local.shutter_all_cft) ? true : (lookup(record, "platform", null) == "sds" && local.shutter_all_sds) ? true : (local.shutter_all_cname != true ? (local.cname_shuttering != null ? lookup({ for shutter in local.cname_shuttering : shutter.name => shutter }, record.name, { shutter = false }).shutter : false) : true
       )
     }
   ] : []
