@@ -1,4 +1,4 @@
-#  Shutter aall services within a platform
+#  Shutter all services within a platform
 shutter_all_cft: false
 shutter_all_sds: false
 
