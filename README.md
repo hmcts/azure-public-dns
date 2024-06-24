@@ -111,4 +111,8 @@ Please note that if you are creating new dns zone and if that dns zone also exis
 
 Please see [shuttering](./example/shuttering/readme.md) for an example of how shuttering works and an example project that you can use locally to get an understand of how to shutter services using this repository.
 
+### Shuttering by platform
+
+In order for a record to be shuttered using the `shutter_all_cft` and `shutter_all_sds` options, it will need to be tagged with the appropriate platform. You can see an example of this [here](./example/shuttering/records.yml)
+
 There is also guidance available [here](https://hmcts.github.io/cloud-native-platform/path-to-live/shutter.html)
