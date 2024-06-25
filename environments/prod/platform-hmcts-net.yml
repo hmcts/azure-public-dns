@@ -690,10 +690,12 @@ cname:
 
   # PRE
   - name: "pre-portal"
+    platform: "sds"
     ttl: 300
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
     shutter: false
   - name: "afdverify.pre-portal"
+    platform: "sds"
     ttl: 300
     record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
 
