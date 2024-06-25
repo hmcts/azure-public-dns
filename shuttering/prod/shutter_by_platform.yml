@@ -2,5 +2,4 @@
 shutter_all_cft: false
 
 # Setting this to true will shutter any A or CNAME record tagged with platform: "sds".
-# No "sds" tags have been added yet. Not sure how useful this option is for sds but can be implemented by adding tags where necessary and will work as long as all A records have a valid alias_target_resource_id or shutter_resource_id.
 shutter_all_sds: false

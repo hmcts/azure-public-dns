@@ -4,7 +4,7 @@ mx: []
 
 A: []
 
-txt: 
+txt:
   - name: "@"
     ttl: 3600
     record:
@@ -12,16 +12,20 @@ txt:
 cname:
   ## PIP Frontend
   - name: www
+    platform: "sds"
     record: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
     ttl: 300
     shutter: false
   - name: "afdverify.www"
+    platform: "sds"
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: sign-in
+    platform: "sds"
     record: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
     ttl: 300
   - name: staff
+    platform: "sds"
     record: sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net
     ttl: 300
 ##  - name: sign.stg
