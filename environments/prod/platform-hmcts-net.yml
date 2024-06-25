@@ -516,7 +516,7 @@ cname:
 
   #### Video Hearings
   - name: "_DEFCA9944606874FF3B5E0E653FF9825"
-    platform: "sds"
+    # platform: "sds"
     ttl: 10800
     record: "882B317559A955DAA77E56E15B374766.A2851A8D271748B93C979BB5B30DD924.bfcf0235dbb978ff6660.sectigo.com."
   - name: "_250e8aa720222655812148349eda33fd.service"
