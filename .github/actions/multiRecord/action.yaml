@@ -1,0 +1,38 @@
+name: 'Create DNS Record'
+description: 'This action will create a record in the found yaml file'
+inputs:
+  dns_file:
+    required: true
+    description: 'Environment to search for the DNS Zone'
+  record_name:
+    required: true
+    description: 'Record name for new entry'
+  record_ttl:
+    required: true
+    description: 'Record time to live for new entry'
+  record_type:
+    required: true
+    description: 'Record type to create'
+  record_value:
+    description: 'Record value for the new entry, only required for CNAME'
+  shutter_resource_id:
+    description: 'If creating an A record you can add a shutter resource'
+  alias_target_id:
+    description: 'If creating an A record you can use an alias instead of a record value'
+
+runs:
+  using: "composite"
+  steps:
+    - name: Add A record
+      uses: mikefarah/yq@v4.44.2
+      if: ${{ inputs.record_type == 'A' }}
+      with:
+        # Use YQ to add a new record to the A record list, it will append to the end of the list and have all fields as required, any blank inputs will be left empty in the file. The style options are: double quote everything, remove quotes from ttl field.
+        cmd: yq -i '.A += {"name":"${{ github.event.inputs.record_name }}", "ttl":${{ github.event.inputs.record_ttl }}, "alias_target_resource_id":"${{ github.event.inputs.alias_target_id }}", "shutter_resource_id":"${{ github.event.inputs.shutter_resource_id }}", "record":["${{ github.event.inputs.record_value }}"]} | ..style="double" | (.A[].ttl, .cname[].ttl) style=""' ${{ inputs.dns_file }}
+
+    - name: Add CNAME record
+      uses: mikefarah/yq@v4.44.2
+      if: ${{ inputs.record_type == 'CNAME' }}
+      with:
+        # Use YQ to add a new record to the CNAME record list, it will append to the end of the list and have all fields as required. The style options are: double quote everything, remove quotes from ttl field.
+        cmd: yq -i '.cname += {"name":"${{ github.event.inputs.record_name }}", "ttl":${{ github.event.inputs.record_ttl }}, "record":"${{ github.event.inputs.record_value }}"} | ..style="double" | (.A[].ttl, .cname[].ttl) style=""' ${{ inputs.dns_file }}

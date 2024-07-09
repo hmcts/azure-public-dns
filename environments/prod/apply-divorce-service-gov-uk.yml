@@ -1,6 +1,5 @@
 ns:
 
-
 mx:
 
 A:
@@ -8,49 +7,60 @@ A:
 txt:
   - name: "_dnsauth.www"
     ttl: 3600
-    record: 
+    record:
       - "5bz95ky3c27gb6475yz0yx2x1g4wg6qc"
-
 
 cname:
   - name: "*"
+    platform: "cft"
     ttl: 60
     record: "www.apply-divorce.service.gov.uk"
     shutter: false
   - name: "decree-absolute"
+    platform: "cft"
     ttl: 300
     record: "www.decree-absolute.apply-divorce.service.gov.uk"
   - name: "www.decree-absolute"
+    platform: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.www.decree-absolute"
+    platform: "cft"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "decree-nisi"
+    platform: "cft"
     ttl: 300
     record: "www.decree-nisi.apply-divorce.service.gov.uk"
   - name: "www.decree-nisi"
+    platform: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.www.decree-nisi"
+    platform: "cft"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "manage-application"
+    platform: "cft"
     ttl: 300
     record: "www.manage-application.apply-divorce.service.gov.uk"
   - name: "www.manage-application"
+    platform: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.www.manage-application"
+    platform: "cft"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "www"
+    platform: "cft"
     ttl: 120
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.www"
+    platform: "cft"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"

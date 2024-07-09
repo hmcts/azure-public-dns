@@ -8,7 +8,7 @@ txt: []
 
 srv: []
 
-cname: 
+cname:
   - name: "portal-sbox"
     ttl: 300
     record: "pre-sbox.powerappsportals.com"
@@ -40,8 +40,30 @@ cname:
     ttl: 300
     record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
   - name: "portal"
+    platform: "sds"
     ttl: 300
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
+  - name: "www"
+    platform: "sds"
+    ttl: 60
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
+    shutter: false
+  - name: "afdverify.www"
+    platform: "sds"
+    ttl: 300
+    record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
+    shutter: false
+  - name: "www.portal"
+    platform: "sds"
+    ttl: 60
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
+    shutter: false
+  - name: "afdverify.www.portal"
+    platform: "sds"
+    ttl: 300
+    record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
+    shutter: false
   - name: "afdverify.portal"
+    platform: "sds"
     ttl: 300
     record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"

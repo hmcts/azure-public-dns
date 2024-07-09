@@ -52,8 +52,6 @@ cname:
     shutter: false
   - name: "plum.uksouth"
     shutter: false
-  - name: "netbox"
-    shutter: false
   - name: "idam-web-public"
     shutter: false
   - name: "idam-web-public-sprod"
@@ -97,4 +95,6 @@ cname:
   - name: "plumclassic2"
     shutter: false
   - name: "labs-goldenpath-connor-okane"
+    shutter: false
+  - name: "labs-goldenpath-khaled"
     shutter: false

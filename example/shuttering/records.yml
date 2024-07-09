@@ -1,15 +1,18 @@
-A: 
+A:
   - name: "abc"
+    platform: "cft"
     ttl: 3600
     record:
       - "1.2.3.4"
 
   - name: "def-example"
+    platform: "cft"
     ttl: 60
     record:
       - "4.33.5.11"
 
   - name: "abc-example-01"
+    platform: "sds"
     ttl: 60
     record:
       - "4.33.5.11"
@@ -17,15 +20,19 @@ A:
 
 cname:
   - name: "ABC"
+    platform: "cft"
     ttl: 900
     record: "ABC.example.com"
   - name: "DEF"
+    platform: "sds"
     ttl: 60
     record: "DEF.example.com"
   - name: "plumclassic"
+    platform: "cft"
     ttl: 300
     record: "plumclassic.azurefd.net"
   - name: "plumclassic2"
+    platform: "cft"
     ttl: 300
     record: "cnphmcts-classic-sbox.azurefd.net"
     syncPrivateDNS: false

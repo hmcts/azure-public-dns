@@ -5,19 +5,18 @@ mx: []
 A:
   - name: "libra-gateway.staging"
     ttl: 300
-    record: 
+    record:
       - "185.230.153.229"
   - name: "libra-gateway.prod"
     ttl: 300
-    record: 
+    record:
       - "185.230.153.228"
-  
 
 txt: []
 
 srv: []
 
-cname: 
+cname:
   - name: "caps"
     ttl: 300
     record: "hmcts-live-int-ekcjchf8fbcpfxfz.z01.azurefd.net"
@@ -60,6 +59,7 @@ cname:
 
     # DARTS
   - name: "darts"
+    platform: "sds"
     ttl: 300
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
     shutter: false
@@ -86,9 +86,11 @@ cname:
 
     # Juror
   - name: "juror"
+    platform: "sds"
     ttl: 300
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
   - name: "juror-public"
+    platform: "sds"
     ttl: 300
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
   - name: "juror.staging"

@@ -14,3 +14,6 @@ cname:
   - name: "afdverify"
     ttl: 3600
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+  - name: "*"
+    ttl: 3600
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"

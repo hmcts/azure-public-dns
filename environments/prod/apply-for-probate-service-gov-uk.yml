@@ -4,18 +4,22 @@ mx:
 
 A:
   - name: "@"
+    platform: "cft"
     ttl: 3600
+    alias_target_resource_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/resourceGroups/lz-prod-rg/providers/Microsoft.Cdn/profiles/hmcts-prod/afdendpoints/hmcts-prod"
+    shutter_resource_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/resourceGroups/cft-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/staticSites/probate"
     record:
       - "51.140.162.48"
 
 txt:
 
-
 cname:
   - name: "www"
+    platform: "cft"
     ttl: 60
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
   - name: "afdverify.www"
+    platform: "cft"
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"

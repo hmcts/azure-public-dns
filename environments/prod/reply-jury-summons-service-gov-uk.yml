@@ -4,6 +4,7 @@ mx:
 
 A:
   - name: "@"
+    platform: "sds"
     ttl: 60
     # uncomment to shutter (and comment the other one)
     # alias_target_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/sds-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/staticSites/jd-reply-jury-summons"
@@ -11,9 +12,8 @@ A:
 
 txt:
 
-
 cname:
   - name: "afdverify"
+    platform: "sds"
     ttl: 300
     record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
- 

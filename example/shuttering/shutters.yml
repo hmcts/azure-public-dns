@@ -1,3 +1,7 @@
+#  Shutter all services within a platform
+shutter_all_cft: false
+shutter_all_sds: false
+
 # Global shutter override
 shutter_all: false
 
@@ -9,16 +13,16 @@ A:
   - name: "abc"
     shutter: false
   - name: "def-example"
-    shutter: true
+    shutter: false
   - name: "abc-example-01"
     shutter: false
-    
+
 cname:
   - name: "ABC"
-    shutter: true
+    shutter: false
   - name: "DEF"
     shutter: false
   - name: "plumclassic"
     shutter: false
   - name: "plumclassic2"
-    shutter: true
+    shutter: false

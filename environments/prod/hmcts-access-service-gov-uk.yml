@@ -1,9 +1,12 @@
+platform: "cft"
+
 ns:
 
 mx:
 
 A:
   - name: "@"
+    platform: "cft"
     ttl: 60
     alias_target_resource_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/resourceGroups/lz-prod-rg/providers/Microsoft.Cdn/profiles/hmcts-prod/afdendpoints/hmcts-prod"
     shutter: false
@@ -12,5 +15,6 @@ txt:
 
 cname:
   - name: "afdverify"
+    platform: "cft"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"

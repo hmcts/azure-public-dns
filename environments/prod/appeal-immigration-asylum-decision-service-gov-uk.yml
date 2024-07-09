@@ -1,20 +1,20 @@
 ns:
 
-
 mx:
 
 A:
 
 txt:
 
-
 cname:
   - name: "www"
+    platform: "cft"
     ttl: 60
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
     #record: "hmcts-appeal-immigration-asylum-decision-shutter.azureedge.net"
     #shuttering must be achieved for IAC by pointing to hmcts-appeal-immigration-asylum-decision-shutter.azureedge.net at present
   - name: "afdverify.www"
+    platform: "cft"
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"

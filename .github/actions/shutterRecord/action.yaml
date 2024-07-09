@@ -1,0 +1,29 @@
+name: 'Create shutter setup for record'
+description: 'This action will create a record in the found yaml file'
+inputs:
+  shutter_file:
+    required: true
+    description: 'Environment to search for the DNS Zone'
+  record_name:
+    required: true
+    description: 'Record name for new entry'
+  record_type:
+    required: true
+    description: 'Record type to create'
+
+runs:
+  using: "composite"
+  steps:
+    - name: Add A shutter config
+      uses: mikefarah/yq@v4.44.2
+      if: ${{ inputs.record_type == 'A' }}
+      with:
+        # Use YQ to add a new record to the A record list, it will append to the end of the list and have all fields as required, any blank inputs will be left empty in the file. The style options are: double quote everything, remove quotes from ttl field.
+        cmd: yq -i '.A += {"name":"${{ github.event.inputs.record_name }}", "shutter":false} | .A[].name style="double"' ${{ inputs.shutter_file }}
+
+    - name: Add CNAME shutter config
+      uses: mikefarah/yq@v4.44.2
+      if: ${{ inputs.record_type == 'CNAME' }}
+      with:
+        # Use YQ to add a new record to the CNAME record list, it will append to the end of the list and have all fields as required. The style options are: double quote everything, remove quotes from ttl field.
+        cmd: yq -i '.cname += {"name":"${{ github.event.inputs.record_name }}", "shutter":false} | .cname[].name style="double"' ${{ inputs.shutter_file }}

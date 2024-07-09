@@ -90,7 +90,6 @@ A:
     record:
       - "4.234.74.227"
 
-
 txt:
   - name: "contact.justice"
     ttl: 3600
@@ -123,25 +122,26 @@ cname:
     ttl: 60
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: "plum"
+    # platform: "cft"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
     shutter_v2: false
   - name: "www.plum"
+    # platform: "cft"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: "afdverify.plum"
+    # platform: "cft"
     ttl: 3600
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: "afdverify.www.plum"
+    # platform: "cft"
     ttl: 3600
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: "plum.uksouth"
+    # platform: "cft"
     ttl: 3600
     record: "firewall-sbox.uksouth.cloudapp.azure.com"
-  - name: "netbox"
-    ttl: 300
-    record: "sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
-    syncPrivateDNS: false
   - name: "afdverify.idam-web-public"
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
@@ -269,6 +269,10 @@ cname:
     shutter: false
     syncPrivateDNS: false
   - name: "labs-goldenpath-connor-okane"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+    shutter: false
+  - name: "labs-goldenpath-khaled"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
     shutter: false

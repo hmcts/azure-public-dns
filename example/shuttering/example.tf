@@ -8,6 +8,9 @@ data "local_file" "shutters" {
 locals {
   shutter_all = lookup(yamldecode(data.local_file.shutters.content), "shutter_all", false)
 
+  shutter_all_cft = lookup(yamldecode(data.local_file.shutters.content), "shutter_all_cft", false)
+  shutter_all_sds = lookup(yamldecode(data.local_file.shutters.content), "shutter_all_sds", false)
+
   shutter_all_a = local.shutter_all == true ? true : lookup(yamldecode(data.local_file.shutters.content), "shutter_all_a", false)
 
   a_records    = lookup(yamldecode(data.local_file.records.content), "A", [])
@@ -15,10 +18,10 @@ locals {
 
   a_configuration = local.a_records != null ? [
     for record in local.a_records : merge({
-      name = record.name
-      ttl  = record.ttl
-      shutter = (local.shutter_all_a != true ?
-        (local.a_shuttering != null ? lookup({ for shutter in local.a_shuttering : shutter.name => shutter }, record.name, { shutter = false }).shutter : false) : true
+      name     = record.name
+      platform = lookup(record, "platform", null)
+      ttl      = record.ttl
+      shutter = (local.shutter_all_a != true ? (local.a_shuttering != null ? lookup({ for shutter in local.a_shuttering : shutter.name => shutter }, record.name, { shutter = false }).shutter : false) : true
       )
       },
       try({ record = record.record }, {}),
@@ -33,12 +36,11 @@ locals {
 
   cname_configuration = local.cname_records != null ? [
     for record in local.cname_records : {
-      name   = record.name
-      ttl    = record.ttl
-      record = record.record
-      shutter = (local.shutter_all_cname != true ?
-        (local.cname_shuttering != null ? lookup({ for shutter in local.cname_shuttering : shutter.name => shutter }, record.name, { shutter = false }).shutter : false) : true
-      )
+      name     = record.name
+      platform = lookup(record, "platform", null)
+      ttl      = record.ttl
+      record   = record.record
+      shutter  = (local.shutter_all_cname != true ? (local.cname_shuttering != null ? lookup({ for shutter in local.cname_shuttering : shutter.name => shutter }, record.name, { shutter = false }).shutter : false) : true)
     }
   ] : []
 }
@@ -57,4 +59,12 @@ output "shutter_all_a" {
 
 output "shutter_all_cname" {
   value = local.shutter_all_cname
+}
+
+output "shutter_all_cft" {
+  value = local.shutter_all_cft
+}
+
+output "shutter_all_sds" {
+  value = local.shutter_all_sds
 }
