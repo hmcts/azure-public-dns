@@ -18,15 +18,5 @@ shutter_all_cname: false
 A: []
 
 cname: 
-  - name: "portal-sbox"
-    shutter: false
-  - name: "portal-dev"
-    shutter: false
-  - name: "portal-test"
-    shutter: false
-  - name: "portal-demo"
-    shutter: false
-  - name: "portal-stg"
-    shutter: false
   - name: "portal"
     shutter: false
