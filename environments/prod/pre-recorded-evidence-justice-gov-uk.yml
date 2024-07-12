@@ -9,36 +9,6 @@ txt: []
 srv: []
 
 cname:
-  - name: "portal-sbox"
-    ttl: 300
-    record: "pre-sbox.powerappsportals.com"
-  # - name: "afdverify.portal-sbox"
-  #   ttl: 300
-  #   record: "afdverify.sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
-  - name: "portal-dev"
-    ttl: 300
-    record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
-  - name: "afdverify.portal-dev"
-    ttl: 300
-    record: "afdverify.sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
-  - name: "portal-test"
-    ttl: 300
-    record: "sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net"
-  - name: "afdverify.portal-test"
-    ttl: 300
-    record: "afdverify.sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net"
-  - name: "portal-demo"
-    ttl: 300
-    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-  - name: "afdverify.portal-demo"
-    ttl: 300
-    record: "afdverify.sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-  - name: "portal-stg"
-    ttl: 300
-    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
-  - name: "afdverify.portal-stg"
-    ttl: 300
-    record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
   - name: "portal"
     platform: "sds"
     ttl: 300
