@@ -6,10 +6,10 @@ A:
   - name: "@"
     platform: "sds"
     ttl: 60
-    # uncomment to shutter (and comment the other one)
-    alias_target_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/sds-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/staticSites/jd-reply-jury-summons"
-    # alias_target_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/lz-prod-rg/providers/Microsoft.Cdn/profiles/sdshmcts-prod/afdendpoints/sdshmcts-prod"
-
+    alias_target_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/lz-prod-rg/providers/Microsoft.Cdn/profiles/sdshmcts-prod/afdendpoints/sdshmcts-prod"
+    # Define shutter app as modernised 'juror-public' 
+    # Invoke shuttering using /shutterring/prod/reply-jury-summons-service-gov-uk.yaml
+    shutter_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/sds-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/staticSites/juror-public"
 txt:
 
 cname:
