@@ -18,5 +18,5 @@ shutter_all_cname: false
 A: []
 
 cname:
-  - name: "et-ra"
+  - name: "et-syr"
     shutter: false

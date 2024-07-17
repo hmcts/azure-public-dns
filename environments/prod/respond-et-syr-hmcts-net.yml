@@ -7,9 +7,9 @@ A: []
 txt: []
 
 cname:
-  - name: "afdverify.et-ra"
+  - name: "afdverify.et-syr"
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-  - name: "et-ra"
+  - name: "et-syr"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
