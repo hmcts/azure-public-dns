@@ -264,10 +264,6 @@ cname:
   - name: "static-sds-build"
     shutter: false
 
-  # PRE
-  - name: "pre-portal"
-    shutter: true
-
   # tenable GANDI cert
   - name: "_3F9A4543A1748F63D41BC3D28B15F929.tenable-sc"
     shutter: false

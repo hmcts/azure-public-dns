@@ -692,17 +692,6 @@ cname:
     ttl: 3600
     record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
 
-  # PRE
-  - name: "pre-portal"
-    platform: "sds"
-    ttl: 300
-    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
-    shutter: false
-  - name: "afdverify.pre-portal"
-    platform: "sds"
-    ttl: 300
-    record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
-
     # tenable GANDI cert
   - name: "_3F9A4543A1748F63D41BC3D28B15F929.tenable-sc"
     ttl: 10800
