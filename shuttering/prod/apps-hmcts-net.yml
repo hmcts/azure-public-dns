@@ -68,8 +68,6 @@ cname:
     # Juror
   - name: "juror"
     shutter: false
-  - name: "juror-public"
-    shutter: true
   - name: "juror.staging"
     shutter: false
   - name: "juror-public.staging"
