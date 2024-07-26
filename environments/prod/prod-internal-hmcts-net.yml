@@ -1,11 +1,13 @@
 ns: []
-
 mx: []
-
-A: []
-
+A:
+  - name: "backstageRecordName"
+    ttl: 123123
+    alias_target_resource_id: "AliasIdValue"
+    shutter_resource_id: ""
+    record:
+      - "recordValue"
 txt: []
-
 cname:
   - name: "_5C74E70FC03A9F38D828859B3D3A4680.xhibittc1"
     ttl: 10800
