@@ -1,3 +1,7 @@
+zone_name: "sandbox.platform.hmcts.net"
+
+srv: []
+
 ns:
   - name: "frontdoor"
     ttl: 900
@@ -6,8 +10,6 @@ ns:
       - "ns2-33.azure-dns.net."
       - "ns3-33.azure-dns.org."
       - "ns4-33.azure-dns.info."
-
-srv: []
 
 mx:
   - name: "@"

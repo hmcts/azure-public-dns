@@ -1,6 +1,10 @@
+zone_name: "staging.platform.hmcts.net"
+
 ns: []
 
 mx: []
+
+srv: []
 
 A:
   - name: "tax-tribunals"
@@ -11,17 +15,15 @@ A:
     ttl: 300
     record:
       - 52.151.100.245
-
   - name: "sds-mtls-api-mgmt-appgw"
     ttl: 300
     record:
       - "20.108.148.125"
-      
   - name: "sds-api-mgmt-appgw"
     ttl: 300
     record:
       - "20.108.148.125"
-      
+
 txt:
   - name: "asuid.help-with-fees"
     ttl: 3600
@@ -31,8 +33,6 @@ txt:
     ttl: 3600
     record:
       - "ABF985515CE7017CB81683BA683A172F83116EB29083812B5D1C3ED49F13C50D"
-
-srv: []
 
 cname:
   - name: "afdverify.c100-application"
@@ -105,7 +105,6 @@ cname:
   - name: vh-wowza
     ttl: 300
     record: vh-infra-wowza-stg.uksouth.cloudapp.azure.com
-
   - name: "pre-portal"
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"

@@ -1,8 +1,14 @@
+zone_name: "perftest.platform.hmcts.net"
+
 ns: []
 
 mx: []
 
-A: 
+txt: []
+
+srv: []
+
+A:
   - name: "cft-api-mgmt-appgw"
     ttl: 300
     record:
@@ -12,10 +18,6 @@ A:
     ttl: 300
     record:
       - "20.26.57.242"
-
-txt: []
-
-srv: []
 
 cname:
   - name: "afdverify.benefit-appeal"
@@ -137,7 +139,7 @@ cname:
     record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "register-org"
     ttl: 3600
-    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"  
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.idam-web-admin"
     ttl: 3600
     record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"

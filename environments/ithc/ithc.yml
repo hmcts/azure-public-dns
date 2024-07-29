@@ -1,3 +1,4 @@
+zone_name: "ithc.platform.hmcts.net"
 ns: []
 
 srv: []
@@ -18,12 +19,12 @@ A:
     ttl: 3600
     record:
       - "20.254.18.242"
-      
+
   - name: "sds-api-mgmt-appgw"
     ttl: 3600
     record:
       - "20.254.18.242"
-      
+
 txt:
   - name: "contact.justice"
     ttl: 3600
