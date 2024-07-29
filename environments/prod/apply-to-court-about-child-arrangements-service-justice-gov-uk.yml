@@ -1,10 +1,14 @@
-ns:
+zone_name: "apply-to-court-about-child-arrangements.service.justice.gov.uk"
 
-mx:
+ns: []
 
-A:
+mx: []
 
-txt:
+A: []
+
+txt: []
+
+srv: []
 
 cname:
 - name: "afdverify.c100-application"

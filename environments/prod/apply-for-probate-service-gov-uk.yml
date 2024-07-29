@@ -1,6 +1,12 @@
-ns:
+zone_name: "apply-for-probate.service.gov.uk"
 
-mx:
+ns: []
+
+mx: []
+
+txt: []
+
+srv: []
 
 A:
   - name: "@"
@@ -10,8 +16,6 @@ A:
     shutter_resource_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/resourceGroups/cft-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/staticSites/probate"
     record:
       - "51.140.162.48"
-
-txt:
 
 cname:
   - name: "www"

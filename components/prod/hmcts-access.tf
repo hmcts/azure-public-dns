@@ -8,10 +8,8 @@ data "local_file" "hmcts_access_shutter_config" {
 
 module "hmcts-access" {
   source              = "../../modules/azure-public-dns/"
-  cname_records       = yamldecode(data.local_file.hmcts-access-config.content).cname
-  a_recordsets        = yamldecode(data.local_file.hmcts-access-config.content).A
-  zone_name           = "hmcts-access.service.gov.uk"
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
+  dns_config          = data.local_file.hmcts-access-config.content
   shutter_config      = data.local_file.hmcts_access_shutter_config.content
 }

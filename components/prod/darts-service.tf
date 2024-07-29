@@ -8,10 +8,8 @@ data "local_file" "darts_service_shutter_config" {
 
 module "darts-service" {
   source              = "../../modules/azure-public-dns/"
-  a_recordsets        = yamldecode(data.local_file.darts-service-config.content).A
-  ns_recordsets       = yamldecode(data.local_file.darts-service-config.content).ns
-  zone_name           = "darts.service.justice.gov.uk"
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
+  dns_config          = data.local_file.darts-service-config.content
   shutter_config      = data.local_file.darts_service_shutter_config.content
 }

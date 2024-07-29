@@ -1,14 +1,19 @@
+zone_name: "court-tribunal-hearings.service.gov.uk"
+
 ns: []
 
 mx: []
 
 A: []
 
+srv: []
+
 txt:
   - name: "@"
     ttl: 3600
     record:
       - "MS=ms41898718"
+
 cname:
   ## PIP Frontend
   - name: www

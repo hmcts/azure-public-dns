@@ -1,6 +1,10 @@
+zone_name: "courttribunalfinder.service.gov.uk"
+
 ns: []
 
 mx: []
+
+srv: []
 
 A:
   - name: "@"

@@ -1,3 +1,13 @@
+zone_name: "find-court-tribunal.service.gov.uk"
+
+mx: []
+
+A: []
+
+txt: []
+
+srv: []
+
 ns:
   - name: "@"
     ttl: 172800
@@ -6,12 +16,6 @@ ns:
       - "ns2-06.azure-dns.net."
       - "ns3-06.azure-dns.org."
       - "ns4-06.azure-dns.info."
-
-mx: []
-
-A: []
-
-txt: []
 
 cname:
   - name: "www"

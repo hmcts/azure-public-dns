@@ -1,3 +1,9 @@
+zone_name: "reform.hmcts.net"
+
+mx: []
+
+srv: []
+
 ns:
   - name: "hearings"
     ttl: 300
@@ -45,5 +51,5 @@ cname:
 txt:
   - name: _dmarc
     ttl: 3600
-    record: 
+    record:
       - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:ems@reform.hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:ems@reform.hmcts.net"

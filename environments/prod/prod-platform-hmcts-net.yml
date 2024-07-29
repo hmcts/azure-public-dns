@@ -1,11 +1,14 @@
-ns:
+zone_name: "prod.platform.hmcts.net"
 
-mx:
+ns: []
 
-A:
+mx: []
 
-txt:
+A: []
 
+txt: []
+
+srv: []
 
 cname:
   - name: "afdverify.hmi-apim"

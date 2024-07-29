@@ -1,10 +1,14 @@
-ns:
+zone_name: "appeal-benefit-decision.service.gov.uk"
 
-mx:
+ns: []
 
-A:
+mx: []
 
-txt:
+A: []
+
+txt: []
+
+srv: []
 
 cname:
   - name: "manage"

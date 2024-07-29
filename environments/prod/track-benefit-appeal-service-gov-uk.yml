@@ -1,10 +1,14 @@
-ns:
+zone_name: "track-benefit-appeal.service.gov.uk"
 
-mx:
+ns: []
 
-A:
+mx: []
 
-txt:
+A: []
+
+txt: []
+
+srv: []
 
 cname:
   - name: "www"

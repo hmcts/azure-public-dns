@@ -1,6 +1,10 @@
+zone_name: "mailrelay.platform.hmcts.net"
+
 ns: []
 
 mx: []
+
+srv: []
 
 A:
   - name: "prod"

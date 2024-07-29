@@ -1,8 +1,12 @@
-ns:
+zone_name: "apply-divorce.service.gov.uk"
 
-mx:
+ns: []
 
-A:
+mx: []
+
+A: []
+
+srv: []
 
 txt:
   - name: "_dnsauth.www"

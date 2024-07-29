@@ -8,10 +8,8 @@ data "local_file" "erupload_justice_shutter_config" {
 
 module "erupload-justice" {
   source              = "../../modules/azure-public-dns/"
-  cname_records       = yamldecode(data.local_file.erupload-justice-config.content).cname
-  a_recordsets        = yamldecode(data.local_file.erupload-justice-config.content).A
-  zone_name           = "erupload.justice.gov.uk"
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
+  dns_config          = data.local_file.erupload-justice-config.content
   shutter_config      = data.local_file.erupload_justice_shutter_config.content
 }

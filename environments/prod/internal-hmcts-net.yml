@@ -1,3 +1,15 @@
+zone_name: "internal.hmcts.net"
+
+mx: []
+
+A: []
+
+txt: []
+
+cname: []
+
+srv: []
+
 ns:
   - name: "prod"
     ttl: 900
@@ -13,11 +25,3 @@ ns:
       - "ns2-04.azure-dns.net"
       - "ns3-04.azure-dns.org"
       - "ns4-04.azure-dns.info"
-
-mx: []
-
-A: []
-
-txt: []
-
-cname: []

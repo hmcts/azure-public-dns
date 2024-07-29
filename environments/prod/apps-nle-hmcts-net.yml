@@ -1,6 +1,12 @@
+zone_name: "apps-nle.hmcts.net"
+
 ns: []
 
 mx: []
+
+txt: []
+
+srv: []
 
 A:
   - name: "sdt-uks"
@@ -19,10 +25,6 @@ A:
     ttl: 60
     record:
       - "51.141.85.61"
-
-txt: []
-
-srv: []
 
 cname:
   - name: "caps"

@@ -1,19 +1,22 @@
+zone_name: "prod.hmcts.net"
+
 ns: []
 
 mx: []
-
-A:
-  - name: "caps.db"
-    ttl: 300
-    record: 
-      - "10.24.242.4"
-  - name: "pcol.db"
-    ttl: 300
-    record: 
-      - "10.24.248.196"
 
 txt: []
 
 srv: []
 
 cname: []
+
+A:
+  - name: "caps.db"
+    ttl: 300
+    record:
+      - "10.24.242.4"
+  - name: "pcol.db"
+    ttl: 300
+    record:
+      - "10.24.248.196"
+
