@@ -1,5 +1,5 @@
 resource "azurerm_dns_ns_record" "this" {
-  for_each = { for record in var.ns_recordsets :
+  for_each = { for record in local.ns_recordsets :
     record.name => record
   }
 

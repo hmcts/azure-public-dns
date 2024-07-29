@@ -1,6 +1,10 @@
+zone_name: "dev.platform.hmcts.net"
+
 ns: []
 
 mx: []
+
+srv: []
 
 A:
   - name: "mailrelay"
@@ -10,7 +14,7 @@ A:
       - "20.49.168.17"
       - "51.11.124.149"
       - "51.11.124.158"
-      
+
   - name: "sds-mtls-api-mgmt-appgw"
     ttl: 60
     record:
@@ -46,11 +50,6 @@ txt:
     ttl: 3600
     record:
       - "ABF985515CE7017CB81683BA683A172F83116EB29083812B5D1C3ED49F13C50D"
-
-
-
-srv: []
-
 
 cname:
   - name: "afdverify.hmi-apim"
