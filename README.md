@@ -23,6 +23,7 @@ module "public-dns" {
 
 `azure-platform-terraform/azure-public-dns/dns-zones.auto.tfvars`
 
+
 ```hcl
   recordsets = [
     {
