@@ -8,6 +8,8 @@ A: []
 
 txt: []
 
+srv: []
+
 cname:
   - name: "afdverify.www"
     platform: "cft"
