@@ -8,6 +8,8 @@ A: []
 
 txt: []
 
+srv: []
+
 cname:
   - name: "_B7F73E9E496FDF9DCB37D70CF69E7A40.xhibittc1"
     ttl: 10800
