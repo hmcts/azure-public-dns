@@ -49,7 +49,47 @@ cname:
     record: "u18847995.wl246.sendgrid.net"
 
 txt:
+  # Commented out because of a historic issue with how records were referenced but this existed here first
+  # - name: _dmarc
+  #   ttl: 3600
+  #   record:
+  #     - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:ems@reform.hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:ems@reform.hmcts.net"
+
+  #  All of the below have been copied into this zone from `hmcts.net` as there was a historic reference to that zones config for reform, maintaining this for now.
   - name: _dmarc
     ttl: 3600
     record:
-      - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:ems@reform.hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:ems@reform.hmcts.net"
+      - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:ems@hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:ems@hmcts.net"
+  - name: '@'
+    ttl: 86400
+    record:
+      - "docker-verification=f8449b84-5631-4671-b7f0-e7f06acbdbf8"
+      - "Dynatrace-site-verification=d47aef0a-5479-4cca-a55c-61e11aa2dfd2__h43u3tim5arpipfnpqj3l75aap"
+      - "google-site-verification=4lnbRW6qCFRgeNOyGIONf-Z2xyieSnKiHMngA60wxpE"
+      - "google-site-verification=TMU69wadrpW6V0YxpFfxuXST3nKEiMWWHA2KN88CwvI"
+      - "v=spf1 include:spf.protection.outlook.com include:notifications.service.gov.uk include:prod.mailrelay.platform.hmcts.net a:c.spf.service-now.com -all"
+      - "v=verifydomain MS=6154796"
+  - name: cp.cjs
+    ttl: 3600
+    record:
+      - "MS=ms61478066"
+  - name: mailrelay.platform
+    ttl: 3600
+    record:
+      - "MS=ms79803021"
+  - name: _asvdns-c088fba7-73a7-472a-badb-d3009e6de955
+    ttl: 3600
+    record:
+      - "asvdns_34e5993c-ddc8-4eba-9d00-b9f6f77b97f2"
+  - name: _github-challenge-hmcts
+    ttl: 3600
+    record:
+      - "2902f9735b"
+  - name: '_mta-sts'
+    ttl: 14400
+    record:
+      - "v=STSv1; id=07122023"
+  - name: '_smtp._tls'
+    ttl: 14400
+    record:
+      - "v=TLSRPTv1;rua=mailto:tls-rua@mailcheck.service.ncsc.gov.uk"
