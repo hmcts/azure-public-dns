@@ -1,111 +1,112 @@
-# Azure DNS Zone Recordsets Module
+# Azure Public DNS
 
-This module creates/updates DNS zone and recordsets in a given zone.
+This repository contains the Terraform code/module, DNS configuration files and shutter configuration files for the Azure Public DNS zones on HMCTS.
+
+The repository is responsible for creating the zone and each record type within that zone.
+
+The repository covers multiple environments and is deployed via [Azure DevOps](https://dev.azure.com/hmcts/PlatformOperations/_build?definitionId=278&_a=summary)
+
+## Terraform Module
+
+This repository contains a module designed to carry out all the creation necessary for the DNS zone:
+
+- Creates the zone
+- Creates records of each type within the zone
+- Updates the records based on shutter config as/when required
+
+### Limitations
+
+This module supports only the following DNS record types:
+
+- A
+- CNAME
+- MX
+- NS
+- SRV
+- TXT
 
 ## Example Usage
 
-`../../components/mgmt.main.tf`
+### `components/demo/demo-platform.tf`
 
-```hcl
-module "public-dns" {
-  source = "hmcts/azure-platform-terraform/modules/azure-public-dns"
-  project            = var.project
+```terraform
+data "local_file" "demo-platform-configuration" {
+  filename = "${path.cwd}/../../environments/demo/demo-platform-hmcts-net.yml"
+}
+
+data "local_file" "demo-platform-configuration-shutter" {
+  filename = "${path.cwd}/../../shuttering/demo/demo-platform-hmcts-net.yml"
+}
+
+module "demo-platform" {
+  source              = "../../modules/azure-public-dns/"
+  resource_group_name = var.resource_group_name
+  env                 = var.env
+  dns_config          = data.local_file.demo-platform-configuration.content
+  shutter_config          = data.local_file.demo-platform-configuration-shutter.content
 }
 ```
 
-`azure-platform-terraform/azure-public-dns/dns-zones.auto.tfvars`
+You can see in the example above that we supply the DNS and Shutter config directly to the module as content by using `data` `local_file` resource types. These look for the file listed and ingest the content which we then provide to the module as a raw input.
 
-```hcl
-  zones = [
-    "test.example.com"
-  ]
+The module then handles the rest of the work to decode the yaml in the file and pull out any information necessary such as `zone_name` or `cname`/`A` record types (more record types can be used these are just examples).
+
+This is an example of a `local` within the module that captures the `A` record types from the raw input of the DNS config:
+
+```terraform
+a_recordsets     = lookup(yamldecode(var.dns_config), "A")
 ```
 
-`azure-platform-terraform/azure-public-dns/dns-zones.auto.tfvars`
+and another for the `zone name`:
 
-```hcl
-  recordsets = [
-    {
-      name    = "www"
-      type    = "A"
-      ttl     = 3600
-      records = [
-        "192.0.2.56",
-      ]
-    },
-    {
-      name    = ""
-      type    = "MX"
-      ttl     = 3600
-      records = [
-        "1 mail1",
-        "5 mail2",
-        "5 mail3",
-      ]
-    },
-    {
-      name    = "_sip._tcp"
-      type    = "SRV"
-      ttl     = 3600
-      records = [
-        "10 60 5060 sip1",
-        "10 20 5060 sip2",
-        "10 20 5060 sip3",
-        "20 0 5060 sip4",
-      ]
-    }
-  ]
+```terraform
+zone_name = lookup(yamldecode(var.dns_config), "zone_name")
 ```
 
-## Terraform Plan Example
+You can see that there is no default applied to the lookup (lookups can have a default if no value is found), this is by design to ensure that the config file contains all the necessary inputs and is a simple way of validating that is the case.
 
-In the `azure-public-dns/components/<environment-name>` directory:
+### `environments/demo/demo-platform-hmcts-net.yml`
 
-```shell
-terraform plan -var-file='../../environemtnts/<environment-name>.tfvars
+```yaml
+zone_name: "demo.platform.hmcts.net"
+
+ns: []
+
+mx: []
+
+txt: []
+
+srv: []
+
+A:
+  - name: example-record-name
+    ttl: 300
+    record:
+      - 1.2.3.4
+
+cname:
+  - name: "cnamerecord"
+    ttl: 60
+    record: "example-record-name"
 ```
 
-For example:
-In the the `azure-public-dns/components/sbox` directory:
+In the example above you can see the format of the DNS config file, this contains all the relevant information for a given zone.
 
-```shell
-terraform plan -var-file='../../environemtnts/sbox.tfvars
+If a zone has no records of a particular type we supply a blank list input `[]` and the module knows to do nothing with this, for those with record types it will create each of them as described in the config.
+
+## Syncing CNAMEs to private dns zones
+
+A synchronisation script/pipeline is in place that checks if there are CNAMES which do not exist on any of the corresponding private DNS zones, if not they are created by the script.
+
+The script [sync-to-private-dns-zone.sh](scripts/sync-to-private-dns-zone.sh) is run via a pipeline in [ADO](https://dev.azure.com/hmcts/PlatformOperations/_build?definitionId=961) and runs nightly.
+
+Please note that if you are creating new DNS zone and if that DNS zone also exist on the private dns, in order for sync to work, you will have to manually update the `sync-zones-pipeline.yml` file to include the zone name and file containing the config.
+
+Example:
+
+```yaml
+zones: '"[{\"dnsname\": \"sandbox.platform.hmcts.net\", \"filename\": \"environments/sandbox.yml\"}]"'
 ```
-
-## Arguments
-
-- `resource_group_name` is the name of the resource group that contains the
-  DNS zone where the records will be added.
-- `dns_zone_name` is the name of the DNS zone within the given resource group
-  where the records will be added.
-
-This module requires the `azurerm` provider.
-
-Due to current limitations of the Terraform language, recordsets in Azure DNS
-are correlated to `recordsets` elements using the index into the `recordsets`
-list. Adding or removing records from the list will therefore cause this
-module to also update all records with indices greater than where the
-addition or removal was made.
-
-## Limitations
-
-This module supports only the following DNS record types, due to limitations
-of the underlying Terraform provider:
-
-- `A`
-- `AAAA`
-- `CNAME`
-- `MX`
-- `NS`
-- `PTR`
-- `SRV`
-- `TXT`
-
-## Syncing cnames to private dns zones
-
-We have got sync in place where if there are CNAMES which does not exist on any of the corresponding private DNS zone, we will sync it overnight using sync-zones-pipeline.yml.
-
-Please note that if you are creating new dns zone and if that dns zone also exist on the private dns, in order for sync to work, you will have to manually update on `sync-zones-pipeline.yml` file.
 
 ## Shuttering
 
