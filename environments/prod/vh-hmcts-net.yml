@@ -1,16 +1,17 @@
-ns:
+zone_name: "vh.hmcts.net"
 
-mx:
+ns: []
 
+mx: []
 
 A:
   - name: "px01"
     ttl: 300
-    record: 
+    record:
       - "34.89.118.38"
   - name: "px02"
     ttl: 300
-    record: 
+    record:
       - "34.89.63.94"
   - name: "sip"
     ttl: 300
@@ -49,7 +50,7 @@ srv:
       - "10,10,5061,px01.vh.hmcts.net"
       - "10,10,5061,px02.vh.hmcts.net"
 
-cname: 
+cname:
   - name: "_18D91B37F68325E927ECCA117032DF4E.sip"
     ttl: 10800
     record: "B6CF39E86B0A6A6080B338FFCA5BF63A.71133337FD5E13F3D207674C1C3479D8.d3f02d2c0b0527286bf0.sectigo.com"
@@ -60,8 +61,8 @@ cname:
     ttl: 10800
     record: "B6CF39E86B0A6A6080B338FFCA5BF63A.71133337FD5E13F3D207674C1C3479D8.d3f02d2c0b0527286bf0.sectigo.com"
 
-txt:
-  - name: "_acme-challenge.hearings.reform.hmcts.net"
-    ttl: 60
-    record:
-      - "uoTTM_T2vyrt6xiv53-x0cKvMYHUFyNnB_jBVky2cvI"
+txt: []
+  # - name: "_acme-challenge.hearings.reform.hmcts.net"
+  #   ttl: 60
+  #   record:
+  #     - "uoTTM_T2vyrt6xiv53-x0cKvMYHUFyNnB_jBVky2cvI"

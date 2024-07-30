@@ -1,6 +1,12 @@
+zone_name: "apps.hmcts.net"
+
 ns: []
 
 mx: []
+
+txt: []
+
+srv: []
 
 A:
   - name: "libra-gateway.staging"
@@ -11,10 +17,6 @@ A:
     ttl: 300
     record:
       - "185.230.153.228"
-
-txt: []
-
-srv: []
 
 cname:
   - name: "caps"

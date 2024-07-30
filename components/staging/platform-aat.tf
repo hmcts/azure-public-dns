@@ -4,13 +4,7 @@ data "local_file" "aat" {
 
 module "public-dns" {
   source              = "../../modules/azure-public-dns/"
-  cname_records       = yamldecode(data.local_file.aat.content).cname
-  a_recordsets        = yamldecode(data.local_file.aat.content).A
-  mx_recordsets       = yamldecode(data.local_file.aat.content).mx
-  ns_recordsets       = yamldecode(data.local_file.aat.content).ns
-  srv_recordsets      = yamldecode(data.local_file.aat.content).srv
-  txt_recordsets      = yamldecode(data.local_file.aat.content).txt
-  zone_name           = "aat.platform.hmcts.net"
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = "stg"
+  dns_config          = data.local_file.aat.content
 }

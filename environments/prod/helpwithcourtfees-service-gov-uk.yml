@@ -1,6 +1,10 @@
+zone_name: "helpwithcourtfees.service.gov.uk"
+
 ns: []
 
 mx: []
+
+srv: []
 
 A:
   - name: "@"
@@ -15,7 +19,6 @@ txt:
     ttl: 360
     record:
       - "ABF985515CE7017CB81683BA683A172F83116EB29083812B5D1C3ED49F13C50D"
-    ttl: 60
   - name: "asuid.staff"
     ttl: 360
     record:

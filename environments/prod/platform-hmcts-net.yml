@@ -1,3 +1,7 @@
+zone_name: "platform.hmcts.net"
+
+srv: []
+
 ns:
   - name: "aat"
     ttl: 900
@@ -89,6 +93,7 @@ mx:
     ttl: 3600
     record:
       - "32767 ms50395572.msv1.invalid"
+
 A:
   - name: "bar"
     ttl: 900

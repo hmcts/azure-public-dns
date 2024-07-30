@@ -1,10 +1,14 @@
-ns:
+zone_name: "appeal-immigration-asylum-decision.service.gov.uk"
 
-mx:
+ns: []
 
-A:
+mx: []
 
-txt:
+A: []
+
+txt: []
+
+srv: []
 
 cname:
   - name: "www"

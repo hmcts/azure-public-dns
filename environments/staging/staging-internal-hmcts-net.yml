@@ -1,3 +1,5 @@
+zone_name: "staging.internal.hmcts.net"
+
 ns: []
 
 mx: []
@@ -5,6 +7,8 @@ mx: []
 A: []
 
 txt: []
+
+srv: []
 
 cname:
   - name: "_B7F73E9E496FDF9DCB37D70CF69E7A40.xhibittc1"

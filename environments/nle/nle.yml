@@ -1,20 +1,22 @@
+zone_name: "nle.platform.hmcts.net"
+
 ns: []
 
 mx: []
 
+txt: []
+
+srv: []
+
 A:
   - name: "darts-service"
     ttl: 300
-    record: 
+    record:
       - "20.49.140.58"
   - name: "testclaim-pcol"
     ttl: 300
     record:
       - "51.142.82.12"
-
-txt: []
-
-srv: []
 
 cname:
   - name: "caps"

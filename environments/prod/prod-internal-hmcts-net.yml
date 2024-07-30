@@ -1,3 +1,5 @@
+zone_name: "prod.internal.hmcts.net"
+
 ns: []
 
 mx: []
@@ -5,6 +7,8 @@ mx: []
 A: []
 
 txt: []
+
+srv: []
 
 cname:
   - name: "_5C74E70FC03A9F38D828859B3D3A4680.xhibittc1"

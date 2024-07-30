@@ -1,3 +1,13 @@
+zone_name: "darts.nle.service.justice.gov.uk"
+
+mx: []
+
+txt: []
+
+srv: []
+
+cname: []
+
 ns:
   - name: "@"
     ttl: 172800
@@ -7,16 +17,8 @@ ns:
       - "ns3-03.azure-dns.org."
       - "ns4-03.azure-dns.info."
 
-mx: []
-
 A:
   - name: "@"
     ttl: 300
-    record: 
+    record:
       - "20.49.140.58"
-
-txt: []
-
-srv: []
-
-cname: []

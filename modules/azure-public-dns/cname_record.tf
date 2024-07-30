@@ -9,8 +9,8 @@ locals {
   cname_shuttering = lookup(yamldecode(var.shutter_config), "cname", [])
 
   // Merge CNAME record values with shutter values, if global shutter is true then ignore shutter file and set all to value of true
-  cname_configuration = var.cname_records != null ? [
-    for record in var.cname_records : {
+  cname_configuration = local.cname_recordsets != null ? [
+    for record in local.cname_recordsets : {
       name     = record.name
       platform = lookup(record, "platform", null)
       ttl      = record.ttl
@@ -31,5 +31,5 @@ resource "azurerm_dns_cname_record" "this" {
 
   name   = lower(each.value.name)
   ttl    = each.value.ttl
-  record = lookup(each.value, "shutter", false) == true ? join(".", [join("-", [replace(each.value.name, "*", "asterisk"), "shutter"]), var.zone_name]) : each.value.record
+  record = lookup(each.value, "shutter", false) == true ? join(".", [join("-", [replace(each.value.name, "*", "asterisk"), "shutter"]), azurerm_dns_zone.zone.name]) : each.value.record
 }

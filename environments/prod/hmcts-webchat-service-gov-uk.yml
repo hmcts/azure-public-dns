@@ -1,3 +1,5 @@
+zone_name: "hmcts-webchat.service.gov.uk"
+
 ns: []
 
 mx: []
@@ -7,3 +9,5 @@ A: []
 txt: []
 
 cname: []
+
+srv: []

@@ -7,8 +7,8 @@ locals {
   a_shuttering = lookup(yamldecode(var.shutter_config), "A", [])
 
   // Merge a record values with shutter values, if global shutter is true then ignore shutter file and set all to value of true
-  a_configuration = var.a_recordsets != null ? [
-    for record in var.a_recordsets : merge({
+  a_configuration = local.a_recordsets != null ? [
+    for record in local.a_recordsets : merge({
       name     = record.name
       platform = lookup(record, "platform", null)
       ttl      = record.ttl

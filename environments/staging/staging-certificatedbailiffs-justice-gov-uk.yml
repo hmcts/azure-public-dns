@@ -1,0 +1,19 @@
+zone_name: "staging.certificatedbailiffs.justice.gov.uk"
+
+ns: []
+
+mx: []
+
+srv: []
+
+txt: []
+
+A:
+  - name: "@"
+    ttl: 60
+    alias_target_resource_id: "/subscriptions/74dacd4f-a248-45bb-a2f0-af700dc4cf68/resourcegroups/lz-stg-rg/providers/Microsoft.Cdn/profiles/sdshmcts-stg/afdendpoints/sdshmcts-stg"
+
+cname:
+  - name: "afdverify"
+    ttl: 3600
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"

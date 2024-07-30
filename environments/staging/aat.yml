@@ -1,8 +1,12 @@
+zone_name: "aat.platform.hmcts.net"
+
 ns: []
 
 mx: []
 
 srv: []
+
+txt: []
 
 A:
   - name: "cvp-recording"
@@ -19,10 +23,6 @@ A:
     ttl: 60
     record:
       - "20.49.129.95"
-
-
-txt: []
-
 
 cname:
   - name: "_8c25cc47acd71d289bc2b0f6163f17bd"

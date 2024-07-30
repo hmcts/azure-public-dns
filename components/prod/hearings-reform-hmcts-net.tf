@@ -8,15 +8,9 @@ data "local_file" "hearings_reform_hmcts_net_shutter_config" {
 
 module "hearings_reform_hmcts_net" {
   source              = "../../modules/azure-public-dns/"
-  cname_records       = yamldecode(data.local_file.hearings_reform_hmcts_net.content).cname
-  ns_recordsets       = yamldecode(data.local_file.hearings_reform_hmcts_net.content).ns
-  a_recordsets        = yamldecode(data.local_file.hearings_reform_hmcts_net.content).A
-  txt_recordsets      = yamldecode(data.local_file.hearings_reform_hmcts_net.content).txt
-  mx_recordsets       = yamldecode(data.local_file.hearings_reform_hmcts_net.content).mx
-  srv_recordsets      = yamldecode(data.local_file.hearings_reform_hmcts_net.content).srv
-  zone_name           = "hearings.reform.hmcts.net"
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
+  dns_config          = data.local_file.hearings_reform_hmcts_net.content
   shutter_config      = data.local_file.hearings_reform_hmcts_net_shutter_config.content
 }
 

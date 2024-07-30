@@ -1,0 +1,19 @@
+zone_name: "dev.casetracker.justice.gov.uk"
+
+srv: []
+
+ns: []
+
+mx: []
+
+txt: []
+
+A:
+  - name: "@"
+    ttl: 60
+    alias_target_resource_id: "/subscriptions/867a878b-cb68-4de5-9741-361ac9e178b6/resourcegroups/lz-dev-rg/providers/Microsoft.Cdn/profiles/sdshmcts-dev/afdendpoints/sdshmcts-dev"
+
+cname:
+  - name: "afdverify"
+    ttl: 3600
+    record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"

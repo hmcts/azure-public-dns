@@ -8,10 +8,8 @@ data "local_file" "apps_nle_hmcts_shutter_config" {
 
 module "apps-nle-hmcts" {
   source              = "../../modules/azure-public-dns/"
-  cname_records       = yamldecode(data.local_file.apps-nle-hmcts-config.content).cname
-  a_recordsets        = yamldecode(data.local_file.apps-nle-hmcts-config.content).A
-  zone_name           = "apps-nle.hmcts.net"
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
+  dns_config          = data.local_file.apps-nle-hmcts-config.content
   shutter_config      = data.local_file.apps_nle_hmcts_shutter_config.content
 }

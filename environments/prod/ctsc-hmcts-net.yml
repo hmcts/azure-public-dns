@@ -1,58 +1,62 @@
-ns:
+zone_name: "ctsc.hmcts.net"
 
-mx:
+ns: []
+
+mx: []
+
+txt: []
+
+srv: []
 
 A:
   - name: "webchat"
     ttl: 300
-    record: 
+    record:
       - "81.144.180.165"
   - name: "webchat-client"
     ttl: 300
-    record: 
+    record:
       - "81.144.180.165"
   - name: "webchat.training"
     ttl: 300
-    record: 
+    record:
       - "81.131.15.82"
   - name: "webchat-client.training"
     ttl: 300
-    record: 
+    record:
       - "81.131.15.82"
   - name: "webchat.pp"
     ttl: 300
-    record: 
+    record:
       - "81.131.15.81"
   - name: "webchat-client.pp"
     ttl: 300
-    record: 
+    record:
       - "81.131.15.81"
   - name: "wfmapp"
     ttl: 300
-    record: 
+    record:
       - "81.131.15.78"
   - name: "wfmapp.preprod"
     ttl: 300
-    record: 
+    record:
       - "81.131.15.81"
   - name: "wfmapp.training"
     ttl: 300
-    record: 
+    record:
       - "81.131.15.82"
   - name: "survey"
     ttl: 300
-    record: 
+    record:
       - "81.131.15.79"
   - name: "survey.preprod"
     ttl: 10800
-    record: 
+    record:
       - "81.131.15.81"
   - name: "survey.training"
     ttl: 10800
-    record: 
+    record:
       - "81.131.15.82"
-
-txt:
 
 cname:
   - name: "_714ACDA330AE6A018ED5F5135D6104C4.webchat-client"
@@ -109,4 +113,3 @@ cname:
   - name: "_1B5CA26792718408437D943572F2A845.wfo.glb"
     ttl: 10800
     record: "E7C8D2CD54C97B928730E14C4C4AC2AD.AB51BC6C65A4B9C5251D966C28EEF0F7.bc64d3957463f7f944ad.sectigo.com."
-  

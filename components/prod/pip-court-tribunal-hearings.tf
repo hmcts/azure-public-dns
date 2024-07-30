@@ -8,10 +8,8 @@ data "local_file" "pip_court_tribunal_hearings_shutter_config" {
 
 module "pip-court-tribunal-hearings" {
   source              = "../../modules/azure-public-dns/"
-  cname_records       = yamldecode(data.local_file.pip-court-tribunal-hearings-config.content).cname
-  txt_recordsets      = yamldecode(data.local_file.pip-court-tribunal-hearings-config.content).txt
-  zone_name           = "court-tribunal-hearings.service.gov.uk"
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
+  dns_config          = data.local_file.pip-court-tribunal-hearings-config.content
   shutter_config      = data.local_file.pip_court_tribunal_hearings_shutter_config.content
 }

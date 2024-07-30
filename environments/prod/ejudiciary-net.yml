@@ -1,3 +1,7 @@
+zone_name: "ejudiciary.net"
+
+ns: []
+
 A:
   - name: "@"
     ttl: 300
@@ -43,8 +47,6 @@ mx:
     ttl: 14400
     record:
       - 0 ejudiciary-net.mail.protection.outlook.com.
-
-ns: []
 
 srv:
   - name: _sip._tls

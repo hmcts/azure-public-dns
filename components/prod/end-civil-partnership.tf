@@ -8,9 +8,8 @@ data "local_file" "end_civil_partnership_shutter_config" {
 
 module "end-civil-partnership" {
   source              = "../../modules/azure-public-dns/"
-  cname_records       = yamldecode(data.local_file.end-civil-partnership-config.content).cname
-  zone_name           = "end-civil-partnership.service.gov.uk"
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = var.env
+  dns_config          = data.local_file.end-civil-partnership-config.content
   shutter_config      = data.local_file.end_civil_partnership_shutter_config.content
 }

@@ -8,14 +8,8 @@ data "local_file" "sandbox_shutter_config" {
 
 module "public-dns" {
   source              = "../../modules/azure-public-dns/"
-  cname_records       = yamldecode(data.local_file.sandbox_config.content).cname
-  mx_recordsets       = yamldecode(data.local_file.sandbox_config.content).mx
-  a_recordsets        = yamldecode(data.local_file.sandbox_config.content).A
-  txt_recordsets      = yamldecode(data.local_file.sandbox_config.content).txt
-  zone_name           = "sandbox.platform.hmcts.net"
   resource_group_name = data.azurerm_resource_group.main.name
   env                 = "sbox"
-  ns_recordsets       = yamldecode(data.local_file.sandbox_config.content).ns
-  srv_recordsets      = yamldecode(data.local_file.sandbox_config.content).srv
+  dns_config          = data.local_file.sandbox_config.content
   shutter_config      = data.local_file.sandbox_shutter_config.content
 }

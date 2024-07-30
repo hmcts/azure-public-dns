@@ -1,4 +1,10 @@
+zone_name: "cjscp.org.uk"
+
 ns: []
+
+txt: []
+
+srv: []
 
 mx:
   - name: '@'
@@ -336,10 +342,6 @@ A:
     ttl: 1800
     record:
       - 13.79.245.35
-
-txt: []
-
-srv: []
 
 cname:
   - name: em5650

@@ -1,3 +1,9 @@
+zone_name: "hearings.hmcts.net"
+
+mx: []
+
+txt: []
+
 ns:
   - name: "staging"
     ttl: 900
@@ -340,7 +346,7 @@ srv:
       - 10,10,5061,px01.test.hearings.hmcts.net
       - 10,10,5061,px02.test.hearings.hmcts.net
       - 10,10,5061,px03.test.hearings.hmcts.net
-  
+
 cname:
   - name: "_52B9ABD061E107FB9E5EFC8D1DA91A25.test"
     ttl: 10800
