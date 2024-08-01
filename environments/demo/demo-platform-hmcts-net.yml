@@ -24,6 +24,11 @@ A:
     record:
       - "20.254.22.154"
 
+  - name: "cft-mtls-api-mgmt-appgw"
+    ttl: 300
+    record:
+      - "20.162.145.18"
+
   - name: "darts-proxy"
     ttl: 300
     record:
