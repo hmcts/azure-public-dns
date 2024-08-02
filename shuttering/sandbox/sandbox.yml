@@ -98,3 +98,5 @@ cname:
     shutter: false
   - name: "labs-goldenpath-khaled"
     shutter: false
+  - name: "response"
+    shutter: false
