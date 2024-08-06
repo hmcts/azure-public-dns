@@ -24,6 +24,11 @@ A:
     record:
       - "20.49.129.95"
 
+  - name: "cft-mtls-api-mgmt-appgw"
+    ttl: 300
+    record:
+      - "20.26.101.168"
+
 cname:
   - name: "_8c25cc47acd71d289bc2b0f6163f17bd"
     ttl: 900
