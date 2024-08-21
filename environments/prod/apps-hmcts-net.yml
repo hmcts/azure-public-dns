@@ -4,7 +4,11 @@ ns: []
 
 mx: []
 
-txt: []
+txt: 
+  - name: '_dnsauth.darts'
+    ttl: 300
+    record:
+      - "_zlx4bifnd7xod9m46igstsvj07d2pll"
 
 srv: []
 
