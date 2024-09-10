@@ -17,9 +17,6 @@ cname:
   - name: "enterpriseregistration"
     ttl: 14400
     record: "enterpriseregistration.windows.net."
-  - name: "lyncdiscover"
-    ttl: 14400
-    record: "webdir.online.lync.com."
   - name: "msoid"
     ttl: 14400
     record: "clientconfig.microsoftonline-p.net."
@@ -32,9 +29,6 @@ cname:
   - name: "selector2._domainkey"
     ttl: 14400
     record: "selector2-ejudiciary-net._domainkey.judiciary.onmicrosoft.com."
-  - name: "sip"
-    ttl: 14400
-    record: "sipdir.online.lync.com."
   - name: "home"
     ttl: 3600
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net."
@@ -49,10 +43,6 @@ mx:
       - 0 ejudiciary-net.mail.protection.outlook.com.
 
 srv:
-  - name: _sip._tls
-    ttl: 3600
-    record:
-      - 100,1,443,sipdir.online.lync.com.
   - name: _sipfederationtls._tcp
     ttl: 3600
     record:
