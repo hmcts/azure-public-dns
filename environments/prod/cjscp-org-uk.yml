@@ -359,9 +359,6 @@ cname:
   - name: identity-gateway.nft.cpp
     ttl: 3600
     record: token.nft.cpp.cjscp.org.uk.
-  - name: identity-gateway.nftpr2
-    ttl: 600
-    record: idamnftpreview.northeurope.cloudapp.azure.com.
   - name: identity-gateway.prp
     ttl: 1800
     record: token.prp.cjscp.org.uk.
