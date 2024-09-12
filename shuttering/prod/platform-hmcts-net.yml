@@ -48,8 +48,6 @@ A:
     shutter: false
   - name: "vpn"
     shutter: false
-  - name: "cvp-recording"
-    shutter: false
   - name: "caps"
     shutter: false
   - name: "pcol"

@@ -27,21 +27,6 @@ A:
     record:
       - "51.140.180.140"
 
-  - name: "cvp-recording"
-    ttl: 60
-    record:
-      - "51.132.42.92"
-
-  - name: "cvp-recording-01"
-    ttl: 60
-    record:
-      - "51.132.41.247"
-
-  - name: "cvp-recording-02"
-    ttl: 60
-    record:
-      - "51.132.42.179"
-
   - name: "portal"
     ttl: 60
     record:
