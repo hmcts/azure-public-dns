@@ -13,21 +13,6 @@ txt:
       - "_wx730gx00ylaf8vq2vinmfzf2bgy7tf"
 
 A:
-  - name: "cvp-recording"
-    ttl: 60
-    record:
-      - "20.49.129.252"
-
-  - name: "cvp-recording-01"
-    ttl: 60
-    record:
-      - "20.49.130.27"
-
-  - name: "cvp-recording-02"
-    ttl: 60
-    record:
-      - "20.49.129.95"
-
   - name: "cft-mtls-api-mgmt-appgw"
     ttl: 300
     record:
