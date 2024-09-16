@@ -18,12 +18,6 @@ shutter_all_cname: false
 A:
   - name: "ctscmail"
     shutter: false
-  - name: "cvp-recording"
-    shutter: false
-  - name: "cvp-recording-01"
-    shutter: false
-  - name: "cvp-recording-02"
-    shutter: false
   - name: "portal"
     shutter: false
   - name: "cft-api-mgmt-appgw"

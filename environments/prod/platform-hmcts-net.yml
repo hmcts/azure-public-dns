@@ -159,10 +159,6 @@ A:
     ttl: 60
     record:
       - "20.58.20.26"
-  - name: "cvp-recording"
-    ttl: 60
-    record:
-      - "20.50.101.55"
   - name: "caps"
     ttl: 60
     record:
