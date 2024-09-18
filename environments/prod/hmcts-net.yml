@@ -246,6 +246,10 @@ txt:
   - name: _github-challenge-hmcts
     ttl: 3600
     record:
+  - name: reformmgmtmon01
+    ttl: 3600
+    record:
+    - "v=spf1 include:spf.protection.outlook.com include:sendgrid.net -all"
       - "2902f9735b"
   - name: '_mta-sts'
     ttl: 14400

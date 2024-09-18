@@ -364,6 +364,8 @@ cname:
   - name: vh-service-web
     record: sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
     ttl: 300
+  - name: "em-icp"
+    ttl: 300
   - name: adverify.vh-service-web
     record: afdverify.sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
     ttl: 300

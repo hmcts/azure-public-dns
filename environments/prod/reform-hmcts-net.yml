@@ -63,6 +63,13 @@ txt:
   - name: '@'
     ttl: 86400
     record:
+
+  - name: reformmgmtmon01
+    ttl: 3600
+    record:
+    - "v=spf1 include:spf.protection.outlook.com include:sendgrid.net -all"
+
+  
       - "docker-verification=f8449b84-5631-4671-b7f0-e7f06acbdbf8"
       - "Dynatrace-site-verification=d47aef0a-5479-4cca-a55c-61e11aa2dfd2__h43u3tim5arpipfnpqj3l75aap"
       - "google-site-verification=4lnbRW6qCFRgeNOyGIONf-Z2xyieSnKiHMngA60wxpE"

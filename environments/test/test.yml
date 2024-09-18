@@ -89,6 +89,8 @@ cname:
     record: "afdverify.hmcts-test.azurefd.net"
   - name: "sptribs-dss-update-case-web"
     ttl: 300
+  - name: "em-icp"
+    ttl: 300
     record: "hmcts-test.azurefd.net"
   - name: "pre-portal"
     ttl: 300
