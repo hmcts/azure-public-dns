@@ -382,3 +382,6 @@ cname:
   - name: "et-syr"
     ttl: 300
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "em-icp"
+    ttl: 300
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
