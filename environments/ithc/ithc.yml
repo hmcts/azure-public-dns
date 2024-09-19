@@ -241,6 +241,12 @@ cname:
   - name: "benefit-appeal"
     ttl: 3600
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "afdverify.infected-blood-appeal"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "infected-blood-appeal"
+    ttl: 3600
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   - name: "afdverify.sscs-cor"
     ttl: 3600
     record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"

@@ -317,6 +317,12 @@ cname:
   - name: "afdverify.benefit-appeal"
     ttl: 300
     record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "infected-blood-appeal"
+    ttl: 300
+    record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "afdverify.infected-blood-appeal"
+    ttl: 300
+    record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
   - name: "hmcts-access"
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
