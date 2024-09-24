@@ -15,12 +15,12 @@ cname:
     platform: "cft"
     ttl: 60
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "www1"
     platform: "cft"
     ttl: 60
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
+    shutter: true
   - name: "afdverify.www"
     platform: "cft"
     ttl: 300
