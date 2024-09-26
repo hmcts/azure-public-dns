@@ -6,15 +6,7 @@ mx: []
 
 srv: []
 
-txt:
-  - name: _dnsauth.idam-web-public-staging
-    ttl: 300
-    record:
-      - "_wx730gx00ylaf8vq2vinmfzf2bgy7tf"
-  - name: _dnsauth.idam-user-dashboard-staging
-    ttl: 300
-    record:
-      - "1wszc0bcc8rz19xdr0lz3482v683ql73"
+txt: []
 
 A:
   - name: "cft-mtls-api-mgmt-appgw"
