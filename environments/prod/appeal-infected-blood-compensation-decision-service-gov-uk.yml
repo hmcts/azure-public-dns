@@ -14,7 +14,7 @@ cname:
   - name: "*"
     platform: "cft"
     ttl: 60
-    record: "www.appeal-infected-blood-compensation-decision.service.gov.uk"
+    record: "appeal-infected-blood-compensation-decision.service.gov.uk"
     shutter: false
   - name: "www"
     platform: "cft"
