@@ -9,7 +9,7 @@ data "local_file" "sandbox_apps_hmcts_shutter_config" {
 module "sandbox-apps-hmcts" {
   source              = "../../modules/azure-public-dns/"
   resource_group_name = data.azurerm_resource_group.main.name
-  env                 = var.env
+  env                 = "sbox"
   dns_config          = data.local_file.sandbox-apps-hmcts-config.content
   shutter_config      = data.local_file.sandbox_apps_hmcts_shutter_config.content
 }
