@@ -1,0 +1,22 @@
+zone_name: "sandbox.apps.hmcts.net"
+
+ns: []
+
+mx: []
+
+txt: []
+
+srv: []
+
+A: []
+
+cname:
+  - name: "darts.sandbox"
+    ttl: 300
+    record: "sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
+  - name: "juror.sandbox"
+    ttl: 300
+    record: "sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
+  - name: "juror-public.sandbox"
+    ttl: 300
+    record: "sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
