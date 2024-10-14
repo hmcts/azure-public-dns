@@ -17,9 +17,9 @@ shutter_all_cname: false
 A: []
 
 cname:
-  - name: "darts.sandbox"
+  - name: "darts"
     shutter: false
-  - name: "juror.sandbox"
+  - name: "juror"
     shutter: false
-  - name: "juror-public.sandbox"
+  - name: "juror-public"
     shutter: false
