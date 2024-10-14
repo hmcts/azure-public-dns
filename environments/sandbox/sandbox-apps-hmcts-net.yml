@@ -11,12 +11,12 @@ srv: []
 A: []
 
 cname:
-  - name: "darts.sandbox"
+  - name: "darts"
     ttl: 300
     record: "sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
-  - name: "juror.sandbox"
+  - name: "juror"
     ttl: 300
     record: "sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
-  - name: "juror-public.sandbox"
+  - name: "juror-public"
     ttl: 300
     record: "sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
