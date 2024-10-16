@@ -1,5 +1,7 @@
 zone_name: "ithc.apps.hmcts.net"
 
+ns: []
+
 mx: []
 
 txt: []
