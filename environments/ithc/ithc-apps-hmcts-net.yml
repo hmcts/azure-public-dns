@@ -11,12 +11,12 @@ srv: []
 A: []
 
 cname:
-  - name: "darts.ithc"
+  - name: "darts"
     ttl: 300
     record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
-  - name: "juror.ithc"
+  - name: "juror"
     ttl: 300
     record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
-  - name: "juror-public.ithc"
+  - name: "juror-public"
     ttl: 300
     record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
