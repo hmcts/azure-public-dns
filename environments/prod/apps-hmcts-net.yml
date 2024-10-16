@@ -8,6 +8,13 @@ ns:
       - "ns2-07.azure-dns.net"
       - "ns3-07.azure-dns.org"
       - "ns4-07.azure-dns.info"
+  - name: "ithc"
+    ttl: 900
+    record:
+      - "ns1-06.azure-dns.com"
+      - "ns2-06.azure-dns.net"
+      - "ns3-06.azure-dns.org"
+      - "ns4-06.azure-dns.info"
 
 mx: []
 
@@ -83,9 +90,6 @@ cname:
     ttl: 300
     record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
     shutter: false
-  - name: "darts.ithc"
-    ttl: 300
-    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
   - name: "darts.test"
     ttl: 300
     record: "sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net"
@@ -111,12 +115,6 @@ cname:
   - name: "juror-public.demo"
     ttl: 300
     record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-  - name: "juror.ithc"
-    ttl: 300
-    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
-  - name: "juror-public.ithc"
-    ttl: 300
-    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
   - name: "juror.test"
     ttl: 300
     record: "sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net"
