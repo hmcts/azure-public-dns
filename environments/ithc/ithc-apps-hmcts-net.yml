@@ -1,0 +1,20 @@
+zone_name: "ithc.apps.hmcts.net"
+
+mx: []
+
+txt: []
+
+srv: []
+
+A: []
+
+cname:
+  - name: "darts.ithc"
+    ttl: 300
+    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
+  - name: "juror.ithc"
+    ttl: 300
+    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
+  - name: "juror-public.ithc"
+    ttl: 300
+    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
