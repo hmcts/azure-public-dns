@@ -15,6 +15,13 @@ ns:
       - "ns2-06.azure-dns.net"
       - "ns3-06.azure-dns.org"
       - "ns4-06.azure-dns.info"
+  - name: "demo"
+    ttl: 900
+    record:
+      - "ns1-06.azure-dns.com"
+      - "ns2-06.azure-dns.net"
+      - "ns3-06.azure-dns.org"
+      - "ns4-06.azure-dns.info"
 
 mx: []
 
@@ -86,9 +93,6 @@ cname:
   - name: "darts.dev"
     ttl: 300
     record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
-  - name: "darts.demo"
-    ttl: 300
-    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
     shutter: false
   - name: "darts.test"
     ttl: 300
@@ -109,12 +113,6 @@ cname:
   - name: "juror-public.staging"
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
-  - name: "juror.demo"
-    ttl: 300
-    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-  - name: "juror-public.demo"
-    ttl: 300
-    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
   - name: "juror.test"
     ttl: 300
     record: "sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net"
