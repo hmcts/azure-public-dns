@@ -16,12 +16,10 @@ shutter_all_cname: false
 # - shutter_resource_id
 # - alias_target_resource_id
 A:
-  - name: "libra-gateway.staging"
-    shutter: false
   - name: "libra-gateway.prod"
     shutter: false
-  
-cname: 
+
+cname:
   - name: "caps"
     shutter: false
   - name: "cman"
@@ -32,19 +30,7 @@ cname:
     shutter: false
   - name: "glimr-nle"
     shutter: false
-  - name: "glimr-preprod.staging"
-    shutter: false
-  - name: "glimr-training.staging"
-    shutter: false
-  - name: "glimr-release.staging"
-    shutter: false
   - name: "glimr-dev"
-    shutter: false
-  - name: "glimr.dev"
-    shutter: false
-  - name: "crimeportal.staging"
-    shutter: false
-  - name: "sdrs.staging"
     shutter: false
   - name: "sdrs"
     shutter: false
@@ -52,41 +38,9 @@ cname:
     # DARTS
   - name: "darts"
     shutter: false
-  - name: "darts.staging"
-    shutter: false
-  - name: "darts.dev"
-    shutter: false
-  - name: "darts.demo"
-    shutter: false
-  - name: "darts.sandbox"
-    shutter: false
-  - name: "darts.ithc"
-    shutter: false
-  - name: "darts.test"
-    shutter: false
 
     # Juror
   - name: "juror"
     shutter: false
   - name: "juror-public"
     shutter: true
-  - name: "juror.staging"
-    shutter: false
-  - name: "juror-public.staging"
-    shutter: false
-  - name: "juror.demo"
-    shutter: false
-  - name: "juror-public.demo"
-    shutter: false
-  - name: "juror.ithc"
-    shutter: false
-  - name: "juror-public.ithc"
-    shutter: false
-  - name: "juror.test"
-    shutter: false
-  - name: "juror-public.test"
-    shutter: false
-  - name: "juror.sandbox"
-    shutter: false
-  - name: "juror-public.sandbox"
-    shutter: false
