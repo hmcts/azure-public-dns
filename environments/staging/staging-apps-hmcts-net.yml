@@ -13,7 +13,15 @@ A:
     ttl: 300
     record:
       - "185.230.153.229"
-
+  - name: "libra"
+    ttl: 300
+    record:
+      - "185.230.153.230"
+  - name: "libra-preview"
+    ttl: 300
+    record:
+      - "185.230.153.230"
+      
 cname:
   - name: "glimr-preprod"
     ttl: 300
