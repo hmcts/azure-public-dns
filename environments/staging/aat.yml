@@ -361,6 +361,6 @@ cname:
   - name: "et-syr"
     ttl: 300
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
-  - name: "pcs-frontend"
+  - name: "pcs"
     ttl: 300
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
