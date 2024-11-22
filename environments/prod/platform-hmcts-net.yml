@@ -694,9 +694,9 @@ cname:
     record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
 
     # tenable GANDI cert
-  - name: "_3F9A4543A1748F63D41BC3D28B15F929.tenable-sc"
+  - name: "_F637A65B43AA931CF7F875C7ABC9A361.tenable-sc"
     ttl: 10800
-    record: "1565E06B196A8530B087718D80C9A8CC.CE7800701F925753A80DE0D48DAE1F57.76fb54ea44a230d545a9.sectigo.com."
+    record: "2C32F83F2D410D1673AE28FEC4031D89.B9BDE9B26A384254C4A8136DA413F90F.7acdee30d8d696e3eaa9.sectigo.com."
 
   # Civil
   - name: "em2826.mail-civil-nonprod"
