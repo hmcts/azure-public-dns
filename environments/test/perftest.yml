@@ -290,3 +290,6 @@ cname:
   - name: "em-icp"
     ttl: 300
     record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
+  - name: "pcs"
+    ttl: 300
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
