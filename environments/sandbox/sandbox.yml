@@ -259,14 +259,6 @@ cname:
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
     shutter: false
-  - name: "labs-goldenpath-khaled"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    shutter: false
-  - name: "labs-endakelly-nodejs"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.labs-endakelly-nodejs"
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
