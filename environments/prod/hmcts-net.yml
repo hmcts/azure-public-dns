@@ -216,6 +216,10 @@ A:
     ttl: 600
     record:
       - 4.234.211.95
+  - name: staging.tools
+    ttl: 600
+    record:
+      - 20.0.64.191
 
 txt:
   - name: '@'
