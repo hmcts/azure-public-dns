@@ -29,3 +29,8 @@ cname:
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
+  - name: "www-shutter"
+    platform: "cft"
+    ttl: 60
+    record: "proud-cliff-0c23ee503.5.azurestaticapps.net"
+    shutter: false
