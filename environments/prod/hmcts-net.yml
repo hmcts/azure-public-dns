@@ -219,7 +219,7 @@ A:
   - name: staging.tools
     ttl: 600
     record:
-      - 20.0.64.191
+      - 20.68.218.20
 
 txt:
   - name: '@'
