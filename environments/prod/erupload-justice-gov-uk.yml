@@ -1,0 +1,17 @@
+zone_name: "erupload.justice.gov.uk"
+
+ns: []
+
+mx: []
+
+txt: []
+
+srv: []
+
+cname: []
+
+A:
+  - name: "@"
+    ttl: 60
+    alias_target_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/bau-bais_prod_network_rg/providers/Microsoft.Cdn/profiles/hmcts-heritage-prod/afdEndpoints/hmcts-heritage-prod"
+    shutter: false
