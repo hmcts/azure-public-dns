@@ -55,6 +55,14 @@ A:
     ttl: 300
     record:
       - "185.230.153.228"
+  - name: "libra"
+    ttl: 300
+    record:
+      - "185.230.153.231"
+  - name: "libra-preview"
+    ttl: 300
+    record:
+      - "185.230.153.231"
 
 cname:
   - name: "caps"
