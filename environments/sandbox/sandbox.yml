@@ -282,3 +282,10 @@ cname:
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
     shutter: false
+  - name: "labs-ashleigh31-nodejs"
+     ttl: 300
+     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+     shutter: false
+  - name: "afdverify.labs-ashleigh31-nodejs"
+     ttl: 300
+     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
