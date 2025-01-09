@@ -32,7 +32,8 @@ A:
   - name: "darts-proxy"
     ttl: 300
     record:
-      - "10.51.96.132" #Demo AppGW PIP
+      - "10.25.32.99"
+      #- "10.51.96.132" #Demo AppGW PIP
       #- "10.23.2.252" #CGWAF
 
 txt: []
