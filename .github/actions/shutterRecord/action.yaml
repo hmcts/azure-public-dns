@@ -15,14 +15,14 @@ runs:
   using: "composite"
   steps:
     - name: Add A shutter config
-      uses: mikefarah/yq@v4.44.6
+      uses: mikefarah/yq@v4.45.1
       if: ${{ inputs.record_type == 'A' }}
       with:
         # Use YQ to add a new record to the A record list, it will append to the end of the list and have all fields as required, any blank inputs will be left empty in the file. The style options are: double quote everything, remove quotes from ttl field.
         cmd: yq -i '.A += {"name":"${{ github.event.inputs.record_name }}", "shutter":false} | .A[].name style="double"' ${{ inputs.shutter_file }}
 
     - name: Add CNAME shutter config
-      uses: mikefarah/yq@v4.44.6
+      uses: mikefarah/yq@v4.45.1
       if: ${{ inputs.record_type == 'CNAME' }}
       with:
         # Use YQ to add a new record to the CNAME record list, it will append to the end of the list and have all fields as required. The style options are: double quote everything, remove quotes from ttl field.
