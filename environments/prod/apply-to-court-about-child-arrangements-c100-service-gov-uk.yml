@@ -10,7 +10,7 @@ txt:
   - name: "_dnsauth.www"
     ttl: 3600
     record:
-      - "_j2gxx1py0szri6b26hf4p8l5qvr0w30"
+      - "_wc9ldqruwnsoi71r1b4o9ld8oititwa"
 
 srv: []
 
