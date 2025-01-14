@@ -6,7 +6,11 @@ mx: []
 
 A: []
 
-txt: []
+txt:
+  - name: "_dnsauth.www"
+    ttl: 3600
+    record:
+      - "_wc9ldqruwnsoi71r1b4o9ld8oititwa"
 
 srv: []
 
