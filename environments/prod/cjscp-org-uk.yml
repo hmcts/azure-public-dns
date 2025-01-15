@@ -368,9 +368,6 @@ cname:
   - name: login.nft.cpp
     ttl: 3600
     record: token.nft.cpp.cjscp.org.uk.
-  - name: login.nftpr2
-    ttl: 600
-    record: idamnftpreview.northeurope.cloudapp.azure.com.
   - name: login.prp
     ttl: 1800
     record: token.prp.cjscp.org.uk.
@@ -380,9 +377,6 @@ cname:
   - name: manage-users.nft.cpp
     ttl: 3600
     record: token.nft.cpp.cjscp.org.uk.
-  - name: manage-users.nftpr2
-    ttl: 600
-    record: idamnftpreview.northeurope.cloudapp.azure.com.
   - name: manage-users.prp
     ttl: 1800
     record: token.prp.cjscp.org.uk.
@@ -392,15 +386,9 @@ cname:
   - name: my-services.nft.cpp
     ttl: 3600
     record: token.nft.cpp.cjscp.org.uk.
-  - name: my-services.nftpr2
-    ttl: 600
-    record: idamnftpreview.northeurope.cloudapp.azure.com.
   - name: my-services.prp
     ttl: 1800
     record: token.prp.cjscp.org.uk.
-  - name: token.nftpr2
-    ttl: 600
-    record: idamnftpreview.northeurope.cloudapp.azure.com.
   - name: em2687.bae
     ttl: 600
     record: u16040309.wl060.sendgrid.net
