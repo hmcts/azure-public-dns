@@ -203,6 +203,10 @@ A:
     ttl: 300
     record:
       - "10.23.1.252"
+  - name: "em-icp-webpubsub"
+    ttl: 300
+    record:
+      - "85.210.74.92"
 
 txt:
   - name: "@"

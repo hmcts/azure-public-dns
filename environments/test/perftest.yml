@@ -19,6 +19,11 @@ A:
     record:
       - "20.26.57.242"
 
+  - name: "em-icp-webpubsub"
+    ttl: 300
+    record:
+      - "85.210.74.92"
+
 cname:
   - name: "afdverify.benefit-appeal"
     ttl: 3600
