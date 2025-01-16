@@ -76,6 +76,11 @@ A:
     ttl: 300
     record:
       - "4.234.74.227"
+      
+  - name: "em-icp-webpubsub"
+    ttl: 300
+    record:
+      - "85.210.74.92"
 
 txt:
   - name: "contact.justice"
