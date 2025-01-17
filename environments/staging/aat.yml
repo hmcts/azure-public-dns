@@ -17,7 +17,7 @@ A:
   - name: "em-icp-webpubsub"
     ttl: 300
     record:
-      - "85.210.74.92"
+      - "20.254.72.157"
 
 cname:
   - name: "_8c25cc47acd71d289bc2b0f6163f17bd"
