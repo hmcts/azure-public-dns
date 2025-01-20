@@ -32,7 +32,7 @@ A:
   - name: "em-icp-webpubsub"
     ttl: 300
     record:
-      - "85.210.74.92"
+      - "20.162.149.215"
 
   - name: "darts-proxy"
     ttl: 300
