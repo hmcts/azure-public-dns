@@ -213,16 +213,19 @@ A:
     record:
       - 20.108.186.180
     shutter_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/sds-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/staticSites/tools-atlassian"
+    alias_target_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/sds-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/sites/tools-atlassian"
   - name: tools.prp
     ttl: 600
     record:
       - 4.234.211.95
     shutter_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/sds-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/staticSites/tools-atlassian-prp"
+    alias_target_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/sds-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/sites/tools-atlassian-prp"
   - name: staging.tools
     ttl: 600
     record:
       - 20.68.218.20
     shutter_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/sds-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/staticSites/tools-atlassian-staging"
+    alias_target_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/sds-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/sites/tools-atlassian-staging"
 
 txt:
   - name: '@'
