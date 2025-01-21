@@ -19,7 +19,7 @@ A: []
 
 cname:
   - name: "www"
-    shutter: false
+    shutter: true
     #shuttering must be achieved by pointing to hmcts-apply-to-court-about-child-arrangements-c1.azureedge.net at present
   - name: "em5901.mail-prl"
     shutter: false
