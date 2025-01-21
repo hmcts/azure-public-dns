@@ -73,7 +73,7 @@ A:
   - name: tools
     shutter: false
   - name: tools.prp
-    shutter: true
+    shutter: false
   - name: staging.tools
     shutter: false
 
