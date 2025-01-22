@@ -419,3 +419,9 @@ cname:
   - name: _8B34145C9558202B6881200935992E4E.onlineplea.nft02.cpp
     ttl: 10800
     record: 14DAEAC0C929EA18BB6E37C4F2DB5084.3C468548F90C0259CAE40F0ECA9B0618.28e152290c61d1b35108.sectigo.com.
+  - name: _pzd9ae7un5t4fp7vmp1e927hgpme6yx.onlineplea.dev
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _pzd9ae7un5t4fp7vmp1e927hgpme6yx.www.onlineplea.dev
+    ttl: 10800
+    record: dcv.digicert.com.
