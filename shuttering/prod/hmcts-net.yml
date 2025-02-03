@@ -74,6 +74,8 @@ A:
     shutter: false
   - name: tools.prp
     shutter: false
+  - name: staging.tools
+    shutter: false
 
 cname:
   - name: "*.dev.cpp"

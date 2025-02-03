@@ -104,123 +104,152 @@ A:
     ttl: 1800
     record:
       - 83.151.216.178
+    shutter_resource_id: ""
   - name: c2idemo
     ttl: 1800
     record:
       - 83.151.216.178
+    shutter_resource_id: ""
   - name: c2ishowandtell
     ttl: 1800
     record:
       - 83.151.216.178
+    shutter_resource_id: ""
   - name: ccr-prototype
     ttl: 3600
     record:
       - 83.151.216.178
+    shutter_resource_id: ""
   - name: ccrdemo
     ttl: 43200
     record:
       - 83.151.216.178
+    shutter_resource_id: ""
   - name: confluence-nle
     ttl: 1800
     record:
       - 51.145.22.226
+    shutter_resource_id: ""
   - name: cp.cjs
     ttl: 3600
     record:
       - 40.67.248.37
+    shutter_resource_id: ""
   - name: crowd-nle
     ttl: 1800
     record:
       - 51.145.22.226
+    shutter_resource_id: ""
   - name: dev.cpp
     ttl: 3600
     record:
       - 83.151.216.178
+    shutter_resource_id: ""
   - name: devcp2.cpp
     ttl: 3600
     record:
       - 10.125.114.60
+    shutter_resource_id: ""
   - name: i2tdemo
     ttl: 1800
     record:
       - 83.151.216.178
+    shutter_resource_id: ""
   - name: jira-nle
     ttl: 1800
     record:
       - 51.145.22.226
+    shutter_resource_id: ""
   - name: pp.confluence
     ttl: 3600
     record:
       - 51.179.201.14
+    shutter_resource_id: ""
   - name: pp.crowd
     ttl: 3600
     record:
       - 51.179.201.14
+    shutter_resource_id: ""
   - name: pp.hipchat
     ttl: 3600
     record:
       - 51.179.201.14
+    shutter_resource_id: ""
   - name: pp.jira
     ttl: 3600
     record:
       - 51.179.201.14
+    shutter_resource_id: ""
   - name: preprod-bastion
     ttl: 600
     record:
       - 10.20.1.27
+    shutter_resource_id: ""
   - name: prod-bastion
     ttl: 1800
     record:
       - 10.20.1.12
+    shutter_resource_id: ""
   - name: r2showandtell
     ttl: 1800
     record:
       - 83.151.216.178
+    shutter_resource_id: ""
   - name: redact.c2idemo
     ttl: 1800
     record:
       - 83.151.216.178
+    shutter_resource_id: ""
   - name: redact.dev.cpp
     ttl: 3600
     record:
       - 83.151.216.178
+    shutter_resource_id: ""
   - name: sandbox.divorce-backoffice.reform
     ttl: 1800
     record:
       - 51.179.201.13
+    shutter_resource_id: ""
   - name: sandbox.divorce.reform
     ttl: 1800
     record:
       - 51.179.201.13
+    shutter_resource_id: ""
   - name: sandbox.probate-two.reform
     ttl: 1800
     record:
       - 51.179.201.13
+    shutter_resource_id: ""
   - name: sandbox.probate.reform
     ttl: 1800
     record:
       - 51.179.201.13
+    shutter_resource_id: ""
   - name: sandbox.sscs.reform
     ttl: 1800
     record:
       - 51.179.201.13
+    shutter_resource_id: ""
   - name: test-reform
     ttl: 1800
     record:
       - 83.151.216.178
+    shutter_resource_id: ""
   - name: tools
     ttl: 600
     record:
       - 20.108.186.180
+    shutter_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/sds-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/staticSites/tools-atlassian"
   - name: tools.prp
     ttl: 600
     record:
       - 4.234.211.95
+    shutter_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/sds-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/staticSites/tools-atlassian-prp"
   - name: staging.tools
     ttl: 600
     record:
       - 20.68.218.20
-
+    shutter_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/sds-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/staticSites/tools-atlassian-staging"
 txt:
   - name: '@'
     ttl: 86400
