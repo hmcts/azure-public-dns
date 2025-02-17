@@ -277,18 +277,6 @@ cname:
   - name: "afdverify.moneyclaims1"
     ttl: 300
     record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
-  - name: "bar"
-    ttl: 300
-    record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
-  - name: "afdverify.bar"
-    ttl: 300
-    record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
-  - name: "bar-int"
-    ttl: 300
-    record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
-  - name: "afdverify.bar-int"
-    ttl: 300
-    record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
   - name: "ac-int-gateway-ccd"
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
