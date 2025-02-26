@@ -431,3 +431,27 @@ cname:
   - name: _dk2uwcxny9pfz5bgo5z7fc4tq7vynl9.www.onlineplea.sit
     ttl: 10800
     record: dcv.digicert.com.
+  - name: _581oy9c5q2q6mstr42gwbjcxwjk5jps.login.sit
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _581oy9c5q2q6mstr42gwbjcxwjk5jps.email-client.sit
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _581oy9c5q2q6mstr42gwbjcxwjk5jps.identity-gateway.sit
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _581oy9c5q2q6mstr42gwbjcxwjk5jps.manage-users.sit
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _581oy9c5q2q6mstr42gwbjcxwjk5jps.my-services.sit
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _581oy9c5q2q6mstr42gwbjcxwjk5jps.prosecuting-stub-idam.sit
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _581oy9c5q2q6mstr42gwbjcxwjk5jps.rota-stub-idam.sit
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _581oy9c5q2q6mstr42gwbjcxwjk5jps.token.sit
+    ttl: 10800
+    record: dcv.digicert.com.
