@@ -425,3 +425,9 @@ cname:
   - name: _pzd9ae7un5t4fp7vmp1e927hgpme6yx.www.onlineplea.dev
     ttl: 10800
     record: dcv.digicert.com.
+  - name: _dk2uwcxny9pfz5bgo5z7fc4tq7vynl9.onlineplea.sit
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _dk2uwcxny9pfz5bgo5z7fc4tq7vynl9.www.onlineplea.sit
+    ttl: 10800
+    record: dcv.digicert.com.
