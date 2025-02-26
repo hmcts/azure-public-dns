@@ -28,7 +28,7 @@ A:
   - name: "em-icp-webpubsub"
     ttl: 300
     record:
-      - "85.210.205.87"
+      - "4.158.63.145"
 
 txt:
   - name: "contact.justice"
