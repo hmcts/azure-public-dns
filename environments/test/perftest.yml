@@ -22,7 +22,7 @@ A:
   - name: "em-icp-webpubsub"
     ttl: 300
     record:
-      - "85.210.148.35"
+      - "85.210.203.11"
 
 cname:
   - name: "afdverify.benefit-appeal"
