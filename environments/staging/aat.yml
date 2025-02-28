@@ -218,12 +218,6 @@ cname:
   - name: "probate"
     ttl: 3600
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
-  - name: "afdverify.bar"
-    ttl: 3600
-    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
-  - name: "bar"
-    ttl: 3600
-    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.paybubble"
     ttl: 3600
     record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"

@@ -162,12 +162,6 @@ cname:
   - name: "lau"
     ttl: 3600
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
-  - name: "afdverify.bar"
-    ttl: 3600
-    record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
-  - name: "bar"
-    ttl: 3600
-    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   - name: "afdverify.paybubble"
     ttl: 3600
     record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
