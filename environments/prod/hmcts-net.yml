@@ -250,11 +250,6 @@ A:
     record:
       - 20.68.218.20
     shutter_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/sds-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/staticSites/tools-atlassian-staging"
-  - name: prod-temp.tools
-    ttl: 600
-    record:
-      - 172.166.152.37
-    shutter_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/sds-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/staticSites/tools-atlassian-staging"
 txt:
   - name: '@'
     ttl: 86400
