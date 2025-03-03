@@ -103,12 +103,6 @@ cname:
   - name: "lau"
     ttl: 3600
     record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
-  - name: "afdverify.bar"
-    ttl: 3600
-    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
-  - name: "bar"
-    ttl: 300
-    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.paybubble"
     ttl: 3600
     record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"

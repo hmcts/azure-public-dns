@@ -455,3 +455,27 @@ cname:
   - name: _581oy9c5q2q6mstr42gwbjcxwjk5jps.token.sit
     ttl: 10800
     record: dcv.digicert.com.
+  - name: _na05v87pystwrxf6lfa3a4hmi0nodaf.login.nft
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _na05v87pystwrxf6lfa3a4hmi0nodaf.email-client.nft
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _na05v87pystwrxf6lfa3a4hmi0nodaf.identity-gateway.nft
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _na05v87pystwrxf6lfa3a4hmi0nodaf.manage-users.nft
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _na05v87pystwrxf6lfa3a4hmi0nodaf.my-services.nft
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _na05v87pystwrxf6lfa3a4hmi0nodaf.prosecuting-stub-idam.nft
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _na05v87pystwrxf6lfa3a4hmi0nodaf.rota-stub-idam.nft
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _na05v87pystwrxf6lfa3a4hmi0nodaf.token.nft
+    ttl: 10800
+    record: dcv.digicert.com.
