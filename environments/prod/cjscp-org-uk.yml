@@ -479,3 +479,21 @@ cname:
   - name: _na05v87pystwrxf6lfa3a4hmi0nodaf.token.nft
     ttl: 10800
     record: dcv.digicert.com.
+  - name: _sck6v00f2xw1x6nrrxq05ql511mltv5.prosecuting.sit
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _sck6v00f2xw1x6nrrxq05ql511mltv5.www.prosecuting.sit
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _428wk5yuui8m6cc44kzm0p5jw7x8kjr.onlineplea.prp
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _428wk5yuui8m6cc44kzm0p5jw7x8kjr.www.onlineplea.prp
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _x3tq6d7ze44kf2tm804w7kk97343jkc.onlineplea
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _x3tq6d7ze44kf2tm804w7kk97343jkc.www.onlineplea
+    ttl: 10800
+    record: dcv.digicert.com.
