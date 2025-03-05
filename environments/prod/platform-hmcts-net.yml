@@ -95,10 +95,6 @@ mx:
       - "32767 ms50395572.msv1.invalid"
 
 A:
-  - name: "bar"
-    ttl: 900
-    record:
-      - "51.143.156.74"
   - name: "build-beta"
     ttl: 60
     record:
