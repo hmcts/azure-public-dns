@@ -295,17 +295,3 @@ cname:
   - name: "afdverify.labs-jamiemcconnell-nodejs"
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: "labs-goldenpath-yur"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    shutter: false
-  - name: "afdverify.labs-goldenpath-yur"
-    ttl: 300
-    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: "labs-kainosrogery-nodejs"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    shutter: false
-  - name: "afdverify.labs-kainosrogery-nodejs"
-    ttl: 300
-    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
