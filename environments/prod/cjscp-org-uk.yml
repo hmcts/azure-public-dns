@@ -2,7 +2,11 @@ zone_name: "cjscp.org.uk"
 
 ns: []
 
-txt: []
+txt: 
+   - name: "_dmarc"
+     ttl: 3600
+     record:
+       - "v=DMARC1; p=none"
 
 srv: []
 
