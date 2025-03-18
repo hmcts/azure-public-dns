@@ -84,10 +84,6 @@ cname:
     shutter: false
   - name: "manage-org"
     shutter: false
-  - name: "manage-payments"
-    shutter: false
-  - name: "www.manage-payments"
-    shutter: false
   - name: "www.moneyclaim"
     shutter: false
   - name: "www.moneyclaim-legal"
