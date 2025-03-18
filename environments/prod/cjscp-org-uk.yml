@@ -2,7 +2,11 @@ zone_name: "cjscp.org.uk"
 
 ns: []
 
-txt: []
+txt: 
+   - name: "_dmarc"
+     ttl: 3600
+     record:
+       - "v=DMARC1; p=none"
 
 srv: []
 
@@ -495,5 +499,41 @@ cname:
     ttl: 10800
     record: dcv.digicert.com.
   - name: _x3tq6d7ze44kf2tm804w7kk97343jkc.www.onlineplea
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _b87t5z3jtx73ej1dscl72fi08vsjylr.rota.sit
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _b87t5z3jtx73ej1dscl72fi08vsjylr.www.rota.sit
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _m4gz51ajiy0fd4qt3zlr3psjktpcur2.login.support
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _m4gz51ajiy0fd4qt3zlr3psjktpcur2.email-client.support
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _m4gz51ajiy0fd4qt3zlr3psjktpcur2.identity-gateway.support
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _m4gz51ajiy0fd4qt3zlr3psjktpcur2.manage-users.support
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _m4gz51ajiy0fd4qt3zlr3psjktpcur2.my-services.support
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _m4gz51ajiy0fd4qt3zlr3psjktpcur2.prosecuting-stub-idam.support
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _m4gz51ajiy0fd4qt3zlr3psjktpcur2.rota-stub-idam.support
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _m4gz51ajiy0fd4qt3zlr3psjktpcur2.token.support
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _0mrxn7jkfvvt0dbk4yglzo6ojtr7pvu.rota.nft
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _0mrxn7jkfvvt0dbk4yglzo6ojtr7pvu.www.rota.nft
     ttl: 10800
     record: dcv.digicert.com.
