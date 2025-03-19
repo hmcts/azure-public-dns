@@ -54,8 +54,6 @@ A:
     shutter: false
   - name: px03
     shutter: false
-  - name: sip
-    shutter: false
 
   # test
   # hearings
@@ -137,8 +135,6 @@ cname:
   - name: "_257B4DC0606C2DFCC9456C986529ED6E.dev"
     shutter: false  
   - name: "_257B4DC0606C2DFCC9456C986529ED6E.join.dev"
-    shutter: false
-  - name: _83BF00A603FB7772285B7CD42719DE2B.sip
     shutter: false
   - name: _83BF00A603FB7772285B7CD42719DE2B.px01
     shutter: false
