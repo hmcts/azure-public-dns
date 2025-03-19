@@ -5,14 +5,7 @@ ns: []
 mx: []
 
 A:
-  - name: "px01"
-    ttl: 300
-    record:
-      - "34.89.118.38"
-  - name: "px02"
-    ttl: 300
-    record:
-      - "34.89.63.94"
+
   - name: "test"
     ttl: 300
     record:
@@ -22,39 +15,30 @@ srv:
   - name: "_h323cs._tcp"
     ttl: 86400
     record:
-      - "10,10,1720,px01.vh.hmcts.net"
-      - "10,10,1720,px02.vh.hmcts.net"
+      - "10,10,1720"
+      - "10,10,1720"
   - name: "_h323ls._udp"
     ttl: 86400
     record:
-      - "10,10,1719,px01.vh.hmcts.net"
-      - "10,10,1719,px02.vh.hmcts.net"
+      - "10,10,1719"
+      - "10,10,1719"
   - name: "_h323rs._udp"
     ttl: 86400
     record:
-      - "10,10,1719,px01.vh.hmcts.net"
-      - "10,10,1719,px02.vh.hmcts.net"
+      - "10,10,1719"
+      - "10,10,1719"
   - name: "sip._tcp"
     ttl: 86400
     record:
-      - "10,10,5060,px01.vh.hmcts.net"
-      - "10,10,5060,px02.vh.hmcts.net"
+      - "10,10,5060"
+      - "10,10,5060"
   - name: "sips._tcp"
     ttl: 86400
     record:
-      - "10,10,5061,px01.vh.hmcts.net"
-      - "10,10,5061,px02.vh.hmcts.net"
+      - "10,10,5061"
+      - "10,10,5061"
 
 cname:
-  - name: "_0B0A4E9713C1F79F2FAEB025665705A2.sip"
-    ttl: 10800
-    record: "AE93B9AB255147EE8897B2349EF817A9.47F5ABF44CB317EB656FB5D287A2B289.f31b9251ae3a9b164763.sectigo.com"
-  - name: "_0B0A4E9713C1F79F2FAEB025665705A2.px01"
-    ttl: 10800
-    record: "AE93B9AB255147EE8897B2349EF817A9.47F5ABF44CB317EB656FB5D287A2B289.f31b9251ae3a9b164763.sectigo.com"
-  - name: "_0B0A4E9713C1F79F2FAEB025665705A2.px02"
-    ttl: 10800
-    record: "AE93B9AB255147EE8897B2349EF817A9.47F5ABF44CB317EB656FB5D287A2B289.f31b9251ae3a9b164763.sectigo.com"
 
 txt: []
   # - name: "_acme-challenge.hearings.reform.hmcts.net"
