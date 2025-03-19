@@ -67,18 +67,6 @@ A:
     ttl: 300
     record:
       - 35.242.182.154
-  - name: px01
-    ttl: 300
-    record:
-      - 35.246.61.150
-  - name: px02
-    ttl: 300
-    record:
-      - 35.246.79.59
-  - name: px03
-    ttl: 300
-    record:
-      - 35.246.113.194
 
   # test
   # hearings
@@ -189,22 +177,10 @@ srv:
     record:
       - 10,10,1720,ext-node01.hearings.hmcts.net
       - 10,10,1720,ext-node02.hearings.hmcts.net
-  - name: _sip._tcp
-    ttl: 86400
-    record:
-      - 10,10,5060,px01.hearings.hmcts.net
-      - 10,10,5060,px02.hearings.hmcts.net
-      - 10,10,5060,px03.hearings.hmcts.net
   - name: _sipfederationtls._tcp
     ttl: 86400
     record:
       - 10,10,5061,sip.hearings.hmcts.net
-  - name: _sips._tcp
-    ttl: 86400
-    record:
-      - 10,10,5061,px01.hearings.hmcts.net
-      - 10,10,5061,px02.hearings.hmcts.net
-      - 10,10,5061,px03.hearings.hmcts.net
   - name: _h323ls._udp
     ttl: 86400
     record:
@@ -215,18 +191,6 @@ srv:
     record:
       - 10,10,1719,ext-node02.hearings.hmcts.net
       - 10,10,1719,ext-node01.hearings.hmcts.net
-  - name: _sip._tcp.test
-    ttl: 86400
-    record:
-      - 10,10,5060,px01.test.hearings.hmcts.net
-      - 10,10,5060,px02.test.hearings.hmcts.net
-      - 10,10,5060,px03.test.hearings.hmcts.net
-  - name: _sips._tcp.test
-    ttl: 86400
-    record:
-      - 10,10,5061,px01.test.hearings.hmcts.net
-      - 10,10,5061,px02.test.hearings.hmcts.net
-      - 10,10,5061,px03.test.hearings.hmcts.net
 
 cname:
   - name: "_52B9ABD061E107FB9E5EFC8D1DA91A25.test"
@@ -271,15 +235,6 @@ cname:
   - name: "_257B4DC0606C2DFCC9456C986529ED6E.join.dev"
     ttl: 10800
     record: 7B34BC9C92CFF68AAEA0F8C044B27EA3.25DAE510D65656F65C45A16AC9F3186D.e1900dd9c5eb35122e26.sectigo.com
-  - name: _4E698AD7E69822CED0653E27EB513B17.px01
-    ttl: 10800
-    record: D49F6C13130F26642519A767A99389BE.D5F4AD6DC9C2E5E1C7971BD5E63374FD.c82a266b146c1e4f059f.sectigo.com.
-  - name: _4E698AD7E69822CED0653E27EB513B17.px02
-    ttl: 10800
-    record: D49F6C13130F26642519A767A99389BE.D5F4AD6DC9C2E5E1C7971BD5E63374FD.c82a266b146c1e4f059f.sectigo.com.
-  - name: _4E698AD7E69822CED0653E27EB513B17.px03
-    ttl: 10800
-    record: D49F6C13130F26642519A767A99389BE.D5F4AD6DC9C2E5E1C7971BD5E63374FD.c82a266b146c1e4f059f.sectigo.com.
   - name: _83A73F75853CF72E7DECB65DFEA5278D
     ttl: 10800
     record: B25E5F05383DD8895B281A716742D336.88603A01CCCAF72E51C46ED0CA35B544.437292444c94cbb52840.sectigo.com.

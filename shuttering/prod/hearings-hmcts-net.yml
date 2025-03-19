@@ -48,12 +48,6 @@ A:
     shutter: false
   - name: join
     shutter: false
-  - name: px01
-    shutter: false
-  - name: px02
-    shutter: false
-  - name: px03
-    shutter: false
 
   # test
   # hearings
@@ -135,12 +129,6 @@ cname:
   - name: "_257B4DC0606C2DFCC9456C986529ED6E.dev"
     shutter: false  
   - name: "_257B4DC0606C2DFCC9456C986529ED6E.join.dev"
-    shutter: false
-  - name: _83BF00A603FB7772285B7CD42719DE2B.px01
-    shutter: false
-  - name: _83BF00A603FB7772285B7CD42719DE2B.px02
-    shutter: false
-  - name: _83BF00A603FB7772285B7CD42719DE2B.px03
     shutter: false
   - name: _83A73F75853CF72E7DECB65DFEA5278D
     shutter: false
