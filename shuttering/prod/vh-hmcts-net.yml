@@ -16,8 +16,16 @@ shutter_all_cname: false
 # - shutter_resource_id
 # - alias_target_resource_id
 A:
+  - name: "px01"
+    shutter: false
+  - name: "px02"
+    shutter: false
   - name: "test"
     shutter: false
 
 
 cname: 
+  - name: "_18D91B37F68325E927ECCA117032DF4E.px01"
+    shutter: false
+  - name: "_18D91B37F68325E927ECCA117032DF4E.px02"
+    shutter: false
