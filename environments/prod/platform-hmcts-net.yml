@@ -311,9 +311,6 @@ cname:
   - name: "divorce.nonprod"
     ttl: 3600
     record: "mojmaintenance.azurewebsites.net"
-  - name: "maintenance.nonprod"
-    ttl: 3600
-    record: "mojmaintenance.azurewebsites.net"
   - name: "moneyclaim-legal.nonprod"
     ttl: 300
     record: "mojmaintenance.azurewebsites.net"
