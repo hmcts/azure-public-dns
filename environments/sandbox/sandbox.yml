@@ -125,10 +125,6 @@ cname:
     # platform: "cft"
     ttl: 3600
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: "plum.uksouth"
-    # platform: "cft"
-    ttl: 3600
-    record: "firewall-sbox.uksouth.cloudapp.azure.com"
   - name: "afdverify.idam-web-public"
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
@@ -227,10 +223,6 @@ cname:
   - name: "afdverify.safe-settings"
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: "safe-settings"
-    ttl: 300
-    shutter: true
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: "selector1-azurecomm-prod-net._domainkey"
     ttl: 3600
     record: "selector1-azurecomm-prod-net._domainkey.azurecomm.net"

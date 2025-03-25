@@ -333,9 +333,6 @@ cname:
   - name: sip
     ttl: 3600
     record: sipdir.online.lync.com.
-  - name: tools.oldprd
-    ttl: 600
-    record: atlprod.northeurope.cloudapp.azure.com.
   - name: www.notices
     ttl: 600
     record: www95.wixdns.net.
