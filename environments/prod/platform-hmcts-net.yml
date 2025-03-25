@@ -95,10 +95,6 @@ mx:
       - "32767 ms50395572.msv1.invalid"
 
 A:
-  - name: "bar"
-    ttl: 900
-    record:
-      - "51.143.156.74"
   - name: "build-beta"
     ttl: 60
     record:
@@ -303,16 +299,6 @@ cname:
     platform: "cft"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-  - name: "manage-payments"
-    platform: "cft"
-    ttl: 900
-    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
-  - name: "www.manage-payments"
-    platform: "cft"
-    ttl: 900
-    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "www.moneyclaim"
     platform: "cft"
     ttl: 300
@@ -407,12 +393,6 @@ cname:
     shutter: false
   - name: "afdverify.immigration-appeal"
     platform: "cft"
-    ttl: 3600
-    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-  - name: "afdverify.www.manage-payments"
-    ttl: 3600
-    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-  - name: "afdverify.manage-payments"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.paybubble"
