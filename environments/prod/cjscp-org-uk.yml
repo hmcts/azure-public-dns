@@ -7,6 +7,10 @@ txt:
      ttl: 3600
      record:
        - "v=DMARC1; p=none"
+   - name: "@"
+     ttl: 3600
+     record:
+       - "v=spf1 include:sendgrid.net ~all"
 
 srv: []
 
