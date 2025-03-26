@@ -42,5 +42,3 @@ cname:
     # Juror
   - name: "juror"
     shutter: false
-  - name: "juror-public"
-    shutter: true
