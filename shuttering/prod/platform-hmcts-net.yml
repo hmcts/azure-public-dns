@@ -90,8 +90,6 @@ cname:
     shutter: false
   - name: "divorce.nonprod"
     shutter: false
-  - name: "maintenance.nonprod"
-    shutter: false
   - name: "moneyclaim-legal.nonprod"
     shutter: false
   - name: "maintenance.moneyclaim-legal.nonprod"

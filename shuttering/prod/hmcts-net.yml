@@ -100,8 +100,6 @@ cname:
     shutter: false
   - name: sip
     shutter: false
-  - name: tools.oldprd
-    shutter: false
   - name: www.notices
     shutter: false
   - name: _domainconnect

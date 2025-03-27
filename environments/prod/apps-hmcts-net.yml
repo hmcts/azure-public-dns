@@ -99,10 +99,6 @@ cname:
     platform: "sds"
     ttl: 300
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
-  - name: "juror-public"
-    platform: "sds"
-    ttl: 300
-    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
   - name: "juror-er"
     ttl: 300
     record: "hmcts-heritage-prod-fug4hfanetgdf6cz.z01.azurefd.net"
