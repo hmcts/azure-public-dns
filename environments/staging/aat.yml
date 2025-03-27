@@ -15,7 +15,7 @@ txt:
     ttl: 3600
     record:
       - "_rvig1ta23kg7687jnw9jd616nnediza"
- 
+
 A:
   - name: "cft-mtls-api-mgmt-appgw"
     ttl: 300
