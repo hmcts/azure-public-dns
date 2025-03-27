@@ -260,6 +260,7 @@ txt:
       - "google-site-verification=TMU69wadrpW6V0YxpFfxuXST3nKEiMWWHA2KN88CwvI"
       - "v=spf1 include:spf.protection.outlook.com include:notifications.service.gov.uk include:prod.mailrelay.platform.hmcts.net a:c.spf.service-now.com -all"
       - "v=verifydomain MS=6154796"
+      - "atlassian-domain-verification=vAjh0qsG/yJoMmOv6nM3A9a22B7Nc8acyzKreuqgTeiCjHkRxYoi6ZGQHNuU82Ua"
   - name: cp.cjs
     ttl: 3600
     record:
