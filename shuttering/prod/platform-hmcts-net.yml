@@ -102,10 +102,6 @@ cname:
     shutter: false
   - name: "www.paymentoutcome-web"
     shutter: false
-  - name: "asverify.probate"
-    shutter: false
-  - name: "awverify.probate"
-    shutter: false
   - name: "reformscan"
     shutter: false
   - name: "asverify.reformscan"

@@ -337,12 +337,6 @@ cname:
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
-  - name: "asverify.probate"
-    ttl: 60
-    record: "asverify.probateprod.blob.core.windows.net"
-  - name: "awverify.probate"
-    ttl: 1
-    record: "awverify.probate-frontend-prod-shutter.azurewebsites.net"
   - name: "reformscan"
     ttl: 3600
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
