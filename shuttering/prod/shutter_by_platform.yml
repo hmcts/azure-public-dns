@@ -1,5 +1,5 @@
 # Setting this to true will shutter any A or CNAME record tagged with platform: "cft"
-shutter_all_cft: false
+shutter_all_cft: true
 
 # Setting this to true will shutter any A or CNAME record tagged with platform: "sds".
 shutter_all_sds: false
