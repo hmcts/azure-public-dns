@@ -122,12 +122,6 @@ cname:
   - name: "afdverify.pre-portal"
     ttl: 3600
     record: "afdverify.sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
-  - name: "help-with-fees"
-    ttl: 3600
-    record: "hwf-public-dev.nicemushroom-6841cfc0.uksouth.azurecontainerapps.io"
-  - name: "staff.help-with-fees"
-    ttl: 3600
-    record: "hwf-staff-ext-dev.nicemushroom-6841cfc0.uksouth.azurecontainerapps.io"
   - name: "opal-frontend"
     ttl: 300
     record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
