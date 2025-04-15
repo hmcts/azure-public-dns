@@ -287,10 +287,3 @@ cname:
   - name: "afdverify.labs-jamiemcconnell-nodejs"
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: "labs-gunnertwin-nodejs"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    shutter: false
-  - name: "afdverify.labs-gunnertwin-nodejs"
-    ttl: 300
-    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
