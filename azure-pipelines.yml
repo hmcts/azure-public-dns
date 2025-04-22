@@ -11,7 +11,7 @@ resources:
   repositories:
   - repository: cnp-azuredevops-libraries
     type: github
-    ref: master
+    ref: DTSPO-24490
     name: hmcts/cnp-azuredevops-libraries
     endpoint: 'hmcts'
 
