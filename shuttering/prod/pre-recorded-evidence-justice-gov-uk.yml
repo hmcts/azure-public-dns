@@ -19,4 +19,4 @@ A: []
 
 cname: 
   - name: "portal"
-    shutter: true
+    shutter: false 
