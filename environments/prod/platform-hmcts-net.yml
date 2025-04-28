@@ -345,12 +345,6 @@ cname:
   - name: "afdverify.reformscan"
     ttl: 60
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-  - name: "asverify.reformscan"
-    ttl: 3600
-    record: "asverify.reformscanprod.blob.core.windows.net"
-  - name: "asverify.reformscanstg"
-    ttl: 300
-    record: "asverify.reformscanprodstaging.blob.core.windows.net"
   - name: "reformscanstg"
     ttl: 300
     record: "reformscanprodstaging.blob.core.windows.net"

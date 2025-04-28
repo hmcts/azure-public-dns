@@ -104,10 +104,6 @@ cname:
     shutter: false
   - name: "reformscan"
     shutter: false
-  - name: "asverify.reformscan"
-    shutter: false
-  - name: "asverify.reformscanstg"
-    shutter: false
   - name: "reformscanstg"
     shutter: false
   - name: "register-org"
