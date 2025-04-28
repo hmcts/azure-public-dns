@@ -31,18 +31,6 @@ cname:
   - name: "_8c25cc47acd71d289bc2b0f6163f17bd"
     ttl: 900
     record: "C648764CDB3F90B8D135D9335993A767.ABBA811E0AD75A1ABB2EB5C0CDCD5B0F.wiRpxFcZvwUNTJeY5mtL.comodoca.com"
-  - name: "reformscan"
-    ttl: 60
-    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
-  - name: "afdverify.reformscan"
-    ttl: 60
-    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
-  - name: "reformscanstg"
-    ttl: 60
-    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
-  - name: "afdverify.reformscanstg"
-    ttl: 60
-    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "decree-absolute-aks"
     ttl: 3600
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"

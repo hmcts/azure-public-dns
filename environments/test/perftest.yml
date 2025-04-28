@@ -43,12 +43,6 @@ cname:
   - name: "sscs-cor"
     ttl: 3600
     record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
-  - name: "reformscan"
-    ttl: 60
-    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
-  - name: "afdverify.reformscan"
-    ttl: 60
-    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.civil-citizen-ui"
     ttl: 300
     record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"

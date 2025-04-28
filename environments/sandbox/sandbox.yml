@@ -102,12 +102,6 @@ cname:
   - name: "_1fc88e03b87b33fb04a3b1c5978e80b8"
     ttl: 900
     record: "3FED4C626334D6135F1258241ADBBF36.F6728027F74DAF3E336958B894F24534.ma5er55rQa0HPM55O5Fq.comodoca.com"
-  - name: "reformscan"
-    ttl: 60
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: "afdverify.reformscan"
-    ttl: 60
-    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: "plum"
     # platform: "cft"
     ttl: 300

@@ -38,8 +38,6 @@ A:
 cname:
   - name: "_1fc88e03b87b33fb04a3b1c5978e80b8"
     shutter: false
-  - name: "reformscan"
-    shutter: false
   - name: "plum"
     shutter: false
   - name: "www.plum"
