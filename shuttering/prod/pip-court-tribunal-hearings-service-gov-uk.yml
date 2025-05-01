@@ -20,7 +20,7 @@ A: []
 cname:
   ## PIP Frontend
   - name: www
-    shutter: false
+    shutter: true
   - name: sign-in
     shutter: false
   - name: staff
