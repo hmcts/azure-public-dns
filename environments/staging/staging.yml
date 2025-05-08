@@ -112,9 +112,6 @@ cname:
   - name: "afdverify.pre-portal"
     ttl: 3600
     record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
-  - name: "staff.help-with-fees"
-    ttl: 3600
-    record: "hwf-staff-ext-stg.niceglacier-a3f52750.uksouth.azurecontainerapps.io"
   - name: "opal-frontend"
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
