@@ -24,14 +24,14 @@ runs:
   using: "composite"
   steps:
     - name: Add A record
-      uses: mikefarah/yq@v4.45.2
+      uses: mikefarah/yq@v4.45.3
       if: ${{ inputs.record_type == 'A' }}
       with:
         # Use YQ to add a new record to the A record list, it will append to the end of the list and have all fields as required, any blank inputs will be left empty in the file. The style options are: double quote everything, remove quotes from ttl field.
         cmd: yq -i '.A += {"name":"${{ github.event.inputs.record_name }}", "ttl":${{ github.event.inputs.record_ttl }}, "alias_target_resource_id":"${{ github.event.inputs.alias_target_id }}", "shutter_resource_id":"${{ github.event.inputs.shutter_resource_id }}", "record":["${{ github.event.inputs.record_value }}"]} | ..style="double" | (.A[].ttl, .cname[].ttl) style=""' ${{ inputs.dns_file }}
 
     - name: Add CNAME record
-      uses: mikefarah/yq@v4.45.2
+      uses: mikefarah/yq@v4.45.3
       if: ${{ inputs.record_type == 'CNAME' }}
       with:
         # Use YQ to add a new record to the CNAME record list, it will append to the end of the list and have all fields as required. The style options are: double quote everything, remove quotes from ttl field.
