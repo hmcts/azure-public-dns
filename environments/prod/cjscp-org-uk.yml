@@ -541,3 +541,30 @@ cname:
   - name: _0mrxn7jkfvvt0dbk4yglzo6ojtr7pvu.www.rota.nft
     ttl: 10800
     record: dcv.digicert.com.
+  - name: _r7f1zo806ngbqj6rc7uija1lp2ndir7.login.test
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _r7f1zo806ngbqj6rc7uija1lp2ndir7.email-client.test
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _r7f1zo806ngbqj6rc7uija1lp2ndir7.identity-gateway.test
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _r7f1zo806ngbqj6rc7uija1lp2ndir7.manage-users.test
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _r7f1zo806ngbqj6rc7uija1lp2ndir7.my-services.test
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _r7f1zo806ngbqj6rc7uija1lp2ndir7.prosecuting-stub-idam.test
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _r7f1zo806ngbqj6rc7uija1lp2ndir7.rota-stub-idam.test
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _r7f1zo806ngbqj6rc7uija1lp2ndir7.token.test
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _r7f1zo806ngbqj6rc7uija1lp2ndir7.cath-stub-idam.test
+    ttl: 10800
+    record: dcv.digicert.com.
