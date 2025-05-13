@@ -67,15 +67,15 @@ A:
     record:
       - "20.26.30.175"
 
-  - name: "labs-goldenpath-naraynm"
+  - name: "cnfgw-spoke-0"
     ttl: 300
     record:
-      - "51.145.114.159"
+      - "74.177.139.46"
 
-  - name: "labs-goldenpath-naraynm-temp"
+  - name: "cnfgw-spoke-1"
     ttl: 300
     record:
-      - "4.234.74.227"
+      - "85.210.73.58"
 
 txt:
   - name: "contact.justice"
@@ -247,43 +247,3 @@ cname:
     record: "cnphmcts-classic-sbox.azurefd.net"
     shutter: false
     syncPrivateDNS: false
-  - name: "labs-goldenpath-connor-okane"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    shutter: false
-  - name: "afdverify.labs-endakelly-nodejs"
-    ttl: 300
-    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: "labs-goldenpath-ashleigh"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    shutter: false
-  - name: "labs-goldenpath-jamie"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    shutter: false
-  - name: "labs-goldenpath-lukasz"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    shutter: false
-  - name: "labs-lukaszk-hmcts-nodejs"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    shutter: false
-  - name: "afdverify.lukaszk-hmcts-nodejs"
-    ttl: 300
-    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: "labs-ashleigh31-nodejs"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    shutter: false
-  - name: "afdverify.labs-ashleigh31-nodejs"
-    ttl: 300
-    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: "labs-jamiemcconnell-nodejs"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    shutter: false
-  - name: "afdverify.labs-jamiemcconnell-nodejs"
-    ttl: 300
-    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"

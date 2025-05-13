@@ -88,8 +88,6 @@ cname:
     shutter: false
   - name: "www.moneyclaim-legal"
     shutter: false
-  - name: "divorce.nonprod"
-    shutter: false
   - name: "moneyclaim-legal.nonprod"
     shutter: false
   - name: "maintenance.moneyclaim-legal.nonprod"
@@ -103,10 +101,6 @@ cname:
   - name: "www.paymentoutcome-web"
     shutter: false
   - name: "reformscan"
-    shutter: false
-  - name: "asverify.reformscan"
-    shutter: false
-  - name: "asverify.reformscanstg"
     shutter: false
   - name: "reformscanstg"
     shutter: false
