@@ -213,23 +213,23 @@ txt:
   - name: "_dmarc"
     ttl: 3600
     record:
-      - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:ems@hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:ems@hmcts.net"
+      - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:DMARC_DL@hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:DMARC_DL@hmcts.net"
   - name: "_dmarc.mail-civil-nonprod"
     ttl: 3600
     record:
-      - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:ems@hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:ems@hmcts.net"
+      - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:DMARC_DL@hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:DMARC_DL@hmcts.net"
   - name: "_dmarc.mail-sscs-nonprod"
     ttl: 3600
     record:
-      - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:ems@hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:ems@hmcts.net"
+      - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:DMARC_DL@hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:DMARC_DL@hmcts.net"
   - name: "_dmarc.mail-money-claims-nonprod"
     ttl: 3600
     record:
-      - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:ems@hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:ems@hmcts.net"
+      - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:DMARC_DL@hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:DMARC_DL@hmcts.net"
   - name: "dmarc.mail-em612.mail-makeaplea-nonprod"
     ttl: 3600
     record:
-      - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:ems@hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:ems@hmcts.net"
+      - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:DMARC_DL@hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:DMARC_DL@hmcts.net"
   - name: "_dnsauth.apply-for-adoption"
     ttl: 3600
     record:
