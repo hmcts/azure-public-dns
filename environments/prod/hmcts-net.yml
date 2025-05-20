@@ -322,9 +322,6 @@ cname:
   - name: msoid
     ttl: 3600
     record: clientconfig.microsoftonline-p.net.
-  - name: notices
-    ttl: 600
-    record: www95.wixdns.net.
   - name: selector1._domainkey
     ttl: 3600
     record: selector1-hmcts-net._domainkey.cjscommonplatform.onmicrosoft.com.
@@ -334,9 +331,6 @@ cname:
   - name: sip
     ttl: 3600
     record: sipdir.online.lync.com.
-  - name: www.notices
-    ttl: 600
-    record: www95.wixdns.net.
   - name: _domainconnect
     ttl: 3600
     record: _domainconnect.gd.domaincontrol.com.
