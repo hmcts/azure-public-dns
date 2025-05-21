@@ -568,3 +568,21 @@ cname:
   - name: _r7f1zo806ngbqj6rc7uija1lp2ndir7.cath-stub-idam.test
     ttl: 10800
     record: dcv.digicert.com.
+  - name: _oeasgammb5gjx6hcjsjhj200kqfwlme.prosecuting.bae
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _oeasgammb5gjx6hcjsjhj200kqfwlme.identity-gateway.bae
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _oeasgammb5gjx6hcjsjhj200kqfwlme.login.bae
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _oeasgammb5gjx6hcjsjhj200kqfwlme.manage-users.bae
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _oeasgammb5gjx6hcjsjhj200kqfwlme.my-services.bae
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _oeasgammb5gjx6hcjsjhj200kqfwlme.token.bae
+    ttl: 10800
+    record: dcv.digicert.com.
