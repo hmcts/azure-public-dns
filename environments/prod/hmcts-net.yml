@@ -343,3 +343,16 @@ cname:
   - name: mta-sts
     ttl: 3600
     record: lively-forest-0c951e203.4.azurestaticapps.net
+  - name: "itsupport"
+    ttl: 3600
+    record: itsupport.hmcts.net
+  - name: "pre.itsupport"
+    ttl: 3600
+    record: pre.itsupport.hmcts.net
+  - name: "training.itsupport"
+    ttl: 3600
+    record: training.itsupport.hmcts.net
+  - name: "sb.itsupport"
+    ttl: 3600
+    record: sb.itsupport.hmcts.net
+
