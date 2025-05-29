@@ -222,6 +222,10 @@ A:
     ttl: 3600
     record:
       - 51.140.120.225
+  - name: peach.dev
+    ttl: 3600
+    record:
+      - 51.11.44.0
   - name: prosecuting
     ttl: 1800
     record:
