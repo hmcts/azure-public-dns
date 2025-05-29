@@ -14,7 +14,7 @@ txt:
   - name: "_dnsauth"
     ttl: 3600
     record:
-      - "_jzglsigqlsjgrczix10lc72e3knmqqf"
+      - "_qgm4dnxog4erse5j0mw7z3d4lia20jx"
 
 srv: []
 
