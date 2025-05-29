@@ -10,7 +10,11 @@ A:
     alias_target_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/lz-prod-rg/providers/Microsoft.Cdn/profiles/sdshmcts-prod/afdendpoints/sdshmcts-prod"
     shutter_resource_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/resourceGroups/cft-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/staticSites/sscs-ibca"
 
-txt: []
+txt:
+  - name: "_dnsauth"
+    ttl: 3600
+    record:
+      - "_jzglsigqlsjgrczix10lc72e3knmqqf"
 
 srv: []
 
