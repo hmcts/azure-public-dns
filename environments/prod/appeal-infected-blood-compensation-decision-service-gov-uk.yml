@@ -11,7 +11,7 @@ A:
     shutter_resource_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/resourceGroups/cft-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/staticSites/sscs-ibca"
 
 txt:
-  - name: "_dnsauth.appeal-infected-blood-compensation-decision.service.gov.uk"
+  - name: "_dnsauth"
     ttl: 3600
     record:
       - "_jzglsigqlsjgrczix10lc72e3knmqqf"
