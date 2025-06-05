@@ -434,6 +434,12 @@ cname:
   - name: _pzd9ae7un5t4fp7vmp1e927hgpme6yx.onlineplea.dev
     ttl: 10800
     record: dcv.digicert.com.
+  - name: _28uualgvcixvrbwkugvmzscvvtirsbe.peach.dev
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _28uualgvcixvrbwkugvmzscvvtirsbe.www.peach.dev
+    ttl: 10800
+    record: dcv.digicert.com.
   - name: _pzd9ae7un5t4fp7vmp1e927hgpme6yx.www.onlineplea.dev
     ttl: 10800
     record: dcv.digicert.com.
