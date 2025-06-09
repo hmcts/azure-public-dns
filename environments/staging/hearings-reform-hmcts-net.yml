@@ -32,6 +32,3 @@ cname:
   - name: "afdverify.test"
     ttl: 300
     record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
-  - name: "signalr"
-    ttl: 300
-    record: "vh-infra-core-stg.service.signalr.net"
