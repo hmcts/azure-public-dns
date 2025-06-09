@@ -70,8 +70,6 @@ cname:
     shutter: false
   - name: vh-admin-web
     shutter: false
-  - name: vh-test-web
-    shutter: false
   - name: "selector1-azurecomm-prod-net._domainkey"
     shutter: false
   - name: "selector2-azurecomm-prod-net._domainkey"
