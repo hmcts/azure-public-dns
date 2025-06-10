@@ -602,3 +602,9 @@ cname:
   - name: _ctnow98udtu2lb6a9r8cokol9ly3e7h.prp
     ttl: 10800
     record: dcv.digicert.com.
+  - name: _ctnow98udtu2lb6a9r8cokol9ly3e7h.www.prp
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _0a8ah86r3zjm53otbgko7desb9mh144.www.prd
+    ttl: 10800
+    record: dcv.digicert.com.
