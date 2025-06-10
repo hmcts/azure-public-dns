@@ -60,9 +60,6 @@ cname:
   - name: "afdverify.pip"
     ttl: 300
     record: "afdverify.hmcts-stg.azurefd.net"
-  - name: "afdverify.vh"
-    ttl: 300
-    record: "afdverify.hmcts-stg.azurefd.net"
   - name: staff.pip-frontend
     record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
     ttl: 300
@@ -75,36 +72,12 @@ cname:
   - name: "afdverify.pip-frontend"
     ttl: 300
     record: "afdverify.hmcts-stg.azurefd.net"
-  - name: vh-video-web
-    record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
-    ttl: 300
-  - name: "afdverify.vh-video-web"
-    ttl: 300
-    record: "afdverify.hmcts-stg.azurefd.net"
-  - name: vh-admin-web
-    record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
-    ttl: 300
-  - name: "afdverify.vh-admin-web"
-    ttl: 300
-    record: "afdverify.hmcts-stg.azurefd.net"
-  - name: vh-test-web
-    record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
-    ttl: 300
-  - name: "afdverify.vh-test-web"
-    ttl: 300
-    record: "afdverify.hmcts-stg.azurefd.net"
   - name: sds-api-mgmt
     record: sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net
     ttl: 300
   - name: "afdverify.sds-api-mgmt"
     ttl: 300
     record: "afdverify.hmcts-stg.azurefd.net"
-  - name: "signalr"
-    ttl: 300
-    record: "vh-infra-core-stg.service.signalr.net"
-  - name: vh-wowza
-    ttl: 300
-    record: vh-infra-wowza-stg.uksouth.cloudapp.azure.com
   - name: "pre-portal"
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
@@ -112,9 +85,6 @@ cname:
   - name: "afdverify.pre-portal"
     ttl: 3600
     record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
-  - name: "staff.help-with-fees"
-    ttl: 3600
-    record: "hwf-staff-ext-stg.niceglacier-a3f52750.uksouth.azurecontainerapps.io"
   - name: "opal-frontend"
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"

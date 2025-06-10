@@ -312,24 +312,6 @@ cname:
   - name: "fis-ds-web"
     ttl: 300
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
-  - name: vh-video-web
-    record: sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
-    ttl: 300
-  - name: adverify.vh-video-web
-    record: afdverify.sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
-    ttl: 300
-  - name: vh-admin-web
-    record: sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
-    ttl: 300
-  - name: adverify.vh-admin-web
-    record: afdverify.sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
-    ttl: 300
-  - name: vh-test-web
-    record: sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
-    ttl: 300
-  - name: adverify.vh-test-web
-    record: afdverify.sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
-    ttl: 300
   - name: "afdverify.et-sya"
     ttl: 300
     record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
@@ -338,16 +320,10 @@ cname:
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   - name: "signalr"
     ttl: 300
-    record: "vh-infra-core-ithc.service.signalr.net"
-  - name: "afdverify.dss-update-case"
-    ttl: 3600
     record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   - name: "dss-update-case"
     ttl: 300
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
-  - name: "vh-wowza"
-    ttl: 300
-    record: "vh-infra-wowza-ithc.uksouth.cloudapp.azure.com"
   - name: "afdverify.sptribs-frontend"
     ttl: 3600
     record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
@@ -372,12 +348,6 @@ cname:
   - name: "et-pet-admin"
     ttl: 300
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
-  - name: vh-service-web
-    record: sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
-    ttl: 300
-  - name: adverify.vh-service-web
-    record: afdverify.sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
-    ttl: 300
   - name: "cui-ra"
     ttl: 300
     record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"

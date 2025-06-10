@@ -222,6 +222,10 @@ A:
     ttl: 3600
     record:
       - 51.140.120.225
+  - name: peach.dev
+    ttl: 3600
+    record:
+      - 51.11.44.0
   - name: prosecuting
     ttl: 1800
     record:
@@ -428,6 +432,12 @@ cname:
     ttl: 10800
     record: 14DAEAC0C929EA18BB6E37C4F2DB5084.3C468548F90C0259CAE40F0ECA9B0618.28e152290c61d1b35108.sectigo.com.
   - name: _pzd9ae7un5t4fp7vmp1e927hgpme6yx.onlineplea.dev
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _28uualgvcixvrbwkugvmzscvvtirsbe.peach.dev
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _28uualgvcixvrbwkugvmzscvvtirsbe.www.peach.dev
     ttl: 10800
     record: dcv.digicert.com.
   - name: _pzd9ae7un5t4fp7vmp1e927hgpme6yx.www.onlineplea.dev

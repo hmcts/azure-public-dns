@@ -199,27 +199,7 @@ cname:
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
     shutter: false
 
-  - name: vh-video-web
-    record: sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net
-    ttl: 300
-    shutter: false
-  - name: "afdverify.vh-video-web"
-    ttl: 300
-    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: vh-admin-web
-    record: sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net
-    ttl: 300
-    shutter: false
-  - name: "afdverify.vh-admin-web"
-    ttl: 300
-    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: vh-test-web
-    record: sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net
-    ttl: 300
-    shutter: false
-  - name: "afdverify.vh-test-web"
-    ttl: 300
-    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+
   - name: "afdverify.safe-settings"
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
