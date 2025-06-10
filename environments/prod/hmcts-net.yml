@@ -345,13 +345,13 @@ cname:
     record: lively-forest-0c951e203.4.azurestaticapps.net
   - name: "itsupport"
     ttl: 3600
-    record: itsupport.HaloPSA.com
+    record: hmcts.haloitsm.com
   - name: "pre.itsupport"
     ttl: 3600
-    record: pre.itsupport.HaloPSA.com
+    record: hmcts-pre.haloitsm.com
   - name: "training.itsupport"
     ttl: 3600
-    record: training.itsupport.HaloPSA.com
+    record: hmcts-training.haloitsm.com
   - name: "sb.itsupport"
     ttl: 3600
-    record: sb.itsupport.HaloPSA.com
+    record: hmcts-sb.haloitsm.com
