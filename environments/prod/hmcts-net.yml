@@ -346,9 +346,9 @@ cname:
   - name: "itsupport"
     ttl: 3600
     record: hmcts-portal.haloitsm.com
-  - name: _dc533270da514cf11cd2a99fd197cb38.itsupport.hmcts.net
+  - name: _dc533270da514cf11cd2a99fd197cb38.itsupport.hmcts.net.
     ttl: 3600
-    record: _26cad1b9aae420ac2db64218a861d628.xlfgrmvvlj.acm-validations.aws
+    record: _26cad1b9aae420ac2db64218a861d628.xlfgrmvvlj.acm-validations.aws.
   - name: "pre.itsupport"
     ttl: 3600
     record: hmcts-pre.haloitsm.com
