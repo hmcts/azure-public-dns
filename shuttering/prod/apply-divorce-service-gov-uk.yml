@@ -19,9 +19,7 @@ A: []
 
 cname:
   - name: "*"
-    shutter: true
-  - name: "www.apply-divorce.service.gov.uk"
-    shutter: true
+    shutter: false
   - name: "decree-absolute"
     shutter: false
   - name: "www.decree-absolute"
