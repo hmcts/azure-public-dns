@@ -77,12 +77,6 @@ cname:
   - name: "glimr"
     ttl: 300
     record: "hmcts-live-int-ekcjchf8fbcpfxfz.z01.azurefd.net"
-  - name: "glimr-nle"
-    ttl: 300
-    record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"
-  - name: "glimr-dev"
-    ttl: 300
-    record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"
   - name: "sdrs"
     ttl: 300
     record: "hmcts-live-int-ekcjchf8fbcpfxfz.z01.azurefd.net"
