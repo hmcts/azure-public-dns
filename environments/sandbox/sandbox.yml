@@ -228,6 +228,6 @@ cname:
     shutter: false
     syncPrivateDNS: false
   - name: "labs-goldenpath-mano"
-    ttl: 300
+    ttl: 60
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
     shutter: false
