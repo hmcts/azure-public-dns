@@ -104,3 +104,18 @@ cname:
   - name: "_1B5CA26792718408437D943572F2A845.wfo.glb"
     ttl: 10800
     record: "E7C8D2CD54C97B928730E14C4C4AC2AD.AB51BC6C65A4B9C5251D966C28EEF0F7.bc64d3957463f7f944ad.sectigo.com."
+  - name: "_lit32rcw2hr53e5fjldxj62f00nu2uv.verint.glb"
+    ttl: 10800
+    record: "dcv.digicert.com."
+  - name: "_lit32rcw2hr53e5fjldxj62f00nu2uv.em.glb"
+    ttl: 10800
+    record: "dcv.digicert.com."
+  - name: "_lit32rcw2hr53e5fjldxj62f00nu2uv.emint.glb"
+    ttl: 10800
+    record: "dcv.digicert.com."
+  - name: "_lit32rcw2hr53e5fjldxj62f00nu2uv.emsolr.glb"
+    ttl: 10800
+    record: "dcv.digicert.com."
+  - name: "_lit32rcw2hr53e5fjldxj62f00nu2uv.wfo.glb"
+    ttl: 10800
+    record: "dcv.digicert.com."
