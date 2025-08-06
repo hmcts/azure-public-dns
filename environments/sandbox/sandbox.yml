@@ -227,10 +227,4 @@ cname:
     record: "cnphmcts-classic-sbox.azurefd.net"
     shutter: false
     syncPrivateDNS: false
-  - name: "labs-goldenpath-mano"
-    ttl: 60
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    shutter: false
-  - name: "afdverify.labs-mano-nodejs"
-    ttl: 300
-    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+
