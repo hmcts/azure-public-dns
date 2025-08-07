@@ -41,9 +41,9 @@ cname:
   - name: "reformscan"
     shutter: false
   - name: "plum"
-    shutter: false
+    shutter: true
   - name: "www.plum"
-    shutter: false
+    shutter: true
   - name: "idam-web-public"
     shutter: false
   - name: "idam-web-public-sprod"
