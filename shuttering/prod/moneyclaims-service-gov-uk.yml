@@ -9,6 +9,7 @@ shutter_all: false
 # - alias_target_resource_id
 shutter_all_a: false
 
+
 shutter_all_cname: false
 
 # Shuttering any A record type requires either of the following values to be set.
@@ -18,9 +19,9 @@ shutter_all_cname: false
 A: []
 cname:
   - name: "www"
-    shutter: true
+    shutter: false
   - name: "www1"
-    shutter: true
+    shutter: false
   - name: "em714.mail"
     shutter: false
   - name: "s1._domainkey.mail"
