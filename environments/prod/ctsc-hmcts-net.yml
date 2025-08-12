@@ -68,7 +68,7 @@ cname:
   - name: "_8zjfcq41ugsf3xwgrb0bs502xb2fy9s.webchat"
     ttl: 10800
     record: "dcv.digicert.com."
-  - name: "_8zjfcq41ugsf3xwgrb0bs502xb2fy9s.www.webchat"
+  - name: "_8zjfcq41ugsf3xwgrb0bs502xb2fy9s.www.webchat" 
     ttl: 10800
     record: "dcv.digicert.com."
   - name: "_E0BDCD3E999D84AEC133A95F71EE1F18.wfmapp.preprod"
