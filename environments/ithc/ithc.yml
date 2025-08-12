@@ -74,6 +74,12 @@ cname:
   - name: "petitioner-frontend-aks"
     ttl: 3600
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "reformscan"
+    ttl: 60
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "afdverify.reformscan"
+    ttl: 60
+    record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   - name: "respond-divorce-aks"
     ttl: 3600
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
