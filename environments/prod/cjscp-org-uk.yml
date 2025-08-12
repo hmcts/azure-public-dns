@@ -608,3 +608,21 @@ cname:
   - name: _0a8ah86r3zjm53otbgko7desb9mh144.www.prd
     ttl: 10800
     record: dcv.digicert.com.
+  - name: _lh6gh20ht64da3rmz2kkispd62gjdzz.apigw.dev03
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _lh6gh20ht64da3rmz2kkispd62gjdzz.www.apigw.dev03
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _ebek33iqqkxkjhzqliq2ecl0ahlq4e5.prosecuting.dev03
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _ebek33iqqkxkjhzqliq2ecl0ahlq4e5.www.prosecuting.dev03
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _j7nuvab0q4hkxeeu9dpf4o667b1uaby.onlineplea.dev03
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _j7nuvab0q4hkxeeu9dpf4o667b1uaby.www.onlineplea.dev03
+    ttl: 10800
+    record: dcv.digicert.com.

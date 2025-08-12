@@ -43,6 +43,11 @@ A:
       #- "10.51.96.132" #Demo AppGW PIP
       #- "10.23.2.252" #CGWAF
 
+  - name: "pdda-public-display-data-aggregator"
+    ttl: 300
+    record:
+      - "10.25.32.99"
+
 txt: []
 
 srv: []

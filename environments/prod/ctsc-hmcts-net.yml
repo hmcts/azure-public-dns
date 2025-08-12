@@ -59,12 +59,18 @@ A:
       - "81.131.15.82"
 
 cname:
-  - name: "_0E1A03A652C2F48D52208AB05EBF0FA6.webchat-client"
+  - name: "_av72e6vwx8lqdjmuoli6zd8d27b0q7e.webchat-client"
     ttl: 10800
-    record: "02F23ADBFD30EC4B6310FFA5979842D4.D4F9C128170B3374C9C5D51F800B701D.a4b4c8dff269314b25df.sectigo.com."
-  - name: "_DD85F1B4E98FA80369FE1D730CF96235.webchat"
+    record: "dcv.digicert.com."
+  - name: "_av72e6vwx8lqdjmuoli6zd8d27b0q7e.www.webchat-client"
     ttl: 10800
-    record: "F5196879DCE6DE53AAB717E50E45DE85.A00AB3A2296639D5ECC35276F089BE63.745a8d50026f035fcfc3.sectigo.com."
+    record: "dcv.digicert.com."
+  - name: "_8zjfcq41ugsf3xwgrb0bs502xb2fy9s.webchat"
+    ttl: 10800
+    record: "dcv.digicert.com."
+  - name: "_8zjfcq41ugsf3xwgrb0bs502xb2fy9s.www.webchat"
+    ttl: 10800
+    record: "dcv.digicert.com."
   - name: "_E0BDCD3E999D84AEC133A95F71EE1F18.wfmapp.preprod"
     ttl: 300
     record: "603D81996C47863EDFE41A6ED2EF3224.A1363BE712CA02F75C3C5259EC7D4680.cc10ce55455eed38a04e.sectigo.com."
@@ -104,3 +110,18 @@ cname:
   - name: "_1B5CA26792718408437D943572F2A845.wfo.glb"
     ttl: 10800
     record: "E7C8D2CD54C97B928730E14C4C4AC2AD.AB51BC6C65A4B9C5251D966C28EEF0F7.bc64d3957463f7f944ad.sectigo.com."
+  - name: "_lit32rcw2hr53e5fjldxj62f00nu2uv.verint.glb"
+    ttl: 10800
+    record: "dcv.digicert.com."
+  - name: "_lit32rcw2hr53e5fjldxj62f00nu2uv.em.glb"
+    ttl: 10800
+    record: "dcv.digicert.com."
+  - name: "_lit32rcw2hr53e5fjldxj62f00nu2uv.emint.glb"
+    ttl: 10800
+    record: "dcv.digicert.com."
+  - name: "_lit32rcw2hr53e5fjldxj62f00nu2uv.emsolr.glb"
+    ttl: 10800
+    record: "dcv.digicert.com."
+  - name: "_lit32rcw2hr53e5fjldxj62f00nu2uv.wfo.glb"
+    ttl: 10800
+    record: "dcv.digicert.com."
