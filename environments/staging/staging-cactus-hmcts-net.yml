@@ -1,0 +1,20 @@
+zone_name: "hmcts.net"
+
+ns: []
+
+mx: []
+
+srv: []
+
+txt: []
+
+A:
+  - name: "cactus.staging.web"
+    ttl: 300
+    record:
+      - 51.132.176.217
+  - name: "cactus.staging.admin"
+    ttl: 300
+    record:
+      - 4.234.83.50
+cname: []
