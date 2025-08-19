@@ -23,6 +23,14 @@ A:
     ttl: 300
     record:
       - "20.108.148.125"
+  - name: "cactus.web"
+    ttl: 300
+    record:
+      - 51.132.176.217
+  - name: "cactus.admin"
+    ttl: 300
+    record:
+      - 4.234.83.50
 
 txt:
   - name: "asuid.help-with-fees"
