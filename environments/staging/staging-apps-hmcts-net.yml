@@ -21,6 +21,14 @@ A:
     ttl: 300
     record:
       - "185.230.153.230"
+  - name: "cactus.web"
+    ttl: 300
+    record:
+      - "51.132.176.217"
+  - name: "cactus.admin"
+    ttl: 300
+    record:
+      - "4.234.83.50"
       
 cname:
   - name: "glimr-preprod"
