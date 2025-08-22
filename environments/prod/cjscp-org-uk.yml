@@ -354,6 +354,10 @@ A:
     ttl: 1800
     record:
       - 13.79.245.35
+  - name: tmc.sit
+    ttl: 1800
+    record:
+      - 172.167.175.163
 
 cname:
   - name: em5650
