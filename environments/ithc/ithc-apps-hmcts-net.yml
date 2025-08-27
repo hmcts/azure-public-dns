@@ -20,3 +20,6 @@ cname:
   - name: "juror-public"
     ttl: 300
     record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
+  - name: "appreg"
+    ttl: 300
+    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
