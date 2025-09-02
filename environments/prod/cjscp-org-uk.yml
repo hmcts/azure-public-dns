@@ -354,10 +354,22 @@ A:
     ttl: 1800
     record:
       - 13.79.245.35
+  - name: tmc.dev
+    ttl: 1800
+    record:
+      - 51.11.44.0
   - name: tmc.sit
     ttl: 1800
     record:
-      - 172.167.175.163
+      - 51.140.120.225
+  - name: tmc.prp
+    ttl: 1800
+    record:
+      - 51.140.189.195
+  - name: tmc
+    ttl: 1800
+    record:
+      - 51.140.120.175
 
 cname:
   - name: em5650
