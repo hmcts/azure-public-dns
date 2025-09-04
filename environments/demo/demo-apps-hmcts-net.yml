@@ -4,7 +4,11 @@ ns: []
 
 mx: []
 
-txt: []
+txt:
+  - name: "_dnsauth.appreg.demo.apps.hmcts.net"
+    ttl: 3600
+    record:
+      - "_r8gt0xwchmd4b39mdeo5l4ynq3uwrjb"
 
 srv: []
 
@@ -18,5 +22,8 @@ cname:
     ttl: 300
     record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
   - name: "juror-public"
+    ttl: 300
+    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
+  - name: "appreg"
     ttl: 300
     record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
