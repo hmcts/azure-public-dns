@@ -380,5 +380,5 @@ cname:
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   - name: "opal-frontend"
     ttl: 300
-    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+    record: sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
     
