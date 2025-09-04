@@ -355,11 +355,11 @@ A:
     record:
       - 13.79.245.35
   - name: tmc.dev
-    ttl: 1800
+    ttl: 3600
     record:
       - 51.11.44.0
   - name: tmc.sit
-    ttl: 1800
+    ttl: 3600
     record:
       - 51.140.120.225
   - name: tmc.prp
@@ -658,5 +658,35 @@ cname:
     ttl: 10800
     record: dcv.digicert.com.
   - name: _cyrgtxfzgwwpiq75lzv4scrupas8ayr.www.sit
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _hc5945so2h0vjy1yqbm98lx62f9b2s4.tmc.dev.cjscp.org.uk
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _hc5945so2h0vjy1yqbm98lx62f9b2s4.www.tmc.dev.cjscp.org.uk
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _36aznna9k498hgmvcfrl8drwy4fujpx.tmc.sit.cjscp.org.uk
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _36aznna9k498hgmvcfrl8drwy4fujpx.www.tmc.sit.cjscp.org.uk
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _tqq5o8iwrolotqz3sor8m1b0eswmh67.tmc.prp.cjscp.org.uk
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _tqq5o8iwrolotqz3sor8m1b0eswmh67.www.tmc.prp.cjscp.org.uk
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _027yxlwpws8ehhuddnfca2l5mmdm0uy.tmc.prx.cjscp.org.uk
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _027yxlwpws8ehhuddnfca2l5mmdm0uy.www.tmc.prx.cjscp.org.uk
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _gjw8upfsm4s4k43ihd8kqyoue06xo1h.tmc.cjscp.org.uk
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _gjw8upfsm4s4k43ihd8kqyoue06xo1h.www.tmc.cjscp.org.uk
     ttl: 10800
     record: dcv.digicert.com.
