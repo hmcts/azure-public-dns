@@ -29,3 +29,6 @@ cname:
   - name: "_348E5E587AC4C15BFC4490F259CFCD20"
     ttl: 10800
     record: "DC407A78174A02E9C9F9EC9CFD68ADF4.09F202CE7CB2546383C7FC7B306C6E20.f41504b9ff663be2781f.sectigo.com."
+  - name: "_m9bmj2eflrgrfzzjxcqy9pjalfviezu"
+    ttl: 10800
+    record: "dcv.digicert.com."
