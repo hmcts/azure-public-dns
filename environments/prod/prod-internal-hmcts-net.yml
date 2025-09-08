@@ -20,3 +20,6 @@ cname:
   - name: "_C5A0344BD5C508DC0DABCB594E7F9A63.pih4171sec004"
     ttl: 10800
     record: "1B8C77430F01B1010BA77FE26F52A13F.7CAFF911482E9CA634C1130E0FF1F71A.9ab8f617b2986adb1ef2.sectigo.com."
+  - name: "_ed1mszci5t1d9ff3wgzcn4kdkb1o44t"
+    ttl: 10800
+    record: "dcv.digicert.com."
