@@ -435,3 +435,24 @@ cname:
   - name: s2._domainkey
     ttl: 600
     record: s2.domainkey.u10165397.wl148.sendgrid.net
+  - name: _fth7kfa3m0aeqq9yhtaq82jlhqcysnr.api.prp
+    ttl: 600
+    record: dcv.digicert.com.
+  - name: _fth7kfa3m0aeqq9yhtaq82jlhqcysnr.www.api.prp
+    ttl: 600
+    record: dcv.digicert.com.
+  - name: _vppu4vh1gamh3nlys9vz57c9cxf5yw5.login
+    ttl: 600
+    record: dcv.digicert.com.
+  - name: _vppu4vh1gamh3nlys9vz57c9cxf5yw5.identity-gateway
+    ttl: 600
+    record: dcv.digicert.com.
+  - name: _vppu4vh1gamh3nlys9vz57c9cxf5yw5.manage-users
+    ttl: 600
+    record: dcv.digicert.com.
+  - name: _vppu4vh1gamh3nlys9vz57c9cxf5yw5.my-services
+    ttl: 600
+    record: dcv.digicert.com.
+  - name: _vppu4vh1gamh3nlys9vz57c9cxf5yw5.token
+    ttl: 600
+    record: dcv.digicert.com.
