@@ -21,6 +21,14 @@ A:
     ttl: 300
     record:
       - "185.230.153.230"
+  - name: "cactus.web"
+    ttl: 300
+    record:
+      - "51.132.176.217"
+  - name: "cactus.admin"
+    ttl: 300
+    record:
+      - "4.234.83.50"
       
 cname:
   - name: "glimr-preprod"
@@ -50,3 +58,4 @@ cname:
   - name: juror-er-test
     ttl: 300
     record: "hmcts-heritage-stg-augbagbfeme3eqck.z01.azurefd.net"
+    

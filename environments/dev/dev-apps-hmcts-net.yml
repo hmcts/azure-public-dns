@@ -8,7 +8,15 @@ txt: []
 
 srv: []
 
-A: []
+A:
+  - name: "cactus.web"
+    ttl: 300
+    record:
+      - "20.254.113.225"
+  - name: "cactus.admin"
+    ttl: 300
+    record:
+      - "51.142.207.179"
 
 cname:
   - name: "glimr"
