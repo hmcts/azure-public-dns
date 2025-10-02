@@ -125,3 +125,9 @@ cname:
   - name: "_lit32rcw2hr53e5fjldxj62f00nu2uv.wfo.glb"
     ttl: 10800
     record: "dcv.digicert.com."
+  - name: "_rw73uzvb0f5lw76wuptit38ylqi01af.wfmapp"
+    ttl: 10800
+    record: "dcv.digicert.com."
+  - name: "_rw73uzvb0f5lw76wuptit38ylqi01af.www.wfmapp"
+    ttl: 10800
+    record: "dcv.digicert.com."
