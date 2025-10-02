@@ -567,7 +567,3 @@ cname:
   - name: "courtfines-app"
     ttl: 300
     record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-  - name: "appreg"
-    ttl: 300
-    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-
