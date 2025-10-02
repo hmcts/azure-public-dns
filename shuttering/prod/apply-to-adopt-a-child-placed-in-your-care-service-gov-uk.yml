@@ -7,7 +7,7 @@ shutter_all: false
 # If you shutter all A records via the `shutter_all_a` setting and one of the records does not contain either of these values Terraform will fail.
 # - shutter_resource_id
 # - alias_target_resource_id
-shutter_all_a: false
+shutter_all_a: true
 
 shutter_all_cname: false
 
