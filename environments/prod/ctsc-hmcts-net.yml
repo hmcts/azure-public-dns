@@ -71,12 +71,12 @@ cname:
   - name: "_8zjfcq41ugsf3xwgrb0bs502xb2fy9s.www.webchat"
     ttl: 10800
     record: "dcv.digicert.com."
-  - name: "_E0BDCD3E999D84AEC133A95F71EE1F18.wfmapp.preprod"
+  - name: "_bp84kyl8io8eti3dsbhyrx73r54t5f0.wfmapp.preprod"
     ttl: 300
-    record: "603D81996C47863EDFE41A6ED2EF3224.A1363BE712CA02F75C3C5259EC7D4680.cc10ce55455eed38a04e.sectigo.com."
-  - name: "_E0BDCD3E999D84AEC133A95F71EE1F18.wfmapp.training"
+    record: "dcv.digicert.com."
+  - name: "_bp84kyl8io8eti3dsbhyrx73r54t5f0.wfmapp.training"
     ttl: 300
-    record: "603D81996C47863EDFE41A6ED2EF3224.A1363BE712CA02F75C3C5259EC7D4680.cc10ce55455eed38a04e.sectigo.com."
+    record: "dcv.digicert.com."
   - name: "_A218E9DEFE224C14633D06BC37AB1216.wfmapp"
     ttl: 300
     record: "88A9F881A7A064FE0BA9B6F69D4C4DBD.92B123EF946C9C45B351B814046403B0.e36d6304f09fa1673f34.comodoca.com."
