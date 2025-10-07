@@ -4,11 +4,7 @@ ns: []
 
 mx: []
 
-txt:
-  - name: "_dnsauth.appreg.demo.apps.hmcts.net"
-    ttl: 3600
-    record:
-      - "_r8gt0xwchmd4b39mdeo5l4ynq3uwrjb"
+txt: []
 
 srv: []
 

@@ -4,7 +4,11 @@ ns: []
 
 mx: []
 
-txt: []
+txt: 
+  - name: "_dnsauth.appreg.staging.apps.hmcts.net"
+    ttl: 3600
+    record:
+      - "_m5tewqzdev73c0b2eiao734rt80dyjx"
 
 srv: []
 
