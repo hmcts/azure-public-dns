@@ -10,7 +10,7 @@ jobs:
         displayName: Terraform install (tfenv)
         inputs:
           filePath: $(System.DefaultWorkingDirectory)/cnp-azuredevops-libraries/scripts/tfenv-install-terraform.sh
-      - task: TerraformCLI@0
+      - task: TerraformCLI@2
         displayName: Init - ${{ parameters.zone }}
         inputs:
           command: 'init'
@@ -22,7 +22,7 @@ jobs:
           backendAzureRmContainerName: 'tfstate'
           backendAzureRmKey: 'public-dns/${{ parameters.zone }}.tfstate'
           workingDirectory: '$(System.DefaultWorkingDirectory)/$(buildRepoSuffix)/components/${{ parameters.zone }}'
-      - task: TerraformCLI@0
+      - task: TerraformCLI@2
         displayName: Plan - ${{ parameters.zone }}
         inputs:
           command: 'plan'
