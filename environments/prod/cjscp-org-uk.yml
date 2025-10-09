@@ -439,9 +439,10 @@ cname:
   - name: s2._domainkey
     ttl: 600
     record: s2.domainkey.u10165397.wl148.sendgrid.net
-  - name: _ii7xc3ohl5v0tgvr7hi4qpwhvt1q6eb.prosecuting.prp
+  - name: _82cqt3fwj7qk0o5og4al19upx7jnsjs.cpp-gob-gateway-service.sit
     ttl: 600
     record: dcv.digicert.com.
-  - name: _ii7xc3ohl5v0tgvr7hi4qpwhvt1q6eb.www.prosecuting.prp
+  - name: _82cqt3fwj7qk0o5og4al19upx7jnsjs.www.cpp-gob-gateway-service.sit
     ttl: 600
     record: dcv.digicert.com.
+
