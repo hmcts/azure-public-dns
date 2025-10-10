@@ -329,7 +329,7 @@ A:
   - name: token.prp
     ttl: 1800
     record:
-      - 51.143.238.233
+      - 145.133.52.205
   - name: token.prp2
     ttl: 3600
     record:
