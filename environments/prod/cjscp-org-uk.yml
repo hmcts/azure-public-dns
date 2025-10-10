@@ -445,4 +445,10 @@ cname:
   - name: _82cqt3fwj7qk0o5og4al19upx7jnsjs.www.cpp-gob-gateway-service.sit
     ttl: 600
     record: dcv.digicert.com.
+  - name: _g5g5zj65bqy99lmunl2dnlbly9sfkz8.cpp-gob-gateway-service.prd
+    ttl: 10800
+    record: dcv.digicert.com.
+  - name: _g5g5zj65bqy99lmunl2dnlbly9sfkz8.www.cpp-gob-gateway-service.prd
+    ttl: 10800
+    record: dcv.digicert.com.
 
