@@ -374,6 +374,10 @@ A:
     ttl: 3600
     record:
       - 51.140.120.225
+  - name: cpp-gob-gateway-service.prd
+    ttl: 3600
+    record:
+      - 51.140.120.225
 
 cname:
   - name: em5650
