@@ -10,7 +10,7 @@ txt:
   - name: "_dnsauth.idam-web-public-staging"
     ttl: 3600
     record:
-      - "_8csk1ubmzvx9hv60ohe8nfoyepp43bh"
+      - "_o5dlke45y5740imbid8vndscm9ncjym"
   - name: "_dnsauth.idam-user-dashboard-staging"
     ttl: 3600
     record:
