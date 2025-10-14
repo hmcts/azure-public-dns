@@ -247,6 +247,9 @@ cname:
   - name: "idam-user-dashboard"
     ttl: 300
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "idam-web-public-staging"
+    ttl: 300
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.hmcts-access"
     ttl: 300
     record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
