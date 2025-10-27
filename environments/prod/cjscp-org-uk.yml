@@ -428,6 +428,18 @@ cname:
   - name: em2687.bae
     ttl: 600
     record: u16040309.wl060.sendgrid.net
+  - name: _9r3989dwbyo1tmwcgbdbtg2o4ns45fx.prosecuting
+    ttl: 600
+    record: dcv.digicert.com
+  - name: _9r3989dwbyo1tmwcgbdbtg2o4ns45fx.www.prosecuting
+    ttl: 600
+    record: dcv.digicert.com
+  - name: _3rg1bl2hn902qoe1yrlbv38gtesy36u.api
+    ttl: 600
+    record: dcv.digicert.com
+  - name: _3rg1bl2hn902qoe1yrlbv38gtesy36u.www.api
+    ttl: 600
+    record: dcv.digicert.com
   - name: s1._domainkey.bae
     ttl: 600
     record: s1.domainkey.u16040309.wl060.sendgrid.net
