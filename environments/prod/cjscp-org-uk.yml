@@ -467,4 +467,33 @@ cname:
   - name: _g5g5zj65bqy99lmunl2dnlbly9sfkz8.www.cpp-gob-gateway-service.prd
     ttl: 10800
     record: dcv.digicert.com.
-
+  - name: _dnsauth.apigw.sit
+    ttl: 10800
+    record: _9tnyb5ahd2oj0aais9gtfzgfqv9ewxp.dcv.digicert.com
+  - name: _dnsauth.www.apigw.sit
+    ttl: 10800
+    record: _9tnyb5ahd2oj0aais9gtfzgfqv9ewxp.dcv.digicert.com
+  - name: _dnsauth.api.dev
+    ttl: 10800
+    record: _8eqawsolv0cq88zpv1t6uti2q7ido79.dcv.digicert.com
+  - name: _dnsauth.www.api.dev
+    ttl: 10800
+    record: _8eqawsolv0cq88zpv1t6uti2q7ido79.dcv.digicert.com
+  - name: _dnsauth.prosecuting.dev07
+    ttl: 10800
+    record: _ykhe45qpvpbwvw86ruma5l866gwcwfb.dcv.digicert.com
+  - name: _dnsauth.www.prosecuting.dev07
+    ttl: 10800
+    record: _ykhe45qpvpbwvw86ruma5l866gwcwfb.dcv.digicert.com
+  - name: _dnsauth.apigw
+    ttl: 10800
+    record: _oqq29ey1v63w8w5xlp4y746nnjffb62.dcv.digicert.com
+  - name: _dnsauth.www.apigw
+    ttl: 10800
+    record: _oqq29ey1v63w8w5xlp4y746nnjffb62.dcv.digicert.com
+  - name: _dnsauth.apigw.dev
+    ttl: 10800
+    record: _zcpxf4gde7av6wbu04u9twqvcg7louh.dcv.digicert.com
+  - name: _dnsauth.www.apigw.dev
+    ttl: 10800
+    record: _zcpxf4gde7av6wbu04u9twqvcg7louh.dcv.digicert.com
