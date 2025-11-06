@@ -43,13 +43,6 @@ ns:
       - ns2-02.azure-dns.net
       - ns3-02.azure-dns.org
       - ns4-02.azure-dns.info
-  - name: lab
-    ttl: 3600
-    record:
-      - ns1-02.azure-dns.com.
-      - ns2-02.azure-dns.net.
-      - ns3-02.azure-dns.org.
-      - ns4-02.azure-dns.info.
   - name: mft
     ttl: 3600
     record:
