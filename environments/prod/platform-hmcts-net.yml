@@ -170,7 +170,7 @@ A:
   - name: "vpn-ext"
     ttl: 360
     record:
-      - "51.141.230.130"
+      - "172.167.157.29"
   - name: "vpn-ext-beta"
     ttl: 360
     record:

@@ -89,7 +89,7 @@ A:
   - name: identity-gateway
     ttl: 3600
     record:
-      - 13.79.32.203
+      - 4.250.100.60
   - name: identity-gateway.bae
     ttl: 3600
     record:
@@ -117,7 +117,7 @@ A:
   - name: login
     ttl: 3600
     record:
-      - 13.79.32.203
+      - 4.250.100.60
   - name: login.bae
     ttl: 3600
     record:
@@ -141,7 +141,7 @@ A:
   - name: manage-users
     ttl: 3600
     record:
-      - 13.79.32.203
+      - 4.250.100.60
   - name: manage-users.bae
     ttl: 3600
     record:
@@ -165,7 +165,7 @@ A:
   - name: my-services
     ttl: 3600
     record:
-      - 13.79.32.203
+      - 4.250.100.60
   - name: my-services.bae
     ttl: 3600
     record:
@@ -313,7 +313,7 @@ A:
   - name: token
     ttl: 1800
     record:
-      - 13.79.32.203
+      - 4.250.100.60
   - name: token.bae
     ttl: 3600
     record:
