@@ -497,3 +497,25 @@ cname:
   - name: _dnsauth.www.apigw.dev
     ttl: 10800
     record: _zcpxf4gde7av6wbu04u9twqvcg7louh.dcv.digicert.com
+  - name: _dnsauth.login.prp
+    ttl: 10800
+    record: _qo9sm3q1ww2jfk9hugz8r6eq35o7c4z.dcv.digicert.com
+  - name: _dnsauth.identity-gateway.prp
+    ttl: 10800
+    record: _qo9sm3q1ww2jfk9hugz8r6eq35o7c4z.dcv.digicert.com
+  - name: _dnsauth.manage-users.prp
+    ttl: 10800
+    record: _qo9sm3q1ww2jfk9hugz8r6eq35o7c4z.dcv.digicert.com
+  - name: _dnsauth.my-services.prp
+    ttl: 10800
+    record: _qo9sm3q1ww2jfk9hugz8r6eq35o7c4z.dcv.digicert.com
+  - name: _dnsauth.token.prp
+    ttl: 10800
+    record: _qo9sm3q1ww2jfk9hugz8r6eq35o7c4z.dcv.digicert.com
+  - name: _dnsauth.apigw.prp
+    ttl: 10800
+    record: _lsiv858r6thaojf2zgk66ukpehikjgh.dcv.digicert.com
+  - name: _dnsauth.www.apigw.prp
+    ttl: 10800
+    record: _lsiv858r6thaojf2zgk66ukpehikjgh.dcv.digicert.com
+
