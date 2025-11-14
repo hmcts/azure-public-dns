@@ -243,3 +243,10 @@ cname:
   - name: "afdverify.labs-rebeccahayleypickles-nodejs"
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+
+  - name: "labs-playfair-nodejs"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+  - name: "afdverify.labs-playfair-nodejs"
+    ttl: 300
+    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
