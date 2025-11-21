@@ -125,6 +125,15 @@ cname:
     # platform: "cft"
     ttl: 3600
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+  - name: "plum-tlse2e"
+    # platform: "cft"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+    shutter_v2: false
+  - name: "adfverify.plum-tlse2e"
+    # platform: "cft"
+    ttl: 3600
+    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: "afdverify.idam-web-public"
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
@@ -246,4 +255,4 @@ cname:
   - name: "llab-james-matthews-goldenpath"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    shutter: false 
+    shutter: false
