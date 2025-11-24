@@ -252,7 +252,3 @@ cname:
   - name: "afdverify.labs-rebeccahayleypickles-nodejs"
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: "llab-james-matthews-goldenpath"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    shutter: false
