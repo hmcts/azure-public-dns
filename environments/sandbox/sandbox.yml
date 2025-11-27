@@ -252,7 +252,15 @@ cname:
   - name: "afdverify.labs-rebeccahayleypickles-nodejs"
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-
+    
+  - name: "labs-goldenpath-remythompson"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+    shutter: false 
+  - name: "afdverify.labs-goldenpath-remythompson"
+    ttl: 300
+    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+    
   - name: "labs-playfair-nodejs"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
