@@ -643,3 +643,8 @@ cname:
   - name: "s2._domainkey.mail-civil-nonprod"
     ttl: 300
     record: "s2.domainkey.u21913992.wl243.sendgrid.net"
+
+  # PDDA
+  - name: "pdda-public-display-data-aggregator"
+    ttl: 300
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
