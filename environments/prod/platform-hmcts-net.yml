@@ -339,6 +339,12 @@ cname:
   - name: "reformscan"
     ttl: 3600
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+  - name: "_dnsauth.tenable-sc"
+    ttl: 3600
+    record: "_ptx3wvrjulsdpcpbocur0ev9cdqtrke.dcv.digicert.com"
+  - name: "_dnsauth.www.tenable-sc"
+    ttl: 3600
+    record: "_ptx3wvrjulsdpcpbocur0ev9cdqtrke.dcv.digicert.com"
   - name: "afdverify.reformscan"
     ttl: 60
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
