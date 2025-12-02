@@ -518,4 +518,9 @@ cname:
   - name: _dnsauth.www.apigw.prp
     ttl: 10800
     record: _lsiv858r6thaojf2zgk66ukpehikjgh.dcv.digicert.com
-
+  - name: _dnsauth.rota.prp
+    ttl: 10800
+    record: _240gln0qx2aizwgotc4ow5ztc9uv23i.dcv.digicert.com
+  - name: _dnsauth.www.rota.prp
+    ttl: 10800
+    record: _240gln0qx2aizwgotc4ow5ztc9uv23i.dcv.digicert.com
