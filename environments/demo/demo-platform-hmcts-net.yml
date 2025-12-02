@@ -567,6 +567,3 @@ cname:
   - name: "courtfines-app"
     ttl: 300
     record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-  - name: "pdda-public-display-data-aggregator"
-    ttl: 300
-    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
