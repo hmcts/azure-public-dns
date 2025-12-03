@@ -125,6 +125,13 @@ cname:
     # platform: "cft"
     ttl: 3600
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+  - name: "plum-tlse2e"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+    shutter: false
+  - name: "afdverify.plum-tlse2e"
+    ttl: 300
+    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: "afdverify.idam-web-public"
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
