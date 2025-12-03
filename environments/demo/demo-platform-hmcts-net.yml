@@ -43,11 +43,6 @@ A:
       #- "10.51.96.132" #Demo AppGW PIP
       #- "10.23.2.252" #CGWAF
 
-  - name: "pdda-public-display-data-aggregator"
-    ttl: 300
-    record:
-      - "10.25.32.99"
-
 txt: []
 
 srv: []
@@ -565,5 +560,12 @@ cname:
     ttl: 300
     record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
   - name: "courtfines-app"
+    ttl: 300
+    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
+  # PDDA
+  - name: "pdda-public-display-data-aggregator"
+    ttl: 300
+    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
+  - name: "pdda-public-display-manager"
     ttl: 300
     record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
