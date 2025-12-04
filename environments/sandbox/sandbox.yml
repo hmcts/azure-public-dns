@@ -206,7 +206,6 @@ cname:
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
     shutter: false
 
-
   - name: "afdverify.safe-settings"
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
@@ -234,7 +233,7 @@ cname:
     record: "cnphmcts-classic-sbox.azurefd.net"
     shutter: false
     syncPrivateDNS: false
-    
+
   - name: "labs-hurricanepilot-nodejs"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
@@ -251,3 +250,19 @@ cname:
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
 
+  - name: "devextreme-poc-spa"
+    platform: "cft"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+  - name: "devextreme-poc-ssr"
+    platform: "cft"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+  - name: "telerik-poc-spa"
+    platform: "cft"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+  - name: "telerik-poc-ssr"
+    platform: "cft"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
