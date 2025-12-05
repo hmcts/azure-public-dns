@@ -131,3 +131,9 @@ cname:
   - name: "_rw73uzvb0f5lw76wuptit38ylqi01af.www.wfmapp"
     ttl: 10800
     record: "dcv.digicert.com."
+  - name: "_dnsauth.survey"
+    ttl: 10800
+    record: "_m2no0q7fad6ubunvq6n4casknv2febm.dcv.digicert.com."
+  - name: "_dnsauth.www.survey"
+    ttl: 10800
+    record: "_m2no0q7fad6ubunvq6n4casknv2febm.dcv.digicert.com."
