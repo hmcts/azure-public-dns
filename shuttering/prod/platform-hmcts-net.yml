@@ -102,8 +102,6 @@ cname:
     shutter: false
   - name: "reformscan"
     shutter: false
-  - name: "reformscanstg"
-    shutter: false
   - name: "register-org"
     shutter: false
   - name: "return-case-doc.ccd"
