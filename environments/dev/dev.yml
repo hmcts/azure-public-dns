@@ -106,9 +106,6 @@ cname:
   - name: "signalr"
     ttl: 300
     record: "vh-infra-core-dev.service.signalr.net"
-  - name: "vh-wowza"
-    ttl: 300
-    record: "vh-infra-wowza-dev.uksouth.cloudapp.azure.com"
   - name: vh-video-web-pr-2142
     record: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
     ttl: 300

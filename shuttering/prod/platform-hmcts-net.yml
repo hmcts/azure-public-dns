@@ -165,9 +165,6 @@ cname:
   - name: "_df529a77950081e3ad8c21586162089b.video"
     shutter: false
 
-  - name: vh-wowza
-    shutter: false
-
   - name: "_0be35efd23b00eb9f75301c49805b99a.vh-user-api"
     shutter: false
   - name: "_D7BC9C94CCECEF2B47A23F6CDB45C9A0.vh-user-api"
