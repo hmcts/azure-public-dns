@@ -103,9 +103,6 @@ cname:
   - name: "afdverify.vh-test-web"
     ttl: 300
     record: "afdverify.hmcts-dev.azurefd.net"
-  - name: "signalr"
-    ttl: 300
-    record: "vh-infra-core-dev.service.signalr.net"
   - name: vh-video-web-pr-2142
     record: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
     ttl: 300
