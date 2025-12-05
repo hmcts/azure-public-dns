@@ -348,9 +348,6 @@ cname:
   - name: "afdverify.reformscan"
     ttl: 60
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-  - name: "reformscanstg"
-    ttl: 300
-    record: "reformscanprodstaging.blob.core.windows.net"
   - name: "register-org"
     platform: "cft"
     ttl: 60
