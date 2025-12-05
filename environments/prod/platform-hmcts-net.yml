@@ -528,10 +528,6 @@ cname:
     ttl: 300
     record: "88849E439635A2EC10EC9DAA27E311FB.97641532D0C35FEA6572BE4722A6C5F0.ae696eea53f7a9525d7d.sectigo.com."
 
-  - name: vh-wowza
-    ttl: 300
-    record: vh-infra-wowza-prod.uksouth.cloudapp.azure.com
-
   - name: "_D7BC9C94CCECEF2B47A23F6CDB45C9A0.vh-user-api"
     platform: "sds"
     ttl: 10800

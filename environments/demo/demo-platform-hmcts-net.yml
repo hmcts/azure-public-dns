@@ -87,9 +87,6 @@ cname:
   - name: "signalr"
     ttl: 300
     record: "vh-infra-core-demo.service.signalr.net"
-  - name: "vh-wowza"
-    ttl: 300
-    record: "vh-infra-wowza-demo.uksouth.cloudapp.azure.com"
   - name: "plum"
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
