@@ -137,3 +137,9 @@ cname:
   - name: "_dnsauth.www.survey"
     ttl: 10800
     record: "_m2no0q7fad6ubunvq6n4casknv2febm.dcv.digicert.com."
+  - name: "_dnsauth.survey.preprod"
+    ttl: 10800
+    record: "_hg9r2ys0kgjr2p7o373kwaz3iyy45pv.dcv.digicert.com."
+  - name: "_dnsauth.www.survey.preprod"
+    ttl: 10800
+    record: "_hg9r2ys0kgjr2p7o373kwaz3iyy45pv.dcv.digicert.com."
