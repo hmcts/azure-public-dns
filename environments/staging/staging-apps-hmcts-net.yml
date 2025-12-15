@@ -57,3 +57,6 @@ cname:
   - name: "appreg"
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
+  - name: "juror-er"
+    ttl: 300
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
