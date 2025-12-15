@@ -84,8 +84,6 @@ cname:
     shutter: false
   - name: "manage-org"
     shutter: false
-  - name: "www.moneyclaim"
-    shutter: false
   - name: "www.moneyclaim-legal"
     shutter: false
   - name: "moneyclaim-legal.nonprod"
