@@ -17,3 +17,9 @@ cname:
   - name: "darts"
     ttl: 300
     record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
+  - name: "csds"
+    ttl: 300
+    record: "hmcts-preview-fkhfehdgahcrhbds.z01.azurefd.net"
+  - name: "csds-passive"
+    ttl: 300
+    record: "hmcts-preview-fkhfehdgahcrhbds.z01.azurefd.net"
