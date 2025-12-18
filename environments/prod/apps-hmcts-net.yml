@@ -106,3 +106,10 @@ cname:
     platform: "sds"
     ttl: 300
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
+
+  - name: "csds"
+    ttl: 300
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+  - name: "csds-passive"
+    ttl: 300
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"

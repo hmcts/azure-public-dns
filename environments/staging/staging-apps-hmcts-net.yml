@@ -60,3 +60,9 @@ cname:
   - name: "juror-er"
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
+  - name: "csds"
+    ttl: 300
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "csds-passive"
+    ttl: 300
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
