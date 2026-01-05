@@ -8,23 +8,7 @@ txt: []
 
 srv: []
 
-A:
-  - name: "sdt-uks"
-    ttl: 60
-    record:
-      - "13.87.70.10"
-  - name: "sdt-ukw"
-    ttl: 60
-    record:
-      - "51.141.85.60"
-  - name: "sdtcomm-uks"
-    ttl: 60
-    record:
-      - "51.142.81.183"
-  - name: "sdtcomm-ukw"
-    ttl: 60
-    record:
-      - "51.141.85.61"
+A: []
 
 cname:
   - name: "caps"
@@ -45,12 +29,6 @@ cname:
   - name: "pcol"
     ttl: 300
     record: "hmcts-nle-ext-h8cqggf7c7ffhbh4.z01.azurefd.net"
-  - name: "sdt"
-    ttl: 300
-    record: "sdt-uks.apps-nle.hmcts.net"
-  - name: "sdtcomm"
-    ttl: 300
-    record: "sdtcomm-uks.apps-nle.hmcts.net"
   - name: "testclaim-pcol"
     ttl: 300
     record: "hmcts-nle-ext-h8cqggf7c7ffhbh4.z01.azurefd.net"

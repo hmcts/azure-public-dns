@@ -15,15 +15,7 @@ shutter_all_cname: false
 # If you shutter an A record and one of the records does not contain either of these values Terraform will fail.
 # - shutter_resource_id
 # - alias_target_resource_id
-A:
-  - name: "sdt-uks"
-    shutter: false
-  - name: "sdt-ukw"
-    shutter: false
-  - name: "sdtcomm-uks"
-    shutter: false
-  - name: "sdtcomm-ukw"
-    shutter: false
+A: []
 
 cname:
   - name: "caps"
@@ -37,10 +29,6 @@ cname:
   - name: "pcnotify"
     shutter: false
   - name: "pcol"
-    shutter: false
-  - name: "sdt"
-    shutter: false
-  - name: "sdtcomm"
     shutter: false
   - name: "testclaim-pcol"
     shutter: false
