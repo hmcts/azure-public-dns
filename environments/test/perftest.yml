@@ -169,6 +169,12 @@ cname:
   - name: "afdverify.fact"
     ttl: 300
     record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
+  - name: "fact-public-frontend"
+    ttl: 300
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
+  - name: "afdverify.fact-public-frontend"
+    ttl: 300
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "fact-admin"
     ttl: 300
     record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
