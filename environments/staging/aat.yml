@@ -166,6 +166,12 @@ cname:
   - name: "fact"
     ttl: 300
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "afdverify.fact-public-frontend"
+    ttl: 300
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "fact-public-frontend"
+    ttl: 300
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.fact-admin"
     ttl: 300
     record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
