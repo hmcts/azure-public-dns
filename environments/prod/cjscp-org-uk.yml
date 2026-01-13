@@ -530,3 +530,9 @@ cname:
   - name: _dnsauth.www.onlineplea.dev07
     ttl: 10800
     record: _2h4isz8mw4o0zzt807dawe8syw40nm4.dcv.digicert.com
+  - name: _dnsauth.onlineplea.dev
+    ttl: 10800
+    record: _76qspfvlfu213qx9b72jpnyg2jpqojj.dcv.digicert.com
+  - name: _dnsauth.www.onlineplea.dev
+    ttl: 10800
+    record: _76qspfvlfu213qx9b72jpnyg2jpqojj.dcv.digicert.com
