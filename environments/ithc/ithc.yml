@@ -186,6 +186,12 @@ cname:
   - name: "afdverify.fact-public-frontend"
     ttl: 300
     record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "fact-admin-frontend"
+    ttl: 3600
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "afdverify.fact-admin-frontend"
+    ttl: 300
+    record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   - name: "fact-admin"
     ttl: 3600
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
