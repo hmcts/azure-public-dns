@@ -250,11 +250,11 @@ cname:
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
 
-  - name: "labs-Kamil-Biegaj-HM-nodejs"
+  - name: "labs-kamil-biegaj-hm-nodejs"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
     shutter: false
-  - name: "afdverify.labs-Kamil-Biegaj-HM-nodejs"
+  - name: "afdverify.labs-kamil-biegaj-hm-nodejs"
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
 
