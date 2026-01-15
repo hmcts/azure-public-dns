@@ -12,19 +12,11 @@ A:
   - name: "sdt-uks"
     ttl: 60
     record:
-      - "13.87.70.10"
-  - name: "sdt-ukw"
-    ttl: 60
-    record:
-      - "51.141.85.60"
+      - "20.26.57.242"
   - name: "sdtcomm-uks"
     ttl: 60
     record:
-      - "51.142.81.183"
-  - name: "sdtcomm-ukw"
-    ttl: 60
-    record:
-      - "51.141.85.61"
+      - "20.26.57.242"
 
 cname:
   - name: "caps"
