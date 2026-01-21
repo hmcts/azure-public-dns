@@ -234,12 +234,12 @@ txt:
     ttl: 3600
     record:
       - "n3zyn06dl4jk9flktv4d018rxhrrjfm7"
-
-cname:
   - name: "_dnsauth"
     ttl: 3600
     record:
       - "_b7d7ifu7hr1373cwnvu6uxov5q7422s.dcv.digicert.com"
+
+cname:
   - name: "administer-orgs"
     platform: "cft"
     ttl: 60
