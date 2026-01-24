@@ -1,0 +1,19 @@
+zone_name: "courtfines.justice.gov.uk"
+
+mx: []
+
+txt: []
+
+srv: []
+
+cname: []
+
+ns: []
+
+A:
+  - name: "@"
+    ttl: 300
+    record:
+      - "35.178.145.24"
+      - "18.135.57.26"
+      - "18.133.7.159"
