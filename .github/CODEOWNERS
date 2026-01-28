@@ -12,5 +12,8 @@ environments/prod/hmcts-net.yml @hmcts/platform-operations @hmcts/cpp-developmen
 environments/prod/reply-jury-summons-service-gov-uk.yml @hmcts/platform-operations @hmcts/juror-digital
 environments/prod/juror-bureau-justice-gov-uk.yml @hmcts/platform-operations @hmcts/juror-digital
 
+## Courtfines
+environments/prod/courtfines-justice-gov-uk.yml hmcts/platform-operations @hmcts/courtfines
+
 ## Shuttering configuation, no owner allows anyone to update
 shuttering/
