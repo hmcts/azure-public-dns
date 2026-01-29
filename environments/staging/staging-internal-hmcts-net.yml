@@ -32,3 +32,9 @@ cname:
   - name: "_m9bmj2eflrgrfzzjxcqy9pjalfviezu"
     ttl: 10800
     record: "dcv.digicert.com."
+  - name: _dnsauth.xhibittc1
+    record: _c0j6pnukf02dxi31noim2xc6lr3fjic.dcv.digicert.com
+    ttl: 10800
+  - name: _dnsauth.www.xhibittc1
+    record: _c0j6pnukf02dxi31noim2xc6lr3fjic.dcv.digicert.com
+    ttl: 10800
