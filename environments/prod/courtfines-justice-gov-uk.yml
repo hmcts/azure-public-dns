@@ -6,14 +6,11 @@ txt: []
 
 srv: []
 
-cname: []
+cname:
+  - name: "courtfines"
+    ttl: 3600
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
 
 ns: []
 
-A:
-  - name: "@"
-    ttl: 300
-    record:
-      - "35.178.145.24"
-      - "18.135.57.26"
-      - "18.133.7.159"
+A: []
