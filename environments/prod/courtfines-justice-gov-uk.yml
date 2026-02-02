@@ -12,8 +12,5 @@ ns: []
 
 A:
   - name: "@"
-    ttl: 300
-    record:
-      - "35.178.145.24"
-      - "18.135.57.26"
-      - "18.133.7.159"
+    ttl: 60
+    alias_target_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/lz-prod-rg/providers/Microsoft.Cdn/profiles/sdshmcts-prod/afdendpoints/sdshmcts-prod"
