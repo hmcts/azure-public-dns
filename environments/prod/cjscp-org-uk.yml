@@ -542,3 +542,27 @@ cname:
   - name: _dnsauth.www.rota
     ttl: 10800
     record: _usc06ixb7l9ic3d2ncy6cv1du13p685.dcv.digicert.com
+  - name: _dnsauth.login.sit
+    ttl: 10800
+    record: _d6805yszziiko17gfuf2t7lzbvd2o52.dcv.digicert.com
+  - name: _dnsauth.email-client.sit
+    ttl: 10800
+    record: _d6805yszziiko17gfuf2t7lzbvd2o52.dcv.digicert.com
+  - name: _dnsauth.identity-gateway.sit
+    ttl: 10800
+    record: _d6805yszziiko17gfuf2t7lzbvd2o52.dcv.digicert.com
+  - name: _dnsauth.manage-users.sit
+    ttl: 10800
+    record: _d6805yszziiko17gfuf2t7lzbvd2o52.dcv.digicert.com
+  - name: _dnsauth.my-services.sit
+    ttl: 10800
+    record: _d6805yszziiko17gfuf2t7lzbvd2o52.dcv.digicert.com
+  - name: _dnsauth.prosecuting-stub-idam.sit
+    ttl: 10800
+    record: _d6805yszziiko17gfuf2t7lzbvd2o52.dcv.digicert.com
+  - name: _dnsauth.rota-stub-idam.sit
+    ttl: 10800
+    record: _d6805yszziiko17gfuf2t7lzbvd2o52.dcv.digicert.com
+  - name: _dnsauth.token.sit
+    ttl: 10800
+    record: _d6805yszziiko17gfuf2t7lzbvd2o52.dcv.digicert.com
