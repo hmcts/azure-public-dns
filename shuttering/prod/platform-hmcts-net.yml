@@ -63,7 +63,7 @@ A:
 
 cname:
   - name: "administer-orgs"
-    shutter: false
+    shutter: true
   - name: "plum"
     shutter: false 
   - name: "apply-divorce"
@@ -81,9 +81,9 @@ cname:
   - name: "jlfsrhi3m76w"
     shutter: false
   - name: "manage-case"
-    shutter: false
+    shutter: true
   - name: "manage-org"
-    shutter: false
+    shutter: true
   - name: "www.moneyclaim-legal"
     shutter: false
   - name: "moneyclaim-legal.nonprod"
@@ -101,7 +101,7 @@ cname:
   - name: "reformscan"
     shutter: false
   - name: "register-org"
-    shutter: false
+    shutter: true
   - name: "return-case-doc.ccd"
     shutter: false
   - name: "immigration-appeal"
