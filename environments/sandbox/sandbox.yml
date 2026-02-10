@@ -77,6 +77,13 @@ A:
     record:
       - "85.210.73.58"
 
+  - name: "csds-active"
+    ttl: 300
+    alias_target_resource_id: "/subscriptions/ea3a8c1e-af9d-4108-bc86-a7e2d267f49c/resourceGroups/hmcts-hub-sbox-int/providers/Microsoft.Network/publicIPAddresses/fw-uksouth-sbox-int-palo-csds-sandbox-pip"
+  - name: "csds-passive"
+    ttl: 300
+    alias_target_resource_id: "/subscriptions/ea3a8c1e-af9d-4108-bc86-a7e2d267f49c/resourceGroups/hmcts-hub-sbox-int/providers/Microsoft.Network/publicIPAddresses/fw-uksouth-sbox-int-palo-csds-sandbox-pip"
+
 txt:
   - name: "contact.justice"
     ttl: 3600
@@ -283,10 +290,4 @@ cname:
   - name: "labs-goldenpath-michaelfox"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    shutter: false 
-  - name: "csds-active"
-    ttl: 300
-    record: "firewall-sbox-int-palo-csds-sandbox.uksouth.cloudapp.azure.com"
-  - name: "csds-passive"
-    ttl: 300
-    record: "firewall-sbox-int-palo-csds-sandbox.uksouth.cloudapp.azure.com"
+    shutter: false
