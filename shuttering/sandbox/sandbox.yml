@@ -34,6 +34,10 @@ A:
     shutter: false
   - name: "nd-dns"
     shutter: false
+  - name: "csds-active"
+    shutter: false
+  - name: "csds-passive"
+    shutter: false
 
 cname:
   - name: "_1fc88e03b87b33fb04a3b1c5978e80b8"
