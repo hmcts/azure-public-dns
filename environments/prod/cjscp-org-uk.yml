@@ -572,3 +572,40 @@ cname:
   - name: _dnsauth.www.nft02.cpp
     ttl: 10800
     record: _lvs1bz2q0a2n1lpcq8pdrhi9pcyd6ek.dcv.digicert.com
+
+  - name: _dnsauth.login.nft
+    ttl: 10800
+    record: _s5ycjgy9mwuwy8g9b5indwib3716vap.dcv.digicert.com
+  - name: _dnsauth.email-client.nft
+    ttl: 10800
+    record: _s5ycjgy9mwuwy8g9b5indwib3716vap.dcv.digicert.com
+  - name: _dnsauth.identity-gateway.nft
+    ttl: 10800
+    record: _s5ycjgy9mwuwy8g9b5indwib3716vap.dcv.digicert.com
+  - name: _dnsauth.manage-users.nft
+    ttl: 10800
+    record: _s5ycjgy9mwuwy8g9b5indwib3716vap.dcv.digicert.com
+  - name: _dnsauth.my-services.nft
+    ttl: 10800
+    record: _s5ycjgy9mwuwy8g9b5indwib3716vap.dcv.digicert.com
+  - name: _dnsauth.prosecuting-stub-idam.nft
+    ttl: 10800
+    record: _s5ycjgy9mwuwy8g9b5indwib3716vap.dcv.digicert.com
+  - name: _dnsauth.rota-stub-idam.nft
+    ttl: 10800
+    record: _s5ycjgy9mwuwy8g9b5indwib3716vap.dcv.digicert.com
+  - name: _dnsauth.token.nft
+    ttl: 10800
+    record: _s5ycjgy9mwuwy8g9b5indwib3716vap.dcv.digicert.com
+  - name: _dnsauth.onlineplea.prp
+    ttl: 10800
+    record: _91wkv7daeng3ksswfl6m8bs1l9mcj6z.dcv.digicert.com
+  - name: _dnsauth.www.onlineplea.prp
+    ttl: 10800
+    record: _91wkv7daeng3ksswfl6m8bs1l9mcj6z.dcv.digicert.com
+  - name: _dnsauth.onlineplea
+    ttl: 10800
+    record: _k856u25d9umbr2q5w6d6f8bva9eg622.dcv.digicert.com
+  - name: _dnsauth.www.onlineplea
+    ttl: 10800
+    record: _k856u25d9umbr2q5w6d6f8bva9eg622.dcv.digicert.com
