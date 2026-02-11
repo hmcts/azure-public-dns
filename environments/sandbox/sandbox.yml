@@ -207,13 +207,6 @@ cname:
   - name: "afdverify.sds-api-mgmt"
     ttl: 3600
     record: "afdverify.sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
-  - name: "afdverify.labs-apps-njs"
-    ttl: 300
-    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: "labs-apps-njs"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    shutter: false
 
   - name: "afdverify.safe-settings"
     ttl: 300
@@ -242,31 +235,6 @@ cname:
     record: "cnphmcts-classic-sbox.azurefd.net"
     shutter: false
     syncPrivateDNS: false
-
-  - name: "labs-hurricanepilot-nodejs"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    shutter: false
-  - name: "afdverify.labs-hurricanepilot-nodejs"
-    ttl: 300
-    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-
-  - name: "labs-rebeccahayleypickles-nodejs"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    shutter: false
-  - name: "afdverify.labs-rebeccahayleypickles-nodejs"
-    ttl: 300
-    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-
-  - name: "labs-kamil-biegaj-hm-nodejs"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    shutter: false
-  - name: "afdverify.labs-kamil-biegaj-hm-nodejs"
-    ttl: 300
-    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-
   - name: "devextreme-poc-spa"
     platform: "cft"
     ttl: 300
@@ -283,12 +251,6 @@ cname:
     platform: "cft"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-
-  - name: "labs-goldenpath-kamilb"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    shutter: false
-
   - name: "labs-goldenpath-michaelfox"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
