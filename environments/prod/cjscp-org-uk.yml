@@ -574,28 +574,28 @@ cname:
     record: _lvs1bz2q0a2n1lpcq8pdrhi9pcyd6ek.dcv.digicert.com
   - name: _dnsauth.login.nft
     ttl: 10800
-    record: _cld23ltxiakdk0dumowidhdglqbkkcc.dcv.digicert.com
+    record: _lfox81t0fju1yj4xx2ldiggp1qpscn7.dcv.digicert.com
   - name: _dnsauth.email-client.nft
     ttl: 10800
-    record: _cld23ltxiakdk0dumowidhdglqbkkcc.dcv.digicert.com
+    record: _lfox81t0fju1yj4xx2ldiggp1qpscn7.dcv.digicert.com
   - name: _dnsauth.identity-gateway.nft
     ttl: 10800
-    record: _cld23ltxiakdk0dumowidhdglqbkkcc.dcv.digicert.com
+    record: _lfox81t0fju1yj4xx2ldiggp1qpscn7.dcv.digicert.com
   - name: _dnsauth.manage-users.nft
     ttl: 10800
-    record: _cld23ltxiakdk0dumowidhdglqbkkcc.dcv.digicert.com
+    record: _lfox81t0fju1yj4xx2ldiggp1qpscn7.dcv.digicert.com
   - name: _dnsauth.my-services.nft
     ttl: 10800
-    record: _cld23ltxiakdk0dumowidhdglqbkkcc.dcv.digicert.com
+    record: _lfox81t0fju1yj4xx2ldiggp1qpscn7.dcv.digicert.com
   - name: _dnsauth.prosecuting-stub-idam.nft
     ttl: 10800
-    record: _cld23ltxiakdk0dumowidhdglqbkkcc.dcv.digicert.com
+    record: _lfox81t0fju1yj4xx2ldiggp1qpscn7.dcv.digicert.com
   - name: _dnsauth.rota-stub-idam.nft
     ttl: 10800
-    record: _cld23ltxiakdk0dumowidhdglqbkkcc.dcv.digicert.com
+    record: _lfox81t0fju1yj4xx2ldiggp1qpscn7.dcv.digicert.com
   - name: _dnsauth.token.nft
     ttl: 10800
-    record: _cld23ltxiakdk0dumowidhdglqbkkcc.dcv.digicert.com
+    record: _lfox81t0fju1yj4xx2ldiggp1qpscn7.dcv.digicert.com
   - name: _dnsauth.onlineplea.prp
     ttl: 10800
     record: _91wkv7daeng3ksswfl6m8bs1l9mcj6z.dcv.digicert.com
