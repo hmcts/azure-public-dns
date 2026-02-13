@@ -24,6 +24,15 @@ A:
     ttl: 60
     record:
       - "20.254.22.0"
+  
+  - name: "csds-active"
+    ttl: 300
+    record:
+      - "4.234.140.234"
+  - name: "csds-passive"
+    ttl: 300
+    record:
+      - "4.234.140.234"
 
 txt:
   - name: "mailrelay"
