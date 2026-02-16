@@ -23,6 +23,14 @@ A:
     ttl: 300
     record:
       - "20.108.148.125"
+  - name: "csds-active"
+    ttl: 300
+    record:
+      - "51.145.74.67"
+  - name: "csds-passive"
+    ttl: 300
+    record:
+      - "51.145.74.67"
 
 txt:
   - name: "asuid.help-with-fees"
