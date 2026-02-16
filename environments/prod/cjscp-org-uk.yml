@@ -598,13 +598,14 @@ cname:
     record: _lfox81t0fju1yj4xx2ldiggp1qpscn7.dcv.digicert.com
   - name: _dnsauth.onlineplea.prp
     ttl: 10800
-    record: _91wkv7daeng3ksswfl6m8bs1l9mcj6z.dcv.digicert.com
+    record: _gp77wefh9v9nlsdf9s18akytvo56inj.dcv.digicert.com
   - name: _dnsauth.www.onlineplea.prp
     ttl: 10800
-    record: _91wkv7daeng3ksswfl6m8bs1l9mcj6z.dcv.digicert.com
+    record: _gp77wefh9v9nlsdf9s18akytvo56inj.dcv.digicert.com
   - name: _dnsauth.onlineplea
     ttl: 10800
     record: _k856u25d9umbr2q5w6d6f8bva9eg622.dcv.digicert.com
   - name: _dnsauth.www.onlineplea
     ttl: 10800
     record: _k856u25d9umbr2q5w6d6f8bva9eg622.dcv.digicert.com
+
