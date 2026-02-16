@@ -608,3 +608,9 @@ cname:
   - name: _dnsauth.www.onlineplea
     ttl: 10800
     record: _k856u25d9umbr2q5w6d6f8bva9eg622.dcv.digicert.com
+  - name: _dnsauth.onlineplea.prp
+    ttl: 10800
+    record: _gp77wefh9v9nlsdf9s18akytvo56inj.dcv.digicert.com
+  - name: _dnsauth.www.onlineplea.prp
+    ttl: 10800
+    record: _gp77wefh9v9nlsdf9s18akytvo56inj.dcv.digicert.com
