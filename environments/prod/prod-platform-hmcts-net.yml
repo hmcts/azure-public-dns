@@ -9,6 +9,14 @@ A:
     ttl: 300
     record:
       - "85.210.29.141"
+  - name: "csds-active"
+    ttl: 300
+    record:
+      - "51.143.142.251"
+  - name: "csds-passive"
+    ttl: 300
+    record:
+      - "51.143.142.251"
 
 txt: []
 
