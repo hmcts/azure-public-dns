@@ -485,6 +485,12 @@ cname:
   - name: _dnsauth.www.prosecuting.dev07
     ttl: 10800
     record: _ykhe45qpvpbwvw86ruma5l866gwcwfb.dcv.digicert.com
+  - name: _dnsauth.prosecuting.sit
+    ttl: 10800
+    record: _nwn7e98imbwq3lcmg9daa7dmk0sez6q.dcv.digicert.com
+  - name: _dnsauth.www.prosecuting.sit
+    ttl: 10800
+    record: _nwn7e98imbwq3lcmg9daa7dmk0sez6q.dcv.digicert.com
   - name: _dnsauth.apigw
     ttl: 10800
     record: _oqq29ey1v63w8w5xlp4y746nnjffb62.dcv.digicert.com
