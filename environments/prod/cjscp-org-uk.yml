@@ -620,4 +620,33 @@ cname:
   - name: _dnsauth.www.onlineplea.sit
     ttl: 10800
     record: _87qz0n9i5viaa63hpg20bcnx01mvdij.dcv.digicert.com
-
+  - name: _dnsauth.rota.sit
+    ttl: 10800
+    record: _h8oeskzp7181nqdewgly5teqrqwd5tf.dcv.digicert.com
+  - name: _dnsauth.www.rota.sit
+    ttl: 10800
+    record: _h8oeskzp7181nqdewgly5teqrqwd5tf.dcv.digicert.com
+  - name: _dnsauth.login.support
+    ttl: 10800
+    record: _d0xnrwh65rytziymvbfc97wyu4tq7zh.dcv.digicert.com
+  - name: _dnsauth.email-client.support
+    ttl: 10800
+    record: _d0xnrwh65rytziymvbfc97wyu4tq7zh.dcv.digicert.com
+  - name: _dnsauth.identity-gateway.support
+    ttl: 10800
+    record: _d0xnrwh65rytziymvbfc97wyu4tq7zh.dcv.digicert.com
+  - name: _dnsauth.manage-users.support
+    ttl: 10800
+    record: _d0xnrwh65rytziymvbfc97wyu4tq7zh.dcv.digicert.com
+  - name: _dnsauth.my-services.support
+    ttl: 10800
+    record: _d0xnrwh65rytziymvbfc97wyu4tq7zh.dcv.digicert.com
+  - name: _dnsauth.prosecuting-stub-idam.support
+    ttl: 10800
+    record: _d0xnrwh65rytziymvbfc97wyu4tq7zh.dcv.digicert.com
+  - name: _dnsauth.rota-stub-idam.support
+    ttl: 10800
+    record: _d0xnrwh65rytziymvbfc97wyu4tq7zh.dcv.digicert.com
+  - name: _dnsauth.token.support
+    ttl: 10800
+    record: _d0xnrwh65rytziymvbfc97wyu4tq7zh.dcv.digicert.com
