@@ -650,6 +650,3 @@ cname:
   - name: _dnsauth.token.support
     ttl: 10800
     record: _d0xnrwh65rytziymvbfc97wyu4tq7zh.dcv.digicert.com
-
-
-
