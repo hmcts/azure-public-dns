@@ -274,6 +274,10 @@ A:
     ttl: 600
     record:
       - 51.140.120.225
+  - name: result-definitions.sit
+    ttl: 600
+    record:
+      - 51.140.120.225
   - name: rota
     ttl: 1800
     record:
