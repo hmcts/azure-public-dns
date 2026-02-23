@@ -386,6 +386,9 @@ cname:
   - name: "pcs"
     ttl: 300
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "afdverify.wa-reporting-frontend"
+    ttl: 300
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "wa-reporting-frontend"
     ttl: 300
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
