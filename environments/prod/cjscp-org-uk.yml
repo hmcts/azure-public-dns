@@ -660,3 +660,9 @@ cname:
   - name: _dnsauth.www.result-definitions.sit
     ttl: 10800
     record: _phtzad291z7q4zx7va6uukw0yg7c6tv.dcv.digicert.com
+  - name:  _dnsauth.rota.nft.cjscp.org.uk
+    ttl: 10800
+    record: _llrj39ehc1f9ttc24txofqgao79bw8e.dcv.digicert.com
+  - name:  _dnsauth.www.rota.nft.cjscp.org.uk
+    ttl: 10800
+    record: _llrj39ehc1f9ttc24txofqgao79bw8e.dcv.digicert.com
