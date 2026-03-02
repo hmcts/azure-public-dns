@@ -5,21 +5,21 @@ trigger:
   batch: true
   branches:
     include:
-    - master
-    
+      - master
+
 resources:
   repositories:
-  - repository: cnp-azuredevops-libraries
-    type: github
-    ref: master
-    name: hmcts/cnp-azuredevops-libraries
-    endpoint: 'hmcts'
+    - repository: cnp-azuredevops-libraries
+      type: github
+      ref: master
+      name: hmcts/cnp-azuredevops-libraries
+      endpoint: "hmcts"
 
 variables:
   - name: timeoutInMinutes
     value: 60
   - name: agentPool
-    value: 'ubuntu-latest'
+    value: "ubuntu-latest"
   - name: build
     value: $(Build.BuildNumber)
   - name: product
@@ -42,60 +42,60 @@ parameters:
   - name: environment_components
     type: object
     default:
-      - deployment: 'Sandbox'
-        environment: 'sandbox'
-        component: 'sandbox'
-        resource_group_name: 'azure-control-mgmt-rg'
-        serviceConnection: 'Reform-CFT-Mgmt'
+      - deployment: "Sandbox"
+        environment: "sandbox"
+        component: "sandbox"
+        resource_group_name: "azure-control-mgmt-rg"
+        serviceConnection: "Reform-CFT-Mgmt"
         dependsOn:
           - Precheck
-      - deployment: 'Demo'
-        environment: 'demo'
-        component: 'demo'
-        resource_group_name: 'azure-control-mgmt-rg'
-        serviceConnection: 'Reform-CFT-Mgmt'
+      - deployment: "Demo"
+        environment: "demo"
+        component: "demo"
+        resource_group_name: "azure-control-mgmt-rg"
+        serviceConnection: "Reform-CFT-Mgmt"
         dependsOn:
           - Precheck
-      - deployment: 'Dev'
-        environment: 'dev'
-        component: 'dev'
-        resource_group_name: 'azure-control-mgmt-rg'
-        serviceConnection: 'Reform-CFT-Mgmt'
+      - deployment: "Dev"
+        environment: "dev"
+        component: "dev"
+        resource_group_name: "azure-control-mgmt-rg"
+        serviceConnection: "Reform-CFT-Mgmt"
         dependsOn:
           - Precheck
-      - deployment: 'Ithc'
-        environment: 'ithc'
-        component: 'ithc'
-        resource_group_name: 'azure-control-mgmt-rg'
-        serviceConnection: 'Reform-CFT-Mgmt'
+      - deployment: "Ithc"
+        environment: "ithc"
+        component: "ithc"
+        resource_group_name: "azure-control-mgmt-rg"
+        serviceConnection: "Reform-CFT-Mgmt"
         dependsOn:
           - Precheck
-      - deployment: 'Test'
-        environment: 'test'
-        component: 'test'
-        resource_group_name: 'azure-control-mgmt-rg'
-        serviceConnection: 'Reform-CFT-Mgmt'
+      - deployment: "Test"
+        environment: "test"
+        component: "test"
+        resource_group_name: "azure-control-mgmt-rg"
+        serviceConnection: "Reform-CFT-Mgmt"
         dependsOn:
           - Precheck
-      - deployment: 'Staging'
-        environment: 'staging'
-        component: 'staging'
-        resource_group_name: 'azure-control-mgmt-rg'
-        serviceConnection: 'Reform-CFT-Mgmt'
+      - deployment: "Staging"
+        environment: "staging"
+        component: "staging"
+        resource_group_name: "azure-control-mgmt-rg"
+        serviceConnection: "Reform-CFT-Mgmt"
         dependsOn:
           - Precheck
-      - deployment: 'nle'
-        environment: 'nle'
-        component: 'nle'
-        resource_group_name: 'azure-control-mgmt-rg'
-        serviceConnection: 'Reform-CFT-Mgmt'
+      - deployment: "nle"
+        environment: "nle"
+        component: "nle"
+        resource_group_name: "azure-control-mgmt-rg"
+        serviceConnection: "Reform-CFT-Mgmt"
         dependsOn:
           - Precheck
-      - deployment: 'Prod'
-        environment: 'prod'
-        component: 'prod'
-        resource_group_name: 'azure-control-mgmt-rg'
-        serviceConnection: 'Reform-CFT-Mgmt'
+      - deployment: "Prod"
+        environment: "prod"
+        component: "prod"
+        resource_group_name: "azure-control-mgmt-rg"
+        serviceConnection: "Reform-CFT-Mgmt"
         dependsOn:
           - Precheck
 
@@ -109,9 +109,9 @@ stages:
         steps:
           - template: steps/terraform-precheck.yaml@cnp-azuredevops-libraries
             parameters:
-              keyvaultName: 'infra-vault-nonprod'
-              keyvaultSecret: 'azure-devops-sp-token'
-              serviceConnection: 'azurerm-sandbox'
+              keyvaultName: "infra-vault-nonprod"
+              keyvaultSecret: "azure-devops-sp-token"
+              serviceConnection: "azurerm-sandbox"
               overrideAction: ${{ parameters.overrideAction }}
 
   - ${{ each deployment in parameters.environment_components }}:
@@ -129,9 +129,8 @@ stages:
                   environment: ${{ deployment.environment }}
                   component: ${{ deployment.component }}
                   serviceConnection: ${{ deployment.serviceConnection }}
+                  backendResourceGroupName: ${{ deployment.resource_group_name }}
                   terraformInitSubscription: ${{ variables.terraformInitSubscription }}
                   product: ${{ variables.product }}
-                  initCommandOptions: >
-                    -backend-config resource_group_name=${{ deployment.resource_group_name }}
-                  planCommandOptions: >
+                  planCommandOptions: >-
                     -lock=false
