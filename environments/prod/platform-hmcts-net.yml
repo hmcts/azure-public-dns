@@ -459,11 +459,11 @@ cname:
     platform: "sds"
     ttl: 300
     record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
-  - name: "afdverify.wa-reporting-frontend"
+  - name: "afdverify.wa-live-reporting"
     platform: "cft"
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-  - name: "wa-reporting-frontend"
+  - name: "wa-live-reporting"
     platform: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
