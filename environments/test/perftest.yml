@@ -304,3 +304,9 @@ cname:
   - name: "pcs"
     ttl: 300
     record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
+  - name: "afdverify.wa-reporting-frontend"
+    ttl: 300
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
+  - name: "wa-reporting-frontend"
+    ttl: 300
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
