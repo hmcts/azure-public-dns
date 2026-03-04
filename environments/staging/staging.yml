@@ -125,6 +125,3 @@ cname:
   - name: "afdverify.sign-in.cath-web"
     ttl: 300
     record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
-  - name: "afdverify.staff.cath-web"
-    ttl: 300
-    record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
