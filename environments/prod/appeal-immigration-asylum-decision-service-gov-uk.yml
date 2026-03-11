@@ -14,9 +14,9 @@ cname:
   - name: "www"
     platform: "cft"
     ttl: 60
-    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+    #record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
-    #record: "white-grass-0ce113603.3.azurestaticapps.net"
+    record: "white-grass-0ce113603.3.azurestaticapps.net"
     #shuttering must be achieved for IAC by pointing to hmcts-appeal-immigration-asylum-decision-shutter.azureedge.net at present
   - name: "afdverify.www"
     platform: "cft"
