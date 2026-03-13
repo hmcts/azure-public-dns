@@ -101,10 +101,7 @@ cname:
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
   - name: "juror-er"
     ttl: 300
-    record: "hmcts-heritage-prod-fug4hfanetgdf6cz.z01.azurefd.net"
-  - name: "juror-er.prod"
-    platform: "sds"
-    ttl: 300
+    # record: "hmcts-heritage-prod-fug4hfanetgdf6cz.z01.azurefd.net"
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
 
   - name: "csds"
