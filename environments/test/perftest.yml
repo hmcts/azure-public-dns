@@ -145,12 +145,6 @@ cname:
   - name: "register-org"
     ttl: 3600
     record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
-  - name: "afdverify.idam-web-admin"
-    ttl: 3600
-    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
-  - name: "idam-web-admin"
-    ttl: 3600
-    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "afdverify.idam-user-dashboard"
     ttl: 3600
     record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
