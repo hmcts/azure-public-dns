@@ -76,8 +76,6 @@ cname:
     shutter: false
   - name: "www.fees-register"
     shutter: false
-  - name: "idam-web-public-ethosldata"
-    shutter: false
   - name: "jlfsrhi3m76w"
     shutter: false
   - name: "manage-case"
@@ -109,8 +107,6 @@ cname:
   - name: "equality-and-diversity"
     shutter: false
   - name: "log-and-audit"
-    shutter: false
-  - name: "idam-web-admin"
     shutter: false
   - name: "idam-user-dashboard"
     shutter: false

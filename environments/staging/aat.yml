@@ -247,12 +247,6 @@ cname:
   - name: "fees-register"
     ttl: 3600
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
-  - name: "afdverify.idam-web-admin"
-    ttl: 3600
-    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
-  - name: "idam-web-admin"
-    ttl: 3600
-    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.idam-user-dashboard"
     ttl: 300
     record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
