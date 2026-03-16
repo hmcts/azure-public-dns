@@ -52,8 +52,6 @@ cname:
     shutter: false
   - name: "idam-web-public-sprod"
     shutter: false
-  - name: "idam-web-admin"
-    shutter: false
   - name: "idam-user-dashboard"
     shutter: false
   - name: "hmcts-access"

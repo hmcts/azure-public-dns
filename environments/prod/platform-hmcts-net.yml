@@ -280,9 +280,6 @@ cname:
     ttl: 60
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
-  - name: "idam-web-public-ethosldata"
-    ttl: 60
-    record: "hmcts-ldata.azurefd.net"
   - name: "jlfsrhi3m76w"
     ttl: 300
     record: "gv-st2ccjwg4awsh2.dv.googlehosted.com"
@@ -409,15 +406,6 @@ cname:
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "log-and-audit"
-    platform: "cft"
-    ttl: 300
-    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
-  - name: "afdverify.idam-web-admin"
-    platform: "cft"
-    ttl: 300
-    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-  - name: "idam-web-admin"
     platform: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
