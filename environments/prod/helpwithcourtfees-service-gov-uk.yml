@@ -45,3 +45,8 @@ cname:
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
+  - name: "_011C75542BA0E5A4EAA38D4B806DF740.staff"
+    platform: "cft"
+    ttl: 300
+    record: "B763D9C98144E386064991967BEC10B6.89B142AFBE32663B440901A9F2182BB4.fc5506a3a7169f3c39a6.sectigo.com"
+    shutter: false

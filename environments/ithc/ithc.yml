@@ -222,13 +222,6 @@ cname:
   - name: "fees-register"
     ttl: 3600
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
-  - name: "afdverify.idam-web-admin"
-    ttl: 300
-    record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
-  - name: "idam-web-admin"
-    ttl: 300
-    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.idam-user-dashboard"
     ttl: 300
     record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
@@ -385,6 +378,12 @@ cname:
     ttl: 300
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   - name: "pcs"
+    ttl: 300
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "afdverify.wa-reporting-frontend"
+    ttl: 300
+    record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "wa-reporting-frontend"
     ttl: 300
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   - name: "courtfines-app"
