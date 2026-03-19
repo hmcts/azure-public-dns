@@ -19,4 +19,4 @@ A:
 
 cname:
 - name: "c100-application"
-  shutter: false
+  shutter: true
