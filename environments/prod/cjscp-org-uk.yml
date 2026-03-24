@@ -666,3 +666,9 @@ cname:
   - name:  _dnsauth.www.rota.nft
     ttl: 10800
     record: _llrj39ehc1f9ttc24txofqgao79bw8e.dcv.digicert.com
+  - name:  _dnsauth.amp
+    ttl: 10800
+    record: _5r8naq96xe7priay8yc3yswnqpa7cph.dcv.digicert.com
+  - name:  _dnsauth.www.amp
+    ttl: 10800
+    record: _5r8naq96xe7priay8yc3yswnqpa7cph.dcv.digicert.com
