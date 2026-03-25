@@ -8,7 +8,11 @@ txt: []
 
 srv: []
 
-A: []
+A: 
+  - name: "dtsft"
+    ttl: 300
+    record:
+      - "51.132.179.145"
 
 cname:
   - name: "darts"

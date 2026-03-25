@@ -63,6 +63,10 @@ A:
     ttl: 300
     record:
       - "185.230.153.231"
+  - name: "dtsft.prod"
+    ttl: 300
+    record:
+      - "51.11.138.240"
 
 cname:
   - name: "caps"
