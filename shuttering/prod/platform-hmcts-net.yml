@@ -164,44 +164,6 @@ cname:
   - name: "_D7BC9C94CCECEF2B47A23F6CDB45C9A0.vh-user-api"
     shutter: false
 
-# SecOps Splunk SIEM SSL Cert recreation May 2023 (SECOPS-3937)
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk" 
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-cm-prod-vm00" 
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-es-prod-vm00"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-es-prod-vm01"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-hfwd-prod-vm00"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-hfwd-prod-vm01"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-hfwd-prod-vm02"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-idx-prod-vm00"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-idx-prod-vm01"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-idx-prod-vm02"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-idx-prod-vm03"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-idx-prod-vm04"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-idx-prod-vm05"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-idx-prod-vm06"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-idx-prod-vm07"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-lm-prod-vm00"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-mc-prod-vm00"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-sh-prod-vm00"
-    shutter: false
-
   # Adoption
   - name: "apply-for-adoption"
     shutter: true

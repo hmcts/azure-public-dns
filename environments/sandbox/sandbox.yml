@@ -11,22 +11,9 @@ ns:
       - "ns3-33.azure-dns.org."
       - "ns4-33.azure-dns.info."
 
-mx:
-  - name: "@"
-    ttl: 300
-    record:
-      - "0 mail.contact.justice.sandbox.platform.hmcts.net"
-  - name: "contact.justice"
-    ttl: 3600
-    record:
-      - "10 ctscmail.sandbox.platform.hmcts.net"
+mx: []
 
 A:
-  - name: "ctscmail"
-    ttl: 3600
-    record:
-      - "51.140.180.140"
-
   - name: "portal"
     ttl: 60
     record:
