@@ -67,10 +67,6 @@ A:
     ttl: 300
     record:
       - "51.11.138.240"
-  - name: "dtsft.demo"
-    ttl: 300
-    record:
-      - "51.132.179.145"
 
 cname:
   - name: "caps"
