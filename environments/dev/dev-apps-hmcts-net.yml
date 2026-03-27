@@ -4,7 +4,10 @@ ns: []
 
 mx: []
 
-txt: []
+txt:
+  - name: "asuid.courtstranscribe"
+    ttl: 300
+    record: [ "372ecb9834b15f47c2e24e594d502573acc1d95a3d84387f14dad07b1d7dc1f8" ]
 
 srv: []
 
