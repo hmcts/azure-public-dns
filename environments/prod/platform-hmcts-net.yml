@@ -306,12 +306,7 @@ cname:
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
-  - name: "moneyclaim-legal.nonprod"
-    ttl: 300
-    record: "mojmaintenance.azurewebsites.net"
-  - name: "maintenance.moneyclaim-legal.nonprod"
-    ttl: 3600
-    record: "mojmaintenance.azurewebsites.net"
+
   - name: "paybubble"
     platform: "cft"
     ttl: 300
