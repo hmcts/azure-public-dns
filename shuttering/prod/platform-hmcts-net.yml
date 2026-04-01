@@ -84,10 +84,6 @@ cname:
     shutter: false
   - name: "www.moneyclaim-legal"
     shutter: false
-  - name: "moneyclaim-legal.nonprod"
-    shutter: false
-  - name: "maintenance.moneyclaim-legal.nonprod"
-    shutter: false
   - name: "paybubble"
     shutter: false
   - name: "www.paybubble"
