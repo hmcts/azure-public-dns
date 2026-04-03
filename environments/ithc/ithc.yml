@@ -399,3 +399,9 @@ cname:
   - name: "pdda-public-display-manager"
     ttl: 300
     record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
+  - name: "ia-home-office-integration-api"
+    ttl: 300
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "afdverify.ia-home-office-integration-api"
+    ttl: 300
+    record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
