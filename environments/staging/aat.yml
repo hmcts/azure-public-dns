@@ -392,3 +392,9 @@ cname:
   - name: "afdverify.expressjs-monorepo-template-web"
     ttl: 300
     record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "ia-home-office-integration-api"
+    ttl: 300
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "afdverify.ia-home-office-integration-api"
+    ttl: 300
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
