@@ -503,10 +503,10 @@ cname:
     record: _oqq29ey1v63w8w5xlp4y746nnjffb62.dcv.digicert.com
   - name: _dnsauth.apigw.dev
     ttl: 10800
-    record: _zcpxf4gde7av6wbu04u9twqvcg7louh.dcv.digicert.com
+    record: _y1dvy8e4m7bz02xc4oyf6pq7gier6d4.dcv.digicert.com
   - name: _dnsauth.www.apigw.dev
     ttl: 10800
-    record: _zcpxf4gde7av6wbu04u9twqvcg7louh.dcv.digicert.com
+    record: _y1dvy8e4m7bz02xc4oyf6pq7gier6d4.dcv.digicert.com
   - name: _dnsauth.login.prp
     ttl: 10800
     record: _qo9sm3q1ww2jfk9hugz8r6eq35o7c4z.dcv.digicert.com
