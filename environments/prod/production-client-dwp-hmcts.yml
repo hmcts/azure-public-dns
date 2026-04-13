@@ -1,0 +1,17 @@
+zone_name: "production-client-dwp.hmcts.net"
+
+ns: []
+
+mx: []
+
+txt:
+  - name: "_dnsauth"
+    ttl: 3600
+    record:
+      - "_a3w72mbyy8kl2br2feg15s0xmarokoz"
+
+srv: []
+
+A: []
+
+cname: []
