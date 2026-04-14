@@ -9,6 +9,9 @@ txt:
     ttl: 3600
     record:
       - "_m5tewqzdev73c0b2eiao734rt80dyjx"
+  - name: "asuid.judicialtranscribe"
+    ttl: 300
+    record: [ "23e3ea69eeb604580633fe2f1f4586698c3c8dd912b2d309a832baa6140a61c5" ]
 
 srv: []
 
@@ -64,5 +67,8 @@ cname:
     ttl: 300
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "csds-passive"
+    ttl: 300
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "judicialtranscribe"
     ttl: 300
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
