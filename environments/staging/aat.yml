@@ -392,3 +392,6 @@ cname:
   - name: "afdverify.expressjs-monorepo-template-web"
     ttl: 300
     record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "pt"
+    ttl: 300
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
