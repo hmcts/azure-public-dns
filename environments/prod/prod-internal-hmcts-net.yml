@@ -23,3 +23,9 @@ cname:
   - name: "_ed1mszci5t1d9ff3wgzcn4kdkb1o44t"
     ttl: 10800
     record: "dcv.digicert.com."
+  - name: "_dnsauth.xhibittc1"
+    record: "_71f8ochjv86oj40k07req2rocw3srmh.dcv.digicert.com"
+    ttl: 10800
+  - name: "_dnsauth.www.xhibittc1"
+    record: "_71f8ochjv86oj40k07req2rocw3srmh.dcv.digicert.com"
+    ttl: 10800
