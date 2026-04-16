@@ -672,3 +672,27 @@ cname:
   - name:  _dnsauth.www.amp
     ttl: 10800
     record: _5r8naq96xe7priay8yc3yswnqpa7cph.dcv.digicert.com
+  - name:  _dnsauth.amp.dev
+    ttl: 10800
+    record: _liymg8benze8pvodfoz43c6mhscfi05.dcv.digicert.com
+  - name:  _dnsauth.www.amp.dev
+    ttl: 10800
+    record: _liymg8benze8pvodfoz43c6mhscfi05.dcv.digicert.com
+  - name:  _dnsauth.amp.sit
+    ttl: 10800
+    record: _qa40f4hbbhdcmdw73l98qpvotqrlpi7.dcv.digicert.com
+  - name:  _dnsauth.www.amp.sit
+    ttl: 10800
+    record: _qa40f4hbbhdcmdw73l98qpvotqrlpi7.dcv.digicert.com
+  - name:  _dnsauth.amp.nft
+    ttl: 10800
+    record: _ljxztbv3e7u3xrgfpd070846nl62qlz.dcv.digicert.com
+  - name:  _dnsauth.www.amp.nft
+    ttl: 10800
+    record: _ljxztbv3e7u3xrgfpd070846nl62qlz.dcv.digicert.com
+  - name:  _dnsauth.amp.prp
+    ttl: 10800
+    record: _7pvbn9mg9z4bactsc4vtszc9vwqygzd.dcv.digicert.com
+  - name:  _dnsauth.www.amp.prp
+    ttl: 10800
+    record: _7pvbn9mg9z4bactsc4vtszc9vwqygzd.dcv.digicert.com
