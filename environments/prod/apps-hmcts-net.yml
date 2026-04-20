@@ -46,7 +46,10 @@ ns:
 
 mx: []
 
-txt: []
+txt:
+  - name: "asuid.judicialtranscribe"
+    ttl: 300
+    record: [ "bc930a1032c3e9b818c7284ad83c6cc906d84acdd6b71802d66d14cc5bcbb2a0" ]
 
 srv: []
 
@@ -113,5 +116,8 @@ cname:
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "csds-passive"
+    ttl: 300
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+  - name: "judicialtranscribe"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
