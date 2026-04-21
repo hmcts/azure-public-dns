@@ -392,6 +392,9 @@ cname:
   - name: "opal-frontend"
     ttl: 300
     record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
+  - name: "opal-rm-frontend"
+    ttl: 300
+    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
   # PDDA
   - name: "pdda-public-display-data-aggregator"
     ttl: 300
