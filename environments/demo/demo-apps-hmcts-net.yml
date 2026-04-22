@@ -30,3 +30,9 @@ cname:
   - name: "appreg"
     ttl: 300
     record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
+  - name: "opal-frontend"
+    ttl: 300
+    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
+  - name: "opal-rm-frontend"
+    ttl: 300
+    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
