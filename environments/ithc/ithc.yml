@@ -389,6 +389,9 @@ cname:
   - name: "courtfines-app"
     ttl: 300
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "pt"
+    ttl: 300
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   # PDDA
   - name: "pdda-public-display-data-aggregator"
     ttl: 300
