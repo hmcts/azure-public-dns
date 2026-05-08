@@ -362,7 +362,15 @@ A:
     ttl: 3600
     record:
       - 51.11.44.0
+  - name: amp.dev
+    ttl: 3600
+    record:
+      - 51.11.44.0
   - name: tmc.sit
+    ttl: 3600
+    record:
+      - 51.140.120.225
+  - name: amp.sit
     ttl: 3600
     record:
       - 51.140.120.225
@@ -370,7 +378,15 @@ A:
     ttl: 1800
     record:
       - 51.140.189.195
+  - name: amp.prp
+    ttl: 1800
+    record:
+      - 51.140.189.195
   - name: tmc
+    ttl: 1800
+    record:
+      - 51.140.120.175
+  - name: amp
     ttl: 1800
     record:
       - 51.140.120.175
