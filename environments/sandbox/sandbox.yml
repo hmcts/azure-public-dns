@@ -242,3 +242,28 @@ cname:
   - name: "afdverify.labs-njk-debolina-seal"
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+
+  - name: "decree-nisi-aks"
+    ttl: 300
+    record: "hmcts-sbox-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "afdverify.decree-nisi-aks"
+    ttl: 300
+    record: "afdverify.hmcts-sbox-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "decree-absolute-aks"
+    ttl: 300
+    record: "hmcts-sbox-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "afdverify.decree-absolute-aks"
+    ttl: 300
+    record: "afdverify.hmcts-sbox-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "respond-divorce-aks"
+    ttl: 300
+    record: "hmcts-sbox-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "afdverify.respond-divorce-aks"
+    ttl: 300
+    record: "afdverify.hmcts-sbox-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "petitioner-frontend-aks"
+    ttl: 300
+    record: "hmcts-sbox-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "afdverify.petitioner-frontend-aks"
+    ttl: 300
+    record: "afdverify.hmcts-sbox-hpfvc6a4frdsdtbc.z01.azurefd.net"
