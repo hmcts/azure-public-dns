@@ -78,12 +78,3 @@ cname:
     shutter: false
   - name: "plumclassic2"
     shutter: false
-
-  - name: "decree-nisi-aks"
-    shutter: true
-  - name: "decree-absolute-aks"
-    shutter: true
-  - name: "respond-divorce-aks"
-    shutter: true
-  - name: "petitioner-frontend-aks"
-    shutter: true
