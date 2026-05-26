@@ -8,7 +8,11 @@ txt: []
 
 srv: []
 
-A: []
+A: 
+  - name: "dtsft"
+    ttl: 300
+    record:
+      - "51.132.179.145"
 
 cname:
   - name: "darts"
@@ -21,5 +25,14 @@ cname:
     ttl: 300
     record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
   - name: "juror-er"
+    ttl: 300
+    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
+  - name: "appreg"
+    ttl: 300
+    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
+  - name: "opal-frontend"
+    ttl: 300
+    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
+  - name: "opal-rm-frontend"
     ttl: 300
     record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"

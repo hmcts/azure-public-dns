@@ -93,14 +93,6 @@ cname:
   - name: "afdverify.pre-portal"
     ttl: 3600
     record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
-  - name: "opal-frontend"
-    ttl: 300
-    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
-    shutter: false
-  - name: "opal-frontend-test"
-    ttl: 300
-    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
-    shutter: false
   - name: "courtfines-app"
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
@@ -112,3 +104,16 @@ cname:
   - name: "pdda-public-display-manager"
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
+  # Court and Tribunal Hearings
+  - name: "cath-web"
+    ttl: 300
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
+  - name: "afdverify.cath-web"
+    ttl: 300
+    record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
+  - name: "sign-in.cath-web"
+    ttl: 300
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
+  - name: "afdverify.sign-in.cath-web"
+    ttl: 300
+    record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"

@@ -362,7 +362,15 @@ A:
     ttl: 3600
     record:
       - 51.11.44.0
+  - name: amp.dev
+    ttl: 3600
+    record:
+      - 51.11.44.0
   - name: tmc.sit
+    ttl: 3600
+    record:
+      - 51.140.120.225
+  - name: amp.sit
     ttl: 3600
     record:
       - 51.140.120.225
@@ -370,7 +378,15 @@ A:
     ttl: 1800
     record:
       - 51.140.189.195
+  - name: amp.prp
+    ttl: 1800
+    record:
+      - 51.140.189.195
   - name: tmc
+    ttl: 1800
+    record:
+      - 51.140.120.175
+  - name: amp
     ttl: 1800
     record:
       - 51.140.120.175
@@ -503,10 +519,10 @@ cname:
     record: _oqq29ey1v63w8w5xlp4y746nnjffb62.dcv.digicert.com
   - name: _dnsauth.apigw.dev
     ttl: 10800
-    record: _zcpxf4gde7av6wbu04u9twqvcg7louh.dcv.digicert.com
+    record: _y1dvy8e4m7bz02xc4oyf6pq7gier6d4.dcv.digicert.com
   - name: _dnsauth.www.apigw.dev
     ttl: 10800
-    record: _zcpxf4gde7av6wbu04u9twqvcg7louh.dcv.digicert.com
+    record: _y1dvy8e4m7bz02xc4oyf6pq7gier6d4.dcv.digicert.com
   - name: _dnsauth.login.prp
     ttl: 10800
     record: _qo9sm3q1ww2jfk9hugz8r6eq35o7c4z.dcv.digicert.com
@@ -666,3 +682,33 @@ cname:
   - name:  _dnsauth.www.rota.nft
     ttl: 10800
     record: _llrj39ehc1f9ttc24txofqgao79bw8e.dcv.digicert.com
+  - name:  _dnsauth.amp
+    ttl: 10800
+    record: _5r8naq96xe7priay8yc3yswnqpa7cph.dcv.digicert.com
+  - name:  _dnsauth.www.amp
+    ttl: 10800
+    record: _5r8naq96xe7priay8yc3yswnqpa7cph.dcv.digicert.com
+  - name:  _dnsauth.amp.dev
+    ttl: 10800
+    record: _liymg8benze8pvodfoz43c6mhscfi05.dcv.digicert.com
+  - name:  _dnsauth.www.amp.dev
+    ttl: 10800
+    record: _liymg8benze8pvodfoz43c6mhscfi05.dcv.digicert.com
+  - name:  _dnsauth.amp.sit
+    ttl: 10800
+    record: _qa40f4hbbhdcmdw73l98qpvotqrlpi7.dcv.digicert.com
+  - name:  _dnsauth.www.amp.sit
+    ttl: 10800
+    record: _qa40f4hbbhdcmdw73l98qpvotqrlpi7.dcv.digicert.com
+  - name:  _dnsauth.amp.nft
+    ttl: 10800
+    record: _ljxztbv3e7u3xrgfpd070846nl62qlz.dcv.digicert.com
+  - name:  _dnsauth.www.amp.nft
+    ttl: 10800
+    record: _ljxztbv3e7u3xrgfpd070846nl62qlz.dcv.digicert.com
+  - name:  _dnsauth.amp.prp
+    ttl: 10800
+    record: _7pvbn9mg9z4bactsc4vtszc9vwqygzd.dcv.digicert.com
+  - name:  _dnsauth.www.amp.prp
+    ttl: 10800
+    record: _7pvbn9mg9z4bactsc4vtszc9vwqygzd.dcv.digicert.com

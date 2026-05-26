@@ -280,9 +280,6 @@ cname:
     ttl: 60
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
-  - name: "idam-web-public-ethosldata"
-    ttl: 60
-    record: "hmcts-ldata.azurefd.net"
   - name: "jlfsrhi3m76w"
     ttl: 300
     record: "gv-st2ccjwg4awsh2.dv.googlehosted.com"
@@ -309,12 +306,7 @@ cname:
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
-  - name: "moneyclaim-legal.nonprod"
-    ttl: 300
-    record: "mojmaintenance.azurewebsites.net"
-  - name: "maintenance.moneyclaim-legal.nonprod"
-    ttl: 3600
-    record: "mojmaintenance.azurewebsites.net"
+
   - name: "paybubble"
     platform: "cft"
     ttl: 300
@@ -413,15 +405,6 @@ cname:
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
-  - name: "afdverify.idam-web-admin"
-    platform: "cft"
-    ttl: 300
-    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-  - name: "idam-web-admin"
-    platform: "cft"
-    ttl: 300
-    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.idam-user-dashboard"
     platform: "cft"
     ttl: 300
@@ -459,6 +442,14 @@ cname:
     platform: "sds"
     ttl: 300
     record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
+  - name: "afdverify.wa-live-reporting"
+    platform: "cft"
+    ttl: 300
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+  - name: "wa-live-reporting"
+    platform: "cft"
+    ttl: 300
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
 
   - name: "afdverify.hmi-apim"
     platform: "cft"
@@ -540,17 +531,6 @@ cname:
     ttl: 10800
     record: "E2ECB8313DACA9CA4A29CFB86C20736F.5F10E5D5D826058053EAE74381014248.4afb3f5c0d009cf6b36d.sectigo.com."
 
-  # SecOps Splunk SIEM TLS/SSL Cert recreation January 2025 (SECOPS-6729) for legacy capability until Q4 2025
-  - name: "_E040B31CD902A0D8EDE80B63BDF5D6AA.splunk"
-    ttl: 300
-    record: "2EADF122BD284DF0E2EE8E88CAC69C1B.26A45C3567B4274088F389365F30B153.2e0e4c9e7f7e3c59a499.sectigo.com."
-  - name: "_E040B31CD902A0D8EDE80B63BDF5D6AA.splunk-hfwd-prod-vm00"
-    ttl: 300
-    record: "2EADF122BD284DF0E2EE8E88CAC69C1B.26A45C3567B4274088F389365F30B153.2e0e4c9e7f7e3c59a499.sectigo.com."
-  - name: "_E040B31CD902A0D8EDE80B63BDF5D6AA.splunk-hfwd-prod-vm01"
-    ttl: 300
-    record: "2EADF122BD284DF0E2EE8E88CAC69C1B.26A45C3567B4274088F389365F30B153.2e0e4c9e7f7e3c59a499.sectigo.com."   
-    
   # Adoption
   - name: "afdverify.apply-for-adoption"
     ttl: 300

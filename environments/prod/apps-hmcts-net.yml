@@ -46,7 +46,10 @@ ns:
 
 mx: []
 
-txt: []
+txt:
+  - name: "asuid.judicialtranscribe"
+    ttl: 300
+    record: [ "bc930a1032c3e9b818c7284ad83c6cc906d84acdd6b71802d66d14cc5bcbb2a0" ]
 
 srv: []
 
@@ -63,6 +66,10 @@ A:
     ttl: 300
     record:
       - "185.230.153.231"
+  - name: "dtsft.prod"
+    ttl: 300
+    record:
+      - "51.11.138.240"
 
 cname:
   - name: "caps"
@@ -100,16 +107,17 @@ cname:
     ttl: 300
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
   - name: "juror-er"
-    ttl: 300
-    record: "hmcts-heritage-prod-fug4hfanetgdf6cz.z01.azurefd.net"
-  - name: "juror-er.prod"
     platform: "sds"
     ttl: 300
+    # record: "hmcts-heritage-prod-fug4hfanetgdf6cz.z01.azurefd.net"
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
 
   - name: "csds"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "csds-passive"
+    ttl: 300
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+  - name: "judicialtranscribe"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
