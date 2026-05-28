@@ -30,6 +30,15 @@ A:
     record:
       - "4.158.63.145"
 
+  - name: "csds-active"
+    ttl: 300
+    record:
+      - "51.142.78.109"
+  - name: "csds-passive"
+    ttl: 300
+    record:
+      - "51.142.78.109"
+
 txt:
   - name: "contact.justice"
     ttl: 3600
