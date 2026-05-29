@@ -41,4 +41,4 @@ cname:
 
     # Juror
   - name: "juror"
-    shutter: true
+    shutter: false
