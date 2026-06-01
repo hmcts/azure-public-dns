@@ -739,3 +739,9 @@ cname:
   - name: _dnsauth.cath-stub-idam.test
     ttl: 10800
     record: _aovu4ya9m66l5d1f88t14v85fogs3po.dcv.digicert.com
+  - name: _dnsauth.peach.dev
+    ttl: 10800
+    record: _daa38miiwex8mbcmpzx7s1muj5y36y5.dcv.digicert.com
+  - name: _dnsauth.www.peach.dev
+    ttl: 10800
+    record: _daa38miiwex8mbcmpzx7s1muj5y36y5.dcv.digicert.com
