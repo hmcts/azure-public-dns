@@ -712,3 +712,36 @@ cname:
   - name:  _dnsauth.www.amp.prp
     ttl: 10800
     record: _7pvbn9mg9z4bactsc4vtszc9vwqygzd.dcv.digicert.com
+  - name: _dnsauth.login.test
+    ttl: 10800
+    record: _aovu4ya9m66l5d1f88t14v85fogs3po.dcv.digicert.com
+  - name: _dnsauth.email-client.test
+    ttl: 10800
+    record: _aovu4ya9m66l5d1f88t14v85fogs3po.dcv.digicert.com
+  - name: _dnsauth.identity-gateway.test
+    ttl: 10800
+    record: _aovu4ya9m66l5d1f88t14v85fogs3po.dcv.digicert.com
+  - name: _dnsauth.manage-users.test
+    ttl: 10800
+    record: _aovu4ya9m66l5d1f88t14v85fogs3po.dcv.digicert.com
+  - name: _dnsauth.my-services.test
+    ttl: 10800
+    record: _aovu4ya9m66l5d1f88t14v85fogs3po.dcv.digicert.com
+  - name: _dnsauth.prosecuting-stub-idam.test
+    ttl: 10800
+    record: _aovu4ya9m66l5d1f88t14v85fogs3po.dcv.digicert.com
+  - name: _dnsauth.rota-stub-idam.test
+    ttl: 10800
+    record: _aovu4ya9m66l5d1f88t14v85fogs3po.dcv.digicert.com
+  - name: _dnsauth.token.test
+    ttl: 10800
+    record: _aovu4ya9m66l5d1f88t14v85fogs3po.dcv.digicert.com
+  - name: _dnsauth.cath-stub-idam.test
+    ttl: 10800
+    record: _aovu4ya9m66l5d1f88t14v85fogs3po.dcv.digicert.com
+  - name: _dnsauth.peach.dev
+    ttl: 10800
+    record: _daa38miiwex8mbcmpzx7s1muj5y36y5.dcv.digicert.com
+  - name: _dnsauth.www.peach.dev
+    ttl: 10800
+    record: _daa38miiwex8mbcmpzx7s1muj5y36y5.dcv.digicert.com
