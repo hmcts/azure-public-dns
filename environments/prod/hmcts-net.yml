@@ -1,6 +1,13 @@
 zone_name: "hmcts.net"
 
 ns:
+  - name: api
+    ttl: 3600
+    record:
+      - ns1-04.azure-dns.com.
+      - ns2-04.azure-dns.net.
+      - ns3-04.azure-dns.org.
+      - ns4-04.azure-dns.info.
   - name: apps
     ttl: 3600
     record:
