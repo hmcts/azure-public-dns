@@ -408,3 +408,13 @@ cname:
   - name: "pdda-public-display-manager"
     ttl: 300
     record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
+  # Court and Tribunal Hearings
+  - name: "cath-web"
+    ttl: 300
+    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
+  - name: "afdverify.cath-web"
+    ttl: 300
+    record: "afdverify.sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
+  - name: "sign-in.cath-web"
+    ttl: 300
+    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
