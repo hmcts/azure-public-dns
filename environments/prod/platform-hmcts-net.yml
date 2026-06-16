@@ -95,10 +95,6 @@ mx:
       - "32767 ms50395572.msv1.invalid"
 
 A:
-  - name: "bar"
-    ttl: 900
-    record:
-      - "51.143.156.74"
   - name: "build-beta"
     ttl: 60
     record:
@@ -174,7 +170,7 @@ A:
   - name: "vpn-ext"
     ttl: 360
     record:
-      - "51.141.230.130"
+      - "172.167.157.29"
   - name: "vpn-ext-beta"
     ttl: 360
     record:
@@ -202,7 +198,11 @@ A:
   - name: "darts-proxy"
     ttl: 300
     record:
-      - "10.23.1.252"
+      - "10.24.32.35"
+  - name: "em-icp-webpubsub"
+    ttl: 300
+    record:
+      - "85.210.29.141"
 
 txt:
   - name: "@"
@@ -213,17 +213,32 @@ txt:
   - name: "_dmarc"
     ttl: 3600
     record:
-      - "v=DMARC1; p=none"
+      - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:DMARC_DL@hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:DMARC_DL@hmcts.net"
   - name: "_dmarc.mail-civil-nonprod"
     ttl: 3600
     record:
-      - "v=DMARC1; p=none;"
+      - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:DMARC_DL@hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:DMARC_DL@hmcts.net"
+  - name: "_dmarc.mail-sscs-nonprod"
+    ttl: 3600
+    record:
+      - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:DMARC_DL@hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:DMARC_DL@hmcts.net"
+  - name: "_dmarc.mail-money-claims-nonprod"
+    ttl: 3600
+    record:
+      - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:DMARC_DL@hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:DMARC_DL@hmcts.net"
+  - name: "dmarc.mail-em612.mail-makeaplea-nonprod"
+    ttl: 3600
+    record:
+      - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:DMARC_DL@hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:DMARC_DL@hmcts.net"
   - name: "_dnsauth.apply-for-adoption"
     ttl: 3600
     record:
       - "n3zyn06dl4jk9flktv4d018rxhrrjfm7"
 
 cname:
+  - name: "_dnsauth"
+    ttl: 3600
+    record: "_b7d7ifu7hr1373cwnvu6uxov5q7422s.dcv.digicert.com"
   - name: "administer-orgs"
     platform: "cft"
     ttl: 60
@@ -238,10 +253,12 @@ cname:
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
-  - name: "afdverify.plum"
-    platform: "cft"
+  - name: "afdverify.em-icp"
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+  - name: "em-icp"
+    ttl: 300
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "apply-divorce"
     ttl: 3600
     record: "www.apply-divorce.platform.hmcts.net"
@@ -263,9 +280,6 @@ cname:
     ttl: 60
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
-  - name: "idam-web-public-ethosldata"
-    ttl: 60
-    record: "hmcts-ldata.azurefd.net"
   - name: "jlfsrhi3m76w"
     ttl: 300
     record: "gv-st2ccjwg4awsh2.dv.googlehosted.com"
@@ -287,37 +301,12 @@ cname:
     platform: "cft"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-  - name: "manage-payments"
-    platform: "cft"
-    ttl: 900
-    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
-  - name: "www.manage-payments"
-    platform: "cft"
-    ttl: 900
-    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
-  - name: "www.moneyclaim"
-    platform: "cft"
-    ttl: 300
-    record: "moneyclaim.reform.hmcts.net"
   - name: "www.moneyclaim-legal"
     platform: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
-  - name: "divorce.nonprod"
-    ttl: 3600
-    record: "mojmaintenance.azurewebsites.net"
-  - name: "maintenance.nonprod"
-    ttl: 3600
-    record: "mojmaintenance.azurewebsites.net"
-  - name: "moneyclaim-legal.nonprod"
-    ttl: 300
-    record: "mojmaintenance.azurewebsites.net"
-  - name: "maintenance.moneyclaim-legal.nonprod"
-    ttl: 3600
-    record: "mojmaintenance.azurewebsites.net"
+
   - name: "paybubble"
     platform: "cft"
     ttl: 300
@@ -338,27 +327,18 @@ cname:
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
-  - name: "asverify.probate"
-    ttl: 60
-    record: "asverify.probateprod.blob.core.windows.net"
-  - name: "awverify.probate"
-    ttl: 1
-    record: "awverify.probate-frontend-prod-shutter.azurewebsites.net"
   - name: "reformscan"
     ttl: 3600
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+  - name: "_dnsauth.tenable-sc"
+    ttl: 3600
+    record: "_ptx3wvrjulsdpcpbocur0ev9cdqtrke.dcv.digicert.com"
+  - name: "_dnsauth.www.tenable-sc"
+    ttl: 3600
+    record: "_ptx3wvrjulsdpcpbocur0ev9cdqtrke.dcv.digicert.com"
   - name: "afdverify.reformscan"
     ttl: 60
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-  - name: "asverify.reformscan"
-    ttl: 3600
-    record: "asverify.reformscanprod.blob.core.windows.net"
-  - name: "asverify.reformscanstg"
-    ttl: 300
-    record: "asverify.reformscanprodstaging.blob.core.windows.net"
-  - name: "reformscanstg"
-    ttl: 300
-    record: "reformscanprodstaging.blob.core.windows.net"
   - name: "register-org"
     platform: "cft"
     ttl: 60
@@ -393,12 +373,6 @@ cname:
     platform: "cft"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-  - name: "afdverify.www.manage-payments"
-    ttl: 3600
-    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-  - name: "afdverify.manage-payments"
-    ttl: 3600
-    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "afdverify.paybubble"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
@@ -431,15 +405,6 @@ cname:
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
-  - name: "afdverify.idam-web-admin"
-    platform: "cft"
-    ttl: 300
-    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-  - name: "idam-web-admin"
-    platform: "cft"
-    ttl: 300
-    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.idam-user-dashboard"
     platform: "cft"
     ttl: 300
@@ -449,6 +414,14 @@ cname:
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
+  - name: "afdverify.hmcts-access"
+    platform: "cft"
+    ttl: 300
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+  - name: "hmcts-access"
+    platform: "cft"
+    ttl: 300
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: cft-api-mgmt
     record: hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net
     ttl: 300
@@ -469,6 +442,14 @@ cname:
     platform: "sds"
     ttl: 300
     record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
+  - name: "afdverify.wa-live-reporting"
+    platform: "cft"
+    ttl: 300
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+  - name: "wa-live-reporting"
+    platform: "cft"
+    ttl: 300
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
 
   - name: "afdverify.hmi-apim"
     platform: "cft"
@@ -545,70 +526,10 @@ cname:
     ttl: 300
     record: "88849E439635A2EC10EC9DAA27E311FB.97641532D0C35FEA6572BE4722A6C5F0.ae696eea53f7a9525d7d.sectigo.com."
 
-  - name: vh-wowza
-    ttl: 300
-    record: vh-infra-wowza-prod.uksouth.cloudapp.azure.com
-
   - name: "_D7BC9C94CCECEF2B47A23F6CDB45C9A0.vh-user-api"
     platform: "sds"
     ttl: 10800
     record: "E2ECB8313DACA9CA4A29CFB86C20736F.5F10E5D5D826058053EAE74381014248.4afb3f5c0d009cf6b36d.sectigo.com."
-
-  # SecOps Splunk SIEM TLS/SSL Cert recreation April/May 2024 (SECOPS-5524)
-  - name: "_BEAB707EE5C317495EAF61BCCDD30936.splunk"
-    ttl: 300
-    record: "6676915CA4888287EBD9BDAD179778BB.58301F2BFFA4E2E31B6B9A4FC8CC6951.4c8e6b8484009a651bfc.sectigo.com."
-  - name: "_BEAB707EE5C317495EAF61BCCDD30936.splunk-idx-prod-vm00"
-    ttl: 300
-    record: "6676915CA4888287EBD9BDAD179778BB.58301F2BFFA4E2E31B6B9A4FC8CC6951.4c8e6b8484009a651bfc.sectigo.com."
-  - name: "_BEAB707EE5C317495EAF61BCCDD30936.splunk-idx-prod-vm01"
-    ttl: 300
-    record: "6676915CA4888287EBD9BDAD179778BB.58301F2BFFA4E2E31B6B9A4FC8CC6951.4c8e6b8484009a651bfc.sectigo.com."
-  - name: "_BEAB707EE5C317495EAF61BCCDD30936.splunk-idx-prod-vm02"
-    ttl: 300
-    record: "6676915CA4888287EBD9BDAD179778BB.58301F2BFFA4E2E31B6B9A4FC8CC6951.4c8e6b8484009a651bfc.sectigo.com."
-  - name: "_BEAB707EE5C317495EAF61BCCDD30936.splunk-sh-prod-vm00"
-    ttl: 300
-    record: "6676915CA4888287EBD9BDAD179778BB.58301F2BFFA4E2E31B6B9A4FC8CC6951.4c8e6b8484009a651bfc.sectigo.com."
-  - name: "_BEAB707EE5C317495EAF61BCCDD30936.splunk-es-prod-vm00"
-    ttl: 300
-    record: "6676915CA4888287EBD9BDAD179778BB.58301F2BFFA4E2E31B6B9A4FC8CC6951.4c8e6b8484009a651bfc.sectigo.com."
-  - name: "_BEAB707EE5C317495EAF61BCCDD30936.splunk-hfwd-prod-vm00"
-    ttl: 300
-    record: "6676915CA4888287EBD9BDAD179778BB.58301F2BFFA4E2E31B6B9A4FC8CC6951.4c8e6b8484009a651bfc.sectigo.com."
-  - name: "_BEAB707EE5C317495EAF61BCCDD30936.splunk-hfwd-prod-vm01"
-    ttl: 300
-    record: "6676915CA4888287EBD9BDAD179778BB.58301F2BFFA4E2E31B6B9A4FC8CC6951.4c8e6b8484009a651bfc.sectigo.com."
-  - name: "_BEAB707EE5C317495EAF61BCCDD30936.splunk-lm-prod-vm00"
-    ttl: 300
-    record: "6676915CA4888287EBD9BDAD179778BB.58301F2BFFA4E2E31B6B9A4FC8CC6951.4c8e6b8484009a651bfc.sectigo.com."
-  - name: "_BEAB707EE5C317495EAF61BCCDD30936.splunk-mc-prod-vm00"
-    ttl: 300
-    record: "6676915CA4888287EBD9BDAD179778BB.58301F2BFFA4E2E31B6B9A4FC8CC6951.4c8e6b8484009a651bfc.sectigo.com."
-  - name: "_BEAB707EE5C317495EAF61BCCDD30936.splunk-cm-prod-vm00"
-    ttl: 300
-    record: "6676915CA4888287EBD9BDAD179778BB.58301F2BFFA4E2E31B6B9A4FC8CC6951.4c8e6b8484009a651bfc.sectigo.com."
-  - name: "_BEAB707EE5C317495EAF61BCCDD30936.splunk-idx-prod-vm03"
-    ttl: 300
-    record: "6676915CA4888287EBD9BDAD179778BB.58301F2BFFA4E2E31B6B9A4FC8CC6951.4c8e6b8484009a651bfc.sectigo.com."
-  - name: "_BEAB707EE5C317495EAF61BCCDD30936.splunk-idx-prod-vm04"
-    ttl: 300
-    record: "6676915CA4888287EBD9BDAD179778BB.58301F2BFFA4E2E31B6B9A4FC8CC6951.4c8e6b8484009a651bfc.sectigo.com."
-  - name: "_BEAB707EE5C317495EAF61BCCDD30936.splunk-idx-prod-vm05"
-    ttl: 300
-    record: "6676915CA4888287EBD9BDAD179778BB.58301F2BFFA4E2E31B6B9A4FC8CC6951.4c8e6b8484009a651bfc.sectigo.com."
-  - name: "_BEAB707EE5C317495EAF61BCCDD30936.splunk-idx-prod-vm06"
-    ttl: 300
-    record: "6676915CA4888287EBD9BDAD179778BB.58301F2BFFA4E2E31B6B9A4FC8CC6951.4c8e6b8484009a651bfc.sectigo.com."
-  - name: "_BEAB707EE5C317495EAF61BCCDD30936.splunk-idx-prod-vm07"
-    ttl: 300
-    record: "6676915CA4888287EBD9BDAD179778BB.58301F2BFFA4E2E31B6B9A4FC8CC6951.4c8e6b8484009a651bfc.sectigo.com."
-  - name: "_BEAB707EE5C317495EAF61BCCDD30936.splunk-es-prod-vm01"
-    ttl: 300
-    record: "6676915CA4888287EBD9BDAD179778BB.58301F2BFFA4E2E31B6B9A4FC8CC6951.4c8e6b8484009a651bfc.sectigo.com."
-  - name: "_BEAB707EE5C317495EAF61BCCDD30936.splunk-hfwd-prod-vm02"
-    ttl: 300
-    record: "6676915CA4888287EBD9BDAD179778BB.58301F2BFFA4E2E31B6B9A4FC8CC6951.4c8e6b8484009a651bfc.sectigo.com."
 
   # Adoption
   - name: "afdverify.apply-for-adoption"
@@ -708,3 +629,11 @@ cname:
   - name: "s2._domainkey.mail-civil-nonprod"
     ttl: 300
     record: "s2.domainkey.u21913992.wl243.sendgrid.net"
+
+  # PDDA
+  - name: "pdda-public-display-data-aggregator"
+    ttl: 300
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
+  - name: "pdda-public-display-manager"
+    ttl: 300
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"

@@ -37,9 +37,6 @@ cname:
   - name: "pcol"
     ttl: 300
     record: "firewall-nonprodi-palo-pcolnle.uksouth.cloudapp.azure.com"
-  - name: "sdt"
-    ttl: 300
-    record: "firewall-nonprodi-palo-sdtnle.uksouth.cloudapp.azure.com"
   - name: "crimeportal"
     ttl: 300
     record: "firewall-nonprodi-palo-crimeportal.uksouth.cloudapp.azure.com"

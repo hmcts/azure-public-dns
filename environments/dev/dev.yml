@@ -24,6 +24,15 @@ A:
     ttl: 60
     record:
       - "20.254.22.0"
+  
+  - name: "csds-active"
+    ttl: 300
+    record:
+      - "4.234.140.234"
+  - name: "csds-passive"
+    ttl: 300
+    record:
+      - "4.234.140.234"
 
 txt:
   - name: "mailrelay"
@@ -103,12 +112,6 @@ cname:
   - name: "afdverify.vh-test-web"
     ttl: 300
     record: "afdverify.hmcts-dev.azurefd.net"
-  - name: "signalr"
-    ttl: 300
-    record: "vh-infra-core-dev.service.signalr.net"
-  - name: "vh-wowza"
-    ttl: 300
-    record: "vh-infra-wowza-dev.uksouth.cloudapp.azure.com"
   - name: vh-video-web-pr-2142
     record: sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net
     ttl: 300
@@ -122,15 +125,3 @@ cname:
   - name: "afdverify.pre-portal"
     ttl: 3600
     record: "afdverify.sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
-  - name: "help-with-fees"
-    ttl: 3600
-    record: "hwf-public-dev.nicemushroom-6841cfc0.uksouth.azurecontainerapps.io"
-  - name: "staff.help-with-fees"
-    ttl: 3600
-    record: "hwf-staff-ext-dev.nicemushroom-6841cfc0.uksouth.azurecontainerapps.io"
-  - name: "wsproxy"
-    ttl: 3600
-    record: "wsproxy-dev.nicemushroom-6841cfc0.uksouth.azurecontainerapps.io"
-  - name: "opal-frontend"
-    ttl: 300
-    record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"

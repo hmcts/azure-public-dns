@@ -29,10 +29,24 @@ A:
     record:
       - "20.162.145.18"
 
+  - name: "em-icp-webpubsub"
+    ttl: 300
+    record:
+      - "4.158.117.136"
+
+  - name: "xui-case-activity-api"
+    ttl: 300
+    record:
+      - "4.158.117.136"
+
   - name: "darts-proxy"
     ttl: 300
     record:
-      - "10.25.32.111"
+      - "10.25.32.99" 
+      #- "10.25.32.111" #Demo DNAT to VM
+      #- "10.25.32.99" #Demo -> AKS
+      #- "10.51.96.132" #Demo AppGW PIP
+      #- "10.23.2.252" #CGWAF
 
 txt: []
 
@@ -75,12 +89,6 @@ cname:
   - name: "afdverify.sds-api-mgmt"
     ttl: 300
     record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
-  - name: "signalr"
-    ttl: 300
-    record: "vh-infra-core-demo.service.signalr.net"
-  - name: "vh-wowza"
-    ttl: 300
-    record: "vh-infra-wowza-demo.uksouth.cloudapp.azure.com"
   - name: "plum"
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
@@ -130,6 +138,18 @@ cname:
   - name: "afdverify.fact"
     ttl: 300
     record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "fact-public-frontend"
+    ttl: 300
+    record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "afdverify.fact-public-frontend"
+    ttl: 300
+    record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "fact-admin-frontend"
+    ttl: 300
+    record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "afdverify.fact-admin-frontend"
+    ttl: 300
+    record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
   - name: "fact-admin"
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
@@ -140,6 +160,12 @@ cname:
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
   - name: "afdverify.et-sya"
+    ttl: 300
+    record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "finrem-citizen-ui"
+    ttl: 300
+    record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "afdverify.finrem-citizen-ui"
     ttl: 300
     record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
   - name: "paybubble"
@@ -268,18 +294,6 @@ cname:
   - name: "afdverify.moneyclaims1"
     ttl: 300
     record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
-  - name: "bar"
-    ttl: 300
-    record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
-  - name: "afdverify.bar"
-    ttl: 300
-    record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
-  - name: "bar-int"
-    ttl: 300
-    record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
-  - name: "afdverify.bar-int"
-    ttl: 300
-    record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
   - name: "ac-int-gateway-ccd"
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
@@ -345,12 +359,6 @@ cname:
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
   - name: "afdverify.manage-org-int"
-    ttl: 300
-    record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
-  - name: "idam-web-admin"
-    ttl: 300
-    record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
-  - name: "afdverify.idam-web-admin"
     ttl: 300
     record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
   - name: "idam-web-public"
@@ -559,3 +567,36 @@ cname:
   - name: "pcs"
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "afdverify.wa-reporting-frontend"
+    ttl: 300
+    record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "wa-reporting-frontend"
+    ttl: 300
+    record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "courtfines-app"
+    ttl: 300
+    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
+  - name: "pt"
+    ttl: 300
+    record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  # PDDA
+  - name: "pdda-public-display-data-aggregator"
+    ttl: 300
+    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
+  - name: "pdda-public-display-manager"
+    ttl: 300
+    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
+  - name: "_19C27F12065561C34EF8BC7C9B434FA3.hwf-staffapp"
+    ttl: 300
+    record: "695702EFB2957E6A233C0A091B5AE441.00FCC056608FC56A72D758871AD78BDE.4fbf20a2bda60579ab7f.sectigo.com"
+  # Court and Tribunal Hearings
+  - name: "cath-web"
+    ttl: 300
+    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
+    shutter: false
+  - name: "afdverify.cath-web"
+    ttl: 3600
+    record: "afdverify.sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
+  - name: "sign-in.cath-web"
+    record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
+    ttl: 300

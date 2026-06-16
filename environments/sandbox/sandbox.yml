@@ -11,22 +11,9 @@ ns:
       - "ns3-33.azure-dns.org."
       - "ns4-33.azure-dns.info."
 
-mx:
-  - name: "@"
-    ttl: 300
-    record:
-      - "0 mail.contact.justice.sandbox.platform.hmcts.net"
-  - name: "contact.justice"
-    ttl: 3600
-    record:
-      - "10 ctscmail.sandbox.platform.hmcts.net"
+mx: []
 
 A:
-  - name: "ctscmail"
-    ttl: 3600
-    record:
-      - "51.140.180.140"
-
   - name: "portal"
     ttl: 60
     record:
@@ -67,15 +54,24 @@ A:
     record:
       - "20.26.30.175"
 
-  - name: "labs-goldenpath-naraynm"
+  - name: "cnfgw-spoke-0"
     ttl: 300
     record:
-      - "51.145.114.159"
+      - "74.177.139.46"
 
-  - name: "labs-goldenpath-naraynm-temp"
+  - name: "cnfgw-spoke-1"
     ttl: 300
     record:
-      - "4.234.74.227"
+      - "85.210.73.58"
+
+  - name: "csds-active"
+    ttl: 300
+    record:
+      - "172.167.169.193"
+  - name: "csds-passive"
+    ttl: 300
+    record:
+      - "172.167.169.193"
 
 txt:
   - name: "contact.justice"
@@ -125,10 +121,13 @@ cname:
     # platform: "cft"
     ttl: 3600
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: "plum.uksouth"
-    # platform: "cft"
-    ttl: 3600
-    record: "firewall-sbox.uksouth.cloudapp.azure.com"
+  - name: "plum-tlse2e"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+    shutter: false
+  - name: "afdverify.plum-tlse2e"
+    ttl: 300
+    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: "afdverify.idam-web-public"
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
@@ -140,13 +139,6 @@ cname:
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: "idam-web-public-sprod"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    shutter: false
-  - name: "afdverify.idam-web-admin"
-    ttl: 300
-    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: "idam-web-admin"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
     shutter: false
@@ -195,42 +187,10 @@ cname:
   - name: "afdverify.sds-api-mgmt"
     ttl: 3600
     record: "afdverify.sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
-  - name: "afdverify.labs-apps-njs"
-    ttl: 300
-    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: "labs-apps-njs"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    shutter: false
 
-  - name: vh-video-web
-    record: sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net
-    ttl: 300
-    shutter: false
-  - name: "afdverify.vh-video-web"
-    ttl: 300
-    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: vh-admin-web
-    record: sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net
-    ttl: 300
-    shutter: false
-  - name: "afdverify.vh-admin-web"
-    ttl: 300
-    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: vh-test-web
-    record: sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net
-    ttl: 300
-    shutter: false
-  - name: "afdverify.vh-test-web"
-    ttl: 300
-    record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: "afdverify.safe-settings"
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: "safe-settings"
-    ttl: 300
-    shutter: true
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
   - name: "selector1-azurecomm-prod-net._domainkey"
     ttl: 3600
     record: "selector1-azurecomm-prod-net._domainkey.azurecomm.net"
@@ -255,14 +215,30 @@ cname:
     record: "cnphmcts-classic-sbox.azurefd.net"
     shutter: false
     syncPrivateDNS: false
-  - name: "labs-goldenpath-connor-okane"
+  - name: "devextreme-poc-spa"
+    platform: "cft"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+  - name: "devextreme-poc-ssr"
+    platform: "cft"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+  - name: "telerik-poc-spa"
+    platform: "cft"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+  - name: "telerik-poc-ssr"
+    platform: "cft"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+  - name: "labs-goldenpath-michaelfox"
     ttl: 300
     record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
     shutter: false
-  - name: "afdverify.labs-endakelly-nodejs"
+  - name: "labs-njk-debolina-seal"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+    shutter: false
+  - name: "afdverify.labs-njk-debolina-seal"
     ttl: 300
     record: "afdverify.hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: "labs-goldenpath-ashleigh"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-    shutter: false

@@ -6,13 +6,26 @@ mx: []
 
 srv: []
 
-txt: []
+txt:
+  - name: "_dnsauth.idam-web-public-staging"
+    ttl: 3600
+    record:
+      - "_o5dlke45y5740imbid8vndscm9ncjym"
+  - name: "_dnsauth.idam-user-dashboard-staging"
+    ttl: 3600
+    record:
+      - "_rvig1ta23kg7687jnw9jd616nnediza"
 
 A:
   - name: "cft-mtls-api-mgmt-appgw"
     ttl: 300
     record:
       - "20.26.101.168"
+
+  - name: "em-icp-webpubsub"
+    ttl: 300
+    record:
+      - "4.250.80.162"
 
 cname:
   - name: "_8c25cc47acd71d289bc2b0f6163f17bd"
@@ -153,6 +166,18 @@ cname:
   - name: "fact"
     ttl: 300
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "afdverify.fact-public-frontend"
+    ttl: 300
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "fact-public-frontend"
+    ttl: 300
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "afdverify.fact-admin-frontend"
+    ttl: 300
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "fact-admin-frontend"
+    ttl: 300
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.fact-admin"
     ttl: 300
     record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
@@ -213,12 +238,6 @@ cname:
   - name: "probate"
     ttl: 3600
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
-  - name: "afdverify.bar"
-    ttl: 3600
-    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
-  - name: "bar"
-    ttl: 3600
-    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.paybubble"
     ttl: 3600
     record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
@@ -228,16 +247,13 @@ cname:
   - name: "fees-register"
     ttl: 3600
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
-  - name: "afdverify.idam-web-admin"
-    ttl: 3600
-    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
-  - name: "idam-web-admin"
-    ttl: 3600
-    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.idam-user-dashboard"
     ttl: 300
     record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "idam-user-dashboard"
+    ttl: 300
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "idam-web-public-staging"
     ttl: 300
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.hmcts-access"
@@ -362,5 +378,26 @@ cname:
     ttl: 300
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "pcs"
+    ttl: 300
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "afdverify.wa-reporting-frontend"
+    ttl: 300
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "wa-reporting-frontend"
+    ttl: 300
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "expressjs-monorepo-template-web"
+    ttl: 300
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "afdverify.expressjs-monorepo-template-web"
+    ttl: 300
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "cve-dashboard"
+    ttl: 300
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "afdverify.cve-dashboard"
+    ttl: 300
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "pt"
     ttl: 300
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"

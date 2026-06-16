@@ -1,6 +1,13 @@
 zone_name: "hmcts.net"
 
 ns:
+  - name: api
+    ttl: 3600
+    record:
+      - ns1-04.azure-dns.com.
+      - ns2-04.azure-dns.net.
+      - ns3-04.azure-dns.org.
+      - ns4-04.azure-dns.info.
   - name: apps
     ttl: 3600
     record:
@@ -43,13 +50,6 @@ ns:
       - ns2-02.azure-dns.net
       - ns3-02.azure-dns.org
       - ns4-02.azure-dns.info
-  - name: lab
-    ttl: 3600
-    record:
-      - ns1-02.azure-dns.com.
-      - ns2-02.azure-dns.net.
-      - ns3-02.azure-dns.org.
-      - ns4-02.azure-dns.info.
   - name: mft
     ttl: 3600
     record:
@@ -92,6 +92,20 @@ ns:
       - ns2-01.azure-dns.net.
       - ns3-01.azure-dns.org.
       - ns4-01.azure-dns.info.
+  - name: test-client-dwp
+    ttl: 3600
+    record:
+      - ns1-05.azure-dns.com.
+      - ns2-05.azure-dns.net.
+      - ns3-05.azure-dns.org.
+      - ns4-05.azure-dns.info.
+  - name: production-client-dwp
+    ttl: 3600
+    record:
+      - ns1-04.azure-dns.com.
+      - ns2-04.azure-dns.net.
+      - ns3-04.azure-dns.org.
+      - ns4-04.azure-dns.info.
 
 mx:
   - name: '@'
@@ -104,123 +118,152 @@ A:
     ttl: 1800
     record:
       - 83.151.216.178
+    shutter_resource_id: ""
   - name: c2idemo
     ttl: 1800
     record:
       - 83.151.216.178
+    shutter_resource_id: ""
   - name: c2ishowandtell
     ttl: 1800
     record:
       - 83.151.216.178
+    shutter_resource_id: ""
   - name: ccr-prototype
     ttl: 3600
     record:
       - 83.151.216.178
+    shutter_resource_id: ""
   - name: ccrdemo
     ttl: 43200
     record:
       - 83.151.216.178
+    shutter_resource_id: ""
   - name: confluence-nle
     ttl: 1800
     record:
       - 51.145.22.226
+    shutter_resource_id: ""
   - name: cp.cjs
     ttl: 3600
     record:
       - 40.67.248.37
+    shutter_resource_id: ""
   - name: crowd-nle
     ttl: 1800
     record:
       - 51.145.22.226
+    shutter_resource_id: ""
   - name: dev.cpp
     ttl: 3600
     record:
       - 83.151.216.178
+    shutter_resource_id: ""
   - name: devcp2.cpp
     ttl: 3600
     record:
       - 10.125.114.60
+    shutter_resource_id: ""
   - name: i2tdemo
     ttl: 1800
     record:
       - 83.151.216.178
+    shutter_resource_id: ""
   - name: jira-nle
     ttl: 1800
     record:
       - 51.145.22.226
+    shutter_resource_id: ""
   - name: pp.confluence
     ttl: 3600
     record:
       - 51.179.201.14
+    shutter_resource_id: ""
   - name: pp.crowd
     ttl: 3600
     record:
       - 51.179.201.14
+    shutter_resource_id: ""
   - name: pp.hipchat
     ttl: 3600
     record:
       - 51.179.201.14
+    shutter_resource_id: ""
   - name: pp.jira
     ttl: 3600
     record:
       - 51.179.201.14
+    shutter_resource_id: ""
   - name: preprod-bastion
     ttl: 600
     record:
       - 10.20.1.27
+    shutter_resource_id: ""
   - name: prod-bastion
     ttl: 1800
     record:
       - 10.20.1.12
+    shutter_resource_id: ""
   - name: r2showandtell
     ttl: 1800
     record:
       - 83.151.216.178
+    shutter_resource_id: ""
   - name: redact.c2idemo
     ttl: 1800
     record:
       - 83.151.216.178
+    shutter_resource_id: ""
   - name: redact.dev.cpp
     ttl: 3600
     record:
       - 83.151.216.178
+    shutter_resource_id: ""
   - name: sandbox.divorce-backoffice.reform
     ttl: 1800
     record:
       - 51.179.201.13
+    shutter_resource_id: ""
   - name: sandbox.divorce.reform
     ttl: 1800
     record:
       - 51.179.201.13
+    shutter_resource_id: ""
   - name: sandbox.probate-two.reform
     ttl: 1800
     record:
       - 51.179.201.13
+    shutter_resource_id: ""
   - name: sandbox.probate.reform
     ttl: 1800
     record:
       - 51.179.201.13
+    shutter_resource_id: ""
   - name: sandbox.sscs.reform
     ttl: 1800
     record:
       - 51.179.201.13
+    shutter_resource_id: ""
   - name: test-reform
     ttl: 1800
     record:
       - 83.151.216.178
+    shutter_resource_id: ""
   - name: tools
     ttl: 600
     record:
-      - 20.108.186.180
+      - 172.166.152.37
+    shutter_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/sds-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/staticSites/tools-atlassian"
   - name: tools.prp
     ttl: 600
     record:
       - 4.234.211.95
+    shutter_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/sds-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/staticSites/tools-atlassian-prp"
   - name: staging.tools
     ttl: 600
     record:
-      - 20.0.64.191
-
+      - 20.90.110.46
+    shutter_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/sds-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/staticSites/tools-atlassian-staging"
 txt:
   - name: '@'
     ttl: 86400
@@ -231,6 +274,8 @@ txt:
       - "google-site-verification=TMU69wadrpW6V0YxpFfxuXST3nKEiMWWHA2KN88CwvI"
       - "v=spf1 include:spf.protection.outlook.com include:notifications.service.gov.uk include:prod.mailrelay.platform.hmcts.net a:c.spf.service-now.com -all"
       - "v=verifydomain MS=6154796"
+      - "atlassian-domain-verification=vAjh0qsG/yJoMmOv6nM3A9a22B7Nc8acyzKreuqgTeiCjHkRxYoi6ZGQHNuU82Ua"
+      - "miro-verification=9f7733fab8b41c5d9bbbf63c043f10dcfec77dab"
   - name: cp.cjs
     ttl: 3600
     record:
@@ -246,7 +291,7 @@ txt:
   - name: _dmarc
     ttl: 3600
     record:
-      - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:ems@hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:ems@hmcts.net"
+      - "v=DMARC1;p=reject;sp=reject;fo=1;rua=mailto:DMARC_DL@hmcts.net,mailto:ZMrwN3whEje@dmarc-rua.mailcheck.service.ncsc.gov.uk;ruf=mailto:DMARC_DL@hmcts.net"
   - name: _github-challenge-hmcts
     ttl: 3600
     record:
@@ -292,9 +337,6 @@ cname:
   - name: msoid
     ttl: 3600
     record: clientconfig.microsoftonline-p.net.
-  - name: notices
-    ttl: 600
-    record: www95.wixdns.net.
   - name: selector1._domainkey
     ttl: 3600
     record: selector1-hmcts-net._domainkey.cjscommonplatform.onmicrosoft.com.
@@ -304,12 +346,6 @@ cname:
   - name: sip
     ttl: 3600
     record: sipdir.online.lync.com.
-  - name: tools.oldprd
-    ttl: 600
-    record: atlprod.northeurope.cloudapp.azure.com.
-  - name: www.notices
-    ttl: 600
-    record: www95.wixdns.net.
   - name: _domainconnect
     ttl: 3600
     record: _domainconnect.gd.domaincontrol.com.
@@ -322,3 +358,18 @@ cname:
   - name: mta-sts
     ttl: 3600
     record: lively-forest-0c951e203.4.azurestaticapps.net
+  - name: "itsupport"
+    ttl: 3600
+    record: hmcts-portal.haloitsm.com
+  - name: _dc533270da514cf11cd2a99fd197cb38.itsupport
+    ttl: 3600
+    record: _26cad1b9aae420ac2db64218a861d628.xlfgrmvvlj.acm-validations.aws.
+  - name: "pre.itsupport"
+    ttl: 3600
+    record: hmcts-pre.haloitsm.com
+  - name: "training.itsupport"
+    ttl: 3600
+    record: hmcts-training.haloitsm.com
+  - name: "sb.itsupport"
+    ttl: 3600
+    record: hmcts-sb.haloitsm.com

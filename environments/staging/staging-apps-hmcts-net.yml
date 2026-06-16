@@ -4,7 +4,14 @@ ns: []
 
 mx: []
 
-txt: []
+txt: 
+  - name: "_dnsauth.appreg"
+    ttl: 3600
+    record:
+      - "_m5tewqzdev73c0b2eiao734rt80dyjx"
+  - name: "asuid.judicialtranscribe"
+    ttl: 300
+    record: [ "23e3ea69eeb604580633fe2f1f4586698c3c8dd912b2d309a832baa6140a61c5" ]
 
 srv: []
 
@@ -50,3 +57,30 @@ cname:
   - name: juror-er-test
     ttl: 300
     record: "hmcts-heritage-stg-augbagbfeme3eqck.z01.azurefd.net"
+  - name: "appreg"
+    ttl: 300
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
+  - name: "juror-er"
+    ttl: 300
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
+  - name: "csds"
+    ttl: 300
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "csds-passive"
+    ttl: 300
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "judicialtranscribe"
+    ttl: 300
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "opal-frontend"
+    ttl: 300
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
+    shutter: false
+  - name: "opal-rm-frontend"
+    ttl: 300
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
+    shutter: false
+  - name: "opal-frontend-test"
+    ttl: 300
+    record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
+    shutter: false

@@ -16,8 +16,6 @@ shutter_all_cname: false
 # - shutter_resource_id
 # - alias_target_resource_id
 A:
-  - name: "bar"
-    shutter: false
   - name: "build-beta"
     shutter: false
   - name: "cft-mtls-api-mgmt-appgw"
@@ -78,29 +76,13 @@ cname:
     shutter: false
   - name: "www.fees-register"
     shutter: false
-  - name: "idam-web-public-ethosldata"
-    shutter: false
   - name: "jlfsrhi3m76w"
     shutter: false
   - name: "manage-case"
     shutter: false
   - name: "manage-org"
     shutter: false
-  - name: "manage-payments"
-    shutter: false
-  - name: "www.manage-payments"
-    shutter: false
-  - name: "www.moneyclaim"
-    shutter: false
   - name: "www.moneyclaim-legal"
-    shutter: false
-  - name: "divorce.nonprod"
-    shutter: false
-  - name: "maintenance.nonprod"
-    shutter: false
-  - name: "moneyclaim-legal.nonprod"
-    shutter: false
-  - name: "maintenance.moneyclaim-legal.nonprod"
     shutter: false
   - name: "paybubble"
     shutter: false
@@ -110,17 +92,7 @@ cname:
     shutter: false
   - name: "www.paymentoutcome-web"
     shutter: false
-  - name: "asverify.probate"
-    shutter: false
-  - name: "awverify.probate"
-    shutter: false
   - name: "reformscan"
-    shutter: false
-  - name: "asverify.reformscan"
-    shutter: false
-  - name: "asverify.reformscanstg"
-    shutter: false
-  - name: "reformscanstg"
     shutter: false
   - name: "register-org"
     shutter: false
@@ -131,8 +103,6 @@ cname:
   - name: "equality-and-diversity"
     shutter: false
   - name: "log-and-audit"
-    shutter: false
-  - name: "idam-web-admin"
     shutter: false
   - name: "idam-user-dashboard"
     shutter: false
@@ -185,50 +155,9 @@ cname:
   - name: "_df529a77950081e3ad8c21586162089b.video"
     shutter: false
 
-  - name: vh-wowza
-    shutter: false
-
   - name: "_0be35efd23b00eb9f75301c49805b99a.vh-user-api"
     shutter: false
   - name: "_D7BC9C94CCECEF2B47A23F6CDB45C9A0.vh-user-api"
-    shutter: false
-
-# SecOps Splunk SIEM SSL Cert recreation May 2023 (SECOPS-3937)
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk" 
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-cm-prod-vm00" 
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-es-prod-vm00"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-es-prod-vm01"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-hfwd-prod-vm00"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-hfwd-prod-vm01"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-hfwd-prod-vm02"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-idx-prod-vm00"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-idx-prod-vm01"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-idx-prod-vm02"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-idx-prod-vm03"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-idx-prod-vm04"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-idx-prod-vm05"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-idx-prod-vm06"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-idx-prod-vm07"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-lm-prod-vm00"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-mc-prod-vm00"
-    shutter: false
-  - name: "_3AD7BC739E13C3A5C6408C991C5740E1.splunk-sh-prod-vm00"
     shutter: false
 
   # Adoption

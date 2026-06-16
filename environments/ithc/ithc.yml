@@ -24,6 +24,20 @@ A:
     ttl: 3600
     record:
       - "20.254.18.242"
+      
+  - name: "em-icp-webpubsub"
+    ttl: 300
+    record:
+      - "4.158.63.145"
+
+  - name: "csds-active"
+    ttl: 300
+    record:
+      - "51.142.78.109"
+  - name: "csds-passive"
+    ttl: 300
+    record:
+      - "51.142.78.109"
 
 txt:
   - name: "contact.justice"
@@ -69,6 +83,12 @@ cname:
   - name: "petitioner-frontend-aks"
     ttl: 3600
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "reformscan"
+    ttl: 60
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "afdverify.reformscan"
+    ttl: 60
+    record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   - name: "respond-divorce-aks"
     ttl: 3600
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
@@ -157,12 +177,6 @@ cname:
   - name: "lau"
     ttl: 3600
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
-  - name: "afdverify.bar"
-    ttl: 3600
-    record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
-  - name: "bar"
-    ttl: 3600
-    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   - name: "afdverify.paybubble"
     ttl: 3600
     record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
@@ -173,6 +187,18 @@ cname:
     ttl: 3600
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   - name: "afdverify.fact"
+    ttl: 300
+    record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "fact-public-frontend"
+    ttl: 3600
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "afdverify.fact-public-frontend"
+    ttl: 300
+    record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "fact-admin-frontend"
+    ttl: 3600
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "afdverify.fact-admin-frontend"
     ttl: 300
     record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   - name: "fact-admin"
@@ -205,13 +231,6 @@ cname:
   - name: "fees-register"
     ttl: 3600
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
-  - name: "afdverify.idam-web-admin"
-    ttl: 300
-    record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
-  - name: "idam-web-admin"
-    ttl: 300
-    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.idam-user-dashboard"
     ttl: 300
     record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
@@ -307,24 +326,12 @@ cname:
   - name: "dss"
     ttl: 300
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
-  - name: vh-video-web
-    record: sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
+  - name: "afdverify.fis-ds-web"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "fis-ds-web"
     ttl: 300
-  - name: adverify.vh-video-web
-    record: afdverify.sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
-    ttl: 300
-  - name: vh-admin-web
-    record: sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
-    ttl: 300
-  - name: adverify.vh-admin-web
-    record: afdverify.sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
-    ttl: 300
-  - name: vh-test-web
-    record: sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
-    ttl: 300
-  - name: adverify.vh-test-web
-    record: afdverify.sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
-    ttl: 300
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   - name: "afdverify.et-sya"
     ttl: 300
     record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
@@ -333,16 +340,10 @@ cname:
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   - name: "signalr"
     ttl: 300
-    record: "vh-infra-core-ithc.service.signalr.net"
-  - name: "afdverify.dss-update-case"
-    ttl: 3600
     record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   - name: "dss-update-case"
     ttl: 300
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
-  - name: "vh-wowza"
-    ttl: 300
-    record: "vh-infra-wowza-ithc.uksouth.cloudapp.azure.com"
   - name: "afdverify.sptribs-frontend"
     ttl: 3600
     record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
@@ -367,12 +368,6 @@ cname:
   - name: "et-pet-admin"
     ttl: 300
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
-  - name: vh-service-web
-    record: sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
-    ttl: 300
-  - name: adverify.vh-service-web
-    record: afdverify.sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net
-    ttl: 300
   - name: "cui-ra"
     ttl: 300
     record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
@@ -394,3 +389,32 @@ cname:
   - name: "pcs"
     ttl: 300
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "afdverify.wa-reporting-frontend"
+    ttl: 300
+    record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "wa-reporting-frontend"
+    ttl: 300
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "courtfines-app"
+    ttl: 300
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "pt"
+    ttl: 300
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  # PDDA
+  - name: "pdda-public-display-data-aggregator"
+    ttl: 300
+    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
+  - name: "pdda-public-display-manager"
+    ttl: 300
+    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
+  # Court and Tribunal Hearings
+  - name: "cath-web"
+    ttl: 300
+    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
+  - name: "afdverify.cath-web"
+    ttl: 300
+    record: "afdverify.sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
+  - name: "sign-in.cath-web"
+    ttl: 300
+    record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"

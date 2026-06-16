@@ -16,10 +16,6 @@ A:
     shutter: false
 
 cname:
-  - name: "www"
-    platform: "cft"
-    ttl: 300
-    record: "mojmaintenance.azurewebsites.net"
   - name: "_5ecfb849dc48eea11d818fd219b68bb1"
     platform: "cft"
     ttl: 3600

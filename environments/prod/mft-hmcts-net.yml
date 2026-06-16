@@ -41,6 +41,9 @@ cname:
   - name: "baisexternal.ext"
     ttl: 300
     record: "hmcts-heritage-prod-fug4hfanetgdf6cz.z01.azurefd.net"
+  - name: "baisexternal-staging"
+    ttl: 300
+    record: "hmcts-heritage-stg-augbagbfeme3eqck.z01.azurefd.net"
   - name: "_88dbe07d793b449d310f7fa36a6446d9.baisexternal.ext"
     ttl: 300
     record: "757E9D0F96BAEB2A99EABD95EF1ADC98.36E658BA35DD72F344124BF4AAD7D361.6f1c6c3c7bb52eb41a2c.comodoca.com."

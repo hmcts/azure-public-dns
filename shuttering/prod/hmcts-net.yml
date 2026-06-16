@@ -74,6 +74,8 @@ A:
     shutter: false
   - name: tools.prp
     shutter: false
+  - name: staging.tools
+    shutter: false
 
 cname:
   - name: "*.dev.cpp"
@@ -97,8 +99,6 @@ cname:
   - name: selector2._domainkey
     shutter: false
   - name: sip
-    shutter: false
-  - name: tools.oldprd
     shutter: false
   - name: www.notices
     shutter: false

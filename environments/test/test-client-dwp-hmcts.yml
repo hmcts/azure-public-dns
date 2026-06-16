@@ -1,0 +1,17 @@
+zone_name: "test-client-dwp.hmcts.net"
+
+ns: []
+
+mx: []
+
+txt:
+  - name: "_dnsauth"
+    ttl: 3600
+    record:
+      - "_48evv24gq1c4lk8mzr3xqf1hqf7ff0c"
+
+srv: []
+
+A: []
+
+cname: []

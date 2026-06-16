@@ -7,7 +7,7 @@ trigger:
   batch: true
   branches:
     include:
-    - master
+      - master
   paths:
     include:
       - scripts/sync-to-private-dns-zone.sh
@@ -21,12 +21,12 @@ schedules:
     branches:
       include:
         - master
-    
+
 variables:
   - name: timeoutInMinutes
     value: 60
   - name: agentPool
-    value: 'ubuntu-latest'
+    value: "ubuntu-latest"
   - name: build
     value: $(Build.BuildNumber)
   - name: ado_service_connection
@@ -42,74 +42,74 @@ parameters:
   - name: environment_components
     type: object
     default:
-      - deployment: 'Sandbox'
-        environment: 'sandbox'
-        component: 'sandbox'
-        publicZoneResourceGroup: 'reformmgmtrg'
-        publicZoneSubscription: 'Reform-CFT-Mgmt'
-        privateZoneSubscription: 'DTS-CFTSBOX-INTSVC'
-        privateZoneResourceGroup: 'core-infra-intsvc-rg'
-        zones: '"[{\"dnsname\": \"sandbox.platform.hmcts.net\", \"filename\": \"environments/sandbox.yml\"}]"'
+      - deployment: "Sandbox"
+        environment: "sandbox"
+        component: "sandbox"
+        publicZoneResourceGroup: "reformmgmtrg"
+        publicZoneSubscription: "Reform-CFT-Mgmt"
+        privateZoneSubscription: "DTS-CFTSBOX-INTSVC"
+        privateZoneResourceGroup: "core-infra-intsvc-rg"
+        zones: '"[{\"dnsname\": \"sandbox.platform.hmcts.net\", \"filename\": \"environments/sandbox.yml\"},{\"dnsname\": \"sandbox.apps.hmcts.net\", \"filename\": \"environments/sandbox/sandbox-apps-hmcts-net.yml\"}]"'
         dependsOn:
           - Pipeline
-      - deployment: 'Demo'
-        environment: 'demo'
-        component: 'demo'
-        publicZoneResourceGroup: 'reformmgmtrg'
-        publicZoneSubscription: 'Reform-CFT-Mgmt'
-        privateZoneSubscription: 'DTS-CFTPTL-INTSVC'
-        privateZoneResourceGroup: 'core-infra-intsvc-rg'
-        zones: '"[{\"dnsname\": \"demo.platform.hmcts.net\", \"filename\": \"environments/demo/demo-platform-hmcts-net.yml\"}]"'
+      - deployment: "Demo"
+        environment: "demo"
+        component: "demo"
+        publicZoneResourceGroup: "reformmgmtrg"
+        publicZoneSubscription: "Reform-CFT-Mgmt"
+        privateZoneSubscription: "DTS-CFTPTL-INTSVC"
+        privateZoneResourceGroup: "core-infra-intsvc-rg"
+        zones: '"[{\"dnsname\": \"demo.platform.hmcts.net\", \"filename\": \"environments/demo/demo-platform-hmcts-net.yml\"},{\"dnsname\": \"demo.apps.hmcts.net\", \"filename\": \"environments/demo/demo-apps-hmcts-net.yml\"}]"'
         dependsOn:
           - Sandbox
-      - deployment: 'Dev'
-        environment: 'dev'
-        component: 'dev'
-        publicZoneResourceGroup: 'reformmgmtrg'
-        publicZoneSubscription: 'Reform-CFT-Mgmt'
-        privateZoneSubscription: 'DTS-CFTPTL-INTSVC'
-        privateZoneResourceGroup: 'core-infra-intsvc-rg'
-        zones: '"[{\"dnsname\": \"dev.platform.hmcts.net\", \"filename\": \"environments/dev/dev.yml\"},{\"dnsname\": \"preview.platform.hmcts.net\", \"filename\": \"environments/dev/preview.yml\"}]"'
+      - deployment: "Dev"
+        environment: "dev"
+        component: "dev"
+        publicZoneResourceGroup: "reformmgmtrg"
+        publicZoneSubscription: "Reform-CFT-Mgmt"
+        privateZoneSubscription: "DTS-CFTPTL-INTSVC"
+        privateZoneResourceGroup: "core-infra-intsvc-rg"
+        zones: '"[{\"dnsname\": \"dev.platform.hmcts.net\", \"filename\": \"environments/dev/dev.yml\"},{\"dnsname\": \"preview.platform.hmcts.net\", \"filename\": \"environments/dev/preview.yml\"},{\"dnsname\": \"dev.apps.hmcts.net\", \"filename\": \"environments/dev/dev-apps-hmcts-net.yml\"}]"'
         dependsOn:
           - Sandbox
-      - deployment: 'Ithc'
-        environment: 'ithc'
-        component: 'ithc'
-        publicZoneResourceGroup: 'reformmgmtrg'
-        publicZoneSubscription: 'Reform-CFT-Mgmt'
-        privateZoneSubscription: 'DTS-CFTPTL-INTSVC'
-        privateZoneResourceGroup: 'core-infra-intsvc-rg'
-        zones: '"[{\"dnsname\": \"ithc.platform.hmcts.net\", \"filename\": \"environments/ithc.yml\"}]"'
+      - deployment: "Ithc"
+        environment: "ithc"
+        component: "ithc"
+        publicZoneResourceGroup: "reformmgmtrg"
+        publicZoneSubscription: "Reform-CFT-Mgmt"
+        privateZoneSubscription: "DTS-CFTPTL-INTSVC"
+        privateZoneResourceGroup: "core-infra-intsvc-rg"
+        zones: '"[{\"dnsname\": \"ithc.platform.hmcts.net\", \"filename\": \"environments/ithc.yml\"},{\"dnsname\": \"ithc.apps.hmcts.net\", \"filename\": \"environments/ithc/ithc-apps-hmcts-net.yml\"}]"'
         dependsOn:
           - Sandbox
-      - deployment: 'Test'
-        environment: 'test'
-        component: 'test'
-        publicZoneResourceGroup: 'reformmgmtrg'
-        publicZoneSubscription: 'Reform-CFT-Mgmt'
-        privateZoneSubscription: 'DTS-CFTPTL-INTSVC'
-        privateZoneResourceGroup: 'core-infra-intsvc-rg'
-        zones: '"[{\"dnsname\": \"test.platform.hmcts.net\", \"filename\": \"environments/test/test.yml\"},{\"dnsname\": \"perftest.platform.hmcts.net\", \"filename\": \"environments/test/perftest.yml\"}]"'
+      - deployment: "Test"
+        environment: "test"
+        component: "test"
+        publicZoneResourceGroup: "reformmgmtrg"
+        publicZoneSubscription: "Reform-CFT-Mgmt"
+        privateZoneSubscription: "DTS-CFTPTL-INTSVC"
+        privateZoneResourceGroup: "core-infra-intsvc-rg"
+        zones: '"[{\"dnsname\": \"test.platform.hmcts.net\", \"filename\": \"environments/test/test.yml\"},{\"dnsname\": \"perftest.platform.hmcts.net\", \"filename\": \"environments/test/perftest.yml\"},{\"dnsname\": \"test.apps.hmcts.net\", \"filename\": \"environments/test/test-apps-hmcts-net.yml\"}]"'
         dependsOn:
           - Sandbox
-      - deployment: 'Staging'
-        environment: 'staging'
-        component: 'staging'
-        publicZoneResourceGroup: 'reformmgmtrg'
-        publicZoneSubscription: 'Reform-CFT-Mgmt'
-        privateZoneSubscription: 'DTS-CFTPTL-INTSVC'
-        privateZoneResourceGroup: 'core-infra-intsvc-rg'
-        zones: '"[{\"dnsname\": \"staging.hearings.reform.hmcts.net\", \"filename\": \"environments/staging/hearings-reform-hmcts-net.yml\"},{\"dnsname\": \"aat.platform.hmcts.net\", \"filename\": \"environments/staging/aat.yml\"},{\"dnsname\": \"staging.platform.hmcts.net\", \"filename\": \"environments/staging/staging.yml\"},{\"dnsname\": \"staging.internal.hmcts.net\", \"filename\": \"environments/staging/staging-internal-hmcts-net.yml\"}]"'
+      - deployment: "Staging"
+        environment: "staging"
+        component: "staging"
+        publicZoneResourceGroup: "reformmgmtrg"
+        publicZoneSubscription: "Reform-CFT-Mgmt"
+        privateZoneSubscription: "DTS-CFTPTL-INTSVC"
+        privateZoneResourceGroup: "core-infra-intsvc-rg"
+        zones: '"[{\"dnsname\": \"staging.hearings.reform.hmcts.net\", \"filename\": \"environments/staging/hearings-reform-hmcts-net.yml\"},{\"dnsname\": \"aat.platform.hmcts.net\", \"filename\": \"environments/staging/aat.yml\"},{\"dnsname\": \"staging.platform.hmcts.net\", \"filename\": \"environments/staging/staging.yml\"},{\"dnsname\": \"staging.internal.hmcts.net\", \"filename\": \"environments/staging/staging-internal-hmcts-net.yml\"},{\"dnsname\": \"staging.apps.hmcts.net\", \"filename\": \"environments/staging/staging-apps-hmcts-net.yml\"}]"'
         dependsOn:
           - Sandbox
-      - deployment: 'Prod'
-        environment: 'prod'
-        component: 'prod'
-        publicZoneResourceGroup: 'reformmgmtrg'
-        publicZoneSubscription: 'Reform-CFT-Mgmt'
-        privateZoneSubscription: 'DTS-CFTPTL-INTSVC'
-        privateZoneResourceGroup: 'core-infra-intsvc-rg'
-        zones: '"[{\"dnsname\": \"hearings.reform.hmcts.net\", \"filename\": \"environments/prod/hearings-reform-hmcts-net.yml\"},{\"dnsname\": \"hmcts.net\", \"filename\": \"environments/prod/hmcts-net.yml\"},{\"dnsname\": \"mailrelay.platform.hmcts.net\", \"filename\": \"environments/prod/mailrelay-platform-hmcts-net.yml\"},{\"dnsname\": \"platform.hmcts.net\", \"filename\": \"environments/prod/platform-hmcts-net.yml\"},{\"dnsname\": \"prod.internal.hmcts.net\", \"filename\": \"environments/prod/prod-internal-hmcts-net.yml\"},{\"dnsname\": \"prod.platform.hmcts.net\", \"filename\": \"environments/prod/prod-platform-hmcts-net.yml\"},{\"dnsname\": \"reform.hmcts.net\", \"filename\": \"environments/prod/reform-hmcts-net.yml\"}]"'
+      - deployment: "Prod"
+        environment: "prod"
+        component: "prod"
+        publicZoneResourceGroup: "reformmgmtrg"
+        publicZoneSubscription: "Reform-CFT-Mgmt"
+        privateZoneSubscription: "DTS-CFTPTL-INTSVC"
+        privateZoneResourceGroup: "core-infra-intsvc-rg"
+        zones: '"[{\"dnsname\": \"hearings.reform.hmcts.net\", \"filename\": \"environments/prod/hearings-reform-hmcts-net.yml\"},{\"dnsname\": \"hmcts.net\", \"filename\": \"environments/prod/hmcts-net.yml\"},{\"dnsname\": \"mailrelay.platform.hmcts.net\", \"filename\": \"environments/prod/mailrelay-platform-hmcts-net.yml\"},{\"dnsname\": \"platform.hmcts.net\", \"filename\": \"environments/prod/platform-hmcts-net.yml\"},{\"dnsname\": \"prod.internal.hmcts.net\", \"filename\": \"environments/prod/prod-internal-hmcts-net.yml\"},{\"dnsname\": \"prod.platform.hmcts.net\", \"filename\": \"environments/prod/prod-platform-hmcts-net.yml\"},{\"dnsname\": \"reform.hmcts.net\", \"filename\": \"environments/prod/reform-hmcts-net.yml\"},{\"dnsname\": \"apps.hmcts.net\", \"filename\": \"environments/prod/apps-hmcts-net.yml\"}]"'
         dependsOn:
           - Sandbox
 
@@ -133,5 +133,5 @@ stages:
                 inputs:
                   scriptType: bash
                   scriptPath: scripts/sync-to-private-dns-zone.sh
-                  arguments: '${{ deployment.publicZoneResourceGroup }} ${{ deployment.publicZoneSubscription }} ${{ deployment.privateZoneResourceGroup }} ${{ deployment.privateZoneSubscription }} ${{ deployment.zones }}'
+                  arguments: "${{ deployment.publicZoneResourceGroup }} ${{ deployment.publicZoneSubscription }} ${{ deployment.privateZoneResourceGroup }} ${{ deployment.privateZoneSubscription }} ${{ deployment.zones }}"
                   azureSubscription: ${{ variables.ado_service_connection }}

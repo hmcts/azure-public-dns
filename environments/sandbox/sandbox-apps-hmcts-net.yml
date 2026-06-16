@@ -20,3 +20,9 @@ cname:
   - name: "juror-public"
     ttl: 300
     record: "sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
+  - name: "csds"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
+  - name: "csds-passive"
+    ttl: 300
+    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"

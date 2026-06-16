@@ -2,7 +2,15 @@ zone_name: "cjscp.org.uk"
 
 ns: []
 
-txt: []
+txt: 
+   - name: "_dmarc"
+     ttl: 3600
+     record:
+       - "v=DMARC1; p=none"
+   - name: "@"
+     ttl: 3600
+     record:
+       - "v=spf1 include:sendgrid.net ~all"
 
 srv: []
 
@@ -81,7 +89,7 @@ A:
   - name: identity-gateway
     ttl: 3600
     record:
-      - 13.79.32.203
+      - 4.250.100.60
   - name: identity-gateway.bae
     ttl: 3600
     record:
@@ -109,7 +117,7 @@ A:
   - name: login
     ttl: 3600
     record:
-      - 13.79.32.203
+      - 4.250.100.60
   - name: login.bae
     ttl: 3600
     record:
@@ -133,7 +141,7 @@ A:
   - name: manage-users
     ttl: 3600
     record:
-      - 13.79.32.203
+      - 4.250.100.60
   - name: manage-users.bae
     ttl: 3600
     record:
@@ -157,7 +165,7 @@ A:
   - name: my-services
     ttl: 3600
     record:
-      - 13.79.32.203
+      - 4.250.100.60
   - name: my-services.bae
     ttl: 3600
     record:
@@ -214,6 +222,10 @@ A:
     ttl: 3600
     record:
       - 51.140.120.225
+  - name: peach.dev
+    ttl: 3600
+    record:
+      - 51.11.44.0
   - name: prosecuting
     ttl: 1800
     record:
@@ -262,6 +274,10 @@ A:
     ttl: 600
     record:
       - 51.140.120.225
+  - name: result-definitions.sit
+    ttl: 600
+    record:
+      - 51.140.120.225
   - name: rota
     ttl: 1800
     record:
@@ -301,7 +317,7 @@ A:
   - name: token
     ttl: 1800
     record:
-      - 13.79.32.203
+      - 4.250.100.60
   - name: token.bae
     ttl: 3600
     record:
@@ -317,7 +333,7 @@ A:
   - name: token.prp
     ttl: 1800
     record:
-      - 51.143.238.233
+      - 145.133.52.205
   - name: token.prp2
     ttl: 3600
     record:
@@ -342,6 +358,46 @@ A:
     ttl: 1800
     record:
       - 13.79.245.35
+  - name: tmc.dev
+    ttl: 3600
+    record:
+      - 51.11.44.0
+  - name: amp.dev
+    ttl: 3600
+    record:
+      - 51.11.44.0
+  - name: tmc.sit
+    ttl: 3600
+    record:
+      - 51.140.120.225
+  - name: amp.sit
+    ttl: 3600
+    record:
+      - 51.140.120.225
+  - name: tmc.prp
+    ttl: 1800
+    record:
+      - 51.140.189.195
+  - name: amp.prp
+    ttl: 1800
+    record:
+      - 51.140.189.195
+  - name: tmc
+    ttl: 1800
+    record:
+      - 51.140.120.175
+  - name: amp
+    ttl: 1800
+    record:
+      - 51.140.120.175
+  - name: cpp-gob-gateway-service.sit
+    ttl: 3600
+    record:
+      - 51.140.120.225
+  - name: cpp-gob-gateway-service.prd
+    ttl: 3600
+    record:
+      - 51.140.120.175
 
 cname:
   - name: em5650
@@ -368,9 +424,6 @@ cname:
   - name: login.nft.cpp
     ttl: 3600
     record: token.nft.cpp.cjscp.org.uk.
-  - name: login.nftpr2
-    ttl: 600
-    record: idamnftpreview.northeurope.cloudapp.azure.com.
   - name: login.prp
     ttl: 1800
     record: token.prp.cjscp.org.uk.
@@ -380,9 +433,6 @@ cname:
   - name: manage-users.nft.cpp
     ttl: 3600
     record: token.nft.cpp.cjscp.org.uk.
-  - name: manage-users.nftpr2
-    ttl: 600
-    record: idamnftpreview.northeurope.cloudapp.azure.com.
   - name: manage-users.prp
     ttl: 1800
     record: token.prp.cjscp.org.uk.
@@ -392,18 +442,24 @@ cname:
   - name: my-services.nft.cpp
     ttl: 3600
     record: token.nft.cpp.cjscp.org.uk.
-  - name: my-services.nftpr2
-    ttl: 600
-    record: idamnftpreview.northeurope.cloudapp.azure.com.
   - name: my-services.prp
     ttl: 1800
     record: token.prp.cjscp.org.uk.
-  - name: token.nftpr2
-    ttl: 600
-    record: idamnftpreview.northeurope.cloudapp.azure.com.
   - name: em2687.bae
     ttl: 600
     record: u16040309.wl060.sendgrid.net
+  - name: _9r3989dwbyo1tmwcgbdbtg2o4ns45fx.prosecuting
+    ttl: 600
+    record: dcv.digicert.com
+  - name: _9r3989dwbyo1tmwcgbdbtg2o4ns45fx.www.prosecuting
+    ttl: 600
+    record: dcv.digicert.com
+  - name: _3rg1bl2hn902qoe1yrlbv38gtesy36u.api
+    ttl: 600
+    record: dcv.digicert.com
+  - name: _3rg1bl2hn902qoe1yrlbv38gtesy36u.www.api
+    ttl: 600
+    record: dcv.digicert.com
   - name: s1._domainkey.bae
     ttl: 600
     record: s1.domainkey.u16040309.wl060.sendgrid.net
@@ -419,9 +475,273 @@ cname:
   - name: s2._domainkey
     ttl: 600
     record: s2.domainkey.u10165397.wl148.sendgrid.net
-  - name: _402355E73E1D5E5702B52A7E0FCADB47.rota.prp
+  - name: _82cqt3fwj7qk0o5og4al19upx7jnsjs.cpp-gob-gateway-service.sit
+    ttl: 600
+    record: dcv.digicert.com.
+  - name: _82cqt3fwj7qk0o5og4al19upx7jnsjs.www.cpp-gob-gateway-service.sit
+    ttl: 600
+    record: dcv.digicert.com.
+  - name: _g5g5zj65bqy99lmunl2dnlbly9sfkz8.cpp-gob-gateway-service.prd
     ttl: 10800
-    record: F54B4DE2F26CBCDA2633F472F9A295F0.C5F03CF9FBA0E2929EBAB1ADE0B4141E.3da52e84b9b15accf25a.sectigo.com.
-  - name: _6B0CACFD8271C98253665DECFB14C9E8.onlineplea.dev07
+    record: dcv.digicert.com.
+  - name: _g5g5zj65bqy99lmunl2dnlbly9sfkz8.www.cpp-gob-gateway-service.prd
     ttl: 10800
-    record: 0038996DC51E8FF3090B0A15A18D2C62.81206B7701E6056DF90B2B541DA24D83.d7dc4cf777c7177d7d5c.sectigo.com.
+    record: dcv.digicert.com.
+  - name: _dnsauth.apigw.sit
+    ttl: 10800
+    record: _9tnyb5ahd2oj0aais9gtfzgfqv9ewxp.dcv.digicert.com
+  - name: _dnsauth.www.apigw.sit
+    ttl: 10800
+    record: _9tnyb5ahd2oj0aais9gtfzgfqv9ewxp.dcv.digicert.com
+  - name: _dnsauth.api.dev
+    ttl: 10800
+    record: _8eqawsolv0cq88zpv1t6uti2q7ido79.dcv.digicert.com
+  - name: _dnsauth.www.api.dev
+    ttl: 10800
+    record: _8eqawsolv0cq88zpv1t6uti2q7ido79.dcv.digicert.com
+  - name: _dnsauth.prosecuting.dev07
+    ttl: 10800
+    record: _ykhe45qpvpbwvw86ruma5l866gwcwfb.dcv.digicert.com
+  - name: _dnsauth.www.prosecuting.dev07
+    ttl: 10800
+    record: _ykhe45qpvpbwvw86ruma5l866gwcwfb.dcv.digicert.com
+  - name: _dnsauth.prosecuting.sit
+    ttl: 10800
+    record: _nwn7e98imbwq3lcmg9daa7dmk0sez6q.dcv.digicert.com
+  - name: _dnsauth.www.prosecuting.sit
+    ttl: 10800
+    record: _nwn7e98imbwq3lcmg9daa7dmk0sez6q.dcv.digicert.com
+  - name: _dnsauth.apigw
+    ttl: 10800
+    record: _oqq29ey1v63w8w5xlp4y746nnjffb62.dcv.digicert.com
+  - name: _dnsauth.www.apigw
+    ttl: 10800
+    record: _oqq29ey1v63w8w5xlp4y746nnjffb62.dcv.digicert.com
+  - name: _dnsauth.apigw.dev
+    ttl: 10800
+    record: _y1dvy8e4m7bz02xc4oyf6pq7gier6d4.dcv.digicert.com
+  - name: _dnsauth.www.apigw.dev
+    ttl: 10800
+    record: _y1dvy8e4m7bz02xc4oyf6pq7gier6d4.dcv.digicert.com
+  - name: _dnsauth.login.prp
+    ttl: 10800
+    record: _qo9sm3q1ww2jfk9hugz8r6eq35o7c4z.dcv.digicert.com
+  - name: _dnsauth.identity-gateway.prp
+    ttl: 10800
+    record: _qo9sm3q1ww2jfk9hugz8r6eq35o7c4z.dcv.digicert.com
+  - name: _dnsauth.manage-users.prp
+    ttl: 10800
+    record: _qo9sm3q1ww2jfk9hugz8r6eq35o7c4z.dcv.digicert.com
+  - name: _dnsauth.my-services.prp
+    ttl: 10800
+    record: _qo9sm3q1ww2jfk9hugz8r6eq35o7c4z.dcv.digicert.com
+  - name: _dnsauth.token.prp
+    ttl: 10800
+    record: _qo9sm3q1ww2jfk9hugz8r6eq35o7c4z.dcv.digicert.com
+  - name: _dnsauth.apigw.prp
+    ttl: 10800
+    record: _lsiv858r6thaojf2zgk66ukpehikjgh.dcv.digicert.com
+  - name: _dnsauth.www.apigw.prp
+    ttl: 10800
+    record: _lsiv858r6thaojf2zgk66ukpehikjgh.dcv.digicert.com
+  - name: _dnsauth.rota.prp
+    ttl: 10800
+    record: _240gln0qx2aizwgotc4ow5ztc9uv23i.dcv.digicert.com
+  - name: _dnsauth.www.rota.prp
+    ttl: 10800
+    record: _240gln0qx2aizwgotc4ow5ztc9uv23i.dcv.digicert.com
+  - name: _dnsauth.onlineplea.dev07
+    ttl: 10800
+    record: _2h4isz8mw4o0zzt807dawe8syw40nm4.dcv.digicert.com
+  - name: _dnsauth.www.onlineplea.dev07
+    ttl: 10800
+    record: _2h4isz8mw4o0zzt807dawe8syw40nm4.dcv.digicert.com
+  - name: _dnsauth.onlineplea.dev
+    ttl: 10800
+    record: _76qspfvlfu213qx9b72jpnyg2jpqojj.dcv.digicert.com
+  - name: _dnsauth.www.onlineplea.dev
+    ttl: 10800
+    record: _76qspfvlfu213qx9b72jpnyg2jpqojj.dcv.digicert.com
+  - name: _dnsauth.rota
+    ttl: 10800
+    record: _usc06ixb7l9ic3d2ncy6cv1du13p685.dcv.digicert.com
+  - name: _dnsauth.www.rota
+    ttl: 10800
+    record: _usc06ixb7l9ic3d2ncy6cv1du13p685.dcv.digicert.com
+  - name: _dnsauth.login.sit
+    ttl: 10800
+    record: _d6805yszziiko17gfuf2t7lzbvd2o52.dcv.digicert.com
+  - name: _dnsauth.email-client.sit
+    ttl: 10800
+    record: _d6805yszziiko17gfuf2t7lzbvd2o52.dcv.digicert.com
+  - name: _dnsauth.identity-gateway.sit
+    ttl: 10800
+    record: _d6805yszziiko17gfuf2t7lzbvd2o52.dcv.digicert.com
+  - name: _dnsauth.manage-users.sit
+    ttl: 10800
+    record: _d6805yszziiko17gfuf2t7lzbvd2o52.dcv.digicert.com
+  - name: _dnsauth.my-services.sit
+    ttl: 10800
+    record: _d6805yszziiko17gfuf2t7lzbvd2o52.dcv.digicert.com
+  - name: _dnsauth.prosecuting-stub-idam.sit
+    ttl: 10800
+    record: _d6805yszziiko17gfuf2t7lzbvd2o52.dcv.digicert.com
+  - name: _dnsauth.rota-stub-idam.sit
+    ttl: 10800
+    record: _d6805yszziiko17gfuf2t7lzbvd2o52.dcv.digicert.com
+  - name: _dnsauth.token.sit
+    ttl: 10800
+    record: _d6805yszziiko17gfuf2t7lzbvd2o52.dcv.digicert.com
+  - name: _dnsauth.nft02.cpp
+    ttl: 10800
+    record: _lvs1bz2q0a2n1lpcq8pdrhi9pcyd6ek.dcv.digicert.com
+  - name: _dnsauth.www.nft02.cpp
+    ttl: 10800
+    record: _lvs1bz2q0a2n1lpcq8pdrhi9pcyd6ek.dcv.digicert.com
+  - name: _dnsauth.login.nft
+    ttl: 10800
+    record: _lfox81t0fju1yj4xx2ldiggp1qpscn7.dcv.digicert.com
+  - name: _dnsauth.email-client.nft
+    ttl: 10800
+    record: _lfox81t0fju1yj4xx2ldiggp1qpscn7.dcv.digicert.com
+  - name: _dnsauth.identity-gateway.nft
+    ttl: 10800
+    record: _lfox81t0fju1yj4xx2ldiggp1qpscn7.dcv.digicert.com
+  - name: _dnsauth.manage-users.nft
+    ttl: 10800
+    record: _lfox81t0fju1yj4xx2ldiggp1qpscn7.dcv.digicert.com
+  - name: _dnsauth.my-services.nft
+    ttl: 10800
+    record: _lfox81t0fju1yj4xx2ldiggp1qpscn7.dcv.digicert.com
+  - name: _dnsauth.prosecuting-stub-idam.nft
+    ttl: 10800
+    record: _lfox81t0fju1yj4xx2ldiggp1qpscn7.dcv.digicert.com
+  - name: _dnsauth.rota-stub-idam.nft
+    ttl: 10800
+    record: _lfox81t0fju1yj4xx2ldiggp1qpscn7.dcv.digicert.com
+  - name: _dnsauth.token.nft
+    ttl: 10800
+    record: _lfox81t0fju1yj4xx2ldiggp1qpscn7.dcv.digicert.com
+  - name: _dnsauth.onlineplea.prp
+    ttl: 10800
+    record: _gp77wefh9v9nlsdf9s18akytvo56inj.dcv.digicert.com
+  - name: _dnsauth.www.onlineplea.prp
+    ttl: 10800
+    record: _gp77wefh9v9nlsdf9s18akytvo56inj.dcv.digicert.com
+  - name: _dnsauth.onlineplea
+    ttl: 10800
+    record: _k856u25d9umbr2q5w6d6f8bva9eg622.dcv.digicert.com
+  - name: _dnsauth.www.onlineplea
+    ttl: 10800
+    record: _k856u25d9umbr2q5w6d6f8bva9eg622.dcv.digicert.com
+  - name: _dnsauth.onlineplea.sit
+    ttl: 10800
+    record: _87qz0n9i5viaa63hpg20bcnx01mvdij.dcv.digicert.com
+  - name: _dnsauth.www.onlineplea.sit
+    ttl: 10800
+    record: _87qz0n9i5viaa63hpg20bcnx01mvdij.dcv.digicert.com
+  - name: _dnsauth.rota.sit
+    ttl: 10800
+    record: _h8oeskzp7181nqdewgly5teqrqwd5tf.dcv.digicert.com
+  - name: _dnsauth.www.rota.sit
+    ttl: 10800
+    record: _h8oeskzp7181nqdewgly5teqrqwd5tf.dcv.digicert.com
+  - name: _dnsauth.login.support
+    ttl: 10800
+    record: _d0xnrwh65rytziymvbfc97wyu4tq7zh.dcv.digicert.com
+  - name: _dnsauth.email-client.support
+    ttl: 10800
+    record: _d0xnrwh65rytziymvbfc97wyu4tq7zh.dcv.digicert.com
+  - name: _dnsauth.identity-gateway.support
+    ttl: 10800
+    record: _d0xnrwh65rytziymvbfc97wyu4tq7zh.dcv.digicert.com
+  - name: _dnsauth.manage-users.support
+    ttl: 10800
+    record: _d0xnrwh65rytziymvbfc97wyu4tq7zh.dcv.digicert.com
+  - name: _dnsauth.my-services.support
+    ttl: 10800
+    record: _d0xnrwh65rytziymvbfc97wyu4tq7zh.dcv.digicert.com
+  - name: _dnsauth.prosecuting-stub-idam.support
+    ttl: 10800
+    record: _d0xnrwh65rytziymvbfc97wyu4tq7zh.dcv.digicert.com
+  - name: _dnsauth.rota-stub-idam.support
+    ttl: 10800
+    record: _d0xnrwh65rytziymvbfc97wyu4tq7zh.dcv.digicert.com
+  - name: _dnsauth.token.support
+    ttl: 10800
+    record: _d0xnrwh65rytziymvbfc97wyu4tq7zh.dcv.digicert.com
+  - name: _dnsauth.result-definitions.sit
+    ttl: 10800
+    record: _phtzad291z7q4zx7va6uukw0yg7c6tv.dcv.digicert.com
+  - name: _dnsauth.www.result-definitions.sit
+    ttl: 10800
+    record: _phtzad291z7q4zx7va6uukw0yg7c6tv.dcv.digicert.com
+  - name:  _dnsauth.rota.nft
+    ttl: 10800
+    record: _llrj39ehc1f9ttc24txofqgao79bw8e.dcv.digicert.com
+  - name:  _dnsauth.www.rota.nft
+    ttl: 10800
+    record: _llrj39ehc1f9ttc24txofqgao79bw8e.dcv.digicert.com
+  - name:  _dnsauth.amp
+    ttl: 10800
+    record: _5r8naq96xe7priay8yc3yswnqpa7cph.dcv.digicert.com
+  - name:  _dnsauth.www.amp
+    ttl: 10800
+    record: _5r8naq96xe7priay8yc3yswnqpa7cph.dcv.digicert.com
+  - name:  _dnsauth.amp.dev
+    ttl: 10800
+    record: _liymg8benze8pvodfoz43c6mhscfi05.dcv.digicert.com
+  - name:  _dnsauth.www.amp.dev
+    ttl: 10800
+    record: _liymg8benze8pvodfoz43c6mhscfi05.dcv.digicert.com
+  - name:  _dnsauth.amp.sit
+    ttl: 10800
+    record: _qa40f4hbbhdcmdw73l98qpvotqrlpi7.dcv.digicert.com
+  - name:  _dnsauth.www.amp.sit
+    ttl: 10800
+    record: _qa40f4hbbhdcmdw73l98qpvotqrlpi7.dcv.digicert.com
+  - name:  _dnsauth.amp.nft
+    ttl: 10800
+    record: _ljxztbv3e7u3xrgfpd070846nl62qlz.dcv.digicert.com
+  - name:  _dnsauth.www.amp.nft
+    ttl: 10800
+    record: _ljxztbv3e7u3xrgfpd070846nl62qlz.dcv.digicert.com
+  - name:  _dnsauth.amp.prp
+    ttl: 10800
+    record: _7pvbn9mg9z4bactsc4vtszc9vwqygzd.dcv.digicert.com
+  - name:  _dnsauth.www.amp.prp
+    ttl: 10800
+    record: _7pvbn9mg9z4bactsc4vtszc9vwqygzd.dcv.digicert.com
+  - name: _dnsauth.login.test
+    ttl: 10800
+    record: _aovu4ya9m66l5d1f88t14v85fogs3po.dcv.digicert.com
+  - name: _dnsauth.email-client.test
+    ttl: 10800
+    record: _aovu4ya9m66l5d1f88t14v85fogs3po.dcv.digicert.com
+  - name: _dnsauth.identity-gateway.test
+    ttl: 10800
+    record: _aovu4ya9m66l5d1f88t14v85fogs3po.dcv.digicert.com
+  - name: _dnsauth.manage-users.test
+    ttl: 10800
+    record: _aovu4ya9m66l5d1f88t14v85fogs3po.dcv.digicert.com
+  - name: _dnsauth.my-services.test
+    ttl: 10800
+    record: _aovu4ya9m66l5d1f88t14v85fogs3po.dcv.digicert.com
+  - name: _dnsauth.prosecuting-stub-idam.test
+    ttl: 10800
+    record: _aovu4ya9m66l5d1f88t14v85fogs3po.dcv.digicert.com
+  - name: _dnsauth.rota-stub-idam.test
+    ttl: 10800
+    record: _aovu4ya9m66l5d1f88t14v85fogs3po.dcv.digicert.com
+  - name: _dnsauth.token.test
+    ttl: 10800
+    record: _aovu4ya9m66l5d1f88t14v85fogs3po.dcv.digicert.com
+  - name: _dnsauth.cath-stub-idam.test
+    ttl: 10800
+    record: _aovu4ya9m66l5d1f88t14v85fogs3po.dcv.digicert.com
+  - name: _dnsauth.peach.dev
+    ttl: 10800
+    record: _daa38miiwex8mbcmpzx7s1muj5y36y5.dcv.digicert.com
+  - name: _dnsauth.www.peach.dev
+    ttl: 10800
+    record: _daa38miiwex8mbcmpzx7s1muj5y36y5.dcv.digicert.com

@@ -4,7 +4,10 @@ ns: []
 
 mx: []
 
-txt: []
+txt:
+  - name: "asuid.judicialtranscribe"
+    ttl: 300
+    record: [ "372ecb9834b15f47c2e24e594d502573acc1d95a3d84387f14dad07b1d7dc1f8" ]
 
 srv: []
 
@@ -15,5 +18,20 @@ cname:
     ttl: 300
     record: "hmcts-nle-int-cfgpbgagf9eedcar.z01.azurefd.net"
   - name: "darts"
+    ttl: 300
+    record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
+  - name: "judicialtranscribe"
+    ttl: 300
+    record: "hmcts-preview-fkhfehdgahcrhbds.z01.azurefd.net"
+  - name: "csds"
+    ttl: 300
+    record: "hmcts-preview-fkhfehdgahcrhbds.z01.azurefd.net"
+  - name: "csds-passive"
+    ttl: 300
+    record: "hmcts-preview-fkhfehdgahcrhbds.z01.azurefd.net"
+  - name: "opal-frontend"
+    ttl: 300
+    record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
+  - name: "opal-rm-frontend"
     ttl: 300
     record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
