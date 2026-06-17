@@ -754,7 +754,7 @@ cname:
   - name: _dnsauth.login.bae
     ttl: 10800
     record: _u2iooucrwzm7nd5lcumr3j2hjsgh4gh.dcv.digicert.com
-  - name: _dnsauth.manage-users
+  - name: _dnsauth.manage-users.bae
     ttl: 10800
     record: _u2iooucrwzm7nd5lcumr3j2hjsgh4gh.dcv.digicert.com
   - name: _dnsauth.my-services.bae
