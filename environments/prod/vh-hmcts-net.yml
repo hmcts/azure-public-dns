@@ -13,11 +13,6 @@ A:
     ttl: 300
     record:
       - "34.89.63.94"
-  - name: "sip"
-    ttl: 300
-    record:
-      - "34.89.63.94"
-      - "34.89.118.38"
   - name: "test"
     ttl: 300
     record:
