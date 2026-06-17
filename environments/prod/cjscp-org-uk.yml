@@ -745,3 +745,21 @@ cname:
   - name: _dnsauth.www.peach.dev
     ttl: 10800
     record: _daa38miiwex8mbcmpzx7s1muj5y36y5.dcv.digicert.com
+  - name: _dnsauth.prosecuting.bae
+    ttl: 10800
+    record: _u2iooucrwzm7nd5lcumr3j2hjsgh4gh.dcv.digicert.com
+  - name: _dnsauth.identity-gateway.bae
+    ttl: 10800
+    record: _u2iooucrwzm7nd5lcumr3j2hjsgh4gh.dcv.digicert.com
+  - name: _dnsauth.login.bae
+    ttl: 10800
+    record: _u2iooucrwzm7nd5lcumr3j2hjsgh4gh.dcv.digicert.com
+  - name: _dnsauth.manage-users
+    ttl: 10800
+    record: _u2iooucrwzm7nd5lcumr3j2hjsgh4gh.dcv.digicert.com
+  - name: _dnsauth.my-services.bae
+    ttl: 10800
+    record: _u2iooucrwzm7nd5lcumr3j2hjsgh4gh.dcv.digicert.com
+  - name: _dnsauth.token.bae
+    ttl: 10800
+    record: _u2iooucrwzm7nd5lcumr3j2hjsgh4gh.dcv.digicert.com
