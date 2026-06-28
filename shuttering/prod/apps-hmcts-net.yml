@@ -37,7 +37,7 @@ cname:
 
     # DARTS
   - name: "darts"
-    shutter: false
+    shutter: true
 
     # Juror
   - name: "juror"
