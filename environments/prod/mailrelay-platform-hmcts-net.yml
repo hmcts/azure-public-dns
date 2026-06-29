@@ -6,16 +6,16 @@ mx: []
 
 srv: []
 
-A:
-  - name: "prod"
-    ttl: 60
-    record:
-      - "10.144.15.15" # sds-00
-      - "10.144.31.31" # sds-01
-  - name: "dev"
-    ttl: 60
-    record:
-      - "10.145.31.31" # 01
+A: []
+  # - name: "prod"
+  #   ttl: 60
+  #   record:
+  #     - "10.144.15.15" # sds-00
+  #     - "10.144.31.31" # sds-01
+  # - name: "dev"
+  #   ttl: 60
+  #   record:
+  #     - "10.145.31.31" # 01
 
 txt:
   - name: "prod"
