@@ -22,3 +22,5 @@ cname:
     shutter: false
   - name: "admin"
     shutter: false
+  - name: "admin-new"
+    shutter: false
