@@ -331,7 +331,6 @@ cname:
   - name: "plum"
     ttl: 300
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.plum"
     ttl: 3600
     record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"

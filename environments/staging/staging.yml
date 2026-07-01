@@ -61,7 +61,6 @@ cname:
   - name: "toffee"
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.toffee"
     ttl: 3600
     record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
@@ -89,18 +88,15 @@ cname:
   - name: "pre-portal"
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.pre-portal"
     ttl: 3600
     record: "afdverify.sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
   - name: "courtfines-app"
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
-    shutter: false
   - name: "pdda-public-display-data-aggregator"
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
-    shutter: false
   - name: "pdda-public-display-manager"
     ttl: 300
     record: "sdshmcts-stg-abfwhrf8g0btcqhe.z01.azurefd.net"
