@@ -19,22 +19,18 @@ cname:
     platform: "sds"
     ttl: 60
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.www"
     platform: "sds"
     ttl: 300
     record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
-    shutter: false
   - name: "www.portal"
     platform: "sds"
     ttl: 60
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.www.portal"
     platform: "sds"
     ttl: 300
     record: "afdverify.sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.portal"
     platform: "sds"
     ttl: 300

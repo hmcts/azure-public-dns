@@ -19,7 +19,6 @@ cname:
     platform: "cft"
     ttl: 60
     record: "www.apply-divorce.service.gov.uk"
-    shutter: false
   - name: "decree-absolute"
     platform: "cft"
     ttl: 300
@@ -28,7 +27,6 @@ cname:
     platform: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.www.decree-absolute"
     platform: "cft"
     ttl: 3600
@@ -41,7 +39,6 @@ cname:
     platform: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.www.decree-nisi"
     platform: "cft"
     ttl: 3600
@@ -54,7 +51,6 @@ cname:
     platform: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.www.manage-application"
     platform: "cft"
     ttl: 3600
@@ -63,7 +59,6 @@ cname:
     platform: "cft"
     ttl: 120
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.www"
     platform: "cft"
     ttl: 3600
