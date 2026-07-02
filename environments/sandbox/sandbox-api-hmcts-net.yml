@@ -7,10 +7,7 @@ mx: []
 A:
   - name: "@"
     ttl: 60
-    record:
-      alias_target_resource_id: "/subscriptions/bd2864ed-4f3e-45ed-9c6a-8d179674bab1/\
-        resourceGroups/rg-sps-platform-sbox/providers/Microsoft.Network/publicI\
-        PAddresses/spshmcts-apim-appgw-sandbox-pip"
+    alias_target_resource_id: "/subscriptions/bd2864ed-4f3e-45ed-9c6a-8d179674bab1/resourceGroups/rg-sps-platform-sbox/providers/Microsoft.Network/publicIPAddresses/spshmcts-apim-appgw-sandbox-pip"
   - name: "sps-api-mgmt-appgw"
     ttl: 60
     alias_target_resource_id: "/subscriptions/bd2864ed-4f3e-45ed-9c6a-8d179674bab1/\
@@ -24,9 +21,7 @@ srv: []
 cname:
   - name: "amp-portal"
     ttl: 60
-    record:
-      - "sps-api-mgmt-appgw.sandbox.api.hmcts.net"
+    record: "sps-api-mgmt-appgw.sandbox.api.hmcts.net"
   - name: "sps-api-mgmt"
     ttl: 60
-    record:
-      - "sps-api-mgmt-appgw.sandbox.api.hmcts.net"
+    record: "sps-api-mgmt-appgw.sandbox.api.hmcts.net"
