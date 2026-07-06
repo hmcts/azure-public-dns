@@ -29,5 +29,7 @@ cname:
   - name: "opal-rm-frontend"
     ttl: 300
     record: "sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net"
-    
+  - name: "appreg"
+    ttl: 300
+    record: "sdshmcts-test-a2d9enhbenftckhu.z01.azurefd.net"
     
