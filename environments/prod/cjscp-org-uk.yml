@@ -763,3 +763,15 @@ cname:
   - name: _dnsauth.token.bae
     ttl: 10800
     record: _u2iooucrwzm7nd5lcumr3j2hjsgh4gh.dcv.digicert.com
+  - name: _dnsauth.prd
+    ttl: 10800
+    record: _t54od9vjobgdtvjv1ij2jdvm1hxj31y.dcv.digicert.com
+  - name: _dnsauth.www.prd
+    ttl: 10800
+    record: _t54od9vjobgdtvjv1ij2jdvm1hxj31y.dcv.digicert.com
+  - name: _dnsauth.prp
+    ttl: 10800
+    record: _a9yvpsom6o70x1e9wi66o8pl4uupnxx.dcv.digicert.com
+  - name: _dnsauth.www.prp
+    ttl: 10800
+    record: _a9yvpsom6o70x1e9wi66o8pl4uupnxx.dcv.digicert.com
