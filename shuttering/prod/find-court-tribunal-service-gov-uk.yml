@@ -24,3 +24,5 @@ cname:
     shutter: false
   - name: "admin-new"
     shutter: false
+  - name: "new"
+    shutter: false
