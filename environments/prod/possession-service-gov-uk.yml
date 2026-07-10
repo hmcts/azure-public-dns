@@ -1,4 +1,4 @@
-zone_name: "pcs.service.gov.uk"
+zone_name: "possession.service.gov.uk"
 
 ns: []
 
@@ -17,12 +17,12 @@ cname:
     platform: "cft"
     ttl: 120
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false 
-  # - name: "*"
-  #   platform: "cft"
-  #   ttl: 60
-  #   record: "www.pcs.service.gov.uk"
-  #   shutter: false
+    shutter: true 
+  - name: "*"
+    platform: "cft"
+    ttl: 60
+    record: "www.possession.service.gov.uk"
+    shutter: true
   - name: "afdverify.www"
     platform: "cft"
     ttl: 3600
