@@ -1,0 +1,29 @@
+zone_name: "pcs.service.gov.uk"
+
+ns: []
+
+mx: []
+
+txt: []
+
+srv: []
+
+A: []
+
+
+
+cname:
+  - name: "www"
+    platform: "cft"
+    ttl: 120
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+    shutter: false 
+  # - name: "*"
+  #   platform: "cft"
+  #   ttl: 60
+  #   record: "www.pcs.service.gov.uk"
+  #   shutter: false
+  - name: "afdverify.www"
+    platform: "cft"
+    ttl: 3600
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
