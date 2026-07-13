@@ -18,11 +18,6 @@ cname:
     ttl: 120
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: true 
-  - name: "*"
-    platform: "cft"
-    ttl: 60
-    record: "www.possession.service.gov.uk"
-    shutter: true
   - name: "afdverify.www"
     platform: "cft"
     ttl: 3600
