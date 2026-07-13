@@ -20,8 +20,4 @@ A: []
 
 cname:
   - name: "www"
-    shutter: true 
-  - name: "*"
-    shutter: true
-  - name: "www.possession.service.gov.uk"
     shutter: true
