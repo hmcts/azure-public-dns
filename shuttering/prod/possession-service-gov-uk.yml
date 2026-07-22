@@ -20,4 +20,4 @@ A: []
 
 cname:
   - name: "www"
-    shutter: false
+    shutter: true
