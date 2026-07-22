@@ -1,5 +1,4 @@
 # Azure Public DNS
-
 This repository contains the Terraform code/module, DNS configuration files and shutter configuration files for the Azure Public DNS zones on HMCTS.
 
 The repository is responsible for creating the zone and each record type within that zone.
