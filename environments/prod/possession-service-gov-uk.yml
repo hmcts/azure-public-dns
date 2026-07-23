@@ -16,8 +16,8 @@ cname:
   - name: "www"
     platform: "cft"
     ttl: 60
-    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: true  
+    record: "polite-forest-0b4b7fa03.7.azurestaticapps.net"
+    shutter: false  
   - name: "afdverify.www"
     platform: "cft"
     ttl: 300
