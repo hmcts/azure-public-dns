@@ -83,7 +83,7 @@ cname:
   - name: "manage-org"
     shutter: false
   - name: "pcs"
-    shutter: false
+    shutter: true
   - name: "www.moneyclaim-legal"
     shutter: false
   - name: "paybubble"
