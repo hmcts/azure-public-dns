@@ -70,21 +70,18 @@ cname:
   - name: "toffee"
     ttl: 300
     record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.toffee"
     ttl: 3600
     record: "afdverify.sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
   - name: "jdbureau"
     ttl: 300
     record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.jdbureau"
     ttl: 3600
     record: "afdverify.sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
   - name: "jdfrontend"
     ttl: 300
     record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.jdfrontend"
     ttl: 3600
     record: "afdverify.sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
@@ -121,7 +118,6 @@ cname:
   - name: "pre-portal"
     ttl: 300
     record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.pre-portal"
     ttl: 3600
     record: "afdverify.sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"

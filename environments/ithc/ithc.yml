@@ -104,7 +104,6 @@ cname:
   - name: "idam-web-public"
     ttl: 300
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.civil-citizen-ui"
     ttl: 300
     record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
@@ -246,11 +245,9 @@ cname:
   - name: "toffee"
     ttl: 300
     record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
-    shutter: false
   - name: "toffee3"
     ttl: 300
     record: "sdshmcts-new-test-ithc-gua7aqh4eybzcdgd.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.toffee"
     ttl: 3600
     record: "afdverify.sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"

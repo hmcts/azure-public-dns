@@ -98,7 +98,6 @@ cname:
   - name: "dss-update-case"
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.dss-update-case"
     ttl: 3600
     record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
@@ -303,7 +302,6 @@ cname:
   - name: "adoption-web"
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
-    shutter: true
   - name: "afdverify.adoption-web"
     ttl: 300
     record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
@@ -467,14 +465,12 @@ cname:
   - name: "toffee"
     ttl: 300
     record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.toffee"
     ttl: 3600
     record: "afdverify.sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
   - name: "pip-frontend"
     ttl: 300
     record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-    shutter: false
   - name: "staff.pip-frontend"
     record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
     ttl: 300
@@ -487,62 +483,51 @@ cname:
   - name: "c100-application"
     ttl: 300
     record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.c100-application"
     ttl: 3600
     record: "afdverify.sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
   - name: "vh-admin-web"
     ttl: 300
     record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.vh-admin-web"
     ttl: 3600
     record: "afdverify.sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
   - name: "vh-test-web"
     ttl: 300
     record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.vh-test-web"
     ttl: 3600
     record: "afdverify.sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
   - name: "vh-video-web"
     ttl: 300
     record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.vh-video-web"
     ttl: 3600
     record: "afdverify.sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
   - name: "pre-portal"
     ttl: 300
     record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.pre-portal"
     ttl: 3600
     record: "afdverify.sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
   - name: "et-pet-admin"
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
-    shutter: false
   - name: "et-pet-et1"
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
-    shutter: false
   - name: "et-pet-et3"
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
-    shutter: false
   - name: "tax-tribunals-datacapture"
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
-    shutter: false
   - name: "hwf-publicapp"
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
-    shutter: false
   - name: "hwf-staffapp"
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.judicial-payments"
     ttl: 300
     record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
@@ -593,7 +578,6 @@ cname:
   - name: "cath-web"
     ttl: 300
     record: "sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.cath-web"
     ttl: 3600
     record: "afdverify.sdshmcts-demo-d9brfxgseqf0cpen.z01.azurefd.net"

@@ -251,7 +251,6 @@ cname:
     platform: "cft"
     ttl: 60
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.administer-orgs"
     platform: "cft"
     ttl: 3600
@@ -260,7 +259,6 @@ cname:
     platform: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.em-icp"
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
@@ -277,17 +275,14 @@ cname:
     platform: "cft"
     ttl: 60
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "fees-register"
     platform: "cft"
     ttl: 60
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "www.fees-register"
     platform: "cft"
     ttl: 60
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "jlfsrhi3m76w"
     ttl: 300
     record: "gv-st2ccjwg4awsh2.dv.googlehosted.com"
@@ -295,7 +290,6 @@ cname:
     platform: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.manage-case"
     platform: "cft"
     ttl: 3600
@@ -304,7 +298,6 @@ cname:
     platform: "cft"
     ttl: 60
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.manage-org"
     platform: "cft"
     ttl: 3600
@@ -313,28 +306,23 @@ cname:
     platform: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
 
   - name: "paybubble"
     platform: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "www.paybubble"
     platform: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "paymentoutcome-web"
     platform: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "www.paymentoutcome-web"
     platform: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "reformscan"
     ttl: 3600
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
@@ -351,7 +339,6 @@ cname:
     platform: "cft"
     ttl: 60
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.register-org"
     platform: "cft"
     ttl: 3600
@@ -371,12 +358,10 @@ cname:
     platform: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "immigration-appeal"
     platform: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.immigration-appeal"
     platform: "cft"
     ttl: 3600
@@ -403,7 +388,6 @@ cname:
     platform: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.log-and-audit"
     platform: "cft"
     ttl: 300
@@ -412,7 +396,6 @@ cname:
     platform: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.idam-user-dashboard"
     platform: "cft"
     ttl: 300
@@ -421,7 +404,6 @@ cname:
     platform: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.hmcts-access"
     platform: "cft"
     ttl: 300
@@ -467,7 +449,6 @@ cname:
     platform: "cft"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "em8228.mail-sscs"
     ttl: 300
     record: "u19471273.wl024.sendgrid.net"
@@ -546,7 +527,6 @@ cname:
   - name: "apply-for-adoption"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: true
 
   # C100
   - name: "afdverify.c100-application"
@@ -555,7 +535,6 @@ cname:
   - name: "c100-application"
     ttl: 300
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
-    shutter: false
 
   # DTSSE
   - name: "afdverify.dtsse-ardoq-adapter"
