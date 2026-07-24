@@ -508,6 +508,16 @@ cname:
     ttl: 300
     record: "firewall-prod-int-palo-sdrs.uksouth.cloudapp.azure.com"
 
+  - name: "pcs"
+    platform: "cft"
+    ttl: 300
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+    shutter: false
+  - name: "afdverify.pcs"
+    platform: "cft"
+    ttl: 3600
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+
   #### Video Hearings
   - name: "_DEFCA9944606874FF3B5E0E653FF9825"
     platform: "sds"
