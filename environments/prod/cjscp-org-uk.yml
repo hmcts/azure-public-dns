@@ -775,3 +775,39 @@ cname:
   - name: _dnsauth.www.prp
     ttl: 10800
     record: _a9yvpsom6o70x1e9wi66o8pl4uupnxx.dcv.digicert.com
+  - name: _dnsauth.prosecuting.dev05
+    ttl: 10800
+    record: _upqgwa0t0wya13wb2a5onas4vlp2ynn.dcv.digicert.com
+  - name: _dnsauth.www.prosecuting.dev05
+    ttl: 10800
+    record: _upqgwa0t0wya13wb2a5onas4vlp2ynn.dcv.digicert.com
+  - name: _dnsauth.apigw.dev05
+    ttl: 10800
+    record: _nnxx7a4g9vu38z14j1106jqvz0oq3yh.dcv.digicert.com
+  - name: _dnsauth.www.apigw.dev05
+    ttl: 10800
+    record: _nnxx7a4g9vu38z14j1106jqvz0oq3yh.dcv.digicert.com
+  - name: _dnsauth.onlineplea.dev05
+    ttl: 10800
+    record: _gvv2m7qgms26mdyc0de473r63ya7eoc.dcv.digicert.com
+  - name: _dnsauth.www.onlineplea.dev05
+    ttl: 10800
+    record: _gvv2m7qgms26mdyc0de473r63ya7eoc.dcv.digicert.com
+  - name: _dnsauth.prosecuting.dev06
+    ttl: 10800
+    record: _61vxlr42amuybyjyjfjrs8pe8dcxgvq.dcv.digicert.com
+  - name: _dnsauth.www.prosecuting.dev06
+    ttl: 10800
+    record: _61vxlr42amuybyjyjfjrs8pe8dcxgvq.dcv.digicert.com
+  - name: _dnsauth.apigw.dev06
+    ttl: 10800
+    record: _v6838dv3v7apva4xkmw35rg0fzxnhoe.dcv.digicert.com
+  - name: _dnsauth.www.apigw.dev06
+    ttl: 10800
+    record: _v6838dv3v7apva4xkmw35rg0fzxnhoe.dcv.digicert.com
+  - name: _dnsauth.onlineplea.dev06
+    ttl: 10800
+    record: _b4go48afuefobp1bozv786fmappcbti.dcv.digicert.com
+  - name: _dnsauth.www.onlineplea.dev06
+    ttl: 10800
+    record: _b4go48afuefobp1bozv786fmappcbti.dcv.digicert.com
