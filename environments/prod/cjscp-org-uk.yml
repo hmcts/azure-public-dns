@@ -258,6 +258,14 @@ A:
     ttl: 3600
     record:
       - 51.11.44.0
+  - name: prosecuting.dev05
+    ttl: 3600
+    record:
+      - 51.11.44.0
+  - name: prosecuting.dev06
+    ttl: 3600
+    record:
+      - 51.11.44.0            
   - name: prosecuting.dev07
     ttl: 3600
     record:
