@@ -424,3 +424,10 @@ cname:
   - name: "finrem-citizen-ui"
     ttl: 300
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  # Scheduling & Listing
+  - name: "snl-ui"
+    ttl: 3600
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "afdverify.snl-ui"
+    ttl: 300
+    record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
