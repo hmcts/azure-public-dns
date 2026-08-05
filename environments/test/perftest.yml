@@ -313,3 +313,10 @@ cname:
   - name: "pt"
     ttl: 300
     record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
+  # Scheduling & Listing
+  - name: "snl-ui"
+    ttl: 300
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
+  - name: "afdverify.snl-ui"
+    ttl: 300
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
