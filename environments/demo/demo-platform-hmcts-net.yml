@@ -39,6 +39,11 @@ A:
     record:
       - "4.158.117.136"
 
+  - name: "rpx-case-activity-api-webpubsub"
+    ttl: 300
+    record:
+      - "4.158.117.136"
+
   - name: "darts-proxy"
     ttl: 300
     record:
