@@ -819,3 +819,27 @@ cname:
   - name: _dnsauth.www.onlineplea.dev06
     ttl: 10800
     record: _b4go48afuefobp1bozv786fmappcbti.dcv.digicert.com
+  - name: _dnsauth.sit
+    ttl: 10800
+    record: _owyq17v3w15pvbw7ytduqbwwqvl43uk.dcv.digicert.com.
+  - name: _dnsauth.www.sit
+    ttl: 10800
+    record: _owyq17v3w15pvbw7ytduqbwwqvl43uk.dcv.digicert.com.
+  - name: _dnsauth.apigw.dev03
+    ttl: 10800
+    record: _22wq1ymjhlcxgm559knivijhlwncm0w.dcv.digicert.com.
+  - name: _dnsauth.www.apigw.dev03
+    ttl: 10800
+    record: _22wq1ymjhlcxgm559knivijhlwncm0w.dcv.digicert.com.
+  - name: _dnsauth.onlineplea.dev03
+    ttl: 10800
+    record: _lb8p00pwrc8ohwnuzrb3t48kl4yy8ud.dcv.digicert.com.
+  - name: _dnsauth.www.onlineplea.dev03
+    ttl: 10800
+    record: _lb8p00pwrc8ohwnuzrb3t48kl4yy8ud.dcv.digicert.com.
+  - name: _dnsauth.prosecuting.dev03
+    ttl: 10800
+    record: _43dap11lh17x6efau2spv9xwaflfrap.dcv.digicert.com.
+  - name: _dnsauth.www.prosecuting.dev03
+    ttl: 10800
+    record: _43dap11lh17x6efau2spv9xwaflfrap.dcv.digicert.com.
