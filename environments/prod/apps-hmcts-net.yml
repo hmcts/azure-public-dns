@@ -99,7 +99,6 @@ cname:
     platform: "sds"
     ttl: 300
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
-    shutter: false
 
     # Juror
   - name: "juror"
