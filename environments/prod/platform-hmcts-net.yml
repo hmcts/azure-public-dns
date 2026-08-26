@@ -319,7 +319,7 @@ cname:
     ttl: 60
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
-  - name: "hmc-admin-ui"
+  - name: "afdverify.hmc-admin-ui"
     platform: "cft"
     ttl: 3600
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
