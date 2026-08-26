@@ -109,6 +109,12 @@ cname:
   - name: "register-org"
     ttl: 3600
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "afdverify.hmc-admin-ui"
+    ttl: 3600
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "hmc-admin-ui"
+    ttl: 3600
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.moneyclaims"
     ttl: 3600
     record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
