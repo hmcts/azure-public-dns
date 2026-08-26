@@ -23,19 +23,15 @@ cname:
     platform: "cft"
     ttl: 60
     record: "appeal-infected-blood-compensation-decision.service.gov.uk"
-    shutter: false
   - name: "www"
     platform: "cft"
     ttl: 60
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "afdverify.www"
     platform: "cft"
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-    shutter: false
   - name: "www-shutter"
     platform: "cft"
     ttl: 60
     record: "proud-cliff-0c23ee503.5.azurestaticapps.net"
-    shutter: false

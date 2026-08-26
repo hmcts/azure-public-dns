@@ -15,7 +15,6 @@ A:
     platform: "cft"
     ttl: 60
     alias_target_resource_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/resourceGroups/lz-prod-rg/providers/Microsoft.Cdn/profiles/hmcts-prod/afdendpoints/hmcts-prod"
-    shutter: false
 
 cname:
   - name: "afdverify"
