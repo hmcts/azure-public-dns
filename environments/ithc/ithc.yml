@@ -153,6 +153,12 @@ cname:
   - name: "register-org"
     ttl: 3600
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "afdverify.hmc-admin-ui"
+    ttl: 3600
+    record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "hmc-admin-ui"
+    ttl: 3600
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   - name: "afdverify.immigration-appeal"
     ttl: 3600
     record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
