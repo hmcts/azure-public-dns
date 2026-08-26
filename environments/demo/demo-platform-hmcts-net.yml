@@ -468,6 +468,12 @@ cname:
   - name: "afdverify.manage-case-wa-int"
     ttl: 300
     record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "hmc-admin-ui"
+    ttl: 300
+    record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "afdverify.hmc-admin-ui"
+    ttl: 300
+    record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
   # SDS Front Door
   - name: "toffee"
     ttl: 300

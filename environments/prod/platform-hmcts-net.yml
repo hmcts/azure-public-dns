@@ -314,6 +314,15 @@ cname:
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
+  - name: "hmc-admin-ui"
+    platform: "cft"
+    ttl: 60
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+    shutter: false
+  - name: "afdverify.hmc-admin-ui"
+    platform: "cft"
+    ttl: 3600
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
 
   - name: "paybubble"
     platform: "cft"
@@ -484,6 +493,9 @@ cname:
     ttl: 60
     record: "hmcts-ldata.azurefd.net"
   - name: "manage-case-ethosldata"
+    ttl: 60
+    record: "hmcts-ldata.azurefd.net"
+  - name: "hmc-admin-ui-ethosldata"
     ttl: 60
     record: "hmcts-ldata.azurefd.net"
   - name: "mcol"
