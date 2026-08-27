@@ -43,6 +43,13 @@ ns:
       - ns2-06.azure-dns.net.
       - ns3-06.azure-dns.org.
       - ns4-06.azure-dns.info.
+  - name: "aat"
+    ttl: 900
+    record:
+      - ns1-06.azure-dns.com.
+      - ns2-06.azure-dns.net.
+      - ns3-06.azure-dns.org.
+      - ns4-06.azure-dns.info.
   - name: "prod"
     ttl: 900
     record:
