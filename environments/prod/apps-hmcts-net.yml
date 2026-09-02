@@ -101,6 +101,16 @@ cname:
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
     shutter: false
 
+    # OPAL
+  - name: "opal-frontend"
+    platform: "sds"
+    ttl: 300
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
+  - name: "opal-rm-frontend"
+    platform: "sds"
+    ttl: 300
+    record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
+
     # Juror
   - name: "juror"
     platform: "sds"
