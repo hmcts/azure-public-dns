@@ -8,7 +8,27 @@ txt: []
 
 srv: []
 
-A: []
+A:
+  - name: "csds"
+    ttl: 300
+    alias_target_resource_id: "/subscriptions/b72ab7b7-723f-4b18-b6f6-03b0f2c6a1bb/\
+      resourcegroups/lz-sbox-rg/providers/Microsoft.Cdn/profiles/hmcts-sbox/afd\
+      endpoints/hmcts-sbox"
+  - name: "csds-passive"
+    ttl: 300
+    alias_target_resource_id: "/subscriptions/b72ab7b7-723f-4b18-b6f6-03b0f2c6a1bb/\
+      resourcegroups/lz-sbox-rg/providers/Microsoft.Cdn/profiles/hmcts-sbox/afd\
+      endpoints/hmcts-sbox"
+  - name: "semarchy"
+    ttl: 300
+    alias_target_resource_id: "/subscriptions/b72ab7b7-723f-4b18-b6f6-03b0f2c6a1bb/\
+      resourcegroups/lz-sbox-rg/providers/Microsoft.Cdn/profiles/hmcts-sbox/afd\
+      endpoints/hmcts-sbox"
+  - name: "semarchy-passive"
+    ttl: 300
+    alias_target_resource_id: "/subscriptions/b72ab7b7-723f-4b18-b6f6-03b0f2c6a1bb/\
+      resourcegroups/lz-sbox-rg/providers/Microsoft.Cdn/profiles/hmcts-sbox/afd\
+      endpoints/hmcts-sbox"
 
 cname:
   - name: "darts"
@@ -28,15 +48,3 @@ cname:
     platform: "sds"
     ttl: 300
     record: "sdshmcts-sbox-bueqa6a6hefjfne4.z01.azurefd.net"
-  - name: "csds"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: "csds-passive"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: "semarchy"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"
-  - name: "semarchy-passive"
-    ttl: 300
-    record: "hmcts-sbox-gufqadefbjgbhkhv.z01.azurefd.net"

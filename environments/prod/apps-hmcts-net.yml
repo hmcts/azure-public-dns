@@ -70,6 +70,26 @@ A:
     ttl: 300
     record:
       - "51.11.138.240"
+  - name: "csds"
+    ttl: 300
+    alias_target_resource_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/\
+      resourcegroups/lz-prod-rg/providers/Microsoft.Cdn/profiles/hmcts-prod/afd\
+      endpoints/hmcts-prod"
+  - name: "csds-passive"
+    ttl: 300
+    alias_target_resource_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/\
+      resourcegroups/lz-prod-rg/providers/Microsoft.Cdn/profiles/hmcts-prod/afd\
+      endpoints/hmcts-prod"
+  - name: "semarchy"
+    ttl: 300
+    alias_target_resource_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/\
+      resourcegroups/lz-prod-rg/providers/Microsoft.Cdn/profiles/hmcts-prod/afd\
+      endpoints/hmcts-prod"
+  - name: "semarchy-passive"
+    ttl: 300
+    alias_target_resource_id: "/subscriptions/8cbc6f36-7c56-4963-9d36-739db5d00b27/\
+      resourcegroups/lz-prod-rg/providers/Microsoft.Cdn/profiles/hmcts-prod/afd\
+      endpoints/hmcts-prod"
 
 cname:
   - name: "caps"
@@ -93,7 +113,6 @@ cname:
   - name: "sdrs"
     ttl: 300
     record: "hmcts-live-int-ekcjchf8fbcpfxfz.z01.azurefd.net"
-
     # DARTS
   - name: "darts"
     platform: "sds"
@@ -122,18 +141,6 @@ cname:
     # record: "hmcts-heritage-prod-fug4hfanetgdf6cz.z01.azurefd.net"
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
 
-  - name: "csds"
-    ttl: 300
-    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-  - name: "csds-passive"
-    ttl: 300
-    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-  - name: "semarchy"
-    ttl: 300
-    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
-  - name: "semarchy-passive"
-    ttl: 300
-    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "judicialtranscribe"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
