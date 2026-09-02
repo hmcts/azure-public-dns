@@ -30,21 +30,25 @@ A:
       - "185.230.153.230"
   - name: "csds"
     ttl: 300
+    shutter: false
     alias_target_resource_id: "/subscriptions/96c274ce-846d-4e48-89a7-d528432298a7/\
       resourcegroups/lz-aat-rg/providers/Microsoft.Cdn/profiles/hmcts-aat/afden\
       dpoints/hmcts-aat"
   - name: "csds-passive"
     ttl: 300
+    shutter: false
     alias_target_resource_id: "/subscriptions/96c274ce-846d-4e48-89a7-d528432298a7/\
       resourcegroups/lz-aat-rg/providers/Microsoft.Cdn/profiles/hmcts-aat/afden\
       dpoints/hmcts-aat"
   - name: "semarchy"
     ttl: 300
+    shutter: false
     alias_target_resource_id: "/subscriptions/96c274ce-846d-4e48-89a7-d528432298a7/\
       resourcegroups/lz-aat-rg/providers/Microsoft.Cdn/profiles/hmcts-aat/afden\
       dpoints/hmcts-aat"
   - name: "semarchy-passive"
     ttl: 300
+    shutter: false
     alias_target_resource_id: "/subscriptions/96c274ce-846d-4e48-89a7-d528432298a7/\
       resourcegroups/lz-aat-rg/providers/Microsoft.Cdn/profiles/hmcts-aat/afden\
       dpoints/hmcts-aat"
