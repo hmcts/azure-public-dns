@@ -420,3 +420,7 @@ cname:
   - name: "snl-ui"
     ttl: 300
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "apim-marketplace-web"
+    ttl: 300
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+    shutter: false
