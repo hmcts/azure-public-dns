@@ -38,6 +38,14 @@ A:
     ttl: 300
     record:
       - "51.142.78.109"
+  - name: "semarchy-active"
+    ttl: 300
+    record:
+      - "51.142.78.109"
+  - name: "semarchy-passive"
+    ttl: 300
+    record:
+      - "51.142.78.109"
 
 txt:
   - name: "contact.justice"
