@@ -24,6 +24,6 @@ cname:
   - name: "juror-public"
     shutter: false
   - name: "opal-frontend"
-    shutter: true
+    shutter: false
   - name: "opal-rm-frontend"
     shutter: false
