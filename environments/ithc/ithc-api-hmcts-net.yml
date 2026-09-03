@@ -14,7 +14,7 @@ A:
     ttl: 60
     alias_target_resource_id: "/subscriptions/3939bf63-a2a9-404f-a023-0d21f1f14548/\
       resourceGroups/rg-sps-platform-ithc/providers/Microsoft.Network/publicIPA\
-      ddresses/spshmcts-apim-appgw-ithc-pipp"
+      ddresses/spshmcts-apim-appgw-ithc-pip"
 
 txt: []
 
