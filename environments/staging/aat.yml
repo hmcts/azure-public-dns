@@ -27,6 +27,11 @@ A:
     record:
       - "4.250.80.162"
 
+  - name: "xui-icp-webpubsub"
+    ttl: 300
+    record:
+      - "4.250.80.162"
+
 cname:
   - name: "_8c25cc47acd71d289bc2b0f6163f17bd"
     ttl: 900
@@ -345,6 +350,12 @@ cname:
     ttl: 300
     record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "em-icp"
+    ttl: 300
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "afdverify.xui-icp"
+    ttl: 300
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "xui-icp"
     ttl: 300
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.dss-update-case"
