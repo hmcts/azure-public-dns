@@ -8,7 +8,27 @@ txt: []
 
 srv: []
 
-A: []
+A:
+  - name: "csds"
+    ttl: 300
+    alias_target_resource_id: "/subscriptions/62864d44-5da9-4ae9-89e7-0cf33942fa09/\
+      resourcegroups/lz-ithc-rg/providers/Microsoft.Cdn/profiles/hmcts-ithc/afd\
+      endpoints/hmcts-ithc"
+  - name: "csds-passive"
+    ttl: 300
+    alias_target_resource_id: "/subscriptions/62864d44-5da9-4ae9-89e7-0cf33942fa09/\
+      resourcegroups/lz-ithc-rg/providers/Microsoft.Cdn/profiles/hmcts-ithc/afd\
+      endpoints/hmcts-ithc"
+  - name: "semarchy"
+    ttl: 300
+    alias_target_resource_id: "/subscriptions/62864d44-5da9-4ae9-89e7-0cf33942fa09/\
+      resourcegroups/lz-ithc-rg/providers/Microsoft.Cdn/profiles/hmcts-ithc/afd\
+      endpoints/hmcts-ithc"
+  - name: "semarchy-passive"
+    ttl: 300
+    alias_target_resource_id: "/subscriptions/62864d44-5da9-4ae9-89e7-0cf33942fa09/\
+      resourcegroups/lz-ithc-rg/providers/Microsoft.Cdn/profiles/hmcts-ithc/afd\
+      endpoints/hmcts-ithc"
 
 cname:
   - name: "darts"
@@ -29,12 +49,6 @@ cname:
   - name: "opal-rm-frontend"
     ttl: 300
     record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"
-  - name: "csds"
-    ttl: 300
-    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
-  - name: "csds-passive"
-    ttl: 300
-    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   - name: "appreg"
     ttl: 300
     record: "sdshmcts-ithc-hjd8acedcyeygkgk.z01.azurefd.net"

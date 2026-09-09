@@ -31,6 +31,14 @@ A:
     ttl: 300
     record:
       - "51.145.74.67"
+  - name: "semarchy-active"
+    ttl: 300
+    record:
+      - "51.145.74.67"
+  - name: "semarchy-passive"
+    ttl: 300
+    record:
+      - "51.145.74.67"
 
 txt:
   - name: "asuid.help-with-fees"

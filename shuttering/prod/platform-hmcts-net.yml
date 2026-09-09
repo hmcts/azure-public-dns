@@ -64,6 +64,8 @@ A:
 cname:
   - name: "administer-orgs"
     shutter: false
+  - name: "hmc-admin-ui"
+    shutter: false
   - name: "plum"
     shutter: false 
   - name: "apply-divorce"
@@ -127,6 +129,8 @@ cname:
   - name: "manage-org-ethosldata"
     shutter: false
   - name: "manage-case-ethosldata"
+    shutter: false
+  - name: "hmc-admin-ui-ethosldata"
     shutter: false
   - name: "mcol"
     shutter: false
