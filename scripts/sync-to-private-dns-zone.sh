@@ -121,6 +121,16 @@ for entry in $(echo "$json_string" | jq -c '.[]'); do
         recordTTL=$(_jq '.TTL')
         aliasTargetResourceId=$(_jq '.AliasTargetResourceId')
 
+        # Some alias A records can return null TTL from Azure CLI list output.
+        # Fall back to YAML-defined TTL, then default to 300 if still not set.
+        if [[ -z "$recordTTL" || "$recordTTL" == "null" ]]; then
+            recordTTL=$(echo "$json_convert" | jq -r --arg n "$recordName" '.A // [] | map(select(.name == $n))[0].ttl // empty')
+        fi
+        if [[ -z "$recordTTL" || "$recordTTL" == "null" ]]; then
+            recordTTL=300
+            echo "WARN: TTL missing for alias A record $recordName. Defaulting to 300."
+        fi
+
         ignore_record=false
         echo $aliasTargetResourceId
 
@@ -133,8 +143,11 @@ for entry in $(echo "$json_string" | jq -c '.[]'); do
 
         if ! echo "$existingPrivateARecords" | grep -q "$recordName" && ! $ignore_record; then
             # Create alias A record in private zone
-            az network private-dns record-set a create -g $privateZoneResourceGroup -z $zoneName -n "$recordName" --target-resource "$aliasTargetResourceId" --ttl "$recordTTL" --subscription $privateZoneSubscription
-            echo "Created alias A record $recordName in private zone."
+            if az network private-dns record-set a create -g $privateZoneResourceGroup -z $zoneName -n "$recordName" --target-resource "$aliasTargetResourceId" --ttl "$recordTTL" --subscription $privateZoneSubscription; then
+                echo "Created alias A record $recordName in private zone."
+            else
+                echo "Failed to create alias A record $recordName in private zone." >&2
+            fi
         else
             if $ignore_record; then
                 echo "$recordName set NOT to sync with private dns zone"
