@@ -33,6 +33,14 @@ A:
     ttl: 300
     record:
       - "4.234.140.234"
+  - name: "semarchy-active"
+    ttl: 300
+    record:
+      - "4.234.140.234"
+  - name: "semarchy-passive"
+    ttl: 300
+    record:
+      - "4.234.140.234"
 
 txt:
   - name: "mailrelay"

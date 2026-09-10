@@ -314,6 +314,15 @@ cname:
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
+  - name: "hmc-admin-ui"
+    platform: "cft"
+    ttl: 60
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+    shutter: false
+  - name: "afdverify.hmc-admin-ui"
+    platform: "cft"
+    ttl: 3600
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
 
   - name: "paybubble"
     platform: "cft"
@@ -486,6 +495,9 @@ cname:
   - name: "manage-case-ethosldata"
     ttl: 60
     record: "hmcts-ldata.azurefd.net"
+  - name: "hmc-admin-ui-ethosldata"
+    ttl: 60
+    record: "hmcts-ldata.azurefd.net"
   - name: "mcol"
     ttl: 300
     record: "firewall-prod-int-palo-mcolprod.uksouth.cloudapp.azure.com"
@@ -655,3 +667,8 @@ cname:
   - name: "pdda-public-display-manager"
     ttl: 300
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
+  - name: "apim-marketplace-web"
+    platform: "cft"
+    ttl: 300
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+    shutter: false

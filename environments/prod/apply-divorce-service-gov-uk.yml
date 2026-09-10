@@ -13,6 +13,10 @@ txt:
     ttl: 3600
     record:
       - "validated"
+  - name: "@"
+    ttl: 3600
+    record:
+      - "google-site-verification=3SMbUaembw2i0X2_6sy-NRBi5ftnoTCTN39DWmXeHvI"
 
 cname:
   - name: "*"
