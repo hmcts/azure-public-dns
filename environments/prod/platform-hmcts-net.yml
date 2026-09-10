@@ -212,6 +212,11 @@ A:
     record:
       - "85.210.29.141"
 
+  - name: "xui-icp-webpubsub"
+    ttl: 300
+    record:
+      - "85.210.29.141"
+
 txt:
   - name: "@"
     ttl: 3600
@@ -265,6 +270,12 @@ cname:
     ttl: 300
     record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "em-icp"
+    ttl: 300
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+  - name: "afdverify.xui-icp"
+    ttl: 300
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+  - name: "xui-icp"
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
   - name: "apply-divorce"
