@@ -34,6 +34,11 @@ A:
     record:
       - "4.158.117.136"
 
+  - name: "xui-icp-webpubsub"
+    ttl: 300
+    record:
+      - "4.158.117.136"
+
   - name: "xui-case-activity-api"
     ttl: 300
     record:
@@ -566,7 +571,13 @@ cname:
   - name: "em-icp"
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "xui-icp"
+    ttl: 300
+    record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
   - name: "afdverify.em-icp"
+    ttl: 300
+    record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "afdverify.xui-icp"
     ttl: 300
     record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
   - name: "et-syr"

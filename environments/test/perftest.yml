@@ -24,6 +24,11 @@ A:
     record:
       - "85.210.203.11"
 
+  - name: "xui-icp-webpubsub"
+    ttl: 300
+    record:
+      - "85.210.203.11"
+
 cname:
   - name: "afdverify.benefit-appeal"
     ttl: 3600
@@ -305,6 +310,12 @@ cname:
     ttl: 300
     record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "em-icp"
+    ttl: 300
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
+  - name: "afdverify.xui-icp"
+    ttl: 300
+    record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
+  - name: "xui-icp"
     ttl: 300
     record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
   - name: "pcs"
