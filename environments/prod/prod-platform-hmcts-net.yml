@@ -17,6 +17,14 @@ A:
     ttl: 300
     record:
       - "51.143.142.251"
+  - name: "semarchy-active"
+    ttl: 300
+    record:
+      - "51.143.142.251"
+  - name: "semarchy-passive"
+    ttl: 300
+    record:
+      - "51.143.142.251"
 
 txt: []
 

@@ -72,6 +72,14 @@ A:
     ttl: 300
     record:
       - "172.167.169.193"
+  - name: "semarchy-active"
+    ttl: 300
+    record:
+      - "172.167.169.193"
+  - name: "semarchy-passive"
+    ttl: 300
+    record:
+      - "172.167.169.193"
 
 txt:
   - name: "contact.justice"

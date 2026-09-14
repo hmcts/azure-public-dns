@@ -667,3 +667,8 @@ cname:
   - name: "pdda-public-display-manager"
     ttl: 300
     record: "sdshmcts-prod-egd0dscwgwh0bpdq.z01.azurefd.net"
+  - name: "apim-marketplace-web"
+    platform: "cft"
+    ttl: 300
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+    shutter: false

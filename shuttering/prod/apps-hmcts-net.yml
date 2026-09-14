@@ -39,6 +39,12 @@ cname:
   - name: "darts"
     shutter: false
 
+    # OPAL
+  - name: "opal-frontend"
+    shutter: false
+  - name: "opal-rm-frontend"
+    shutter: false
+
     # Juror
   - name: "juror"
     shutter: false

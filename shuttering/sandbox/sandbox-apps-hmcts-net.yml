@@ -23,3 +23,7 @@ cname:
     shutter: false
   - name: "juror-public"
     shutter: false
+  - name: "opal-frontend"
+    shutter: false
+  - name: "opal-rm-frontend"
+    shutter: false

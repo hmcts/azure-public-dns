@@ -8,18 +8,18 @@ locals {
 
   // Merge a record values with shutter values, if global shutter is true then ignore shutter file and set all to value of true
   a_configuration = local.a_recordsets != null ? [
-    for record in local.a_recordsets : merge({
+    for record in local.a_recordsets : {
       name     = record.name
-      platform = lookup(record, "platform", null)
+      platform = try(record.platform, null)
       ttl      = record.ttl
-      shutter = (lookup(record, "platform", null) == "cft" && local.shutter_all_cft) ? true : (lookup(record, "platform", null) == "sds" && local.shutter_all_sds) ? true : (local.shutter_all_a != true ?
+      shutter = (try(record.platform, null) == "cft" && local.shutter_all_cft) ? true : (try(record.platform, null) == "sds" && local.shutter_all_sds) ? true : (local.shutter_all_a != true ?
         (local.a_shuttering != null ? lookup({ for shutter in local.a_shuttering : shutter.name => shutter }, record.name, { shutter = false }).shutter : false) : true
       )
-      },
-      try({ record = record.record }, {}),
-      try({ shutter_resource_id = record.shutter_resource_id }, {}),
-      try({ alias_target_resource_id = record.alias_target_resource_id }, {})
-  )] : []
+      record                   = try(record.record, [])
+      shutter_resource_id      = try(record.shutter_resource_id, null)
+      alias_target_resource_id = try(record.alias_target_resource_id, null)
+    }
+  ] : []
 
 }
 

@@ -11,7 +11,27 @@ txt:
 
 srv: []
 
-A: []
+A:
+  - name: "csds"
+    ttl: 300
+    alias_target_resource_id: "/subscriptions/8b6ea922-0862-443e-af15-6056e1c9b9a4/\
+      resourcegroups/lz-preview-rg/providers/Microsoft.Cdn/profiles/hmcts-previ\
+      ew/afdendpoints/hmcts-preview"
+  - name: "csds-passive"
+    ttl: 300
+    alias_target_resource_id: "/subscriptions/8b6ea922-0862-443e-af15-6056e1c9b9a4/\
+      resourcegroups/lz-preview-rg/providers/Microsoft.Cdn/profiles/hmcts-previ\
+      ew/afdendpoints/hmcts-preview"
+  - name: "semarchy"
+    ttl: 300
+    alias_target_resource_id: "/subscriptions/8b6ea922-0862-443e-af15-6056e1c9b9a4/\
+      resourcegroups/lz-preview-rg/providers/Microsoft.Cdn/profiles/hmcts-previ\
+      ew/afdendpoints/hmcts-preview"
+  - name: "semarchy-passive"
+    ttl: 300
+    alias_target_resource_id: "/subscriptions/8b6ea922-0862-443e-af15-6056e1c9b9a4/\
+      resourcegroups/lz-preview-rg/providers/Microsoft.Cdn/profiles/hmcts-previ\
+      ew/afdendpoints/hmcts-preview"
 
 cname:
   - name: "glimr"
@@ -21,12 +41,6 @@ cname:
     ttl: 300
     record: "sdshmcts-dev-c4ercybwaubzbmfn.z01.azurefd.net"
   - name: "judicialtranscribe"
-    ttl: 300
-    record: "hmcts-preview-fkhfehdgahcrhbds.z01.azurefd.net"
-  - name: "csds"
-    ttl: 300
-    record: "hmcts-preview-fkhfehdgahcrhbds.z01.azurefd.net"
-  - name: "csds-passive"
     ttl: 300
     record: "hmcts-preview-fkhfehdgahcrhbds.z01.azurefd.net"
   - name: "opal-frontend"

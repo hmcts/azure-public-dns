@@ -4,10 +4,29 @@ ns: []
 
 mx: []
 
-A: []
+A:
+  - name: "@"
+    ttl: 60
+    alias_target_resource_id: "/subscriptions/4e0267c8-d18a-460b-8707-496f0b36954d/\
+      resourceGroups/rg-sps-platform-perftest/providers/Microsoft.Network/publi\
+      cIPAddresses/spshmcts-apim-appgw-test-pip"
+  - name: "sps-api-mgmt-appgw"
+    ttl: 60
+    alias_target_resource_id: "/subscriptions/4e0267c8-d18a-460b-8707-496f0b36954d/\
+      resourceGroups/rg-sps-platform-perftest/providers/Microsoft.Network/publi\
+      cIPAddresses/spshmcts-apim-appgw-test-pip"
 
 txt: []
 
 srv: []
 
-cname: []
+cname:
+  - name: "amp-portal"
+    ttl: 60
+    record: "sps-api-mgmt-appgw.perftest.api.hmcts.net"
+  - name: "sps-api-mgmt"
+    ttl: 60
+    record: "sps-api-mgmt-appgw.perftest.api.hmcts.net"
+  - name: "management"
+    ttl: 60
+    record: "sps-api-mgmt-appgw.perftest.api.hmcts.net"

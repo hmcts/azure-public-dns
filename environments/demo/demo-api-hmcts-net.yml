@@ -4,10 +4,29 @@ ns: []
 
 mx: []
 
-A: []
+A:
+  - name: "@"
+    ttl: 60
+    alias_target_resource_id: "/subscriptions/058bf954-ac1f-462b-bca4-42a30314bd74/\
+      resourceGroups/rg-sps-platform-demo/providers/Microsoft.Network/publicIPA\
+      ddresses/spshmcts-apim-appgw-demo-pip"
+  - name: "sps-api-mgmt-appgw"
+    ttl: 60
+    alias_target_resource_id: "/subscriptions/058bf954-ac1f-462b-bca4-42a30314bd74/\
+      resourceGroups/rg-sps-platform-demo/providers/Microsoft.Network/publicIPA\
+      ddresses/spshmcts-apim-appgw-demo-pip"
 
 txt: []
 
 srv: []
 
-cname: []
+cname:
+  - name: "amp-portal"
+    ttl: 60
+    record: "sps-api-mgmt-appgw.demo.api.hmcts.net"
+  - name: "sps-api-mgmt"
+    ttl: 60
+    record: "sps-api-mgmt-appgw.demo.api.hmcts.net"
+  - name: "management"
+    ttl: 60
+    record: "sps-api-mgmt-appgw.demo.api.hmcts.net"
