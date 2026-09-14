@@ -30,6 +30,11 @@ A:
     record:
       - "4.158.63.145"
 
+  - name: "xui-icp-webpubsub"
+    ttl: 300
+    record:
+      - "4.158.63.145"
+
   - name: "csds-active"
     ttl: 300
     record:
@@ -398,6 +403,12 @@ cname:
     ttl: 300
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   - name: "em-icp"
+    ttl: 300
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "afdverify.xui-icp"
+    ttl: 300
+    record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "xui-icp"
     ttl: 300
     record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
   - name: "pcs"
