@@ -28,10 +28,6 @@ cname:
     shutter: false
   - name: "glimr"
     shutter: false
-  - name: "glimr-nle"
-    shutter: false
-  - name: "glimr-dev"
-    shutter: false
   - name: "sdrs"
     shutter: false
 
