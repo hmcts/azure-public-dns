@@ -41,7 +41,7 @@ cname:
 
     # OPAL
   - name: "opal-frontend"
-    shutter: false
+    shutter: true
   - name: "opal-rm-frontend"
     shutter: false
 
