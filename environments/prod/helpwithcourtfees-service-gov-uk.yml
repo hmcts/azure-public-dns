@@ -50,3 +50,8 @@ cname:
     ttl: 300
     record: "B763D9C98144E386064991967BEC10B6.89B142AFBE32663B440901A9F2182BB4.fc5506a3a7169f3c39a6.sectigo.com"
     shutter: false
+  - name: "_D843025854EC40FB6C6740CBB3D5B072.staff"
+    platform: "cft"
+    ttl: 300
+    record: "085E6920948C4B2C56ADB8AA971B5CB6.AC990698B8151679C36913794351A8F0.b07cda788610a8f2ab7a.sectigo.com"
+    shutter: false
