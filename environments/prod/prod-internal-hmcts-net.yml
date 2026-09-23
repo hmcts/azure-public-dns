@@ -29,3 +29,6 @@ cname:
   - name: "_dnsauth.www.xhibittc1"
     record: "_71f8ochjv86oj40k07req2rocw3srmh.dcv.digicert.com"
     ttl: 10800
+  - name: "_dnsauth"
+    record: "_1e3g985fkl3tjt0biqy1ili2mw9pbpe.dcv.digicert.com"
+    ttl: 10800
