@@ -22,4 +22,4 @@ A:
 
 cname:
   - name: "www"
-    shutter: true
+    shutter: false
