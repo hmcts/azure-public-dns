@@ -467,15 +467,33 @@ cname:
   - name: s2._domainkey
     ttl: 600
     record: s2.domainkey.u10165397.wl148.sendgrid.net
-  - name: _82cqt3fwj7qk0o5og4al19upx7jnsjs.cpp-gob-gateway-service.sit
+  - name: _dnsauth.cpp-gob-gateway-service.prd
     ttl: 600
-    record: dcv.digicert.com.
-  - name: _82cqt3fwj7qk0o5og4al19upx7jnsjs.www.cpp-gob-gateway-service.sit
+    record: _w3jhpuj7cwjc6b9bm1g9ix7czw2s6vc.dcv.digicert.com.
+  - name: _dnsauth.www.cpp-gob-gateway-service.prd
     ttl: 600
-    record: dcv.digicert.com.
-  - name: _g5g5zj65bqy99lmunl2dnlbly9sfkz8.cpp-gob-gateway-service.prd
-    ttl: 10800
-    record: dcv.digicert.com.
-  - name: _g5g5zj65bqy99lmunl2dnlbly9sfkz8.www.cpp-gob-gateway-service.prd
-    ttl: 10800
-    record: dcv.digicert.com.
+    record: _w3jhpuj7cwjc6b9bm1g9ix7czw2s6vc.dcv.digicert.com.
+  - name: _dnsauth.cpp-gob-gateway-service.sit
+    ttl: 600
+    record: _eaukpcidgrkegoufdexw3fpqr1tff98.dcv.digicert.com.
+  - name: _dnsauth.www.cpp-gob-gateway-service.sit
+    ttl: 600
+    record: _eaukpcidgrkegoufdexw3fpqr1tff98.dcv.digicert.com.
+  - name: _dnsauth.prosecuting.dev
+    ttl: 600
+    record: _osmxdxmmuasy4zgvv16iqht3c5r1dtm.dcv.digicert.com.
+  - name: _dnsauth.www.prosecuting.dev
+    ttl: 600
+    record: _osmxdxmmuasy4zgvv16iqht3c5r1dtm.dcv.digicert.com.
+  - name: _dnsauth.api.sit
+    ttl: 600
+    record: _6flhzgqlu5zynreg5dzoiodrsipdr2a.dcv.digicert.com.
+  - name: _dnsauth.www.api.sit
+    ttl: 600
+    record: _6flhzgqlu5zynreg5dzoiodrsipdr2a.dcv.digicert.com.
+  - name: _dnsauth.amp
+    ttl: 600
+    record: _fllh1nm9vgn57pgn3ksrav8h9bdumpn.dcv.digicert.com.
+  - name: _dnsauth.www.amp
+    ttl: 600
+    record: _fllh1nm9vgn57pgn3ksrav8h9bdumpn.dcv.digicert.com.
