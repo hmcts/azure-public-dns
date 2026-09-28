@@ -345,6 +345,3 @@ cname:
   - name: "afdverify.cath"
     ttl: 3600
     record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
-  - name: "sign-in.cath"
-    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
-    ttl: 300
