@@ -337,3 +337,14 @@ cname:
   - name: "afdverify.snl-ui"
     ttl: 300
     record: "afdverify.hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
+  # Court and Tribunal Hearings
+  - name: "cath-web"
+    ttl: 300
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
+    shutter: false
+  - name: "afdverify.cath-web"
+    ttl: 3600
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
+  - name: "sign-in.cath-web"
+    record: "hmcts-perftest-c5g8ard0d4c5cdd9.z01.azurefd.net"
+    ttl: 300
