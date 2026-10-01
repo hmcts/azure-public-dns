@@ -672,3 +672,6 @@ cname:
     ttl: 300
     record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
+  - name: "ai-gateway-docs"
+    ttl: 300
+    record: "hmcts.github.io"
