@@ -71,7 +71,7 @@ A:
   - name: test-reform
     shutter: false
   - name: tools
-    shutter: false
+    shutter: true
   - name: tools.prp
     shutter: false
   - name: staging.tools
