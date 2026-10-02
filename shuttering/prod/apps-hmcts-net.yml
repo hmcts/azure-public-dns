@@ -48,3 +48,7 @@ cname:
     # Juror
   - name: "juror"
     shutter: false
+
+    # Courts Transcribe
+  - name: "judicialtranscribe"
+    shutter: false
