@@ -17,8 +17,8 @@ shutter_all_cname: false
 # - alias_target_resource_id
 A:
   - name: "@"
-    shutter: true
+    shutter: false
 
 cname:
   - name: "www"
-    shutter: true
+    shutter: false
