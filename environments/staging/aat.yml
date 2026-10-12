@@ -376,6 +376,12 @@ cname:
   - name: "agent-hub"
     ttl: 300
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "afdverify.benchnotes"
+    ttl: 300
+    record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+  - name: "benchnotes"
+    ttl: 300
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
   - name: "afdverify.dss-update-case"
     ttl: 300
     record: "afdverify.hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
