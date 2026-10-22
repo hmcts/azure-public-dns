@@ -455,36 +455,27 @@ cname:
   - name: s2._domainkey
     ttl: 600
     record: s2.domainkey.u10165397.wl148.sendgrid.net
-  - name: _dnsauth.login
+  - name: _dnsauth.amp.prp
     ttl: 600
-    record: _3svqk40zut5g4hhfh4p7x77u3tnw71w.dcv.digicert.com.
-  - name: _dnsauth.identity-gateway
+    record: _to1gl7i4cgpcsc8qqgaxng7suygpwgt.dcv.digicert.com.
+  - name: _dnsauth.www.amp.prp
     ttl: 600
-    record: _3svqk40zut5g4hhfh4p7x77u3tnw71w.dcv.digicert.com.
-  - name: _dnsauth.manage-users
+    record: _to1gl7i4cgpcsc8qqgaxng7suygpwgt.dcv.digicert.com.
+  - name: _dnsauth.amp.dev
     ttl: 600
-    record: _3svqk40zut5g4hhfh4p7x77u3tnw71w.dcv.digicert.com.
-  - name: _dnsauth.my-services
+    record: _xt4w1khd3ntzk0bvfrj2vs9tfv0wyah.dcv.digicert.com.
+  - name: _dnsauth.www.amp.dev
     ttl: 600
-    record: _3svqk40zut5g4hhfh4p7x77u3tnw71w.dcv.digicert.com.
-  - name: _dnsauth.token
+    record: _xt4w1khd3ntzk0bvfrj2vs9tfv0wyah.dcv.digicert.com.
+  - name: _dnsauth.amp.sit
     ttl: 600
-    record: _3svqk40zut5g4hhfh4p7x77u3tnw71w.dcv.digicert.com.
-  - name: _dnsauth.apigw.dev
+    record: _oyymkj6947obgm5i8w804e7v9ikh6ww.dcv.digicert.com.
+  - name: _dnsauth.www.amp.sit
     ttl: 600
-    record: _0v3gwtq0nreek541bjrrukhtzbmm0h2.dcv.digicert.com.
-  - name: _dnsauth.www.apigw.dev
+    record: _oyymkj6947obgm5i8w804e7v9ikh6ww.dcv.digicert.com.
+  - name: _dnsauth.amp.nft
     ttl: 600
-    record: _0v3gwtq0nreek541bjrrukhtzbmm0h2.dcv.digicert.com.
-  - name: _dnsauth.api.prp
+    record: _mhyics4n77y7yovhm6mqchy0fpo8sul.dcv.digicert.com.
+  - name: _dnsauth.www.amp.nft
     ttl: 600
-    record: _qu03g5nscnk707zljtwcb8ba2tbqyf1.dcv.digicert.com.
-  - name: _dnsauth.www.api.prp
-    ttl: 600
-    record: _qu03g5nscnk707zljtwcb8ba2tbqyf1.dcv.digicert.com.
-  - name: _dnsauth.prosecuting.prp
-    ttl: 600
-    record: _x3l1vp30hkz835ulyaxl0jt9oid3k9s.dcv.digicert.com.
-  - name: _dnsauth.www.prosecuting.prp
-    ttl: 600
-    record: _x3l1vp30hkz835ulyaxl0jt9oid3k9s.dcv.digicert.com.
+    record: _mhyics4n77y7yovhm6mqchy0fpo8sul.dcv.digicert.com.
