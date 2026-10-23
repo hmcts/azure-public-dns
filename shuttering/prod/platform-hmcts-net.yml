@@ -176,7 +176,7 @@ cname:
 
   # DTSSE
   - name: "dtsse-ardoq-adapter"
-    shutter: false
+    shutter: true
 
   - name: "response"
     shutter: false
