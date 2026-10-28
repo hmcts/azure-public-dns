@@ -668,6 +668,12 @@ cname:
   - name: "s2._domainkey.mail-civil-nonprod"
     ttl: 300
     record: "s2.domainkey.u21913992.wl243.sendgrid.net"
+  - name: "civil-state-event-model"
+    ttl: 300
+    record: "hmcts.github.io"
+  - name: "civil-service-docs"
+    ttl: 300
+    record: "hmcts.github.io"
 
   # PDDA
   - name: "pdda-public-display-data-aggregator"
