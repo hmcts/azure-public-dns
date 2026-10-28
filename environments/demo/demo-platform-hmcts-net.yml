@@ -57,6 +57,10 @@ A:
       #- "10.25.32.99" #Demo -> AKS
       #- "10.51.96.132" #Demo AppGW PIP
       #- "10.23.2.252" #CGWAF
+  - name: "darts-magistrates-proxy"
+    ttl: 300
+    record:
+      - "10.25.32.99" 
 
 txt: []
 

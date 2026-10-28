@@ -456,3 +456,9 @@ cname:
   - name: "afdverify.snl-ui"
     ttl: 300
     record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "deed-poll-admin"
+    ttl: 300
+    record: "hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
+  - name: "afdverify.deed-poll-admin"
+    ttl: 300
+    record: "afdverify.hmcts-ithc-h2aabtenhae2aqda.z01.azurefd.net"
