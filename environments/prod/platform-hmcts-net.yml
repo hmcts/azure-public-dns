@@ -675,3 +675,9 @@ cname:
   - name: "ai-gateway-docs"
     ttl: 300
     record: "hmcts.github.io"
+  - name: "civil-state-event-model"
+    ttl: 300
+    record: "hmcts.github.io"
+  - name: "civil-service-docs"
+    ttl: 300
+    record: "hmcts.github.io"
