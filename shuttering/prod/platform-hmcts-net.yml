@@ -86,6 +86,8 @@ cname:
     shutter: false
   - name: "pcs"
     shutter: false
+  - name: "benchnotes"
+    shutter: false
   - name: "www.moneyclaim-legal"
     shutter: false
   - name: "paybubble"
