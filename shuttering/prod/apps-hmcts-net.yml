@@ -48,3 +48,5 @@ cname:
     # Juror
   - name: "juror"
     shutter: false
+  - name: "juror-er"
+    shutter: false
