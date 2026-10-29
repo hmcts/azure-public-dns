@@ -650,3 +650,9 @@ cname:
   - name: "afdverify.amp-try-slc"
     ttl: 300
     record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "benchnotes"
+    ttl: 300
+    record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "afdverify.benchnotes"
+    ttl: 300
+    record: "afdverify.hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
