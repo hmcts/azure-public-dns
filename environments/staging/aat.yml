@@ -465,3 +465,7 @@ cname:
     ttl: 300
     record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
     shutter: false
+  - name: "amp-marketplace-web"
+    ttl: 300
+    record: "hmcts-aat-dbdveha6dnc7ejdt.z01.azurefd.net"
+    shutter: false
