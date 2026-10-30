@@ -643,6 +643,10 @@ cname:
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
     shutter: false
+  - name: "amp-marketplace-web"
+    ttl: 300
+    record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+    shutter: false
   # API Marketplace - Try It Now (Scheduling and Listing)
   - name: "amp-try-slc"
     ttl: 300
