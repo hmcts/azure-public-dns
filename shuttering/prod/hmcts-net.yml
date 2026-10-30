@@ -71,11 +71,11 @@ A:
   - name: test-reform
     shutter: false
   - name: tools
-    shutter: false
+    shutter: true
   - name: tools.prp
-    shutter: false
+    shutter: true
   - name: staging.tools
-    shutter: false
+    shutter: true
 
 cname:
   - name: "*.dev.cpp"
