@@ -16,25 +16,25 @@ A:
   - name: "csds"
     ttl: 300
     alias_target_resource_id:
-      "/subscriptions/5bfb8978-e416-45d7-bc16-c4ce7016f966/\
+      "/subscriptions/d025fece-ce99-4df2-b7a9-b649d3ff2060/\
       resourcegroups/lz-demo-rg/providers/Microsoft.Cdn/profiles/hmcts-demo/afd\
       endpoints/hmcts-demo"
   - name: "csds-passive"
     ttl: 300
     alias_target_resource_id:
-      "/subscriptions/5bfb8978-e416-45d7-bc16-c4ce7016f966/\
+      "/subscriptions/d025fece-ce99-4df2-b7a9-b649d3ff2060/\
       resourcegroups/lz-demo-rg/providers/Microsoft.Cdn/profiles/hmcts-demo/afd\
       endpoints/hmcts-demo"
   - name: "semarchy"
     ttl: 300
     alias_target_resource_id:
-      "/subscriptions/5bfb8978-e416-45d7-bc16-c4ce7016f966/\
+      "/subscriptions/d025fece-ce99-4df2-b7a9-b649d3ff2060/\
       resourcegroups/lz-demo-rg/providers/Microsoft.Cdn/profiles/hmcts-demo/afd\
       endpoints/hmcts-demo"
   - name: "semarchy-passive"
     ttl: 300
     alias_target_resource_id:
-      "/subscriptions/5bfb8978-e416-45d7-bc16-c4ce7016f966/\
+      "/subscriptions/d025fece-ce99-4df2-b7a9-b649d3ff2060/\
       resourcegroups/lz-demo-rg/providers/Microsoft.Cdn/profiles/hmcts-demo/afd\
       endpoints/hmcts-demo"
 
