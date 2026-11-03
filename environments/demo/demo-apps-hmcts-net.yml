@@ -8,11 +8,35 @@ txt: []
 
 srv: []
 
-A: 
+A:
   - name: "dtsft"
     ttl: 300
     record:
       - "51.132.179.145"
+  - name: "csds"
+    ttl: 300
+    alias_target_resource_id:
+      "/subscriptions/5bfb8978-e416-45d7-bc16-c4ce7016f966/\
+      resourcegroups/lz-demo-rg/providers/Microsoft.Cdn/profiles/hmcts-demo/afd\
+      endpoints/hmcts-demo"
+  - name: "csds-passive"
+    ttl: 300
+    alias_target_resource_id:
+      "/subscriptions/5bfb8978-e416-45d7-bc16-c4ce7016f966/\
+      resourcegroups/lz-demo-rg/providers/Microsoft.Cdn/profiles/hmcts-demo/afd\
+      endpoints/hmcts-demo"
+  - name: "semarchy"
+    ttl: 300
+    alias_target_resource_id:
+      "/subscriptions/5bfb8978-e416-45d7-bc16-c4ce7016f966/\
+      resourcegroups/lz-demo-rg/providers/Microsoft.Cdn/profiles/hmcts-demo/afd\
+      endpoints/hmcts-demo"
+  - name: "semarchy-passive"
+    ttl: 300
+    alias_target_resource_id:
+      "/subscriptions/5bfb8978-e416-45d7-bc16-c4ce7016f966/\
+      resourcegroups/lz-demo-rg/providers/Microsoft.Cdn/profiles/hmcts-demo/afd\
+      endpoints/hmcts-demo"
 
 cname:
   - name: "darts"

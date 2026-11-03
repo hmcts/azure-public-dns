@@ -52,7 +52,7 @@ A:
   - name: "darts-proxy"
     ttl: 300
     record:
-      - "10.25.32.99" 
+      - "10.25.32.99"
       #- "10.25.32.111" #Demo DNAT to VM
       #- "10.25.32.99" #Demo -> AKS
       #- "10.51.96.132" #Demo AppGW PIP
@@ -60,7 +60,24 @@ A:
   - name: "darts-magistrates-proxy"
     ttl: 300
     record:
-      - "10.25.32.99" 
+      - "10.25.32.99"
+
+  - name: "csds-active"
+    ttl: 300
+    record:
+      - "51.104.244.107"
+  - name: "csds-passive"
+    ttl: 300
+    record:
+      - "51.104.244.107"
+  - name: "semarchy-active"
+    ttl: 300
+    record:
+      - "51.104.244.107"
+  - name: "semarchy-passive"
+    ttl: 300
+    record:
+      - "51.104.244.107"
 
 txt: []
 
