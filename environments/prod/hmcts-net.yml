@@ -249,16 +249,6 @@ A:
     record:
       - 83.151.216.178
     shutter_resource_id: ""
-  - name: tools
-    ttl: 600
-    record:
-      - 172.166.152.37
-    shutter_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/sds-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/staticSites/tools-atlassian"
-  - name: tools.prp
-    ttl: 600
-    record:
-      - 4.234.211.95
-    shutter_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/sds-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/staticSites/tools-atlassian-prp"
   - name: staging.tools
     ttl: 600
     record:
