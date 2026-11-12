@@ -598,6 +598,9 @@ cname:
   - name: "em-icp"
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
+  - name: "rpx-case-activity-api"
+    ttl: 300
+    record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"
   - name: "xui-icp"
     ttl: 300
     record: "hmcts-demo-hpfvc6a4frdsdtbc.z01.azurefd.net"

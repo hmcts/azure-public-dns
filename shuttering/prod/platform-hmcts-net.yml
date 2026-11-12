@@ -90,6 +90,8 @@ cname:
     shutter: false
   - name: "deed-poll-admin"
     shutter: false
+  - name: "cath"
+    shutter: false
   - name: "www.moneyclaim-legal"
     shutter: false
   - name: "paybubble"
