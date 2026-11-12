@@ -46,56 +46,56 @@ parameters:
         environment: "sandbox"
         component: "sandbox"
         resource_group_name: "azure-control-mgmt-rg"
-        serviceConnection: "Reform-CFT-Mgmt"
+        serviceConnection: "Reform-CFT-Mgmt-WIF"
         dependsOn:
           - Precheck
       - deployment: "Demo"
         environment: "demo"
         component: "demo"
         resource_group_name: "azure-control-mgmt-rg"
-        serviceConnection: "Reform-CFT-Mgmt"
+        serviceConnection: "Reform-CFT-Mgmt-WIF"
         dependsOn:
           - Precheck
       - deployment: "Dev"
         environment: "dev"
         component: "dev"
         resource_group_name: "azure-control-mgmt-rg"
-        serviceConnection: "Reform-CFT-Mgmt"
+        serviceConnection: "Reform-CFT-Mgmt-WIF"
         dependsOn:
           - Precheck
       - deployment: "Ithc"
         environment: "ithc"
         component: "ithc"
         resource_group_name: "azure-control-mgmt-rg"
-        serviceConnection: "Reform-CFT-Mgmt"
+        serviceConnection: "Reform-CFT-Mgmt-WIF"
         dependsOn:
           - Precheck
       - deployment: "Test"
         environment: "test"
         component: "test"
         resource_group_name: "azure-control-mgmt-rg"
-        serviceConnection: "Reform-CFT-Mgmt"
+        serviceConnection: "Reform-CFT-Mgmt-WIF"
         dependsOn:
           - Precheck
       - deployment: "Staging"
         environment: "staging"
         component: "staging"
         resource_group_name: "azure-control-mgmt-rg"
-        serviceConnection: "Reform-CFT-Mgmt"
+        serviceConnection: "Reform-CFT-Mgmt-WIF"
         dependsOn:
           - Precheck
       - deployment: "nle"
         environment: "nle"
         component: "nle"
         resource_group_name: "azure-control-mgmt-rg"
-        serviceConnection: "Reform-CFT-Mgmt"
+        serviceConnection: "Reform-CFT-Mgmt-WIF"
         dependsOn:
           - Precheck
       - deployment: "Prod"
         environment: "prod"
         component: "prod"
         resource_group_name: "azure-control-mgmt-rg"
-        serviceConnection: "Reform-CFT-Mgmt"
+        serviceConnection: "Reform-CFT-Mgmt-WIF"
         dependsOn:
           - Precheck
 
@@ -111,7 +111,7 @@ stages:
             parameters:
               keyvaultName: "infra-vault-nonprod"
               keyvaultSecret: "azure-devops-sp-token"
-              serviceConnection: "azurerm-sandbox"
+              serviceConnection: "DCD-CFT-Sandbox-WIF"
               overrideAction: ${{ parameters.overrideAction }}
 
   - ${{ each deployment in parameters.environment_components }}:
