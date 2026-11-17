@@ -249,11 +249,6 @@ A:
     record:
       - 83.151.216.178
     shutter_resource_id: ""
-  - name: staging.tools
-    ttl: 600
-    record:
-      - 20.90.110.46
-    shutter_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/sds-platform-shutter-webapp-prod-rg/providers/Microsoft.Web/staticSites/tools-atlassian-staging"
 txt:
   - name: '@'
     ttl: 86400
