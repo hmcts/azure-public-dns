@@ -1,0 +1,31 @@
+zone_name: "manage-financial-remedy.service.gov.uk"
+
+ns: []
+
+mx: []
+
+A: []
+
+srv: []
+
+txt:
+  - name: "_dnsauth.www"
+    ttl: 3600
+    record:
+      - "validated"
+
+cname:
+  - name: "*"
+    platform: "cft"
+    ttl: 60
+    record: "www.manage-financial-remedy.service.gov.uk"
+    shutter: false
+  - name: "www"
+    platform: "cft"
+    ttl: 120
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+    shutter: false
+  - name: "afdverify.www"
+    platform: "cft"
+    ttl: 3600
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
