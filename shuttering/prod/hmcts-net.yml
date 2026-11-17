@@ -70,12 +70,6 @@ A:
     shutter: false
   - name: test-reform
     shutter: false
-  - name: tools
-    shutter: true
-  - name: tools.prp
-    shutter: true
-  - name: staging.tools
-    shutter: true
 
 cname:
   - name: "*.dev.cpp"
