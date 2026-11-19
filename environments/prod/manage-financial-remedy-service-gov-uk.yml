@@ -19,7 +19,7 @@ cname:
     platform: "cft"
     ttl: 60
     record: "www.manage-financial-remedy.service.gov.uk"
-    shutter: true
+    shutter: false
   - name: "www"
     platform: "cft"
     ttl: 120

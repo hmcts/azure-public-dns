@@ -19,7 +19,7 @@ A: []
 
 cname:
   - name: "*"
-    shutter: true
+    shutter: false
   - name: "www"
     shutter: true
   - name: "www.manage-financial-remedy.service.gov.uk"
