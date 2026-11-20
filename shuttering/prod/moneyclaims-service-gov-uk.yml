@@ -19,9 +19,9 @@ shutter_all_cname: false
 A: []
 cname:
   - name: "www"
-    shutter: false
+    shutter: true
   - name: "www1"
-    shutter: false
+    shutter: true
   - name: "em714.mail"
     shutter: false
   - name: "s1._domainkey.mail"
