@@ -25,17 +25,26 @@ for entry in $(echo "$json_string" | jq -c '.[]'); do
     filename=$(echo "$entry" | jq -r '.filename')
     echo "SYNCING  - zone Name: $zoneName, Filename: $filename"
 
+    recordPrivateDnsList=()
+
     json_convert=$(yq eval -o=json "$filename")
 
-    yaml_names=$(echo "$json_convert" | jq -c '.cname[]')
+    yaml_cname_names=$(echo "$json_convert" | jq -c '.cname // [] | .[]')
+    yaml_a_names=$(echo "$json_convert" | jq -c '.A // [] | .[]')
 
     # Retrieve CNAME records from public DNS zone
     publicRecords=$(az network dns record-set list --zone-name $zoneName -g $publicZoneResourceGroup --subscription $publicZoneSubscription --query "[?contains(type,'CNAME')].{Name:name, Type:type, TTL:ttl, CNAMERecord:CNAMERecord.cname}")
+
+    # Retrieve alias A records from public DNS zone
+    publicAliasARecords=$(az network dns record-set list --zone-name $zoneName -g $publicZoneResourceGroup --subscription $publicZoneSubscription --query "[?ends_with(type, '/A') && targetResource.id != null].{Name:name, TTL:ttl, AliasTargetResourceId:targetResource.id}")
 
     privateZoneId=$(az network private-dns zone show -g $privateZoneResourceGroup -n $zoneName --query id -o tsv --subscription $privateZoneSubscription)
 
     # Retrieve existing CNAME records from private DNS zone
     existingPrivateRecords=$(az network private-dns record-set list --zone-name $zoneName -g $privateZoneResourceGroup --subscription $privateZoneSubscription --query "[?contains(type,'CNAME')].[name]" -o tsv)
+
+    # Retrieve existing A records from private DNS zone
+    existingPrivateARecords=$(az network private-dns record-set list --zone-name $zoneName -g $privateZoneResourceGroup --subscription $privateZoneSubscription --query "[?ends_with(type, '/A')].[name]" -o tsv)
 
     
             while IFS= read -r entry; do
@@ -47,7 +56,18 @@ for entry in $(echo "$json_string" | jq -c '.[]'); do
                     recordPrivateDnsList+=("$recordName2")
                 fi
                 
-            done <<< "$yaml_names"
+            done <<< "$yaml_cname_names"
+
+            while IFS= read -r entry; do
+                # Extract values from each A entry
+                recordName2=$(echo "$entry" | jq -r '.name')
+                syncPrivateDNS=$(echo "$entry" | jq -r '.syncPrivateDNS')
+                if [[ "$syncPrivateDNS" == "false" ]]; then
+                    echo "recordName2 $recordName2";
+                    recordPrivateDnsList+=("$recordName2")
+                fi
+
+            done <<< "$yaml_a_names"
     
     
     # Loop through public DNS records and create corresponding private DNS records if they don't exist
@@ -88,6 +108,51 @@ for entry in $(echo "$json_string" | jq -c '.[]'); do
                 echo "$recordName set NOT to sync with private dns zone" 
             else
                 echo "Record $recordName already exists in private zone. Skipping..."   
+            fi
+        fi
+    done
+
+    # Loop through public alias A records and create corresponding private DNS records if they don't exist
+    for record in $(echo "$publicAliasARecords" | jq -r '.[] | @base64'); do
+        _jq() {
+        echo ${record} | base64 --decode | jq -r ${1}
+        }
+        recordName=$(_jq '.Name')
+        recordTTL=$(_jq '.TTL')
+        aliasTargetResourceId=$(_jq '.AliasTargetResourceId')
+
+        # Some alias A records can return null TTL from Azure CLI list output.
+        # Fall back to YAML-defined TTL, then default to 300 if still not set.
+        if [[ -z "$recordTTL" || "$recordTTL" == "null" ]]; then
+            recordTTL=$(echo "$json_convert" | jq -r --arg n "$recordName" '.A // [] | map(select(.name == $n))[0].ttl // empty')
+        fi
+        if [[ -z "$recordTTL" || "$recordTTL" == "null" ]]; then
+            recordTTL=300
+            echo "WARN: TTL missing for alias A record $recordName. Defaulting to 300."
+        fi
+
+        ignore_record=false
+        echo $aliasTargetResourceId
+
+        for value in "${recordPrivateDnsList[@]}"
+        do
+            if [[ $recordName == $value ]]; then
+                    ignore_record=true
+            fi
+        done
+
+        if ! echo "$existingPrivateARecords" | grep -q "$recordName" && ! $ignore_record; then
+            # Create alias A record in private zone
+            if az network private-dns record-set a create -g $privateZoneResourceGroup -z $zoneName -n "$recordName" --target-resource "$aliasTargetResourceId" --ttl "$recordTTL" --subscription $privateZoneSubscription; then
+                echo "Created alias A record $recordName in private zone."
+            else
+                echo "Failed to create alias A record $recordName in private zone." >&2
+            fi
+        else
+            if $ignore_record; then
+                echo "$recordName set NOT to sync with private dns zone"
+            else
+                echo "Alias A record $recordName already exists in private zone. Skipping..."
             fi
         fi
     done
