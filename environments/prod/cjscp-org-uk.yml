@@ -455,27 +455,21 @@ cname:
   - name: s2._domainkey
     ttl: 600
     record: s2.domainkey.u10165397.wl148.sendgrid.net
-  - name: _dnsauth.amp.prp
+  - name: _dnsauth.apigw
     ttl: 600
-    record: _to1gl7i4cgpcsc8qqgaxng7suygpwgt.dcv.digicert.com.
-  - name: _dnsauth.www.amp.prp
+    record: _jxwxg0vhgax9ke5ojymbgzqohj6s4ii.dcv.digicert.com.
+  - name: _dnsauth.www.apigw
     ttl: 600
-    record: _to1gl7i4cgpcsc8qqgaxng7suygpwgt.dcv.digicert.com.
-  - name: _dnsauth.amp.dev
+    record: _jxwxg0vhgax9ke5ojymbgzqohj6s4ii.dcv.digicert.com.
+  - name: _dnsauth.api
     ttl: 600
-    record: _xt4w1khd3ntzk0bvfrj2vs9tfv0wyah.dcv.digicert.com.
-  - name: _dnsauth.www.amp.dev
+    record: _p112dbl1gbqpwpsjmnwikhxe5faiknx.dcv.digicert.com.
+  - name: _dnsauth.www.api
     ttl: 600
-    record: _xt4w1khd3ntzk0bvfrj2vs9tfv0wyah.dcv.digicert.com.
-  - name: _dnsauth.amp.sit
+    record: _p112dbl1gbqpwpsjmnwikhxe5faiknx.dcv.digicert.com.
+  - name: _dnsauth.prosecuting
     ttl: 600
-    record: _oyymkj6947obgm5i8w804e7v9ikh6ww.dcv.digicert.com.
-  - name: _dnsauth.www.amp.sit
+    record: _oo4tmfkz25pr0aabw6iukbefoa9j3hm.dcv.digicert.com.
+  - name: _dnsauth.www.prosecuting
     ttl: 600
-    record: _oyymkj6947obgm5i8w804e7v9ikh6ww.dcv.digicert.com.
-  - name: _dnsauth.amp.nft
-    ttl: 600
-    record: _mhyics4n77y7yovhm6mqchy0fpo8sul.dcv.digicert.com.
-  - name: _dnsauth.www.amp.nft
-    ttl: 600
-    record: _mhyics4n77y7yovhm6mqchy0fpo8sul.dcv.digicert.com.
+    record: _oo4tmfkz25pr0aabw6iukbefoa9j3hm.dcv.digicert.com.
