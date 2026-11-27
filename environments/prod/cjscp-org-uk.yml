@@ -254,6 +254,10 @@ A:
     ttl: 3600
     record:
       - 51.11.44.0
+  - name: ccp-marketplace.dev.nl
+    ttl: 3600
+    record:
+      - 51.11.44.0
   - name: prosecuting.dev03
     ttl: 3600
     record:
