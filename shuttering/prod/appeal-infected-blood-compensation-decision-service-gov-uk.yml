@@ -15,11 +15,30 @@ shutter_all_cname: false
 # If you shutter an A record and one of the records does not contain either of these values Terraform will fail.
 # - shutter_resource_id
 # - alias_target_resource_id
+
 A:
   - name: "@"
+    ttl: 60
+    alias_target_resource_id: "/subscriptions/5ca62022-6aa2-4cee-aaa7-e7536c8d566c/resourceGroups/lz-prod-rg/providers/Microsoft.Cdn/profiles/sdshmcts-prod/afdendpoints/sdshmcts-prod"
     shutter: false
 
+txt: []
+
+srv: []
 
 cname:
+  - name: "*"
+    platform: "cft"
+    ttl: 60
+    record: "appeal-infected-blood-compensation-decision.service.gov.uk"
+    shutter: false
   - name: "www"
+    platform: "cft"
+    ttl: 60
+    record: "hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
+    shutter: false
+  - name: "afdverify.www"
+    platform: "cft"
+    ttl: 300
+    record: "afdverify.hmcts-prod-hdgpbqdkafhmcse9.z01.azurefd.net"
     shutter: false
